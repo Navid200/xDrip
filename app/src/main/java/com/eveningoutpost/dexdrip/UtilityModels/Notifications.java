@@ -1034,7 +1034,6 @@ public class Notifications extends IntentService {
                         AlertPlayer.getPlayer().playFile(context, "alertType", (float) 0.8, true, otherAlertsOverrideSilent);
                     }
                 }
-                AlertPlayerInstead = false; // Reset back to default (Builder)
             }
             NotificationManager mNotifyMgr = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
             //mNotifyMgr.cancel(notificatioId);
