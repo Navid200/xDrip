@@ -1,8 +1,10 @@
 ## xDrip+ Support
 
-This is not an alternative to xDrip+. I support xDrip+ (xDrip).
+This is not an alternative to xDrip+. I support xDrip+ (xDrip).  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+You need the advice of a competent medical professional (endocrinologist) to control your diabetes. Neither xDrip nor this page provides that. There is no medical advice here.
+
+The instructions and guides here are based on my experience as a user, and someone who helps other users, of Dexcom G5 and G6 with xDrip. They are provided to help you use xDrip.
 
 ### Markdown
 
@@ -25,13 +27,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Navid200/xDrip/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
