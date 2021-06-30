@@ -1,6 +1,6 @@
-## GitHub Pages
+## xDrip+ Support
 
-You can use the [editor on GitHub](https://github.com/Navid200/xDrip/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is not an alternative to xDrip+. I support xDrip+ (xDrip).
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
