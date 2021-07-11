@@ -1,4 +1,4 @@
-// <meta name="google-site-verification" content="FOSHrNc_AYO9EiH37IFv45Wt5jA3LobiIy56DNQk-eQ" />
+<meta name="google-site-verification" content="FOSHrNc_AYO9EiH37IFv45Wt5jA3LobiIy56DNQk-eQ" />
 ## xDrip Support
 
 This is not an alternative to xDrip. I support xDrip.  
