@@ -204,10 +204,10 @@
     </string-array>
     
     <string-array name="ymax_entries">
-        <item>190 mg/dL or 10.6 mmol/L</item>
-        <item>210 mg/dL or 11.7 mmol/L</item>
-        <item>230 mg/dL or 12.8 mmol/L</item>
-        <item>250 mg/dL or 13.9 mmol/L</item>
+        <item>190 mg/dL (10.6 mmol/L)</item>
+        <item>210 mg/dL (11.7 mmol/L)</item>
+        <item>230 mg/dL (12.8 mmol/L)</item>
+        <item>250 mg/dL (13.9 mmol/L) ></item>
     </string-array>
     <string-array name="ymax_values">
         <item>190</item>
@@ -217,10 +217,10 @@
     </string-array>
 
     <string-array name="ymin_entries">
-        <item>40 mg/dL or 2.2 mmol/L</item>
-        <item>50 mg/dL or 2.8 mmol/L</item>
-        <item>60 mg/dL or 3.3 mmol/L</item>
-        <item>70 mg/dL or 3.9 mmol/L</item>
+        <item>40 mg/dL (2.2 mmol/L) ></item>
+        <item>50 mg/dL (2.8 mmol/L)</item>
+        <item>60 mg/dL (3.3 mmol/L)</item>
+        <item>70 mg/dL (3.9 mmol/L)</item>
     </string-array>
     <string-array name="ymin_values">
         <item>40</item>
