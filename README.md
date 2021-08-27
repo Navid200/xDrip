@@ -1,5 +1,6 @@
 # xDrip Support  
 
-
+This is not an alternative to xDrip+. I support xDrip+ (xDrip).  
+This is supposed to be complementary to the xDrip repository.  
 
 [test](test.md)
