@@ -6,7 +6,7 @@ You need the advice of a competent medical professional (endocrinologist) to con
 
 The instructions and guides here are based on my experience as a user, and someone who helps other users, of Dexcom G5 and G6 with xDrip. They are provided to help you use xDrip.  
 ![](https://github.com/Navid200/xDrip/blob/master/Documentation/images/xDinaction.png?raw=true)  
-
-</br>
-
+  
+<br/>  
+  
 [Where can I download xDrip?](_support/Download_xDrip.md)
