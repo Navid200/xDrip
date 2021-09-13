@@ -9,4 +9,4 @@ The instructions and guides here are based on my experience as a user, and someo
   
 <br/>  
   
-[Where can I download xDrip?](wiki/Download-xDrip)
+[Where can I download xDrip?](wiki/Download-xDrip.md)
