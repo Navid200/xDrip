@@ -9,4 +9,4 @@ The instructions and guides here are based on my experience as a user, and someo
   
 <br/>  
   
-[Where can I download xDrip?](wiki/Download-xDrip.md)
+[Where can I download xDrip?](https://raw.githubusercontent.com/wiki/Navid200/xDrip/Download-xDrip.md)
