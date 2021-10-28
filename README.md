@@ -11,4 +11,4 @@ The instructions and guides here are based on my experience as a user, and someo
   
 [Where can I download xDrip?](https://raw.githubusercontent.com/wiki/Navid200/xDrip/Download-xDrip)
 
-https://github.com/Navid200/xDrip/discussions
+[Discussions](https://github.com/Navid200/xDrip/discussions)
