@@ -8,6 +8,6 @@ The instructions and guides here are based on my experience as a user, and someo
   
 <br/>  
   
-[Where can I download xDrip?](./docs/Download-xDrip.md)
+[Where can I download xDrip?](./Download-xDrip.md)
 
 [Discussions](https://github.com/Navid200/xDrip/discussions)
