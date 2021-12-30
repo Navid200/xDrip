@@ -8,6 +8,6 @@ The instructions and guides here are provided to help you use xDrip.
   **Installation**  
 [Where can I download xDrip?](./Download-xDrip.md)  
 [xDrip version](./xDrip-Version.md)  
-[Update xDrip](./Update.md)  
+[Update xDrip](./Updates.md)  
 
 [Discussions](https://github.com/Navid200/xDrip/discussions)  
