@@ -9,5 +9,6 @@ The instructions and guides here are provided to help you use xDrip.
 [Where can I download xDrip?](./Download-xDrip.md)  
 [xDrip version](./xDrip-Version.md)  
 [Update xDrip](./Updates.md)  
+[Backup database](./Backup-Database.md)  
 
 [Discussions](https://github.com/Navid200/xDrip/discussions)  
