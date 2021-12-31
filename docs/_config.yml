@@ -1,4 +1,4 @@
-theme: jekyll-theme-tactile
+theme: jekyll-theme-leap-day
 plugins:
  - jekyll-relative-links
  - jekyll-remote-theme
