@@ -1,3 +1,4 @@
+theme: jekyll-theme-tactile
 plugins:
  - jekyll-relative-links
  - jekyll-remote-theme
