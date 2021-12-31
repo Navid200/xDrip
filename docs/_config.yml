@@ -1,3 +1,4 @@
 plugins:
+ - jekyll-paginate
+ - jekyll-sitemap
  - jekyll-relative-links
- - jekyll-remote-theme
