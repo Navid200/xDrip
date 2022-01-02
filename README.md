@@ -5,6 +5,6 @@ The instructions and guides here are provided to help you use xDrip.
   
 <br/>  
   
-[Where can I download xDrip?](./Download-xDrip.md)
+[Where can I download xDrip?](./docs/Download-xDrip.md)
 
 [Discussions](https://github.com/Navid200/xDrip/discussions)
