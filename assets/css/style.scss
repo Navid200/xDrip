@@ -2,4 +2,4 @@
 ---
 
 @import "{{ site.theme }}";
-@import "{./_includes/head-custom-theme-colors.html}";
+@import "{{ head-custom-theme-colors.html }}";
