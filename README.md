@@ -3,7 +3,6 @@ You need the advice of a competent medical professional (endocrinologist) to con
 The instructions and guides here are provided to help you use xDrip.  
 ![](./images/xDinaction.png)  
   
-<br/>  
   
   **Installation**  
 [Where can I download xDrip?](./docs/Download-xDrip.md)  
