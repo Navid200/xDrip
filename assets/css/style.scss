@@ -2,3 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
+
+.btn {
+    color: #0000ff;
+    border-color: #0000ff; 
+    // background-color: #008CBA;
+  }
