@@ -3,16 +3,18 @@
 
 @import ' jekyll-theme-midnight ';
 
-.btn {
-    color: #00ffff;
-    border-color: #00ffff; 
-    // background-color: #008CBA;
-  }
 
-.page-header {
-    background: #191c20;
-}
-
+#header {
+  z-index: 100;
+  left:0;
+  top: 0px;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  background: url(../images/nav-bg.gif) #353535;
+  border-bottom: 4px solid #434343;
+  box-shadow: 0px 1px 3px rgba(0,0,0,.25);
+    
 nav {
     max-width: 650px;
     margin: 0 auto;
@@ -76,3 +78,4 @@ nav {
       }
     }
   }
+}
