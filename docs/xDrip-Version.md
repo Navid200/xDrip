@@ -1,3 +1,5 @@
+## xDrip version  
+
 To see what version of xDrip you are currently running, look at the classic status page.  
 ![](./images/classic-status-pg.png)  
 The version is shown at the top of the page.  
