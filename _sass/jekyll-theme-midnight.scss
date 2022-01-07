@@ -172,10 +172,10 @@ dt {
 //    background: gray;
 //    margin: 6px auto;
 
- //   ul {
- //     list-style-type: none;
- //     margin: 0;
- //     padding: 0;
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
 
       li {
         font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -213,7 +213,6 @@ dt {
         &.fork {
           float: center;
           margin-left: 0px;
-          margin-top: 12px;
         }
 
         &.downloads {
@@ -228,7 +227,7 @@ dt {
         }
       }
  //   }
-//  }
+  }
 }
 
 section {
