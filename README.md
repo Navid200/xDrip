@@ -1,4 +1,4 @@
-## <p align="center">xDrip Support</p>  
+## xDrip Support  
   
   
   
