@@ -21,4 +21,4 @@ The instructions and guides here are provided to help you use xDrip.
 [Restore database](./docs/Restore-Database.md)  
 
 
-[Discussions](https://github.com/Navid200/xDrip/discussions)  
+[Discussions](https://github.com/NightscoutFoundation/xDrip/discussions)  
