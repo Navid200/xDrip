@@ -5,5 +5,5 @@ Then, when it is being charged, you can see your readings on screen even when th
 You need to set this in Android, not xDrip itself.  
 
 If you don't see xDrip as an option, as shown below, you need to tap on the current screen saver.  
-![](./docs/images/LockscreenNoxdrip.png)  
+![sd](./docs/images/LockscreenNoxdrip.png)  
 It should let you choose xDrip.  
