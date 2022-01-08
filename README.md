@@ -16,6 +16,6 @@ The instructions and guides here are provided to help you use xDrip.
 [Backup database](./docs/Backup-Database.md)  
 [Restore database](./docs/Restore-Database.md)  
 [Reinstall xDrip](./docs/Reinstall.md)  
-[Transfer to new phone](./New-Phone.md)  
+[Transfer to new phone](./docs/New-Phone.md)  
 
 [Discussions](https://github.com/NightscoutFoundation/xDrip/discussions)  
