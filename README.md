@@ -25,6 +25,7 @@ The instructions and guides here are provided to help you use xDrip.
 [Logs](./docs/Logs.md)  
 [Screensaver (lock screen)](./docs/Screensaver.md)  
 [Noise](./docs/Noise.md)  
+[Sensor expiry](./docs/Sensor-Expiry.md)  
 
 
 [Discussions](https://github.com/NightscoutFoundation/xDrip/discussions)  
