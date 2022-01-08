@@ -8,7 +8,7 @@ The instructions and guides here are provided to help you use xDrip.
 ![](./images/xDinaction.png)  
   
   
-  **Installation**  
+**Installation**  
   
 [Where can I download xDrip?](./docs/Download-xDrip.md)  
 [xDrip version](./docs/xDrip-Version.md)  
@@ -18,5 +18,8 @@ The instructions and guides here are provided to help you use xDrip.
 [Transfer to new phone](./docs/New-Phone.md)  
 [Reinstall xDrip](./docs/Reinstall.md)  
 [Multiple instances (variants)](./docs/Variants.md)  
+  
+**Requirements**  
+
 
 [Discussions](https://github.com/NightscoutFoundation/xDrip/discussions)  
