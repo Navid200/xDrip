@@ -22,7 +22,7 @@ The instructions and guides here are provided to help you use xDrip.
 [Do I need a phone plan?](./docs/Smartphone-Requirements.md)  
   
 **What/Where?**  
-[Logs](./Logs.md)  
+[Logs](./docs/Logs.md)  
 
 
 [Discussions](https://github.com/NightscoutFoundation/xDrip/discussions)  
