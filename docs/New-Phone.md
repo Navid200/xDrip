@@ -1,3 +1,5 @@
+## Transfer to a new phone  
+
 A better repository for your readings is [Nightscout](https://github.com/Navid200/xDrip/wiki/Nightscout).  Because it is independent of your phone, which you may replace or lose.  You can use Nightscout to access previous readings and perform statistical analyses and use them for creating reports.  
 But, if you like to have your previous readings on your new phone also, this is about how you should do it.  
   
