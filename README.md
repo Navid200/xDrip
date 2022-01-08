@@ -28,6 +28,7 @@ The instructions and guides here are provided to help you use xDrip.
 [Sensor expiry](./docs/Sensor-Expiry.md)  
   
   **Alerts**  
+  [Ascending volume profile](./docs/Ascending-volume-profile.md)  
   
 
 
