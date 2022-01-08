@@ -1,3 +1,5 @@
+## Logs
+
 To view the logs, tap on the top right menu button (3 dots) and choose "View Events Log".  
 
 At the top, you can choose different categories of logs to be shown.  Please enable all if sharing logs with someone trying to help you troubleshoot.  
