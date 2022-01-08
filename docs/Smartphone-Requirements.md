@@ -1,3 +1,5 @@
+## Smartphone requirements  
+
 **Android**    
 You can use any Android phone that has Android 4.4 or above.  xDrip does not run on iOS.  
 
