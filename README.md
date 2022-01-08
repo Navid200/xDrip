@@ -24,6 +24,7 @@ The instructions and guides here are provided to help you use xDrip.
 **What/Where?**  
 [Logs](./docs/Logs.md)  
 [Screensaver (lock screen)](./docs/Screensaver.md)  
+[Noise](./docs/Noise.md)  
 
 
 [Discussions](https://github.com/NightscoutFoundation/xDrip/discussions)  
