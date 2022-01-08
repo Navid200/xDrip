@@ -20,5 +20,8 @@ The instructions and guides here are provided to help you use xDrip.
   
 **Requirements**  
 [Do I need a phone plan?](./docs/Smartphone-Requirements.md)  
+  
+**What/Where?**  
+
 
 [Discussions](https://github.com/NightscoutFoundation/xDrip/discussions)  
