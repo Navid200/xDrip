@@ -27,6 +27,7 @@ The instructions and guides here are provided to help you use xDrip.
 [Noise](./docs/Noise.md)  
 [Sensor expiry](./docs/Sensor-Expiry.md)  
 [Engineering mode](./docs/Engineering-Mode.md)  
+[Stop xDrip - disable collection](./docs/Stop-xDrip.md)  
   
 ### Alerts  
 [Ascending volume profile - alert too loud - quiet](./docs/Ascending-volume-profile.md)  
