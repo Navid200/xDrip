@@ -13,7 +13,7 @@ To confirm that the update succeeded, go to classic status page and check the fi
 
 
 
-To use the auto update check, make sure you are on the update channel you desire first.  Go to Settings - &#0150; &#0151; &#8722;  > xDrip+ Update Settings.  
+To use the auto update check, make sure you are on the update channel you desire first.  Go to Settings &#8722;> xDrip+ Update Settings.  
 ![](./images/auto_update.png)  
 
 Enable Automatic update check.  Under update channel, choose the channel you want.  Stable has been tested the most.  Nightly has been released the latest and tested the least.  Those are the two extremes.  
