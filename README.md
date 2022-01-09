@@ -29,7 +29,7 @@ The instructions and guides here are provided to help you use xDrip.
 [Engineering mode](./docs/Engineering-Mode.md)  
   
 ### Alerts  
-[Ascending volume profile](./docs/Ascending-volume-profile.md)  
+[Ascending volume profile - alert too loud - quiet](./docs/Ascending-volume-profile.md)  
   
 
 
