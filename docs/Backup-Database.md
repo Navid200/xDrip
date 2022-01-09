@@ -4,5 +4,5 @@ Do you need to uninstall xDrip?  If yes, you should backup the database and sett
 
 To backup, from the top right menu button on the main screen, tap on Import /Export features -> Export database  
 This will execute two tasks:  
-1- Saves the database to Internal storage -> xdrip -> export********-******.zip  
-2- Saves settings to Internal storage -> Download -> xDrip-export
+1- Saves the database to Internal storage &#8722;> xdrip &#8722;> export********-******.zip  
+2- Saves settings to Internal storage &#8722;> Download &#8722;> xDrip-export
