@@ -26,6 +26,7 @@ The instructions and guides here are provided to help you use xDrip.
 [Screensaver (lock screen)](./docs/Screensaver.md)  
 [Noise](./docs/Noise.md)  
 [Sensor expiry](./docs/Sensor-Expiry.md)  
+[Engineering mode](./docs/Engineering-Mode.md)  
   
 ### Alerts  
 [Ascending volume profile](./docs/Ascending-volume-profile.md)  
