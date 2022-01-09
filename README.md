@@ -18,17 +18,17 @@ The instructions and guides here are provided to help you use xDrip.
 [Reinstall xDrip](./docs/Reinstall.md)  
 [Multiple instances (variants)](./docs/Variants.md)  
   
-**Requirements**  
+### Requirements  
 [Do I need a phone plan?](./docs/Smartphone-Requirements.md)  
   
-**What/Where?**  
+### What/Where?  
 [Logs](./docs/Logs.md)  
 [Screensaver (lock screen)](./docs/Screensaver.md)  
 [Noise](./docs/Noise.md)  
 [Sensor expiry](./docs/Sensor-Expiry.md)  
   
-  **Alerts**  
-  [Ascending volume profile](./docs/Ascending-volume-profile.md)  
+### Alerts  
+[Ascending volume profile](./docs/Ascending-volume-profile.md)  
   
 
 
