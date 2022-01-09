@@ -4,7 +4,7 @@ Try the ascending volume profile if you haven't already.
 When the alarm triggers, it starts silent or at low volume depending on the setting.  Then, the alarm plays multiple times with 1-minute gaps in between.  Every time it plays, the volume increases a little bit.  Eventually, it plays it at the max. volume.  
   
 To enable it, go to  
-Settings -> Alarms and Alerts -> Glucose Alert Settings -> Alert Volume Profile,  
+Settings &#8722;> Alarms and Alerts &#8722;> Glucose Alert Settings &#8722;> Alert Volume Profile,  
 and choose "Ascending Volume Profile".  
 
 If you cannot hear your alarm when you are in a noisy environment, this can solve the problem because it will eventually play the alarm at the very high volume.  
