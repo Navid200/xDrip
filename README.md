@@ -35,6 +35,7 @@ The instructions and guides here are provided to help you use xDrip.
 ### Dexcom  
 [Dexcom basics](./docs/Dexcom-Basics.md)  
 [Native algorithm - mode](./docs/Native-Algorithm.md)  
+[Hard reset](./docs/Hard-Reset.md)  
 
 
 [Discussions](https://github.com/NightscoutFoundation/xDrip/discussions)  
