@@ -6,4 +6,4 @@ If you need help using xDrip, please include what you use xDrip for.  If you use
 If you use it as a follower, explain which follower scheme (Nightscout, xDrip sync, Dex share, ...) you use.  
 
 ### Feedback  
-If you find an item on this site that is not explained clearly, or if you like an item that is not included to be added, please post and explain.  
+If you find an item on this site that is not explained clearly, or if you like an item to be added, or if you have found erros, please post and explain.  Please include a link to the page to clarify which page you are talking about.  
