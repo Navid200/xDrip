@@ -4,8 +4,8 @@
 
 * You should use an xDrip [version](./xDrip-Version.md) not older than the current stable release.  Please [update](./Updates.md) if you are not.  
 
-* [Settings &#8722;> G5/G6 Debug Settings](./images/g5-recommended-settings.png)  
-Enable [Native Algorithm](./Native-Algorithm.md) only if you have to.  If you don't know what it is, leave it disabled.  
+* [Settings &#8722;> G5/G6 Debug Settings](./images/g6-recommended-settings.png)  
+Enable all recommended settings even if you see "G5" in the description.     
 
 * [Settings &#8722;> Less common settings &#8722;> Other misc options](./images/other-misc-recommended.png)  
 Enable Samsung workarounds even if your phone is not Samsung.  
