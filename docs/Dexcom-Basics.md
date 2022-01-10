@@ -63,7 +63,7 @@ The G5/G6 Status Page contains important parameters including transmitter ID, ti
 <br/>
 
 ### Connectivity
-xDrip will not work if there is no [proper connectivity](https://github.com/Navid200/xDrip/wiki/Proper-Connectivity).  
+xDrip will not work if there is no [proper connectivity](./Proper-connectivity.md).  
 
 If there is no proper connectivity, you should not start a sensor. Neither should you attempt to perform a hard reset, calibrate, or stop sensor. You need to first solve the connectivity issue. Most likely, your xDrip settings are incorrect.  
 <br/>
