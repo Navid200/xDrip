@@ -4,13 +4,13 @@
 
 * You should use an xDrip [version](./xDrip-Version.md) not older than the current stable release.  Please [update](./Updates.md) if you are not.  
 
-* [Settings &#8722;> G5/G6 Debug Settings](./images/g5-recommended-settings.png)  
+* Settings &#8722;> [G5/G6 Debug Settings](./images/g5-recommended-settings.png)  
 Enable [Native Algorithm](./Native-Algorithm.md) only if you have to.  If you don't know what it is, leave it disabled.  
 
-* [Settings &#8722;> Less common settings &#8722;> Other misc options](./images/other-misc-recommended.png)  
+* Settings &#8722;> Less common settings &#8722;> [Other misc options](./images/other-misc-recommended.png)  
 Enable Samsung workarounds even if your phone is not Samsung.  
 
-* [Settings &#8722;> Less common settings &#8722;> Bluetooth Settings](./images/ble-recommended-stngs.png)  
+* Settings &#8722;> Less common settings &#8722;> [Bluetooth Settings](./images/ble-recommended-stngs.png)  
 
 * Use Android Settings to sync its time with the network as explained in "[Basics](./Dexcom-Basics.md)".  
 
