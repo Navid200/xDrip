@@ -32,7 +32,7 @@ The instructions and guides here are provided to help you use xDrip.
 ### Alerts  
 [Ascending volume profile - alert too loud - quiet](./docs/Ascending-volume-profile.md)  
   
-## Dexcom  
+### Dexcom  
 [Dexcom basics](./docs/Dexcom-Basics)  
 
 
