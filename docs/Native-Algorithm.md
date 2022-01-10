@@ -13,7 +13,7 @@ A G6 can only be used in non-native mode (only 80XXXX or 81XXXX) in [engineering
 |  :--------------:            | :----: |   :----:   |-------|  
 |Activate                      |Select  |Deselect     |Settings -> G5/G6 Debug Settings <br/> -> Native Algorithm
 |    Backfill                  | Yes    |  No        |Last 3 hours |  
-|Sensors keep going            |No      | Yes        |In native mode, only [./Preemptive-Restart.md) <br/> will keep the sensor going. |  
+|Sensors keep going            |No      | Yes        |In native mode, only [preemptive restart](./Preemptive-Restart.md) <br/> will keep the sensor going. |  
 |G6 factory calibration        |Yes     |No          |  
 |Transmitter stops after <br/> 110 days (112 for G5) | Yes | No |Transmitter [hard reset](https://github.com/Navid200/xDrip/wiki/Hard-Reset-a-Dexcom-Transmitter) will reset the <br/> number of days to 0. |  
 | Relevant Calibration Graph | No | Yes | * |  
