@@ -11,7 +11,7 @@ If the battery voltage is low, you will need to replace the battery. Hard resett
 
 If you want to hard reset, do it when you don't have an active session. For example, when you stop a sensor before starting the next one.  
 
-Before you can hard reset a transmitter using xDrip, you need to have [proper connectivity](./Proper-Connectivity.md) to it.  
+Before you can hard reset a transmitter using xDrip, you need to have [proper connectivity](./Proper-connectivity.md) to it.  
 You should also disable the Dexcom app as you cannot link to the same transmitter at the same time with both xDrip and the Dexcom app.  
 
 Tap on the treatment (syringe) symbol on the main screen.  
