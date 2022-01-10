@@ -2,7 +2,7 @@
 Please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions) or [facebook](https://www.facebook.com/groups/xDripG5).  
   
 ### Help  
-If you need help using xDrip, please include what you use xDrip for.  If you use it as a collector, explain whihc CGM and which transmitter you use.  
+If you need help using xDrip, please include what you use xDrip for.  If you use it as a collector, explain which CGM and which transmitter you use.  
 If you use it as a follower, explain which follower scheme (Nightscout, xDrip sync, Dex share, ...) you use.  
 
 ### Feedback  
