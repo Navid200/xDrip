@@ -12,7 +12,7 @@ Enable Samsung workarounds even if your phone is not Samsung.
 
 * [Settings &#8722;> Less common settings &#8722;> Bluetooth Settings](./images/ble-recommended-stngs.png)  
 
-* Use Android Settings to [sync](https://github.com/Navid200/xDrip/wiki/Basics#phone-time-accuracy) its time with the network.  
+* Use Android Settings to sync its time with the network as explained in "[Basics](./Dexcom-Basics.md)".  
 
 * Disable battery optimization as explained in "[Basics](./Dexcom-Basics.md)".  
 
