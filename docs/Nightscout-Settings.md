@@ -1,6 +1,6 @@
 ## Nightscout Settings  
   
-To enable Nightscout uploader, go to the following page first.  
+To enable Nightscout uploader (master), go to the following page.  
 Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API)  
 
 At the top of the page, enable the function.  
