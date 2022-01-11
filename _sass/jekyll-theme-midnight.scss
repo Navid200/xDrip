@@ -231,6 +231,14 @@ dt {
      //     border-radius: 1px;
     //      box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 1px rgba(0,0,0,.7);
           box-shadow: inset 0px 1px 0px rgba(0,0,0,.7);
+          
+          background-color: #313131;
+          padding: 4px 6px;
+          line-height:14px;
+          font-size:14px;
+          display:inline-block;
+          text-align:center;
+          
         }
 
         &.fork {
