@@ -50,4 +50,5 @@ The instructions and guides here are provided to help you use xDrip.
 [G6 recommended settings](./docs/G6-Recommended-Settings.md)  
 [Native algorithm - mode](./docs/Native-Algorithm.md)  
 [Hard reset](./docs/Hard-Reset.md)  
+[Proper Connectivity](./docs/Proper-connectivity.md)  
 
