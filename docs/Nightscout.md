@@ -12,4 +12,4 @@ To set up Nightscout, you need to do a little bit of work.  There are detail ins
 Give yourself some time to complete everything.  It's not something you can do in just 5 minutes.  
 If you run into trouble, you can ask for help in the [facebook group](https://www.facebook.com/groups/cgminthecloud).  
 
-If you have Nightscout already set up, how to set up xDrip as an uploader (master) is explained [here](./docs/Nightscout-Settings.md).  
+If you have Nightscout already set up, how to set up xDrip as an uploader (master) is explained [here](./Nightscout-Settings.md).  
