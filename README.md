@@ -36,6 +36,9 @@ The instructions and guides here are provided to help you use xDrip.
 [Custom Alert Sound](./docs/Custom-Alert-Sound.md)  
 [Alert re-raise malfunction](./docs/Alert-re‐raise-malfunction.md)  
   
+### Follow  
+
+
 ### Dexcom  
 [Dexcom basics](./docs/Dexcom-Basics.md)  
 [G5 recommended settings](./docs/G5-Recommended-Settings.md)  
