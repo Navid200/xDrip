@@ -23,11 +23,11 @@ On both master and follower ensure that Settings &#8722;> xDrip+ Sync Settings &
 <br/>
 
 #### 2. Nightscout Follower  
-This requires Nightscout to be [set up](https://github.com/Navid200/xDrip/wiki/Nightscout) for the master.  
-After a Nightscout account has been created and set up, enter the required [settings](https://github.com/Navid200/xDrip/wiki/Nightscout-Settings) so that the master starts uploading to Nightscout.  
+This requires Nightscout to be [set up](./Nightscout.md).  
+After a Nightscout account has been created and set up, enter the required [settings](./Nightscout-Settings.md) so that the master starts uploading to Nightscout.  
 
 On the follower, tap on Settings &#8722;> Hardware Data Source &#8722;> Nightscout Follower.  
-Tap on Settings &#8722;> Nightscout Follow URL, and enter https://userID.herokuapp.com, where userID is the master Nightscout user ID.  
+Tap on Settings &#8722;> Nightscout Follow URL, and enter https<nolink>://userID.herokuapp.com, where userID is the master Nightscout user ID.  
 <br/>
 
 #### 3. Dex Share Follower
