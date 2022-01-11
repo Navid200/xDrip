@@ -1,0 +1,38 @@
+## How to follow  
+  
+There are several options for following someone's readings.  
+<br/>
+
+#### 1. xDrip Sync Follower  
+This is easy to set up.  But, it relies on Google.  
+On master, go to Settings &#8722;> xDrip+ Sync settings, and tap on "Be master for followers".  
+Disable "Allow follower actions".  Otherwise, the follower will be able to stop the sensor on master.  
+Ensure "Disable all sync features", at the bottom of the page, is disabled.  
+Tap on Settings &#8722;> Show Settings QR codes.  
+Tap on xDrip plus security key settings only.  
+
+On the follower, tap on Settings -> Auto configure.  
+Scan the QR code shown on the master screen.  This will change all the settings, on the follower, to follow the master.  
+Ensure Settings &#8722;> xDrip+ Sync settings &#8722;> Disable all sync features is disabled.  
+
+In some cases, the scan does not work.  You can manually set up the follower:  
+Under Settings &#8722;> Hardware Data Source, select xDrip+ Sync Follower.  
+Then, go to Settings &#8722;> xDrip+ Sync Settings and tap on "Handset Group Security Sync Key".  Make sure the key matches the key on the same page on the master.  
+
+On both master and follower ensure that Settings &#8722;> xDrip+ Sync Settings &#8722;> Disable all sync features is disabled.
+<br/>
+
+#### 2. Nightscout Follower  
+This requires Nightscout to be [set up](https://github.com/Navid200/xDrip/wiki/Nightscout) for the master.  
+After a Nightscout account has been created and set up, enter the required [settings](https://github.com/Navid200/xDrip/wiki/Nightscout-Settings) so that the master starts uploading to Nightscout.  
+
+On the follower, tap on Settings &#8722;> Hardware Data Source &#8722;> Nightscout Follower.  
+Tap on Settings &#8722;> Nightscout Follow URL, and enter https://userID.herokuapp.com, where userID is the master Nightscout user ID.  
+<br/>
+
+#### 3. Dex Share Follower
+This is an option if the master must be a Dexcom app, for example, if the master is an iPhone.  
+
+On the follower, tap on Settings &#8722;> Hardware Data Source &#8722;> Dex Share Follower.  
+Tap on Settings &#8722;> Share Username, to enter username.  
+Tap on Settings &#8722;> Share Password, to enter the Dex share password.  
