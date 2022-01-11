@@ -34,6 +34,7 @@ The instructions and guides here are provided to help you use xDrip.
 [Snooze](./docs/Snooze.md)  
 [Force speaker - alert raises music volume](./docs/Force-Speaker.md)  
 [Custom Alert Sound](./docs/Custom-Alert-Sound.md)  
+[Alert re-raise malfunction](./docs/Alert-re-raise-malfunction.md)  
   
 ### Dexcom  
 [Dexcom basics](./docs/Dexcom-Basics.md)  
