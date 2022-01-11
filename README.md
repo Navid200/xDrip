@@ -33,6 +33,7 @@ The instructions and guides here are provided to help you use xDrip.
 [Ascending volume profile - alert too loud - quiet](./docs/Ascending-volume-profile.md)  
 [Snooze](./docs/Snooze.md)  
 [Force speaker - alert raises music volume](./docs/Force-Speaker.md)  
+[Custom Alert Sound](./docs/Custom-Alert-Sound.md)  
   
 ### Dexcom  
 [Dexcom basics](./docs/Dexcom-Basics.md)  
