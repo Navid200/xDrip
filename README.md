@@ -37,6 +37,7 @@ The instructions and guides here are provided to help you use xDrip.
 [Alert re-raise malfunction](./docs/Alert-re‐raise-malfunction.md)  
   
 ### Nightscout  
+[Nightscout Settings](./docs/Nightscout-Settings.md)  
 
   
 ### Follow  
