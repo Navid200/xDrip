@@ -1,4 +1,4 @@
-## Ascending volume profile  
+## Ascending Volume Profile  
 
 Try the ascending volume profile if you haven't already.  
 When the alarm triggers, it starts silent or at low volume depending on the setting.  Then, the alarm plays multiple times with 1-minute gaps in between.  Every time it plays, the volume increases a little bit.  Eventually, it plays it at the max. volume.  
