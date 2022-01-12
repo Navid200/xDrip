@@ -12,7 +12,6 @@ If you cannot hear your alarm when you are in a noisy environment, this can solv
 If your alarm wakes up or annoys others around you, this can solve the problem because it starts playing at a very low volume and you can snooze it before the volume increases.  You will have several minutes before the volume is raised to maximum.  
 
 <br/>  
-<br/>  
 
 The following table summarizes the behavior of the ascending volume profile based on the settings.  The "Delay Ascending Volume" setting is only available if you are using the xDrip release of December 1, 2021 or after.  If not, it's like the setting is always enabled.  
 
