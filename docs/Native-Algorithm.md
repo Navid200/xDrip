@@ -10,7 +10,7 @@ A G6 can only be used in non-native mode (only 80XXXX or 81XXXX) in [engineering
  
 
 | Behavior | Native | Non-Native | Notes |
-|  :--------------:            | :----: |   :----:   |-------|  
+|  :--------------:            | :----: |   :----:   |  :--:  |  
 |Activate                      |Select  |Deselect     |Settings &#8722;> G5/G6 Debug Settings <br/> &#8722;> Native Algorithm
 |    Backfill                  | Yes    |  No        |Last 3 hours |  
 |Sensors keep going            |No      | Yes        |In native mode, only [preemptive restart](./Preemptive-Restart.md) <br/> will keep the sensor going. |  
