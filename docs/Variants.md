@@ -4,5 +4,5 @@ You cannot install xDrip multiple times on the same phone.  But, xDrip variants 
   
 You can use each instance to follow a different person.   
   
-You can download nightly variants here: https://drive.google.com/drive/folders/0B6mvYVNVC-fOWkxnVF80dlFabjQ?resourcekey=0-ebguuiPuB1wUI9Rp2zjMNg  
+You can download nightly variants [here](https://drive.google.com/drive/folders/0B6mvYVNVC-fOWkxnVF80dlFabjQ?resourcekey=0-ebguuiPuB1wUI9Rp2zjMNg)  
 View as list &#8722;> sort by last modified  
