@@ -19,7 +19,9 @@ The instructions and guides here are provided to help you use xDrip.
 [Reinstall xDrip](./docs/Reinstall.md)  
 [Multiple instances (variants)](./docs/Variants.md)  
   
-### Requirements  
+<br/>    
+  
+### Requirements  ![](./docs/images/Requirements.png)  
 [No medical decisions](./docs/Medical.md)  
 [Phone plan](./docs/Smartphone-Requirements.md)  
 [Android](./docs/Android.md)  
