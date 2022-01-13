@@ -20,7 +20,7 @@ The instructions and guides here are provided to help you use xDrip.
   
 ### Requirements  
 [Do I need a phone plan?](./docs/Smartphone-Requirements.md)  
-[Android](./Android.md)  
+[Android](./docs/Android.md)  
   
 ### What/Where?  
 [Logs](./docs/Logs.md)  
