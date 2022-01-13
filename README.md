@@ -8,7 +8,7 @@ The instructions and guides here are provided to help you use xDrip.
 ![](./docs/images/xDinaction.png)  
   
   
-### Installation  
+### Installation  ![](./docs/images/Install.png)
 [Where can I download xDrip?](./docs/Download-xDrip.md)  
 [xDrip version](./docs/xDrip-Version.md)  
 [Update xDrip](./docs/Updates.md)  
