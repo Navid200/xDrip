@@ -1,8 +1,5 @@
 ## Smartphone requirements  
-
-**Android**    
-You can use any Android phone that has Android 4.4 or above.  xDrip does not run on iOS.  
-
+  
 **Cell service**    
 You don't need cell service on the phone in order to use xDrip as a collector.  The connection to the transmitter is established through Bluetooth.  
 But, if you want to use xDrip as a follower, then, you need either data or WiFi.  
