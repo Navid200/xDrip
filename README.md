@@ -19,7 +19,8 @@ The instructions and guides here are provided to help you use xDrip.
 [Multiple instances (variants)](./docs/Variants.md)  
   
 ### Requirements  
-[Do I need a phone plan?](./docs/Smartphone-Requirements.md)  
+[No medical decisions](./docs/Medical.md)  
+[Phone plan](./docs/Smartphone-Requirements.md)  
 [Android](./docs/Android.md)  
   
 ### What/Where?  
