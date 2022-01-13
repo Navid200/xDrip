@@ -20,4 +20,4 @@ A G6 can only be used in non-native mode (only 80XXXX or 81XXXX) in [engineering
 |Clear calibrations| No | Yes | * |  
 
 
-\* In native mode, calibration is done by the transmitter.  If you see a calibration graph, it is because the transmitter sends raw values also.  But, the graph does not represent the calibration formula.  Clearing calibrations in native mode will have no impact on the calibration formula.   
+\* In native mode, calibration is done by the transmitter.  If you see a calibration graph, it is because the transmitter sends raw values also.  But, the graph does not represent the calibration formula.  Clearing calibrations in native mode will have no impact on the effective calibration formula.   
