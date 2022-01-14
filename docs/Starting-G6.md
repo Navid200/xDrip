@@ -30,7 +30,7 @@ If there is bleeding, after inserting the new sensor, use Q-tips to absorb the b
 7.  Clean the transmitter contacts (not if you are restarting sensor) using rubbing alcohol.  Wait for it (10 seconds) to dry.  Snap the transmitter into the sensor.  
 
 8.  Monitor the G5/G6 system status page. Every 5 minutes, a read cycle completes.  
-If you don't have [proper connectivity](./Proper-Connectivity.md), don't proceed before figuring out why. Perhaps, your settings are incorrect.  
+If you don't have [proper connectivity](./Proper-connectivity.md), don't proceed before figuring out why. Perhaps, your settings are incorrect.  
 If you are starting a new transmitter, be patient and wait for the battery voltages to be populated before you proceed.  It may take up to half an hour.    
 
 9.   Only after establishing proper connectivity, only if you have waited for the queue to clear, and only after the voltages are showing on the system status page, should you start sensor.  For example, if you have stopped (previous) sensor, wait until you see "Stopped" on the G5/G6 status page.  
