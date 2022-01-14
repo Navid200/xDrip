@@ -26,7 +26,9 @@ The instructions and guides here are provided to help you use xDrip.
 [Phone plan](./docs/Smartphone-Requirements.md)  
 [Android](./docs/Android.md)  
   
-### What/Where?  
+<br/>  
+  
+### What/Where?  ![](./docs/images/Directions.png)  
 [Logs](./docs/Logs.md)  
 [Screensaver (lock screen)](./docs/Screensaver.md)  
 [Noise](./docs/Noise.md)  
