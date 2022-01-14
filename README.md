@@ -73,4 +73,5 @@ The instructions and guides here are provided to help you use xDrip.
 [Proper Connectivity](./docs/Proper-connectivity.md)  
 [Transmitter Queue](./docs/Transmitter-Queue.md)  
 [Clear the queue](./docs/Clear-queue.md)  
+[Dexcom One](./docs/Dexcom-One.md)  
 
