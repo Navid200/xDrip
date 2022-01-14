@@ -19,7 +19,6 @@ The instructions and guides here are provided to help you use xDrip.
 [Reinstall xDrip](./docs/Reinstall.md)  
 [Multiple instances (variants)](./docs/Variants.md)  
   
-<br/>    
   
 ### Requirements  ![](./docs/images/Requirements.png)  
 [No medical decisions](./docs/Medical.md)  
