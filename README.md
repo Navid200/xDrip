@@ -56,6 +56,9 @@ The instructions and guides here are provided to help you use xDrip.
 [Dexcom share not working](./docs/Dexcom-share-delta-format-change.md)  
 [Follow multiple people](./docs/Variants.md)  
   
+    
+### Is this a bug?  ![](./docs/images/Inspector.png)  
+  
   
 ### Dexcom  
 [Dexcom basics](./docs/Dexcom-Basics.md)  
