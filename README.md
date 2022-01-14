@@ -59,6 +59,7 @@ The instructions and guides here are provided to help you use xDrip.
     
 ### Is this a bug?  ![](./docs/images/Inspector.png)  
 [Bluetooth headphone interruption](./docs/Bluetooth-headphone-interruption.md)  
+[Custom sound/alarm grayed out](Custom-sound-grayed-out.md)  
   
   
 ### Dexcom  
