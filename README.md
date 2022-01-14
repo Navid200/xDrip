@@ -43,7 +43,9 @@ The instructions and guides here are provided to help you use xDrip.
 [Custom Alert Sound](./docs/Custom-Alert-Sound.md)  
 [Alert re-raise malfunction](./docs/Alert-re‐raise-malfunction.md)  
   
-### Nightscout  
+<br/>
+  
+### Nightscout  ![](./docs/images/Safe.png)
 [Nightscout](./docs/Nightscout.md)  
 [Nightscout Settings](./docs/Nightscout-Settings.md)  
   
