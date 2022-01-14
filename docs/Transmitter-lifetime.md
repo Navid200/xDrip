@@ -6,7 +6,7 @@ You can also hard reset a G6 if its firmware is 1.6.5.25 or before.  That includ
 
 You cannot hard reset the other G6 transmitters.  So, only start the counter if you intend to use the transmitter.  The counter starts counting as soon as xDrip connects to the transmitter.  
 
-The last day you can start (or restart) a sensor on a transmitter in [native mode](https://github.com/Navid200/xDrip/wiki/Native-Algorithm) is when the system status page shows 99 (105 for G5) for "Transmitter Days".  
+The last day you can start (or restart) a sensor on a transmitter in [native mode](./Native-Algorithm.md) is when the system status page shows 99 (105 for G5) for "Transmitter Days".  
 After you successfully start a sensor, it will work for 10 days (7 days for G5).  
 
 Hard resetting a transmitter does nothing to the battery.  If the battery is dying, you will need to replace the battery.  
