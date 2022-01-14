@@ -44,9 +44,10 @@ The instructions and guides here are provided to help you use xDrip.
 ### Nightscout  
 [Nightscout](./docs/Nightscout.md)  
 [Nightscout Settings](./docs/Nightscout-Settings.md)  
-
   
-### Follow  
+<br/>  
+
+### Follow  ![](./docs/images/Follow.png)  
 [How to follow](./docs/How-to-follow.md)  
 
 ### Dexcom  
