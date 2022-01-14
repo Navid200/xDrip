@@ -70,5 +70,5 @@ The instructions and guides here are provided to help you use xDrip.
 [Native algorithm - mode](./docs/Native-Algorithm.md)  
 [Hard reset](./docs/Hard-Reset.md)  
 [Proper Connectivity](./docs/Proper-connectivity.md)  
-[Transmitter Queue](./images/tx-queue.png)  
+[Transmitter Queue](./docs/Transmitter-Queue.md)  
 
