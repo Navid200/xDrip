@@ -36,6 +36,7 @@ The instructions and guides here are provided to help you use xDrip.
 [Engineering mode](./docs/Engineering-Mode.md)  
 [Stop xDrip - disable collection](./docs/Stop-xDrip.md)  
 [Calibration - when](./docs/Calibration)  
+[Simple Report](./docs/Report.md)  
   
 <br/>  
   
