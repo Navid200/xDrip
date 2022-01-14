@@ -34,7 +34,9 @@ The instructions and guides here are provided to help you use xDrip.
 [Engineering mode](./docs/Engineering-Mode.md)  
 [Stop xDrip - disable collection](./docs/Stop-xDrip.md)  
   
-### Alerts  
+<br/>  
+  
+### Alerts  ![](./docs/images/Alert.png)  
 [Ascending volume profile - alert too loud - quiet](./docs/Ascending-volume-profile.md)  
 [Snooze](./docs/Snooze.md)  
 [Force speaker - alert raises music volume](./docs/Force-Speaker.md)  
