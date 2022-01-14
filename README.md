@@ -56,6 +56,7 @@ The instructions and guides here are provided to help you use xDrip.
 
 ### Follow  ![](./docs/images/Follow.png)  
 [How to follow](./docs/How-to-follow.md)  
+[xDrip sync not working](./docs/xDrip-Sync-not-working.md)  
 
 ### Dexcom  
 [Dexcom basics](./docs/Dexcom-Basics.md)  
