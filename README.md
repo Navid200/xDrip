@@ -67,6 +67,7 @@ The instructions and guides here are provided to help you use xDrip.
 [Dexcom basics](./docs/Dexcom-Basics.md)  
 [G5 recommended settings](./docs/G5-Recommended-Settings.md)  
 [G6 recommended settings](./docs/G6-Recommended-Settings.md)  
+[Start G6](./docs/Starting-G6.md)  
 [Native algorithm - mode](./docs/Native-Algorithm.md)  
 [Hard reset](./docs/Hard-Reset.md)  
 [Proper Connectivity](./docs/Proper-connectivity.md)  
