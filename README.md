@@ -74,4 +74,5 @@ The instructions and guides here are provided to help you use xDrip.
 [Transmitter Queue](./docs/Transmitter-Queue.md)  
 [Clear the queue](./docs/Clear-queue.md)  
 [Dexcom One](./docs/Dexcom-One.md)  
+[Transmitter Lifetime](./docs/Transmitter-lifetime.md)  
 
