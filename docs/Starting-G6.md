@@ -3,7 +3,7 @@
 The most important thing is to be patient and not rush to tap on "Start Sensor" even if xDrip encourages you to.  
 A common mistake is to replace an old transmitter with a new one, stop sensor, change transmitter ID, and start sensor right away. This could result in the new transmitter never receiving the start command at the right time. The outcome is no readings after the 2-hour warm-up.  
 
-Have a look at [this](./Basics.md) basic information about using xDrip to control Dexcom if you haven't already.  
+Have a look at [this](./Dexcom-Basics.md) basic information about using xDrip to control Dexcom if you haven't already.  
 
 Never soak (insert sensor a while before starting it) a G6 sensor. The main advantage of G6 over G5 is factory calibration. You will be interfering with factory calibration (accuracy) the longer it takes from the moment you insert the sensor to the moment you start the sensor in xDrip.  
 
