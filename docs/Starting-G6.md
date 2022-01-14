@@ -17,7 +17,7 @@ If you are coming from G5, or another CGM, you need to get used to factory calib
 
 3. Is there a "Start G6 Sensor" stuck in the queue on the G5/G6 status page?
 ![](./images/queue-stuck.png)  
-If yes, [clear the queue](./Clear-Queue.md).  
+If yes, [clear the queue](./Clear-queue.md).  
 
 4.  Adjust xDrip [settings](./G6-Recommended-Settings.md).  
 
