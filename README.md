@@ -25,7 +25,6 @@ The instructions and guides here are provided to help you use xDrip.
 [Phone plan](./docs/Smartphone-Requirements.md)  
 [Android](./docs/Android.md)  
   
-<br/>  
   
 ### What/Where?  ![](./docs/images/Directions.png)  
 [Logs](./docs/Logs.md)  
@@ -37,7 +36,6 @@ The instructions and guides here are provided to help you use xDrip.
 [Calibration - when](./docs/Calibration)  
 [Simple Report](./docs/Report.md)  
   
-<br/>  
   
 ### Alerts  ![](./docs/images/Alert.png)  
 [Ascending volume profile - alert too loud - quiet](./docs/Ascending-volume-profile.md)  
@@ -46,20 +44,19 @@ The instructions and guides here are provided to help you use xDrip.
 [Custom Alert Sound](./docs/Custom-Alert-Sound.md)  
 [Alert re-raise malfunction](./docs/Alert-re‐raise-malfunction.md)  
   
-<br/>
   
 ### Nightscout  ![](./docs/images/Safe.png)
 [Nightscout](./docs/Nightscout.md)  
 [Nightscout Settings](./docs/Nightscout-Settings.md)  
   
-<br/>  
-
+  
 ### Follow  ![](./docs/images/Follow.png)  
 [How to follow](./docs/How-to-follow.md)  
 [xDrip sync not working](./docs/xDrip-Sync-not-working.md)  
 [Dexcom share not working](./docs/Dexcom-share-delta-format-change.md)  
 [Follow multiple people](./docs/Variants.md)  
-
+  
+  
 ### Dexcom  
 [Dexcom basics](./docs/Dexcom-Basics.md)  
 [G5 recommended settings](./docs/G5-Recommended-Settings.md)  
