@@ -71,4 +71,5 @@ The instructions and guides here are provided to help you use xDrip.
 [Hard reset](./docs/Hard-Reset.md)  
 [Proper Connectivity](./docs/Proper-connectivity.md)  
 [Transmitter Queue](./docs/Transmitter-Queue.md)  
+[Clear the queue](./docs/Clear-queue.md)  
 
