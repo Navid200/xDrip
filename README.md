@@ -76,4 +76,6 @@ The instructions and guides here are provided to help you use xDrip.
 [Clear the queue](./docs/Clear-queue.md)  
 [Dexcom One](./docs/Dexcom-One.md)  
 [Transmitter Lifetime](./docs/Transmitter-lifetime.md)  
+  
+[Remove a G6 transmitter from sensor](./docs/Remove-transmitter.md)  
 
