@@ -20,4 +20,4 @@ If there is still no proper connectivity, change the last character of the trans
 **Asking for Help**  
 If you are still having trouble, you can [ask for help](./Contact.md).  
 
-**[Intermittent connectivity](./Intermittent-Connectivity.md)**    
+**[Intermittent connectivity](./Intermittent.md)**    
