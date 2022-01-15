@@ -8,7 +8,7 @@ If the first two characters of the transmitter serial number are 80, or if they 
 
 Ensure [settings](./G6-Recommended-Settings.md) are correct first.   If your sensor has unexpectedly stopped, restarting will not resolve the underlying problem.  You should resolve any connectivity issues first and verify that you have [proper connectivity](./Proper-connectivity.md).  You don't need to restart before the sensor stops on day 10.  You can, but, you don't have to.  
 
-You can use the original calibration code for restart or you can restart in no-code mode.  But, there are many reports of malfunction in attempting to restart in no-code mode.  So, my recommended approach is to use the original calibration code as described below.   
+You can use the original calibration code for restart or you can restart in no-code mode.  But, there are reports of malfunction in attempting to restart in no-code mode.  So, my recommended approach is to use the original calibration code as described below.   
 
  
 1. Tap on stop sensor (top left menu). Tap on "STOP SENSOR".  You should do this even if the sensor has already stopped if the "start sensor" option is not available. Wait 5 minutes.  If day 10 has ended and the sensor has already stopped, and the "Start Sensor" option is already available under the top left menu, you can skip step 1.  
