@@ -8,8 +8,8 @@ Have a look at [this](./Dexcom-Basics.md) basic information about using xDrip to
 Never soak (insert sensor a while before starting it) a G6 sensor. The main advantage of G6 over G5 is factory calibration. You will be interfering with factory calibration (accuracy) the longer it takes from the moment you insert the sensor to the moment you start the sensor in xDrip.  
 
 If you are coming from G5, or another CGM, you need to get used to factory calibration.  Give it a chance.  Most people don't need to calibrate a new G6 sensor as long as the calibration code is entered properly.  
-<br/>  
-<br/>  
+  
+Follow the following steps to start:  
 
 1.  If you are using an old version of xDrip, [update](./Updates.md) to the current stable release.  
 
