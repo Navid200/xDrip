@@ -68,10 +68,14 @@ The instructions and guides here are provided to help you use xDrip.
 [G5 recommended settings](./docs/G5-Recommended-Settings.md)  
 [G6 recommended settings](./docs/G6-Recommended-Settings.md)  
 [Start G6](./docs/Starting-G6.md)  
+  
+[Proper Connectivity](./docs/Proper-connectivity.md) 
+[Troubleshooting](./docs/Connectivity-troubleshoot.md)  
+[Intermittent Connectivity](./docs/Intermittent.md)  
+  
 [Native algorithm - mode](./docs/Native-Algorithm.md)  
 [Preemptive Restart](./docs/Preemptive-Restart.md)  
 [Hard reset](./docs/Hard-Reset.md)  
-[Proper Connectivity](./docs/Proper-connectivity.md)  
 [Transmitter Queue](./docs/Transmitter-Queue.md)  
 [Clear the queue](./docs/Clear-queue.md)  
 [Dexcom One](./docs/Dexcom-One.md)  
