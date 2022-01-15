@@ -15,4 +15,4 @@ Your readings will start after the warm up and will be significantly higher than
    - The following image shows how two consecutive calibrations were used to bring the readings close enough to the correct values after a restart.  
 ![](./images/cal-rstrt.png)  
 
-   - You should continue to check your blood glucose occasionally and make calibrations if needed.  
+   - You should continue to check with your blood glucose meter occasionally and make calibrations if needed.  
