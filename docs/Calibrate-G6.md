@@ -4,6 +4,7 @@ See [Calibration](./Calibration.md) for details about what calibration is and wh
 
 You should use an xDrip release not older than the current stable release.  You can see how to update [here](./Updates.md).  
 To calibrate, tap on "Add Calibration" from the top left menu on the main screen.  After starting, or restarting, a sensor, you will have to wait to have at least 3 readings before this option appears.  
+If you are using an old G6, you will first need to perform initial calibration.  
 
 You should only calibrate when the trend is flat or at least, very close to flat.  
 
