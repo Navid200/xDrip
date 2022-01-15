@@ -14,7 +14,7 @@ A mistake some make with G6 is to place a new sensor on with the previous sensor
 **When you get a new phone, ...**   
 Don't forget to [disable collection](./Stop-xDrip.md) on the old phone.  Otherwise, both phones will have constant connectivity issues.  
 
-**Don't restart** a G6 sensor unless you accept responsibility for the possible consequences.  The manufacturer does not approve of restarting sensors.  You need to read all the [details and consequences of a restart](./Restart-G6-Sensor.md) and accept responsibility.  I don't encourage anyone to restart sensors, or anything else the manufacturer does not approve.  
+**Don't restart** a G6 sensor unless you understand the risks and accept responsibility for the possible consequences.  The manufacturer does not approve of restarting sensors.  You need to read all the [details and consequences of a restart](./Restart-G6-Sensor.md) and understand that the readings will be incorrect after a restart.  I don't encourage anyone to restart sensors, or anything else the manufacturer does not approve.  
 
 **Don't use a Nightly build** unless you are aware of the consequences.  
 A Nightly build is released to offer a new development to the users.  However, a Nightly build could result in unexpected behavior as it has not been tested in detail.  There is no way the developers can test all devices that are available in the market.  So, the consequence of using a Nightly is taking the chance of experiencing an unexpected behavior.  
