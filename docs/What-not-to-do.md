@@ -5,7 +5,7 @@ As soon as you establish connectivity to a new transmitter, even if you don't st
 
 **Don't start a sensor on a new G6 transmitter before voltages are shown.**  
 Only start a sensor after you have established [connectivity](/Proper-Connectivity.md), and can see the voltages reported on the system status page as explained.  
-When you first establish connectivity to a transmitter, it will take a few read cycles for everything to be properly synced.  You can start a sensor right away.  You shouldn't!  You should wait until the voltages are shown on the system status page.  
+When you first establish connectivity to a transmitter, it will take a few read cycles for everything to be properly synced.  You can start a sensor right away.  You shouldn't!  See the [details](./Starting-G6.md).  
 
 **Don't start a G6 sensor unless ...**  
 Before you start a sensor, the transmitter must have been outside a sensor for at least 10 minutes.  Otherwise, the transmitter will conclude that you are attempting to restart and will fail.  
