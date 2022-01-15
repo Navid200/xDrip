@@ -69,6 +69,7 @@ The instructions and guides here are provided to help you use xDrip.
 [G6 recommended settings](./docs/G6-Recommended-Settings.md)  
 [Start G6](./docs/Starting-G6.md)  
 [Native algorithm - mode](./docs/Native-Algorithm.md)  
+[Preemptive Restart](./docs/Preemptive-Restart.md)  
 [Hard reset](./docs/Hard-Reset.md)  
 [Proper Connectivity](./docs/Proper-connectivity.md)  
 [Transmitter Queue](./docs/Transmitter-Queue.md)  
