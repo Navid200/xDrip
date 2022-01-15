@@ -80,6 +80,7 @@ The instructions and guides here are provided to help you use xDrip.
 [What not to do!](./docs/What-not-to-do.md)  
   
 [Calibrate G6](./docs/Calibrate-G6.md)  
+[Restart G6](./docs/Restart-G6-sensor.md)  
 [Remove a G6 transmitter from sensor](./docs/Remove-transmitter.md)  
 [Calibrate G6 after a restart](./docs/Calibrate-after-G6Restart.md)  
 
