@@ -1,10 +1,10 @@
 ## What not to do!  
   
-**Don't change the transmitter ID until you intend to use the new one.**  
-As soon as you establish connectivity to a new transmitter, even if you don't start a sensor, the counter (on the transmitter) starts counting the number of days.  Since the number of days you can use a transmitter is [limited](https://github.com/Navid200/xDrip/wiki/Transmitter-Lifetime), don't connect unless you intend to start using the transmitter.  
+**Don't change the transmitter ID to a new one until you intend to use it.**  
+As soon as you establish connectivity to a new transmitter, even if you don't start a sensor, the counter (on the transmitter) starts counting the number of days.  Since the number of days you can use a transmitter is [limited](./Transmitter-Lifetime.md), don't connect unless you intend to start using the transmitter.  
 
 **Don't start a sensor on a new G6 transmitter before voltages are shown.**  
-Only start a sensor after you have established [connectivity](/Proper-Connectivity.md), and can see the voltages reported on the system status page.  
+Only start a sensor after you have established [connectivity](/Proper-Connectivity.md), and can see the voltages reported on the system status page as explained.  
 When you first establish connectivity to a transmitter, it will take a few read cycles for everything to be properly synced.  You can start a sensor right away.  You shouldn't!  You should wait until the voltages are shown on the system status page.  
 
 **Don't start a G6 sensor unless ...**  
