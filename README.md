@@ -69,6 +69,8 @@ The instructions and guides here are provided to help you use xDrip.
 [G6 recommended settings](./docs/G6-Recommended-Settings.md)  
 [Start G6](./docs/Starting-G6.md)  
   
+[What not to do!](./docs/What-not-to-do.md)  
+  
 [Proper Connectivity](./docs/Proper-connectivity.md)  
 [Troubleshooting](./docs/Connectivity-troubleshoot.md)  
 [Intermittent Connectivity](./docs/Intermittent.md)  
@@ -80,8 +82,6 @@ The instructions and guides here are provided to help you use xDrip.
 [Clear the queue](./docs/Clear-queue.md)  
 [Dexcom One](./docs/Dexcom-One.md)  
 [Transmitter Lifetime](./docs/Transmitter-lifetime.md)  
-  
-[What not to do!](./docs/What-not-to-do.md)  
   
 [Calibrate G6](./docs/Calibrate-G6.md)  
 [Restart G6](./docs/Restart-G6-sensor.md)  
