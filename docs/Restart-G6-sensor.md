@@ -6,7 +6,7 @@ Please read the entire page and follow the required calibration steps.**
 
 If the first two characters of the transmitter serial number are 80, or if they are 81 and the firmware version is 1.6.5.25 or prior to that, you can use preemptive restart.  Then, you will not need to restart.  Preemptive restart will automatically restart the sensor and you will not need to restart manually.  
 
-Ensure xDrip [settings](./G6-Recommended-Settings.md) are correct first.   If your sensor has unexpectedly stopped, restarting will not resolve the underlying problem.  You should resolve any connectivity issues first and verify that you have [proper connectivity](./Proper-connectivity.md).  You don't need to restart before the sensor stops on day 10.  You can, but, you don't have to.  
+Ensure [settings](./G6-Recommended-Settings.md) are correct first.   If your sensor has unexpectedly stopped, restarting will not resolve the underlying problem.  You should resolve any connectivity issues first and verify that you have [proper connectivity](./Proper-connectivity.md).  You don't need to restart before the sensor stops on day 10.  You can, but, you don't have to.  
 
 You can use the original calibration code for restart or you can restart in no-code mode.  But, there are many reports of malfunction in attempting to restart in no-code mode.  So, my recommended approach is to use the original calibration code as described below.   
 
