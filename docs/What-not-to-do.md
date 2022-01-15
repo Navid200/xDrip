@@ -12,7 +12,7 @@ Before you start a sensor, the transmitter must have been outside a sensor for a
 A mistake some make with G6 is to place a new sensor on with the previous sensor still running.  Then, they stop the old sensor, remove the transmitter and snap it into the new sensor, right away, and start.  Even though the sensor is a new sensor, since the transmitter has not been kept out of both sensors for at least 10 minutes, the transmitter will stop the new sensor and issue an error.  
 
 **When you get a new phone, ...**   
-Don't forget to [disable collection](./Disable-Collection.md) on the old phone.  Otherwise, both phones will have constant connectivity issues.  
+Don't forget to [disable collection](./Stop-xDrip.md) on the old phone.  Otherwise, both phones will have constant connectivity issues.  
 
 **Don't restart** a G6 sensor unless you accept responsibility for the possible consequences.  The manufacturer does not approve of restarting sensors.  You need to read all the [details and consequences of a restart](./Restart-G6-Sensor.md) and accept responsibility.  I don't encourage anyone to restart sensors, or anything else the manufacturer does not approve.  
 
