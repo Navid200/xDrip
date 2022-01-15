@@ -6,4 +6,4 @@ At the top, you can choose different categories of logs to be shown.  Please ena
 
 The logs can provide useful information for troubleshooting.  You can scroll up and down to go through the logs sorted by time.  
 
-The logs may contain user IDs, passwords or serial numbers.  Be careful whom you are sharing them with and hide sensitive content if necessary.  
+The logs may contain user IDs, passwords or serial numbers.  Be careful whom you are sharing them with and hide (blackout) sensitive content if necessary.  
