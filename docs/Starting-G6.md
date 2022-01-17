@@ -9,7 +9,9 @@ Never soak (insert sensor a while before starting it) a G6 sensor. The main adva
 
 If you are coming from G5, or another CGM, you need to get used to factory calibration.  Give it a chance.  Most people don't need to calibrate a new G6 sensor as long as the calibration code is entered properly.  
   
-Follow the following steps to start:  
+If you have been using the Dexcom app, you need to disable it.  You cannot have two mobile app collectors collecting from the same transmitter at the same time.  
+  
+The following are the steps to start:  
 
 1.  If you are using an old version of xDrip, [update](./Updates.md) to the current stable release.  
 
