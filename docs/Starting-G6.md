@@ -11,7 +11,7 @@ If you are coming from G5, or another CGM, you need to get used to factory calib
   
 If you have been using the Dexcom app, you need to disable it.  You cannot have two mobile app collectors collecting from the same transmitter at the same time.  
   
-The following are the steps to start:  
+The following steps let you start:  
 
 1.  If you are using an old version of xDrip, [update](./Updates.md) to the current stable release.  
 
