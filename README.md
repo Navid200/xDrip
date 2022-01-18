@@ -69,7 +69,7 @@ The instructions and guides here are provided to help you use xDrip.
 [G6 recommended settings](./docs/G6-Recommended-Settings.md)  
 [Start G6](./docs/Starting-G6.md)  
   
-[What not to do!](./docs/What-not-to-do.md)  
+[What not to do!](./docs/What-not-to-do.md)  ![](./docs/images/DoNot.png)  
   
 [Proper Connectivity](./docs/Proper-connectivity.md)  
 [Troubleshooting](./docs/Connectivity-troubleshoot.md)  
