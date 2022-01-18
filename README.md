@@ -79,7 +79,7 @@ The instructions and guides here are provided to help you use xDrip.
 [Preemptive Restart](./docs/Preemptive-Restart.md)  
 [Hard reset](./docs/Hard-Reset.md)  
 [Transmitter Queue](./docs/Transmitter-Queue.md)  
-[Clear the queue](./docs/Clear-queue.md)  
+[Clear the queue](./docs/Clear-queue.md)  ![](./docs/images/BabyWash.png)  
 [Dexcom One](./docs/Dexcom-One.md)  
 [Transmitter Lifetime](./docs/Transmitter-lifetime.md)  
   
