@@ -94,4 +94,5 @@ The instructions and guides here are provided to help you use xDrip.
 ---  
   
 [Release notes](./docs/Releases.md)  
+  
 [Bugs](./docs/Bugs.md)  ![](./docs/images/bugs.png)  
