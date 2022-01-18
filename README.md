@@ -11,7 +11,6 @@ The instructions and guides here are provided to help you use xDrip.
   
 ### Installation  ![](./docs/images/Install.png)
 [Where can I download xDrip?](./docs/Download-xDrip.md)  
-[xDrip version](./docs/xDrip-Version.md)  
 [Update xDrip](./docs/Updates.md)  
 [Backup database](./docs/Backup-Database.md)  
 [Restore database](./docs/Restore-Database.md)  
@@ -28,6 +27,7 @@ The instructions and guides here are provided to help you use xDrip.
   
 ### What/Where?  ![](./docs/images/Directions.png)  
 [Logs](./docs/Logs.md)  
+[Which xDrip version do I have?](./docs/xDrip-Version.md)  
 [Screensaver (lock screen)](./docs/Screensaver.md)  
 [Noise](./docs/Noise.md)  
 [Sensor expiry](./docs/Sensor-Expiry.md)  
