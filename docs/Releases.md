@@ -23,4 +23,5 @@
 | [2021.11.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.11.17) | Numberwall background image survives restarts |  
 | [2021.11.22](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.11.22) | libretrendutilfix |  
 | [2021.12.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.12.01) | Ascending volume profile delay control |  
-| [2021.12.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.12.02) | Dex share delta format change fix |    
+| [2021.12.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.12.02) | Dex share delta format change fix |  
+| [2022.01.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.01.14) | G6 and AAPS conflicts resolved |  
