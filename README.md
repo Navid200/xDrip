@@ -89,7 +89,7 @@ The instructions and guides here are provided to help you use xDrip.
 [Remove a G6 transmitter from sensor](./docs/Remove-transmitter.md)  
 [Calibrate G6 after a restart](./docs/Calibrate-after-G6Restart.md)  
 [Session in progress](./docs/Session-in-progress.md)  
-[Gel (dielectric grease) on the transmitter contacts](Dielectric-Grease-in-Dexcom-G6-Sensor.md)  
+[Gel (dielectric grease) on the transmitter contacts](./docs/Dielectric-Grease-in-Dexcom-G6-Sensor.md)  
 
 ---  
 [WearOS](./docs/WearOS-Instructions.md)  
