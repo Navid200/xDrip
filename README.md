@@ -90,4 +90,5 @@ The instructions and guides here are provided to help you use xDrip.
 
 ---
 [WearOS](./docs/WearOS-Instructions.md)  
+  
 [Bugs](./docs/Bugs.md)  ![](./docs/images/bugs.png)  
