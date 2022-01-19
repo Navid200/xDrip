@@ -61,7 +61,7 @@ The instructions and guides here are provided to help you use xDrip.
 [Bluetooth headphone interruption](./docs/Bluetooth-headphone-interruption.md)  
 [Custom sound/alarm grayed out](./docs/Custom-sound-grayed-out.md)  
 [Database restore failure](./docs/Database-restore-failure.md)  
-[xDrip is not in the app store ...](./docs/App-store.md)  
+[xDrip is not in Google Play Store ...](./docs/App-store.md)  
   
   
 ### Dexcom  
