@@ -19,12 +19,7 @@ You cannot use both a t:slim pump and the Dexcom receiver as they use the same t
 | xDrip + Dexcom receiver | Yes |
 | xDrip + t:slim pump | Yes |
 | Dexcom receiver + t:slim pump | No |  
-
-<br/>  
-
-Use the following settings depending on which transmitter you have:  
-[G5](https://github.com/Navid200/xDrip/wiki/G5-Recommended-Settings)  
-[G6](https://github.com/Navid200/xDrip/wiki/G6-Recommended-Settings)  
+ 
 
 <br/>  
 
