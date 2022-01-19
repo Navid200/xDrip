@@ -90,6 +90,7 @@ The instructions and guides here are provided to help you use xDrip.
 [Calibrate G6 after a restart](./docs/Calibrate-after-G6Restart.md)  
 [Session in progress](./docs/Session-in-progress.md)  
 [Both xDrip and Dexcom app](./docs/xDrip-and-Dexcom-app.md)  
+[Can xDrip coexist with t:slim or receiver?](./docs/Receiver-or-t:slim-and-xDrip.md)  
 [Gel (dielectric grease) on the transmitter contacts](./docs/Dielectric-Grease-in-Dexcom-G6-Sensor.md)  
 
 ---  
