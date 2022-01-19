@@ -14,4 +14,4 @@ Include a short description of what is wrong. For example "No readings", or "Sen
 Also, state if there is something that has changed. For example, is this a new phone, or did you recently receive an Android patch, if the problem only occurs with a particular release of xDrip, or if you are new to xDrip, or if a new sensor started the issue.  
   
 ### Feedback  
-If you find an item on this site that is not explained clearly, or if you like a subject to be added, or if you have found erros, please post and explain.  Please include a link to the page to clarify which page you are talking about.  
+If you find an item on this site that is not explained clearly, or if you like a subject to be added, or if you have found erros, please post and explain.  Please include a link to the page to clarify which page you are referring to.  
