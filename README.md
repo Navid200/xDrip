@@ -90,6 +90,7 @@ The instructions and guides here are provided to help you use xDrip.
 [Can xDrip coexist with t:slim or receiver?](./docs/Receiver-or-t:slim-and-xDrip.md)  
 [How strong is the transmitter signal?](./docs/Bluetooth-Scanner.md)  
 [How good is the battery?](./docs/Battery-condition.md)  
+[Please report unknown firmware!](./docs/Report-firmware.md)  
 [Restart G6](./docs/Restart-G6-sensor.md)  
 [Remove a G6 transmitter from sensor](./docs/Remove-transmitter.md)  
 [Calibrate G6 after a restart](./docs/Calibrate-after-G6Restart.md)  
