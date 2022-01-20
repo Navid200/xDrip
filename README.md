@@ -1,4 +1,4 @@
-# xDrip Documentation and Support  
+# xDrip Documentation  
   
 <br/>  
   
