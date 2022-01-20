@@ -2,10 +2,11 @@
   
 <br/>  
   
-You need the advice of a competent medical professional (endocrinologist) to control your diabetes. Neither xDrip nor this page provides that. There is no medical advice here.  
-
+xDrip is an Android app that turns your smartphone into a continuous glucose monitor receiver.   
 The documents, instructions and guides here are provided to help you use xDrip.  
 ![](./docs/images/xDinaction.png)  
+
+You need the advice of a competent medical professional (endocrinologist) to control your diabetes. Neither xDrip nor this page provides that. There is no medical advice here. 
   
 <br/>  
   
