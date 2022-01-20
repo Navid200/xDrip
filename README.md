@@ -18,6 +18,7 @@ You need the advice of a competent medical professional to control your, or your
 [Transfer to new phone](./docs/New-Phone.md)  
 [Reinstall xDrip](./docs/Reinstall.md)  
 [Multiple instances (variants)](./docs/Variants.md)  
+[xDrip is not in Google Play Store ...](./docs/App-store.md)  
   
   
 ### Requirements  ![](./docs/images/Requirements.png)  
@@ -62,7 +63,6 @@ You need the advice of a competent medical professional to control your, or your
 [Bluetooth headphone interruption](./docs/Bluetooth-headphone-interruption.md)  
 [Custom sound/alarm grayed out](./docs/Custom-sound-grayed-out.md)  
 [Database restore failure](./docs/Database-restore-failure.md)  
-[xDrip is not in Google Play Store ...](./docs/App-store.md)  
   
   
 ### Dexcom  
