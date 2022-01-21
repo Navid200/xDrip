@@ -67,6 +67,7 @@ You need the advice of a competent medical professional to control your, or your
 [Database restore failure](./docs/Database-restore-failure.md)  
   
   
+---  
 ### Dexcom  
 [Dexcom basics](./docs/Dexcom-Basics.md)  
 [G5 recommended settings](./docs/G5-Recommended-Settings.md)  
