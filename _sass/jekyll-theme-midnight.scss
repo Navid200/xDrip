@@ -127,8 +127,9 @@ pre {
 
 table {
   width:auto;
-  border-collapse:separate;
-//  border:1px solid #575757;
+//  border-collapse:separate;
+  border-collapse:collapse;
+  border:1px solid #575757;
 }
 
 th {
