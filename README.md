@@ -37,6 +37,7 @@ You need the advice of a competent medical professional to control your, or your
 [Stop xDrip - disable collection](./docs/Stop-xDrip.md)  
 [Calibration - when](./docs/Calibration)  
 [Simple Report](./docs/Report.md)  
+[Legend](./docs/Legend.md)  
   
   
 ### Alerts  ![](./docs/images/Alert.png)  
