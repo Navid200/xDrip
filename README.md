@@ -66,7 +66,6 @@ You need the advice of a competent medical professional to control your, or your
 [Custom sound/alarm grayed out](./docs/Custom-sound-grayed-out.md)  
 [Database restore failure](./docs/Database-restore-failure.md)  
   
-<br/>  
   
 ---  
 ### Dexcom  
