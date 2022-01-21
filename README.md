@@ -33,12 +33,12 @@ You need the advice of a competent medical professional to control your, or your
 [Screensaver (lock screen)](./docs/Screensaver.md)  
 [Noise](./docs/Noise.md)  
 [Sensor expiry](./docs/Sensor-Expiry.md)  
+[Connect the dots!](./docs/Connect-the-dots.md)  ![](./docs/images/dots.png)  
 [Engineering mode](./docs/Engineering-Mode.md)  
 [Stop xDrip - disable collection](./docs/Stop-xDrip.md)  
 [Calibration - when](./docs/Calibration)  
 [Simple Report](./docs/Report.md)  
 [Legend](./docs/Legend.md)  
-[Connect the dots!](./docs/Connect-the-dots.md)  
   
   
 ### Alerts  ![](./docs/images/Alert.png)  
