@@ -18,5 +18,7 @@ Also, state if there is something that has changed. For example, is this a new p
 ### Suggestions 
 To reach out to developers, post in the [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  
   
+<br/>  
+  
 ### Feedback  
 If you find an item on this support site that is not explained clearly, or if you like a subject to be added, or if you have found erros, please post and explain.  Please include a link to the page to clarify which page you are referring to.  
