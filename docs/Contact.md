@@ -1,5 +1,5 @@
 ## Contact      
-Please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions) or [facebook](https://www.facebook.com/groups/xDripG5).  
+
   
 ### Requests for Help  
 If you need help using xDrip, please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions) or [facebook](https://www.facebook.com/groups/xDripG5).  
@@ -22,4 +22,4 @@ To reach out to developers, post in the [discussions](https://github.com/Nightsc
 <br/>  
   
 ### Feedback  
-If you find an item on this support site that is not explained clearly, or if you like a subject to be added, or if you have found erros, please message me one facebook (https://www.facebook.com/navid.fo/), post in [facebook](https://www.facebook.com/groups/xDripG5) or [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  Please include a link to the page to clarify which page you are referring to.  
+If you find an item on this support site that is not explained clearly, or if you like a subject to be added, or if you have found erros, please message [me](https://www.facebook.com/navid.fo/) on facebook, post in [facebook](https://www.facebook.com/groups/xDripG5) or [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  Please include a link to the page to clarify which page you are referring to.  
