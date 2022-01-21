@@ -38,6 +38,7 @@ You need the advice of a competent medical professional to control your, or your
 [Calibration - when](./docs/Calibration)  
 [Simple Report](./docs/Report.md)  
 [Legend](./docs/Legend.md)  
+[Connect the dots!](./docs/Connect-the-dots.md)  
   
   
 ### Alerts  ![](./docs/images/Alert.png)  
