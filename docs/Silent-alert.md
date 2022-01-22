@@ -1,4 +1,4 @@
-## Alert make no sound 
+## Alert makes no sound 
   
 Differencnt factors could result in an alert not making any sound.  The following is a list of such combinations.
 
