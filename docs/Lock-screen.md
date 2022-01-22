@@ -4,3 +4,5 @@ You can set xDrip to show your blood glucose on screen as well as an image as th
 To do this, go to Settings &#8722;> xDrip+ Display Setting &#8722;> Number Wall on Lock Screen.  
 Configure Number Wall let's you customize the reading by choosing the location on screen as well as choosing an image.  
 Enable "Use on Lock screen".  
+  
+When the phone is being charged, the [Android screensaver](./Screensaver.md) will be in effect taking priority over this setting.  
