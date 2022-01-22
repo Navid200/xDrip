@@ -42,6 +42,7 @@ You need the advice of a competent medical professional to control your, or your
   
   
 ### Alerts  ![](./docs/images/Alert.png)  
+[Glucose Level Alert List](./docs/Glucose-level-alerts.md)  
 [Volume Profiles](./docs/Volume-profiles.md)  
 [Ascending volume profile - alert too loud - quiet](./docs/Ascending-volume-profile.md)  
 [Snooze](./docs/Snooze.md)  
