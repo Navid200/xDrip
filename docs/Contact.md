@@ -1,5 +1,7 @@
-## Contact      
-
+## Contact  
+  
+### What you shouldn't include  
+Items like user IDs, passwords, serial numbers, full name, age, address, phone number etc. can identify you or something that belongs to you.  We don't need any of those in order to help you.  Some of those information may be included in xDrip logs.  You can blackout such information before posting.  
   
 ### Requests for Help  
 If you need help using xDrip, please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions) or [facebook](https://www.facebook.com/groups/xDripG5).  
