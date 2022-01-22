@@ -26,7 +26,7 @@ You need the advice of a competent medical professional to control your, or your
 [Phone plan](./docs/Smartphone-Requirements.md)  
 [Android](./docs/Android.md)  
   
-  
+---  
 ### What/Where?  ![](./docs/images/Directions.png)  
 [Logs](./docs/Logs.md)  
 [Which xDrip version do I have?](./docs/xDrip-Version.md)  
