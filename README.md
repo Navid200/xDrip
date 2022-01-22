@@ -68,6 +68,7 @@ You need the advice of a competent medical professional to control your, or your
 [Bluetooth headphone interruption](./docs/Bluetooth-headphone-interruption.md)  
 [Custom sound/alarm grayed out](./docs/Custom-sound-grayed-out.md)  
 [Database restore failure](./docs/Database-restore-failure.md)  
+[Alert is silent](./docs/Silent-alert.md)  
   
   
 ---  
