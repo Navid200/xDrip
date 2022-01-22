@@ -40,7 +40,7 @@ You need the advice of a competent medical professional to control your, or your
 [Simple Report](./docs/Report.md)  
 [Legend](./docs/Legend.md)  
   
-  
+---  
 ### Alerts  ![](./docs/images/Alert.png)  
 [Glucose Level Alert List](./docs/Glucose-level-alerts.md)  
 [Volume Profiles](./docs/Volume-profiles.md)  
@@ -50,7 +50,6 @@ You need the advice of a competent medical professional to control your, or your
 [Notification Channels](./docs/Notification-channels.md)  
 [Force speaker - alert raises music volume](./docs/Force-Speaker.md)  
 [Custom Alert Sound](./docs/Custom-Alert-Sound.md)  
-[Alert re-raise malfunction](./docs/Alert-re‐raise-malfunction.md)  
   
   
 ### Nightscout  ![](./docs/images/Nightscout.png)
@@ -70,6 +69,7 @@ You need the advice of a competent medical professional to control your, or your
 [Custom sound/alarm grayed out](./docs/Custom-sound-grayed-out.md)  
 [Database restore failure](./docs/Database-restore-failure.md)  
 [Alert is silent](./docs/Silent-alert.md)  
+[Alert re-raise malfunction](./docs/Alert-re‐raise-malfunction.md)  
   
   
 ---  
