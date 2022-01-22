@@ -63,7 +63,7 @@ You need the advice of a competent medical professional to control your, or your
 [Dexcom share not working](./docs/Dexcom-share-delta-format-change.md)  
 [Follow multiple people](./docs/Variants.md)  
   
-    
+---    
 ### Is this a bug?  ![](./docs/images/Inspector.png)  
 [Bluetooth headphone interruption](./docs/Bluetooth-headphone-interruption.md)  
 [Custom sound/alarm grayed out](./docs/Custom-sound-grayed-out.md)  
