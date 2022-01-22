@@ -51,7 +51,7 @@ You need the advice of a competent medical professional to control your, or your
 [Force speaker - alert raises music volume](./docs/Force-Speaker.md)  
 [Custom Alert Sound](./docs/Custom-Alert-Sound.md)  
   
-  
+---  
 ### Nightscout  ![](./docs/images/Nightscout.png)
 [Nightscout](./docs/Nightscout.md)  
 [Nightscout Settings](./docs/Nightscout-Settings.md)  
