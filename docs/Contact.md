@@ -18,6 +18,8 @@ Also, state if there is something that has changed. For example, is this a new p
   
 ### Suggestions 
 To reach out to developers, post in the [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  
+xDrip is constantly being improved and your suggestions are welcome.  But, please note that there is a price to pay for every new feature.  xDrip needs to be maintained and documented.  That means xDrip bugs need to be fixed.  The more features there are, the more complicated the bugs will become.  
+Please post your suggestions.  But, please be patient.  
   
 <br/>  
   
