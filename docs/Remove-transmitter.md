@@ -33,4 +33,6 @@ The following clips show how the transmitter can be removed using the tool we cr
 Then, do the same on the other side.  
 
 <video width="500" src="./videos/Remove-G6-TX.mp4" controls>  
+</video>  
+  
 <video width="500" src="./videos/VID 20210430 114736517.mp4" controls>  
