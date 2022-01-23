@@ -29,11 +29,8 @@ If you gently insert the larger end of the plastic strip, with rounded corners, 
 
 This is because of the compressed flexible material between the sensor and the transmitter.  The material pushes the transmitter away from the sensor.  This is why it is enough to just release the prong.  Then, the transmitter is tilted and the prong will never snap back in unless you apply pressure on top of the transmitter, which you shouldn't if you want to remove the transmitter.  
 
-The following clips show how the transmitter can be removed using the tool we created.  Gently insert the plastic strip between the transmitter and the sensor on one side as shown until you hear or feel a click.  
+The following clip shows how the transmitter can be removed using the tool we created.  Gently insert the plastic strip between the transmitter and the sensor on one side as shown until you hear or feel a click.  
 Then, do the same on the other side.  
 
 <video width="400" src="./videos/Remove-G6-TX.mp4" controls>  
-</video>  
-  
-<video width="400" src="./videos/VID 20210430 114736517.mp4" controls>  
 </video>  
