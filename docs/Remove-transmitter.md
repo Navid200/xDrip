@@ -31,6 +31,8 @@ This is because of the compressed flexible material between the sensor and the t
 
 The following clip shows how the transmitter can be removed using the tool we created.  Gently insert the plastic strip between the transmitter and the sensor on one side as shown until you hear or feel a click.  
 Then, do the same on the other side.  
+<video src="./videos/Remove-G6-TX.mp4" controls>  
+
 [![TX removal clip](https://img.youtube.com/vi/T7ZioU8cvts/0.jpg)](https://www.youtube.com/watch?v=T7ZioU8cvts)  
 
 [![TX removal clip2](https://img.youtube.com/vi/6W8bT8cq29U/0.jpg)](https://www.youtube.com/watch?v=6W8bT8cq29U)  
