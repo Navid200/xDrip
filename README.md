@@ -114,7 +114,7 @@ You need the advice of a competent medical professional to control your, or your
 
 ---  
   
-[Release notes](./docs/Releases.md)  
+[Release notes](./docs/ReleaseNotes.md)  
   
 [Bugs](./docs/Bugs.md)  ![](./docs/images/bugs.png)  
 [Feature Requests](./docs/Features.md)  
