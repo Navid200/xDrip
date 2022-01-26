@@ -18,7 +18,7 @@ Enable Samsung workarounds even if your phone is not Samsung.
 
 * Also disable Bluetooth battery optimization as explained in "[Basics](./Dexcom-Basics.md#bluetooth-battery-optimization).  
 
-* For Android 11/12, enable background location access as explained in "[Basics](./Dexcom-Basics.md)".  
+* For Android 11/12, enable background location access as explained in "[Basics](./Dexcom-Basics.md#location-and-bluetooth)".  
 
 * Use Android Settings &#8722;> Apps & notifications &#8722;> xDrip+ &#8722;> Mobile data and WiFi to enable "Background data" and "Unrestricted data usage".
 
