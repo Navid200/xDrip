@@ -46,7 +46,6 @@ You need the advice of a competent medical professional to control your, or your
 [Glucose Level Alert List](./docs/Glucose-level-alerts.md)  
 [Volume Profiles](./docs/Volume-profiles.md)  
 [Ascending volume profile - alert too loud - quiet](./docs/Ascending-volume-profile.md)  
-  
 [Snooze](./docs/Snooze.md)  
 [Notification Channels](./docs/Notification-channels.md)  
 [Force speaker - alert raises music volume](./docs/Force-Speaker.md)  
@@ -90,7 +89,6 @@ You need the advice of a competent medical professional to control your, or your
 [Preemptive Restart](./docs/Preemptive-Restart.md)  
 [Hard reset](./docs/Hard-Reset.md)  
 [Transmitter Queue](./docs/Transmitter-Queue.md)  
-
 [Clear the queue](./docs/Clear-queue.md)  
 [Dexcom One](./docs/Dexcom-One.md)  
 [Transmitter Lifetime](./docs/Transmitter-lifetime.md)  
@@ -99,7 +97,6 @@ You need the advice of a competent medical professional to control your, or your
 [Calibrate G6](./docs/Calibrate-G6.md)  
 [Both xDrip and Dexcom app](./docs/xDrip-and-Dexcom-app.md)  
 [Can xDrip coexist with t:slim or receiver?](./docs/Receiver-or-t:slim-and-xDrip.md)  
-
 [How strong is the transmitter signal?](./docs/Bluetooth-Scanner.md)  
 [How good is the battery?](./docs/Battery-condition.md)  
 [Please report unknown firmware!](./docs/Report-firmware.md)  
