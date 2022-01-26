@@ -10,6 +10,12 @@ You need the advice of a competent medical professional to control your, or your
   
 <br/>  
   
+### Requirements  
+[No medical decisions](./docs/Medical.md)  
+[Phone plan](./docs/Smartphone-Requirements.md)  
+[Android](./docs/Android.md)  
+[Android auto update](./docs/Android-auto-update.md)  
+  
 ### Installation  
 [Where can I download xDrip?](./docs/Download-xDrip.md)  
 [Update xDrip](./docs/Updates.md)  
@@ -19,13 +25,6 @@ You need the advice of a competent medical professional to control your, or your
 [Reinstall xDrip](./docs/Reinstall.md)  
 [Multiple instances (variants)](./docs/Variants.md)  
 [xDrip is not in Google Play Store ...](./docs/App-store.md)  
-  
-  
-### Requirements  
-[No medical decisions](./docs/Medical.md)  
-[Phone plan](./docs/Smartphone-Requirements.md)  
-[Android](./docs/Android.md)  
-[Android auto update](./docs/Android-auto-update.md)  
   
 ---  
 ### What/Where?  
