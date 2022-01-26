@@ -14,7 +14,7 @@ Enable Samsung workarounds even if your phone is not Samsung.
 
 * Use Android Settings to sync its time with the network as explained in "[Basics](./Dexcom-Basics.md)".  
 
-* Disable battery optimization as explained in "[Basics](./Dexcom-Basics.md)".  
+* Disable battery optimization as explained in "[Basics](./Dexcom-Basics.md#battery-optimization)".  
 
 * Also disable Bluetooth battery optimization as explained in "[Basics](./Dexcom-Basics.md).  
 
