@@ -17,7 +17,7 @@ You need the advice of a competent medical professional to control your, or your
 [Android auto update](./docs/Android-auto-update.md)  
   
 ### Installation  
-[Where can I download xDrip?](./docs/Download-xDrip.md)  
+[Where can I download xDrip from?](./docs/Download-xDrip.md)  
 [Update xDrip](./docs/Updates.md)  
 [Backup database](./docs/Backup-Database.md)  
 [Restore database](./docs/Restore-Database.md)  
