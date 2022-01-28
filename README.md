@@ -35,17 +35,12 @@ You need the advice of a competent medical professional to control your, or your
   
 ---  
 ### [Alerts](./docs/Alerts_page.md)  
-  
     
 ### [Nightscout](./docs/Nightscout_page.md)  
   
+### [Follow](./docs/Follow_page.md)  
+
 <br/>  
-  
-### Follow  
-[How to follow](./docs/How-to-follow.md)  
-[xDrip sync not working](./docs/xDrip-Sync-not-working.md)  
-[Dexcom share not working](./docs/Dexcom-share-delta-format-change.md)  
-[Follow multiple people](./docs/Variants.md)  
   
 ---    
 ### Is this a bug?  
