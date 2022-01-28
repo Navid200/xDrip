@@ -14,15 +14,9 @@ You need the advice of a competent medical professional to control your, or your
   
 <br/>  
   
-### Installation  
-[Where can I download xDrip from?](./docs/Download-xDrip.md)  
-[Update xDrip](./docs/Updates.md)  
-[Backup database](./docs/Backup-Database.md)  
-[Restore database](./docs/Restore-Database.md)  
-[Transfer to new phone](./docs/New-Phone.md)  
-[Reinstall xDrip](./docs/Reinstall.md)  
-[Multiple instances (variants)](./docs/Variants.md)  
-[xDrip is not in Google Play Store ...](./docs/App-store.md)  
+### [Installation](./docs/Installation.md)  
+  
+<br/>  
   
 ---  
 ### What/Where?  
