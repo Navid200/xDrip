@@ -26,6 +26,8 @@ You need the advice of a competent medical professional to control your, or your
   
 ### [Dexcom](./docs/Dexcom_page.md)  
   
+<br/>
+
 ### [Troubleshooting](./docs/Troubleshooting_page.md)  
   
 ---  
