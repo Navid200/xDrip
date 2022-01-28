@@ -10,7 +10,7 @@
 [Engineering mode](./Engineering-Mode.md)  
 [Stop xDrip - disable collection](./Stop-xDrip.md)  
 [Calibration - when](./Calibration)  
-[Simple Report](./docs/Report.md)  
+[Simple Report](./Report.md)  
 [Legend](./Legend.md)  
 [Extra Status Line](./Extra-status-line.md)  
   
