@@ -36,12 +36,8 @@ You need the advice of a competent medical professional to control your, or your
 ---  
 ### [Alerts](./docs/Alerts_page.md)  
   
-<br/>  
-  
----  
-### Nightscout  
-[Nightscout](./docs/Nightscout.md)  
-[Nightscout Settings](./docs/Nightscout-Settings.md)  
+    
+### [Nightscout](.docs/Nightscout_page.md)  
   
   
 ### Follow  
