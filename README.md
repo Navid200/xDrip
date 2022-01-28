@@ -32,4 +32,4 @@ You need the advice of a competent medical professional to control your, or your
 ### [Development](./docs/Development_page.md)  
   
 ---  
-### [Index](./Search_Index.md)  
+### [Index (search)](./Search_Index.md)  
