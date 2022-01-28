@@ -2,8 +2,8 @@
   
   
   
-[Nightscout](./docs/Nightscout.md)  
-[Nightscout Settings](./docs/Nightscout-Settings.md)  
+[Nightscout](./Nightscout.md)  
+[Nightscout Settings](./Nightscout-Settings.md)  
   
   
 
