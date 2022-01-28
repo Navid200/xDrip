@@ -25,6 +25,10 @@ You need the advice of a competent medical professional to control your, or your
 ### [Dexcom](./docs/Dexcom_page.md)  
   
 ### [Troubleshooting](./docs/Troubleshooting_page.md)  
+  
+---  
+### [Development](./docs/Development_page.md)  
+  
 
 <br/>  
   
@@ -32,14 +36,9 @@ You need the advice of a competent medical professional to control your, or your
  
 
 ---  
-[WearOS](./docs/WearOS-Instructions.md)  
-
----  
+[WearOS](./docs/WearOS-Instructions.md)   
   
-[Release notes](./docs/ReleaseNotes.md)  
   
-[Bugs](./docs/Bugs.md)  
-[Feature Requests](./docs/Features.md)  
   
 ---  
 ### [Index](./Search_Index.md)  
