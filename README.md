@@ -32,10 +32,7 @@ You need the advice of a competent medical professional to control your, or your
   
 <br/>
 
----  
 ### [Development](./docs/Development_page.md)  
-  
----  
   
 <br/>  
 
