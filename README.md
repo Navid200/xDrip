@@ -10,11 +10,7 @@ You need the advice of a competent medical professional to control your, or your
   
 <br/>  
   
-### Requirements  
-[No medical decisions](./docs/Medical.md)  
-[Phone plan](./docs/Smartphone-Requirements.md)  
-[Android](./docs/Android.md)  
-[Android auto update](./docs/Android-auto-update.md)  
+### [Requirements](./docs/Requirements_page.md)  
   
 ### Installation  
 [Where can I download xDrip from?](./docs/Download-xDrip.md)  
