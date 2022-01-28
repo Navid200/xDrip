@@ -12,28 +12,10 @@ You need the advice of a competent medical professional to control your, or your
   
 ### [Requirements](./docs/Requirements_page.md)  
   
-  
 ### [Installation](./docs/Installation_page.md)  
   
-<br/>  
+### [Features](./docs/Features_page.md)    
   
----  
-### What/Where?  
-[Logs](./docs/Logs.md)  
-[Which xDrip version do I have?](./docs/xDrip-Version.md)  
-[Screensaver (lock screen) while being charged](./docs/Screensaver.md)  
-[Lock Screen](./docs/Lock-screen.md)  
-[Noise](./docs/Noise.md)  
-[Sensor expiry](./docs/Sensor-Expiry.md)  
-[Connect the dots!](./docs/Connect-the-dots.md)  
-[Engineering mode](./docs/Engineering-Mode.md)  
-[Stop xDrip - disable collection](./docs/Stop-xDrip.md)  
-[Calibration - when](./docs/Calibration)  
-[Simple Report](./docs/Report.md)  
-[Legend](./docs/Legend.md)  
-[Extra Status Line](./docs/Extra-status-line.md)  
-  
----  
 ### [Alerts](./docs/Alerts_page.md)  
     
 ### [Nightscout](./docs/Nightscout_page.md)  
