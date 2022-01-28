@@ -1,4 +1,7 @@
 # Requirements  
+  
+![](./images/ImpWarn.png)  
+  
 [No medical decisions](./Medical.md)  
 [Phone plan](./Smartphone-Requirements.md)  
 [Android](./Android.md)  
