@@ -30,6 +30,8 @@ You need the advice of a competent medical professional to control your, or your
 
 ### [Troubleshooting](./docs/Troubleshooting_page.md)  
   
+<br/>
+
 ---  
 ### [Development](./docs/Development_page.md)  
   
