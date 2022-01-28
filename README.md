@@ -31,8 +31,5 @@ You need the advice of a competent medical professional to control your, or your
 ---  
 ### [Development](./docs/Development_page.md)  
   
-
-<br/>  
-  
 ---  
 ### [Index](./Search_Index.md)  
