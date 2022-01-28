@@ -21,6 +21,8 @@ You need the advice of a competent medical professional to control your, or your
 ### &#160; &#160; [Nightscout](./docs/Nightscout_page.md)  
   
 ### &#160; &#160; [Follow](./docs/Follow_page.md)  
+  
+### [Dexcom](./docs/Dexcom_page.md)    
 
 <br/>  
   
@@ -33,38 +35,7 @@ You need the advice of a competent medical professional to control your, or your
 [Alert re-raise malfunction](./docs/Alert-re‐raise-malfunction.md)  
   
   
----  
-### Dexcom  
-[Dexcom basics](./docs/Dexcom-Basics.md)  
-[G5 recommended settings](./docs/G5-Recommended-Settings.md)  
-[G6 recommended settings](./docs/G6-Recommended-Settings.md)  
-[Start G6](./docs/Starting-G6.md)  
-  
-[What not to do!](./docs/What-not-to-do.md)  
-  
-[Proper Connectivity](./docs/Proper-connectivity.md)  
-[Troubleshooting](./docs/Connectivity-troubleshoot.md)  
-[Intermittent Connectivity](./docs/Intermittent.md)  
-  
-[Native algorithm - mode](./docs/Native-Algorithm.md)  
-[Preemptive Restart](./docs/Preemptive-Restart.md)  
-[Hard reset](./docs/Hard-Reset.md)  
-[Transmitter Queue](./docs/Transmitter-Queue.md)  
-[Clear the queue](./docs/Clear-queue.md)  
-[Dexcom One](./docs/Dexcom-One.md)  
-[Transmitter Lifetime](./docs/Transmitter-lifetime.md)  
-  
-[Session in progress](./docs/Session-in-progress.md)  
-[Calibrate G6](./docs/Calibrate-G6.md)  
-[Both xDrip and Dexcom app](./docs/xDrip-and-Dexcom-app.md)  
-[Can xDrip coexist with t:slim or receiver?](./docs/Receiver-or-t:slim-and-xDrip.md)  
-[How strong is the transmitter signal?](./docs/Bluetooth-Scanner.md)  
-[How good is the battery?](./docs/Battery-condition.md)  
-[Please report unknown firmware!](./docs/Report-firmware.md)  
-[Restart G6](./docs/Restart-G6-sensor.md)  
-[Remove a G6 transmitter from sensor](./docs/Remove-transmitter.md)  
-[Calibrate G6 after a restart](./docs/Calibrate-after-G6Restart.md)  
-[Gel (dielectric grease) on the transmitter contacts](./docs/Dielectric-Grease-in-Dexcom-G6-Sensor.md)  
+ 
 
 ---  
 [WearOS](./docs/WearOS-Instructions.md)  
