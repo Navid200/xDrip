@@ -18,9 +18,9 @@ You need the advice of a competent medical professional to control your, or your
   
 ### &#160; &#160; [Alerts](./docs/Alerts_page.md)  
     
-### [Nightscout](./docs/Nightscout_page.md)  
+### &#160; &#160; [Nightscout](./docs/Nightscout_page.md)  
   
-### [Follow](./docs/Follow_page.md)  
+### &#160; &#160; [Follow](./docs/Follow_page.md)  
 
 <br/>  
   
