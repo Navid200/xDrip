@@ -24,7 +24,7 @@ If you don't, the transmitter could malfunction and it will not be easy to figur
 
 ### Battery Optimization
 Disable battery optimization of xDrip in Android.  
-Generally, this is at Android settings -> Apps -> xDrip+ -> Advanced -> Battery.  
+Generally, this is at Android settings &#8722;> Apps &#8722;> xDrip+ &#8722;> Advanced &#8722;> Battery.  
 ![](./images/dis-bat-opt.png)  
 
 However, depending on device and Android version, you may need to look elsewhere or disable more than one item. It's best to search online for how to disable battery optimization on your device.  
