@@ -3,6 +3,7 @@
 ### [Alerts](./Alerts_page.md)  
 ### [Nightscout](./Nightscout_page.md)  
 ### [Follow](./Follow_page.md)  
+### [WearOS](./docs/WearOS-Instructions.md)  
   
 <br/>  
   
