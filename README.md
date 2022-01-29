@@ -16,8 +16,6 @@ You need the advice of a competent medical professional to control your, or your
   
 ### [Features](./docs/Features_page.md)    
   
-### &#160; &#160; [Follow](./docs/Follow_page.md)  
-  
 ### &#160; &#160; [WearOS](./docs/WearOS-Instructions.md)  
   
 ### [Dexcom](./docs/Dexcom_page.md)  
