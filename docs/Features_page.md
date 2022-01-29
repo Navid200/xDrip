@@ -1,6 +1,8 @@
 # Features  
   
 ### [Alerts](./Alerts_page.md)  
+  
+  
 [Logs](./Logs.md)  
 [Which xDrip version do I have?](./xDrip-Version.md)  
 [Screensaver (lock screen) while being charged](./Screensaver.md)  
