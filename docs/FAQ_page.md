@@ -1,4 +1,4 @@
-# Frequently ASked Questions  
+# Frequently Asked Questions  
   
   
 [Which xDrip version do I have?](./xDrip-Version.md)  
