@@ -17,10 +17,10 @@ You need the advice of a competent medical professional to control your, or your
 ### [Features](./docs/Features_page.md)    
   
 ### [Dexcom](./docs/Dexcom_page.md)  
-  
-<br/>
 
 ### [Troubleshooting](./docs/Troubleshooting_page.md)  
+  
+### [Frequenty Asked Questions](./docs/FAQ_page.md)  
 
 ### [Development](./docs/Development_page.md)  
   
