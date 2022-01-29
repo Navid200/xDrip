@@ -15,8 +15,6 @@ You need the advice of a competent medical professional to control your, or your
 ### [Installation](./docs/Installation_page.md)  
   
 ### [Features](./docs/Features_page.md)    
-  
-### &#160; &#160; [Alerts](./docs/Alerts_page.md)  
     
 ### &#160; &#160; [Nightscout](./docs/Nightscout_page.md)  
   
