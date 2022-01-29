@@ -17,7 +17,7 @@ If you want to use xDrip, you should ideally uninstall the Dexcom app first. If 
 <br/>
 
 ### Phone Time Accuracy
-Sync your phone clock to the network (Android Settings -> System -> Date & Time).  
+Sync your phone clock to the network (Android Settings &#8722;> System &#8722;> Date & Time).  
 ![](./images/phone_time.png)  
 If you don't, the transmitter could malfunction and it will not be easy to figure out why.  
 <br/>
@@ -32,16 +32,16 @@ However, depending on device and Android version, you may need to look elsewhere
 
 ### Bluetooth Battery Optimization
 Disable Bluetooth battery optimization in Android.  
-Generally, to access this setting, you should go to Android Settings -> Apps & notifications.  
+Generally, to access this setting, you should go to Android Settings &#8722;> Apps & notifications.  
 Tap on "See all apps" if needed to see a list.  Tap on the "Show system apps" from the 3 dot menu.  
-Scroll down to Bluetooth and tap on Bluetooth -> Advanced -> Battery.  Disable battery optimization.  
+Scroll down to Bluetooth and tap on Bluetooth &#8722;> Advanced &#8722;> Battery.  Disable battery optimization.  
 ![](./images/BT_Opt.png)  
 
 ### Location and Bluetooth
 In Android, you should have Location and Bluetooth active. If you put your phone in Airplane mode, you need to enable Bluetooth if you want xDrip to continue to work.
 
 For Android 11, you should enable background location access.  
-Android Settings -> App Settings -> xDrip -> Location  
+Android Settings &#8722;> App Settings &#8722;> xDrip &#8722;> Location  
 Choose "Allow all the time".  
 ![](./images/location-android11.png)  
 <br/>
