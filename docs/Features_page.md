@@ -2,6 +2,7 @@
   
 ### [Alerts](./Alerts_page.md)  
 ### [Nightscout](./Nightscout_page.md)  
+### [Follow](./docs/Follow_page.md)  
   
 <br/>  
   
