@@ -1,6 +1,7 @@
 # Features  
   
 ### [Alerts](./Alerts_page.md)  
+### [Nightscout](./Nightscout_page.md)  
   
   
 [Logs](./Logs.md)  
