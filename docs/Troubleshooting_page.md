@@ -8,4 +8,5 @@ If the problem you experience is not listed, you can reach out to experienced us
 [Database restore failure](./Database-restore-failure.md)  
 [Alert is silent](./Silent-alert.md)  
 [Alert re-raise malfunction](./Alert-re‐raise-malfunction.md)  
-  
+[Dexcom share not working](./Dexcom-share-delta-format-change.md)  
+[xDrip sync not working](./xDrip-Sync-not-working.md)  
