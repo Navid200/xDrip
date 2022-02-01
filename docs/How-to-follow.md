@@ -6,7 +6,7 @@ There are several options for following someone's readings.
 #### 1. xDrip Sync Follower  
 This is easy to set up.  But, it relies on Google.  
 On master, go to Settings &#8722;> xDrip+ Sync settings, and tap on "Be master for followers".  
-<span style="color:red">Disable "Allow follower actions".  Otherwise, the follower will be able to stop the sensor on master.</span>  
+**<span style="color:red">Disable "Allow follower actions".  Otherwise, the follower will be able to stop the sensor on master.</span>**  
 Ensure "Disable all sync features", at the bottom of the page, is disabled.  
 Tap on Settings &#8722;> Show Settings QR codes.  
 Tap on xDrip plus security key settings only.  
