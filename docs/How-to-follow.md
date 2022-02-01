@@ -3,7 +3,7 @@
 There are several options for following someone's readings.  
 <br/>
 
-#### 1. xDrip Sync Follower  
+### 1. xDrip Sync Follower  
 This is easy to set up.  But, it relies on Google.  
 On master, go to Settings &#8722;> xDrip+ Sync settings, and tap on "Be master for followers".  
 **<span style="color:red">Disable "Allow follower actions".  Otherwise, the follower will be able to stop the sensor on master.</span>**  
@@ -22,7 +22,7 @@ Then, go to Settings &#8722;> xDrip+ Sync Settings and tap on "Handset Group Sec
 On both master and follower ensure that Settings &#8722;> xDrip+ Sync Settings &#8722;> Disable all sync features is disabled.
 <br/>
 
-#### 2. Nightscout Follower  
+### 2. Nightscout Follower  
 This requires Nightscout to be [set up](./Nightscout.md).  
 After a Nightscout account has been created and set up, enter the required [settings](./Nightscout-Settings.md) so that the master starts uploading to Nightscout.  
 
@@ -30,7 +30,7 @@ On the follower, tap on Settings &#8722;> Hardware Data Source &#8722;> Nightsco
 Tap on Settings &#8722;> Nightscout Follow URL, and enter https<nolink>://userID.herokuapp.com, where userID is the master Nightscout user ID.  
 <br/>
 
-#### 3. Dex Share Follower
+### 3. Dex Share Follower
 This is an option if the master must be a Dexcom app, for example, if the master is an iPhone.  
 
 On the follower, tap on Settings &#8722;> Hardware Data Source &#8722;> Dex Share Follower.  
