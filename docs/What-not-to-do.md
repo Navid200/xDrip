@@ -11,6 +11,9 @@ When you first establish connectivity to a transmitter, it will take a few read 
 Before you start a sensor, the transmitter must have been outside a sensor for at least 10 minutes.  Otherwise, the transmitter will conclude that you are attempting to restart and will fail.  
 A mistake some make with G6 is to place a new sensor on with the previous sensor still running.  Then, they stop the old sensor, remove the transmitter and snap it into the new sensor, right away, and start.  Even though the sensor is a new sensor, since the transmitter has not been kept out of both sensors for at least 10 minutes, the transmitter will stop the new sensor and issue an error.  
 
+**Don't calibrate to correct more than a 20% error in onse shot**  
+Otherwise, you may get a confused calibration error.  Please calibrate as explained [here](./Calibrate-G6.md).  
+
 **When you get a new phone, ...**   
 Don't forget to [disable collection](./Stop-xDrip.md) on the old phone.  Otherwise, both phones will have constant connectivity issues.  
 
