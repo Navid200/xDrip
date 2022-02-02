@@ -14,3 +14,4 @@
 [What is Engineering mode?](./Engineering-Mode.md)  
 [How to Start a G6](./Starting-G6.md)  
 [What is Native algorithm - mode?](./Native-Algorithm.md)  
+[Can I calibrate G6?](./Calibrate-G6.md)  
