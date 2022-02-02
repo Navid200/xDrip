@@ -74,7 +74,7 @@ This page contains all the documentation in a flat format.  You can use your bro
 [G6 recommended settings](./docs/G6-Recommended-Settings.md)  
 [Start G6](./docs/Starting-G6.md)  
   
-[What not to do!](./docs/What-not-to-do.md)  
+[What not to do! Why did G6 do that?](./docs/What-not-to-do.md)  
   
 [Proper Connectivity](./docs/Proper-connectivity.md)  
 [Troubleshooting](./docs/Connectivity-troubleshoot.md)  
