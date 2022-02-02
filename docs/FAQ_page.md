@@ -12,3 +12,4 @@
 [Why is the alert so loud - so quiet?](./Ascending-volume-profile.md)  
 [What is Nightscout?](./Nightscout.md)  
 [What is Engineering mode?](./Engineering-Mode.md)  
+[How to Start a G6](./Starting-G6.md)  
