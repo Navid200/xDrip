@@ -22,7 +22,7 @@ This page contains all the documentation in a flat format.  You can use your bro
   
 ---  
 ### What/Where?  
-[Logs](./docs/Logs.md)  
+[Where are the Logs?](./docs/Logs.md)  
 [Which xDrip version do I have?](./docs/xDrip-Version.md)  
 [Screensaver (lock screen) while being charged](./docs/Screensaver.md)  
 [Lock Screen](./docs/Lock-screen.md)  
