@@ -23,7 +23,7 @@ Also, state if there is something that has changed. For example, is this a new p
 
 **<span style="color:red">Please don't open an issue.</span>**  
 Please allow us to manage the issues.  There used to be too many issues opened up by users.  Many could just be addressed by using xDrip differently.  In the meantime, there were always too many open issues and there was no way for the developers to know which ones were real.  
-Please help us manage the issues more efficiently by opening a discussions instead of an issue.  If it turns out to be an issue, we will convert the discussion into an issue, or ask you to open an issue.  Please only open an issue if asked by a developer.    
+Please help us manage the issues more efficiently by opening a [discussion](https://github.com/NightscoutFoundation/xDrip/discussions) instead of an issue.  If it turns out to be an issue, we will convert the discussion into an issue, or ask you to open an issue.  Please only open an issue if asked by a developer.    
   
 <br/>  
   
