@@ -23,7 +23,6 @@
 | [1597](https://github.com/NightscoutFoundation/xDrip/issues/1597) | Libre 2 raw data sync | 2021.01.08|  
 | [1643](https://github.com/NightscoutFoundation/xDrip/issues/1643) | Allow linking more than one Bluetooth meter at a time | 2021.02.15 |  
 | [1672](https://github.com/NightscoutFoundation/xDrip/issues/1672) | Don't enable Out of process libre algorithm | 2021.03.14 |  
-| [1740](https://github.com/NightscoutFoundation/xDrip/issues/1740) | Hide infrequently used settings | 2021.05.24 |  
 | [1754](https://github.com/NightscoutFoundation/xDrip/issues/1754) | Support novopen 6 |  2021.06.12 |  
 | [1762](https://github.com/NightscoutFoundation/xDrip/issues/1762) | Consistent behavior and capability of alerts | 2021.06.21 |    
 | [1872](https://github.com/NightscoutFoundation/xDrip/issues/1872) | Requests for support: Watches | Consolidated |  
