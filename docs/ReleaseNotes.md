@@ -3,7 +3,7 @@
 | Release | Notes |
 |---------|-------|
 | [2018.08.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2018.08.18) | Hard reset does not require engineering mode any longer |
-| [2020.11.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2020.11.27) | Frequent pair request resolved |  
+| [2020.11.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2020.11.27) | G6 Frequent pair request resolved - "When did you insert sensor" was removed for Dexcom native mode |  
 | [2021.02.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.02.17) | G5 1.0.4.15 firmware was added |  
 | [2021.03.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.03.08) | G5 1.0.4.14 firmware was added |  
 | [2021.03.30](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.03.30) | G6 2.27.2.103 firmware was added |  
