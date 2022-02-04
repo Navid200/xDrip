@@ -17,4 +17,4 @@
 [Simple Report](./Report.md)  
 [Legend](./Legend.md)  
 [Extra Status Line](./Extra-status-line.md)  
-  
+[Reminders](./Reminders.md)  
