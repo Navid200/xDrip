@@ -35,6 +35,7 @@ This page contains all the documentation in a flat format.  You can use your bro
 [Simple Report](./docs/Report.md)  
 [Legend](./docs/Legend.md)  
 [Extra Status Line](./docs/Extra-status-line.md)  
+[Reminders](./dics/Reminders.md)  
 [How to delete a reminder](./docs/Delete-Reminder.md)  
   
 ---  
