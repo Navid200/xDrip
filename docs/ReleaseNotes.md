@@ -25,4 +25,4 @@
 | [2021.12.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.12.01) | Ascending volume profile delay control |  
 | [2021.12.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.12.02) | Dex share delta format change fix |  
 | [2022.01.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.01.14) | G6 and AAPS conflicts resolved |  
-| [2022.02.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.02.09) | Dexcom share user ID format (email address, special characters, ...) incompatibilities addressed. |  
+| [2022.02.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.02.09) | Dexcom share user ID format (email address, special characters, ...) incompatibilities addressed |  
