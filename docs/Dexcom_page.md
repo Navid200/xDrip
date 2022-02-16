@@ -20,6 +20,7 @@ If you use xDrip as a collector from a G5 or G6 transmitter, this page contains 
 [Clear the queue](./Clear-queue.md)  
 [Dexcom One](./Dexcom-One.md)  
 [Transmitter Lifetime](./Transmitter-lifetime.md)  
+[G6 Slot Number](./G6_slot.md)  
   
 [Session in progress](./Session-in-progress.md)  
 [Calibrate G6](./Calibrate-G6.md)  
