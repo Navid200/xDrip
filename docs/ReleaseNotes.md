@@ -26,4 +26,4 @@
 | [2021.12.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.12.02) | Dex share delta format change fix |  
 | [2022.01.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.01.14) | G6 and AAPS conflicts resolved |  
 | [2022.02.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.02.09) | Dexcom share user ID format (email address, special characters, ...) incompatibilities addressed |  
-| [2022.02.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.02.15) | Full Android watch is not detected as Wear OS anymore. |  
+| [2022.02.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.02.15) | Full Android watch is not detected as Wear OS anymore - G6 battery voltage logs kept for 7 days |  
