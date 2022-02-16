@@ -1,4 +1,4 @@
-## G6 Bluetooth Communications Slot  
+## G6 Bluetooth Communications Slots  
   
 A G6 transmitter has 2 slots.  That's why you can use a t:slim pump and also see your readings in xDrip.  
 
