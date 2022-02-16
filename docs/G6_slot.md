@@ -11,3 +11,4 @@ Then, if you go to Settings &#8722;> G5/G6 Debug Settings, you will see a new se
 
 To force xDrip to use the non-default slot number, set that to 1.  
 If you disable engineering mode, it will use the default setting.  
+If you want to go back to the default setting, in engineering mode, set it to 2.  
