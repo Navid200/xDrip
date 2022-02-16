@@ -2,7 +2,7 @@
   
 A G6 transmitter has 2 slots.  That's why you can use a t:slim pump and also see your readings in xDrip.  Or, you can use both the Dexcom receiver and xDrip at the same time.  
 
-You can change the slot that xDrip uses.  
+You can change the slot that xDrip uses starting with the [February 15, 2022 release](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.02.15).  
 By default, xDrip is on slot 2.  t:slim pump is  on slot 1.  The Decxcom receiver is also on slot 1.  
 
 If you want to change the slot number xDrip uses, you first need to enable [engineering mode](./Engineering-Mode.md).  
