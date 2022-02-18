@@ -6,7 +6,7 @@ You can change the slot that xDrip uses starting with the [February 15, 2022 rel
 By default, xDrip is on slot 2.  t:slim pump is  on slot 1.  The Decxcom receiver is also on slot 1.  
 
 If you want to change the slot number xDrip uses, you first need to enable [engineering mode](./Engineering-Mode.md).  
-Then, if you go to Settings &#8722;> G5/G6 Debug Settings, you will see a new setting right after "Allow OB1 initial bonding".  It is called "Manual Slot Number".  
+Then, if you go to Settings &#8722;> G5/G6 Debug Settings, you will see a setting right after "Allow OB1 initial bonding", called "Manual Slot Number", which you can edit.  
 ![](./images/manual_slot.png)  
 
 To force xDrip to use the non-default slot number, set that to 1.  
