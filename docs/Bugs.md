@@ -7,7 +7,7 @@
 | [553](https://github.com/NightscoutFoundation/xDrip/issues/553) | Seekbar title not visible on a small device | | | 2018.08.18 |  
 | [565](https://github.com/NightscoutFoundation/xDrip/issues/565) | Three decimal points resulting in incorrect treatment entry | | | 2018.08.27 |  
 | [642](https://github.com/NightscoutFoundation/xDrip/issues/642) | Max sync queue size exceeded | | | 2018.10.26 |  
-| [735](https://github.com/NightscoutFoundation/xDrip/issues/735) - [1062](https://github.com/NightscoutFoundation/xDrip/issues/1062) - [1196](https://github.com/NightscoutFoundation/xDrip/issues/1196) - [1518](https://github.com/NightscoutFoundation/xDrip/issues/1518) | Nightscout sync issue | Nightscout | | 2019.01.07 |  
+| [735](https://github.com/NightscoutFoundation/xDrip/issues/735) - [1196](https://github.com/NightscoutFoundation/xDrip/issues/1196) - [1518](https://github.com/NightscoutFoundation/xDrip/issues/1518) | Nightscout sync issue | Nightscout | | 2019.01.07 |  
 | [929](https://github.com/NightscoutFoundation/xDrip/issues/929) | Nightscout follower delay | Nightscout | | 2019.06.23 |  
 | [1229](https://github.com/NightscoutFoundation/xDrip/issues/1229) | Datricsae reading mismatch with xDrip graph | | | 2020.02.06 |  
 | [1266](https://github.com/NightscoutFoundation/xDrip/issues/1266) | Calibrations that are not entered by the user or a Bluetooth meter | | | 2020.03.10 |   
