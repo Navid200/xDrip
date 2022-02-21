@@ -90,6 +90,7 @@ This page contains all the documentation in a flat format.  You can use your bro
 [Clear the queue](./docs/Clear-queue.md)  
 [Dexcom One](./docs/Dexcom-One.md)  
 [Transmitter Lifetime](./docs/Transmitter-lifetime.md)  
+[G6 Slot Number](./docs/G6_slot.md)  
   
 [Session in progress](./docs/Session-in-progress.md)  
 [Calibrate G6](./docs/Calibrate-G6.md)  
