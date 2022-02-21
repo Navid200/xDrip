@@ -12,9 +12,10 @@
 [Why is the alert so loud - so quiet?](./Ascending-volume-profile.md)  
 [What is Nightscout?](./Nightscout.md)  
 [What is Engineering mode?](./Engineering-Mode.md)  
+[How to delete a reminder](./Delete-Reminder.md)  
+[Missed Reading Alert not repeating](./MissedSignalAlert.md)  
   
 [How to Start a G6](./Starting-G6.md)  
 [What is Native algorithm - mode?](./Native-Algorithm.md)  
 [Can I calibrate G6?](./Calibrate-G6.md)  
 [Why did G6 do that?](./What-not-to-do.md)  
-[How to delete a reminder](./Delete-Reminder.md)  
