@@ -67,6 +67,7 @@ This page contains all the documentation in a flat format.  You can use your bro
 [Database restore failure](./docs/Database-restore-failure.md)  
 [Alert is silent](./docs/Silent-alert.md)  
 [Alert re-raise malfunction](./docs/Alert-re‐raise-malfunction.md)  
+[Missed Reading Alert not repeating](./docs/MissedSignalAlert.md)  
   
   
 ---  
