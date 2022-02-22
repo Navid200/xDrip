@@ -1,13 +1,7 @@
 ## Contact  
 
 <br/>  
-
-### What you shouldn't include  
-Items like user IDs, passwords, serial numbers, full name, address, phone number etc. can identify you or something that belongs to you.  We don't need any of those in order to help you.  Some of those information may be included in xDrip logs or shown on status pages.  You can blackout such information before posting.  
-On the other hand, the xDrip version you are using or the firmware version of the transmitter you are using are very important and can be relavant and will not compromize your privacy.  So, please include those.  
-
-<br/>  
-
+  
 ### Requests for Help  
 If you need help using xDrip, please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions) or [facebook](https://www.facebook.com/groups/xDripG5).  
 include the following in the first post.  
@@ -26,6 +20,13 @@ Please allow us to manage the issues.  There used to be too many issues opened u
 Please help us manage the issues more efficiently by opening a [discussion](https://github.com/NightscoutFoundation/xDrip/discussions) instead of an issue.  If it turns out to be an issue, we will convert the discussion into an issue, or ask you to open an issue.  Please only open an issue if asked by a developer.    
   
 <br/>  
+
+#### What you shouldn't include  
+Items like user IDs, passwords, serial numbers, full name, address, phone number etc. can identify you or something that belongs to you.  We don't need any of those in order to help you.  Some of those information may be included in xDrip logs or shown on status pages.  You can blackout such information before posting.  
+On the other hand, the xDrip version you are using or the firmware version of the transmitter you are using are very important and can be relavant and will not compromize your privacy.  So, please include those.  
+
+<br/> 
+
   
 ### Suggestions 
 To reach out to developers, post in the [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  
