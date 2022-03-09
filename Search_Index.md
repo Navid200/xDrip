@@ -103,6 +103,7 @@ This page contains all the documentation in a flat format.  You can use your bro
 [Remove a G6 transmitter from sensor](./docs/Remove-transmitter.md)  
 [Calibrate G6 after a restart](./docs/Calibrate-after-G6Restart.md)  
 [Gel (dielectric grease) on the transmitter contacts](./docs/Dielectric-Grease-in-Dexcom-G6-Sensor.md)  
+[xDrip following Dexcom app](./docs/DexcomAppxDrip.md)  
 
 ---  
 [WearOS](./docs/WearOS-Instructions.md)  
