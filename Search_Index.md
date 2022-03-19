@@ -37,6 +37,7 @@ This page contains all the documentation in a flat format.  You can use your bro
 [Extra Status Line](./docs/Extra-status-line.md)  
 [Reminders](./docs/Reminders.md)  
 [How to delete a reminder](./docs/Delete-Reminder.md)  
+[&#x24c5; Encircled P in front of the reading](./docs/P_in_Circle.md)  
   
 ---  
 ### Alerts  
