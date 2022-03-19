@@ -14,6 +14,7 @@
 [What is Engineering mode?](./Engineering-Mode.md)  
 [How to delete a reminder](./Delete-Reminder.md)  
 [Missed Reading Alert not repeating](./MissedSignalAlert.md)  
+[&#x24c5; Encircled P in front of the reading](./P_in_Circle.md)  
   
 [How to Start a G6](./Starting-G6.md)  
 [What is Native algorithm - mode?](./Native-Algorithm.md)  
