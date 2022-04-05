@@ -24,7 +24,7 @@ Only after the "stop sensor" note has cleared the queue should you proceed.
 
 ----
 
-\*  When we restart a G6 sensor, we fool the transmitter to think that we are starting a new sensor.  If we use the original calibration code, the transmitter thinks the sensor is on day 1 when in reality, the sensor is on day 11 if we restarted after 10 days.  The impact of the immune system on the sensor is different on day 1 versus day 11.  This discrepancy results in incorrectly high readings after warm-up.  
+\*  When we restart a G6 sensor, we fool the transmitter to think that we are starting a new sensor.  If we use the original calibration code, the transmitter thinks the sensor is on day 1 when in reality, the sensor is on day 11 if we restarted after 10 days.  The impact of the immune system on the sensor is different on day 1 versus day 11.  This discrepancy results in incorrect high readings after warm-up.  
 
 ----
 
