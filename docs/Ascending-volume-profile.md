@@ -15,11 +15,11 @@ If your alarm wakes up or annoys others around you, this can solve the problem b
 
 The following table summarizes the behavior of the ascending volume profile based on the settings.  The "Delay Ascending Volume" setting is only available if you are using the xDrip release of December 1, 2021 or after.  If not, it's like the setting is always enabled.  
 
-| Preference | Vibrate on alert | Delay Ascending Volume | Sound | Vibration | Volume trend |  
+| Intended behavior | Vibrate on alert | Delay Ascending Volume | Sound | Vibration | Volume trend |  
 |------------|------------------|------------------------|-------|-----------|-------------|  
 | Vibrate & delayed sound | Enabled | Enabled | Delayed by 3 minutes | Starts at trigger | 0, 0, 0, 33%, 67%, 100% * |  
 | Vibrate & sound | Enabled | Disabled | Starts at trigger | Starts at trigger | 30%, 30%, 30%, 33%, 67%, 100% * |  
-| Delayed sound | Disabled | Enabled | Delayed by 3 minutes | None | 0, 0, 0, 33%, 67%, 100% * |  
-| Sound | Disabled | Disabled | Starts at trigger | None | 30%, 30%, 30%, 33%, 67%, 100% * |  
+| Delayed sound only | Disabled | Enabled | Delayed by 3 minutes | None | 0, 0, 0, 33%, 67%, 100% * |  
+| Sound only | Disabled | Disabled | Starts at trigger | None | 30%, 30%, 30%, 33%, 67%, 100% * |  
   
 \* The volume reaches maximum (100%) on the next reading if the next reading does not trigger another alert or does not result in the current alert ending.  The sound and vibration end as soon as the alert is snoozed.  
