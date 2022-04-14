@@ -1,5 +1,7 @@
 ## Release Notes  
   
+This table does not list every single release.  Only releases that have fixed a serious error or added a very important feature that keep coming up in questions and require linking to in answers are included.    
+  
 | Release | Notes |
 |---------|-------|
 | [2018.08.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2018.08.18) | Hard reset does not require engineering mode any longer |
