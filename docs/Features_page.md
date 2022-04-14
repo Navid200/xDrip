@@ -1,6 +1,7 @@
 # Features  
   
 ### [Alerts](./Alerts_page.md)  
+### [Statistics](./Statistics.md)  
 ### [Nightscout](./Nightscout_page.md)  
 ### [Follow](./Follow_page.md)  
 ### [WearOS](./WearOS-Instructions.md)  
