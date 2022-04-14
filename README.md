@@ -22,6 +22,8 @@ You need the advice of a competent medical professional to control your, or your
   
 ### [Frequenty Asked Questions](./docs/FAQ_page.md)  
   
+### [Some Release Notes](./docs/ReleaseNotes.md)  
+  
 <br/>  
   
 ---  
