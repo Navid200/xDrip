@@ -1,5 +1,14 @@
 ## Update xDrip  
 
+xDrip has different update channels.  
+| Update Channel | Description | 
+|:--------------:|:-----------:|  
+| Nightly        | Most up-to-date - Least tested |  
+| Alpha          | Less up-to-date but more tested than Nightly | 
+| Beta           | Less up-to-date but more tested than Alpha  |   
+| Stable         | Stable and Beta are usually the same |  
+  
+  
 To download xDrip, go [here](https://github.com/NightscoutFoundation/xDrip/).  
 To download the latest stable version, go to "Latest".  
 To access the nightly builds (least tested but more recent), go to "Releases".  
