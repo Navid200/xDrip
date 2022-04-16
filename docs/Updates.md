@@ -1,6 +1,7 @@
 ## Update xDrip  
 
 xDrip has different update channels.  
+  
 | Update Channel | Description | 
 |:--------------:|:-----------:|  
 | Nightly        | Most up-to-date - Least tested |  
