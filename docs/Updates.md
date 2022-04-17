@@ -2,9 +2,9 @@
 
 xDrip has different update channels.  
   
-| Update Channel | Description | 
+| Channel | Description | 
 |:--------------:|:-----------:|  
-| Nightly        | Most up-to-date - Least tested |  
+| Nightly        | Most up-to-date but least tested |  
 | Alpha          | Less up-to-date but more tested than Nightly | 
 | Beta           | Less up-to-date but more tested than Alpha  |   
 | Stable         | Stable and Beta are usually the same |  
