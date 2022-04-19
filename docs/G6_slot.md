@@ -12,3 +12,5 @@ Then, if you go to Settings &#8722;> G5/G6 Debug Settings, you will see a settin
 To force xDrip to use the non-default slot number, set that to 1.  
 If you disable engineering mode, it will use the default setting.  
 If you want to go back to the default setting, in engineering mode, set it to 2.  
+  
+If you want to use two different collector apps, using the two slots, the two apps cannot be on the same phone.  
