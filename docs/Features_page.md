@@ -4,7 +4,6 @@
 ### [Statistics](./Statistics.md)  
 ### [Nightscout](./Nightscout_page.md)  
 ### [Follow](./Follow_page.md)  
-### [WearOS](./WearOS-Instructions.md)  
   
 <br/>  
   
