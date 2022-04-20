@@ -29,3 +29,4 @@ This table does not list every single release.  Only releases that have fixed a 
 | [2022.01.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.01.14) | G6 and AAPS conflicts resolved |  
 | [2022.02.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.02.09) | Dexcom share user ID format (email address, special characters, ...) incompatibilities addressed |  
 | [2022.02.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.02.15) | Full Android watch is not detected as Wear OS anymore.  G6 battery voltage logs kept for 7 days.  xDrip can use either G6 slot. |  
+| [2022.04.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.20) | Control other apps sound during an xDrip alert |  
