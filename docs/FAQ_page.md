@@ -4,6 +4,7 @@
 [xDrip is not in Google Play Store ...](./App-store.md)  
 [Which xDrip version do I have?](./xDrip-Version.md)  
 [What's the easiest way to snooze?](./Snooze.md)  
+[Why do I get a notification for each reading?](./Frequent_notifications.md)  
 [What is Noise?](./Noise.md)  
 [What is Calibration and when should I calibrate?](./Calibration.md)  
 [Where are the Logs?](./Logs.md)  
