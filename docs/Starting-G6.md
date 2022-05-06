@@ -1,4 +1,4 @@
-## Starting G6  
+## Starting Dexcom G6  
   
 The most important thing is to be patient and not rush to tap on "Start Sensor" even if xDrip encourages you to.  
 A common mistake is to replace an old transmitter with a new one, stop sensor, change transmitter ID, and start sensor right away. This could result in the new transmitter never receiving the start command at the right time. The outcome is no readings after the 2-hour warm-up.  
