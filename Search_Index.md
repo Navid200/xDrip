@@ -46,6 +46,7 @@ This page contains all the documentation in a flat format.  You can use your bro
 [Volume Profiles](./docs/Volume-profiles.md)  
 [Ascending volume profile - alert too loud - quiet](./docs/Ascending-volume-profile.md)  
 [Snooze - easiest way to snooze](./docs/Snooze.md)  
+[Why do I get a notification for each reading?](./docs/Frequent_notifications.md)  
 [Notification Channels](./docs/Notification-channels.md)  
 [Force speaker - alert raises music volume](./docs/Force-Speaker.md)  
 [Custom Alert Sound](./docs/Custom-Alert-Sound.md)  
