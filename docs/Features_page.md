@@ -19,3 +19,4 @@
 [Legend](./Legend.md)  
 [Extra Status Line](./Extra-status-line.md)  
 [Reminders](./Reminders.md)  
+[Datatables](./Datatables.md)  
