@@ -1,6 +1,7 @@
 # Troubleshooting  
   
-If you are experiencing probelsm using xDrip, some possible issues are listed on this page.  
+If you are experiencing probelms using xDrip, some possible issues are listed on this page.  
+There are open issues here: https://github.com/NightscoutFoundation/xDrip/issues  
 If the problem you experience is not listed, you can reach out to experienced users or developers using "Contact" above.  
 
 [Bluetooth headphone interruption](./Bluetooth-headphone-interruption.md)  
