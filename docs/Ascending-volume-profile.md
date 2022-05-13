@@ -13,7 +13,7 @@ If your alarm wakes up or annoys others around you, this can solve the problem b
 
 <br/>  
 
-The following table summarizes the behavior of the ascending volume profile based on the settings.  The "Delay Ascending Volume" setting is only available if you are using the xDrip release of December 1, 2021 or after.  If not, it's like the setting is always enabled.  
+The following table summarizes the behavior of the ascending volume profile based on the settings.  
 
 | Intended behavior | Vibrate on alert | Delay Ascending Volume | Sound | Vibration | Volume trend |  
 |:-----------------:|:----------------:|:----------------------:|:-----:|:---------:|:------------:|  
