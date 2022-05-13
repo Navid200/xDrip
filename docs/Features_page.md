@@ -4,6 +4,7 @@
 ### [Statistics](./Statistics.md)  
 ### [Nightscout](./Nightscout_page.md)  
 ### [Follow](./Follow_page.md)  
+### [Emergency Messages](./Emergency.md)  
   
 <br/>  
   
