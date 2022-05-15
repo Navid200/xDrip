@@ -20,6 +20,5 @@
 | [1690](https://github.com/NightscoutFoundation/xDrip/issues/1690) | xDrip detecting future data | MiaoMiao | | 2021.03.30 |  
 | [1692](https://github.com/NightscoutFoundation/xDrip/issues/1692) | G5 Dexcom receiver loses connectivity after Feb. 4, 2021 | G5 | | 2021.04.02 |  
 | [1705](https://github.com/NightscoutFoundation/xDrip/issues/1705) | Android 11 database restore (import) malfunction | | 11 | 2021.04.22 |  
-| [1781](https://github.com/NightscoutFoundation/xDrip/issues/1781) | Settings search malfunction | | | 2021.07.14 |  
 | [1786](https://github.com/NightscoutFoundation/xDrip/issues/1786) | Smart alert malfunction | | | 2021.07.20 |  
 | [1789](https://github.com/NightscoutFoundation/xDrip/issues/1789) | Watches interfering with pair request | Dexcom | 10-11 | 2021.07.23 |  
