@@ -1,6 +1,6 @@
 # Index  
   
-This page contains all the documentation in a flat format.  You can use your browser search to find items.  That is the best approach for searching for items until a search capability is added to the site.  
+This page contains all the documentation in a flat format.  You can use your browser's search function on this page to find an item you may have difficulty finding on the site.    
   
 <br/>  
   
