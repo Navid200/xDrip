@@ -2,7 +2,7 @@
   
 | # | Subject | Data Source | Android | Opened |
 |---|---------|--------|---------|--------|
-| [296](https://github.com/NightscoutFoundation/xDrip/issues/296) - [1580](https://github.com/NightscoutFoundation/xDrip/issues/1580) | Calibration issues with Bluetooth glucose meters | | |2018.02.08 |  
+| [296](https://github.com/NightscoutFoundation/xDrip/issues/296) | Calibration issues with Bluetooth glucose meters | | |2018.02.08 |  
 | [414](https://github.com/NightscoutFoundation/xDrip/issues/414) - [691](https://github.com/NightscoutFoundation/xDrip/issues/691) - [800](https://github.com/NightscoutFoundation/xDrip/issues/800) - [920](https://github.com/NightscoutFoundation/xDrip/issues/920) | Delta inconsistency | | | 2018.05.02 |
 | [553](https://github.com/NightscoutFoundation/xDrip/issues/553) | Seekbar title not visible on a small device | | | 2018.08.18 |  
 | [565](https://github.com/NightscoutFoundation/xDrip/issues/565) | Three decimal points resulting in incorrect treatment entry | | | 2018.08.27 |  
