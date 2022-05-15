@@ -3,8 +3,7 @@
 | # | Subject | Data Source | Android | Opened |
 |---|---------|--------|---------|--------|
 | [296](https://github.com/NightscoutFoundation/xDrip/issues/296) | Calibration issues with Bluetooth glucose meters | | |2018.02.08 |  
-| [414](https://github.com/NightscoutFoundation/xDrip/issues/414) - [691](https://github.com/NightscoutFoundation/xDrip/issues/691) - [800](https://github.com/NightscoutFoundation/xDrip/issues/800) - [920](https://github.com/NightscoutFoundation/xDrip/issues/920) | Delta inconsistency | | | 2018.05.02 |
-| [553](https://github.com/NightscoutFoundation/xDrip/issues/553) | Seekbar title not visible on a small device | | | 2018.08.18 |  
+| [414](https://github.com/NightscoutFoundation/xDrip/issues/414) - [691](https://github.com/NightscoutFoundation/xDrip/issues/691) - [800](https://github.com/NightscoutFoundation/xDrip/issues/800) - [920](https://github.com/NightscoutFoundation/xDrip/issues/920) | Delta inconsistency | | | 2018.05.02 |  
 | [565](https://github.com/NightscoutFoundation/xDrip/issues/565) | Three decimal points resulting in incorrect treatment entry | | | 2018.08.27 |  
 | [642](https://github.com/NightscoutFoundation/xDrip/issues/642) | Max sync queue size exceeded | | | 2018.10.26 |  
 | [735](https://github.com/NightscoutFoundation/xDrip/issues/735) - [1196](https://github.com/NightscoutFoundation/xDrip/issues/1196) - [1518](https://github.com/NightscoutFoundation/xDrip/issues/1518) | Nightscout sync issue | Nightscout | | 2019.01.07 |  
