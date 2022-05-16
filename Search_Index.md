@@ -73,7 +73,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Alert is silent](./docs/Silent-alert.md)  
 [Alert re-raise malfunction](./docs/Alert-re‐raise-malfunction.md)  
 [Missed Reading Alert not repeating](./docs/MissedSignalAlert.md)  
-[xDrip causesd other apps to restart](./docs/RestartingApps.md)  
+[xDrip causes other apps to restart](./docs/RestartingApps.md)  
   
   
 ---  
