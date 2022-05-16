@@ -1,6 +1,6 @@
 # Nightscout  
   
-Nightscout can be a (free) repository of all your readings.  
+Nightscout can be a (free) repository of all your xDrip readings.  
 Your readings are important because you need them to create a report for your endocrinologist.  
 You yourself may like to create reports for different time periods in order to examine how your control has changed over long periods of time.  
 Without a repository, all your readings will be on your phone.  What happens if you lose your phone or if your phone is broken?  
