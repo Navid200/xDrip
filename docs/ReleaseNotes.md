@@ -5,6 +5,7 @@ This table does not list every single release.  Only releases that have fixed a 
 | Release | Notes |  
 |---------|-------|  
 | [2022.05.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12) | Version name as the system status subtitle |  
+| [2022.05.03 b](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.03b) | Accept G6 session start type 6 |  
 | [2022.04.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.20) | Control other apps' sound during an xDrip alert |  
 | [2022.04.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.12) | Media player release |  
 | [2022.02.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.02.15) | Full Android watch is not detected as Wear OS anymore.  G6 battery voltage logs kept for 7 days.  xDrip can use either G6 slot. |  
