@@ -1,4 +1,4 @@
-# Troubleshooting  
+# xDrip Troubleshooting  
   
 If you are experiencing probelms using xDrip, some possible issues are listed on this page.  
   
@@ -12,6 +12,6 @@ If you are experiencing probelms using xDrip, some possible issues are listed on
 [xDrip sync not working](./xDrip-Sync-not-working.md)  
 [xDrip causes apps to restart](./RestartingApps.md)  
 
-There are existing open issues [here](https://github.com/NightscoutFoundation/xDrip/issues).  
+You can see existing open issues [here](https://github.com/NightscoutFoundation/xDrip/issues).  
   
-If the problem you experience is not listed, you can reach out to experienced users or developers using the methods described in "Contact" above.  
+If the problem you experience is not listed, please don't open a new issue.  Instead, please reach out to experienced users or developers using the methods described in "Contact" above.  
