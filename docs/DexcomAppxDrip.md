@@ -6,4 +6,4 @@ If you have to use the Dexcom app as your collector and want to use xDrip as a f
   Uninstall the Dexcom app if you have it or any version of it installed.  Then, download and install the BYODA that you created.  
     
   In xDrip, running on the same phone, choose Settings &#8722;> Hardware Data Source &#8722;> 640G / EverSense.  
-  Tap on start sensor and enter the time for 2 hours ago.  It will not interfere with the sensor running in the DExcom app.  But, you should now have readings in xDrip.  
+  Tap on start sensor and enter the time for 2 hours ago.  It will not interfere with the sensor running in the Dexcom app.  But, you should now have readings in xDrip.  
