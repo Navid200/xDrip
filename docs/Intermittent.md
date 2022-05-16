@@ -1,4 +1,4 @@
-## Intermitent Connectivity  
+## xDrip Dexcom Intermitent Connectivity  
   
 xDrip needs to wake up and scan once every 5 minutes in order to maintain connectivity and provide consistent readings.  
 New versions of Android have features to extend the phone battery runtime.  This is done by minimizing background activity.  
