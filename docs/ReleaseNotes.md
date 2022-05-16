@@ -5,6 +5,7 @@ Major releases are listed in this table.
 | Release | Notes |  
 |---------|-------|  
 | [2022.05.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12) | Version name as the system status subtitle |  
+| [2022.05.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.11) | Allow time period locking when Time buttons hidden |  
 | [2022.05.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.06) | Treatment menu blood glucose entry will not be used for calibration unless chosen. |   
 | [2022.05.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.04) | Glucomen |  
 | [2022.05.03 b](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.03b) | Accept G6 session start type 6 |  
