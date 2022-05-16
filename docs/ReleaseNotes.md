@@ -1,10 +1,11 @@
 ## Release Notes  
   
-This table does not list every single release.  Only releases that have fixed a serious error or added a very important feature that keep coming up in questions and require linking to in answers are included.    
+Major releases are listed in this table.     
   
 | Release | Notes |  
 |---------|-------|  
 | [2022.05.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12) | Version name as the system status subtitle |  
+| [2022.05.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.04) | Glucomen |  
 | [2022.05.03 b](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.03b) | Accept G6 session start type 6 |  
 | [2022.04.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.20) | Control other apps' sound during an xDrip alert |  
 | [2022.04.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.12) | Media player release |  
