@@ -1,5 +1,6 @@
-# Frequently Asked Questions  
+# xDrip Frequently Asked Questions  
   
+xDrip FAQ  
   
 [xDrip is not in Google Play Store ...](./App-store.md)  
 [Which xDrip version do I have?](./xDrip-Version.md)  
