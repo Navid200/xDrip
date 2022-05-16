@@ -1,4 +1,4 @@
-# Dexcom  
+# xDrip and Dexcom  
   
 If you use xDrip with a Dexcom G5 or G6 transmitter, this page contains information that may help you.    
 
