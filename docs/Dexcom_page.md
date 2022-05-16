@@ -1,6 +1,6 @@
 # Dexcom  
   
-If you use xDrip as a collector from a G5 or G6 transmitter, this page contains information that may help you.    
+If you use xDrip with a Dexcom G5 or G6 transmitter, this page contains information that may help you.    
 
 [Dexcom basics](./Dexcom-Basics.md)  
 [G5 recommended settings](./G5-Recommended-Settings.md)  
