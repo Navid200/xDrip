@@ -24,4 +24,4 @@ xDrip FAQ
 [Can I calibrate G6?](./Calibrate-G6.md)  
 [Why did G6 do that?](./What-not-to-do.md)  
 [xDrip following Dexcom app](./DexcomAppxDrip.md)  
-[Intermittent connectivity](./Intermittent.md)  
+[Dexcom Intermittent connectivity](./Intermittent.md)  
