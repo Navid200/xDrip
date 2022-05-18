@@ -2,6 +2,8 @@
   
 See [Calibration](./Calibration.md) for details about what calibration is and when and why you should calibrate.  
 
+You should not over-calibrate G6.  Even the manufacturer tells you [that](https://www.dexcom.com/faqs/is-my-dexcom-sensor-accurate).  
+
 You should use an xDrip release not older than the current stable release.  You can see how to update [here](./Updates.md).  
 To calibrate, tap on "Add Calibration" from the top left menu on the main screen.  After starting, or restarting, a sensor, you will have to wait to have at least 3 readings before this option appears.  
 
