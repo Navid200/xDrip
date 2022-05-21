@@ -29,7 +29,7 @@ You need the advice of a competent medical professional to control your, or your
 ---  
   
 ### [Bugs](./docs/Bugs.md)  
-### [Feature Resuests](./docs/Features.md)  
+### [Feature Requests](./docs/Features.md)  
   
 <br/>  
   
