@@ -20,6 +20,7 @@ If you use xDrip with a Dexcom G5 or G6 transmitter, this page contains informat
 [Clear the queue](./Clear-queue.md)  
 [Dexcom One](./Dexcom-One.md)  
 [Transmitter Lifetime](./Transmitter-lifetime.md)  
+[G6 Transmitter Warranty](./G6_Warranty.md)  
 [G6 Slot Number](./G6_slot.md)  
   
 [Session in progress](./Session-in-progress.md)  
