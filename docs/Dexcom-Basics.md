@@ -7,7 +7,7 @@ When you receive a new transmitter, pay attention to the dates printed on the bo
 If the Ship-By or Use-By date is passed, you should not accept the transmitter. It would be like receiving a box of insulin with a passed expiry date.  
 In addition, the warranty is valid only if you start using the transmitter less than 5 months from the date it was sent to you.
 
-Don't establish connectivity to a transmitter unless you intend to use it. As soon as you connect to a new transmitter, even if you don't start a sensor on it, an internal counter starts counting the number of days. You cannot stop it. The last day you can start, or restart, a sensor in native mode is day 99 for a G6 and day 105 for a G5.  
+Don't remove a transmitter from the box unless you intend to use it. As soon as you snap in the transmitter into a sensor, or just touch the contacts for a while, an internal counter starts counting the number of days. You cannot stop it. The last day you can start, or restart, a sensor in native mode is day 99 for a G6 and day 105 for a G5.  
 <br/>
   
 ### Uninstall Dexcom app
