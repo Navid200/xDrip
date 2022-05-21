@@ -1,7 +1,7 @@
 ## What not to do!  
   
-**Don't change the transmitter ID to a new one until you intend to use it.**  
-As soon as you establish connectivity to a new transmitter, even if you don't start a sensor, the counter (on the transmitter) starts counting the number of days.  Since the number of days you can use a transmitter is [limited](./Transmitter-lifetime.md), don't connect unless you intend to start using the transmitter.  
+**Don't remove a transmitter from the box until you intend to use it.**  
+As soon as you place the transmitter in a sensor, or even if you just touch the contacts long enough, the counter (on the transmitter) starts counting the number of days.  Since the number of days you can use a transmitter is [limited](./Transmitter-lifetime.md), don't start the counter unless you intend to start using the transmitter.  The best practice is to keep the transmitter in the box until you intend to use it.   
 
 **Don't start a sensor on a new G6 transmitter before voltages are shown.**  
 Only start a sensor after you have established [connectivity](/Proper-connectivity.md), and can see the voltages reported on the system status page as explained.  
