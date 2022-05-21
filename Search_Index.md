@@ -96,6 +96,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Clear the queue](./docs/Clear-queue.md)  
 [Dexcom One](./docs/Dexcom-One.md)  
 [Transmitter Lifetime](./docs/Transmitter-lifetime.md)  
+[G6 Transmitter Warranty](./docs/G6_Warranty.md)  
 [G6 Slot Number](./docs/G6_slot.md)  
   
 [Session in progress](./docs/Session-in-progress.md)  
