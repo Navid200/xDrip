@@ -6,5 +6,5 @@ It's a good idea to keep track of voltage B as you use the transmitter.  For exa
 
 The voltages vary from transmitter to transmitter.  But, what is consistent, for all transmitters, is that when the battery is about to fail, voltage B starts dropping on a continuous trajectory.  That's why it's a good idea to keep track of voltage B.  
 
-The following image shows voltage B for five different G6 transmitters.  
+The following image shows voltage B for six different G6 transmitters.  
 ![](./images/voltage_b_trend.png)  
