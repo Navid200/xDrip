@@ -5,7 +5,7 @@
 ### Requests for Help  
 If you need help using xDrip, please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions) or [facebook](https://www.facebook.com/groups/xDripG5).  
 include the following in the first post.  
-- What device is attached to the sensor.  
+- What device is attached to the sensor. For example, Dexcom G6, or MIAOMIAO.  
 - Is xDrip the collector or a follower?  
 - If the collector, what brand and model is the phone, and what Android version is on the phone?  
 - If a follower, what follower scheme is used?  
