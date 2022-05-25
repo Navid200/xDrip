@@ -14,6 +14,7 @@ Major releases are listed in this table.
 | [2022.04.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.25) | Dexcom dynamic warm-up time |  
 | [2022.04.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.20) | Control other apps' sound during an xDrip alert |  
 | [2022.04.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.12) | Media player release |  
+| [2022.04.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.05) | BlueJay allows engineering slot number |  
 | [2022.02.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.02.15) | Full Android watch is not detected as Wear OS anymore.  G6 battery voltage logs kept for 7 days.  xDrip can use either G6 slot. |  
 | [2022.02.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.02.09) | Dexcom share user ID format (email address, special characters, ...) incompatibilities addressed |  
 | [2022.01.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.01.14) | G6 and AAPS conflicts resolved |  
