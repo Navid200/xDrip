@@ -9,6 +9,7 @@ Major releases are listed in this table.
 | [2022.05.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.06) | Treatment menu blood glucose entry will not be used for calibration unless chosen. |   
 | [2022.05.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.04) | Glucomen |  
 | [2022.05.03 b](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.03b) | Accept G6 session start type 6 |  
+| [2022.04.30](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.30) | Enable/disable option for the sound of inter-app import |  
 | [2022.04.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.20) | Control other apps' sound during an xDrip alert |  
 | [2022.04.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.12) | Media player release |  
 | [2022.02.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.02.15) | Full Android watch is not detected as Wear OS anymore.  G6 battery voltage logs kept for 7 days.  xDrip can use either G6 slot. |  
