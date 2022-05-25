@@ -10,6 +10,8 @@ You need the advice of a competent medical professional to control your, or your
   
 <br/>  
   
+---  
+  
 ### [Requirements](./docs/Requirements_page.md)  
   
 ### [Installation](./docs/Installation_page.md)  
