@@ -1,6 +1,6 @@
 ## Release Notes  
   
-Major releases are listed in this table.     
+Major releases are listed here.  
   
 | Release | Notes |  
 |---------|-------|  
