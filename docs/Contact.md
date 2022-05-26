@@ -22,16 +22,13 @@ Please help us manage the issues more efficiently by opening a [discussion](http
 #### What you shouldn't include  
 Items like user IDs, passwords, serial numbers, full name, address, phone number etc. can identify you or something that belongs to you.  We don't need any of those in order to help you.  Some of those information may be included in xDrip logs or shown on status pages.  You can blackout such information before posting.  
 On the other hand, the xDrip version you are using or the firmware version of the transmitter you are using are very important and can be relavant and will not compromize your privacy.  So, please include those.  
-
-<br/> 
-
+  
   
 ### Suggestions 
 To reach out to developers, post in the [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  
 xDrip is constantly being improved and your suggestions are welcome.  But, please note that there is a price to pay for every new feature.  xDrip needs to be maintained and documented.  That means xDrip bugs need to be fixed.  The more features there are, the more complicated the bugs will become.  
 Please post your suggestions.  But, please be patient.  
   
-<br/>  
   
 ### Feedback  
 If you find an item on this support site that is not explained clearly, or if you like a subject to be added, or if you have found erros, please message [me](https://www.facebook.com/navid.fo/) on facebook, or post in [facebook](https://www.facebook.com/groups/xDripG5) or [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  Please include a link to the page to clarify which page you are referring to.  
