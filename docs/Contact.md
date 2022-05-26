@@ -1,6 +1,5 @@
 ## Contact  
-
-<br/>  
+  
   
 ### Requests for Help  
 If you need help using xDrip, please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions) or [facebook](https://www.facebook.com/groups/xDripG5).  
