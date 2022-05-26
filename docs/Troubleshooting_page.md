@@ -11,6 +11,7 @@ If you are experiencing probelms using xDrip, some possible issues are listed on
 [Dexcom share not working](./Dexcom-share-delta-format-change.md)  
 [xDrip sync not working](./xDrip-Sync-not-working.md)  
 [xDrip causes apps to restart](./RestartingApps.md)  
+[Number wall on lock screen does not disable](./NumberWallDisable.md)  
 
 You can see existing open issues [here](https://github.com/NightscoutFoundation/xDrip/issues).  
   
