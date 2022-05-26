@@ -2,7 +2,6 @@
   
 ![](./images/Install.png)  
   
-<br/>  
   
 [Where can I download xDrip from?](./Download-xDrip.md)  
 [Update xDrip](./Updates.md)  
