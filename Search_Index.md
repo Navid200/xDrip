@@ -75,6 +75,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Alert re-raise malfunction](./docs/Alert-re‐raise-malfunction.md)  
 [Missed Reading Alert not repeating](./docs/MissedSignalAlert.md)  
 [xDrip causes other apps to restart](./docs/RestartingApps.md)  
+[Number wall on lock screen does not disable](./docs/NumberWallDisable.md)  
   
   
 ---  
