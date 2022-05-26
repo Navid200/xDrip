@@ -26,3 +26,5 @@ xDrip FAQ
 [Why did G6 do that?](./What-not-to-do.md)  
 [xDrip following Dexcom app](./DexcomAppxDrip.md)  
 [Dexcom Intermittent connectivity](./Intermittent.md)  
+  
+[How can I ask a question or make a suggestion?](./Contact.md)    
