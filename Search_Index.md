@@ -24,6 +24,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 ### What/Where?  
 [Where are the Logs?](./docs/Logs.md)  
 [Which xDrip version do I have?](./docs/xDrip-Version.md)  
+[Why nothing happens when I check for updates?](./docs/NoUpdate.md)  
 [Emergency Messages](./docs/Emergency.md)  
 [Screensaver (lock screen) while being charged](./docs/Screensaver.md)  
 [Lock Screen](./docs/Lock-screen.md)  
