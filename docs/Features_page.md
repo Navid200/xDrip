@@ -9,7 +9,7 @@
 <br/>  
   
 [Logs](./Logs.md)  
-[Screensaver (lock screen) while being charged](./Screensaver.md)  
+[Screen saver (lock screen) while being charged](./Screensaver.md)  
 [Lock Screen](./Lock-screen.md)  
 [Sensor expiry](./Sensor-Expiry.md)  
 [Connect the dots!](./Connect-the-dots.md)  
