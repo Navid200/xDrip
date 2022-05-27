@@ -8,7 +8,7 @@ The rest of the xDrip alerts, not on that list, are not affected by the volume p
 |----------------|-------------|  
 | High           | 100%        |  
 | Medium         | 70%         |  
-| [Ascending](./Ascending-volume-profile.md)      | Starting low and gradually increading to max |  
+| [Ascending](./Ascending-volume-profile.md)      | Starting low and gradually increasing to max |  
 | Vibrate only   | No sound - only vibrate |  
 | Silent         | Silent     |  
   
