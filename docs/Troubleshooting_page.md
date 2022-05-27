@@ -1,6 +1,6 @@
 # xDrip Troubleshooting  
   
-If you are experiencing probelms using xDrip, some possible issues are listed on this page.  
+If you are experiencing problems using xDrip, some possible issues are listed on this page.  
   
   
 [Bluetooth headphone interruption](./Bluetooth-headphone-interruption.md)  
