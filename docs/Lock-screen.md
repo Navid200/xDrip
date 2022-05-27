@@ -5,4 +5,4 @@ To do this, go to Settings &#8722;> xDrip+ Display Setting &#8722;> Number Wall 
 Configure Number Wall let's you customize the reading by choosing the location on screen as well as choosing an image.  
 Enable "Use on Lock screen".  
   
-When the phone is being charged, the [Android screensaver](./Screensaver.md) will be in effect taking priority over this setting.  
+When the phone is being charged, the [Android screen saver](./Screensaver.md) will be in effect taking priority over this setting.  
