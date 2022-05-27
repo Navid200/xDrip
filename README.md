@@ -14,6 +14,7 @@ You need the advice of a competent medical professional to control your, or your
 ### [Features](./docs/Features_page.md)    
 ### [Dexcom](./docs/Dexcom_page.md)  
 ### [Libre](./docs/Libre.md)  
+### [Watches](./docs/Watches.md)  
 ### [Troubleshooting](./docs/Troubleshooting_page.md)  
 ### [Frequenty Asked Questions](./docs/FAQ_page.md)  
 ### [Index (search)](./Search_Index.md)  
