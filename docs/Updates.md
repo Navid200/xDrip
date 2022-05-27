@@ -23,7 +23,7 @@ To confirm that the update succeeded, go to classic status page and check the fi
 
 To select which update channel you use, go to Settings &#8722;> xDrip+ Update Settings.  
 ![](./images/auto_update.png)  
-You need to choose alpha in order for the nightly option to become visibale.  
+You need to choose alpha in order for the nightly option to become visible.  
 To use the auto update check, enable Automatic update check.  
 You may need to restart.  Now, you will be notified when there is a new release in your selected channel.  
   
