@@ -1,4 +1,4 @@
-## G5 Recomended Settings  
+## G5 Recommended Settings  
   
   These are the recommended G5 settings.  Click/tap on the links to see the details.  
 
