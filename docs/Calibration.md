@@ -1,7 +1,7 @@
 ## Calibration  
   
 ### What is Calibration  
-The current continuous glucose monitoring (CGM) technology is limited to measuring glucose in interstitial fluid.  But, the glucose level in blood is not the same as the glucose level in interstitial fluid.  Fortunately, they are corelated.  A formula is used to calculate blood glucose from the measured interstitial fluid glucose.  
+The current continuous glucose monitoring (CGM) technology is limited to measuring glucose in interstitial fluid.  But, the glucose level in blood is not the same as the glucose level in interstitial fluid.  Fortunately, they are correlated.  A formula is used to calculate blood glucose from the measured interstitial fluid glucose.  
   
 The CGM measures the interstitial fluid glucose.  We calibrate, by telling the CGM what our blood glucose is, after measuring it using our blood glucose meter.    The CGM uses these two figures to formulate the relationship.  
   
