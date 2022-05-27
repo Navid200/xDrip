@@ -1,4 +1,4 @@
-## G6 Recomended Settings  
+## G6 Recommended Settings  
   
   These are the recommended G6 settings.  Click/tap on the links to see the details.  
 
