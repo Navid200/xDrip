@@ -6,4 +6,4 @@ Make a record of the current setting so that you remember in case you want to un
 Scroll all the way down, and tap on "Disable Collection".  
 ![](./images/DisableCollection.png)  
 
-To reenable xDrip, go back to Hardware Data Source and choose the collection system you were using before. For example, if you were using G5 or G6, that would be "G5/G6 Transmitter".  
+To re-enable xDrip, go back to Hardware Data Source and choose the collection system you were using before. For example, if you were using G5 or G6, that would be "G5/G6 Transmitter".  
