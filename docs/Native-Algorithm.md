@@ -1,6 +1,6 @@
 ## Native Algorithm  
   
-The sensor has no direct access to blood.  It has access to interstitial fluid.  The interstitial fluid glucose and blood glucose are corelated.  The sensor measures glucose in interstitial fluid.  From that, the CGM calculates the blood glucose.  A formula is used to do the calculation.  When we perform a blood glucose measurement, with our glucose meter, and enter the reading into the continuous glucose monitoring system (CGM), and perform a calibration, the CGM updates the formula using the current interstitial fluid glucose and the blood glucose reading we just entered.  
+The sensor has no direct access to blood.  It has access to interstitial fluid.  The interstitial fluid glucose and blood glucose are correlated.  The sensor measures glucose in interstitial fluid.  From that, the CGM calculates the blood glucose.  A formula is used to do the calculation.  When we perform a blood glucose measurement, with our glucose meter, and enter the reading into the continuous glucose monitoring system (CGM), and perform a calibration, the CGM updates the formula using the current interstitial fluid glucose and the blood glucose reading we just entered.  
 
 When we use the native algorithm, the transmitter maintains the formula.    In non-native mode, xDrip maintains the formula.  The following table provides a comparison.  
 
