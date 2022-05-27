@@ -6,7 +6,7 @@ At the top, tap on 90D for the past 90 days. Tap on share from the top right men
 Alternatively, you can create the two images from [Nightscout](./Nightscout.md).  In that case, choose "Reports" from the Nightscout menu.  Then, use "Percentile Chart" and "Distribution" to create the two images.  Make sure to choose a 3-month period up to now.   
   
 Create a document using your favorite word processor. On the first page, enter your name, contact details, date, and doctor's name.  
-Enter the names of your insulins and how much you take from each.  
+Enter the names of your insulin types and how much you take from each.  
   
 Import the graph you emailed to yourself into page 2. At the top of the page, enter Ambulatory Glucose Profile Report (AGP) and the date range. Also include your Low Value and High Value (which you can find under Settings, Glucose Units) if you are using images from xDrip.  If you are using images from Nightscout, the parameters are already included in the image.    
 Import the other page you emailed to yourself, containing all the parameters, into page 3. Add the date range, and your Low Value and High Value (if you are using images from xDrip and not Nightscout) on this page as well.  
