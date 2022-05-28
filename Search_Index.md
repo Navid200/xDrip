@@ -42,6 +42,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Statistics](./docs/Statistics.md)  
 [&#x24c5; Encircled P in front of the reading](./docs/P_in_Circle.md)  
 [Datatables](./docs/Datatables.md)  
+[Automatic Calibration](./docs/AutoCal.md)  
   
 ---  
 ### Alerts  
