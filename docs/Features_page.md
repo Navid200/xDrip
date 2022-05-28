@@ -20,3 +20,4 @@
 [Extra Status Line](./Extra-status-line.md)  
 [Reminders](./Reminders.md)  
 [Datatables](./Datatables.md)  
+[Automatic Calibration](./AutoCal.md)  
