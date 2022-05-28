@@ -12,6 +12,8 @@ Enable Samsung workarounds even if your phone is not Samsung.
 
 * Settings &#8722;> Less common settings &#8722;> [Bluetooth Settings](./images/ble-recommended-stngs.png)  
 
+* Disable Settings &#8722;> Less common settings &#8722;> Advanced Calibration &#8722;> Automatic Calibration  
+
 * Use Android Settings to sync its time with the network as explained in "[Basics](./Dexcom-Basics.md#phone-time-accuracy)".  
 
 * Disable battery optimization as explained in "[Basics](./Dexcom-Basics.md#battery-optimization)".  
