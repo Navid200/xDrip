@@ -19,7 +19,7 @@ You need the advice of a competent medical professional to control your, or your
 ### [Libre](./docs/Libre.md)  
 ### [Watches](./docs/Watches.md)  
 ### [Troubleshooting](./docs/Troubleshooting_page.md)  
-### [Frequenty Asked Questions](./docs/FAQ_page.md)  
+### [Frequently Asked Questions](./docs/FAQ_page.md)  
 ### [Index (search)](./Search_Index.md)  
 ---    
 ### [Release Notes](./docs/ReleaseNotes.md)  
