@@ -4,6 +4,7 @@ Major releases are listed here.
   
 | Release | Notes |  
 |---------|-------|  
+| [2022.06.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.01) | Advanced calibration "Use Treatment BG values" will be ignored when automatic calibration is enabled.  Set only Alert once |  
 | [2022.05.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12) | Version name as the system status subtitle |  
 | [2022.05.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.11) | Allow time period locking when Time buttons hidden |  
 | [2022.05.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.06) | Treatment menu blood glucose entry will not be used for calibration unless chosen. |   
