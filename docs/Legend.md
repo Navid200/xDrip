@@ -7,3 +7,6 @@ The following shows the page, without the example chart.
   
 The following image shows a sample main screen with the default treatment/prediction colors and characteristics identified.  
 ![](./images/legend2.png)  
+  
+A reading that is a backfill is highlighted as shown in the following image.  
+![](./images/BackfillLegend.png)  
