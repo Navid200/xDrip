@@ -10,6 +10,6 @@ The last day you can start (or restart) a sensor on a transmitter in [native mod
   
 ![](./images/TransmitterDays.png)  
   
-After you successfully start a sensor, it will work for 10 days (7 days for G5).  
+After you successfully start a sensor, it will work for 10 days (7 days for G5 in native mode).  
 
 Hard resetting a transmitter does nothing to the battery.  If the battery is dying, you will need to replace the battery.  
