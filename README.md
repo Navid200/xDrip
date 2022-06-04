@@ -7,7 +7,7 @@ You need the advice of a competent medical professional to control your, or your
   
 **[Warning!  Check for updates is currently not fully functional](https://github.com/NightscoutFoundation/xDrip/discussions/2152)**  
   
-|        |  
+| xDrip  |  
 |--|--|--|  
 | [Requirements](./docs/Requirements_page.md) | [Installation](./docs/Installation_page.md) | [Features](./docs/Features_page.md) |  
 | [Dexcom](./docs/Dexcom_page.md) | [Libre](./docs/Libre.md) | [Watches](./docs/Watches.md) |  
