@@ -1,17 +1,15 @@
-# xDrip Documentation & Support  
+## xDrip Documentation & Support  
   
   
 xDrip is an Android app that turns your smartphone into a continuous glucose monitor receiver.  
 The documentation, instructions and guides here are provided to help you use xDrip.  
 ![](./docs/images/xDinaction.png)  
-  
 You need the advice of a competent medical professional to control your, or your loved one's, diabetes. Neither xDrip nor this page provides any medical advice.  
   
 ---  
 **Warning!  Check for updates is currently not fully functional [https://github.com/NightscoutFoundation/xDrip/discussions/2152](https://github.com/NightscoutFoundation/xDrip/discussions/2152)**    
   
   
----  
   
 |  |  |  |  
 |--|--|--|  
