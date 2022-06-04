@@ -10,8 +10,7 @@ You need the advice of a competent medical professional to control your, or your
 |  |  |  |  
 |--|--|--|  
 | [Requirements](./docs/Requirements_page.md) | [Installation](./docs/Installation_page.md) | [Features](./docs/Features_page.md) |  
-| [Dexcom](./docs/Dexcom_page.md) | | |  
-| [Libre](./docs/Libre.md) | [Watches](./docs/Watches.md) | |  
+| [Dexcom](./docs/Dexcom_page.md) | [Libre](./docs/Libre.md) | [Watches](./docs/Watches.md) |  
 | [Troubleshoot](./docs/Troubleshooting_page.md) | [F.A.Q.](./docs/FAQ_page.md) | [Index (search)](./Search_Index.md) |  
 | [Release Notes](./docs/ReleaseNotes.md) | [Bugs](./docs/Bugs.md) | [Feature Requests](./docs/Features.md) |  
   
