@@ -1,5 +1,5 @@
 ## Feature Requests  
-To submit a feature request, please open a [discussion](https://github.com/NightscoutFoundation/xDrip/discussions) and explain your proposal.  Answer any questions that may come up.  If the developers agree that the request can benefit the user community, they will state what the next steps will be.  
+To submit a feature request, please open a [discussion](https://github.com/NightscoutFoundation/xDrip/discussions) first and explain your proposal.  Answer any questions that may come up.  If the developers agree that the request can benefit the user community, they will state what the next steps will be.  
   
   | # | Subject | Opened |
 |---|---------|--------|  
