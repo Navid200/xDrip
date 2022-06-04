@@ -12,6 +12,7 @@ You need the advice of a competent medical professional to control your, or your
   
   
 ---  
+  
 |--|--|--|  
 | [Requirements](./docs/Requirements_page.md) | [Installation](./docs/Installation_page.md) | [Features](./docs/Features_page.md) |  
 | [Dexcom](./docs/Dexcom_page.md) | | |  
