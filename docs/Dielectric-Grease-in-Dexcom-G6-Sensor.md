@@ -1,6 +1,6 @@
 ## Petroleum Jelly in Dexcom G6 Sensor  
   
-After inserting the sensor and before snapping in the transmitter, you can see small blobs of dielectric grease inside the sensor around the contacts.  
+After inserting the sensor and before snapping in the transmitter, you can see small blobs of petroleum jelly inside the sensor around the contacts.  
 Don't wipe them off. Don't let dust or any other material get into it.  
 
 You should wait a minute or two to make sure there is no bleeding. If there is, use Q-tips to absorb the blood and keep doing it until bleeding stops. If blood gets into the contacts, it could compromise the insulation of the two contacts resulting in erroneous low readings.  
