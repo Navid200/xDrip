@@ -1,4 +1,4 @@
-## Dielectric Grease in Dexcom G6 Sensor  
+## Petroleum Jelly in Dexcom G6 Sensor  
   
 After inserting the sensor and before snapping in the transmitter, you can see small blobs of dielectric grease inside the sensor around the contacts.  
 Don't wipe them off. Don't let dust or any other material get into it.  
