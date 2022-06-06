@@ -9,4 +9,4 @@ Uninstalling xDrip should be a last resort.
 So, please don't uninstall unless you absolutely need to.  If you do, create a [backup of the database](./Backup-Database.md) before uninstall.  
 
 Right after reinstall, [restore the database](./Restore-Database.md).  
-Don't set up your collector before restoring the database.  If you do, restoring database after will overwrite all the new readings.  
+Don't set up your collector before restoring the database.  Restoring the database will overwrite all readings.  There is no way to restore a database while maintaining the previous readings unless they are all included in the database being restored.  
