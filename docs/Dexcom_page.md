@@ -33,4 +33,4 @@ If you use xDrip with a Dexcom G5 or G6 transmitter, this page contains informat
 [Restart G6](./Restart-G6-sensor.md)  
 [Remove a G6 transmitter from sensor](./Remove-transmitter.md)  
 [Calibrate G6 after a restart](./Calibrate-after-G6Restart.md)  
-[Gel (petroleum jelly) on the transmitter contacts](./Dielectric-Grease-in-Dexcom-G6-Sensor.md)  
+[Petroleum jelly on the transmitter contacts](./Dielectric-Grease-in-Dexcom-G6-Sensor.md)  
