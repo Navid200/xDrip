@@ -25,4 +25,4 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1786](https://github.com/NightscoutFoundation/xDrip/issues/1786) | Smart alert malfunction | | | 2021.07.20 |  
 | [1789](https://github.com/NightscoutFoundation/xDrip/issues/1789) | Watches interfering with pair request | Dexcom | 10-11 | 2021.07.23 |  
 | [1813](https://github.com/NightscoutFoundation/xDrip/issues/1813) | Motion tracking fails and is disabled | | | 2021.08.16 |  
-
+| [1891](https://github.com/NightscoutFoundation/xDrip/issues/1891) | Number Wall on Lock Screen causing other apps to restart | | | 2021.12.12 |  
