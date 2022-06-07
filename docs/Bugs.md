@@ -23,3 +23,4 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1705](https://github.com/NightscoutFoundation/xDrip/issues/1705) | Android 11 database restore (import) malfunction | | 11 | 2021.04.22 |  
 | [1786](https://github.com/NightscoutFoundation/xDrip/issues/1786) | Smart alert malfunction | | | 2021.07.20 |  
 | [1789](https://github.com/NightscoutFoundation/xDrip/issues/1789) | Watches interfering with pair request | Dexcom | 10-11 | 2021.07.23 |  
+| [1537](https://github.com/NightscoutFoundation/xDrip/issues/1537) | Readings off the 5-minute grid |  
