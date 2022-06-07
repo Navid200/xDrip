@@ -30,3 +30,4 @@ To submit a feature request, please open a [discussion](https://github.com/Night
 | [1864](https://github.com/NightscoutFoundation/xDrip/issues/1864) | Option to save Logs | 2021.10.29 |  
 | [1872](https://github.com/NightscoutFoundation/xDrip/issues/1872) | Requests for support: Watches | Consolidated |  
 | [1878](https://github.com/NightscoutFoundation/xDrip/issues/1878) | 0.05 insulin resolution | 2021.11.18 |  
+| [1889](https://github.com/NightscoutFoundation/xDrip/issues/1889) | Medtrum A8 (nano) | 2021.12.08 |  
