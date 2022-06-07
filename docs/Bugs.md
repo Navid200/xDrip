@@ -16,6 +16,7 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1299](https://github.com/NightscoutFoundation/xDrip/issues/1299) | Treatment note impacting the vertical axis scale | | | 2020.04.13 |  
 | [1331](https://github.com/NightscoutFoundation/xDrip/issues/1331) | Status line layout | | | 2020.05.05 |  
 | [1503](https://github.com/NightscoutFoundation/xDrip/issues/1503) | Android 11 notification channel settings missing | | 11 | 2020.11.11 |  
+| [1537](https://github.com/NightscoutFoundation/xDrip/issues/1537) | Readings off the 5-minute grid | Dexcom | | 2020.12.04 |  
 | [1617](https://github.com/NightscoutFoundation/xDrip/issues/1617) | Graph disappearing for L2 | L2 | | 2021.01.19 |  
 | [1664](https://github.com/NightscoutFoundation/xDrip/issues/1664) | Android 10 and 11 link interruptions with G6 | G6 | 10-11 | 2021.03.02 |  
 | [1690](https://github.com/NightscoutFoundation/xDrip/issues/1690) | xDrip detecting future data | MiaoMiao | | 2021.03.30 |  
@@ -23,4 +24,3 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1705](https://github.com/NightscoutFoundation/xDrip/issues/1705) | Android 11 database restore (import) malfunction | | 11 | 2021.04.22 |  
 | [1786](https://github.com/NightscoutFoundation/xDrip/issues/1786) | Smart alert malfunction | | | 2021.07.20 |  
 | [1789](https://github.com/NightscoutFoundation/xDrip/issues/1789) | Watches interfering with pair request | Dexcom | 10-11 | 2021.07.23 |  
-| [1537](https://github.com/NightscoutFoundation/xDrip/issues/1537) | Readings off the 5-minute grid |  
