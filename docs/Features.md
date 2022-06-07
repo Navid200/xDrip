@@ -27,4 +27,5 @@ To submit a feature request, please open a [discussion](https://github.com/Night
 | [1672](https://github.com/NightscoutFoundation/xDrip/issues/1672) | Don't enable Out of process libre algorithm | 2021.03.14 |  
 | [1762](https://github.com/NightscoutFoundation/xDrip/issues/1762) | Consistent behavior and capability of alerts | 2021.06.21 |  
 | [1793](https://github.com/NightscoutFoundation/xDrip/issues/1793) | Notification channel for number icon | 2021.07.31 |  
+| [1864](https://github.com/NightscoutFoundation/xDrip/issues/1864) | Option to save Logs | 2021.10.29 |  
 | [1872](https://github.com/NightscoutFoundation/xDrip/issues/1872) | Requests for support: Watches | Consolidated |  
