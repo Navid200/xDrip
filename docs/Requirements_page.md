@@ -10,5 +10,5 @@ You need to be the one making decisions. You need to consult with a competent me
 [No medical decisions](./Medical.md)  
 [Phone plan](./Smartphone-Requirements.md)  
 [Android](./Android.md)  
-[Android auto update](./Android-auto-update.md)  
+[Android auto-update](./Android-auto-update.md)  
   
