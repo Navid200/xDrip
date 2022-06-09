@@ -4,6 +4,7 @@ Major releases are listed here.
   
 | Release | Notes |  
 |---------|-------|  
+| [2022.06.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.09) | Improved Dexcom collector connectivity - System status Transmitter Days highlights end of life |  
 | [2022.06.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.02) | New "Companion" Hardware Data Source - Can read from CamAPS|  
 | [2022.06.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.01) | Advanced calibration "Use Treatment BG values" will be ignored when automatic calibration is enabled.  Set only Alert once |  
 | [2022.05.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12) | Version name as the system status subtitle |  
