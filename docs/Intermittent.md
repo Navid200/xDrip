@@ -11,7 +11,7 @@ It is hard to provide instructions for all available brands and models of handse
 [G5](./G5-Recommended-Settings.md)  
 [G6](./G6-Recommended-Settings.md)    
 3. Disable any battery optimization/adaptation settings you can find under Android Settings -> Battery.  
-4. If the problem persists, please update to the Nightly relese: https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.09  
+4. If the problem persists, please update to the Nightly release: https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.09  
 <!--- 5. If the problem persists, and you are on Android 10 or higher, disable "Avoid Scanning" on the G5/G6 Debug Settings page. You can also disable "Minimize Scanning".  Please note that those two settings are intentionally enabled on Android 10 and above because it's believed to give the best results.  But, it may vary on some devices.  
 6. If the problem persists, re-enable "Minimize Scanning" and "Avoid Scanning" on Android 10 or higher.  
 Does it keep unpairing?  Do you get frequent pair requests?  If yes, disable "Allow OB1 unbonding".  --->  
