@@ -5,6 +5,7 @@
 ### [Nightscout](./Nightscout_page.md)  
 ### [Follow](./Follow_page.md)  
 ### [Emergency Messages](./Emergency.md)  
+### [Report](./Report.md)  
   
 <br/>  
   
@@ -15,7 +16,6 @@
 [Connect the dots!](./Connect-the-dots.md)  
 [Engineering mode](./Engineering-Mode.md)  
 [Stop xDrip - disable collection](./Stop-xDrip.md)  
-[Simple Report](./Report.md)  
 [Legend](./Legend.md)  
 [Extra Status Line](./Extra-status-line.md)  
 [Reminders](./Reminders.md)  
