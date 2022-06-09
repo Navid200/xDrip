@@ -1,6 +1,6 @@
 ## How to follow  
   
-There are several options for following someone's readings as well as using xDrip when not the collector.  
+There are several options for following someone's readings as well as using xDrip when using another device or app as the collector.  
   
 ### 1. xDrip Sync Follower (needs internet except Desert Sync)  
 This is easy to set up.  But, it relies on Google.  
