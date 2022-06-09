@@ -18,6 +18,7 @@ If you use xDrip with a Dexcom G5 or G6 transmitter, this page contains informat
 [Hard reset](./Hard-Reset.md)  
 [Transmitter Queue](./Transmitter-Queue.md)  
 [Clear the queue](./Clear-queue.md)  
+[Restart G5](./Restart-G5-sensor.md)  
 [Dexcom One](./Dexcom-One.md)  
 [Transmitter Lifetime](./Transmitter-lifetime.md)  
 [G6 Transmitter Warranty](./G6_Warranty.md)  
