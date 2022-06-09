@@ -97,6 +97,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Hard reset](./docs/Hard-Reset.md)  
 [Transmitter Queue](./docs/Transmitter-Queue.md)  
 [Clear the queue](./docs/Clear-queue.md)  
+[Restart G5](./docs/Restart-G5-sensor.md)  
 [Dexcom One](./docs/Dexcom-One.md)  
 [Transmitter Lifetime](./docs/Transmitter-lifetime.md)  
 [G6 Transmitter Warranty](./docs/G6_Warranty.md)  
