@@ -25,7 +25,7 @@ To select which update channel you use, go to Settings &#8722;> xDrip+ Update Se
 ![](./images/auto_update.png)  
 You need to choose alpha in order for the nightly option to become visible.  
 To use the auto update check, enable Automatic update check.  
-You may need to restart.  Now, you will be notified when there is a new release in your selected channel.  
+You may need to restart.  Now, you will be notified when there is a new release in your selected channel. **Currently, this capability is not working for the Beta and Stable channels.**   
   
 Even if you don't want to use the automatic update check feature, you should choose the update channel you prefer.  
-When you tap on the top right menu button on the main screen and tap on "Check for updated version", xDrip checks your selected channel only.  
+When you tap on the top right menu button on the main screen and tap on "Check for updated version", xDrip checks your selected channel only. **Currently, this does not work for the Beta and Stable channels.**  
