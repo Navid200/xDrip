@@ -1,8 +1,7 @@
 ## How to follow  
   
-There are several options for following someone's readings.  
-<br/>
-
+There are several options for following someone's readings as well as using xDrip when not the collector.  
+  
 ### 1. xDrip Sync Follower (needs internet except Desert Sync)  
 This is easy to set up.  But, it relies on Google.  
 On master, go to Settings &#8722;> xDrip+ Sync settings, and tap on "Be master for followers".  
