@@ -3,6 +3,7 @@
 ![](./images/Install.png)  
   
   
+[Requirements](./Requirements_page.md)  
 [Where can I download xDrip from?](./Download-xDrip.md)  
 [Update xDrip](./Updates.md)  
 [Backup database](./Backup-Database.md)  
