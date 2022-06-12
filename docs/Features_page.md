@@ -5,6 +5,7 @@
 ### [Nightscout](./Nightscout_page.md)  
 ### [Follow](./Follow_page.md)  
 ### [Emergency Messages](./Emergency.md)  
+### [Watches](./Watches.md)  
 ### [Report](./Report.md)  
   
 <br/>  
