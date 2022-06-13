@@ -10,9 +10,8 @@ xDrip has different update channels.
 | Stable         | Stable and Beta are usually the same |  
   
   
-To download xDrip, go [here](https://github.com/NightscoutFoundation/xDrip/).  
-To download the latest stable version, go to "Latest".  
-To access the nightly builds (least tested but more recent), go to "Releases".  
+You can download the latest stable version from "Latest" [here](https://github.com/NightscoutFoundation/xDrip/).  
+You can download the nightly builds (least tested but more recent), from "Releases" [here](https://github.com/NightscoutFoundation/xDrip/).  
   
 ![](./images/Releases.png) 
   
