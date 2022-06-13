@@ -52,7 +52,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Snooze - easiest way to snooze](./docs/Snooze.md)  
 [Why do I get a notification for each reading?](./docs/Frequent_notifications.md)  
 [Notification Channels](./docs/Notification-channels.md)  
-[Force speaker - alert raises music volume](./docs/Force-Speaker.md)  
+[Audio Focus - alert raises music volume](./docs/AudioFocus.md)  
 [Custom Alert Sound](./docs/Custom-Alert-Sound.md)  
   
 ---  
