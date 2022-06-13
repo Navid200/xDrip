@@ -7,6 +7,6 @@
 [Ascending volume profile - alert too loud - quiet](./Ascending-volume-profile.md)  
 [Snooze](./Snooze.md)  
 [Notification Channels](./Notification-channels.md)  
-[Force speaker - alert raises music volume](./Force-Speaker.md)  
+[Audio Focus - alert raises music volume](./AudioFocus.md)  
 [Custom Alert Sound](./Custom-Alert-Sound.md)  
   
