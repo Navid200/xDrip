@@ -11,4 +11,4 @@ Then, long press on the microphone symbol at the bottom right corner of the form
 
 Then, type "enable engineering mode" without the quotes.  
 
-To disable engineering mode, disable it on the page at Settings &#8722;> Less common settings &#8722;> Other misc option. 
+To disable engineering mode, disable it on the page at Settings &#8722;> Less common settings &#8722;> Other misc options.  
