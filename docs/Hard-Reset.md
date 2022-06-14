@@ -1,5 +1,7 @@
 ## Hard Reset  
   
+No need to enable [enginnering mode](./Engineering-Mode.md) in order to perform a a hard reset.    
+  
 You can hard reset a G5.  
 You can also hard reset a G6 if the serial number starts with 80.  
 You can also hard reset a G6 with a serial number that starts with 81 if the Firmware version is 1.6.5.25 or prior to that.  
