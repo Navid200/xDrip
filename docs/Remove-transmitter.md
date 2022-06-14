@@ -1,6 +1,6 @@
 ## Removing a G6 transmitter without damaging the sensor  
   
-A G6 transmitter is shown in the following figure.  Where the sensor prong latch is marked in the figure.  
+A G6 transmitter is shown in the following figure, in which the sensor prong latch is marked.  
 ![](./images/g6-tx-side-2.png)  
 
 A sensor is shown in the following figure.  
