@@ -4,6 +4,7 @@ Major releases are listed here.
   
 | Release | Notes |  
 |---------|-------|  
+| [2022.06.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.13) | Web Follower |  
 | [2022.06.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.12) | Ask user to update OOP2 to 1.2 - No AAPS profile import pop-up |   
 | [2022.06.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.09) | Improved Dexcom collector connectivity - System status Transmitter Days highlights end of life |  
 | [2022.06.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.02) | New "Companion" Hardware Data Source - Can read from CamAPS|  
