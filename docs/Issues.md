@@ -29,9 +29,16 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1280](https://github.com/NightscoutFoundation/xDrip/issues/1280) | Database loss | | | 2020.03.22 |
 | [1299](https://github.com/NightscoutFoundation/xDrip/issues/1299) | Treatment note impacting the vertical axis scale | | | 2020.04.13 |  
 | [1331](https://github.com/NightscoutFoundation/xDrip/issues/1331) | Status line layout | | | 2020.05.05 |  
+| [1430](https://github.com/NightscoutFoundation/xDrip/issues/1430) | Reception of scanned Libre 2 values| | | 2020.09.03 |  
+| [1448](https://github.com/NightscoutFoundation/xDrip/issues/1448) | Vibration pattern option | | | 2020.09.24 |  
+| [1483](https://github.com/NightscoutFoundation/xDrip/issues/1483) | Include High and Low levels on the statistics page | | | 2020.10.22 |  
 | [1503](https://github.com/NightscoutFoundation/xDrip/issues/1503) | Android 11 notification channel settings missing | | 11 | 2020.11.11 |  
+| [1521](https://github.com/NightscoutFoundation/xDrip/issues/1521) | GlucoMen Day support | | | 2020.11.23 |  
 | [1537](https://github.com/NightscoutFoundation/xDrip/issues/1537) | Readings off the 5-minute grid | Dexcom | | 2020.12.04 |  
+| [1597](https://github.com/NightscoutFoundation/xDrip/issues/1597) | Libre 2 raw data sync | | | 2021.01.08|  
 | [1617](https://github.com/NightscoutFoundation/xDrip/issues/1617) | Graph disappearing for L2 | L2 | | 2021.01.19 |  
+| [1643](https://github.com/NightscoutFoundation/xDrip/issues/1643) | Allow linking more than one Bluetooth meter at a time | | | 2021.02.15 |  
+| [1661](https://github.com/NightscoutFoundation/xDrip/issues/1661) | Automated settings backup | | | 2021.02.28 |  
 | [1664](https://github.com/NightscoutFoundation/xDrip/issues/1664) | Android 10 and 11 link interruptions with G6 | G6 | 10-11 | 2021.03.02 |  
 | [1690](https://github.com/NightscoutFoundation/xDrip/issues/1690) | xDrip detecting future data | MiaoMiao | | 2021.03.30 |  
 | [1692](https://github.com/NightscoutFoundation/xDrip/issues/1692) | G5 Dexcom receiver loses connectivity after Feb. 4, 2021 | G5 | | 2021.04.02 |  
