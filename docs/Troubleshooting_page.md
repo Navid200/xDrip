@@ -15,4 +15,4 @@ If you are experiencing problems using xDrip, some possible issues are listed on
 
 You can see existing open issues [here](./Issues.md).  
   
-If the problem you experience is not listed, please don't open a new issue.  Instead, please reach out to experienced users or developers using the methods described in "Contact" above.  
+If the problem you experience is not listed, please don't open a new issue.  Instead, please reach out to experienced users and developers by opening a [discussion](https://github.com/NightscoutFoundation/xDrip/discussions).    
