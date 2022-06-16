@@ -124,5 +124,4 @@ This page lists all the documentation in a flat format.  You can use your browse
   
 [Release notes](./docs/ReleaseNotes.md)  
   
-[Bugs](./docs/Bugs.md)  
-[Feature Requests](./docs/Features.md)  
+[Issues](./docs/Issues.md)  
