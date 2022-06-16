@@ -12,4 +12,4 @@ You need the advice of a competent medical professional to control your, or your
 [Troubleshoot](./docs/Troubleshooting_page.md)  
 [F.A.Q.](./docs/FAQ_page.md)  
 [Index (search)](./Search_Index.md)  
-  
+[Issues](./Issues.md)    
