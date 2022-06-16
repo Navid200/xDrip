@@ -10,6 +10,7 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [296](https://github.com/NightscoutFoundation/xDrip/issues/296) | Calibration issues with Bluetooth glucose meters | | |2018.02.08 |  
 | [400](https://github.com/NightscoutFoundation/xDrip/issues/400) | mDNS support | | | 2018.04.18 |  
 | [414](https://github.com/NightscoutFoundation/xDrip/issues/414) - [691](https://github.com/NightscoutFoundation/xDrip/issues/691) - [800](https://github.com/NightscoutFoundation/xDrip/issues/800) - [920](https://github.com/NightscoutFoundation/xDrip/issues/920) | Delta inconsistency | | | 2018.05.02 |  
+| [520](https://github.com/NightscoutFoundation/xDrip/issues/520) | Android Auto | | | 2018.07.24 |  
 | [565](https://github.com/NightscoutFoundation/xDrip/issues/565) | Three decimal points resulting in incorrect treatment entry | | | 2018.08.27 |  
 | [642](https://github.com/NightscoutFoundation/xDrip/issues/642) | Max sync queue size exceeded | | | 2018.10.26 |  
 | [735](https://github.com/NightscoutFoundation/xDrip/issues/735) - [1196](https://github.com/NightscoutFoundation/xDrip/issues/1196) - [1518](https://github.com/NightscoutFoundation/xDrip/issues/1518) | Nightscout sync issue | Nightscout | | 2019.01.07 |  
