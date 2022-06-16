@@ -11,13 +11,21 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [400](https://github.com/NightscoutFoundation/xDrip/issues/400) | mDNS support | | | 2018.04.18 |  
 | [414](https://github.com/NightscoutFoundation/xDrip/issues/414) - [691](https://github.com/NightscoutFoundation/xDrip/issues/691) - [800](https://github.com/NightscoutFoundation/xDrip/issues/800) - [920](https://github.com/NightscoutFoundation/xDrip/issues/920) | Delta inconsistency | | | 2018.05.02 |  
 | [520](https://github.com/NightscoutFoundation/xDrip/issues/520) | Android Auto | | | 2018.07.24 |  
+| [555](https://github.com/NightscoutFoundation/xDrip/issues/555) | Unique sound for missed readings alert | | | 2018.08.20 |  
 | [565](https://github.com/NightscoutFoundation/xDrip/issues/565) | Three decimal points resulting in incorrect treatment entry | | | 2018.08.27 |  
+| [570](https://github.com/NightscoutFoundation/xDrip/issues/570) | Libre sensor expiry alert | | | 2018.09.08 |  
+| [616](https://github.com/NightscoutFoundation/xDrip/issues/616) | Eversense integration | | | 2018.10.08 |  
 | [642](https://github.com/NightscoutFoundation/xDrip/issues/642) | Max sync queue size exceeded | | | 2018.10.26 |  
+| [650](https://github.com/NightscoutFoundation/xDrip/issues/650) | More than 24 hours on-screen coverage option | | | 2018.10.29 |  
 | [735](https://github.com/NightscoutFoundation/xDrip/issues/735) - [1196](https://github.com/NightscoutFoundation/xDrip/issues/1196) - [1518](https://github.com/NightscoutFoundation/xDrip/issues/1518) | Nightscout sync issue | Nightscout | | 2019.01.07 |  
 | [929](https://github.com/NightscoutFoundation/xDrip/issues/929) | Nightscout follower delay | Nightscout | | 2019.06.23 |  
+| [935](https://github.com/NightscoutFoundation/xDrip/issues/935) | Alert related to loop | | | 2019.06.27 |  
+| [972](https://github.com/NightscoutFoundation/xDrip/issues/972) | carelink support | | | 2019.08.05 |  
+| [1216](https://github.com/NightscoutFoundation/xDrip/issues/1216) | Vertical axis extremes | | | 2020.01.30 |  
 | [1229](https://github.com/NightscoutFoundation/xDrip/issues/1229) | Datricsae reading mismatch with xDrip graph | | | 2020.02.06 |  
 | [1266](https://github.com/NightscoutFoundation/xDrip/issues/1266) | Calibrations that are not entered by the user or a Bluetooth meter | | | 2020.03.10 |   
 | [1269](https://github.com/NightscoutFoundation/xDrip/issues/1269) | Android 10 landscape malfunction | | 10 | 2020.03.11 |  
+| [1072](https://github.com/NightscoutFoundation/xDrip/issues/1072) | Omnipod support | | | 2019.10.28 |  
 | [1280](https://github.com/NightscoutFoundation/xDrip/issues/1280) | Database loss | | | 2020.03.22 |
 | [1299](https://github.com/NightscoutFoundation/xDrip/issues/1299) | Treatment note impacting the vertical axis scale | | | 2020.04.13 |  
 | [1331](https://github.com/NightscoutFoundation/xDrip/issues/1331) | Status line layout | | | 2020.05.05 |  
