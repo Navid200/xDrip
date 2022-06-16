@@ -240,30 +240,6 @@ dt {
      //     box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 0px rgba(0,0,0,.7);
           
         }
-        
-        a.three {
-          color: #f0f0f0;
-          font-weight:400;
-          text-decoration:none;
-          border: 1px solid #200000;
-          background: linear-gradient(#333333, #333333);
-          border-radius: 2px;
-          box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 5px rgba(0,0,0,.7);
-          background-color: #313131;
-          padding: 4px 6px;
-          line-height:14px;
-          font-size:14px;
-          display:inline-block;
-          text-align:center;
-
-          &:hover {
-            background: linear-gradient(#323232, #313131);
-            background-color: #353535;
-            border: 1px solid #200000;
-            box-shadow: inset 0px 1px 0px rgba(225,225,225,.3), 0px 3px 7px rgba(0,0,0,.7);
-            color: #ffeb9b;
-          }
-        }
 
         &.fork {
           float: left;
