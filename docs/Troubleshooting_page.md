@@ -13,6 +13,6 @@ If you are experiencing problems using xDrip, some possible issues are listed on
 [xDrip causes apps to restart](./RestartingApps.md)  
 [Number wall on lock screen does not disable](./NumberWallDisable.md)  
 
-You can see existing open issues [here](https://github.com/NightscoutFoundation/xDrip/issues).  
+You can see existing open issues [here](./Issues.md).  
   
 If the problem you experience is not listed, please don't open a new issue.  Instead, please reach out to experienced users or developers using the methods described in "Contact" above.  
