@@ -1,4 +1,4 @@
-## Bugs  
+## Issues  
 If you are experiencing a problem with xDrip, please start [here](https://navid200.github.io/xDrip/docs/Troubleshooting_page.html).  
   
 | # | Subject | Data Source | Android | Opened |
@@ -40,10 +40,18 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1643](https://github.com/NightscoutFoundation/xDrip/issues/1643) | Allow linking more than one Bluetooth meter at a time | | | 2021.02.15 |  
 | [1661](https://github.com/NightscoutFoundation/xDrip/issues/1661) | Automated settings backup | | | 2021.02.28 |  
 | [1664](https://github.com/NightscoutFoundation/xDrip/issues/1664) | Android 10 and 11 link interruptions with G6 | G6 | 10-11 | 2021.03.02 |  
+| [1672](https://github.com/NightscoutFoundation/xDrip/issues/1672) | Don't enable Out of process libre algorithm | | | 2021.03.14 |  
 | [1690](https://github.com/NightscoutFoundation/xDrip/issues/1690) | xDrip detecting future data | MiaoMiao | | 2021.03.30 |  
 | [1692](https://github.com/NightscoutFoundation/xDrip/issues/1692) | G5 Dexcom receiver loses connectivity after Feb. 4, 2021 | G5 | | 2021.04.02 |  
 | [1705](https://github.com/NightscoutFoundation/xDrip/issues/1705) | Android 11 database restore (import) malfunction | | 11 | 2021.04.22 |  
+| [1762](https://github.com/NightscoutFoundation/xDrip/issues/1762) | Consistent behavior and capability of alerts | | | 2021.06.21 |  
 | [1786](https://github.com/NightscoutFoundation/xDrip/issues/1786) | Smart alert malfunction | | | 2021.07.20 |  
 | [1789](https://github.com/NightscoutFoundation/xDrip/issues/1789) | Watches interfering with pair request | Dexcom | 10-11 | 2021.07.23 |  
+| [1793](https://github.com/NightscoutFoundation/xDrip/issues/1793) | Notification channel for number icon | | | 2021.07.31 |  
 | [1813](https://github.com/NightscoutFoundation/xDrip/issues/1813) | Motion tracking fails and is disabled | | | 2021.08.16 |  
+| [1864](https://github.com/NightscoutFoundation/xDrip/issues/1864) | Option to save Logs | | | 2021.10.29 |  
+| [1872](https://github.com/NightscoutFoundation/xDrip/issues/1872) | Requests for support: Watches | | | Consolidated |  
+| [1878](https://github.com/NightscoutFoundation/xDrip/issues/1878) | 0.05 insulin resolution | | | 2021.11.18 |  
+| [1889](https://github.com/NightscoutFoundation/xDrip/issues/1889) | Medtrum A8 (nano) | | | 2021.12.08 |  
 | [1891](https://github.com/NightscoutFoundation/xDrip/issues/1891) | Number Wall on Lock Screen causing other apps to restart | | | 2021.12.12 |  
+| [1898](https://github.com/NightscoutFoundation/xDrip/issues/1898) | Requests for support: Insulin profiles | | | Consolidated |  
