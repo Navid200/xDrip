@@ -1,6 +1,6 @@
 ## Release Notes  
   
-Major releases are identified here.  
+Major releases are identified here with brief descriptions.  
   
 | Release | Notes |  
 |---------|-------|  
