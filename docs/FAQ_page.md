@@ -20,6 +20,7 @@ xDrip FAQ
 [Missed Reading Alert not repeating](./MissedSignalAlert.md)  
 [&#x24c5; Encircled P in front of the reading](./P_in_Circle.md)  
 [Why do I get pop-up xDrip imported AAPS profile?](./AAPS_ProfileImportNotification.md)  
+[Why is xDrip not in the Google play store?](./App-store.md)  
   
 [How to Start a G6](./Starting-G6.md)  
 [What is Native algorithm - mode?](./Native-Algorithm.md)  
