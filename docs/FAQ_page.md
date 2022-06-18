@@ -2,7 +2,7 @@
   
 xDrip FAQ  
   
-[xDrip is not in Google Play Store ...](./App-store.md)  
+[Why is xDrip not in Google Play Store?](./App-store.md)  
 [Which xDrip version do I have?](./xDrip-Version.md)  
 [What's the easiest way to snooze?](./Snooze.md)  
 [Why do I get a notification for each reading?](./Frequent_notifications.md)  
@@ -19,8 +19,7 @@ xDrip FAQ
 [How to delete a reminder](./Delete-Reminder.md)  
 [Missed Reading Alert not repeating](./MissedSignalAlert.md)  
 [&#x24c5; Encircled P in front of the reading](./P_in_Circle.md)  
-[Why do I get pop-up xDrip imported AAPS profile?](./AAPS_ProfileImportNotification.md)  
-[Why is xDrip not in the Google play store?](./App-store.md)  
+[Why do I get pop-up xDrip imported AAPS profile?](./AAPS_ProfileImportNotification.md)    
   
 [How to Start a G6](./Starting-G6.md)  
 [What is Native algorithm - mode?](./Native-Algorithm.md)  
