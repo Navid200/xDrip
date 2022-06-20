@@ -1,4 +1,4 @@
-## Thesea functions are behind engineering mode  
+## These functions are behind engineering mode  
   
 1- Ultra sensitive noise  
 2- Append viewholder!  
@@ -11,4 +11,18 @@
 9- static_last_hexdump  
 10- static_last_sent_hexdump  
 11- static_last_hexdump_watch  
-12- 
+12- static_last_sent_hexdump_watch  
+13- Fade data source  
+14- share_test_key  
+15- use_pebble_health  
+16- enable dead sensor  
+17- vm.resetButton  
+18- overwrite_slope  
+19- overwrite_intercept  
+20- use_pluggable_alg_as_primary  
+21- always_discover_services  
+22- store_logs  
+23- predictive_bg  
+24- use_proper_ongoing  
+25- nfc_scan_beep  
+26- 
