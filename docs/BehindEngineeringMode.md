@@ -25,4 +25,9 @@
 23- predictive_bg  
 24- use_proper_ongoing  
 25- nfc_scan_beep  
-26- 
+26- nfc_test_diagnostic  
+27- web_deposit_url  
+28- web_deposit_serial  
+29- start_web_deposit  
+30- Dexcom stale data 5 minutes  
+
