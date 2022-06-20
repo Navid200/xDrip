@@ -12,7 +12,7 @@
 10- static_last_sent_hexdump  
 11- static_last_hexdump_watch  
 12- static_last_sent_hexdump_watch  
-13- Fade data source  
+13- Fake data source  
 14- share_test_key  
 15- use_pebble_health  
 16- enable dead sensor  
