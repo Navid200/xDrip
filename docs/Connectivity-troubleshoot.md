@@ -16,8 +16,8 @@ Is there [proper connectivity](./Proper-connectivity.md)?  If not, you need to r
 
 If there is no proper connectivity, if you don't see "scanning" on the G5/G6 status page, you should tap on "Restart Collector" on the classic status page.  You may need to approve a pair request, which may come up any time up to 5 minutes after tapping on restart collector.  
 If there is still no proper connectivity, change the last character of the transmitter ID and apply.  Then, change it back.  Now, the system status page should show hunting transmitter.  It should connect.  
+  
+**[Intermittent connectivity](./Intermittent.md)**      
 
 **Asking for Help**  
 If you are still having trouble, you can [ask for help](./Contact.md).  
-
-**[Intermittent connectivity](./Intermittent.md)**    
