@@ -91,6 +91,7 @@ This page lists all the documentation in a flat format.  You can use your browse
   
 [Proper Connectivity](./docs/Proper-connectivity.md)  
 [Troubleshooting](./docs/Connectivity-troubleshoot.md)  
+[Trigger a pair request](./docs/MissedPairRequest.md)  
 [Intermittent Connectivity](./docs/Intermittent.md)  
   
 [Native algorithm - mode](./docs/Native-Algorithm.md)  
