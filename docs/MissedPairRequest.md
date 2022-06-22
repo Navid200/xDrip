@@ -8,4 +8,6 @@ Then, change the last character back to the original correct value and apply.
 Now, go to the system status page.  
 
 You will see "Hunting Transmitter" in red on that page.  
+![](./images/HuntTX.png)  
+  
 In up to 5 minutes, you should receive a pair request.  Be sure to approve it.  
