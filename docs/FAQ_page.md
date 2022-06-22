@@ -22,7 +22,7 @@ xDrip FAQ
 [Why do I get xDrip imported AAPS profile pop-up?](./AAPS_ProfileImportNotification.md)  
 [How can I stop xDrip without uninstalling it?](https://navid200.github.io/xDrip/docs/Stop-xDrip.html)  
   
-[How to trigger a pair request](./docs/MissedPairRequest.md)  
+[How to trigger a pair request](./MissedPairRequest.md)  
 [How to Start a G6](./Starting-G6.md)  
 [What is Native algorithm - mode?](./Native-Algorithm.md)  
 [Can I calibrate G6?](./Calibrate-G6.md)  
