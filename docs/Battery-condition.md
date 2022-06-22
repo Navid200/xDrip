@@ -1,4 +1,5 @@
 ## Battery condition  
+G6 Battery  
   
 You can see 2 voltages (Voltage A and Voltage B) reported on the G5/G6 status page.  
 ![](./images/system-status-pg.png)  
