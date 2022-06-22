@@ -1,7 +1,7 @@
 ## Contact  
   
   
-### Requests for Help  
+### Request for Help  
 If you need help using xDrip, please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  
 include the following in the first post.  
 - What device is attached to the sensor. For example, Dexcom G6, or MIAOMIAO.  
