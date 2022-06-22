@@ -1,4 +1,4 @@
-## G6 Bluetooth Communications Slots  
+## G6 Bluetooth Slots  
   
 A G6 transmitter has 2 slots.  That's why you can use a t:slim pump and also see your readings in xDrip.  Or, you can use both the Dexcom receiver and xDrip at the same time.  
 
