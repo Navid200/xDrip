@@ -11,3 +11,4 @@ You will see "Hunting Transmitter" in red on that page.
 ![](./images/HuntTX.png)  
   
 In up to 5 minutes, you should receive a pair request.  Be sure to approve it.  
+If the phone screen is locked, unlock it and pull down from the top to see the notifications.  Open the pair request notification and approve.  
