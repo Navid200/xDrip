@@ -12,7 +12,7 @@ You can use the original calibration code for restart or you can restart in no-c
 
  
 1. Tap on stop sensor (top left menu). Tap on "STOP SENSOR".  You should do this even if the sensor has already stopped if the "start sensor" option is not available. Wait 5 minutes.  If day 10 has ended and the sensor has already stopped, and the "Start Sensor" option is already available under the top left menu, you can skip step 1.  
-2. Remove the transmitter without causing damage to the sensor ([see how](./Remove-transmitter.md)).  There is dielectric grease on the transmitter and sensor contacts. Don't wipe it off.  
+2. Remove the transmitter without causing damage to the sensor ([see how](./Remove-transmitter.md)).  There is petroleum jelly on the transmitter and sensor contacts. Don't wipe it off.  
 3. Wait 15 minutes from when you removed the transmitter.
 After you stopped sensor, there would be "stop sensor" in a queue item on the G5/G6 status page. The queue would clear in about 10 to 15 minutes. Then, you would see Sensor: Stopped on the G5/G6 status page. If you had a sensor start failed message, you may still see that message instead.
 Only after the "stop sensor" note has cleared the queue should you proceed.  
