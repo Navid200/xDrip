@@ -1,6 +1,7 @@
 ## Backup database  
   
 Do you need to uninstall xDrip?  If yes, you should backup the database and settings.  If you don't, you will lose all your blood glucose readings history, your alerts, and login and passwords.  
+There is a limitation though.  You will not be able to import the database.  You can only restore it.  The existing database will be overwritten by the database that is restored.  
 
 To backup, from the top right menu button on the main screen, tap on Import /Export features &#8722;> Export database  
 This will execute two tasks:  
