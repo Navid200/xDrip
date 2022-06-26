@@ -22,8 +22,8 @@ Tap on Settings &#8722;> Share Username, to enter username.
 Tap on Settings &#8722;> Share Password, to enter the Dex share password.  
 <br/>  
   
-### 4. Build your own Dexcom app  
-If you use the [Build your own Dexcom app](https://docs.google.com/forms/d/e/1FAIpQLScD76G0Y-BlL4tZljaFkjlwuqhT83QlFM5v6ZEfO7gCU98iJQ/viewform?fbzx=2196386787609383750&fbclid=IwAR2aL8Cps1s6W8apUVK-gOqgGpA-McMPJj9Y8emf_P0-_gAsmJs6QwAY-o0) on the same phone as xDrip, you will not need internet access because you will be able to use local broadcast.  Instructions are [here](./DexcomAppxDrip.md).  
+### 4. [Build your own Dexcom app](./DexcomAppxDrip.md)  
+If you use the [Build your own Dexcom app](https://docs.google.com/forms/d/e/1FAIpQLScD76G0Y-BlL4tZljaFkjlwuqhT83QlFM5v6ZEfO7gCU98iJQ/viewform?fbzx=2196386787609383750&fbclid=IwAR2aL8Cps1s6W8apUVK-gOqgGpA-McMPJj9Y8emf_P0-_gAsmJs6QwAY-o0) on the same phone as xDrip, you will not need internet access because you will be able to use local broadcast.  
 <br/>  
   
 ### 5. Companion  
