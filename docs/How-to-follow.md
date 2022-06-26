@@ -5,7 +5,7 @@ There are several options for following someone's readings as well as using xDri
 ### 1. [xDrip Sync Follower](./xDripSync.md) (needs internet except Desert Sync)  
 This is easy to set up.  But, it relies on Google.  
 <br/>  
-
+  
 ### 2. Nightscout Follower (needs internet)  
 This requires Nightscout to be [set up](./Nightscout.md).  
 After a Nightscout account has been created and set up, enter the required [settings](./Nightscout-Settings.md) so that the master starts uploading to Nightscout.  
