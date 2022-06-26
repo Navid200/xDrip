@@ -1,7 +1,7 @@
 ## Restart G6 Sensor  
   
 **<span style="color:red">This can be very dangerous.</span>**  Please read the entire page first.  You should not restart if you are not aware of the risks and consequences.  
-**Your readings will be significantly high in error after warm-up after a restart.**  If you ignore this and take insulin to lower your readings, you will cause hypoglycemia.  Similarly, if you have a closed loop system and do not open the loop while readings are wrong, the loop will inject insulin and cause hypoglycemia.    
+**Your readings will be significantly high in error after warm-up after a restart.**  If you ignore this and take insulin to lower your readings, you will cause hypoglycemia.  Similarly, if you have a closed loop system and do not open the loop while readings are wrong, the loop will inject insulin, to correct the erroneous High, and cause hypoglycemia.    
 **Please read the entire page and follow the required calibration steps.**  
   
 If the first two characters of the transmitter serial number are 80, or if they are 81 and the firmware version is 1.6.5.25 or prior to that, you can use preemptive restart.  Then, you will not need to restart.  Preemptive restart will automatically restart the sensor and you will not need to restart manually.  
