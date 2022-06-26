@@ -1,4 +1,4 @@
-## How to follow  
+## How to follow with xDrip  
   
 There are several options for following someone's readings as well as using xDrip when using another device or app as the collector.  
   
