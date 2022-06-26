@@ -63,6 +63,8 @@ This page lists all the documentation in a flat format.  You can use your browse
   
 ### Follow  
 [How to follow](./docs/How-to-follow.md)  
+[xDrip Sync](./docs/xDripSync.md)  
+[Follow Dexcom app](./docs/DexcomAppxDrip.md)  
 [xDrip sync not working](./docs/xDrip-Sync-not-working.md)  
 [Dexcom share not working](./docs/Dexcom-share-delta-format-change.md)  
 [Follow multiple people](./docs/Variants.md)  
