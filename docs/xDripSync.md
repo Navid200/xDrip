@@ -18,3 +18,5 @@ Under Settings −> Hardware Data Source, select xDrip+ Sync Follower.
 Then, go to Settings −> xDrip+ Sync Settings and tap on "Handset Group Security Sync Key". Make sure the key matches the key on the same page on the master.  
 
 On both master and follower ensure that Settings −> xDrip+ Sync Settings −> Disable all sync features is disabled.  
+  
+[Other follower options](./How-to-follow.md)  
