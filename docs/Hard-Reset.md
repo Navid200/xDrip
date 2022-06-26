@@ -16,7 +16,7 @@ If you want to hard reset, do it when you don't have an active session. For exam
 Before you can hard reset a transmitter using xDrip, you need to have [proper connectivity](./Proper-connectivity.md) to it.  
 You should also disable the Dexcom app as you cannot link to the same transmitter at the same time with both xDrip and the Dexcom app.  
 
-Tap on the treatment (syringe) symbol on the main screen.  
+Tap on the treatment (dropper) symbol on the main screen.  
 ![](./images/syringe-symbol.png)
 
 
