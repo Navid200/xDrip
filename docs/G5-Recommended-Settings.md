@@ -3,7 +3,9 @@
   These are the recommended G5 settings.  Click/tap on the links to see the details.  
 
 * You should use an xDrip [version](./xDrip-Version.md) not older than the current stable release.  Please [update](./Updates.md) if you are not.  
-
+  
+The following requires that you access xDrip settings.  To do that, you need to tap on "Settings" from the top left menu button on the main screen.  After that, you need to tap on what is shown.  So, for example, ![](./images/Arrows.png) means that you should tap on "Settings" from the top left menu button on the main screen.  Then, on the new page that opens, you should tap on "Less common settings".  And from the page that opens, you should tap on "Bluetooth Settings".
+  
 * Settings &#8722;> [G5/G6 Debug Settings](./images/g5-recommended-settings.png)  
 Enable [Native Algorithm](./Native-Algorithm.md) only if you have to.  If you don't know what it is, leave it disabled.  
 
