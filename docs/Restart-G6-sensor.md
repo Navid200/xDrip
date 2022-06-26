@@ -1,6 +1,6 @@
 ## Restart G6 Sensor  
   
-**This can be very dangerous.  Please read the entire page first.  You should not restart if you are not aware of the risks and consequences.  
+**<span style="color:red">This can be very dangerous.</span>  Please read the entire page first.  You should not restart if you are not aware of the risks and consequences.  
 Your readings will be significantly high in error after warm-up after a restart.  If you ignore this and take insulin to lower your readings, you will cause hypoglycemia.  Similarly, if you have a closed loop system and do not open the loop, the loop will inject insulin and cause hypoglycemia.    
 Please read the entire page and follow the required calibration steps.**        
 
