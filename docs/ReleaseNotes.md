@@ -8,7 +8,7 @@ Major releases are identified here with brief descriptions.
 | [2022.06.20b](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.20b) | G6 non-native update |  
 | [2022.06.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.13) | Web Follower |  
 | [2022.06.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.12) | Ask user to update OOP2 to 1.2 - No AAPS profile import pop-up |   
-| [2022.06.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.09) | Improved Dexcom collector connectivity - System status Transmitter Days highlights end of life |  
+| [2022.06.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.09) | Improved Dexcom collector connectivity, Android 12 workaround - System status Transmitter Days highlights end of life |  
 | [2022.06.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.02) | New "Companion" Hardware Data Source - Can read from CamAPS|  
 | [2022.06.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.01) | Advanced calibration "Use Treatment BG values" will be ignored when automatic calibration is enabled.  Set only Alert once |  
 | [2022.05.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12) | Version name as the system status subtitle |  
