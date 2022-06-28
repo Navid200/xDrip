@@ -1,6 +1,6 @@
 ## G6 Recommended Settings  
   
-  These are the recommended G6 settings.  Click/tap on the links to see the details.  
+  These are the recommended G6 settings.  Click/tap on the hyperlinks to see the details.  
 
 * You should use an xDrip [version](./xDrip-Version.md) not older than the current stable release.  Please [update](./Updates.md) if you are not.  
 <br/>  
