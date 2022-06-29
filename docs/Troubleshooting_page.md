@@ -1,6 +1,6 @@
 # xDrip Troubleshooting  
   
-If you are experiencing problems using xDrip, some possible issues are listed on this page.  
+If you are experiencing problems using xDrip, some possible issues, and suggested solutions, are listed on this page.  
   
   
 [Why do I get xDrip imported AAPS profile pop-up?](./AAPS_ProfileImportNotification.md)  
@@ -13,6 +13,8 @@ If you are experiencing problems using xDrip, some possible issues are listed on
 [xDrip sync not working](./xDrip-Sync-not-working.md)  
 [xDrip causes apps to restart](./RestartingApps.md)  
 [Number wall on lock screen does not disable](./NumberWallDisable.md)  
+  
+Disable [engineering mode](Engineering-Mode.md) if it is enabled.  
 
 You can see existing open issues [here](./Issues.md).  
   
