@@ -6,11 +6,12 @@
 | ----- | ------ | ---------- | -------------------- |  
 | Glucose level | Volume profile | Yes | Yes |  
 | Calibration | Ring & notification | Yes | Yes |  
-| Missed Reading | Ring & notification | "Other Alerts" | "Other Alerts" | 
+| Missed Reading | Ring & notification | "Other Alerts" \* | "Other Alerts" | 
 | Other Alerts | Ring & notification | Yes | Yes |  
 | Persistent High | Ring & notification | Yes | "Other Alerts" |  
 | Forecast Lows | Ring & notification | Yes | "Other Alerts" |  
-
+  
+\* Uses the same setting selected for "Other Alerts".    
 
   
 [Glucose Level Alert List](./Glucose-level-alerts.md)  
