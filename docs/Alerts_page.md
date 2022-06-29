@@ -2,7 +2,7 @@
   
 ![](./images/Alerts.png)  
   
-| Alert | Volume | Sound file | Override Silent Mode |  
+|  Alert |  Volume |  Sound file |  Override Silent Mode |  
 | ----- | ------ | ---------- | -------------------- |  
 | Glucose level | Volume profile | Yes | Yes |  
 | Calibration | Ring & notification | Yes | Yes |  
