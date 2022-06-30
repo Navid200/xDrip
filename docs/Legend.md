@@ -14,3 +14,5 @@ If you enable backfilled data (Settings &#8722;> xDrip+ Display Settings &#8722;
 If you enable G6 prediction (Settings &#8722;> xDrip+ Display Settings &#8722;> Graph Settings &#8722;> G6 Predictions), you will see the prediction points as shown below.  
 ![](./images/G6PredictLegend.png)  
   
+Enabling Forecast Lows alert will show the extrapolated curve when a low is predicted as shown in the following figure.  
+![](./images/Legend_predictLow.png)  
