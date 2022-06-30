@@ -4,7 +4,7 @@
   
 |  Alert |  Volume |  Sound file |  Override Silent Mode |  
 | ----- | ------ | ---------- | -------------------- |  
-| Glucose level | Volume profile | :heavy_check_mark: | Yes |  
+| Glucose level | Volume profile | &#9745; | Yes |  
 | Calibration | Ring & notification | Yes | Yes |  
 | Missed Reading | Ring & notification | "Other Alerts" \* | "Other Alerts" \* | 
 | Other Alerts | Ring & notification | Yes | Yes |  
