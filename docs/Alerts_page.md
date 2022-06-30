@@ -5,7 +5,7 @@
 |  Alert |  Volume |  Sound file |  Override Silent Mode |  
 | ----- | ------ | ---------- | -------------------- |  
 | Glucose level | Volume profile | &#9745; | &check; |  
-| Calibration | Ring & notification | Yes | Yes |  
+| Calibration | Ring & notification | &#10004; | Yes |  
 | Missed Reading | Ring & notification | "Other Alerts" \* | "Other Alerts" \* | 
 | Other Alerts | Ring & notification | Yes | Yes |  
 | Persistent High | Ring & notification | Yes | "Other Alerts" \* |  
