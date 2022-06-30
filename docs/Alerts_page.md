@@ -11,7 +11,7 @@
 | Persistent High | Ring & notification | &#10004; | "Other Alerts" \* |  
 | Forecast Lows | Ring & notification | &#10004; | "Other Alerts" \* |  
 
-\* Uses the same setting selected for "Other Alerts".  
+ \* Uses the same setting selected for "Other Alerts".  
 
   
 [Glucose Level Alert List](./Glucose-level-alerts.md)  
