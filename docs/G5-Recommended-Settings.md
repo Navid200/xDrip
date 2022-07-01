@@ -5,8 +5,6 @@
 * You should use an xDrip [version](./xDrip-Version.md) not older than the current stable release.  Please [update](./Updates.md) if you are not.  
 <br/>  
   
-The following requires that you access different xDrip settings pages as shown.  For example, Settings &#8722;> G5/G6 Debug Settings means that you should tap on "Settings", from the top left menu button on the main screen.  Then, on the new page that opens, you should tap on "G5/G6 Debug Settings".  
-  
 * Settings &#8722;> [G5/G6 Debug Settings](./images/g5-recommended-settings.png)  
 Enable [Native Algorithm](./Native-Algorithm.md) only if you have to.  If you don't know what it is, leave it disabled.  
 
