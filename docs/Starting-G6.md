@@ -1,12 +1,10 @@
 ## Starting Dexcom G6  
   
-Please be patient and do not rush to tap on "Start Sensor" even if xDrip encourages you to.  Please follow the steps exactly as stated below.  
+Please be patient and do not rush to tap on "Start Sensor" even if xDrip encourages you to.  Please follow the steps exactly as stated below to avoid common issues.  
 If you see references here to functions you don't recognize, please have a look at [this](./Dexcom-Basics.md).  
   
 If you have been using the Dexcom app, you need to disable it.  You cannot have two mobile apps collecting from the same transmitter at the same time.  
   
-The following steps let you start avoiding common issues:  
-
 1.  If you are using an old version of xDrip, [update](./Updates.md) to the current stable release.  
 
 2.  Set "G5/G6 Transmitter" under &nbsp; Settings -> Hardware Data Source.  
