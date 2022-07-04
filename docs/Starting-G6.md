@@ -7,7 +7,7 @@ If you have been using the Dexcom app, you need to disable it.  You cannot have 
   
 1.  If you are using an old version of xDrip, [update](./Updates.md) to the current stable release.  
 
-2.  Set "G5/G6 Transmitter" under &nbsp; Settings -> Hardware Data Source.  
+2.  Set "G5/G6 Transmitter" under &nbsp; Settings &#8722;> Hardware Data Source.  
 
 3. Is there a "Start G6 Sensor" stuck in the queue on the G5/G6 status page?
 ![](./images/queue-stuck.png)  
@@ -19,7 +19,7 @@ If yes, [clear the queue](./Clear-queue.md).
 If you are replacing the sensor, using your current transmitter, remove the transmitter from the old sensor.  The transmitter needs to be outside sensors for at least 10 minutes.
 If there is bleeding, after inserting the new sensor, use Q-tips to absorb the blood.  Keep doing that, and don't allow any blood to get to the contacts, until bleeding stops.    
 
-6.  If you are starting a new transmitter, enter the new transmitter serial number on the transmitter ID page: &nbsp; Settings&nbsp;&#8209;>&nbsp;Dexcom&nbsp;Transmitter&nbsp;ID.     
+6.  If you are starting a new transmitter, enter the new transmitter serial number (Transmitter ID): Settings &#8722;> Dexcom Transmitter ID.     
 
 7.  Clean the transmitter contacts (not if you are restarting sensor) using rubbing alcohol.  Wait for it (10 seconds) to dry.  Snap the transmitter into the sensor.  
 
