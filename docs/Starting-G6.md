@@ -35,7 +35,8 @@ If you are starting a new transmitter, be patient and wait for the battery volta
 
 9.   Only after establishing proper connectivity, only if you have waited for the queue to clear, and only after the voltages are showing on the system status page, should you start sensor.  For example, if you have stopped (previous) sensor, wait until you see "Stopped" on the G5/G6 status page.  
 Carefully, enter the 4-digit calibration code from the sensor adhesive cover when asked. Keep the code if you intend to restart the sensor. In 2 hours, your readings will start with no need for initial calibrations.  
- ---
+
+ ---  
  
  [this](./Dexcom_page.md) page contains all the guides and notes about using xDrip for DExcom.  If you have a question that is notcovered, please [tell](./Contact.md) us.  
  
