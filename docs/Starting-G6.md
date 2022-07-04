@@ -1,12 +1,8 @@
 ## Starting Dexcom G6  
   
-The most important thing is to be patient and not rush to tap on "Start Sensor" even if xDrip encourages you to.  
-A common mistake is to replace an old transmitter with a new one, stop sensor, change transmitter ID, and start sensor right away. This could result in the new transmitter never receiving the start command at the right time. The outcome is no readings after the 2-hour warm-up.  
-
+Please be patient and do not rush to tap on "Start Sensor" even if xDrip encourages you to.  Please follow the steps exactly as stated below.  
 If you see references here to functions you don't recognize, please have a look at [this](./Dexcom-Basics.md).  
-
-Never soak (insert sensor a while before starting it) a G6 sensor. The main advantage of G6 over G5 is factory calibration. You will be interfering with factory calibration (accuracy) the longer it takes from the moment you insert the sensor to the moment you start the sensor in xDrip.  
-   
+  
 If you have been using the Dexcom app, you need to disable it.  You cannot have two mobile app collectors collecting from the same transmitter at the same time.  
   
 The following steps let you start avoiding common issues:  
@@ -41,3 +37,7 @@ Carefully, enter the 4-digit calibration code from the sensor adhesive cover whe
  [this](./Dexcom_page.md) page contains all the guides and notes about using xDrip for Dexcom.  If you have a question that is not covered, please [tell](./Contact.md) us.  
  
  If you are coming from G5, or another CGM, you need to get used to factory calibration.  Give it a chance.  Most people don't need to calibrate a new G6 sensor as long as the calibration code is entered properly.  
+ 
+A common mistake is to replace an old transmitter with a new one, stop sensor, change transmitter ID, and start sensor right away. This could result in the new transmitter never receiving the start command at the right time. The outcome is no readings after the 2-hour warm-up.  
+  
+Never soak (insert sensor a while before starting it) a G6 sensor. The main advantage of G6 over G5 is factory calibration. You will be interfering with factory calibration (accuracy) the longer it takes from the moment you insert the sensor to the moment you start the sensor in xDrip.  
