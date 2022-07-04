@@ -16,8 +16,8 @@ If yes, [clear the queue](./Clear-queue.md).
 4.  Adjust xDrip [settings](./G6-Recommended-Settings.md).  
 
 5.  If "Start Sensor" isn't available, under the top left menu from the main screen, "Stop Sensor" from the same menu.  Wait 5 minutes.    
-If you are replacing the sensor, using your current transmitter, remove the transmitter from the old sensor.  The transmitter needs to be detached from your body for at least 10 minutes.  
-If there is bleeding, after inserting the new sensor, use Q-tips to absorb the blood.  Keep doing that, and don't allow any blood to get to the contacts, until bleeding stops.  
+The transmitter needs to be detached from your body for at least 10 minutes before you proceed.  
+If there is bleeding, after inserting a new sensor, use Q-tips to absorb the blood.  Keep doing that, and don't allow any blood to get to the contacts, until bleeding stops.  
 
 6.  If you are starting a new transmitter, enter the new transmitter serial number (Transmitter ID): Settings &#8722;> Dexcom Transmitter ID.     
 
