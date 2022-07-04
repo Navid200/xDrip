@@ -3,15 +3,13 @@
 The most important thing is to be patient and not rush to tap on "Start Sensor" even if xDrip encourages you to.  
 A common mistake is to replace an old transmitter with a new one, stop sensor, change transmitter ID, and start sensor right away. This could result in the new transmitter never receiving the start command at the right time. The outcome is no readings after the 2-hour warm-up.  
 
-Have a look at [this](./Dexcom-Basics.md) basic information about using xDrip to control Dexcom and [this](./Dexcom_page.md) page with information specific to Dexcom devices if you haven't already.  
+If you see references here to functions you don't recognize, please have a look at [this](./Dexcom-Basics.md).  
 
 Never soak (insert sensor a while before starting it) a G6 sensor. The main advantage of G6 over G5 is factory calibration. You will be interfering with factory calibration (accuracy) the longer it takes from the moment you insert the sensor to the moment you start the sensor in xDrip.  
-
-If you are coming from G5, or another CGM, you need to get used to factory calibration.  Give it a chance.  Most people don't need to calibrate a new G6 sensor as long as the calibration code is entered properly.  
-  
+   
 If you have been using the Dexcom app, you need to disable it.  You cannot have two mobile app collectors collecting from the same transmitter at the same time.  
   
-The following steps let you start:  
+The following steps let you start avoiding common issues:  
 
 1.  If you are using an old version of xDrip, [update](./Updates.md) to the current stable release.  
 
@@ -37,3 +35,8 @@ If you are starting a new transmitter, be patient and wait for the battery volta
 
 9.   Only after establishing proper connectivity, only if you have waited for the queue to clear, and only after the voltages are showing on the system status page, should you start sensor.  For example, if you have stopped (previous) sensor, wait until you see "Stopped" on the G5/G6 status page.  
 Carefully, enter the 4-digit calibration code from the sensor adhesive cover when asked. Keep the code if you intend to restart the sensor. In 2 hours, your readings will start with no need for initial calibrations.  
+ ---
+ 
+ [this](./Dexcom_page.md) page contains all the guides and notes about using xDrip for DExcom.  If you have a question that is notcovered, please [tell](./Contact.md) us.  
+ 
+ If you are coming from G5, or another CGM, you need to get used to factory calibration.  Give it a chance.  Most people don't need to calibrate a new G6 sensor as long as the calibration code is entered properly.  
