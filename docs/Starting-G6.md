@@ -27,10 +27,9 @@ If there is bleeding, after inserting the new sensor, use Q-tips to absorb the b
 If you don't have [proper connectivity](./Proper-connectivity.md), don't proceed before figuring out why. Perhaps, your settings are incorrect.  
 If you are starting a new transmitter, be patient and wait for the battery voltages to be populated before you proceed.  It may take up to half an hour.    
 
-9.   Only after establishing proper connectivity, only if you have waited for the queue to clear, and only after the voltages are showing on the system status page, should you start sensor.  For example, if you have stopped (previous) sensor, wait until you see "Stopped" on the G5/G6 status page.  
-Carefully, enter the 4-digit calibration code from the sensor adhesive cover when asked. Keep the code if you intend to restart the sensor. In 2 hours, your readings will start with no need for initial calibrations.  
+9.  Start sensor.  Carefully, enter the 4-digit calibration code from the sensor adhesive cover when asked. Keep the code if you intend to restart the sensor. In 2 hours, your readings will start with no need for initial calibrations.  
 
- ---  
+---  
  
  [this](./Dexcom_page.md) page contains all the guides and notes about using xDrip for Dexcom.  If you have a question that is not covered, please [tell](./Contact.md) us.  
  
