@@ -3,7 +3,7 @@
 Please be patient and do not rush to tap on "Start Sensor" even if xDrip encourages you to.  Please follow the steps exactly as stated below.  
 If you see references here to functions you don't recognize, please have a look at [this](./Dexcom-Basics.md).  
   
-If you have been using the Dexcom app, you need to disable it.  You cannot have two mobile app collectors collecting from the same transmitter at the same time.  
+If you have been using the Dexcom app, you need to disable it.  You cannot have two mobile apps collecting from the same transmitter at the same time.  
   
 The following steps let you start avoiding common issues:  
 
