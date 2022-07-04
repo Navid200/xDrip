@@ -38,6 +38,6 @@ Carefully, enter the 4-digit calibration code from the sensor adhesive cover whe
 
  ---  
  
- [this](./Dexcom_page.md) page contains all the guides and notes about using xDrip for DExcom.  If you have a question that is notcovered, please [tell](./Contact.md) us.  
+ [this](./Dexcom_page.md) page contains all the guides and notes about using xDrip for Dexcom.  If you have a question that is not covered, please [tell](./Contact.md) us.  
  
  If you are coming from G5, or another CGM, you need to get used to factory calibration.  Give it a chance.  Most people don't need to calibrate a new G6 sensor as long as the calibration code is entered properly.  
