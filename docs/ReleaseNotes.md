@@ -4,6 +4,7 @@ Major releases are identified here with brief descriptions.
   
 | Release | Notes |  
 |---------|-------|  
+| [2022.06.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.05) | Range is now shown on the first statistics page. |  
 | [2022.07.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.01) | Engineering mode reminder |  
 | [2022.06.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.28) | Two decimal places for insulin |  
 | [2022.06.20b](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.20b) | G6 non-native update |  
