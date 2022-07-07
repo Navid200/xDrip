@@ -1,4 +1,4 @@
-# Installation  
+# Download & Installation  
   
 ![](./images/Install.png)  
   
