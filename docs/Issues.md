@@ -17,6 +17,7 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [616](https://github.com/NightscoutFoundation/xDrip/issues/616) | Eversense integration | | | 2018.10.08 |  
 | [642](https://github.com/NightscoutFoundation/xDrip/issues/642) | Max sync queue size exceeded | | | 2018.10.26 |  
 | [650](https://github.com/NightscoutFoundation/xDrip/issues/650) | More than 24 hours on-screen coverage option | | | 2018.10.29 |  
+| [682](https://github.com/NightscoutFoundation/xDrip/issues/682) | Red on black is hard to see. | | | 2018.11.12 |  
 | [735](https://github.com/NightscoutFoundation/xDrip/issues/735) - [1196](https://github.com/NightscoutFoundation/xDrip/issues/1196) - [1518](https://github.com/NightscoutFoundation/xDrip/issues/1518) | Nightscout sync issue | Nightscout | | 2019.01.07 |  
 | [929](https://github.com/NightscoutFoundation/xDrip/issues/929) | Nightscout follower delay | Nightscout | | 2019.06.23 |  
 | [935](https://github.com/NightscoutFoundation/xDrip/issues/935) | Alert related to loop | | | 2019.06.27 |  
