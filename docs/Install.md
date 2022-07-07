@@ -9,3 +9,5 @@ Tap on "Settings".  That will bring up this form:
   
 Enable "Allow from this source" and go back.  Now, you will see this:  
 ![](./images/WantToInstall.png)  
+  
+Tap on "Install".  
