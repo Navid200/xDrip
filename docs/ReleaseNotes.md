@@ -4,7 +4,7 @@ Major releases are identified here with brief descriptions.
   
 | Release | Notes |  
 |---------|-------|  
-| [2022.07.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.06) | Internal Storage toast message instead of SD |  
+| [2022.07.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.06) | "Internal Storage" toast message instead of "SD" |  
 | [2022.07.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.05) | Range is now shown on the first statistics page. |  
 | [2022.07.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.01) | Engineering mode reminder |  
 | [2022.06.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.28) | Two decimal places for insulin |  
