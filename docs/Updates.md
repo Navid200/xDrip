@@ -10,7 +10,7 @@ You can download the nightly builds (least tested but more recent), from "Releas
     
 
 After finding the release that you want, download the file with .apk at the end and no "variant" in the title, under "Assets" and install over.  No need to uninstall first.  Installing over your existing xDrip will maintain the settings and readings history.  
-To confirm that the update succeeded, go to classic status page and check the first line, which shows the date of the release you have installed.  
+To confirm that the update succeeded, view classic status page and check the first line, which shows the date of the release you have installed.  
   
 xDrip can check for updates and inform you when one is available.  For that, xDrip has different update channels.  
   
