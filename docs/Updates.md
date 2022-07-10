@@ -1,5 +1,7 @@
 ## Update xDrip  
 
+You will need to update xDrip manually.  There is an automatic check for updates that is explinaed below.  How you can verify an update is also explained below.  
+
 xDrip has different update channels.  
   
 | Channel | Description | 
