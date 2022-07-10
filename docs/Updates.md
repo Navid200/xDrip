@@ -1,6 +1,6 @@
 ## Update xDrip  
 
-You will need to update xDrip manually.  There is an automatic check for updates that is explinaed below.  How you can verify an update is also explained below.  
+You will need to update xDrip manually.  There is an automatic check for updates that is explained below.  How you can verify an update is also explained below.  
   
 You can download the latest stable version from "Latest" [here](https://github.com/NightscoutFoundation/xDrip/).  
 You can download the nightly builds (least tested but more recent), from "Releases" [here](https://github.com/NightscoutFoundation/xDrip/).  
