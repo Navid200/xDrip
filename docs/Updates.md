@@ -1,16 +1,6 @@
 ## Update xDrip  
 
 You will need to update xDrip manually.  There is an automatic check for updates that is explinaed below.  How you can verify an update is also explained below.  
-
-xDrip has different update channels.  
-  
-| Channel | Description | 
-|:--------------:|:-----------:|  
-| Nightly        | Most up-to-date but least tested |  
-| Alpha          | Less up-to-date but more tested than Nightly | 
-| Beta           | Less up-to-date but more tested than Alpha  |   
-| Stable         | Stable and Beta are usually the same |  
-  
   
 You can download the latest stable version from "Latest" [here](https://github.com/NightscoutFoundation/xDrip/).  
 You can download the nightly builds (least tested but more recent), from "Releases" [here](https://github.com/NightscoutFoundation/xDrip/).  
@@ -21,8 +11,17 @@ You can download the nightly builds (least tested but more recent), from "Releas
 
 After finding the release that you want, download the file with .apk at the end and no "variant" in the title, under "Assets" and install over.  No need to uninstall first.  Installing over your existing xDrip will maintain the settings and readings history.  
 To confirm that the update succeeded, go to classic status page and check the first line, which shows the date of the release you have installed.  
+  
+xDrip can check for updates and inform you when one is available.  For that, xDrip has different update channels.  
+  
+| Channel | Description | 
+|:--------------:|:-----------:|  
+| Nightly        | Most up-to-date but least tested |  
+| Alpha          | Less up-to-date but more tested than Nightly | 
+| Beta           | Less up-to-date but more tested than Alpha  |  
+| Stable         | Stable and Beta are usually the same |  
 
-To select which update channel you use, go to Settings &#8722;> xDrip+ Update Settings.  
+To select which update channel is used, access Settings &#8722;> xDrip+ Update Settings.  
 ![](./images/auto_update.png)  
 You need to choose alpha in order for the nightly option to become visible.  
 To use the auto update check, enable Automatic update check.  
