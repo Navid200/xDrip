@@ -31,5 +31,5 @@ Only after the "stop sensor" note has cleared the queue should you proceed.
 The manufacturer does not approve the restart of sensors.  
 
 As a sensor ages, the accuracy diminishes. You should occasionally check your blood glucose, with your glucose meter, to verify accuracy, and calibrate to reduce error when needed.
-Eventually, the noise level may increase as well. Noise is the rapid oscillatory fluctuation of readings that is not a real representation of your blood glucose.
+Eventually, the noise level may increase as well. [Noise](./Noise.md) is the rapid oscillatory fluctuation of readings that is not a real representation of your blood glucose.
 
