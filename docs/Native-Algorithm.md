@@ -20,6 +20,6 @@ When we use the native algorithm, the transmitter maintains the calibration form
 \* The last day you can start a sensor in native mode is when transmitter days shows 99 \(104 for G5\).  
   
 \*\*   If the second character of a G6 transmitter serial number is not 0 or 1, it does not transmit raw values.  Therefore, it cannot be used in non-native mode.  All G5 transmitters can be used in either native or non-native mode.  
-A G6 can only be used in non-native mode (only 80XXXX or 81XXXX) in [engineering mode](./Engineering-Mode.md).  
+A G6 can only be used in non-native mode in [engineering mode](./Engineering-Mode.md).  
 
 \*\*\*  In native mode, calibration is done by the transmitter.  If you see a calibration graph, it is because the transmitter sends raw values also.  But, the graph does not represent the calibration formula.  Clearing calibrations in native mode will have no impact on the effective calibration formula.
