@@ -10,7 +10,7 @@ When we use the native algorithm, the transmitter maintains the calibration form
 |  :--------------:            | :----: |   :----:   |  :--:  |  
 |Activate                      |Select:  |Deselect:     |Settings &#8722;> G5/G6 Debug Settings <br/> &#8722;> Native Algorithm
 |    Backfill                  | Yes    |  No        |Last 3 hours |  
-|Sensors keep going <br/> beyond 7/10 days for G5/G6 |No      | Yes        |In native mode, only [preemptive restart](./Preemptive-Restart.md) <br/> will keep the sensor going. |  
+|Session stops after 7 days <br/> 10 days for G6 |No      | Yes        |In native mode, only [preemptive restart](./Preemptive-Restart.md) <br/> will keep the sensor going. |  
 |G6 factory calibration        |Yes     |No          |  
 |Transmitter stops after <br/> 110 days (112 for G5) | Yes | No \*\* |Transmitter [hard reset](./Hard-Reset.md) will reset the <br/> number of days to 0. |  
 | Relevant Calibration Graph | No | Yes | * |  
