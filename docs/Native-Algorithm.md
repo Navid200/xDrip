@@ -12,12 +12,14 @@ When we use the native algorithm, the transmitter maintains the calibration form
 |    Backfill                  | Yes    |  No        |Last 3 hours |  
 |Session stops after <br/> 10 days \(7 for G5\) | Yes     | No        |In native mode, only [preemptive restart](./Preemptive-Restart.md) <br/> will keep the sensor going. |  
 |G6 factory calibration        |Yes     |No          |  
-|Transmitter stops after <br/> 110 days (112 for G5) | Yes | No \*\* |Transmitter [hard reset](./Hard-Reset.md) will reset the <br/> number of days to 0. |  
-| Relevant Calibration Graph | No | Yes | * |  
-|Clear calibrations| No | Yes | * |  
+|Transmitter stops after <br/> 110 days (112 for G5) * | Yes | No \*\* |Transmitter [hard reset](./Hard-Reset.md) will reset the <br/> number of days to 0. |  
+| Relevant Calibration Graph | No | Yes | *** |  
+|Clear calibrations| No | Yes | *** |  
 
 
-\* In native mode, calibration is done by the transmitter.  If you see a calibration graph, it is because the transmitter sends raw values also.  But, the graph does not represent the calibration formula.  Clearing calibrations in native mode will have no impact on the effective calibration formula.  
+\* The last day you can start a sensor in native mode is when transmitter days shows 99 \(104 for G5\).  
   
 \*\*   If the second character of a G6 transmitter serial number is not 0 or 1, it does not transmit raw values.  Therefore, it cannot be used in non-native mode.  All G5 transmitters can be used in either native or non-native mode.  
 A G6 can only be used in non-native mode (only 80XXXX or 81XXXX) in [engineering mode](./Engineering-Mode.md).  
+
+\*\*\*  In native mode, calibration is done by the transmitter.  If you see a calibration graph, it is because the transmitter sends raw values also.  But, the graph does not represent the calibration formula.  Clearing calibrations in native mode will have no impact on the effective calibration formula.
