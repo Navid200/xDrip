@@ -1,7 +1,7 @@
 ## Ascending Volume Profile  
 
 Try the ascending volume profile if you haven't already.  
-When the alarm triggers, it starts silent or at low volume depending on the setting.  Then, the alarm plays multiple times with 1-minute gaps in between.  Every time it plays, the volume increases a little bit.  Eventually, it plays it at the max. volume.  
+When the alarm triggers, it starts silent or at low volume depending on the setting.  Then, the alarm plays at a 1-minute interval.  Every time it plays, the volume increases a little bit.  Eventually, it plays it at the max. volume.  
   
 To enable it, go to  
 Settings &#8722;> Alarms and Alerts &#8722;> Glucose Alert Settings &#8722;> Alert Volume Profile,  
