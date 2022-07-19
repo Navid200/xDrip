@@ -1,9 +1,12 @@
-## xDrip Documentation & Support  
+## xDrip  
   
 xDrip is an [open-source Android app](https://github.com/NightscoutFoundation/xDrip) that you can use as a continuous glucose monitor.  
-The documentation, instructions and guides here are provided to help you use xDrip.  
 ![](./docs/images/xDinaction.png)  
-But, you need the advice of a competent medical professional to control your, or your loved one's, diabetes. Neither xDrip nor this page provides any medical advice.  
+  
+## xDrip Documentation & Support  
+  
+Documentation, instructions and guides here are provided to help you use xDrip.  
+You need the advice of a competent medical professional to control your, or your loved one's, diabetes. Neither xDrip nor this page provides any medical advice.  
   
   
 [Installation](./docs/Installation_page.md)  
