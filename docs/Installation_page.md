@@ -4,8 +4,8 @@
   
   
 [Requirements](./Requirements_page.md)  
-[Where can I download xDrip from?](./Download-xDrip.md)  
-[Install](./Install.md)  
+[Download xDrip](./Download-xDrip.md)  
+[Install xDrip](./Install.md)  
   
 [Update xDrip](./Updates.md)  
 [Backup database](./Backup-Database.md)  
