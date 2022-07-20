@@ -8,7 +8,7 @@ xDrip is an [open-source Android app](https://github.com/NightscoutFoundation/xD
 ## xDrip Documentation & Support  
   
 Documentation, instructions and guides here are provided to help you use xDrip.  
-You need the advice of a competent medical professional to control your, or your loved one's, diabetes. Neither xDrip nor this page provides any medical advice.  
+You need the advice of a competent medical professional to control your, or your loved one's, diabetes. Neither xDrip nor this site provides any medical advice.  
   
   
 [Installation](./docs/Installation_page.md)  
