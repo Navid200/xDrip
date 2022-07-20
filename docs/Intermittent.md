@@ -3,7 +3,7 @@
 xDrip needs to wake up and scan once every 5 minutes in order to maintain connectivity and provide consistent readings.  
 New versions of Android have features to extend the phone battery run time.  This is done by minimizing background activity.  
 The phone manufacturers also include their methods for accomplishing the same.  
-This behavior interferes with proper operation of xDrip.  As a result, when you first install xDrip on Android 10 and above, it is almost guaranteed it will have connectivity issues.  
+This behavior interferes with proper operation of xDrip.  As a result, when you first install xDrip on Android 10 or newer releases of Android, it is almost guaranteed it will have connectivity issues.  
 It is hard to provide instructions for all available brands and models of handsets.  Please use what follows as a method for tweaking your device to find the best settings.  
 
 1. If you are using an xDrip release older than the current stable release, please [update](./Updates.md).  
