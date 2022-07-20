@@ -6,7 +6,8 @@ These are the recommended G6 settings.  Click/tap on the hyperlinks to see the d
 * You should use an xDrip [version](./xDrip-Version.md) not older than the current stable release.  Please [update](./Updates.md) if you are not.  
 <br/>   
   
-* Android 10 or higher: Settings &#8722;> [G5/G6 Debug Settings](./images/g6-recommended-settings.png)  
+* Android **10** or **higher**: Settings &#8722;> [G5/G6 Debug Settings](./images/g6-recommended-settings.png)  
+  Android **9** or **lower**:  Settings &#8722;> [G5/G6 Debug Settings](./images/g6_An9-recommended-settings.png)  
 Enable all recommended settings (settings in the diagram with checkmarks) even if you see "G5" in the description.     
 
 * Settings &#8722;> Less common settings &#8722;> [Other misc options](./images/other-misc-recommended.png)  
