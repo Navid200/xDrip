@@ -1,8 +1,6 @@
 ## G6 Bluetooth Slots  
   
 A G6 transmitter has 2 communication slots.  That's why you can use a t:slim pump and also see your readings in xDrip.  Or, you can use both the Dexcom receiver and xDrip at the same time.  
-
-You can change the slot that xDrip uses.  
 By default, xDrip is on slot 2.  t:slim pump is  on slot 1.  The Dexcom receiver is also on slot 1.  
 
 If you want to change the slot number xDrip uses, you first need to enable [engineering mode](./Engineering-Mode.md).  
