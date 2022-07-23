@@ -4,6 +4,7 @@ Major releases are identified here with brief descriptions.
   
 | Release | Notes |  
 |---------|-------|  
+| [2022.07.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.23) | Sensor expiry shown by default |  
 | [2022.07.21](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.21) | One per minute max reading rate |  
 | [2022.07.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.14) | Main screen glucose text color can be changed. |  
 | [2022.07.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.13) | OB1 special pairing workaround |  
