@@ -1,4 +1,4 @@
-# Alerts  
+# xDrip Alerts  
   
 ![](./images/Alerts.png)  
   
