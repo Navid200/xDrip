@@ -4,6 +4,7 @@ Major releases are identified here with brief descriptions.
   
 | Release | Notes |  
 |---------|-------|  
+| [2022.08.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.01b) | Graph Smoothing |  
 | [2022.07.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.26) | One per minute max reading rate for wear |  
 | [2022.07.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.23) | Sensor expiry shown by default |  
 | [2022.07.21](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.21) | One per minute max reading rate |  
