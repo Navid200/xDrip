@@ -36,6 +36,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Calibration - when](./docs/Calibration)  
 [Simple Report](./docs/Report.md)  
 [Legend](./docs/Legend.md)  
+[Time range](./docs/TimeButtons.md)  
 [Extra Status Line](./docs/Extra-status-line.md)  
 [Reminders](./docs/Reminders.md)  
 [How to delete a reminder](./docs/Delete-Reminder.md)  
