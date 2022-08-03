@@ -4,6 +4,7 @@ Major releases are identified here with brief descriptions.
   
 | Release | Notes |  
 |---------|-------|  
+| [2022.08.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03) | NFC reading age and other cleanup |  
 | [2022.08.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.02) | Show unsmoothed data option |  
 | [2022.08.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.01b) | Graph Smoothing |  
 | [2022.07.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.26) | One per minute max reading rate for wear |  
