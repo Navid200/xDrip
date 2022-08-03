@@ -8,6 +8,7 @@
 ### [Follow](./Follow_page.md)  
 ### [Emergency Messages](./Emergency.md)  
 ### [Update Channels](./Updates.md)  
+### [Legend](./Legend.md)  
 ### [Watches](./Watches.md)  
 ### [Report](./Report.md)  
   
@@ -20,7 +21,6 @@
 [Connect the dots!](./Connect-the-dots.md)  
 [Engineering mode](./Engineering-Mode.md)  
 [Stop xDrip - disable collection](./Stop-xDrip.md)  
-[Legend](./Legend.md)  
 [Extra Status Line](./Extra-status-line.md)  
 [Reminders](./Reminders.md)  
 [Data tables](./Datatables.md)  
