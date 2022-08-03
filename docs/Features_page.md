@@ -15,6 +15,7 @@
 <br/>  
   
 [Logs](./Logs.md)  
+[Time range](./TimeButtons.md)  
 [Screen saver (lock screen) while being charged](./Screensaver.md)  
 [Lock Screen](./Lock-screen.md)  
 [Sensor expiry](./Sensor-Expiry.md)  
