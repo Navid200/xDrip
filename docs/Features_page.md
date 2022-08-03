@@ -20,7 +20,6 @@
 [Lock Screen](./Lock-screen.md)  
 [Sensor expiry](./Sensor-Expiry.md)  
 [Connect the dots!](./Connect-the-dots.md)  
-[Engineering mode](./Engineering-Mode.md)  
 [Stop xDrip - disable collection](./Stop-xDrip.md)  
 [Extra Status Line](./Extra-status-line.md)  
 [Reminders](./Reminders.md)  
