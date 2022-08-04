@@ -13,7 +13,7 @@ If you have been using the Dexcom app, you need to disable it.  You cannot have 
 ![](./images/queue-stuck.png)  
 If yes, [clear the queue](./Clear-queue.md).  
 
-4.  Adjust xDrip [settings](./G6-Recommended-Settings.md).  
+4.  Adjust xDrip [settings](./G6-Recommended-Settings.md).  If you get a pair request at any point, please approve.  
 
 5.  If "Start Sensor" isn't available, under the top left menu from the main screen, "Stop Sensor" from the same menu.  Wait 5 minutes.    
 The transmitter needs to be detached from your body for at least 10 minutes before you proceed.  
