@@ -31,9 +31,9 @@ If you are starting a new transmitter, be patient and wait for the battery volta
 
 ---  
  
- [this](./Dexcom_page.md) page contains all the guides and notes about using xDrip for Dexcom.  If you have a question that is not covered, please [tell](./Contact.md) us.  
+To see all the guides and notes about using xDrip for Dexcom, please see [this](./Dexcom_page.md).  If you have a question that is not covered, please [tell](./Contact.md) us.  
  
- If you are coming from G5, or another CGM, you need to get used to factory calibration.  Give it a chance.  Most people don't need to calibrate a new G6 sensor as long as the calibration code is entered properly.  
+If you are coming from G5, or another CGM, you need to get used to factory calibration.  Give it a chance.  Most people don't need to calibrate a new G6 sensor as long as the calibration code is entered properly.  
  
 A common mistake is to replace an old transmitter with a new one, stop sensor, change transmitter ID, and start sensor right away. This could result in the new transmitter never receiving the start command at the right time. The outcome is no readings after the 2-hour warm-up.  
   
