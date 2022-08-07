@@ -1,5 +1,7 @@
 ## Calibrate G6  
   
+August 7, 2022  
+
 See [Calibration](./Calibration.md) for details about what calibration is and when and why you should calibrate.  
 
 You should not over-calibrate G6.  Even the manufacturer tells you [that](https://www.dexcom.com/faqs/is-my-dexcom-sensor-accurate).  
