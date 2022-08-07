@@ -20,7 +20,8 @@ xDrip FAQ
 [Missed Reading Alert not repeating](./MissedSignalAlert.md)  
 [&#x24c5; Encircled P in front of the reading](./P_in_Circle.md)  
 [Why do I get xDrip imported AAPS profile pop-up?](./AAPS_ProfileImportNotification.md)  
-[How can I stop xDrip without uninstalling it?](https://navid200.github.io/xDrip/docs/Stop-xDrip.html)  
+[How can I stop xDrip without uninstalling it?](./Stop-xDrip.md)  
+[How to delete a treatment](./Delete_Treatment.md)  
   
 Dexcom  
 [How to trigger a pair request](./MissedPairRequest.md)  
