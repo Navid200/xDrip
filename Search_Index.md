@@ -44,6 +44,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [&#x24c5; Encircled P in front of the reading](./docs/P_in_Circle.md)  
 [Datatables](./docs/Datatables.md)  
 [Automatic Calibration](./docs/AutoCal.md)  
+[How to delete a treatment](./docs/Delete_Treatment.md)  
   
 ---  
 ### Alerts  
