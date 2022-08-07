@@ -8,6 +8,7 @@
 * Android versions **10** or **newer**:  Settings &#8722;> [G5/G6 Debug Settings](./images/g5-recommended-settings.png)  
   Android versions **9** or **older**:  Settings &#8722;> [G5/G6 Debug Settings](./images/g5_An9-recommended-settings.png)  
 Enable [Native Algorithm](./Native-Algorithm.md) only if you have to.  If you don't know what it is, leave it disabled.  
+The "Special Pairing Workaround" setting is only available if you use the xDrip release of July 13, 2022 or newer.  If you are using an older release, please ignore it.
 
 * Settings &#8722;> Less common settings &#8722;> [Other misc options](./images/other-misc-recommended.png)  
 Enable Samsung workarounds even if your phone is not Samsung.  
