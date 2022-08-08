@@ -7,7 +7,7 @@ Your readings will start after the warm up and will be significantly higher than
      
    - If you calibrate to correct the large error in one shot, you may get a confused calibration error, which stops readings and may never come back.  
    To avoid that, you should limit the correction to 20% of the reading, and delay the second calibration to 25 minutes after the first.  
-   For example, if the readings are at 10mmol/L (180mg/dL) and your glucose meter shows 6.0 (108), you should calibrate to 8.0 instead of 6.0.  
+   For example, if the readings are at 10mmol/L (180mg/dL) and your glucose meter shows 6.0 (108), you should calibrate to 8.0 (144) instead of 6.0 (108).  
    Two calibrations should bring the readings close enough.  If you insist to perform a third, delay it by 45 minutes from the second.  
 
    - Only calibrate when the trend is flat or close to flat.  
