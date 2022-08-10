@@ -13,6 +13,7 @@ If you are experiencing problems using xDrip, some possible issues, and suggeste
 [xDrip sync not working](./xDrip-Sync-not-working.md)  
 [xDrip causes apps to restart](./RestartingApps.md)  
 [Number wall on lock screen does not disable](./NumberWallDisable.md)  
+[Google Play Service is not installed](./GooglePlayServices_NotInstalled.md)  
   
 Disable [engineering mode](Engineering-Mode.md) if it is enabled.  
 
