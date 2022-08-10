@@ -1,5 +1,7 @@
 ## xDrip Sync Follow  
   
+August 10, 2022    
+  
 This page explains how to set up xDrip Sync.  
 This is easy to set up. But, it relies on Google.  
   
@@ -17,6 +19,7 @@ In some cases, the scan does not work. You can manually set up the follower:
 Under Settings &#8722;> Hardware Data Source, select xDrip+ Sync Follower.  
 Then, go to Settings &#8722;> xDrip+ Sync Settings and tap on "Handset Group Security Sync Key". Make sure the key matches the key on the same page on the master.  
 
-On both master and follower ensure that Settings &#8722;> xDrip+ Sync Settings &#8722;> Disable all sync features is disabled.  
+On both master and follower ensure that Settings &#8722;> xDrip+ Sync Settings &#8722;> Disable all sync features is disabled (no check mark beside it).  
+![](./images/DisableAllSyncFeatures.png)  
   
 [Other follower options](./How-to-follow.md)  
