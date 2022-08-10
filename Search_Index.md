@@ -82,6 +82,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [xDrip causes other apps to restart](./docs/RestartingApps.md)  
 [Number wall on lock screen does not disable](./docs/NumberWallDisable.md)  
 [Frequent pop-up xDrip imported AAPS profile?](./docs/AAPS_ProfileImportNotification.md)  
+[Google Play Service is not installed](./docs/GooglePlayServices_NotInstalled.md)  
   
   
 ---  
