@@ -1,6 +1,6 @@
 ## Starting Dexcom G6  
   
-Please be patient and do not rush to tap on "Start Sensor" even if xDrip encourages you to.  Please follow the steps exactly as stated below to avoid common issues.  
+Please be patient and do not rush to tap on "Start Sensor" even if xDrip encourages you to.  Please follow the steps exactly as stated below, in the specified sequence, to avoid common issues.  
 If you see references here to functions you don't recognize, please have a look at [this](./Dexcom-Basics.md).  
   
 If you have been using the Dexcom app, you need to disable it.  You cannot have two mobile apps collecting from the same transmitter at the same time.  
@@ -9,9 +9,9 @@ If you have been using the Dexcom app, you need to disable it.  You cannot have 
 
 2.  Set "G5/G6 Transmitter" under &nbsp; Settings &#8722;> Hardware Data Source.  
 
-3. Is there a "Start G6 Sensor" stuck in the queue on the G5/G6 status page?
+3.  Is there a "Start G6 Sensor" stuck in the queue on the G5/G6 status page?  Please note that in the last step when you start sensor, there will be a "Start G6 Sensor" in the queue for one read cycle (5 minutes).  That is expected and does not count as a stuck command.  A stuck command remains in the queue and does not clear.  
 ![](./images/queue-stuck.png)  
-If yes, [clear the queue](./Clear-queue.md).  
+If there is a command stuck in the queue, [clear the queue](./Clear-queue.md).  
 
 4.  Adjust xDrip [settings](./G6-Recommended-Settings.md).  If you get a pair request at any point, please approve.  
 
