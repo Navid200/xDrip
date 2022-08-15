@@ -6,3 +6,4 @@ Then, you should select "640G / EverSense" as the xDrip hardware data source.
 The following images show some of the xDrip settings and status pages.    
 ![](./images/BluejayFollow_status.png)  
 ![](./images/BluejaySettings.png)  
+![](./images/BluejayAdvancedSettings.png)  
