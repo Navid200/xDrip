@@ -1,4 +1,5 @@
 ## Dexcom app to xDrip  
+August 15, 2022  
   
 If you have to use the Dexcom app as your collector and want to use xDrip as a follower, if you run both on the same phone, you can use local broadcast to not have to need WiFi or data.  
   
@@ -6,6 +7,8 @@ Instead of the Dexcom app, you will need to use the [Build your own Dexcom app](
 Uninstall the Dexcom app if you have it or any version of it installed.  Then, download and install the BYODA that you created.  
     
 In xDrip, running on the same phone, choose Settings &#8722;> Hardware Data Source &#8722;> 640G / EverSense.  
+![](./images/HDS_Eversense.png)  
+  
 Tap on start sensor and enter the time for 2 hours ago.  It will not interfere with the sensor running in the Dexcom app.  But, you should now have readings in xDrip.  
   
 [Other follower options](./How-to-follow.md)  
