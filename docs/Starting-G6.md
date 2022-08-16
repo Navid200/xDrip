@@ -16,13 +16,13 @@ If there is a command stuck in the queue, [clear the queue](./Clear-queue.md).
 
 4.  Adjust xDrip [settings](./G6-Recommended-Settings.md).  If you get a pair request at any point, please approve.  
 
-5.  If "Start Sensor" isn't available, under the top left menu from the main screen, "Stop Sensor" from the same menu.  Wait 5 minutes.    
+5.  If "Start Sensor" isn't available as an option from the top left menu on the main screen, "Stop Sensor" from the same menu.  Wait 5 minutes.    
 The transmitter needs to be detached from your body for at least 10 minutes before you proceed.  
 If there is bleeding, after inserting a new sensor, use Q-tips to absorb the blood.  Keep doing that, and don't allow any blood to get to the contacts, until bleeding stops.  
 
 6.  If you are starting a new transmitter, enter the new transmitter serial number (Transmitter ID): Settings &#8722;> Dexcom Transmitter ID.     
 
-7.  Clean the transmitter contacts (not if you are restarting sensor) using rubbing alcohol.  Wait for it (10 seconds) to dry.  Snap the transmitter into the sensor.  
+7.  Clean the transmitter contacts (not if you are restarting sensor) using rubbing alcohol.  Wait for it (10 seconds) to dry.  Snap the transmitter into the sensor.  If you are starting a new transmitter, snapping it into the sensor on your body is required to activate it.  
 
 8.  Monitor the G5/G6 system status page. Every 5 minutes, a read cycle completes.  
 If you don't have [proper connectivity](./Proper-connectivity.md), don't proceed before figuring out why. Perhaps, your settings are incorrect.  
