@@ -46,6 +46,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Datatables](./docs/Datatables.md)  
 [Automatic Calibration](./docs/AutoCal.md)  
 [How to delete a treatment](./docs/Delete_Treatment.md)  
+[Watches](./docs/Watches.md)  
   
 ---  
 ### Alerts  
