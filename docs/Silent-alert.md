@@ -1,4 +1,5 @@
-## Alert makes no sound 
+## xDrip Alert makes no sound  
+August 17, 2022  
   
 Different factors could result in an alert not making any sound.  The following is a list of such combinations.
 
