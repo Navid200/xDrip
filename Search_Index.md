@@ -60,6 +60,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Notification Channels](./docs/Notification-channels.md)  
 [Audio Focus - alert raises music volume](./docs/AudioFocus.md)  
 [Custom Alert Sound](./docs/Custom-Alert-Sound.md)  
+[Alert makes no sound](./docs/Silent-alert.md)  
   
 ---  
 ### Nightscout  
