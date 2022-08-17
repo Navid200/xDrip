@@ -48,6 +48,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [How to delete a treatment](./docs/Delete_Treatment.md)  
 [Watches](./docs/Watches.md)  
 [Bluejay](./docs/Bluejay_page.md)  
+[Phone as a Bluejay follower](./docs/Follow_Bluejay.md)  
   
 ---  
 ### Alerts  
