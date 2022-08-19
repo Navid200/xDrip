@@ -5,7 +5,7 @@ You will need to update xDrip manually.  There is an automatic check for updates
   
 Like any other software, an update could cause unintended behavior.  It is practically impossible to fully and adequately test a piece of software.  Some bugs will be found by users after release.  That's why releases are made in stages.  
 A pre-release is a release that has only been tested by the developers.  We call it a Nightly release.  
-There are Nightly releases with an average rate of about one every week.  
+On average, there is a Nightly release once a week.  
 You can download the nightly builds (least tested but most recent), from "Releases" [here](https://github.com/NightscoutFoundation/xDrip/).  
 
 An alpha release has been tested by a few users in the Nightly channel for a while after having been tested by developers.  
