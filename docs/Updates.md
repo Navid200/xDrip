@@ -15,7 +15,7 @@ A beta release has been tested in the alpha channel by some users as well as in 
 A stable release has been tested in all the previously mentioned channels. There is about one stable release once every 6 months.  
 You can download the latest stable version from "Latest" under the "Releases" heading on the GitHub repository page [here](https://github.com/NightscoutFoundation/xDrip/).  
 
-The Releases section of the repository page on a mobile and a desktop are shown below.  
+The Releases section of the repository page on a mobile and a desktop is shown below.  
 ![](./images/Releases_mobile.png)  
 ![](./images/Releases.png)  
     
