@@ -1,18 +1,22 @@
 ## Update xDrip  
 
-You will need to update xDrip manually.  There is an automatic check for updates that is explained below.  How you can verify an update is also explained below.  
+You will need to update xDrip manually.  There is an automatic check for updates that is explained below, which informs you that an update is available.  But, there is no automatic update.  How you can verify a successful update is also explained below.  
   
-You can download the latest stable version from "Latest" [here](https://github.com/NightscoutFoundation/xDrip/).  
-You can download the nightly builds (least tested but more recent), from "Releases" [here](https://github.com/NightscoutFoundation/xDrip/).  
   
-![](./images/Releases.png) 
-  
-    
+Like any other software, an update could cause unintended behavior.  It is practically impossible to fully and adequately test a piece of software.  Some bugs will be found by users after release.  That's why releases are made in stages.  
+A pre-release is a release that has only been tested by the developers.  We call it a Nightly release.  
+There are Nightly releases with an average rate of about one every week.  
+You can download the nightly builds (least tested but most recent), from "Releases" [here](https://github.com/NightscoutFoundation/xDrip/).  
 
-After finding the release that you want, download the file with .apk at the end and no "variant" in the title, under "Assets" and install over.  No need to uninstall first.  Installing over your existing xDrip will maintain the settings and readings history.  
-To confirm that the update succeeded, view classic status page and check the first line, which shows the date of the release you have installed.  
+An alpha release has been tested by a few users in the Nightly channel for a while after having been tested by developers.  
   
-xDrip can check for updates and inform you when one is available.  For that, xDrip has different update channels.  
+A beta release has been tested in the alpha channel by some users as well as in the Nightly channel by a few users as well as by the developers.  
+
+A stable release has been tested in all the previously mentioned channels. There is about one stable release once every 6 months.  
+You can download the latest stable version from "Latest" [here](https://github.com/NightscoutFoundation/xDrip/).  
+  
+![](./images/Releases.png)  
+    
   
 | Channel | Description | 
 |:--------------:|:-----------:|  
@@ -20,6 +24,9 @@ xDrip can check for updates and inform you when one is available.  For that, xDr
 | Alpha          | Less up-to-date but more tested than Nightly | 
 | Beta           | Less up-to-date but more tested than Alpha  |  
 | Stable         | Stable and Beta are usually the same |  
+  
+After finding the release that you want, download the file with .apk at the end and no "variant" in the title, under "Assets" and install over.  No need to uninstall first.  Installing over your existing xDrip will maintain the settings and readings history.  
+To confirm that the update succeeded, view classic status page and check the first line, which shows the date of the release you have installed.  
 
 To select which update channel is used, access Settings &#8722;> xDrip+ Update Settings.  
 ![](./images/auto_update.png)  
