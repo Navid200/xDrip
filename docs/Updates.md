@@ -28,7 +28,7 @@ You can download the latest stable version from "Latest" [here](https://github.c
 After finding the release that you want, download the file with .apk at the end and no "variant" in the title, under "Assets" and install over.  No need to uninstall first.  Installing over your existing xDrip will maintain the settings and readings history.  
 To confirm that the update succeeded, view classic status page and check the first line, which shows the date of the release you have installed.  
 
-To select which update channel is used, access Settings &#8722;> xDrip+ Update Settings.  
+To select an update channel, access Settings &#8722;> xDrip+ Update Settings.  
 ![](./images/auto_update.png)  
 You need to choose alpha in order for the nightly option to become visible.  
 To use the auto update check, enable Automatic update check.  
