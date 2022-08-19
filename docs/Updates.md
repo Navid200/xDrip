@@ -6,15 +6,17 @@ You will need to update xDrip manually.  There is an automatic check for updates
 Like any other software, an update could cause unintended behavior.  It is practically impossible to fully and adequately test a piece of software.  Some bugs will be found by users after release.  That's why releases are made in stages.  
 A pre-release is a release that has only been tested by the developers.  We call it a Nightly release.  
 On average, there is a Nightly release once a week.  
-You can download the nightly builds (least tested but most recent), from "Releases" [here](https://github.com/NightscoutFoundation/xDrip/).  
+You can download the nightly builds (least tested but most recent), from "releases" under the "Releases" heading (shown below) on the GitHub repository page [here](https://github.com/NightscoutFoundation/xDrip/).  
 
 An alpha release has been tested by a few users in the Nightly channel for a while after having been tested by developers.  
   
 A beta release has been tested in the alpha channel by some users as well as in the Nightly channel by a few users as well as by the developers.  
 
 A stable release has been tested in all the previously mentioned channels. There is about one stable release once every 6 months.  
-You can download the latest stable version from "Latest" [here](https://github.com/NightscoutFoundation/xDrip/).  
-  
+You can download the latest stable version from "Latest" under the "Releases" heading on the GitHub repository page [here](https://github.com/NightscoutFoundation/xDrip/).  
+
+The Releases section of the repository page on a mobile and a desktop are shown below.  
+![](./images/Releases_mobile.png)  
 ![](./images/Releases.png)  
     
   
