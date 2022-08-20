@@ -4,6 +4,7 @@ Major releases are identified here with brief descriptions.
   
 | Release | Notes |  
 |---------|-------|  
+| [2022.08.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.20) | Watchdrip graph fix |  
 | [2022.08.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.19) | Audio loop, de-duplication, half background check |  
 | [2022.08.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.18) | Graph improvements |  
 | [2022.08.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03) | **<span style="color:orange">Alpha release</span>** <br/> NFC reading age and other cleanup |  
