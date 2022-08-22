@@ -29,7 +29,7 @@ You can download the latest stable version from "Latest" under the "Releases" he
 | Stable         | Stable and Beta are usually the same |  
   
 **How to install**    
-After finding the release that you want, download the file with .apk at the end and no "variant" in the title, under "Assets" and install over.  No need to uninstall first.  Installing over your existing xDrip will maintain the settings and readings history.  
+After finding the release that you want, download the file with .apk at the end and no "variant" in the title, under "Assets", and install over.  No need to uninstall first.  Installing over your existing xDrip will maintain the settings and readings history.  
   
 **Confirm successful update**  
 To confirm that the update succeeded, view classic status page and check the first line, which shows the date of the release you have installed.  
