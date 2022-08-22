@@ -16,15 +16,15 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Automatic Calibration](./docs/AutoCal.md)  
 [Missed Reading Alert not repeating](./docs/MissedSignalAlert.md)  
 
-### Backup  
+**Backup**  
 [Backup database](./docs/Backup-Database.md)  
 [Bluejay](./docs/Bluejay_page.md)  
 [Phone as a Bluejay follower](./docs/Follow_Bluejay.md)  
 
-### Battery  
+**Battery**  
 [How good is the battery?](./docs/Battery-condition.md)  
   
-### Calibration    
+**Calibration**    
 [Calibration - when](./docs/Calibration)  
 [Automatic Calibration](./docs/AutoCal.md)  
 [Calibrate G6 after a restart](./docs/Calibrate-after-G6Restart.md)  
@@ -32,104 +32,104 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Custom Alert Sound](./docs/Custom-Alert-Sound.md)  
 [Custom sound/alarm grayed out](./docs/Custom-sound-grayed-out.md)  
 
-### Database  
+**Database**  
 [Restore database](./docs/Restore-Database.md)  
 [Database restore failure](./docs/Database-restore-failure.md)  
 
-### Data Tables  
+**Data Tables**  
 [Data tables](./docs/Datatables.md)  
 [Dexcom One](./docs/Dexcom-One.md)  
 
-### Dexcom  
+**Dexcom**  
 [Dexcom basics](./docs/Dexcom-Basics.md)  
 
-### Download  
+**Download**  
 [Where can I download xDrip from?](./docs/Download-xDrip.md)  
 
-### Emergency  
+**Emergency**  
 [Emergency Messages](./docs/Emergency.md)  
 [Engineering mode](./docs/Engineering-Mode.md)  
 
-### Features  
+**Features**  
 [Features](./docs/Features_page.md)  
 
-### Follow  
+**Follow**  
 [How to follow](./docs/How-to-follow.md)  
 [Follow Dexcom app](./docs/DexcomAppxDrip.md)  
 
 [Start G6](./docs/Starting-G6.md)  
 
-### Google  
+**Google**  
 [Google Play Services is not installed](./docs/GooglePlayServices_NotInstalled.md)  
 [xDrip is not in Google Play Store ...](./docs/App-store.md)  
 
-### Issues
+**Issues**
 [Issues](./docs/Issues.md)  
 
-### Legend
+**Legend**
 [Legend](./docs/Legend.md)  
 [Where are the Logs?](./docs/Logs.md)  
 
-### Native
+**Native**
 [Native algorithm - mode](./docs/Native-Algorithm.md)  
 
-### Nightscout  
+**Nightscout**  
 [Nightscout](./docs/Nightscout.md)  
 [Nightscout Settings](./docs/Nightscout-Settings.md)  
 
-### Noise  
+**Noise**  
 [Noise](./docs/Noise.md)  
 
-### Pair  
+**Pair**  
 [Trigger a pair request](./docs/MissedPairRequest.md)  
 
-### Queue  
+**Queue**  
 [Clear the queue](./docs/Clear-queue.md)  
 
-### Release notes  
+**Release notes**  
 [Release notes](./docs/ReleaseNotes.md)  
 
-### Reminders  
+**Reminders**  
 [Reminders](./docs/Reminders.md)  
 [How to delete a reminder](./docs/Delete-Reminder.md)  
 
-### Report  
+**Report**  
 [Simple Report](./docs/Report.md)  
 
-### Restart  
+**Restart**  
 [Restart G5](./docs/Restart-G5-sensor.md)  
 [Restart G6](./docs/Restart-G6-sensor.md)  
 [Remove a G6 transmitter from sensor](./docs/Remove-transmitter.md)  
 [Calibrate G6 after a restart](./docs/Calibrate-after-G6Restart.md)  
 [Preemptive Restart](./docs/Preemptive-Restart.md)  
 
-### Sensor  
+**Sensor**  
 [Sensor expiry](./docs/Sensor-Expiry.md)  
 
-### Settings  
+**Settings**  
 [G5 recommended settings](./docs/G5-Recommended-Settings.md)  
 [G6 recommended settings](./docs/G6-Recommended-Settings.md)  
 
-### Snoose  
+**Snoose**  
 [Snooze - easiest way to snooze](./docs/Snooze.md)  
 
-### Statistics  
+**Statistics**  
 [Statistics](./docs/Statistics.md)  
 
-### Stop  
+**Stop**  
 [Stop xDrip - disable collection](./docs/Stop-xDrip.md)  
 
-### Treatment 
+**Treatment** 
 [How to delete a treatment](./docs/Delete_Treatment.md)  
 
-### Update  
+**Update**  
 [Update xDrip](./docs/Updates.md)  
 [Why nothing happens when I check for updates?](./docs/NoUpdate.md)  
 
-### Volume profile
+**Volume profile**
 [Volume Profiles](./docs/Volume-profiles.md)  
 
-### Watches  
+**Watches**  
 [Watches](./docs/Watches.md)  
 
 [Transfer to new phone](./docs/New-Phone.md)  
