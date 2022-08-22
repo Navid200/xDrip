@@ -177,7 +177,7 @@ You can use your browser's search function on this page to find an item you may 
 [Session in progress](./docs/Session-in-progress.md)  
 [Please report unknown firmware!](./docs/Report-firmware.md)  
   
-**Treatment** 
+**Treatment**  
 [How to delete a treatment](./docs/Delete_Treatment.md)  
   
 **Update**  
