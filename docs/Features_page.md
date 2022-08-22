@@ -3,7 +3,6 @@
 ### [Alerts](./Alerts_page.md)  
 ### [Statistics](./Statistics.md)  
 ### [Dexcom](./Dexcom_page.md)  
-### [Libre](Libre.md)  
 ### [Nightscout](./Nightscout_page.md)  
 ### [Follow](./Follow_page.md)  
 ### [Emergency Messages](./Emergency.md)  
