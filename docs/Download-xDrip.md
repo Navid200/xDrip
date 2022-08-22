@@ -1,6 +1,6 @@
 ## Download xDrip  
   
-You can download the latest stable version under "Latest" from the [Github repository](https://github.com/NightscoutFoundation/xDrip/).  
+You can download the latest stable version under "Latest" from the [GitHub repository](https://github.com/NightscoutFoundation/xDrip/).  
 ![](./images/Releases.png)  
 
 On a mobile, you will need to scroll almost all the way down to reach Releases and "Latest".  
