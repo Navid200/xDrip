@@ -62,6 +62,9 @@ This page lists all the documentation in a flat format.  You can use your browse
 **Google**  
 [Google Play Services is not installed](./docs/GooglePlayServices_NotInstalled.md)  
 [xDrip is not in Google Play Store ...](./docs/App-store.md)  
+  
+**Install**  
+[Reinstall xDrip](./docs/Reinstall.md)  
 
 **Issues**
 [Issues](./docs/Issues.md)  
@@ -84,6 +87,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Trigger a pair request](./docs/MissedPairRequest.md)  
 
 **Queue**  
+[Transmitter Queue](./docs/Transmitter-Queue.md)  
 [Clear the queue](./docs/Clear-queue.md)  
 
 **Release notes**  
@@ -121,6 +125,9 @@ This page lists all the documentation in a flat format.  You can use your browse
 
 **Stop**  
 [Stop xDrip - disable collection](./docs/Stop-xDrip.md)  
+  
+**Transmitter**  
+[Transmitter Lifetime](./docs/Transmitter-lifetime.md)  
 
 **Treatment** 
 [How to delete a treatment](./docs/Delete_Treatment.md)  
@@ -136,7 +143,6 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Watches](./docs/Watches.md)  
 
 [Transfer to new phone](./docs/New-Phone.md)  
-[Reinstall xDrip](./docs/Reinstall.md)  
 [Multiple instances (variants)](./docs/Variants.md)  
 
 [Which xDrip version do I have?](./docs/xDrip-Version.md)  
@@ -178,10 +184,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Troubleshooting](./docs/Connectivity-troubleshoot.md)  
 
 [Intermittent Connectivity](./docs/Intermittent.md)  
-  
-[Transmitter Queue](./docs/Transmitter-Queue.md)  
 
-[Transmitter Lifetime](./docs/Transmitter-lifetime.md)  
 [G6 Transmitter Warranty](./docs/G6_Warranty.md)  
 [G6 Slot Number](./docs/G6_slot.md)  
   
