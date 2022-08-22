@@ -7,7 +7,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [No medical decisions](./docs/Medical.md)  
 [Phone plan](./docs/Smartphone-Requirements.md)  
 
-### Alerts  
+**Alerts**  
 [Alert makes no sound](./docs/Silent-alert.md)  
 [Alert re-raise malfunction](./docs/Alert-re‐raise-malfunction.md)  
 [Android](./docs/Android.md)  
