@@ -5,7 +5,6 @@ This page lists all the documentation in a flat format.  You can use your browse
 <br/>  
   
 [No medical decisions](./docs/Medical.md)  
-[Phone plan](./docs/Smartphone-Requirements.md)  
 
 **Alerts**  
 [Alert makes no sound - Alert is silent](./docs/Silent-alert.md)  
@@ -55,6 +54,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Lock Screen](./docs/Lock-screen.md)  
 [Legend](./docs/Legend.md)  
 [Number wall on lock screen does not disable](./docs/NumberWallDisable.md)  
+[Time range](./docs/TimeButtons.md)  
   
 **Download**  
 [Where can I download xDrip from?](./docs/Download-xDrip.md)    
@@ -117,7 +117,10 @@ This page lists all the documentation in a flat format.  You can use your browse
 
 **Pair**  
 [Trigger a pair request](./docs/MissedPairRequest.md)  
-
+  
+**Phone**  
+[Phone plan](./docs/Smartphone-Requirements.md)  
+  
 **Queue**  
 [Transmitter Queue](./docs/Transmitter-Queue.md)  
 [Clear the queue](./docs/Clear-queue.md)  
@@ -187,7 +190,6 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Watches](./docs/Watches.md)  
 [WearOS](./docs/WearOS-Instructions.md)  
 
-[Time range](./docs/TimeButtons.md)  
 [Extra Status Line](./docs/Extra-status-line.md)  
 
 [Why do I get a notification for each reading?](./docs/Frequent_notifications.md)  
