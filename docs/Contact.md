@@ -9,7 +9,7 @@ include the following in the first post.
 - If the collector, what brand and model is the phone, and what Android version is on the phone?  
 - If a follower, what follower scheme is used?  
 - A snapshot of the system status page (you can blackout serial numbers)  
-- A snapshot of the classic status page (you can blackout serial numbers)  
+- A snapshot of the Hardware Data Source page  
 
 Include a short description of what is wrong. For example "No readings", or "Sensor Stopped".  
 Also, state if there is something that has changed. For example, is this a new phone, or did you recently receive an Android patch, if the problem only occurs with a particular release of xDrip, or if you are new to xDrip, or if a new sensor started the issue.  
