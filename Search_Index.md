@@ -81,6 +81,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [What not to do! Why did G6 do that?](./docs/What-not-to-do.md)  
 [Troubleshooting](./docs/Connectivity-troubleshoot.md)  
 [Session in progress](./docs/Session-in-progress.md)  
+[Please report unknown firmware!](./docs/Report-firmware.md)  
 
 **Google**  
 [Google Play Services is not installed](./docs/GooglePlayServices_NotInstalled.md)  
@@ -88,6 +89,7 @@ This page lists all the documentation in a flat format.  You can use your browse
   
 **Install**  
 [Reinstall xDrip](./docs/Reinstall.md)  
+[Transfer to new phone](./docs/New-Phone.md)  
 
 **Issues**  
 [Issues](./docs/Issues.md)  
@@ -162,6 +164,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [G6 Transmitter Warranty](./docs/G6_Warranty.md)  
 [G6 Slot Number](./docs/G6_slot.md)  
 [Session in progress](./docs/Session-in-progress.md)  
+[Please report unknown firmware!](./docs/Report-firmware.md)  
   
 **Treatment** 
 [How to delete a treatment](./docs/Delete_Treatment.md)  
@@ -184,8 +187,6 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Watches](./docs/Watches.md)  
 [WearOS](./docs/WearOS-Instructions.md)  
 
-[Transfer to new phone](./docs/New-Phone.md)  
-
 [Time range](./docs/TimeButtons.md)  
 [Extra Status Line](./docs/Extra-status-line.md)  
 
@@ -198,8 +199,6 @@ This page lists all the documentation in a flat format.  You can use your browse
 
 [Both xDrip and Dexcom app](./docs/xDrip-and-Dexcom-app.md)  
 [Can xDrip coexist with t:slim or receiver?](./docs/Receiver-or-t:slim-and-xDrip.md)  
-
-[Please report unknown firmware!](./docs/Report-firmware.md)  
 
 [Gel (petroleum jelly) on the transmitter contacts](./docs/Dielectric-Grease-in-Dexcom-G6-Sensor.md)  
 [xDrip following Dexcom app](./docs/DexcomAppxDrip.md)  
