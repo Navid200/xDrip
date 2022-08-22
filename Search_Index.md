@@ -16,6 +16,9 @@ You can use your browser's search function on this page to find an item you may 
 [Custom Alert Sound](./docs/Custom-Alert-Sound.md)  
 [Custom sound/alarm grayed out](./docs/Custom-sound-grayed-out.md)  
   
+**Audio**  
+[Bluetooth headphone interruption](./docs/Bluetooth-headphone-interruption.md)  
+  
 **Backup**  
 [Backup database](./docs/Backup-Database.md)  
 [Bluejay](./docs/Bluejay_page.md)  
@@ -28,6 +31,9 @@ You can use your browser's search function on this page to find an item you may 
 [Calibration - when](./docs/Calibration)  
 [Automatic Calibration](./docs/AutoCal.md)  
 [Calibrate G6 after a restart](./docs/Calibrate-after-G6Restart.md)  
+  
+**Crash**  
+[xDrip causes other apps to restart](./docs/RestartingApps.md)  
   
 **Database**  
 [Restore database](./docs/Restore-Database.md)  
@@ -115,6 +121,7 @@ You can use your browser's search function on this page to find an item you may 
 **Notifications**  
 [Notification Channels](./docs/Notification-channels.md)  
 [Why do I get a notification for each reading?](./docs/Frequent_notifications.md)  
+[Frequent pop-up xDrip imported AAPS profile?](./docs/AAPS_ProfileImportNotification.md)  
   
 **P**  
 [&#x24c5; Encircled P in front of the reading](./docs/P_in_Circle.md)  
@@ -199,9 +206,4 @@ You can use your browser's search function on this page to find an item you may 
 **Watches**  
 [Watches](./docs/Watches.md)  
 [WearOS](./docs/WearOS-Instructions.md)  
-  
-[Bluetooth headphone interruption](./docs/Bluetooth-headphone-interruption.md)  
-
-[xDrip causes other apps to restart](./docs/RestartingApps.md)  
-[Frequent pop-up xDrip imported AAPS profile?](./docs/AAPS_ProfileImportNotification.md)  
   
