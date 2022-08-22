@@ -15,6 +15,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Audio Focus - alert raises music volume](./docs/AudioFocus.md)  
 [Automatic Calibration](./docs/AutoCal.md)  
 [Missed Reading Alert not repeating](./docs/MissedSignalAlert.md)  
+[Notification Channels](./docs/Notification-channels.md)  
 
 **Backup**  
 [Backup database](./docs/Backup-Database.md)  
@@ -66,6 +67,8 @@ This page lists all the documentation in a flat format.  You can use your browse
 [How to follow](./docs/How-to-follow.md)  
 [Follow Dexcom app](./docs/DexcomAppxDrip.md)  
 [xDrip Sync](./docs/xDripSync.md)  
+[xDrip sync not working](./docs/xDrip-Sync-not-working.md)  
+[Dexcom share not working](./docs/Dexcom-share-delta-format-change.md)  
   
 **G6**  
 [Start G6](./docs/Starting-G6.md)  
@@ -96,6 +99,10 @@ This page lists all the documentation in a flat format.  You can use your browse
 
 **Noise**  
 [Noise](./docs/Noise.md)  
+  
+**Notifications**  
+[Notification Channels](./docs/Notification-channels.md)  
+[Why do I get a notification for each reading?](./docs/Frequent_notifications.md)  
 
 **Pair**  
 [Trigger a pair request](./docs/MissedPairRequest.md)  
@@ -175,10 +182,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Glucose Level Alert List](./docs/Glucose-level-alerts.md)  
 
 [Why do I get a notification for each reading?](./docs/Frequent_notifications.md)  
-[Notification Channels](./docs/Notification-channels.md)  
 
-[xDrip sync not working](./docs/xDrip-Sync-not-working.md)  
-[Dexcom share not working](./docs/Dexcom-share-delta-format-change.md)  
 [Follow multiple people](./docs/Variants.md)  
   
 [Bluetooth headphone interruption](./docs/Bluetooth-headphone-interruption.md)  
