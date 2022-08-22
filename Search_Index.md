@@ -96,6 +96,9 @@ This page lists all the documentation in a flat format.  You can use your browse
 **Report**  
 [Simple Report](./docs/Report.md)  
 
+**Reset**  
+[Hard reset](./docs/Hard-Reset.md)  
+  
 **Restart**  
 [Restart G5](./docs/Restart-G5-sensor.md)  
 [Restart G6](./docs/Restart-G6-sensor.md)  
@@ -176,7 +179,6 @@ This page lists all the documentation in a flat format.  You can use your browse
 
 [Intermittent Connectivity](./docs/Intermittent.md)  
   
-[Hard reset](./docs/Hard-Reset.md)  
 [Transmitter Queue](./docs/Transmitter-Queue.md)  
 
 [Transmitter Lifetime](./docs/Transmitter-lifetime.md)  
