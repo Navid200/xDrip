@@ -41,6 +41,7 @@ You can use your browser's search function on this page to find an item you may 
 [Dexcom basics](./docs/Dexcom-Basics.md)  
 [Dexcom One](./docs/Dexcom-One.md)  
 [Both xDrip and Dexcom app](./docs/xDrip-and-Dexcom-app.md)  
+[Gel (petroleum jelly) on the transmitter contacts](./docs/Dielectric-Grease-in-Dexcom-G6-Sensor.md)  
   
 **Disconnect**  
 [Proper Connectivity](./docs/Proper-connectivity.md)  
@@ -72,6 +73,7 @@ You can use your browser's search function on this page to find an item you may 
 [xDrip sync not working](./docs/xDrip-Sync-not-working.md)  
 [Dexcom share not working](./docs/Dexcom-share-delta-format-change.md)  
 [Follow multiple people](./docs/Variants.md)  
+[xDrip following Dexcom app](./docs/DexcomAppxDrip.md)  
   
 **G6**  
 [Start G6](./docs/Starting-G6.md)  
@@ -202,7 +204,4 @@ You can use your browser's search function on this page to find an item you may 
 
 [xDrip causes other apps to restart](./docs/RestartingApps.md)  
 [Frequent pop-up xDrip imported AAPS profile?](./docs/AAPS_ProfileImportNotification.md)  
-
-[Gel (petroleum jelly) on the transmitter contacts](./docs/Dielectric-Grease-in-Dexcom-G6-Sensor.md)  
-[xDrip following Dexcom app](./docs/DexcomAppxDrip.md)  
-
+  
