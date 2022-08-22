@@ -8,7 +8,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Phone plan](./docs/Smartphone-Requirements.md)  
 
 **Alerts**  
-[Alert makes no sound](./docs/Silent-alert.md)  
+[Alert makes no sound - Alert is silent](./docs/Silent-alert.md)  
 [Alert re-raise malfunction](./docs/Alert-re‐raise-malfunction.md)  
 [Android](./docs/Android.md)  
 [Android auto-update](./docs/Android-auto-update.md)  
@@ -64,6 +64,8 @@ This page lists all the documentation in a flat format.  You can use your browse
   
 **G6**  
 [Start G6](./docs/Starting-G6.md)  
+[G6 Transmitter Warranty](./docs/G6_Warranty.md)  
+[G6 Slot Number](./docs/G6_slot.md)  
 
 **Google**  
 [Google Play Services is not installed](./docs/GooglePlayServices_NotInstalled.md)  
@@ -135,6 +137,8 @@ This page lists all the documentation in a flat format.  You can use your browse
 **Transmitter**  
 [Transmitter Lifetime](./docs/Transmitter-lifetime.md)  
 [How strong is the transmitter signal?](./docs/Bluetooth-Scanner.md)  
+[G6 Transmitter Warranty](./docs/G6_Warranty.md)  
+[G6 Slot Number](./docs/G6_slot.md)  
 
 **Treatment** 
 [How to delete a treatment](./docs/Delete_Treatment.md)  
@@ -149,6 +153,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 
 **Watches**  
 [Watches](./docs/Watches.md)  
+[WearOS](./docs/WearOS-Instructions.md)  
 
 [Transfer to new phone](./docs/New-Phone.md)  
 [Multiple instances (variants)](./docs/Variants.md)  
@@ -176,8 +181,6 @@ This page lists all the documentation in a flat format.  You can use your browse
   
 [Bluetooth headphone interruption](./docs/Bluetooth-headphone-interruption.md)  
 
-[Alert is silent](./docs/Silent-alert.md)  
-
 [xDrip causes other apps to restart](./docs/RestartingApps.md)  
 [Number wall on lock screen does not disable](./docs/NumberWallDisable.md)  
 [Frequent pop-up xDrip imported AAPS profile?](./docs/AAPS_ProfileImportNotification.md)  
@@ -185,9 +188,6 @@ This page lists all the documentation in a flat format.  You can use your browse
 [What not to do! Why did G6 do that?](./docs/What-not-to-do.md)  
   
 [Troubleshooting](./docs/Connectivity-troubleshoot.md)  
-
-[G6 Transmitter Warranty](./docs/G6_Warranty.md)  
-[G6 Slot Number](./docs/G6_slot.md)  
   
 [Session in progress](./docs/Session-in-progress.md)  
 
@@ -199,4 +199,3 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Gel (petroleum jelly) on the transmitter contacts](./docs/Dielectric-Grease-in-Dexcom-G6-Sensor.md)  
 [xDrip following Dexcom app](./docs/DexcomAppxDrip.md)  
 
-[WearOS](./docs/WearOS-Instructions.md)    
