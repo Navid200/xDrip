@@ -4,8 +4,6 @@ This page lists all the documentation in a flat format.  You can use your browse
   
 <br/>  
   
-[No medical decisions](./docs/Medical.md)  
-
 **Alerts**  
 [Alert makes no sound - Alert is silent](./docs/Silent-alert.md)  
 [Alert re-raise malfunction](./docs/Alert-re‐raise-malfunction.md)  
@@ -38,10 +36,11 @@ This page lists all the documentation in a flat format.  You can use your browse
 
 **Data Tables**  
 [Data tables](./docs/Datatables.md)  
-[Dexcom One](./docs/Dexcom-One.md)  
 
 **Dexcom**  
+[xDrip and Dexcom](./docs/Dexcom_page.md)  
 [Dexcom basics](./docs/Dexcom-Basics.md)  
+[Dexcom One](./docs/Dexcom-One.md)  
   
 **Disconnect**  
 [Proper Connectivity](./docs/Proper-connectivity.md)  
@@ -54,6 +53,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Legend](./docs/Legend.md)  
 [Number wall on lock screen does not disable](./docs/NumberWallDisable.md)  
 [Time range](./docs/TimeButtons.md)  
+[Extra Status Line](./docs/Extra-status-line.md)  
   
 **Download**  
 [Where can I download xDrip from?](./docs/Download-xDrip.md)    
@@ -96,7 +96,10 @@ This page lists all the documentation in a flat format.  You can use your browse
 **Legend**  
 [Legend](./docs/Legend.md)  
 [Where are the Logs?](./docs/Logs.md)  
-
+  
+**Medical**  
+[No medical decisions](./docs/Medical.md)  
+  
 **Native**  
 [Native algorithm - mode](./docs/Native-Algorithm.md)  
 
@@ -123,6 +126,9 @@ This page lists all the documentation in a flat format.  You can use your browse
 **Queue**  
 [Transmitter Queue](./docs/Transmitter-Queue.md)  
 [Clear the queue](./docs/Clear-queue.md)  
+  
+**Receiver**  
+[Can xDrip coexist with t:slim or receiver?](./docs/Receiver-or-t:slim-and-xDrip.md)  
 
 **Release notes**  
 [Release notes](./docs/ReleaseNotes.md)  
@@ -160,6 +166,9 @@ This page lists all the documentation in a flat format.  You can use your browse
 **Stop**  
 [Stop xDrip - disable collection](./docs/Stop-xDrip.md)  
   
+**t:slim**  
+[Can xDrip coexist with t:slim or receiver?](./docs/Receiver-or-t:slim-and-xDrip.md)  
+  
 **Transmitter**  
 [Transmitter Lifetime](./docs/Transmitter-lifetime.md)  
 [How strong is the transmitter signal?](./docs/Bluetooth-Scanner.md)  
@@ -188,10 +197,6 @@ This page lists all the documentation in a flat format.  You can use your browse
 **Watches**  
 [Watches](./docs/Watches.md)  
 [WearOS](./docs/WearOS-Instructions.md)  
-
-[Extra Status Line](./docs/Extra-status-line.md)  
-
-[Why do I get a notification for each reading?](./docs/Frequent_notifications.md)  
   
 [Bluetooth headphone interruption](./docs/Bluetooth-headphone-interruption.md)  
 
@@ -199,7 +204,6 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Frequent pop-up xDrip imported AAPS profile?](./docs/AAPS_ProfileImportNotification.md)  
 
 [Both xDrip and Dexcom app](./docs/xDrip-and-Dexcom-app.md)  
-[Can xDrip coexist with t:slim or receiver?](./docs/Receiver-or-t:slim-and-xDrip.md)  
 
 [Gel (petroleum jelly) on the transmitter contacts](./docs/Dielectric-Grease-in-Dexcom-G6-Sensor.md)  
 [xDrip following Dexcom app](./docs/DexcomAppxDrip.md)  
