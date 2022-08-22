@@ -16,6 +16,8 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Missed Reading Alert not repeating](./docs/MissedSignalAlert.md)  
 [Notification Channels](./docs/Notification-channels.md)  
 [Glucose Level Alert List](./docs/Glucose-level-alerts.md)  
+[Custom Alert Sound](./docs/Custom-Alert-Sound.md)  
+[Custom sound/alarm grayed out](./docs/Custom-sound-grayed-out.md)  
 
 **Backup**  
 [Backup database](./docs/Backup-Database.md)  
@@ -29,9 +31,6 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Calibration - when](./docs/Calibration)  
 [Automatic Calibration](./docs/AutoCal.md)  
 [Calibrate G6 after a restart](./docs/Calibrate-after-G6Restart.md)  
-
-[Custom Alert Sound](./docs/Custom-Alert-Sound.md)  
-[Custom sound/alarm grayed out](./docs/Custom-sound-grayed-out.md)  
 
 **Database**  
 [Restore database](./docs/Restore-Database.md)  
