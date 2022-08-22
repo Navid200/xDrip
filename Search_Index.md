@@ -1,6 +1,6 @@
 # Index  
   
-This page lists all the documentation in a flat format.  You can use your browser's search function on this page to find an item you may have difficulty finding on the site.    
+You can use your browser's search function on this page to find an item you may have difficulty finding on the site.    
   
 <br/>  
   
@@ -41,6 +41,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [xDrip and Dexcom](./docs/Dexcom_page.md)  
 [Dexcom basics](./docs/Dexcom-Basics.md)  
 [Dexcom One](./docs/Dexcom-One.md)  
+[Both xDrip and Dexcom app](./docs/xDrip-and-Dexcom-app.md)  
   
 **Disconnect**  
 [Proper Connectivity](./docs/Proper-connectivity.md)  
@@ -202,8 +203,6 @@ This page lists all the documentation in a flat format.  You can use your browse
 
 [xDrip causes other apps to restart](./docs/RestartingApps.md)  
 [Frequent pop-up xDrip imported AAPS profile?](./docs/AAPS_ProfileImportNotification.md)  
-
-[Both xDrip and Dexcom app](./docs/xDrip-and-Dexcom-app.md)  
 
 [Gel (petroleum jelly) on the transmitter contacts](./docs/Dielectric-Grease-in-Dexcom-G6-Sensor.md)  
 [xDrip following Dexcom app](./docs/DexcomAppxDrip.md)  
