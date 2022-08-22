@@ -47,6 +47,11 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Proper Connectivity](./docs/Proper-connectivity.md)  
 [Intermittent Connectivity](./docs/Intermittent.md)  
   
+**Display**  
+[Connect the dots!](./docs/Connect-the-dots.md)  
+[Screensaver (lock screen) while being charged](./docs/Screensaver.md)  
+[Lock Screen](./docs/Lock-screen.md)  
+  
 **Download**  
 [Where can I download xDrip from?](./docs/Download-xDrip.md)    
 
@@ -66,6 +71,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Start G6](./docs/Starting-G6.md)  
 [G6 Transmitter Warranty](./docs/G6_Warranty.md)  
 [G6 Slot Number](./docs/G6_slot.md)  
+[What not to do! Why did G6 do that?](./docs/What-not-to-do.md)  
 
 **Google**  
 [Google Play Services is not installed](./docs/GooglePlayServices_NotInstalled.md)  
@@ -146,8 +152,11 @@ This page lists all the documentation in a flat format.  You can use your browse
 **Update**  
 [Update xDrip](./docs/Updates.md)  
 [Why nothing happens when I check for updates?](./docs/NoUpdate.md)  
-
-**Volume**
+  
+**Version**  
+[Which xDrip version do I have?](./docs/xDrip-Version.md)  
+  
+**Volume**  
 [Volume Profiles](./docs/Volume-profiles.md)  
 [Ascending volume profile - alert too loud - quiet](./docs/Ascending-volume-profile.md)  
 
@@ -157,13 +166,6 @@ This page lists all the documentation in a flat format.  You can use your browse
 
 [Transfer to new phone](./docs/New-Phone.md)  
 [Multiple instances (variants)](./docs/Variants.md)  
-
-[Which xDrip version do I have?](./docs/xDrip-Version.md)  
-
-[Screensaver (lock screen) while being charged](./docs/Screensaver.md)  
-[Lock Screen](./docs/Lock-screen.md)  
-
-[Connect the dots!](./docs/Connect-the-dots.md)  
 
 [Time range](./docs/TimeButtons.md)  
 [Extra Status Line](./docs/Extra-status-line.md)  
@@ -184,8 +186,6 @@ This page lists all the documentation in a flat format.  You can use your browse
 [xDrip causes other apps to restart](./docs/RestartingApps.md)  
 [Number wall on lock screen does not disable](./docs/NumberWallDisable.md)  
 [Frequent pop-up xDrip imported AAPS profile?](./docs/AAPS_ProfileImportNotification.md)  
-
-[What not to do! Why did G6 do that?](./docs/What-not-to-do.md)  
   
 [Troubleshooting](./docs/Connectivity-troubleshoot.md)  
   
