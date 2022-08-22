@@ -105,9 +105,6 @@ You can use your browser's search function on this page to find an item you may 
 [Legend](./docs/Legend.md)  
 [Where are the Logs?](./docs/Logs.md)  
   
-**Libre**  
-[Libre](./docs/Libre.md)  
-  
 **Medical**  
 [No medical decisions](./docs/Medical.md)  
   
