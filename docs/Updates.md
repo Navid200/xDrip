@@ -39,6 +39,7 @@ You need to choose alpha in order for the nightly option to become visible.
 To use the auto update check, enable Automatic update check.  
 You may need to restart.  Now, you will be notified when there is a new release in your selected channel.  
   
+**Check for updates**  
 Even if you don't want to use the automatic update check feature, you should choose the update channel you prefer.  
 When you tap on the top right menu button on the main screen and tap on "Check for updated version", xDrip checks your selected channel only.  
 ![](./images/CheckFor Update.png)  
