@@ -42,9 +42,13 @@ This page lists all the documentation in a flat format.  You can use your browse
 
 **Dexcom**  
 [Dexcom basics](./docs/Dexcom-Basics.md)  
-
+  
+**Disconnect**  
+[Proper Connectivity](./docs/Proper-connectivity.md)  
+[Intermittent Connectivity](./docs/Intermittent.md)  
+  
 **Download**  
-[Where can I download xDrip from?](./docs/Download-xDrip.md)  
+[Where can I download xDrip from?](./docs/Download-xDrip.md)    
 
 **Emergency**  
 [Emergency Messages](./docs/Emergency.md)  
@@ -56,7 +60,9 @@ This page lists all the documentation in a flat format.  You can use your browse
 **Follow**  
 [How to follow](./docs/How-to-follow.md)  
 [Follow Dexcom app](./docs/DexcomAppxDrip.md)  
-
+[xDrip Sync](./docs/xDripSync.md)  
+  
+**G6**  
 [Start G6](./docs/Starting-G6.md)  
 
 **Google**  
@@ -128,6 +134,7 @@ This page lists all the documentation in a flat format.  You can use your browse
   
 **Transmitter**  
 [Transmitter Lifetime](./docs/Transmitter-lifetime.md)  
+[How strong is the transmitter signal?](./docs/Bluetooth-Scanner.md)  
 
 **Treatment** 
 [How to delete a treatment](./docs/Delete_Treatment.md)  
@@ -136,8 +143,9 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Update xDrip](./docs/Updates.md)  
 [Why nothing happens when I check for updates?](./docs/NoUpdate.md)  
 
-**Volume profile**
+**Volume**
 [Volume Profiles](./docs/Volume-profiles.md)  
+[Ascending volume profile - alert too loud - quiet](./docs/Ascending-volume-profile.md)  
 
 **Watches**  
 [Watches](./docs/Watches.md)  
@@ -158,13 +166,9 @@ This page lists all the documentation in a flat format.  You can use your browse
 [&#x24c5; Encircled P in front of the reading](./docs/P_in_Circle.md)  
 
 [Glucose Level Alert List](./docs/Glucose-level-alerts.md)  
-[Volume Profiles](./docs/Volume-profiles.md)  
-[Ascending volume profile - alert too loud - quiet](./docs/Ascending-volume-profile.md)  
 
 [Why do I get a notification for each reading?](./docs/Frequent_notifications.md)  
 [Notification Channels](./docs/Notification-channels.md)  
-  
-[xDrip Sync](./docs/xDripSync.md)  
 
 [xDrip sync not working](./docs/xDrip-Sync-not-working.md)  
 [Dexcom share not working](./docs/Dexcom-share-delta-format-change.md)  
@@ -180,10 +184,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 
 [What not to do! Why did G6 do that?](./docs/What-not-to-do.md)  
   
-[Proper Connectivity](./docs/Proper-connectivity.md)  
 [Troubleshooting](./docs/Connectivity-troubleshoot.md)  
-
-[Intermittent Connectivity](./docs/Intermittent.md)  
 
 [G6 Transmitter Warranty](./docs/G6_Warranty.md)  
 [G6 Slot Number](./docs/G6_slot.md)  
@@ -192,7 +193,6 @@ This page lists all the documentation in a flat format.  You can use your browse
 
 [Both xDrip and Dexcom app](./docs/xDrip-and-Dexcom-app.md)  
 [Can xDrip coexist with t:slim or receiver?](./docs/Receiver-or-t:slim-and-xDrip.md)  
-[How strong is the transmitter signal?](./docs/Bluetooth-Scanner.md)  
 
 [Please report unknown firmware!](./docs/Report-firmware.md)  
 
