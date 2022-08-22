@@ -25,7 +25,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 **Battery**  
 [How good is the battery?](./docs/Battery-condition.md)  
   
-**Calibration**    
+**Calibration**  
 [Calibration - when](./docs/Calibration)  
 [Automatic Calibration](./docs/AutoCal.md)  
 [Calibrate G6 after a restart](./docs/Calibrate-after-G6Restart.md)  
@@ -52,6 +52,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Connect the dots!](./docs/Connect-the-dots.md)  
 [Screensaver (lock screen) while being charged](./docs/Screensaver.md)  
 [Lock Screen](./docs/Lock-screen.md)  
+[Legend](./docs/Legend.md)  
   
 **Download**  
 [Where can I download xDrip from?](./docs/Download-xDrip.md)    
@@ -83,14 +84,14 @@ This page lists all the documentation in a flat format.  You can use your browse
 **Install**  
 [Reinstall xDrip](./docs/Reinstall.md)  
 
-**Issues**
+**Issues**  
 [Issues](./docs/Issues.md)  
 
-**Legend**
+**Legend**  
 [Legend](./docs/Legend.md)  
 [Where are the Logs?](./docs/Logs.md)  
 
-**Native**
+**Native**  
 [Native algorithm - mode](./docs/Native-Algorithm.md)  
 
 **Nightscout**  
@@ -152,7 +153,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [How strong is the transmitter signal?](./docs/Bluetooth-Scanner.md)  
 [G6 Transmitter Warranty](./docs/G6_Warranty.md)  
 [G6 Slot Number](./docs/G6_slot.md)  
-
+  
 **Treatment** 
 [How to delete a treatment](./docs/Delete_Treatment.md)  
 
@@ -166,7 +167,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 **Volume**  
 [Volume Profiles](./docs/Volume-profiles.md)  
 [Ascending volume profile - alert too loud - quiet](./docs/Ascending-volume-profile.md)  
-
+  
 **Watches**  
 [Watches](./docs/Watches.md)  
 [WearOS](./docs/WearOS-Instructions.md)  
