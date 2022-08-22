@@ -16,6 +16,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Automatic Calibration](./docs/AutoCal.md)  
 [Missed Reading Alert not repeating](./docs/MissedSignalAlert.md)  
 [Notification Channels](./docs/Notification-channels.md)  
+[Glucose Level Alert List](./docs/Glucose-level-alerts.md)  
 
 **Backup**  
 [Backup database](./docs/Backup-Database.md)  
@@ -53,6 +54,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [Screensaver (lock screen) while being charged](./docs/Screensaver.md)  
 [Lock Screen](./docs/Lock-screen.md)  
 [Legend](./docs/Legend.md)  
+[Number wall on lock screen does not disable](./docs/NumberWallDisable.md)  
   
 **Download**  
 [Where can I download xDrip from?](./docs/Download-xDrip.md)    
@@ -70,12 +72,14 @@ This page lists all the documentation in a flat format.  You can use your browse
 [xDrip Sync](./docs/xDripSync.md)  
 [xDrip sync not working](./docs/xDrip-Sync-not-working.md)  
 [Dexcom share not working](./docs/Dexcom-share-delta-format-change.md)  
+[Follow multiple people](./docs/Variants.md)  
   
 **G6**  
 [Start G6](./docs/Starting-G6.md)  
 [G6 Transmitter Warranty](./docs/G6_Warranty.md)  
 [G6 Slot Number](./docs/G6_slot.md)  
 [What not to do! Why did G6 do that?](./docs/What-not-to-do.md)  
+[Troubleshooting](./docs/Connectivity-troubleshoot.md)  
 
 **Google**  
 [Google Play Services is not installed](./docs/GooglePlayServices_NotInstalled.md)  
@@ -180,19 +184,12 @@ This page lists all the documentation in a flat format.  You can use your browse
 
 [&#x24c5; Encircled P in front of the reading](./docs/P_in_Circle.md)  
 
-[Glucose Level Alert List](./docs/Glucose-level-alerts.md)  
-
 [Why do I get a notification for each reading?](./docs/Frequent_notifications.md)  
-
-[Follow multiple people](./docs/Variants.md)  
   
 [Bluetooth headphone interruption](./docs/Bluetooth-headphone-interruption.md)  
 
 [xDrip causes other apps to restart](./docs/RestartingApps.md)  
-[Number wall on lock screen does not disable](./docs/NumberWallDisable.md)  
 [Frequent pop-up xDrip imported AAPS profile?](./docs/AAPS_ProfileImportNotification.md)  
-  
-[Troubleshooting](./docs/Connectivity-troubleshoot.md)  
   
 [Session in progress](./docs/Session-in-progress.md)  
 
