@@ -80,6 +80,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [G6 Slot Number](./docs/G6_slot.md)  
 [What not to do! Why did G6 do that?](./docs/What-not-to-do.md)  
 [Troubleshooting](./docs/Connectivity-troubleshoot.md)  
+[Session in progress](./docs/Session-in-progress.md)  
 
 **Google**  
 [Google Play Services is not installed](./docs/GooglePlayServices_NotInstalled.md)  
@@ -108,6 +109,9 @@ This page lists all the documentation in a flat format.  You can use your browse
 **Notifications**  
 [Notification Channels](./docs/Notification-channels.md)  
 [Why do I get a notification for each reading?](./docs/Frequent_notifications.md)  
+  
+**P**  
+[&#x24c5; Encircled P in front of the reading](./docs/P_in_Circle.md)  
 
 **Pair**  
 [Trigger a pair request](./docs/MissedPairRequest.md)  
@@ -157,6 +161,7 @@ This page lists all the documentation in a flat format.  You can use your browse
 [How strong is the transmitter signal?](./docs/Bluetooth-Scanner.md)  
 [G6 Transmitter Warranty](./docs/G6_Warranty.md)  
 [G6 Slot Number](./docs/G6_slot.md)  
+[Session in progress](./docs/Session-in-progress.md)  
   
 **Treatment** 
 [How to delete a treatment](./docs/Delete_Treatment.md)  
@@ -164,6 +169,9 @@ This page lists all the documentation in a flat format.  You can use your browse
 **Update**  
 [Update xDrip](./docs/Updates.md)  
 [Why nothing happens when I check for updates?](./docs/NoUpdate.md)  
+  
+**Variants**  
+[Multiple instances (variants)](./docs/Variants.md)  
   
 **Version**  
 [Which xDrip version do I have?](./docs/xDrip-Version.md)  
@@ -177,12 +185,9 @@ This page lists all the documentation in a flat format.  You can use your browse
 [WearOS](./docs/WearOS-Instructions.md)  
 
 [Transfer to new phone](./docs/New-Phone.md)  
-[Multiple instances (variants)](./docs/Variants.md)  
 
 [Time range](./docs/TimeButtons.md)  
 [Extra Status Line](./docs/Extra-status-line.md)  
-
-[&#x24c5; Encircled P in front of the reading](./docs/P_in_Circle.md)  
 
 [Why do I get a notification for each reading?](./docs/Frequent_notifications.md)  
   
@@ -190,8 +195,6 @@ This page lists all the documentation in a flat format.  You can use your browse
 
 [xDrip causes other apps to restart](./docs/RestartingApps.md)  
 [Frequent pop-up xDrip imported AAPS profile?](./docs/AAPS_ProfileImportNotification.md)  
-  
-[Session in progress](./docs/Session-in-progress.md)  
 
 [Both xDrip and Dexcom app](./docs/xDrip-and-Dexcom-app.md)  
 [Can xDrip coexist with t:slim or receiver?](./docs/Receiver-or-t:slim-and-xDrip.md)  
