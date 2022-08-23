@@ -7,6 +7,7 @@
 [Download xDrip](./Download-xDrip.md)  
 [Install xDrip](./Install.md)  
   
+[Start Dexcom G6](./Starting-G6.md)  
 [Update xDrip](./Updates.md)  
 [Backup database](./Backup-Database.md)  
 [Restore database](./Restore-Database.md)  
