@@ -29,5 +29,8 @@ If you use the [Build your own Dexcom app](https://docs.google.com/forms/d/e/1FA
   
 ### 5. Companion  
 If you use CamAPS or the official Dexcom app as the collector, you can use xDrip on the same phone with no internet access.  
-This option lacks back-fill capability.    
+This option lacks back-fill capability.  
+  
+### 6. Web Follower  
+If you use Libre 3, you can use this [option](./Libre3_Follow.md) to have readings in xDrip.  
   
