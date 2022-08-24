@@ -1,4 +1,5 @@
 ## How to follow with xDrip  
+August 24, 2022  
   
 There are several options for following someone's readings as well as using xDrip to see your readings while using another app as the collector.  
 <br/>  
@@ -12,10 +13,9 @@ This requires Nightscout to be [set up](./Nightscout.md).  After a Nightscout ac
 
 On the follower, tap on Settings &#8722;> Hardware Data Source &#8722;> Nightscout Follower.  
 Tap on Settings &#8722;> Nightscout Follow URL, and enter https<nolink>://userID.herokuapp.com, where userID is the master Nightscout user ID.  
-  
 <br/>  
   
-    
+  
 ### Dex Share Follower (needs internet)  
 This is an option if the master must be a Dexcom app, for example, if the master is an iPhone.  
 
