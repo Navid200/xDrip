@@ -67,7 +67,10 @@ You can use your browser's search function on this page to find an item you may 
   
 **Emergency**  
 [Emergency Messages](./docs/Emergency.md)  
+  
+**Engineering mode**    
 [Engineering mode](./docs/Engineering-Mode.md)  
+[Functions behind engineering mode](./docs/BehindEngineeringMode.md)  
   
 **Features**  
 [Features](./docs/Features_page.md)  
