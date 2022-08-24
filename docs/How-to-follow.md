@@ -12,7 +12,6 @@ After a Nightscout account has been created and set up, enter the required [sett
 
 On the follower, tap on Settings &#8722;> Hardware Data Source &#8722;> Nightscout Follower.  
 Tap on Settings &#8722;> Nightscout Follow URL, and enter https<nolink>://userID.herokuapp.com, where userID is the master Nightscout user ID.  
-
 <br/>  
   
 ### 3. Dex Share Follower (needs internet)  
