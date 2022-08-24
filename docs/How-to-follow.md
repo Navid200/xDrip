@@ -8,8 +8,7 @@ This is easy to set up.  But, it relies on Google.
 <br/>  
   
 ### 2. Nightscout Follower (needs internet)  
-This requires Nightscout to be [set up](./Nightscout.md).  
-After a Nightscout account has been created and set up, enter the required [settings](./Nightscout-Settings.md) so that the master starts uploading to Nightscout.  
+This requires Nightscout to be [set up](./Nightscout.md).  After a Nightscout account has been created and set up, enter the required [settings](./Nightscout-Settings.md) so that the master starts uploading to Nightscout.  
 
 On the follower, tap on Settings &#8722;> Hardware Data Source &#8722;> Nightscout Follower.  
 Tap on Settings &#8722;> Nightscout Follow URL, and enter https<nolink>://userID.herokuapp.com, where userID is the master Nightscout user ID.  
