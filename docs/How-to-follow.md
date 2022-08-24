@@ -4,7 +4,7 @@ There are several options for following someone's readings as well as using xDri
 <br/>  
   
 ### 1. [xDrip Sync Follower](./xDripSync.md) (needs internet except Desert Sync)  
-This is easy to set up.  But, it relies on Google.  
+This is easy to set up.  It relies on Google.  
 <br/>  
   
 ### 2. Nightscout Follower (needs internet)  
@@ -14,6 +14,7 @@ On the follower, tap on Settings &#8722;> Hardware Data Source &#8722;> Nightsco
 Tap on Settings &#8722;> Nightscout Follow URL, and enter https<nolink>://userID.herokuapp.com, where userID is the master Nightscout user ID.  
 <br/>  
   
+    
 ### 3. Dex Share Follower (needs internet)  
 This is an option if the master must be a Dexcom app, for example, if the master is an iPhone.  
 
