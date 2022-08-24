@@ -1,6 +1,7 @@
 ## How to follow with xDrip  
   
-There are several options for following someone's readings as well as using xDrip when using another device or app as the collector.  
+There are several options for following someone's readings as well as using xDrip to see your readings while using another app as the collector.  
+<br/>  
   
 ### 1. [xDrip Sync Follower](./xDripSync.md) (needs internet except Desert Sync)  
 This is easy to set up.  But, it relies on Google.  
@@ -31,6 +32,6 @@ If you use CamAPS or the official Dexcom app as the collector, you can use xDrip
 This option lacks back-fill capability.  
 <br/>  
   
-### 6. Web Follower  
+### 6. Web Follower (nedds internet)  
 If you use Libre 3, you can use this [option](./Libre3_Follow.md) to have readings in xDrip.  
   
