@@ -1,4 +1,4 @@
-## Bluejay Follower  
+## BlueJay Follower  
 August 15, 2022 
 
 Work in progress!
