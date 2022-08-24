@@ -31,6 +31,6 @@ If you use CamAPS or the official Dexcom app as the collector, you can use xDrip
 This option lacks back-fill capability.  
 <br/>  
   
-### 6. Web Follower (nedds internet)  
+### 6. Web Follower (needs internet)  
 If you use Libre 3, you can use this [option](./Libre3_Follow.md) to have readings in xDrip.  
   
