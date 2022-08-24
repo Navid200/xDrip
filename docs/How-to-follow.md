@@ -12,6 +12,7 @@ This requires Nightscout to be [set up](./Nightscout.md).  After a Nightscout ac
 
 On the follower, tap on Settings &#8722;> Hardware Data Source &#8722;> Nightscout Follower.  
 Tap on Settings &#8722;> Nightscout Follow URL, and enter https<nolink>://userID.herokuapp.com, where userID is the master Nightscout user ID.  
+  
 <br/>  
   
     
