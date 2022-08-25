@@ -4,6 +4,7 @@ Major releases are identified here with brief descriptions.
   
 | Release | Notes |  
 |---------|-------|  
+| [2022.08.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.25) | Companion data source handling of too low and too high readings from CamAPS |  
 | [2022.08.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.24) | Reminders custom sound file fix |  
 | [2022.08.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.20) | Watchdrip graph fix |  
 | [2022.08.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.19) | Audio loop, de-duplication, half background check |  
