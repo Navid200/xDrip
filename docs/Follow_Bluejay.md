@@ -2,13 +2,12 @@
 August 25, 2022 
 
 You can have xDrip show readings collected by your BlueJay.  Since BlueJay and xDrip communicate using Bluetooth, your phone and BlueJay need to be close for this to work.  
+You need to link BlueJay to xDrip using the xDrip BlueJay Admin page.  
 The following image shows the xDrip BlueJay settings page.  
 ![](./images/BluejaySettings.png)  
 
 
 You have two options depending on which G6 transmitter slot BlueJay can use.  The following presents both options.  
-
-You need to link BlueJay to xDrip using the xDrip BlueJay Admin page.  
 
 If BluJay cna use the medical (non-phone) slot, 
 
