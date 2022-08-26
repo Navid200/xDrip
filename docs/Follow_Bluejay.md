@@ -17,6 +17,9 @@ You first need to set up your Bluejay as an independent collector.
 Then, you should select "640G / EverSense" as the xDrip hardware data source.  
 ![](images/HDS_Eversense.png)  
   
-The following images show some of the xDrip settings and status pages.    
-![](./images/BluejayFollow_status.png)  
+The following image shows the xDrip BlueJay Advanced Settings page.    
 ![](./images/BluejayAdvancedSettings.png)  
+  
+**BlueJay can use the phone slot**  
+
+In this case, BlueJay is forced to use the phone slot.  You need to start from default settings where xDrip is set to collect from the phone slot with the correct transmitter ID entered in xDrip.  
