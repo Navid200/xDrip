@@ -10,7 +10,7 @@ The following image shows the xDrip BlueJay settings page.
 You have two options depending on which one of the two G6 transmitter slots can be used by BlueJay.  The following presents both options.  
   
 ### 1- BluJay can use the medical (non-phone) slot  
-Bluejay, by default, uses the medical slot of a G6.  If you have another device or app occupying the phone slot and cannot use xDrip to collect from your G6, you can set up xDrip to receive readings from your Bluejay.  
+Bluejay, by default, uses the medical slot of a G6.  If you have another device or app occupying the phone slot, for example CamAPS, and cannot use xDrip to collect from your G6, you can set up xDrip to receive readings from your Bluejay.  
   
 You first need to set up your Bluejay as an independent collector.  
 Then, you should select "640G / EverSense" as the xDrip hardware data source.  
@@ -18,8 +18,9 @@ Then, you should select "640G / EverSense" as the xDrip hardware data source.
   
 The following image shows the xDrip BlueJay Advanced Settings page.    
 ![](./images/BluejayAdvancedSettings.png)  
+<br/>  
   
 ### 2- BlueJay can use the phone slot  
-In this case, BlueJay is forced to use the phone slot.  You need to start from default settings where xDrip is set to collect from the phone slot with the correct transmitter ID entered in xDrip.  Therefore, "G5/G6 Transmitter" is selected as the hardware data source in xDrip.  And, you should have BlueJay collect from the G6 transmitter.  Then, on the xDrip Advanced BlueJay Settings page, you need to disable phone collector and enable "BlueJay uses Phone slot" as shown in the following image.  
+If you have a device occupyiong the medical slot, for example, the Dexcom receiver, you will not be able to have both xDrip and BlueJay collect from your G6 transmitter.  In this case, BlueJay is forced to use the phone slot.  You need to start from default settings where xDrip is set to collect from the phone slot with the correct transmitter ID entered in xDrip.  Therefore, "G5/G6 Transmitter" is selected as the hardware data source in xDrip.  And, you should have BlueJay collect from the G6 transmitter.  Then, on the xDrip Advanced BlueJay Settings page, you need to disable phone collector and enable "BlueJay uses Phone slot" as shown in the following image.  
 ![](./images/BluejayAdvancedSettings2.png)  
   
