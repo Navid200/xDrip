@@ -20,4 +20,6 @@ The following image shows the xDrip BlueJay Advanced Settings page.
 ![](./images/BluejayAdvancedSettings.png)  
   
 ### BlueJay can use the phone slot  
-In this case, BlueJay is forced to use the phone slot.  You need to start from default settings where xDrip is set to collect from the phone slot with the correct transmitter ID entered in xDrip.  
+In this case, BlueJay is forced to use the phone slot.  You need to start from default settings where xDrip is set to collect from the phone slot with the correct transmitter ID entered in xDrip.  Then, on the xDrip Advanced BlueJay Settings page, you need to disable phone collector and enable "BlueJay uses Phone slot" as shown in the following image.  
+![](./images/BluejayAdvancedSettings2.png)  
+  
