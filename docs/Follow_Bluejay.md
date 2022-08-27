@@ -10,7 +10,7 @@ The following image shows the xDrip BlueJay settings page.
 You have two options depending on which one of the two G6 transmitter slots can be used by BlueJay.  The following presents both options.  
 <br/>  
   
-### 1- BluJay can use the medical (non-phone) slot  
+### 1- BlueJay can use the medical (non-phone) slot  
 Bluejay, by default, uses the medical slot of a G6.  If you have another device or app occupying the phone slot, for example CamAPS, and cannot use xDrip to collect from your G6, you can set up xDrip to receive readings from your Bluejay.  
   
 You first need to set up your Bluejay as an independent collector.  
