@@ -10,5 +10,5 @@ August 26, 2022
 ![](./images/bj_stngs_stngs.png)  &nbsp;  ![](./images/bj_stngs_admn.png)  &nbsp;  ![](./images/bj_stngs_3dots.png)  &nbsp;  ![](./images/bj_stngs_slots.png)  
 <br/>  
   
-![](./images/bj_stngs_stngs.png)  &nbsp;  ![](./images/bj_stngs_admn.png)  &nbsp;   ![](./images/bj_stngs_phonelink.png)  
+![](./images/bj_stngs_stngs.png)  &nbsp;  ![](./images/bj_stngs_admn.png)  &nbsp;  ![](./images/bj_stngs_3dots.png)  &nbsp;  ![](./images/bj_stngs_phonelink.png)  
   
