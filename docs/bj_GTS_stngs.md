@@ -5,6 +5,7 @@ August 26, 2022
 <br/>  
   
 ![](./images/bj_stngs_stngs.png)  &nbsp;  ![](./images/bj_stngs_ruler.png)  &nbsp;  ![](./images/bj_stngs_swipe.png)  &nbsp; ![](./images/bj_stngs_touch.png)  
+<br/>  
   
 ![](./images/bj_stngs_stngs.png)  &nbsp;  ![](./images/bj_stngs_admn.png)  &nbsp;   ![](./images/bj_stngs_slots.png)  
   
