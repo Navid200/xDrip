@@ -1,5 +1,5 @@
 ## BlueJay  
-August 24, 2022  
+August 26, 2022  
   
 BlueJay is a watch that can collect directly from G5 or G6.  
 BlueJay [web site](https://bluejay.website/).  
