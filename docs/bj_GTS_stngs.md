@@ -1,7 +1,7 @@
 ## BlueJay GTS Settings  
 August 26, 2022  
 
-![](./images/bj_stngs_stngs.png)  &nbsp; &nbsp;  ![](./images/bj_stngs_ruler.png)  &nbsp; &nbsp;  ![](./images/bj_stngs_hand.png)  &nbsp; &nbsp;  ![](./images/bj_stngs_motion.png)  
+![](./images/bj_stngs_stngs.png)  &nbsp;  ![](./images/bj_stngs_ruler.png)  &nbsp;  ![](./images/bj_stngs_hand.png)  &nbsp;  ![](./images/bj_stngs_motion.png)  
   
 ![](./images/bj_stngs_stngs.png)  &nbsp; &nbsp;  ![](./images/bj_stngs_ruler.png)  &nbsp; &nbsp;  ![](./images/bj_stngs_touch.png)  
   
