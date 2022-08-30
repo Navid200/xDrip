@@ -16,7 +16,7 @@ Enable Samsung workarounds even if your phone is not Samsung.
 
 * Settings &#8722;> Less common settings &#8722;> [Bluetooth Settings](./images/ble-recommended-stngs.png)  
 
-* Disable Settings &#8722;> Less common settings &#8722;> Advanced Calibration &#8722;> Automatic Calibration  
+* Disable &nbsp; &nbsp; &nbsp; Settings &#8722;> Less common settings &#8722;> Advanced Calibration &#8722;> Automatic Calibration  
   
 <br/>    
 
