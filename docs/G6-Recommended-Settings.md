@@ -12,7 +12,7 @@ Enable all recommended settings (settings in the diagram with checkmarks) even i
 The "Special Pairing Workaround" setting is only available if you use the xDrip release of July 13, 2022 or newer.  If you are using an older release, please ignore it.    
 
 * Settings &#8722;> Less common settings &#8722;> [Other misc options](./images/other-misc-recommended.png)  
-Enable Samsung workarounds even if your phone is not Samsung.  
+Enable &nbsp; &nbsp; &nbsp; Samsung workarounds even if your phone is not Samsung.  
 
 * Settings &#8722;> Less common settings &#8722;> [Bluetooth Settings](./images/ble-recommended-stngs.png)  
 
