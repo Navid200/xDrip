@@ -4,6 +4,7 @@ Major releases are identified here with brief descriptions.
   
 | Release | Notes |  
 |---------|-------|  
+| [2022.09.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.02) | Companion hardware data source upper limit raised to 405 mg/dL. |  
 | [2022.09.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.01) | Custom sound selction fix for alerts |  
 | [2022.08.31](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.31) | Libre trend graph now uses absolute values |  
 | [2022.08.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.25) | Companion data source handling of too low and too high readings from CamAPS |  
