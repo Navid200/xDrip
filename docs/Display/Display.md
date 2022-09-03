@@ -5,3 +5,4 @@ September 3, 2022
 [Sensor expiry](../Sensor-Expiry.md)  
 [Connect the dots!](../Connect-the-dots.md)  
 [Extra Status Line](../Extra-status-line.md)  
+[Graph smoothing](../Display/GraphSmoothing.md)  
