@@ -15,13 +15,9 @@ September 3, 2022
 <br/>  
   
 [Logs](./Logs.md)  
-[Time range](./TimeButtons.md)  
 [Screen saver (lock screen) while being charged](./Screensaver.md)  
 [Lock Screen](./Lock-screen.md)  
-[Sensor expiry](./Sensor-Expiry.md)  
-[Connect the dots!](./Connect-the-dots.md)  
 [Stop xDrip - disable collection](./Stop-xDrip.md)  
-[Extra Status Line](./Extra-status-line.md)  
 [Reminders](./Reminders.md)  
 [Data tables](./Datatables.md)  
 [Automatic Calibration](./AutoCal.md)  
