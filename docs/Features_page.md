@@ -8,7 +8,6 @@
 ### [Emergency Messages](./Emergency.md)  
 ### [Update Channels](./Updates.md)  
 ### [Display](./Display/Display.md)  
-### [Legend](./Legend.md)  
 ### [Watches](./Watches.md)  
 ### [Report](./Report.md)  
   
