@@ -16,5 +16,8 @@ Enable.
 Enable billing.  
 Go to https://console.cloud.google.com/
 Enable the engine again.  It will ask you to enable billing again.  But, this time, select the billing account you just created.  
-
-
+Standard disk  
+Minimal  
+curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash  
+Leave the update interval at 30.  
+select N for running command during update.  
