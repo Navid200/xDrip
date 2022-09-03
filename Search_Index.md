@@ -97,7 +97,7 @@ You can use your browser's search function on this page to find an item you may 
 [Google Play Services is not installed](./docs/GooglePlayServices_NotInstalled.md)  
 [xDrip is not in Google Play Store ...](./docs/App-store.md)  
 
-**Graph** 
+**Graph**  
 [Graph Smoothing](./docs/Display/GraphSmoothing.md)  
   
 **Install**  
