@@ -24,6 +24,6 @@ Enable Samsung workarounds even if your phone is not Samsung.
 
 * Also disable Bluetooth battery optimization as explained in "[Basics](./Dexcom-Basics.md#bluetooth-battery-optimization).  
 
-* For Android 11/12, enable background location access as explained in "[Basics](./Dexcom-Basics.md#location-and-bluetooth)".  
+* For Android 11 or newer, enable background location access as explained in "[Basics](./Dexcom-Basics.md#location-and-bluetooth)".  
 
 * Restart the phone.  
