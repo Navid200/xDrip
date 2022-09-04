@@ -7,7 +7,7 @@
 ### [xDrip & Nightscout](./Nightscout_page.md)  
 ### [Follow](./Follow_page.md)  
 ### [Emergency Messages](./Emergency.md)  
-### [Update Channels](./Updates.md)  
+### [Update xDrip](./Updates.md)  
 ### [Display](./Display/Display.md)  
 ### [Watches](./Watches.md)  
 ### [Report](./Report.md)  
