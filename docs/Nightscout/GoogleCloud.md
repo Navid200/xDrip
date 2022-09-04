@@ -8,7 +8,7 @@ Thanks to jamorham, the current xDrip head developer, for the idea, putting it t
 The screenshots have been created from a computerr.  It may be difficult to follow on a mobile device.  
 It will take a whileto go through the entire setup.  The sections will be separated, in a future update, identifying times you can have a break.  
   
-Go to [https://www.noip.com/](https://www.noip.com/).  
+Go to [https://www.noip.com](https://www.noip.com).  
 ![](./images/noip.png)  
 Sign up if you don't have an account.  
 You need to enter your email address, choose a password, and choose a hostname.  Make a note of all.  
@@ -16,8 +16,8 @@ You need to enter your email address, choose a password, and choose a hostname. 
 Select "Free Sign Up" instead of "Get Enhanced".  
 Wait for the email and "Confirm Account".  
   
-You need a Google account.  
-Go to  (https://console.cloud.google.com/)  and log in with your Google account.  
+You need a Google account to proceed.  Create one if you don't have it.  
+Go to  [https://console.cloud.google.com](https://console.cloud.google.com)  and log in with your Google account.  
 
 Create a project.  
 Go to dashboard.  
