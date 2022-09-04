@@ -1,6 +1,5 @@
 ## Calibrate G6 after a restart  
-  
-August 8, 2022  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> [Restart G6 sensor](./Restart-G6-sensor.md) >> [Calibrate after restart](./Calibrate-after-G6Restart.md)  
   
 You should use an xDrip release not older than the current stable release.  You can see the update procedure [here](./Updates.md).  
 
