@@ -1,5 +1,5 @@
 ## Connect the dots!  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> [Connect the dots](./Connect-the-dots.md)  &nbsp; &nbsp; &nbsp; September 4, 2022  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> [Connect the dots](./Connect-the-dots.md)  &nbsp; &nbsp; &nbsp;  
   
 Do you want the reading dots on the graph to be connected together with a line?  
 If yes, enable the following setting:  
