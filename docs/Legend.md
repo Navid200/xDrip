@@ -1,5 +1,5 @@
 ## Legend  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> [Legend](./Legend.md)  &nbsp; &nbsp; &nbsp; September 4, 2022  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> [Legend](./Legend.md)  
   
 You can customize some colors at: Settings &#8722;> xDrip+ Display Settings &#8722;> xDrip+ Color Settings  
   
