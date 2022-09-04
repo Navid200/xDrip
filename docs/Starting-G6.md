@@ -1,5 +1,5 @@
 ## Starting Dexcom G6  
-August 14, 2022  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> [Starting G6](./Starting-G6.md)  
   
 Please be patient and do not rush to tap on "Start Sensor" even if xDrip encourages you to.  Please follow the steps exactly as stated below, in the specified sequence, to avoid common issues.  
 If you see references here to functions you don't recognize, please have a look at [this](./Dexcom-Basics.md).  
