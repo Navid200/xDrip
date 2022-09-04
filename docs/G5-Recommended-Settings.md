@@ -1,4 +1,5 @@
 ## G5 Recommended Settings  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> [G5 recommended settings](./G5-Recommended-Settings.md)  
   
   These are the recommended G5 settings.  Click/tap on the hyperlinks to see the details.  
 
