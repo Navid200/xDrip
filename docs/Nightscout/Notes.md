@@ -18,6 +18,14 @@ Go to https://console.cloud.google.com/
 Enable the engine again.  It will ask you to enable billing again.  But, this time, select the billing account you just created.  
 Standard disk  
 Minimal  
+Create  
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash  
+If you get an error message that says EINTEGRITY ending with (0 bytes) and it hangs. Just press CTRL C keys at the same time and re-run the curl bootstrap command.  
+You will be asked to login.  Use the email address and password you use for noip.com.  
 Leave the update interval at 30.  
 select N for running command during update.  
+Enter email address.  
+Press A to accept the terms of service.  
+Press N to decline sharing email address.  
+Select 2 to redirect to secure https.  
+The API secret will be your Nightscout password.  Enter a password and take note.  
