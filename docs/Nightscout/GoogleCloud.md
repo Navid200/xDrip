@@ -9,8 +9,9 @@ The screenshots have been created from a computerr.  It may be difficult to foll
 It will take a whileto go through the entire setup.  The sections will be separated, in a future update, identifying times you can have a break.  
   
 Go to [https://www.noip.com/](https://www.noip.com/).  
-Sign up  
+Sign up if you don't have an account.  
 You need to enter your email address, choose a password, and choose a hostname.  Make a note of all.  
+    
 Select "Free Sign Up" instead of "Get Enhanced".  
 Wait for the email and "Confirm Account".  
   
