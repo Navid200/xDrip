@@ -1,4 +1,4 @@
-## Notes  
+## Nightscout   
 
 Go to noip.com  
 Sign up  
