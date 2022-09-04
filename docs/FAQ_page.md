@@ -1,4 +1,5 @@
 # xDrip Frequently Asked Questions  
+[xDrip](../README.md) >> [FAQ](./FAQ_page.md)  
   
 xDrip FAQ  
   
