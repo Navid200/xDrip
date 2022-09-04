@@ -1,10 +1,10 @@
 # Features  
-[xDrip](../README.md) >> [Features](./Features_page.md)  &nbsp; &nbsp; &nbsp; September 4, 2022
+[xDrip](../README.md) >> [Features](./Features_page.md)  
   
 ### [Alerts](./Alerts_page.md)  
 ### [Statistics](./Statistics.md)  
 ### [Dexcom](./Dexcom_page.md)  
-### [Nightscout](./Nightscout_page.md)  
+### [xDrip & Nightscout](./Nightscout_page.md)  
 ### [Follow](./Follow_page.md)  
 ### [Emergency Messages](./Emergency.md)  
 ### [Update Channels](./Updates.md)  
