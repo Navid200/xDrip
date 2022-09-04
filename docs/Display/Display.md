@@ -1,5 +1,5 @@
 ## Display  
-[xDrip](../../README.md) > [Features](../Features_page.md) > [Display](./Display.md)  &nbsp; &nbsp; &nbsp; September 3, 2022  
+[xDrip](../../README.md) > [Features](../Features_page.md) > [Display](./Display.md)  &nbsp; &nbsp; &nbsp; September 4, 2022  
   
 [Legend](../Legend.md)  
 [Time range](../TimeButtons.md)  
