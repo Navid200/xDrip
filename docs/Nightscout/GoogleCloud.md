@@ -16,6 +16,8 @@ You need to enter your email address, choose a password, and choose a hostname. 
 ![](./images/noipSignup.png)  
     
 Select "Free Sign Up" instead of "Get Enhanced".  
+![](./images/noipFree.png)  
+  
 Wait for the email and "Confirm Account".  
   
 You need a Google account to proceed.  Create one if you don't have it.  
