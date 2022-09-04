@@ -1,7 +1,6 @@
 ## Calibrate G6  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> [Calibrate G6](./Calibrate-G6.md)  
   
-August 7, 2022  
-
 See [Calibration](./Calibration.md) for details about what calibration is and when and why you should calibrate.  
 
 You should not over-calibrate G6.  Even the manufacturer tells you [that](https://www.dexcom.com/faqs/is-my-dexcom-sensor-accurate).  
