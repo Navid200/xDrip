@@ -68,7 +68,10 @@ Enter billing details.  Select "Start free trial".  This is a good time for a br
   
 ---  
   
-You can have a look at the following, the [Google Cloud Free Program features, "Free Tier" section](https://cloud.google.com/free/docs/free-cloud-features#free-tier).  
+You can have a look at the following, the [Google Cloud Free Program features, "Free Tier" section](https://cloud.google.com/free/docs/free-cloud-features#free-tier).  You will be setting up a virtual machine next.  You will need to carefully select settings that qualify for the free tier category.  
+The following snapshots shows the current (September 4, 2022) limitations.  
+![](./imaged/egress.png)  
+
   
 Standard disk  
 Minimal  
