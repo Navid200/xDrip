@@ -98,6 +98,7 @@ The following snapshots show the current (September 4, 2022) limitations.
 ![](./images/egrerss.png)  
   
 ![](./images/Regions.png)  
+The above three regions are the regions your virtual machine can be in, not where you have to be in.  
   
 Go to dashboard.  Select "Create a VM".  
 Set name to "nightscout".  
