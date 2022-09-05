@@ -1,4 +1,5 @@
 ## Install xDrip  
+[xDrip](../README.md) >> [Download & Installation](./Installation_page) >> [Install xDrip](./Install)
   
 After having [downloaded](./Download-xDrip) the .apk file, you can install by tapping on it.  
 If you have never installed xDrip on the phone, you will see the following note:  
