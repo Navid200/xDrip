@@ -40,7 +40,10 @@ Go to dashboard.  Select "Compute Engine".
 ![](./images/Dash.png)  
 <br/>  
   
-Enable.
+Enable.  
+![](./images/Enable.png)  
+<br/>  
+
 Enable billing.  
 Go to https://console.cloud.google.com/
 Enable the engine again.  It will ask you to enable billing again.  But, this time, select the billing account you just created.  
