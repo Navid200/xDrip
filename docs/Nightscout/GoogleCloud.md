@@ -95,7 +95,7 @@ Under firewall, enable both http and https.
 ![](./images/Firewall.png)  
 <br/>  
   
-Click on "Create" to create the virtual machine.  Google will not bring up your virtual machine.  You can take a break now.  
+Click on "Create" to create the virtual machine.  Google will now bring up your virtual machine.  You can take a break now.  
   
 ---  
   
