@@ -24,7 +24,6 @@ It will take a while (about 90 minutes) to go through the entire setup.  There a
 **noip.com sign-up**  
 Go to [https://www.noip.com](https://www.noip.com).  
 ![](./images/noip.png)  
-<br/>  
   
 Sign up if you don't have an account.  
 You need to enter your email address, choose a password, and choose a hostname.  Make a note of all.  
