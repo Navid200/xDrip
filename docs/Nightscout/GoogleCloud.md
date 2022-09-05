@@ -42,7 +42,11 @@ Select your new project.
 ![](./images/SelectProject.png)  
 <br/>  
   
-Go to dashboard.  Select "Compute Engine".  
+Go to dashboard.  
+![](./images/Dashboard.png)  
+<br/>  
+  
+Select "Compute Engine".  
 ![](./images/Dash.png)  
 <br/>  
   
@@ -106,7 +110,7 @@ After the installation is completed, you will be asked to login.
 ![](./images/Terminal.png)  
 <br/>  
 
-Use the email address and password you use to log into your noip.com account.  
+Use the email address and password you used to register for noip.com to log in.  
 Leave the update interval at 30.  
 select N for running command during update.  
 Enter email address.  
