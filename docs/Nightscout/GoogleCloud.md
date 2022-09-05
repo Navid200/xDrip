@@ -45,7 +45,7 @@ Enable.
 <br/>  
 
 Enable billing.  
-![](./images/Enable.png)  
+![](./images/EnableBilling.png)  
 <br/>  
   
 Go to https://console.cloud.google.com/
