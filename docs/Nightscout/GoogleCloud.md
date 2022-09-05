@@ -36,8 +36,10 @@ Select your new project.
 ![](./images/SelectProject.png)  
 <br/>  
   
-Go to dashboard.  
-Select "Compute Engine".  
+Go to dashboard.  Select "Compute Engine".  
+![](./images/Dash.png)  
+<br/>  
+  
 Enable.
 Enable billing.  
 Go to https://console.cloud.google.com/
