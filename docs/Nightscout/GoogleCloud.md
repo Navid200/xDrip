@@ -10,6 +10,8 @@ You will need a credit card to set up billing.  The plan is to have no billing. 
 The screenshots have been created from a computerr.  It may be difficult to follow on a mobile device.  
 It will take a while (about 90 minutes) to go through the entire setup.  There are suggested break periods.  
   
+---  
+  
 Go to [https://www.noip.com](https://www.noip.com).  
 ![](./images/noip.png)  
 <br/>  
@@ -61,6 +63,8 @@ You will be asked to select your country and describe your organization.  Select
 <br/>  
   
 Enter billing details.  This is a good time for a break.   
+  
+---  
   
 Standard disk  
 Minimal  
