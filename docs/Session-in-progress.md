@@ -1,4 +1,5 @@
 ## Session in progress  
+[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip & Dexcom](./Dexcom_page) >> [Session in progress](./Session-in-progress)  
   
 If you have a G5 or G6 running already that was started using another phone or another app or another device, and you like to access, and control, it using xDrip, you can do that easily.  You don't need to start a new or the existing sensor for that.  
 
