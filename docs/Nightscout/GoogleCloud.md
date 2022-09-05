@@ -90,10 +90,12 @@ Edit "Boot Disk" and modify as shown below.
 Under firewall, enable both http and https.  
 ![](./images/Firewall.png)  
 <br/>  
+  
+Click on "Create" to create the virtual machine.  You can take a break now.  
+  
+---  
+  
 
-Standard disk  
-Minimal  
-Create  
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash  
 If you get an error message that says EINTEGRITY ending with (0 bytes) and it hangs. Just press CTRL C keys at the same time and re-run the curl bootstrap command.  
 You will be asked to login.  Use the email address and password you use for noip.com.  
