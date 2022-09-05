@@ -86,6 +86,10 @@ Select a region that qualifies for free tier.
 Edit "Boot Disk" and modify as shown below.  
 ![](./images/Disk.png)  
 <br/>  
+  
+Under firewall, enable both http and https.  
+![](./images/Firewall.png)  
+<br/>  
 
 Standard disk  
 Minimal  
