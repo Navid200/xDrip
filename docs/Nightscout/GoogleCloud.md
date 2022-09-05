@@ -64,7 +64,7 @@ You will be asked to select your country and describe your organization.  Select
 ![](./images/Country.png)  
 <br/>  
   
-Enter billing details.  This is a good time for a break.   
+Enter billing details.  Select "Start free trial".  This is a good time for a break.   
   
 ---  
   
