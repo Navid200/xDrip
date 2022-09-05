@@ -67,17 +67,14 @@ Enable.
 
 Enable billing.  
 ![](./images/EnableBilling.png)  
-<br/>  
   
 Go to https://console.cloud.google.com/
 Enable the engine again.  It will ask you to enable billing again.  But, this time, select the billing account you just created.  
 Enable billing for your new project.  
 ![](./images/BillingforProject.png)  
-<br/>  
   
 You will be asked to select your country and describe your organization.  Select "Personal project".  
 ![](./images/Country.png)  
-<br/>  
   
 Enter billing details.  Select "Start free trial".  This is a good time for a break.  
 <br/>  
