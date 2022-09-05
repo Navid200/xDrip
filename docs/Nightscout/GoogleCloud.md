@@ -18,6 +18,7 @@ You will need a credit card to set up billing.  The hope is that this will be fr
 The screenshots have been created from a computer.  It may be difficult to follow on a mobile device.  
 It will take a while (about 90 minutes) to go through the entire setup.  There are suggested break periods.  
 <br/>  
+<br/>  
   
 ---  
   
@@ -34,11 +35,13 @@ Select "Free Sign Up" instead of "Get Enhanced".
   
 Wait for the email and "Confirm Account" before you proceed.  This is a good time for a break.  
 <br/>  
+<br/>  
   
 ---  
   
 **Google account**  
 You need a Google account to proceed.  Create one if you don't have one.  
+<br/>  
 <br/>  
   
 ---  
@@ -84,6 +87,7 @@ You will be asked to select your country and describe your organization.  Select
   
 Enter billing details.  Select "Start free trial".  This is a good time for a break.  
 <br/>  
+<br/>  
   
 ---  
   
@@ -120,6 +124,7 @@ Under firewall, enable both http and https.
   
 Click on "Create" to create the virtual machine.  Google will now bring up your virtual machine.  You can take a break now.  
 <br/>  
+<br/>  
   
 ---  
   
@@ -135,6 +140,7 @@ After the installation is completed, you will be asked to login.
 ![](./images/Terminal.png)  
 This is a good time for a break.  
 <br/>  
+<br/>  
   
 ---  
   
@@ -149,6 +155,7 @@ Select 2 to redirect to secure https.
 You will be asked to change the API secret.  This is the password you will login to Nightscout with.  
 Enter a password and take note.  
 <br/>  
+<br/>  
   
 ---  
   
@@ -157,6 +164,7 @@ Let's say userID is the user ID you used to sign up on noip.com, and let's say y
 Then, use a web browser and enter https://userID.ddns.net.  This will bring up your Nightscout on your browser.  It will ask you for a password.  Use the API secret you chose earlier.  
 Check "Remember this device" checkbox to avoid having to re-enter it.  
 On first time, Nightscout will ask you to set up a profile for sensitivity etc.  Either enter real values or just click save and then use close button on top right of the screen.  
+<br/>  
 <br/>  
   
 ---  
