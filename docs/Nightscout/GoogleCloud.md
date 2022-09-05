@@ -146,8 +146,11 @@ Let's say userID is the user ID you used to sign up on noip.com, and let's say y
 Then, use a web browser and enter https://userID.ddns.net.  This will bring up your Nightscout on your browser.  It will ask you for a password.  Use the API secret you chose earlier.  
 Check "Remember this device" checkbox to avoid having to re-enter it.  
 On first time, Nightscout will ask you to set up a profile for sensitivity etc.  Either enter real values or just click save and then use close button on top right of the screen.  
-
-**Setting up xDrip to upload**  
+<br/>  
+  
+---  
+  
+**Setting up xDrip to upload to your Nightscout**  
 Go to xDrip Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API).  
 Enable at the top.  
 Let's say the user ID and password you used to sign up for noip.com is userID and password.  And let's say you chose ddns.net as the server of noip.com.  
