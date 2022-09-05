@@ -26,8 +26,7 @@ Go to [https://www.noip.com](https://www.noip.com).
 ![](./images/noip.png)  
   
 Sign up if you don't have an account.  
-You need to enter your email address, choose a password, and choose a hostname.  Make a note of all.  
-What you see on the last line is what you will need later to set up master xDrip to upload and follower xDrip to follow.   
+You need to enter your email address, choose a password, and choose a hostname.  Make a note of all.     
 ![](./images/noipSignup.png)  
 <br/>  
   
