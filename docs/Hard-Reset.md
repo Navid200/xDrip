@@ -1,4 +1,5 @@
 ## Hard Reset  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> [Hard Reset](./Hard-Reset.md)  
   
 Please disable [engineering mode](./Engineering-Mode.md).  No need to enable engineering mode in order to perform a hard reset.  
   
