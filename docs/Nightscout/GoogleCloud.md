@@ -7,7 +7,7 @@ Thanks to jamorham, the current xDrip head developer, for the idea, putting it t
   
 You will need a credit card to set up billing.  The plan is to have no billing.  But, we are still testing to confirm that it will be free.  Regardless, a credit card is required.  Unfortunately, you will not qualify if you are in Australia or China.  But, hopefully, other free options will apply to you.    
   
-The screenshots have been created from a computerr.  It may be difficult to follow on a mobile device.  
+The screenshots have been created from a computer.  It may be difficult to follow on a mobile device.  
 It will take a while (about 90 minutes) to go through the entire setup.  There are suggested break periods.  
   
 ---  
