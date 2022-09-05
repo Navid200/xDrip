@@ -21,7 +21,7 @@ Select "Free Sign Up" instead of "Get Enhanced".
 ![](./images/noipFree.png)  
 <br/>  
   
-Wait for the email and "Confirm Account".  
+Wait for the email and "Confirm Account" before you proceed.  
   
 You need a Google account to proceed.  Create one if you don't have it.  
 Go to  [https://console.cloud.google.com](https://console.cloud.google.com)  and log in with your Google account.  
