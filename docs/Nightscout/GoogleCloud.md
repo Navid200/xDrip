@@ -49,27 +49,21 @@ You need a Google account to proceed.  Create one if you don't have one.
 **Google Cloud project**  
 Go to  [https://console.cloud.google.com](https://console.cloud.google.com) and log in with your Google account.  
 ![](./images/GoogleCloud.png)  
-<br/>  
   
 Create a project.  
 ![](./images/NewProject.png)  
-<br/>  
   
 Select your new project.  
 ![](./images/SelectProject.png)  
-<br/>  
   
 Go to dashboard.  
 ![](./images/Dashboard.png)  
-<br/>  
   
 Select "Compute Engine".  
 ![](./images/Dash.png)  
-<br/>  
   
 Enable.  
 ![](./images/Enable.png)  
-<br/>  
 
 Enable billing.  
 ![](./images/EnableBilling.png)  
