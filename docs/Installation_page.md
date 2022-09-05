@@ -5,6 +5,7 @@
   
   
 [Requirements](./Requirements_page.md)  
+[Release notes - changelog](ReleaseNotes)  
 [Download xDrip](./Download-xDrip.md)  
 [Install xDrip](./Install.md)  
   
