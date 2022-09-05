@@ -13,7 +13,6 @@ You need the advice of a competent medical professional to control your, or your
   
 [Download & Installation](./docs/Installation_page.md)  
 [Features](./docs/Features_page.md)  
-[Dexcom](./docs/Dexcom_page.md)  
 [Troubleshoot](./docs/Troubleshooting_page.md)  
 [Frequently Asked Questions](./docs/FAQ_page.md)  
 [Bugs & Feature Requests](./docs/Issues.md)  
