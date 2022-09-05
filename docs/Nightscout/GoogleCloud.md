@@ -54,6 +54,10 @@ Enable billing for your new project.
 ![](./images/BillingforProject.png)  
 <br/>  
   
+You will be asked to select your country and describe your organization.  Select "Personal project".  
+![](./images/Country.png)  
+<br/>  
+  
 Standard disk  
 Minimal  
 Create  
