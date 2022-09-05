@@ -15,18 +15,22 @@ Go to [https://www.noip.com](https://www.noip.com).
 Sign up if you don't have an account.  
 You need to enter your email address, choose a password, and choose a hostname.  Make a note of all.  
 ![](./images/noipSignup.png)  
-    
+<br/>  
+  
 Select "Free Sign Up" instead of "Get Enhanced".  
 ![](./images/noipFree.png)  
+<br/>  
   
 Wait for the email and "Confirm Account".  
   
 You need a Google account to proceed.  Create one if you don't have it.  
 Go to  [https://console.cloud.google.com](https://console.cloud.google.com)  and log in with your Google account.  
 ![](./images/GoogleCloud.png)  
+<br/>  
   
 Create a project.  
 ![](./images/NewProject.png)  
+<br/>  
   
 Go to dashboard.  
 Select "Compute Engine".  
