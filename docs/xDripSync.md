@@ -21,4 +21,3 @@ Then, go to Settings &#8722;> xDrip+ Sync Settings and tap on "Handset Group Sec
 On both master and follower ensure that Settings &#8722;> xDrip+ Sync Settings &#8722;> Disable all sync features is disabled (no check mark beside it).  
 ![](./images/DisableAllSyncFeatures.png)  
   
-[Other follower options](./How-to-follow.md)  
