@@ -3,6 +3,7 @@
   
 This is still a draft.  The method is still being tested.  And this guide is still being edited.  
 
+**Credit:**  
 Thanks to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, and testing everything.  
   
 **Who should and who shouldn't try this**  
