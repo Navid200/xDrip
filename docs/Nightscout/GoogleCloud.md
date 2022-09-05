@@ -83,7 +83,9 @@ Select a region that qualifies for free tier.
 ![](./images/vm1.png)  
 <br/>  
   
-Select "Boot Disk"
+Edit "Boot Disk" and modify as shown below.  
+![](./images/Disk.png)  
+<br/>  
 
 Standard disk  
 Minimal  
