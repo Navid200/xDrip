@@ -74,8 +74,17 @@ The following snapshots show the current (September 4, 2022) limitations.
 ![](./images/egrerss.png)  
   
 ![](./images/Regions.png)  
-
   
+Go to dashboard.  Select "Create a VM".  
+Set name to "nightscout".  
+Set machine type to "e2-micro".  
+Select a region that qualifies for free tier.  
+  
+![](./images/vm1.png)  
+<br/>  
+  
+Select "Boot Disk"
+
 Standard disk  
 Minimal  
 Create  
