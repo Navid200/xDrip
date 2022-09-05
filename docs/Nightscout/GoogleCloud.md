@@ -91,10 +91,13 @@ Under firewall, enable both http and https.
 ![](./images/Firewall.png)  
 <br/>  
   
-Click on "Create" to create the virtual machine.  You can take a break now.  
+Click on "Create" to create the virtual machine.  Google will not bring up your virtual machine.  You can take a break now.  
   
 ---  
   
+After the external IP address column is populated, click on "SSH" on the right side of the IP address.  
+
+Copy and paste the following line into the virtual machine.  Be very careful not to copy it into any other machine as it will overwrite the contents of the machine.  
 
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash  
 If you get an error message that says EINTEGRITY ending with (0 bytes) and it hangs. Just press CTRL C keys at the same time and re-run the curl bootstrap command.  
