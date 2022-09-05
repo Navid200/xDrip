@@ -149,9 +149,6 @@ Select 2 to redirect to secure https.
 You will be asked to change the API secret.  This is the password you will login to Nightscout with.  
 Enter a password and take note.  
 <br/>  
-<br/>  
-  
----  
   
 **Setting up Nightscout**  
   
