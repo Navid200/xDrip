@@ -33,7 +33,7 @@ Wait for the email and "Confirm Account" before you proceed.  This is a good tim
   
 ---  
   
-**Google account**
+**Google account**  
 You need a Google account to proceed.  Create one if you don't have one.  
 <br/>  
   
