@@ -4,9 +4,11 @@
 This is still a draft and is being tested.  
   
 Thanks to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, and testing everything.  
-
+  
+You will need a credit card to set up billing.  The plan is to have no billing.  But, we are still testing to confirm that it will be free.  Regardless, a credit card is required.  
+  
 The screenshots have been created from a computerr.  It may be difficult to follow on a mobile device.  
-It will take a whileto go through the entire setup.  The sections will be separated, in a future update, identifying times you can have a break.  
+It will take a while (about 90 minutes) to go through the entire setup.  There are suggested break periods.  
   
 Go to [https://www.noip.com](https://www.noip.com).  
 ![](./images/noip.png)  
@@ -21,10 +23,10 @@ Select "Free Sign Up" instead of "Get Enhanced".
 ![](./images/noipFree.png)  
 <br/>  
   
-Wait for the email and "Confirm Account" before you proceed.  
+Wait for the email and "Confirm Account" before you proceed.  This is a good time for a break.  
   
-You need a Google account to proceed.  Create one if you don't have it.  
-Go to  [https://console.cloud.google.com](https://console.cloud.google.com)  and log in with your Google account.  
+You need a Google account to proceed.  Create one if you don't have one.  
+Go to  [https://console.cloud.google.com](https://console.cloud.google.com) and log in with your Google account.  
 ![](./images/GoogleCloud.png)  
 <br/>  
   
@@ -57,6 +59,8 @@ Enable billing for your new project.
 You will be asked to select your country and describe your organization.  Select "Personal project".  
 ![](./images/Country.png)  
 <br/>  
+  
+Enter billing details.  This is a good time for a break.   
   
 Standard disk  
 Minimal  
