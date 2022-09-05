@@ -43,9 +43,6 @@ Wait for the email and "Confirm Account" before you proceed.  This is a good tim
   
 You need a Google account to proceed.  Create one if you don't have one.  
 <br/>  
-<br/>  
-  
----  
   
 **Google Cloud project**  
   
