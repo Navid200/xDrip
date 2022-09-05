@@ -25,6 +25,8 @@ Go to  [https://console.cloud.google.com](https://console.cloud.google.com)  and
 ![](./images/GoogleCloud.png)  
   
 Create a project.  
+![](./images/NewProject.png)  
+  
 Go to dashboard.  
 Select "Compute Engine".  
 Enable.
