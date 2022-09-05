@@ -1,5 +1,5 @@
 ## Dexcom app to xDrip  
-August 15, 2022  
+[xDrip](../README.md) >> [Features](./Features_page) >> [Follow](./Follow_page.md) >> [How to follow with xDrip](./How-to-follow.md) >> [Dexcom app](./DexcomAppxDrip.md)  
   
 If you have to use the Dexcom app as your collector and want to use xDrip as a follower, if you run both on the same phone, you can use local broadcast to not have to need WiFi or data.  
   
@@ -11,4 +11,3 @@ In xDrip, running on the same phone, choose Settings &#8722;> Hardware Data Sour
   
 Tap on start sensor and enter the time for 2 hours ago.  It will not interfere with the sensor running in the Dexcom app.  But, you should now have readings in xDrip.  
   
-[Other follower options](./How-to-follow.md)  
