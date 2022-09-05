@@ -120,6 +120,7 @@ You can use your browser's search function on this page to find an item you may 
 **Nightscout**  
 [Nightscout](./docs/Nightscout.md)  
 [Nightscout Settings](./docs/Nightscout-Settings.md)  
+[Nightscout on Google Cloud](./docs/Nightscout/GoogleCloud)  
   
 **Noise**  
 [Noise](./docs/Noise.md)  
