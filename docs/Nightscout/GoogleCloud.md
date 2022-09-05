@@ -68,7 +68,7 @@ Enter billing details.  This is a good time for a break.
   
 ---  
   
-You can have a look at the following, the [Google Cloud Free Program features](https://cloud.google.com/free/docs/free-cloud-features).     
+You can have a look at the following, the "Free Tier" section of [Google Cloud Free Program features](https://cloud.google.com/free/docs/free-cloud-features#free-tier)).  
   
 Standard disk  
 Minimal  
