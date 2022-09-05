@@ -34,7 +34,6 @@ What you see on the last line is what you will need later to set up master xDrip
   
 Select "Free Sign Up" instead of "Get Enhanced".  
 ![](./images/noipFree.png)  
-<br/>  
   
 Wait for the email and "Confirm Account" before you proceed.  This is a good time for a break.  
 <br/>  
