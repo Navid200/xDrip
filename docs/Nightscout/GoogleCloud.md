@@ -159,6 +159,6 @@ On first time, Nightscout will ask you to set up a profile for sensitivity etc. 
   
 Go to xDrip Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API).  
 Enable at the top.  
-Let's say the user ID and password you used to sign up for noip.com is userID and password.  And let's say you chose ddns.net as the server of noip.com.  
+Let's say the user ID and password you used to sign up for noip.com are userID and password.  And let's say you chose ddns.net as the server of noip.com.  
 Tap on Base URL.  Enter the following.  
 https://password@userID.ddns.net/api/v1/
