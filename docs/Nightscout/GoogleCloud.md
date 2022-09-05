@@ -21,6 +21,7 @@ It will take a while (about 90 minutes) to go through the entire setup.  There a
 ---  
   
 **noip.com sign-up**  
+  
 Go to [https://www.noip.com](https://www.noip.com).  
 ![](./images/noip.png)  
   
@@ -38,6 +39,7 @@ Wait for the email and "Confirm Account" before you proceed.  This is a good tim
 ---  
   
 **Google account**  
+  
 You need a Google account to proceed.  Create one if you don't have one.  
 <br/>  
 <br/>  
@@ -45,6 +47,7 @@ You need a Google account to proceed.  Create one if you don't have one.
 ---  
   
 **Google Cloud project**  
+  
 Go to  [https://console.cloud.google.com](https://console.cloud.google.com) and log in with your Google account.  
 ![](./images/GoogleCloud.png)  
   
@@ -81,6 +84,7 @@ Enter billing details.  Select "Start free trial".  This is a good time for a br
 ---  
   
 **Free Tier virtual machine**  
+  
 You can have a look at the following, the [Google Cloud Free Program features, "Free Tier" section](https://cloud.google.com/free/docs/free-cloud-features#free-tier).  You will be setting up a virtual machine next.  You will need to carefully select settings that qualify for the free tier category.  
 The following snapshots show the current (September 4, 2022) limitations.  
   
@@ -115,6 +119,7 @@ Click on "Create" to create the virtual machine.  Google will now bring up your 
 ---  
   
 **Linux/Nightscout install**  
+  
 After the external IP address column is populated, click on "SSH" on the right side of the IP address.  A terminal will appear shortly.  
 
 Copy and paste the following line into the virtual machine terminal.  Be very careful not to copy it into any other machine as it will overwrite the contents of the machine.  
@@ -131,6 +136,7 @@ This is a good time for a break.
 ---  
   
 **Finalize Linux install**  
+  
 To log into the virtual machine, use the email address and password you used to register for noip.com.  
 Leave the update interval at 30.  
 select N for running command during update.  
@@ -147,6 +153,7 @@ Enter a password and take note.
 ---  
   
 **Setting up Nightscout**  
+  
 Let's say the user ID you chose to sign up on noip.com was "userID", and let's say you chose ddns.net as the host.  
 Then, use a web browser and enter https://userID.ddns.net.  This will bring up your Nightscout on your browser.  It will ask you for a password.  Use the API secret you chose earlier.  
 Check "Remember this device" checkbox to avoid having to re-enter it.  
@@ -157,6 +164,7 @@ On first time, Nightscout will ask you to set up a profile for sensitivity etc. 
 ---  
   
 **Setting up xDrip to upload to your Nightscout**  
+  
 Go to xDrip Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API).  
 Enable at the top.  
 Let's say the user ID and password you used to sign up for noip.com is userID and password.  And let's say you chose ddns.net as the server of noip.com.  
