@@ -9,6 +9,7 @@ You will need a credit card to set up billing.  The plan is to have no billing. 
   
 The screenshots have been created from a computer.  It may be difficult to follow on a mobile device.  
 It will take a while (about 90 minutes) to go through the entire setup.  There are suggested break periods.  
+<br/>  
   
 ---  
   
@@ -26,6 +27,7 @@ Select "Free Sign Up" instead of "Get Enhanced".
 <br/>  
   
 Wait for the email and "Confirm Account" before you proceed.  This is a good time for a break.  
+<br/>  
   
 ---  
   
@@ -68,7 +70,8 @@ You will be asked to select your country and describe your organization.  Select
 ![](./images/Country.png)  
 <br/>  
   
-Enter billing details.  Select "Start free trial".  This is a good time for a break.   
+Enter billing details.  Select "Start free trial".  This is a good time for a break.  
+<br/>  
   
 ---  
   
@@ -96,6 +99,7 @@ Under firewall, enable both http and https.
 <br/>  
   
 Click on "Create" to create the virtual machine.  Google will now bring up your virtual machine.  You can take a break now.  
+<br/>  
   
 ---  
   
