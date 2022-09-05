@@ -68,6 +68,8 @@ Enter billing details.  This is a good time for a break.
   
 ---  
   
+You can have a look at the following, the [Google Cloud Free Program features](https://cloud.google.com/free/docs/free-cloud-features).     
+  
 Standard disk  
 Minimal  
 Create  
