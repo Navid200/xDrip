@@ -3,6 +3,7 @@
   
 **Credit:**  
 Thanks to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, and testing everything.  
+<br/>  
   
 **Who should and who shouldn't try this**  
 If you are confident with tech and have time and are interested, you can try this.  Please provide feedback.  
