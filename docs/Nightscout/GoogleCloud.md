@@ -32,6 +32,10 @@ Create a project.
 ![](./images/NewProject.png)  
 <br/>  
   
+Select your new project.  
+![](./images/SelectProject.png)  
+<br/>  
+  
 Go to dashboard.  
 Select "Compute Engine".  
 Enable.
