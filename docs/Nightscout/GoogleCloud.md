@@ -100,6 +100,8 @@ The following snapshots show the current (September 4, 2022) limitations.
 ![](./images/Regions.png)  
 The above three regions are the regions your virtual machine can be in, not where you have to be in.  
   
+![](./images/MachineType.png)  
+  
 ![](./images/DiskType.png)  
   
 ![](./images/DiskVer.png)  
