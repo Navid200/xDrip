@@ -27,6 +27,8 @@ Select "Free Sign Up" instead of "Get Enhanced".
   
 Wait for the email and "Confirm Account" before you proceed.  This is a good time for a break.  
   
+---  
+  
 You need a Google account to proceed.  Create one if you don't have one.  
 Go to  [https://console.cloud.google.com](https://console.cloud.google.com) and log in with your Google account.  
 ![](./images/GoogleCloud.png)  
