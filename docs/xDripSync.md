@@ -1,6 +1,5 @@
 ## xDrip Sync Follow  
-  
-August 10, 2022    
+[xDrip](../README.md) >> [Features](./Features_page) >> [Follow](./Follow_page.md) >> [How to follow with xDrip](./How-to-follow.md) >> [xDrip Sync](./xDripSync.md)  
   
 This page explains how to set up xDrip Sync.  
 This is easy to set up. But, it relies on Google.  
