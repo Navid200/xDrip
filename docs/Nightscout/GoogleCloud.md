@@ -127,6 +127,7 @@ This is a good time for a break.
   
 ---  
   
+**Finalize Linux install**  
 To log into the virtual machine, use the email address and password you used to register for noip.com.  
 Leave the update interval at 30.  
 select N for running command during update.  
