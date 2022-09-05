@@ -161,4 +161,6 @@ Go to xDrip Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API).
 Enable at the top.  
 Let's say the user ID and password you used to sign up for noip.com are userID and password.  And let's say you chose ddns.net as the server of noip.com.  
 Tap on Base URL.  Enter the following.  
-https://password@userID.ddns.net/api/v1/
+https://password@userID.ddns.net/api/v1/  
+  
+That's it.  Your xDrip readings should now upload to your Nightscout on Google Cloud.    
