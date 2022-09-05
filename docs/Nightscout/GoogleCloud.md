@@ -13,12 +13,14 @@ It will take a while (about 90 minutes) to go through the entire setup.  There a
   
 ---  
   
+**noip.com sign-up**  
 Go to [https://www.noip.com](https://www.noip.com).  
 ![](./images/noip.png)  
 <br/>  
   
 Sign up if you don't have an account.  
 You need to enter your email address, choose a password, and choose a hostname.  Make a note of all.  
+What you see on the last line is what you will need later to set up master xDrip to upload and follower xDrip to follow.   
 ![](./images/noipSignup.png)  
 <br/>  
   
@@ -31,7 +33,13 @@ Wait for the email and "Confirm Account" before you proceed.  This is a good tim
   
 ---  
   
+**Google account**
 You need a Google account to proceed.  Create one if you don't have one.  
+<br/>  
+  
+---  
+  
+**Google Cloud project**  
 Go to  [https://console.cloud.google.com](https://console.cloud.google.com) and log in with your Google account.  
 ![](./images/GoogleCloud.png)  
 <br/>  
@@ -75,6 +83,7 @@ Enter billing details.  Select "Start free trial".  This is a good time for a br
   
 ---  
   
+**Free Tier virtual machine**  
 You can have a look at the following, the [Google Cloud Free Program features, "Free Tier" section](https://cloud.google.com/free/docs/free-cloud-features#free-tier).  You will be setting up a virtual machine next.  You will need to carefully select settings that qualify for the free tier category.  
 The following snapshots show the current (September 4, 2022) limitations.  
   
@@ -103,18 +112,22 @@ Click on "Create" to create the virtual machine.  Google will now bring up your 
   
 ---  
   
+**Linux/Nightscout install**  
 After the external IP address column is populated, click on "SSH" on the right side of the IP address.  A terminal will appear shortly.  
 
 Copy and paste the following line into the virtual machine terminal.  Be very careful not to copy it into any other machine as it will overwrite the contents of the machine.  
 
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh \| bash  
   
-This could take a while.  If you get an error message that says EINTEGRITY ending with (0 bytes) and it hangs, Just press CTRL and C keys at the same time to interrupt.  Then, re-run the curl bootstrap command.  
+This could take a while.  If you get an error message that says EINTEGRITY ending with (0 bytes) and it hangs, just press CTRL and C keys at the same time to interrupt.  Then, re-run the curl bootstrap command.  You can use the up arrow on the terminal to go back to the previous command.  
 After the installation is completed, you will be asked to login.  
 ![](./images/Terminal.png)  
+This is a good time for a break.  
 <br/>  
-
-Use the email address and password you used to register for noip.com to log in.  
+  
+---  
+  
+To log into the virtual machine, use the email address and password you used to register for noip.com.  
 Leave the update interval at 30.  
 select N for running command during update.  
 Enter email address.  
@@ -122,3 +135,13 @@ Press A to accept the terms of service.
 Press N to decline sharing email address.  
 Select 2 to redirect to secure https.  
 The API secret will be your Nightscout password.  Enter a password and take note.  
+<br/>  
+  
+---  
+  
+**Setting up xDrip to upload**  
+Go to xDrip Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API).  
+Enable at the top.  
+Let's say the user ID and password you used to sign up for noip.com is userID and password.  And let's say you chose ddns.net as the server of noip.com.  
+Tap on Base URL.  Enter the following.  
+https://password@userID.ddns.net/api/v1/
