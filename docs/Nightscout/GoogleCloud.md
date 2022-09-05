@@ -28,7 +28,6 @@ Go to [https://www.noip.com](https://www.noip.com).
 Sign up if you don't have an account.  
 You need to enter your email address, choose a password, and choose a hostname.  Make a note of all.     
 ![](./images/noipSignup.png)  
-<br/>  
   
 Select "Free Sign Up" instead of "Get Enhanced".  
 ![](./images/noipFree.png)  
