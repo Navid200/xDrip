@@ -45,6 +45,9 @@ Enable.
 <br/>  
 
 Enable billing.  
+![](./images/Enable.png)  
+<br/>  
+  
 Go to https://console.cloud.google.com/
 Enable the engine again.  It will ask you to enable billing again.  But, this time, select the billing account you just created.  
 Standard disk  
