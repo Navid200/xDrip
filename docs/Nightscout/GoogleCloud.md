@@ -1,11 +1,18 @@
 ## Nightscout on Google Cloud  
 [xDrip](../../README.md) >> [xDrip & Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md)  
   
-This is still a draft and is being tested.  
-  
+This is still a draft.  The method is still being tested.  And this guide is still being edited.  
+
 Thanks to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, and testing everything.  
   
-You will need a credit card to set up billing.  The plan is to have no billing.  But, we are still testing to confirm that it will be free.  Regardless, a credit card is required.  Unfortunately, you will not qualify if you are in Australia or China.  But, hopefully, other free options will apply to you.    
+**Who should and who shouldn't try this**  
+If you are confident with tech and have time and are interested, you can try this.  Please provide feedback.  
+If you already have a working Nightscout on Heroku, there is no rush to switch to this now.  One of the subjects that will be added to this guide, after tested, will explain how to transfer a database from Heroku (Atlas) to this Google Cloud database.  
+Whether this will be 100% free or not is still not known.  We will know in a month from now.  
+If you want a tested and proven method to switch to once and be done with it, please be patient.  We still have lots of time and there is no rush.  
+  
+  
+You will need a credit card to set up billing.  The hope is that this will be free.  But, we are still testing to confirm that it will be free.  Regardless, a credit card is required.  Unfortunately, you will not qualify if you are in Australia or China.  But, hopefully, other free options will apply to you.  
   
 The screenshots have been created from a computer.  It may be difficult to follow on a mobile device.  
 It will take a while (about 90 minutes) to go through the entire setup.  There are suggested break periods.  
