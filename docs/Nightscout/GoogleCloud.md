@@ -103,15 +103,12 @@ Set machine type to "e2-micro".
 Select a region that qualifies for free tier.  
   
 ![](./images/vm1.png)  
-<br/>  
   
 Edit "Boot Disk" and modify as shown below.  
 ![](./images/Disk.png)  
-<br/>  
   
 Under firewall, enable both http and https.  
 ![](./images/Firewall.png)  
-<br/>  
   
 Click on "Create" to create the virtual machine.  Google will now bring up your virtual machine.  You can take a break now.  
 <br/>  
