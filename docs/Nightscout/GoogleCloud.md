@@ -102,6 +102,8 @@ The above three regions are the regions your virtual machine can be in, not wher
   
 ![](./images/DiskType.png)  
   
+![](./images/DiskVer.png)  
+  
 Go to dashboard.  Select "Create a VM".  
 Set name to "nightscout".  
 Set machine type to "e2-micro".  
