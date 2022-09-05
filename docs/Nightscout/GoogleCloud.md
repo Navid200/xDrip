@@ -156,7 +156,7 @@ Enter a password and take note.
 **Setting up Nightscout**  
   
 Let's say the user ID you chose to sign up on noip.com was "userID", and let's say you chose ddns.net as the host.  
-Then, use a web browser and enter https://userID.ddns.net.  This will bring up your Nightscout on your browser.  It will ask you for a password.  Use the API secret you chose earlier.  
+Then, use a web browser and enter https://userID.ddns.net.  This will bring up your Nightscout.  It will ask you for a password.  Use the API secret you chose earlier.  
 Check "Remember this device" checkbox to avoid having to re-enter it.  
 On first time, Nightscout will ask you to set up a profile for sensitivity etc.  Either enter real values or just click save and then use close button on top right of the screen.  
 <br/>  
