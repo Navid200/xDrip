@@ -22,7 +22,8 @@ Wait for the email and "Confirm Account".
   
 You need a Google account to proceed.  Create one if you don't have it.  
 Go to  [https://console.cloud.google.com](https://console.cloud.google.com)  and log in with your Google account.  
-
+![](./images/GoogleCloud.png)  
+  
 Create a project.  
 Go to dashboard.  
 Select "Compute Engine".  
