@@ -135,10 +135,7 @@ After the external IP address column is populated, click on "SSH" on the right s
 Copy and paste the following line into the terminal.  Be very careful not to copy it into any other machine as it will overwrite the contents of the machine.  Enter.  
 
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh \| bash  
-  
-This could take a while.  If you get an error message that says EINTEGRITY ending with (0 bytes) and it hangs, just press CTRL and C keys at the same time to interrupt.  Then, re-run the curl bootstrap command.  You can use the up arrow on the terminal to go back to the previous command.  
-After the installation is completed, you will be asked to login.  
-![](./images/Terminal.png)  
+   
 This is a good time for a break.  
 <br/>  
 <br/>  
@@ -147,6 +144,10 @@ This is a good time for a break.
   
 **Finalize Linux install**  
   
+If you get an error message that says EINTEGRITY ending with (0 bytes) and it hangs, just press CTRL and C keys at the same time to interrupt.  Then, re-run the curl bootstrap command.  You can use the up arrow on the terminal to go back to the previous command.  
+After the installation is completed, you will be asked to login.  
+![](./images/Terminal.png)  
+
 To log into the virtual machine, use the email address and password you used to register for noip.com.  
 Leave the update interval at 30.  
 select N for running command during update.  
