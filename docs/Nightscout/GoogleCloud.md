@@ -114,7 +114,11 @@ Edit "Boot Disk" and modify as shown below.
 Under firewall, enable both http and https.  
 ![](./images/Firewall.png)  
   
-Click on "Create" to create the virtual machine.  Google will now bring up your virtual machine.  You can take a break now.  
+Click on "Create" to create the virtual machine.  Google will now bring up your virtual machine.  
+  
+[Delete a VM](DeleteVM.png)  
+  
+You can take a break now.  
 <br/>  
 <br/>  
   
