@@ -1,4 +1,5 @@
 ## Snooze  
+[xDrip](../README.md) >> [xDrip Alerts](./Alerts_page) >> [Snooze](./Snooze)  
   
 There is no way to snooze an alert if the phone is locked.  
 After unlocking the phone, the easiest way to snooze an alert is to just swipe right on the notification.  
