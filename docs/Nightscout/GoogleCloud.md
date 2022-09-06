@@ -101,6 +101,9 @@ The above three regions are the regions your virtual machine can be in, not wher
   
 ![](./images/DiskVer.png)  
   
+You can use the [calculator](https://cloud.google.com/products/calculator) to confirm the price.  
+![](./images/Estimate.png)  
+  
 Go to dashboard.  Select "Compute Engine".  Select the "VM instances" tab in the left pane if it's not already selected.  
 Select "Create Instance".  
 ![](./images/CreateInstance.png)  
