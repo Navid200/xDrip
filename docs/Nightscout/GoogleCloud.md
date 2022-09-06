@@ -111,7 +111,7 @@ Select a region that qualifies for free tier.
   
 ![](./images/vm1.png)  
   
-Edit "Boot Disk" and modify as shown below.  
+Edit "Boot Disk" and modify as shown below.  Click on "Select".  
 ![](./images/Disk2.png)  
   
 Under firewall, enable both http and https.  
