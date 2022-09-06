@@ -1,5 +1,5 @@
 ## xDrip Statistics  
-[xDrip](../README.md) >> [Features](./Features_page) >> [Statistics](./Statistics.md)  
+[xDrip](../README.md) >> [Features](./Features_page) >> [Statistics](./Statistics)  
   
 xDrip stores previous readings and performs statistical analysis on them.  
 To access statistics, tap on "Statistics" from the top left menu button.  
