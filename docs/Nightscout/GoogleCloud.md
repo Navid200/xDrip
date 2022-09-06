@@ -6,8 +6,8 @@ Thanks to jamorham, the current xDrip head developer, for the idea, putting it t
 <br/>  
 
 **Upcoming changes:**  
-Disk space change from 10GB to 30GB
-Script update
+Disk space change from 10GB to 30GB  
+Script update  
   
 **Who should and who shouldn't try this**  
 If you are confident with tech and have time and are interested, you can try this.  Please provide feedback.  
