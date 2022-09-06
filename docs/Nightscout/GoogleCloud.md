@@ -145,13 +145,14 @@ This is a good time for a break.
 **Finalize Linux install**  
   
 If you get an error message that says EINTEGRITY ending with (0 bytes) and it hangs, just press CTRL and C keys at the same time to interrupt.  Then, re-run the curl bootstrap command.  You can use the up arrow on the terminal to go back to the previous command.  
+  
 After the installation is completed, you will be asked to login.  
 ![](./images/Terminal.png)  
-
 To log into the virtual machine, use the email address and password you used to register for noip.com.  
+  
 Leave the update interval at 30.  
 select N for running command during update.  
-Enter email address.  
+Enter email address "used for urgent renewal ...".  
 Press A to accept the terms of service.  
 Press N to decline sharing email address.  
 Select 2 to redirect to secure https.  
