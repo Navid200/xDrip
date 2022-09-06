@@ -1,4 +1,5 @@
 ## Reinstall  
+[xDrip](../README.md) >> [Download & Installation](./Installation_page) >> [Reinstall](./Reinstall)  
 
 Why do you think you need to reinstall xDrip?  
 If you uninstall xDrip, you will lose your history and settings.  
