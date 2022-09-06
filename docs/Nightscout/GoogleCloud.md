@@ -161,7 +161,7 @@ You will be asked to change the API secret.  This is the password you will login
 Enter a password and take note.  
   
 When you see the following, the install is complete and you can close the terminal by clicking on X at the top right corner of the terminal.  
-![](./images/)  
+![](./images/TermEnd.png)  
 <br/>  
   
 **Setting up Nightscout**  
