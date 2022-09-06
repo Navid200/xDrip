@@ -159,6 +159,9 @@ Select 2 to redirect to secure https.
   
 You will be asked to change the API secret.  This is the password you will login to Nightscout with.  
 Enter a password and take note.  
+  
+When you see the following, the install is complete and you can close the terminal by clicking on X at the top right corner of the terminal.  
+![](./images/)  
 <br/>  
   
 **Setting up Nightscout**  
@@ -166,7 +169,7 @@ Enter a password and take note.
 Let's say the user ID you chose to sign up on noip.com was "userID", and let's say you chose ddns.net as the host.  
 Then, use a web browser and enter https://userID.ddns.net.  This will bring up your Nightscout.  It will ask you for a password.  Use the API secret you chose earlier.  
 Check "Remember this device" checkbox to avoid having to re-enter it.  
-On first time, Nightscout will ask you to set up a profile for sensitivity etc.  Either enter real values or just click save and then use close button on top right of the screen.  
+On first time, Nightscout will ask you to set up a profile for sensitivity etc.  Either enter real values or just click save and then use close button on top right of the screen.  You may need to do this twice.  
 <br/>  
   
 **Setting up xDrip to upload to your Nightscout**  
