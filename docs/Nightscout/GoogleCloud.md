@@ -132,10 +132,10 @@ You can take a break now.
 After the external IP address column is populated, click on "SSH" on the right side of the IP address.  A terminal will appear shortly.  
 ![](./images/Terminal1.png)  
 
-Copy and paste the following line into the terminal.  Be very careful not to copy it into any other machine as it will overwrite the contents of the machine.  Enter.  
-
+Copy and paste the following line into the terminal.  Be very careful not to copy it into any other machine as it will overwrite the contents of the machine.  
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh \| bash  
    
+Enter.  
 This is a good time for a break.  
 <br/>  
 <br/>  
