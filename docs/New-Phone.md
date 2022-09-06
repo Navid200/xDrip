@@ -1,5 +1,6 @@
 ## Transfer to a new phone  
- 
+[xDrip](../README.md) >> [Download & Installation](./Installation_page) >> [Transfer to a new phone](./New-Phone)  
+  
 If you like to have your previous readings on your new phone, this is about how you should do it.  
   
 Be very careful. xDrip cannot _import_ a database.  It has a [restore](./Restore-Database.md) database function.  What it does is to replace the existing database with the one being restored.  
