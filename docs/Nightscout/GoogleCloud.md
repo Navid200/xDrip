@@ -101,7 +101,10 @@ The above three regions are the regions your virtual machine can be in, not wher
   
 ![](./images/DiskVer.png)  
   
-Go to dashboard.  Select "Create a VM".  
+Go to dashboard.  Select "Compute Engine".  Select the "VM instances" tab in the left pane if it's not already selected.  
+Select "Create Instance".  
+![](./images/CreateInstance.png)  
+  
 Set name to "nightscout".  
 Set machine type to "e2-micro".  
 Select a region that qualifies for free tier.  
