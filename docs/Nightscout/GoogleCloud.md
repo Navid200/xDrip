@@ -109,7 +109,7 @@ Set name to "nightscout".
 Set machine type to "e2-micro".  
 Select a region that qualifies for free tier.  
   
-![](./images/vm1.png)  
+![](./images/vm2.png)  
   
 Edit "Boot Disk" and modify as shown below.  Click on "Select".  
 ![](./images/Disk2.png)  
