@@ -2,6 +2,7 @@
 [xDrip](../README.md) >> [FAQ](./FAQ_page)  
   
 xDrip FAQ  
+<br/>  
   
 [Why is xDrip not in Google Play Store?](./App-store)  
 
