@@ -1,5 +1,10 @@
 # xDrip & Nightscout  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Nightscout](./Nightscout_page.md)  
+[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip & Nightscout](./Nightscout_page)  
+
+Heroku will not be free after November 28, 2022.  See [discussion](https://github.com/NightscoutFoundation/xDrip/discussions/2299).  
+We are looking at alternative approaches.  This page will be updated accordingly.  
+  
+[Nightscout on Google Cloud](./Nightscout/GoogleCloud)  
   
 Nightscout can be a (free) repository of all your xDrip readings.  
 Your readings are important because you need them to create a report for your endocrinologist.  
