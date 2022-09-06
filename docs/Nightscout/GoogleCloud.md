@@ -116,7 +116,7 @@ Under firewall, enable both http and https.
   
 Click on "Create" to create the virtual machine.  Google will now bring up your virtual machine.  
   
-[Delete a VM](DeleteVM.png)  
+[Delete a VM](./images/DeleteVM.png)  
   
 You can take a break now.  
 <br/>  
