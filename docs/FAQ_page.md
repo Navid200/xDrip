@@ -21,7 +21,7 @@
 #### [Why do I get xDrip imported AAPS profile pop-up?](./AAPS_ProfileImportNotification)  
 #### [How can I stop xDrip without uninstalling it?](./Stop-xDrip)  
 #### [How to delete a treatment](./Delete_Treatment)  
-  
+####  
 #### Dexcom  
 #### [How to trigger a pair request](./MissedPairRequest)  
 #### [How to Start a G6](./Starting-G6)  
@@ -30,6 +30,6 @@
 #### [Why did G6 do that?](./What-not-to-do)  
 #### [xDrip following Dexcom app](./DexcomAppxDrip)  
 #### [Dexcom Intermittent connectivity](./Intermittent)  
-  
+####  
   
 #### [How can I ask a question or make a suggestion?](./Contact)    
