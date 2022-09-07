@@ -10,7 +10,7 @@
 | Missed Reading | Ring & notification | "Other Alerts" \* | "Other Alerts" \* | 
 | Other Alerts | Ring & notification | &#10004; | &#10004; |  
 | Persistent High | Ring & notification | &#10004; | "Other Alerts" \* |  
-| Forecast Lows | Ring & notification | &#10004; | "Other Alerts" \* |  
+| Forecast Lows | Ring & notification | &#10004; | "Other Alerts" \* |
 
  \* Uses the same setting selected for "Other Alerts".  
 
