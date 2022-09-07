@@ -3,7 +3,7 @@
 
 You can use your browser's search function on this page to find an item you may have difficulty finding on the site.  
   
-**Alerts**
+#### Alerts  
 #### [Alert makes no sound - Alert is silent](./docs/Silent-alert.md)  
 #### [Alert re-raise malfunction](./docs/Alert-re‐raise-malfunction.md)  
 #### [Android](./docs/Android.md)  
