@@ -1,8 +1,6 @@
 # xDrip Frequently Asked Questions  
 [xDrip](../README.md) >> [FAQ](./FAQ_page)  
   
-xDrip FAQ  
-<br/>  
   
 #### [Why is xDrip not in Google Play Store?](./App-store)  
 #### [Which xDrip version do I have?](./xDrip-Version)  
@@ -24,7 +22,6 @@ xDrip FAQ
 #### [Why do I get xDrip imported AAPS profile pop-up?](./AAPS_ProfileImportNotification)  
 #### [How can I stop xDrip without uninstalling it?](./Stop-xDrip)  
 #### [How to delete a treatment](./Delete_Treatment)  
-<br/>  
   
 Dexcom  
 #### [How to trigger a pair request](./MissedPairRequest)  
@@ -34,6 +31,5 @@ Dexcom
 #### [Why did G6 do that?](./What-not-to-do)  
 #### [xDrip following Dexcom app](./DexcomAppxDrip)  
 #### [Dexcom Intermittent connectivity](./Intermittent)  
-<br/>  
   
 #### [How can I ask a question or make a suggestion?](./Contact)    
