@@ -14,10 +14,10 @@
   
 <br/>  
   
-[Logs](./Logs.md)  
-[Screen saver (lock screen) while being charged](./Screensaver.md)  
-[Lock Screen](./Lock-screen.md)  
-[Stop xDrip - disable collection](./Stop-xDrip.md)  
-[Reminders](./Reminders.md)  
-[Data tables](./Datatables.md)  
-[Automatic Calibration](./AutoCal.md)  
+#### [Logs](./Logs.md)  
+#### [Screen saver (lock screen) while being charged](./Screensaver.md)  
+#### [Lock Screen](./Lock-screen.md)  
+#### [Stop xDrip - disable collection](./Stop-xDrip.md)  
+#### [Reminders](./Reminders.md)  
+#### [Data tables](./Datatables.md)  
+#### [Automatic Calibration](./AutoCal.md)  
