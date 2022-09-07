@@ -8,4 +8,4 @@ If there is an item in the queue, you can see the queue on the G5/G6 status page
 ![](./images/tx-queue.png)  
 
 As long as you can see an item in the queue, the transmitter has not received the corresponding command.  Therefore, you should not issue another command.  
-But, more importantly, you should not issue a command if there is no proper connectivity with the transmitter.  
+But, more importantly, you should not issue a command if there is no [proper connectivity](./docs/Proper-connectivity) with the transmitter.  
