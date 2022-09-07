@@ -1,7 +1,6 @@
 # xDrip Frequently Asked Questions  
 [xDrip](../README.md) >> [FAQ](./FAQ_page)  
   
-  
 #### [Why is xDrip not in Google Play Store?](./App-store)  
 #### [Which xDrip version do I have?](./xDrip-Version)  
 #### [What's the easiest way to snooze?](./Snooze)  
@@ -23,7 +22,7 @@
 #### [How can I stop xDrip without uninstalling it?](./Stop-xDrip)  
 #### [How to delete a treatment](./Delete_Treatment)  
   
-Dexcom  
+#### Dexcom  
 #### [How to trigger a pair request](./MissedPairRequest)  
 #### [How to Start a G6](./Starting-G6)  
 #### [What is Native algorithm - mode?](./Native-Algorithm)  
