@@ -1,5 +1,5 @@
 ## Report  
-August 26, 2022  
+[xDrip](../README.md) >> [Features](./Features_page) >> [Report](./Report)  
   
 In xDrip, tap on Statistics from the top left menu button. You can swipe left or right to access a total of 3 pages. The first and the last pages are the ones you need for a report.  
 At the top, tap on 90D for the past 90 days. Tap on share from the top right menu. Select your email client and email it to yourself. Go to the other page and email that one to yourself as well.  
