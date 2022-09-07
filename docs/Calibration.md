@@ -33,5 +33,5 @@ If you use a G6, you don't have to calibrate.  But, if you find the readings to 
 Avoid calibrating when the glucose is changing rapidly.  Ideally, you should only calibrate when the trend is flat.  If you are using G5 or if you use the no-code mode for a G6, you will need to enter initial calibrations.  You don't have readings when you need to enter initial calibrations.  So, how would you know if your trend is flat?  You can ignore this requirement in this case only.  You can use your statistics AGP graph to see what time of day you have less rapid variations and start your sensor such that 2 hours after coincides with it.  This may not always be possible.  But, if it is, it helps accuracy.
   
 ### How to calibrate  
-You can calibrate by taping on "Add Calibration" under the top left menu.  
+You can calibrate by selecting "Add Calibration" from the top left menu.  
 ![](./images/HowtoCalibrate.png)  
