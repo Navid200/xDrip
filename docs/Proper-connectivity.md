@@ -1,4 +1,5 @@
 ## Proper Connectivity  
+[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip & Dexcom](./Dexcom_page) >> [Proper Connectivity](./Proper-connectivity)  
   
 Go to G5/G6 status page.  
 ![](./images/system-status-pg.png)  
