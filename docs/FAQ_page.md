@@ -22,7 +22,7 @@
 #### [How can I stop xDrip without uninstalling it?](./Stop-xDrip)  
 #### [How to delete a treatment](./Delete_Treatment)  
 ####  
-#### Dexcom  
+#### Dexcom
 #### [How to trigger a pair request](./MissedPairRequest)  
 #### [How to Start a G6](./Starting-G6)  
 #### [What is Native algorithm - mode?](./Native-Algorithm)  
