@@ -1,7 +1,8 @@
-# Index  
+# Index
 [xDrip](./README.md) >> [Index](./Search_Index)  
 
 You can use your browser's search function on this page to find an item you may have difficulty finding on the site.  
+<br/>  
   
 #### **Alerts**  
 #### [Alert makes no sound - Alert is silent](./docs/Silent-alert.md)  
