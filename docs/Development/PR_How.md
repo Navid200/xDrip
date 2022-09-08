@@ -11,3 +11,5 @@ Even if there is a, issue or description about the problem you are trying to res
 If there is an issue or discussion that explains the problem, add a link to them.  
 
 If you are changing a menu item, include before and after images.  
+
+Try to make it as easy as possible to review by someone who doesn't knoe anything and has not experienced the problem.  
