@@ -6,6 +6,7 @@
 ### [Calibration](./Calibration)
 ### [Nightscout](./Nightscout_page)
 ### [Follow](./Follow_page)
+### [Backup](./Backup)
 ### [Emergency Messages](./Emergency)
 ### [Update xDrip](./Updates)
 ### [Display](./Display/Display)
