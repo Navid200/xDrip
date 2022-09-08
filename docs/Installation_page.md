@@ -13,8 +13,6 @@
 #### [xDrip version](./xDrip-Version)
 #### [Start Dexcom G6](./Starting-G6)
 #### [Update xDrip](./Updates)
-#### [Backup database](./Backup-Database)
-#### [Restore database](./Restore-Database)
 #### [Transfer to new phone](./New-Phone)
 #### [Reinstall xDrip](./Reinstall)
 #### [Multiple instances (variants)](./Variants)
