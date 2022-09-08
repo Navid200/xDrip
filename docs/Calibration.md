@@ -6,9 +6,9 @@ The current continuous glucose monitoring (CGM) technology is limited to measuri
   
 The CGM measures the interstitial fluid glucose.  We calibrate, by telling the CGM what our blood glucose is, after measuring it using our blood glucose meter.    The CGM uses these two figures to formulate the relationship.  
   
-If everything was perfect, the more calibrations we performed, the more accurate the formula would become.  
+If everything was perfect, the more calibrations we performed, the more accurate the calibrated readings would become.  
   
-### What could affect overall accuracy  
+### What could affect the accuracy of the readings  
 * The accuracy of your blood glucose meter  
 * The accuracy and sensitivity of the sensor  
 * The accuracy of the formula  
