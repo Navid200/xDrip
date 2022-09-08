@@ -1,5 +1,5 @@
 ## Graphics  
-[xDrip](../README.md) >> [Development](./Development) >> [Graphics](./Graphics)  
+[xDrip](../../README.md) >> [Development](./Development) >> [Graphics](./Graphics)  
   
 Don't include any graphics in your PR unless you create it yourself.  
 The following explains how you can create an icon using "Paint" on Windows.  If you use Linux, you can use Gimp or something similar instead.  
