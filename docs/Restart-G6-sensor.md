@@ -1,5 +1,5 @@
 ## Restart G6 Sensor  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> [Restart G6 sensor](./Restart-G6-sensor.md)  
+[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip & Dexcom](./Dexcom_page) >> [Restart G6 sensor](./Restart-G6-sensor)  
   
 **<span style="color:red">This can be very dangerous.</span>**  Please read the entire page first.  You should not restart if you are not aware of the risks and consequences.  
 **Your readings will be significantly high in error after warm-up after a restart.**  If you ignore this and take insulin to lower your readings, you will cause hypoglycemia.  Similarly, if you have a closed loop system and do not open the loop while readings are wrong, the loop will inject insulin, to correct the erroneous High, and cause hypoglycemia.    
