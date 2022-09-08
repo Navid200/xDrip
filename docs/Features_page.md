@@ -1,14 +1,15 @@
 # Features  
 [xDrip](../README.md) >> [Features](./Features_page.md)  
   
-### [Alerts](./Alerts_page.md)  
-### [Statistics](./Statistics.md)  
-### [Dexcom](./Dexcom_page.md)  
-### [xDrip & Nightscout](./Nightscout_page.md)  
+### [Alerts](./Alerts_page.md)
+### [Statistics](./Statistics.md)
+### [Calibration](./Calibration)
+### [Nightscout](./Nightscout_page.md)  
 ### [Follow](./Follow_page.md)  
 ### [Emergency Messages](./Emergency.md)  
 ### [Update xDrip](./Updates.md)  
 ### [Display](./Display/Display.md)  
+### [Dexcom](./Dexcom_page.md)  
 ### [Watches](./Watches.md)  
 ### [Report](./Report.md)  
   
