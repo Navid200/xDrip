@@ -18,6 +18,9 @@ Explain the steps one has to take to experience the problem.  Your description w
 ### Links
 If there is an issue or discussion that explains the problem, include links.  
   
+### Tests
+Describe your tests/verifications of your changes.  
+  
 ### Images
 If you are changing a menu item, include before and after images.  
   
