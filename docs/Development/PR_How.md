@@ -25,5 +25,5 @@ Is it possible that your changes may result in unintended changes in the xDrip b
 Describe your tests/verifications of your changes.  
   
 ### Images
-If you are changing a menu item, include before and after images.  
+If you are changing a menu item, include before and after images in your description.  
   
