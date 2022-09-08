@@ -18,6 +18,9 @@ Explain the steps one has to take to experience the problem.  Your description w
 ### Links
 If there is an issue or discussion that explains the problem, include links.  
   
+### Your solution
+Is it possible that your changes may result in unintended changes in the xDrip behavior and existing functionality?  How have you verified?  
+  
 ### Tests
 Describe your tests/verifications of your changes.  
   
