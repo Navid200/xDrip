@@ -32,7 +32,7 @@ You can use your browser's search function on this page to find an item you may 
 #### [How good is the battery?](./docs/Battery-condition.md)  
 <br/>  
   
-#### **Calibration**
+#### **[Calibration](./docs/Calibration)**
 #### [Calibration - when](./docs/Calibration)  
 #### [Automatic Calibration](./docs/AutoCal.md)  
 #### [Calibrate G6 after a restart](./docs/Calibrate-after-G6Restart.md)  
