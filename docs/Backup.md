@@ -6,3 +6,4 @@ You can access backup functions from the top right menu button under "Import /Ex
   
 #### [Backup database](./Backup-Database)
 #### [Restore database](./Restore-Database)
+#### [Google Cloud](./GoogleCloud)
