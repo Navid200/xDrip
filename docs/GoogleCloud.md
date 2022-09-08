@@ -6,3 +6,4 @@ To access Google Cloud functions, tap on "Cloud Backup" from the top right menu 
   
 You need to select the backup location and sign in to your Google account.  
 Then, you have the choice of enabling automatic backups or manually making backups.  
+Settings and database are backed up in a single compressed encrypted file.  
