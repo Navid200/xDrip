@@ -10,6 +10,7 @@
 #### [Install xDrip](./Install)
 <br/>  
   
+#### [xDrip version](./xDrip-Version)
 #### [Start Dexcom G6](./Starting-G6)
 #### [Update xDrip](./Updates)
 #### [Backup database](./Backup-Database)
