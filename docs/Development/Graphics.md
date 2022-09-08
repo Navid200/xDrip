@@ -9,7 +9,7 @@ Change size, in pixels, to horizontal: 150, vertical: 113.
 Leave background color as White.  
 Add text.  
 Color: black  
-Font: Arial 
+Font: Arial  
 Bold: active  
 Size: 22  
   
