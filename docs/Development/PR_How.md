@@ -6,7 +6,6 @@ Look at your description from the point of view of the reviewer.
 The more changes you make, the harder it will be for the reviewr to convince themselves to approve.  
   
 ### Explain the problem
-Look at your description from the point of view of the reviewer.  
 Not everyone uses xDrip the same way.  
 The first question you should answer without being asked is "why we need this change".  
 Explain what the problem is.  This does not have to be long.  In fact, it should be as short as possible.  
