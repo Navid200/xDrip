@@ -7,7 +7,6 @@ Try to make it as easy as possible to review by someone who doesn't know anythin
 The more changes you include in a single PR, the harder it will be for the reviewer to convince themselves to approve.  Even if you have a perfect solution, it will be useless if it is never merged.  You can make multiple small PRs, one step at a time.  
   
 ### Explain the problem
-Look at your description from the point of view of the reviewer.  
 Not everyone uses xDrip the same way.  The reviewer may have never experienced the problem you are trying to solve.  
 The first question you should answer, without being asked, is "why we need this change".  
 Explain what the problem is.  This does not have to be very long.  In fact, it should be as short as possible.  
