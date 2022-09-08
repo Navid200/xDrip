@@ -16,5 +16,8 @@ Size: 22
 Enter the name.  Only capitalize the first letter.  
 Avoid using any special capitalization or font or color used by the manufacturer.  
 If the official manufacturer icon happens to include black text on white background, we may ask you to change the font or colors.  
+
+Save as png.  
   
 The following is an example:  
+![](./images/aidex_icon.png)  
