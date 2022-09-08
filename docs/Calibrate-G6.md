@@ -1,5 +1,5 @@
 ## Calibrate G6  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> [Calibrate G6](./Calibrate-G6.md)  
+[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip & Dexcom](./Dexcom_page) >> [Calibrate G6](./Calibrate-G6)  
   
 See [Calibration](./Calibration.md) for details about what calibration is and when and why you should calibrate.  
 
