@@ -64,7 +64,7 @@ You can use your browser's search function on this page to find an item you may 
 #### [Intermittent Connectivity](./docs/Intermittent)  
 <br/>  
   
-#### **[Display](./Display/Display)**
+#### **[Display](./docs/Display/Display)**
 #### [Connect the dots!](./docs/Connect-the-dots)  
 #### [Screensaver (lock screen) while being charged](./docs/Screensaver)  
 #### [Lock Screen](./docs/Lock-screen)  
