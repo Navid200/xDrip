@@ -1,4 +1,5 @@
 ## xDrip version  
+[xDrip](../README.md) >> [Download & Installation](./Installation_page) >> [Version](./xDrip-Version)  
 
 To see what version of xDrip you are currently running, look at the classic status page.  
 ![](./images/classic-status-pg.png)  
