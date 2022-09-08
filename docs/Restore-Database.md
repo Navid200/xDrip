@@ -1,4 +1,5 @@
 ## Restore database  
+[xDrip](../README.md) >> [Features](./Features_page) >> [Backup](./Backup) >> [Restore database](Restore-Database)
 
 To restore a database, you need to place it in the xdrip folder on the phone internal storage.  If the folder does not exist, you can create one.  
 The database filename is composed of the word export followed by year, month, day, hours, minutes, seconds as shown on the following line.  
