@@ -1,5 +1,5 @@
 ## Download xDrip  
-[xDrip](../README.md) >> [Download & Installation](./Installation_page.md) >> [Download xDrip](./Download-xDrip.md)  
+[xDrip](../README.md) >> [Download & Installation](./Installation_page) >> [Download xDrip](./Download-xDrip)  
   
 You can download the latest stable version under "Latest" from the [GitHub repository](https://github.com/NightscoutFoundation/xDrip/).  
 ![](./images/Releases.png)  
@@ -11,5 +11,5 @@ You can access the nightly builds (least tested but more recent) from "releases"
   
 Download the file with .apk at the end.  If there are multiple files with .apk at the end, download the one without "variant" included in the name.  
   
-[Download & Installation](./Installation_page.md)  
-  
+#### [Updates](./Updates)
+#### [Release Notes](./ReleaseNotes)
