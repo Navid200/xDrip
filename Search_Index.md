@@ -24,7 +24,8 @@ You can use your browser's search function on this page to find an item you may 
   
 #### **[Backup](./docs/Backup)**
 #### [Backup database](./docs/Backup-Database)  
-#### [Bluejay](./docs/Bluejay_page)  
+#### [Bluejay](./docs/Bluejay_page)
+#### [Google Backup](./docs/GoogleCloud)
 #### [Phone as a Bluejay follower](./docs/Follow_Bluejay)  
 <br/>  
   
