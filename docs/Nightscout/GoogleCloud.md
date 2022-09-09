@@ -16,7 +16,10 @@ Whether this will be 100% free or not is still not known.  We will know in a mon
 If you want a tested and proven method to switch to once, and be done with it, please be patient and don't try this yet.  We still have lots of time and there is no rush.  
   
   
-You will need a credit card to set up billing.  The hope is that this will be free.  But, we are still testing to confirm that it will be free.  Regardless, a credit card is required.  Unfortunately, you will not qualify if you are in Australia or China.  But, hopefully, other free options will apply to you.  
+You will need a credit card to set up billing.  The hope is that this will be free.  But, we are still testing to confirm that it will be free.  Regardless, a credit card is required.  
+Unfortunately, you will not qualify for Free Tier  if you are in Australia or China.  This is based on the following note:  
+![](./images/Sustralia.png)  
+But, hopefully, other free options will apply to you.  
   
 The screenshots have been created from a computer.  It may be difficult to follow on a mobile device.  
 It will take a while (about 90 minutes) to go through the entire setup.  There are suggested break periods.  
