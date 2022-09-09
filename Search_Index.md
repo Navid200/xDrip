@@ -113,6 +113,7 @@ You can use your browser's search function on this page to find an item you may 
 <br/>  
   
 #### **Google**
+#### [Google Cloud Backup](./docs/GoogleCloud)
 #### [Google Play Services is not installed](./docs/GooglePlayServices_NotInstalled)  
 #### [xDrip is not in Google Play Store ...](./docs/App-store)  
 <br/>  
