@@ -22,7 +22,7 @@ You can use your browser's search function on this page to find an item you may 
 #### [Bluetooth headphone interruption](./docs/Bluetooth-headphone-interruption)  
 <br/>  
   
-#### **Backup**
+#### **[Backup](./docs/Backup)**
 #### [Backup database](./docs/Backup-Database)  
 #### [Bluejay](./docs/Bluejay_page)  
 #### [Phone as a Bluejay follower](./docs/Follow_Bluejay)  
