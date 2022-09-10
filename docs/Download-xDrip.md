@@ -13,3 +13,4 @@ Download the file with .apk at the end.  If there are multiple files with .apk a
   
 #### [Updates](./Updates)
 #### [Release Notes](./ReleaseNotes)
+#### [xDrip is not in Google Play Store ...](./App-store)
