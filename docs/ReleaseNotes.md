@@ -1,5 +1,5 @@
 ## Release Notes  
-[xDrip](../README.md) >> [Download & Installation](./Installation_page.md) >> [Release Notes](./ReleaseNotes.md)  
+[xDrip](../README.md) >> [Download & Installation](./Installation_page) >> [Release Notes](./ReleaseNotes)  
   
 Major releases are identified here with brief descriptions.  
   
