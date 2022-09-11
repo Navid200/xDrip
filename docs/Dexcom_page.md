@@ -1,43 +1,43 @@
 # xDrip and Dexcom  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md)  
+[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip & Dexcom](./Dexcom_page)  
   
 If you use xDrip with a Dexcom G5 or G6 transmitter, this page contains information that may help you.    
 
-#### [Dexcom basics](./Dexcom-Basics.md)  
-#### [G5 recommended settings](./G5-Recommended-Settings.md)  
-#### [G6 recommended settings](./G6-Recommended-Settings.md)  
-#### [Start G6](./Starting-G6.md)  
+#### [Dexcom basics](./Dexcom-Basics)
+#### [G5 recommended settings](./G5-Recommended-Settings)
+#### [G6 recommended settings](./G6-Recommended-Settings)
+#### [Start G6](./Starting-G6)
+#### [Dexcom One](./Dexcom-One)
 <br/>  
   
-#### [What not to do!](./What-not-to-do.md)  
+#### [Proper Connectivity](./Proper-connectivity)
+#### [Session in progress](./Session-in-progress)
+#### [Can xDrip coexist with t:slim or receiver?](./Receiver-or-t:slim-and-xDrip)
+#### [Both xDrip and Dexcom app](./xDrip-and-Dexcom-app)
+#### [Troubleshooting](./Connectivity-troubleshoot)
+#### [Intermittent Connectivity](./Intermittent)
+<br/>  
+
+#### [What not to do!](./What-not-to-do)
 <br/>  
   
-#### [Proper Connectivity](./Proper-connectivity.md)  
-#### [Troubleshooting](./Connectivity-troubleshoot.md)  
-#### [Intermittent Connectivity](./Intermittent.md)  
+#### [Native algorithm - mode](./Native-Algorithm)
+#### [Preemptive Restart](./Preemptive-Restart)
+#### [Hard reset](./Hard-Reset)
+#### [Transmitter Queue](./Transmitter-Queue)
+#### [Clear the queue](./Clear-queue)
+#### [How to trigger a pair request](./MissedPairRequest)
+#### [Restart G5](./Restart-G5-sensor)
+#### [Transmitter Lifetime](./Transmitter-lifetime)
+#### [G6 Transmitter Warranty](./G6_Warranty)
+#### [G6 Slot Number](./G6_slot)
 <br/>  
   
-#### [Native algorithm - mode](./Native-Algorithm.md)  
-#### [Preemptive Restart](./Preemptive-Restart.md)  
-#### [Hard reset](./Hard-Reset.md)  
-#### [Transmitter Queue](./Transmitter-Queue.md)  
-#### [Clear the queue](./Clear-queue.md)  
-#### [How to trigger a pair request](./MissedPairRequest.md)  
-#### [Restart G5](./Restart-G5-sensor.md)  
-#### [Dexcom One](./Dexcom-One.md)  
-#### [Transmitter Lifetime](./Transmitter-lifetime.md)  
-#### [G6 Transmitter Warranty](./G6_Warranty.md)  
-#### [G6 Slot Number](./G6_slot.md)  
-<br/>  
-  
-#### [Session in progress](./Session-in-progress.md)  
-#### [Calibrate G6](./Calibrate-G6.md)  
-#### [Both xDrip and Dexcom app](./xDrip-and-Dexcom-app.md)  
-#### [Can xDrip coexist with t:slim or receiver?](./Receiver-or-t:slim-and-xDrip.md)  
-#### [How strong is the transmitter signal?](./Bluetooth-Scanner.md)  
-#### [How good is the battery?](./Battery-condition.md)  
-#### [Please report unknown firmware!](./Report-firmware.md)  
-#### [Restart G6](./Restart-G6-sensor.md)  
-#### [Remove a G6 transmitter from sensor](./Remove-transmitter.md)  
-#### [Calibrate G6 after a restart](./Calibrate-after-G6Restart.md)  
-#### [Petroleum jelly on the transmitter contacts](./Dielectric-Grease-in-Dexcom-G6-Sensor.md)  
+#### [Calibrate G6](./Calibrate-G6)
+#### [How strong is the transmitter signal?](./Bluetooth-Scanner)
+#### [How good is the battery?](./Battery-condition)
+#### [Please report unknown firmware!](./Report-firmware)
+#### [Restart G6](./Restart-G6-sensor)
+#### [Remove a G6 transmitter from sensor](./Remove-transmitter)
+#### [Calibrate G6 after a restart](./Calibrate-after-G6Restart)
+#### [Petroleum jelly on the transmitter contacts](./Dielectric-Grease-in-Dexcom-G6-Sensor)
