@@ -47,3 +47,5 @@ You may need to restart.  Now, you will be notified when there is a new release 
 Even if you don't want to use the automatic update check feature, you should choose the update channel you prefer.  
 When you tap on the top right menu button on the main screen and tap on "Check for updated version", xDrip checks your selected channel only.  
 ![](./images/CheckFor Update.png)  
+
+#### [Why nothing happens when I check for updates?](./NoUpdate)
