@@ -7,4 +7,5 @@
 #### [Connect the dots!](../Connect-the-dots)
 #### [Extra Status Line](../Extra-status-line)
 #### [Graph smoothing](../Display/GraphSmoothing)
+#### [Screensaver](../../Screensaver)
   
