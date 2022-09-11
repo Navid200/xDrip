@@ -1,5 +1,5 @@
-## xDrip Alert makes no sound  
-August 17, 2022  
+## xDrip Alert makes no sound
+[xDrip](../README.md) >> [Features](./Features_page) >> [Alerts](./Alerts_page) >> [Alert makes no sound](./Silent-alert)  
   
 Different factors could result in an alert not making any sound.  The following is a list of such combinations.
 
