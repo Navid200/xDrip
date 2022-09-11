@@ -19,7 +19,6 @@ If you want a tested and proven method to switch to once, and be done with it, p
 You will need a credit card to set up billing.  The hope is that this will be free.  But, we are still testing to confirm that it will be free.  Regardless, a credit card is required.  
 If you have a follower who is in Australia or China, the data traffic from your server to them will not qualify for Free Tier.  This is based on the following note:  
 ![](./images/Australia.png)  
-But, hopefully, other free options will apply to you.  
 I hope to add more detail here quantifying what the cost will be.  
   
 The screenshots have been created from a computer.  It may be difficult to follow on a mobile device.  
