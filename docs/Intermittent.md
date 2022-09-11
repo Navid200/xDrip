@@ -11,5 +11,5 @@ It is hard to provide instructions for all available brands and models of handse
 2. Start from the recommended settings:  
 [G5](./G5-Recommended-Settings.md)  
 [G6](./G6-Recommended-Settings.md)    
-3. Disable any battery optimization/adaptation settings you can find under Android Settings -> Battery.  
+3. Disable any battery optimization/adaptation settings you can find under Android Settings &#8722;> Battery.  
 4. If the problem persists, please update to the Nightly release: [https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.09)  
