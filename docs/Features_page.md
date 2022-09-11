@@ -22,4 +22,3 @@
 #### [Stop xDrip - disable collection](./Stop-xDrip)
 #### [Reminders](./Reminders)
 #### [Data tables](./Datatables)
-#### [Automatic Calibration](./AutoCal)
