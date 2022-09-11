@@ -35,3 +35,8 @@ Avoid calibrating when the glucose is changing rapidly.  Ideally, you should onl
 ### How to calibrate  
 You can calibrate by selecting "Add Calibration" from the top left menu.  
 ![](./images/HowtoCalibrate.png)  
+  
+---  
+  
+#### [Automatic Calibration](./AutoCal)
+  
