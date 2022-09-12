@@ -199,7 +199,7 @@ Click on "Admin Tools".
 Click on "Add new Subject".  
 ![](./images/Tokens.png)  
 In the form that opens, enter a name.  under "Roles", copy roles from the table below it.  For example, for a follower that is only supposed to see readings and nothing else, only enter "readable".  You can enter a combination of different roles by separating them with ",".  
-You can add an optional comment and save.  
+You can add an optional comment and save.  Take note of the access token.  
   
 In the xDrip follower, choose "Nightscout Follower" as the hardware data source.  
 Under "Nightscout Follow URL", enter Token@UserID.ddns.net assuming "Token" is the token from the previous step, UserID is your noip.com user ID, and ddns.net is the host you chose for your noip.com.  
