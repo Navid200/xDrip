@@ -195,6 +195,7 @@ That's it.  Your xDrip readings should now upload to your Nightscout on Google C
 Use a web browser to access Nightscout and authenticate again.  See "Setting up Nightscout" above.  
 Click on the top right menu button.  
 ![](./images/AdminTools.png)  
+  
 Click on "Admin Tools".  
 Click on "Add new Subject".  
 ![](./images/Tokens.png)  
