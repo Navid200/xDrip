@@ -194,3 +194,8 @@ That's it.  Your xDrip readings should now upload to your Nightscout on Google C
 Use a web browser to access Nightscout and authenticate again.  See "Setting up Nightscout" above.  
 Click on the top right menu button.  
 ![](./images/AdminTools.png)  
+Click on "Admin Tools".  
+Click on "Add new Subject".  
+![](./Tokens.png)  
+In the form that opens, enter a name.  under "Roles", copy roles from the table below it.  For example, for a follower that is only supposed to see readings and nothing else, only enter "readable".  You can enter a combination of different roles by separating them with ",".  
+You can add an optional comment and save.
