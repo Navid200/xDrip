@@ -37,7 +37,6 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1483](https://github.com/NightscoutFoundation/xDrip/issues/1483) | Include High and Low levels on the statistics page | | | 2020.10.22 |  
 | [1503](https://github.com/NightscoutFoundation/xDrip/issues/1503) | Android 11 notification channel settings missing | | 11 | 2020.11.11 |  
 | [1521](https://github.com/NightscoutFoundation/xDrip/issues/1521) | GlucoMen Day support | | | 2020.11.23 |  
-| [1537](https://github.com/NightscoutFoundation/xDrip/issues/1537) | Readings off the 5-minute grid | Dexcom | | 2020.12.04 |  
 | [1597](https://github.com/NightscoutFoundation/xDrip/issues/1597) | Libre 2 raw data sync | | | 2021.01.08|  
 | [1617](https://github.com/NightscoutFoundation/xDrip/issues/1617) | Graph disappearing for L2 | L2 | | 2021.01.19 |  
 | [1643](https://github.com/NightscoutFoundation/xDrip/issues/1643) | Allow linking more than one Bluetooth meter at a time | | | 2021.02.15 |  
