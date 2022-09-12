@@ -56,3 +56,4 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1889](https://github.com/NightscoutFoundation/xDrip/issues/1889) | Medtrum A8 (nano) | | | 2021.12.08 |  
 | [1891](https://github.com/NightscoutFoundation/xDrip/issues/1891) | Number Wall on Lock Screen causing other apps to restart | | | 2021.12.12 |  
 | [1898](https://github.com/NightscoutFoundation/xDrip/issues/1898) | Requests for support: Insulin profiles | | | Consolidated |  
+| [2122](https://github.com/NightscoutFoundation/xDrip/issues/2122) | Allow Missed Readings Alert to use Volume Profiles | | | 2022.05.12 |  
