@@ -209,3 +209,23 @@ You can create multiple tokens with specific permissions for each.
   
 In the xDrip follower, choose "Nightscout Follower" as the hardware data source.  
 Under "Nightscout Follow URL", enter Token@UserID.ddns.net assuming "Token" is the token from the previous step, UserID is your noip.com user ID, and ddns.net is the host you chose for your noip.com.  
+<br/>  
+<br/>  
+  
+---  
+  
+**Editing Nightscout variables**  
+  
+If you need to edit your Nightscout variables, Go to the dashboard.  
+Go to compute engine.  
+Click on "SSH" in the line corresponding to your Nightscout engine.  
+That will open the terminal. Wait for the terminal to come up.  
+In it, type nano /etc/nsconfig.  
+This will edit, using nano, the file containing the variables.  
+  
+After you are done editing the file, you will need to reboot the virtual machine. To do that, type sudo reboot.  
+Rebooting the machine will disconnect you and you will see an error message in the terminal. Just close the terminal.  
+If you haven't done anything destructive, your Nightscout will keep going.  
+  
+If anything breaks, you can re-run installation.    
+  
