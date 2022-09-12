@@ -189,6 +189,7 @@ https://API-Secret@userID.ddns.net/api/v1/
   
 That's it.  Your xDrip readings should now upload to your Nightscout on Google Cloud.  
 <br/>  
+<br/>  
   
 ---  
   
