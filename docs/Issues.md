@@ -53,7 +53,6 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1813](https://github.com/NightscoutFoundation/xDrip/issues/1813) | Motion tracking fails and is disabled | | | 2021.08.16 |  
 | [1864](https://github.com/NightscoutFoundation/xDrip/issues/1864) | Option to save Logs | | | 2021.10.29 |  
 | [1872](https://github.com/NightscoutFoundation/xDrip/issues/1872) | Requests for support: Watches | | | Consolidated |  
-| [1878](https://github.com/NightscoutFoundation/xDrip/issues/1878) | 0.05 insulin resolution | | | 2021.11.18 |  
 | [1889](https://github.com/NightscoutFoundation/xDrip/issues/1889) | Medtrum A8 (nano) | | | 2021.12.08 |  
 | [1891](https://github.com/NightscoutFoundation/xDrip/issues/1891) | Number Wall on Lock Screen causing other apps to restart | | | 2021.12.12 |  
 | [1898](https://github.com/NightscoutFoundation/xDrip/issues/1898) | Requests for support: Insulin profiles | | | Consolidated |  
