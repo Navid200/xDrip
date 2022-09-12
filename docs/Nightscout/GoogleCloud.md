@@ -190,6 +190,8 @@ https://API-Secret@userID.ddns.net/api/v1/
 That's it.  Your xDrip readings should now upload to your Nightscout on Google Cloud.  
 <br/>  
   
+---  
+  
 **Setting up Nightscout tokens for your followers**    
   
 Use a web browser to access Nightscout and authenticate again.  See "Setting up Nightscout" above.  
