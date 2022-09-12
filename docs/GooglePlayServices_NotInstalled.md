@@ -1,7 +1,7 @@
-## Google Play Services Not Installed  
+## Google Play Services Not Installed
+[xDrip](../README.md) >> [Troubleshooting](./Troubleshooting_page) >> [Google Play Services Not Installed](./GooglePlayServices_NotInstalled)  
 xDrip without Google Play Services  
   
-August 10, 2022    
   
 Do you see this message in xDrip?  
 ![](./images/GoogPlySrvcs_Not_Installed.png)  
