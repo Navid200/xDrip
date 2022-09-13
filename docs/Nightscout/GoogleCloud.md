@@ -182,9 +182,9 @@ On first time, Nightscout will ask you to set up a profile for sensitivity etc. 
 This is what you need to do in xDrip on your master phone.  
 Go to xDrip Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API).  
 Enable at the top.  
-Let's say the user ID you used to sign up for noip.com is userID.  And let's say you set the API secret, while finalizing the installation es explained in the previous section, to API-Secret.  And let's say you chose ddns.net as the server of noip.com.  
+Let's say the hostname you chose when you signed up for noip.com was hostname.  And let's say you set the API secret, while finalizing the installation es explained in the previous section, to API-Secret.   
 Tap on Base URL.  Enter the following.  
-https://API-Secret@userID.ddns.net/api/v1/  
+https://API-Secret@hostname/api/v1/  
   
 That's it.  Your xDrip readings should now upload to your Nightscout on Google Cloud.  
 <br/>  
@@ -207,7 +207,7 @@ You can add an optional comment and save.  Take note of the access token.
 You can create multiple tokens with specific permissions for each.    
   
 In the xDrip follower, choose "Nightscout Follower" as the hardware data source.  
-Under "Nightscout Follow URL", enter Token@UserID.ddns.net assuming "Token" is the token from the previous step, UserID is your noip.com user ID, and ddns.net is the host you chose for your noip.com.  
+Under "Nightscout Follow URL", enter Token@hostname assuming "Token" is the token from the previous step, and hostname is your noip.com hostname.  
 <br/>  
 <br/>  
   
