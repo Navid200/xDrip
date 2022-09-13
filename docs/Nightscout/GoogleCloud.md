@@ -219,7 +219,7 @@ If you need to edit your Nightscout variables, Go to the dashboard.
 Go to compute engine.  
 Click on "SSH" in the line corresponding to your Nightscout engine.  
 That will open the terminal. Wait for the terminal to come up.  
-In it, type nano /etc/nsconfig.  
+In it, type sudo nano /etc/nsconfig.  
 This will edit, using nano, the file containing the variables.  
   
 After you are done editing the file, you will need to reboot the virtual machine. To do that, type sudo reboot.  
