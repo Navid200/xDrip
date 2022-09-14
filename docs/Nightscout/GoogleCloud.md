@@ -15,10 +15,9 @@ Thanks to jamorham, the current xDrip head developer, for the idea, putting it t
 [Linux/Nightscout install](#linuxnightscout-install)  
 [Finalize Linux install](#finalize-linux-install)  
 [Setting up Nightscout](#setting-up-nightscout)  
-[Setting up xDrip to upload to your Nightscout]  
-[Setting up Nightscout tokens for your followers]  
+[Setting up xDrip to upload to your Nightscout](#setting-up-xdrip-to-upload-to-your-nightscout)  
+[Setting up Nightscout tokens for your followers](#setting-up-nightscout-tokens-for-your-followers)  
   
-<br/>  
 <br/>  
   
 ---
