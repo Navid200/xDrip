@@ -24,7 +24,7 @@ It will take a while (about 90 minutes) to go through the entire setup.  There a
   
 ---  
   
-#### noip.com sign-up  
+#### **noip.com sign-up**  
   
 Go to [https://www.noip.com](https://www.noip.com).  
 ![](./images/noip.png)  
