@@ -14,7 +14,7 @@ Thanks to jamorham, the current xDrip head developer, for the idea, putting it t
 [Free Tier virtual machine](#free-tier-virtual-machine)  
 [Linux/Nightscout install](#linuxnightscout-install)  
 [Finalize Linux install](#finalize-linux-install)  
-[Setting up Nightscout]  
+[Setting up Nightscout](#setting-up-nightscout)  
 [Setting up xDrip to upload to your Nightscout]  
 [Setting up Nightscout tokens for your followers]  
   
@@ -184,6 +184,10 @@ Enter a password and take note.
 When you see the following, the install is complete and you can close the terminal by clicking on X at the top right corner of the terminal.  
 ![](./images/TermEnd.png)  
 <br/>  
+<br/>  
+  
+---  
+  
   
 #### **Setting up Nightscout**
     
@@ -191,6 +195,9 @@ Use a web browser and enter your hostname (from when you registered for noip.com
 Check "Remember this device" checkbox to avoid having to re-enter it.  
 On first time, Nightscout will ask you to set up a profile for sensitivity etc.  Either enter real values or just click save and then use close button on top right of the screen.  You may need to do this twice.  
 <br/>  
+<br/>  
+  
+---  
   
 #### **Setting up xDrip to upload to your Nightscout**
   
