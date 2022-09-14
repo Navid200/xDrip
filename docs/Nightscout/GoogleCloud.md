@@ -5,7 +5,10 @@
 Thanks to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, and testing everything.  
 <br/>  
   
-**Who should and who shouldn't try this**  
+---
+  
+#### **Who should and who shouldn't try this**
+  
 If you are confident with tech and have time and are interested, you can try this.  Please provide feedback.  
 If you already have a working Nightscout on Heroku, there is no rush to switch to this now.  One of the subjects that will be added to this guide, after tested, will explain how to transfer a database from Heroku (Atlas) to this Google Cloud database.  
 Whether this will be 100% free or not is still not known.  We will know in a month from now.  
@@ -24,7 +27,7 @@ It will take a while (about 90 minutes) to go through the entire setup.  There a
   
 ---  
   
-#### **noip.com sign-up**  
+#### **noip.com sign-up**
   
 Go to [https://www.noip.com](https://www.noip.com).  
 ![](./images/noip.png)  
@@ -42,12 +45,12 @@ Wait for the email and "Confirm Account" before you proceed.  This is a good tim
   
 ---  
   
-**Google account**  
+#### **Google account**
   
 You need a Google account to proceed.  Create one if you don't have one.  
 <br/>  
   
-**Google Cloud project**  
+#### **Google Cloud project**
   
 Go to  [https://console.cloud.google.com](https://console.cloud.google.com) and log in with your Google account.  
 ![](./images/GoogleCloud.png)  
@@ -84,7 +87,7 @@ Enter billing details.  Select "Start free trial".  This is a good time for a br
   
 ---  
   
-**Free Tier virtual machine**  
+#### **Free Tier virtual machine**
   
 You can have a look at the following, the [Google Cloud Free Program features, "Free Tier" section](https://cloud.google.com/free/docs/free-cloud-features#free-tier).  You will be setting up a virtual machine next.  You will need to carefully select settings that qualify for the free tier category.  
 The following snapshots show the current (September 4, 2022) limitations.  
@@ -129,7 +132,7 @@ You can take a break now.
   
 ---  
   
-**Linux/Nightscout install**  
+#### **Linux/Nightscout install**
   
 After the external IP address column is populated, click on "SSH" on the right side of the IP address.  A terminal will appear shortly.  
 ![](./images/Terminal1.png)  
@@ -144,7 +147,7 @@ This is a good time for a break.
   
 ---  
   
-**Finalize Linux install**  
+#### **Finalize Linux install**
   
 If you get an error message that says EINTEGRITY ending with (0 bytes) and it hangs, just press CTRL and C keys at the same time to interrupt.  Then, re-run the curl bootstrap command.  You can use the up arrow on the terminal to go back to the previous command.  
   
@@ -166,14 +169,14 @@ When you see the following, the install is complete and you can close the termin
 ![](./images/TermEnd.png)  
 <br/>  
   
-**Setting up Nightscout**  
+#### **Setting up Nightscout**
     
 Use a web browser and enter your hostname (from when you registered for noip.com).  This will bring up your Nightscout.  It will ask you for a password.  Use the API secret you chose earlier.  
 Check "Remember this device" checkbox to avoid having to re-enter it.  
 On first time, Nightscout will ask you to set up a profile for sensitivity etc.  Either enter real values or just click save and then use close button on top right of the screen.  You may need to do this twice.  
 <br/>  
   
-**Setting up xDrip to upload to your Nightscout**  
+#### **Setting up xDrip to upload to your Nightscout**
   
 This is what you need to do in xDrip on your master phone.  
 Go to xDrip Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API).  
@@ -188,7 +191,7 @@ That's it.  Your xDrip readings should now upload to your Nightscout on Google C
   
 ---  
   
-**Setting up Nightscout tokens for your followers**    
+#### **Setting up Nightscout tokens for your followers**
   
 Use a web browser to access Nightscout and authenticate again.  See "Setting up Nightscout" above.  
 Click on the top right menu button.  
@@ -209,7 +212,7 @@ Under "Nightscout Follow URL", enter Token@hostname assuming "Token" is the toke
   
 ---  
   
-**Editing Nightscout variables**  
+#### **Editing Nightscout variables**
   
 If you need to edit your Nightscout variables, Go to the dashboard.  
 Go to compute engine.  
