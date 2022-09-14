@@ -6,8 +6,8 @@ Thanks to jamorham, the current xDrip head developer, for the idea, putting it t
 <br/>
 <br/>
   
-[Who should and who shouldn't try this](#Who-should-and-who-shouldn't-try-this)  
-[noip.com sign-up](#noip.com-sign-up)  
+[Who should and who shouldn't try this](#Who-should-and-who-shouldnt-try-this)  
+[noip.com sign-up](#noipcom-sign-up)  
   
 ---
   
