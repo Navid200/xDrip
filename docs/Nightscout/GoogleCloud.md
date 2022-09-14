@@ -4,10 +4,6 @@
 **Credit:**  
 Thanks to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, and testing everything.  
 <br/>  
-
-**Upcoming changes:**  
-Disk space change from 10GB to 30GB  
-Script update  
   
 **Who should and who shouldn't try this**  
 If you are confident with tech and have time and are interested, you can try this.  Please provide feedback.  
@@ -28,7 +24,7 @@ It will take a while (about 90 minutes) to go through the entire setup.  There a
   
 ---  
   
-**noip.com sign-up**  
+#### noip.com sign-up  
   
 Go to [https://www.noip.com](https://www.noip.com).  
 ![](./images/noip.png)  
