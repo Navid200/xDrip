@@ -1,5 +1,5 @@
 ## Transmitter Lifetime
-[xDrip](../README.md) >> [Dexcom](./Dexcom_page) >> [Transmitter Lifetime](./Transmitter-lifetime)  
+[xDrip](../README.md) >> [Features](./Features_page) >> [Dexcom](./Dexcom_page) >> [Transmitter Lifetime](./Transmitter-lifetime)  
   Transmitter Days
   
 You can use a G5 as long as it has battery.  This is because you can [hard reset](./Hard-Reset.md) a G5.  
