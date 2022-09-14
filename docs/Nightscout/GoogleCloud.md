@@ -11,7 +11,7 @@ Thanks to jamorham, the current xDrip head developer, for the idea, putting it t
 [Google Account](#google-account)  
 [Google Cloud project](#google-cloud-project)  
 [Free Tier virtual machine](#free-tier-virtual-machine)  
-[Linux/Nightscout install]  
+[Linux/Nightscout install](#linuxnightscout-install)  
 [Finalize Linux install]  
 [Setting up Nightscout]  
 [Setting up xDrip to upload to your Nightscout]  
