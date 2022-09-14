@@ -3,8 +3,10 @@
   
 **Credit:**  
 Thanks to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, and testing everything.  
-<br/>
-<br/>
+<br/>  
+<br/>  
+  
+---  
   
 **Table of Contents**  
 [Who should and who shouldn't try this](#Who-should-and-who-shouldnt-try-this)  
