@@ -6,13 +6,14 @@ Thanks to jamorham, the current xDrip head developer, for the idea, putting it t
 <br/>
 <br/>
   
+**Table of Contents**  
 [Who should and who shouldn't try this](#Who-should-and-who-shouldnt-try-this)  
 [noip.com sign-up](#noipcom-sign-up)  
 [Google Account](#google-account)  
 [Google Cloud project](#google-cloud-project)  
 [Free Tier virtual machine](#free-tier-virtual-machine)  
 [Linux/Nightscout install](#linuxnightscout-install)  
-[Finalize Linux install]  
+[Finalize Linux install](#finalize-linux-install)  
 [Setting up Nightscout]  
 [Setting up xDrip to upload to your Nightscout]  
 [Setting up Nightscout tokens for your followers]  
