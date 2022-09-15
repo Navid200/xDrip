@@ -246,7 +246,7 @@ In the xDrip follower, choose "Nightscout Follower" as the hardware data source.
 Under "Nightscout Follow URL", enter https://Token@hostname assuming Token is the token from the master generated as explained in the previous step, and hostname is your noip.com hostname.  
   
 If it doesn't work, try the following in a browser on the follower phone.  If it doesn't work, the token may be wrong.  
-https://hostname/?token=Token, where hostname is your noip.com hostname and Toek is the token from the master.    
+https://hostname/?token=Token, where hostname is your noip.com hostname and Token is the token from the master.    
 <br/>  
 <br/>  
   
