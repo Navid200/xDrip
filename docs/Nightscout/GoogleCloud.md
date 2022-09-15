@@ -239,6 +239,8 @@ You can create multiple tokens with specific permissions for each.
   
 ---  
   
+#### **Setting up xDrip as a follower**  
+  
 In the xDrip follower, choose "Nightscout Follower" as the hardware data source.  
 Under "Nightscout Follow URL", enter Token@hostname assuming Token is the token from the master generated as explained in the previous step, and hostname is your noip.com hostname.  
 <br/>  
