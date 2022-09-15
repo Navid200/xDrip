@@ -227,7 +227,7 @@ Click on the top right menu button and select "Admin Tools".
   
 Click on "Add new Subject".  
 ![](./images/Tokens.png)  
-In the form that opens, enter a name.  under "Roles", copy roles from the table below it.  For example, for a follower that is only supposed to see readings and nothing else, only enter "readable".  You can enter a combination of different roles by separating them with ",".  
+In the form that opens, enter a name.  under "Roles", copy roles from the table below it.  For example, for a follower that is only supposed to see readings and nothing else, only enter "readable" without quotes.  You can enter a combination of different roles by separating them with ",".  
 You can add an optional comment and save.  Take note of the access token.  
   
 You can create multiple tokens with specific permissions for each.    
