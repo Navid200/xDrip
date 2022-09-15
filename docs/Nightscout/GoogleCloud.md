@@ -227,13 +227,20 @@ Click on the top right menu button and select "Admin Tools".
   
 Click on "Add new Subject".  
 ![](./images/Tokens.png)  
-In the form that opens, enter a name.  under "Roles", copy roles from the table below it.  For example, for a follower that is only supposed to see readings and nothing else, only enter "readable" without quotes.  You can enter a combination of different roles by separating them with ",".  
+In the form that opens, enter a name.  under "Roles", copy roles from the table below it.  For example, for a follower that is only supposed to see readings and nothing else, only enter "readable" without quotes as you can see in the previous image.  You can enter a combination of different roles by separating them with ",".  
 You can add an optional comment and save.  Take note of the access token.  
   
-You can create multiple tokens with specific permissions for each.    
+An example token that can only read is shown below.  
+![](./images/TokenReadable.png)  
+  
+You can create multiple tokens with specific permissions for each.  
+<br/>  
+<br/>  
+  
+---  
   
 In the xDrip follower, choose "Nightscout Follower" as the hardware data source.  
-Under "Nightscout Follow URL", enter Token@hostname assuming "Token" is the token from the previous step, and hostname is your noip.com hostname.  
+Under "Nightscout Follow URL", enter Token@hostname assuming Token is the token from the master generated as explained in the previous step, and hostname is your noip.com hostname.  
 <br/>  
 <br/>  
   
