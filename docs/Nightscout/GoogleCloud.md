@@ -19,6 +19,7 @@ Thanks to jamorham, the current xDrip head developer, for the idea, putting it t
 [Setting up Nightscout](#setting-up-nightscout)  
 [Setting up xDrip to upload to your Nightscout](#setting-up-xdrip-to-upload-to-your-nightscout)  
 [Setting up Nightscout tokens for your followers](#setting-up-nightscout-tokens-for-your-followers)  
+[Setting up xDrip as a follower](#setting-up-xdrip-as-a-follower)  
 [Editing Nightscout variables](#editing-nightscout-variables)  
   
 <br/>  
