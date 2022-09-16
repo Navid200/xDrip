@@ -34,7 +34,7 @@ Edit "Boot Disk" and modify as shown below.  Click on "Select".
 Under firewall, enable both http and https.  
 ![](./images/Firewall2.png)  
   
-Click on "Create" to create the virtual machine.  Google will now bring up your virtual machine.  
+Click on "Create" to create the virtual machine.  Google will now bring up your virtual machine.  Wait for it to come up.  When the external IP column appears, you should be good to go.  
   
 [Delete a VM](./images/DeleteVM.png)  
   
