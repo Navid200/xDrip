@@ -1,5 +1,5 @@
 ## Setting up followers  
-[xDrip](../../README.md) >> [Features](Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./NS_GoogleCloud) >> [Setting up followers](NS_Followers)  
+[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./NS_GoogleCloud) >> [Setting up followers](NS_Followers)  
   
 You can always use a web browser or xDrip to follow and see the readings from your Nightscout site.  
 Using tokens for following is most secure method.  Giving permission to the world to access your sirte is not.  
