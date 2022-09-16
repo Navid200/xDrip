@@ -4,7 +4,7 @@
 If you have logged out, log back into Google and go to [https://console.cloud.google.com](https://console.cloud.google.com).  
 Go to the dashboard (top left menu button &#8722;> Cloud Overview &#8722;> Dahsboard).  Select "Compute Engine" on the left.  
   
-After the external IP address column is populated, click on "SSH" on the right side of the IP address.  A terminal will appear shortly.  
+Click on "SSH" on the right side of the IP address on your Nightscout machine.  A terminal will appear shortly.  
 ![](./images/Terminal1.png)  
 
 Copy and paste the following line into the terminal.  Be very careful not to copy it into any other machine as it will overwrite the contents of the machine.  
