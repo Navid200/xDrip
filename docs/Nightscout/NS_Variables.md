@@ -1,5 +1,5 @@
 ## Nightscout variables  
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./NS_GoogleCloud) >> [Variables](./NS_Variables)  
+[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> [Variables](./NS_Variables)  
   
 If you need to edit your Nightscout variables, Go to the Google Cloud dashboard.  
 Go to compute engine.  
