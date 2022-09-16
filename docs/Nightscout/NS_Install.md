@@ -1,5 +1,5 @@
 ## Linux/Nightscout install  
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./NS_GoogleCloud) >> [Linux/Nightscout install](./NS_Install)  
+[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> [Linux/Nightscout install](./NS_Install)  
   
 If you have logged out, log back into Google and go to [https://console.cloud.google.com](https://console.cloud.google.com).  
 Go to the dashboard (top left menu button &#8722;> Cloud Overview &#8722;> Dahsboard).  Select "Compute Engine" on the left.  
