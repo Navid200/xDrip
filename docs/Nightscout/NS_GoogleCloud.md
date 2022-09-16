@@ -28,7 +28,7 @@ It will take a while (about 90 minutes) to go through the entire setup.
 [Free Tier virtual machine](./NS_FreeTier)  
 [Linux/Nightscout install](./NS_Install)  
 [Setting up Nightscout](./NS_setup)  
-[Setting up xDrip to upload to your Nightscout](#setting-up-xdrip-to-upload-to-your-nightscout)  
 [Setting up Nightscout tokens for your followers](#setting-up-nightscout-tokens-for-your-followers)  
 [Setting up xDrip as a follower](#setting-up-xdrip-as-a-follower)  
-[Editing Nightscout variables](#editing-nightscout-variables)    
+[Editing Nightscout variables](#editing-nightscout-variables)  
+  
