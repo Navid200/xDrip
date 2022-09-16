@@ -29,6 +29,7 @@ It will take a while (about 90 minutes) to go through the entire setup.
 #### [Linux/Nightscout install](./NS_Install)
 #### [Setting up Nightscout](./NS_setup)
 #### [Setting up followers](./NS_Followers)  
-#### []()  
+<br/>  
+  
 #### [Nightscout variables](./NS_Variables)
   
