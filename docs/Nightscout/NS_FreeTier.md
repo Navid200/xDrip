@@ -1,5 +1,5 @@
 ## Free Tier virtual machine  
-[xDrip](../../README.md) >> [xDrip & Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./NS_GoogleCloud) >> [Free Tier virtual machine](./NS_FreeTier)  
+[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./NS_GoogleCloud) >> [Free Tier virtual machine](./NS_FreeTier)  
   
 You can have a look at the following, the [Google Cloud Free Program features, "Free Tier" section](https://cloud.google.com/free/docs/free-cloud-features#free-tier).  You will be setting up a virtual machine next.  You will need to carefully select settings that qualify for the free tier category.  
 The following snapshots show the current (September 4, 2022) limitations.  
@@ -7,7 +7,7 @@ The following snapshots show the current (September 4, 2022) limitations.
 ![](./images/egrerss.png)  
   
 ![](./images/Regions.png)  
-The above three regions are the regions your virtual machine can be in, not where you have to be in.  
+The above three regions are the regions your virtual machine can be in, not where you or your followers have to be in.  
   
 ![](./images/MachineType.png)  
   
