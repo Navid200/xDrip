@@ -23,11 +23,11 @@ The screenshots have been created from a computer.  It may be difficult to follo
 It will take a while (about 90 minutes) to go through the entire setup.  
 <br/>  
   
-[No IP registration](./noip_com)  
-[Google Cloud project](./NS_GCProject)  
-[Free Tier virtual machine](./NS_FreeTier)  
-[Linux/Nightscout install](./NS_Install)  
-[Setting up Nightscout](./NS_setup)  
-[Setting up followers](./NS_Followers)  
-[Nightscout variables](./NS_Variables)  
+#### [No IP registration](./noip_com)
+#### [Google Cloud project](./NS_GCProject)
+#### [Free Tier virtual machine](./NS_FreeTier)
+#### [Linux/Nightscout install](./NS_Install)
+#### [Setting up Nightscout](./NS_setup)
+#### [Setting up followers](./NS_Followers)
+#### [Nightscout variables](./NS_Variables)
   
