@@ -23,7 +23,7 @@ The screenshots have been created from a computer.  It may be difficult to follo
 It will take a while (about 90 minutes) to go through the entire setup.  
 <br/>  
   
-[noip.com sign-up](#noipcom-sign-up)  
+[No IP registration](./noip_com)  
 [Google Account](#google-account)  
 [Google Cloud project](#google-cloud-project)  
 [Free Tier virtual machine](#free-tier-virtual-machine)  
