@@ -1,5 +1,5 @@
 ## No IP registration  
-[xDrip](../../README.md) >> [Features](./Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./NS_GoogleCloud) >> [No IP registration](./noip_com)  
+[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./NS_GoogleCloud) >> [No IP registration](./noip_com)  
   
 You will need an account on noip.  Let's create one if you don't have one already.
   
