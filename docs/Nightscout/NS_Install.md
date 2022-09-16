@@ -13,7 +13,7 @@ If you get an error message that says EINTEGRITY ending with (0 bytes) and it ha
   
 After the installation is completed, you will be asked to login.  
 ![](./images/Terminal.png)  
-To log into the virtual machine, use the email address and password you used to register for noip.com.  
+To log in, use the email address and password you used to register for noip.com.  
   
 Leave the update interval at 30.  
 select N for running command during update.  
