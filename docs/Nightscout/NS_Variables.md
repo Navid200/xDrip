@@ -1,7 +1,16 @@
 ## Nightscout variables  
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./NS_GoogleCloud) >> [Variables](./NS_Variables)  
   
-You can always use a web browser or xDrip to follow and see the readings from your Nightscout site.  
-Using tokens for following is the most secure method.  Giving permission to the world to access your site is not.  
-Also, giving the world permission to access your site may allow crawlers to access it, which will increase traffic.  In order to keep your Nighsctout project in free tier, you need to minimize traffic.  
+If you need to edit your Nightscout variables, Go to the Google Cloud dashboard.  
+Go to compute engine.  
+Click on "SSH" in the line corresponding to your Nightscout engine.  
+That will open the terminal. Wait for the terminal to come up.  
+In it, type sudo nano /etc/nsconfig.  
+This will edit, using nano, the file containing the variables.  
+  
+After you are done editing the file, you will need to reboot the virtual machine. To do that, type sudo reboot.  
+Rebooting the machine will disconnect you and you will see an error message in the terminal. Just close the terminal.  
+If you haven't done anything destructive, your Nightscout will keep going.  
+  
+If anything breaks, you can re-run [installation](./NS_Install).  
   
