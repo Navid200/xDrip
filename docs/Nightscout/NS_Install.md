@@ -7,7 +7,7 @@ Go to the dashboard (top left menu button &#8722;> Cloud Overview &#8722;> Dahsb
 Click on "SSH" on the right side of the IP address on your Nightscout machine.  A terminal will appear shortly.  
 ![](./images/Terminal1.png)  
 
-Copy and paste the following line into the terminal of your Nighscout virtual machine terminal.  
+Copy and paste the following line into the terminal of your Nighscout virtual machine.  
 **Caution:** Be very careful not to copy it into any other computer as it could overwrite the contents of the machine.  
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh \| bash  
    
