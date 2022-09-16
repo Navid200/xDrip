@@ -2,7 +2,7 @@
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./NS_GoogleCloud)  
   
 #### **Credit:**    
-Thanks to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, and testing everything.  
+Thanks to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, testing everything, and providing instructions.  
 <br/>  
   
 We used to set up Nightscout on Heroku for free.  Heroku have decided to end their free offering on November 28, 2022.    
