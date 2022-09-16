@@ -11,7 +11,7 @@ On first time, Nightscout will ask you to set up a profile for sensitivity etc. 
 This is what you need to do in xDrip on your master phone.  
 Go to xDrip Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API).  
 Enable at the top.  
-Let's say the hostname you chose when you signed up for noip.com was hostname.  And let's say you set the API secret, while finalizing the installation as explained in the previous section, to API-Secret.   
+Let's say the hostname you chose when you signed up for noip.com was hostname.  And let's say you set the API secret, while finalizing the Nightscout installation as explained previously, to API-Secret.   
 Tap on Base URL.  Enter the following.  
 https://API-Secret@hostname/api/v1/  
   
