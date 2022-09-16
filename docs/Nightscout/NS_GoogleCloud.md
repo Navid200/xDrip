@@ -1,7 +1,7 @@
 ## Nightscout on Google Cloud  
 [xDrip](../../README.md) >> [xDrip & Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./NS_GoogleCloud)  
   
-#### Credit:    
+#### **Credit:**    
 Thanks to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, and testing everything.  
 <br/>  
   
