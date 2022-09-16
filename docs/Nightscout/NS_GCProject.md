@@ -1,5 +1,5 @@
 ## Google Cloud project  
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./NS_GoogleCloud) >> [Google Cloud project](./NS_GCProject)  
+[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> [Google Cloud project](./NS_GCProject)  
   
 
 You will need a Google account to proceed.  Create one if you don't have one already.  
