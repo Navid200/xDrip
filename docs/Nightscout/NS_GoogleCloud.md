@@ -24,8 +24,7 @@ It will take a while (about 90 minutes) to go through the entire setup.
 <br/>  
   
 [No IP registration](./noip_com)  
-[Google Account](#google-account)  
-[Google Cloud project](#google-cloud-project)  
+[Google Cloud project](./NS_GCProject)  
 [Free Tier virtual machine](#free-tier-virtual-machine)  
 [Linux/Nightscout install](#linuxnightscout-install)  
 [Finalize Linux install](#finalize-linux-install)  
