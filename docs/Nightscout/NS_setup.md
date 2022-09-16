@@ -1,7 +1,7 @@
 ## Setting up Nightscout  
-[xDrip](../../README.md) >> [xDrip & Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./NS_GoogleCloud) >> [Setting up Nightscout](./NS_setup)  
+[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./NS_GoogleCloud) >> [Setting up Nightscout](./NS_setup)  
   
-Use a web browser and enter your hostname (from when you registered for noip.com).  This will bring up your Nightscout.  It will ask you for a password.  Use the API secret you chose earlier.  
+Use a web browser and enter your hostname (from when you [registered](./noip_com) for noip.com).  This will bring up your Nightscout.  It will ask you for a password.  Use the API secret you chose earlier when you [installed](./NS_Install) Nightscout.  
 Check "Remember this device" checkbox to avoid having to re-enter it.  
 On first time, Nightscout will ask you to set up a profile for sensitivity etc.  Either enter real values or just click save and then use close button on top right of the screen.  You may need to do this twice.  
 <br/>  
