@@ -1,5 +1,5 @@
 ## Logs
-August 14, 2022  
+[xDrip](../README.md) >> [Features](./Features_pages) >> [Logs](./Logs)  
 
 To view the logs, tap on the top right menu button (3 dots) and choose "View Events Log".  This will open a new screen titled "Error and Event List".  You can scroll up and down to move through the logs to access older logs.  The newest logs are at the top.  
 
