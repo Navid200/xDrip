@@ -23,6 +23,7 @@ Select "Create Instance".
 ![](./images/CreateInstance.png)  
   
 Set name to "nightscout".  This is not optional.  You must name it "nightscout" without quotes.  
+  
 Set machine type to "e2-micro".  
 Select a region that qualifies for free tier.  
   
