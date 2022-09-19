@@ -1,5 +1,5 @@
-## Battery condition  
-August 23, 3033  
+## Transmitter Battery condition
+[xDrip](../README.md) >> [Features](./Features_page) >> [Dexcom](./Dexcom_page) >> [Transmitter Battery](./Battery-condition)
   
 G6 Battery  
   
