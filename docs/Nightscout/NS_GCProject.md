@@ -2,7 +2,7 @@
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> [Google Cloud project](./NS_GCProject)  
   
 
-You will need a Google account, a Google project, and activated billing for the Google prtoject.  We will take care of all that now.  
+You will need a Google account, a Google project, and activated billing for the Google project.  We will take care of all that now.  
   
 Create a Google account if you don't have one already.  
   
