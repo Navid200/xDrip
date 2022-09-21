@@ -1,6 +1,8 @@
 ## Linux/Nightscout install  
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> [Linux/Nightscout install](./NS_Install)  
   
+Now, we will install Linux, and Nightscout in it.  
+  
 If you have logged out, log back into Google and go to [https://console.cloud.google.com](https://console.cloud.google.com).  
 Go to the dashboard (top left menu button &#8722;> Cloud Overview &#8722;> Dahsboard).  Select "Compute Engine" on the left.  
   
@@ -9,6 +11,7 @@ Click on "SSH" on the right side of the IP address on your Nightscout machine.  
 
 Copy and paste the following line into the terminal of your Nighscout virtual machine.  
 **Caution:** Be very careful not to copy it into any other computer as it could overwrite the contents of the machine.  
+  
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh \| bash  
    
 Enter.  
