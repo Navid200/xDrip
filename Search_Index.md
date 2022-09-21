@@ -61,18 +61,19 @@ You can use your browser's search function on this page to find an item you may 
 <br/>  
   
 #### **Disconnect**
-#### [Proper Connectivity](./docs/Proper-connectivity)  
-#### [Intermittent Connectivity](./docs/Intermittent)  
+#### [Proper Connectivity](./docs/Proper-connectivity)
+#### [Intermittent Connectivity](./docs/Intermittent)
 <br/>  
   
 #### **[Display](./docs/Display/Display)**
-#### [Connect the dots!](./docs/Connect-the-dots)  
-#### [Screensaver (lock screen) while being charged](./docs/Screensaver)  
-#### [Lock Screen](./docs/Lock-screen)  
-#### [Legend](./docs/Legend)  
-#### [Number wall on lock screen does not disable](./docs/NumberWallDisable)  
-#### [Time range](./docs/TimeButtons)  
-#### [Extra Status Line](./docs/Extra-status-line)  
+#### [Connect the dots!](./docs/Connect-the-dots)
+#### [Screensaver (lock screen) while being charged](./docs/Screensaver)
+#### [Lock Screen](./docs/Lock-screen)
+#### [Legend](./docs/Legend)
+#### [Number wall on lock screen does not disable](./docs/NumberWallDisable)
+#### [Time range](./docs/TimeButtons)
+#### [Extra Status Line](./docs/Extra-status-line)
+#### [Trend Arrow](./docs/Display/TrendArrow)
 <br/>  
   
 #### **Download**
