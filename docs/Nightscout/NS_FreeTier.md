@@ -1,7 +1,9 @@
 ## Free Tier virtual machine  
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> [Free Tier virtual machine](./NS_FreeTier)  
   
-You can have a look at the following, the [Google Cloud Free Program features, "Free Tier" section](https://cloud.google.com/free/docs/free-cloud-features#free-tier).  You will be setting up a virtual machine next.  You will need to carefully select settings that qualify for the free tier category.  
+Here, We will understand the limitations and requirements of a free tier machine.   Then, we will create a free virtual machine in your Google project.  
+  
+You can have a look at the following, the [Google Cloud Free Program features, "Free Tier" section](https://cloud.google.com/free/docs/free-cloud-features#free-tier).  You will need to carefully select settings that qualify for the free tier category.  
 The following snapshots show the current (September 4, 2022) limitations.  
   
 ![](./images/egrerss.png)  
@@ -18,6 +20,7 @@ The above three regions are the regions your virtual machine can be in, not wher
 You can use the [calculator](https://cloud.google.com/products/calculator) to confirm the price.  
 ![](./images/Estimate.png)  
   
+Let's create the machine now.    
 Go to dashboard.  Select "Compute Engine".  Select the "VM instances" tab in the left pane if it's not already selected.  
 Select "Create Instance".  
 ![](./images/CreateInstance.png)  
