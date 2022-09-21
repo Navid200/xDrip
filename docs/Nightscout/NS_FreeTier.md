@@ -3,6 +3,7 @@
   
 Here, We will understand the limitations and requirements of a free tier machine.   Then, we will create a free virtual machine in your Google project.  
 <br/>  
+<br/>  
   
 ---  
   
@@ -24,6 +25,7 @@ The above three regions are the regions your virtual machine can be in, not wher
   
 You can use the [calculator](https://cloud.google.com/products/calculator) to confirm the price.  
 ![](./images/Estimate.png)  
+<br/>  
 <br/>  
   
 ---    
