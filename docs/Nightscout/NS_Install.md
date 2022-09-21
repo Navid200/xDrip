@@ -1,7 +1,7 @@
 ## Linux/Nightscout install  
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> [Linux/Nightscout install](./NS_Install)  
   
-Now, we will install Linux, and Nightscout in it.  
+Now, we will install Linux on your virtual machine, and Nightscout in it.  
   
 If you have logged out, log back into Google and go to [https://console.cloud.google.com](https://console.cloud.google.com).  
 Go to the dashboard (top left menu button &#8722;> Cloud Overview &#8722;> Dahsboard).  Select "Compute Engine" on the left.  
