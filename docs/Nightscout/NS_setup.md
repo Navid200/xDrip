@@ -1,7 +1,7 @@
 ## Setting up Nightscout  
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> [Setting up Nightscout](./NS_setup)  
   
-We will now log into our new Nightscout and set it up.    
+We will now log into our new Nightscout, installed on the Google Cloud virtual machine, and set it up.    
   
 Use a web browser and enter your hostname (from when you [registered](./noip_com) for noip.com).  This will bring up your Nightscout.  It will ask you for a password.  Use the API secret you chose earlier when you [installed](./NS_Install) Nightscout.  
 Check "Remember this device" checkbox to avoid having to re-enter it.  
