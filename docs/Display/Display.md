@@ -8,4 +8,5 @@
 #### [Extra Status Line](../Extra-status-line)
 #### [Graph smoothing](../Display/GraphSmoothing)
 #### [Screensaver](../Screensaver)
+#### [Trend Arrow](./TrendArrow)
   
