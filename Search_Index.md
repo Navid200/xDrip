@@ -232,16 +232,19 @@ You can use your browser's search function on this page to find an item you may 
 <br/>  
   
 #### **Transmitter**
-#### [Transmitter Lifetime](./docs/Transmitter-lifetime)  
-#### [How strong is the transmitter signal?](./docs/Bluetooth-Scanner)  
-#### [G6 Transmitter Warranty](./docs/G6_Warranty)  
-#### [G6 Slot Number](./docs/G6_slot)  
-#### [Session in progress](./docs/Session-in-progress)  
-#### [Please report unknown firmware!](./docs/Report-firmware)  
+#### [Transmitter Lifetime](./docs/Transmitter-lifetime)
+#### [How strong is the transmitter signal?](./docs/Bluetooth-Scanner)
+#### [G6 Transmitter Warranty](./docs/G6_Warranty)
+#### [G6 Slot Number](./docs/G6_slot)
+#### [Session in progress](./docs/Session-in-progress)
+#### [Please report unknown firmware!](./docs/Report-firmware)
 <br/>  
   
 #### **Treatment**
 #### [How to delete a treatment](./docs/Delete_Treatment)  
+<br/>  
+  
+#### [Trend Arrow](./docs/Display/TrendArrow)
 <br/>  
   
 #### **Update**
