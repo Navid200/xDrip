@@ -2,7 +2,9 @@
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> [Google Cloud project](./NS_GCProject)  
   
 
-You will need a Google account to proceed.  Create one if you don't have one already.  
+You will need a Google account, a Google project, and activated billing for the Google prtoject.  We will take care of all that now.  
+  
+Create a Google account if you don't have one already.  
   
 Go to  [https://console.cloud.google.com](https://console.cloud.google.com) and log in with your Google account.  
 ![](./images/GoogleCloud.png)  
