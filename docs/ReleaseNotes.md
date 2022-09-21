@@ -5,6 +5,7 @@ Major releases are identified here with brief descriptions.
   
 | Release | Notes |  
 |---------|-------|  
+| [2022.09.21](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.21) | Dex G6 transmitter end of life warning |  
 | [2022.09.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.08b) | Backup to Google Cloud |  
 | [2022.09.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.06) | Unsmoothed graph view does no longer need engineering mode. |  
 | [2022.09.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.02) | Companion hardware data source upper limit raised to 405 mg/dL. |  
