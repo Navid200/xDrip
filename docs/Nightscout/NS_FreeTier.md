@@ -7,6 +7,7 @@ You can have a look at the following, the [Google Cloud Free Program features, "
 The following snapshots show the current (September 4, 2022) limitations.  
   
 ![](./images/egrerss.png)  
+The above constraint relates to where your followers are located.  
   
 ![](./images/Regions.png)  
 The above three regions are the regions your virtual machine can be in, not where you or your followers have to be in.  
