@@ -4,7 +4,6 @@
 After [setting up Nightscout](./NS_setup), you can edit your Nightscout variables if needed.  
   
 To edit your Nightscout variables, open a [terminal](./Terminal).  
-  
 In the terminal, type sudo nano /etc/nsconfig.  
 This will open, using nano, the file containing the variables for edit.  
   
