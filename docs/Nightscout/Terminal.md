@@ -21,5 +21,5 @@ Click on SSH on the line associated with your Nightscout virtual machine.
 Be patient as it may take while for the terminal to come up.  
   
 This is a Linux terminal.  
-When you are done, you can type exit to close the terminal or just click on X at the top right cormer.  
+When you are done, you can type exit to close the terminal or just click on X at the top right corner.  
   
