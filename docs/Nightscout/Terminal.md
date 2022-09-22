@@ -8,3 +8,6 @@ Go to [Google Cloud](https://cloud.google.com/).
 Sign in using your Google account.  
 Click on Console.  
 ![](./images/Console.png)  
+  
+Go to dashboard.  
+![](./images/Dashboard.png)    
