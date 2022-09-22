@@ -15,3 +15,5 @@ Go to dashboard.
 Select "Compute Engine".  
 ![](./images/Dash.png)    
   
+Click on SSH on the line associated with your Nightscout virtual machine.  
+![](./images/SSH.png)  
