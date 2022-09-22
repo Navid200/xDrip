@@ -11,3 +11,7 @@ Click on Console.
   
 Go to dashboard.  
 ![](./images/Dashboard.png)    
+  
+Select "Compute Engine".  
+![](./images/Dash.png)    
+  
