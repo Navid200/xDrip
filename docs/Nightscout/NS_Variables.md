@@ -7,7 +7,7 @@ To edit your Nightscout variables, open a [terminal](./Terminal).
 In the terminal, type sudo nano /etc/nsconfig.  
 This will open, using nano, the file containing the variables for edit.  
   
-After you are done editing the file and save it, you will need to reboot the virtual machine. To do that, type sudo reboot.  
+After you are done editing and saving the file, you will need to reboot the virtual machine. To do that, type sudo reboot.  
 Rebooting the machine will disconnect you and you will see an error message in the terminal. Just close the terminal.  
 If you haven't done anything destructive, your Nightscout will keep going.  
   
