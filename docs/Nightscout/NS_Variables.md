@@ -1,8 +1,9 @@
 ## Nightscout variables  
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> [Variables](./NS_Variables)  
   
-If you need to edit your Nightscout variables, you can after [setting up Nightscout](./NS_setup).  
-Open a [terminal](./Terminal).  
+After [setting up Nightscout](./NS_setup), you can edit your Nightscout variables if needed.  
+  
+To edit your Nightscout variables, open a [terminal](./Terminal).  
   
 In the terminal, type sudo nano /etc/nsconfig.  
 This will open, using nano, the file containing the variables for edit.  
