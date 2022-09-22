@@ -33,6 +33,10 @@ Select 2 to redirect to secure https.
 You will be asked to change the API secret.  This is the password you will login to Nightscout with.  
 Enter a password and take note.  
   
+You will be asked if you want to copy your old Nightscout database from another site.  You can skip this and do it later by just pressing Enter.  
+Otherwise, enter the URL to your original Nightscout site like https://UserID.herokuapp.com.  
+You will be asked if you need to enter a token.  If your Nightscout is open to the world, which is not recommended, you don't need to enter anything.  But, if you use [tokens](./NS_Followers), you can enter a read token.  
+  
 When you see the following, the install is complete and you can close the terminal by clicking on X at the top right corner of the terminal.  
 ![](./images/TermEnd.png)  
   
