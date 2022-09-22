@@ -28,6 +28,7 @@ It will take a while (about 90 minutes) to go through the entire setup.
   
 #### [Nightscout variables](./NS_Variables)
 <br/>  
+  
 ---  
   
 #### [Terminal](./Terminal)
