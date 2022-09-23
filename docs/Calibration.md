@@ -1,5 +1,5 @@
 ## Calibration  
-[xDrip](../README.md) >> [Features](./Features_page) >> [Calibration](./Calibration)  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Calibration](./Calibration.md)  
   
 ### What is Calibration  
 The current continuous glucose monitoring (CGM) technology is limited to measuring glucose in interstitial fluid.  But, the glucose level in blood is not the same as the glucose level in interstitial fluid.  Fortunately, they are correlated.  A formula is used to calculate blood glucose from the measured interstitial fluid glucose.  
