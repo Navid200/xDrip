@@ -18,4 +18,7 @@ Different factors could result in an alert not making any sound.  The following 
 Android Settings &#8722;> Apps & notifications &#8722;> Notifications &#8722;> xDrip+ &#8722;> All xDrip+ notifications  
 Android Settings &#8722;> Apps & notifications &#8722;> Notifications &#8722;> xDrip+ &#8722;> Uncategorized &#8722;> Allow interruptions  
   
+---  
+  
 If an alert doesn't trigger, you cannot expect it to make a sound.  Every alert has some trigger conditions. When an alert triggers, a log is created including the alert title and the time it triggered.  If the alert triggers and you can see the log but cannot hear it, and the above list does not explain the behavior, take a snapshot of the log to include with your request for help.   
+    
