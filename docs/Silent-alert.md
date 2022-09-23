@@ -17,6 +17,7 @@ Different factors could result in an alert not making any sound.  The following 
 6- Android is not set to allow xDrip notifications to make sound.  To remedy this, enable the following two settings.  
 Android Settings &#8722;> Apps & notifications &#8722;> Notifications &#8722;> xDrip+ &#8722;> All xDrip+ notifications  
 Android Settings &#8722;> Apps & notifications &#8722;> Notifications &#8722;> xDrip+ &#8722;> Uncategorized &#8722;> Allow interruptions  
+<br/>  
   
 ---  
   
