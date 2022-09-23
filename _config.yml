@@ -2,5 +2,3 @@ theme: jekyll-theme-midnight
 plugins:
   - jekyll-relative-links
 baseurl: /xDrip
-gems:
-  - jekyll-sitemap
