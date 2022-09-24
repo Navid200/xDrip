@@ -12,4 +12,4 @@ You cannot use both xDrip and the Dexcom app, or the modified Dexcom app, to col
 
 <br/>  
 
-\*    You can use both xDrip and the Dexcom app if only Dexcom app is collecting from the same transmitter.  In that case, you can use xDrip as a follower of the Dexcom app.  
+\*    You can use both xDrip and the Dexcom app if only Dexcom app is collecting from the same transmitter.  In that case, you can use xDrip as a [follower]{./Follow_page} of the Dexcom app.  
