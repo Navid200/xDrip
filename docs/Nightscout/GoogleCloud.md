@@ -11,8 +11,7 @@ We are currently testing this.  We need to confirm that it will be free.  We wil
 If you already have a working Nightscout on Heroku, there is no rush to switch to this now.  
   
 You will need a credit card to set up billing.  The hope is that this will be free.  Regardless, a credit card is required.  
-If you have a follower who is in Australia or China, the data traffic from your server to them will not qualify for Free Tier.  This is based on the following note:  
-![](./images/Australia.png)  
+If you have a follower who is in Australia or China, the data traffic from your server to them will not qualify for Free Tier as you can see in Free Tier details below.  
   
 The screenshots have been created from a computer.  It may be difficult to follow on a mobile device.  
 It will take a while (about 90 minutes) to go through the entire setup.  
