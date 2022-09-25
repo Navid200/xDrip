@@ -27,10 +27,12 @@ It will take a while (about 90 minutes) to go through the entire setup.
 <br/>  
   
 #### [Nightscout variables](./NS_Variables)
-#### [Sync executables](./NS_SyncExecutables)
+#### [Update to latest release](./NS_SyncExecutables)
 #### [Data Transfer](./NS_Transfer)
 <br/>  
   
 ---  
   
 #### [Terminal](./Terminal)
+#### [Swap space increase recommended](./NS_SwapSize)
+  
