@@ -2,7 +2,7 @@
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page) >> [Google Cloud](./GoogleCloud.md) >> [Swap Size](./NS_SwapSize.md)  
   
 If you installed Nightscout on Google Cloud early following our instructions, it's possible that your swap size is 500MB.  
-Since then, we have increase the recommended size to 2GB.  We have also changed the recommended disk space from 10GB to 30GB.  
+Since then, we have increased the recommended size to 2GB.  We have also changed the recommended disk space from 10GB to 30GB.  
 You cannot change the disk size from 120GB to 30GB easily.  The only way you can do that is by stopping your virtual machine, deleting it, and creating a new one.  If you do that, you will lose your database in Nightscout.  Please don't do that before backing up your database.  
 But, you can easily increase the swap space.  This is how you can do that.  
     
