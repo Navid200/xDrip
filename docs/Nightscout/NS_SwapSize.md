@@ -16,5 +16,5 @@ Type sudo fallocate -l 2G /var/SWAP and enter.
 Type sudo chmod 600 /var/SWAP and enter.  
 Type sudo mkswap /var/SWAP and enter.  
 Type swapon /var/SWAP and enter.  
-Type free -h.  It should now show 2GB.  You can now exist the terminal.  
+Type free -h.  It should now show 2GB.  You can now exit the terminal.  
   
