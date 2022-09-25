@@ -6,6 +6,7 @@ If you followed the instructions in the early days to install Nightscout on Goog
   
 Open a [terminal](./Terminal).  
 In the terminal, type and enter:  
+  
 cd /srv/nightcout-vps  
 sudo git pull   
   
