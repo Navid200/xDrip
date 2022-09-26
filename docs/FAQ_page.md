@@ -1,5 +1,5 @@
 # xDrip Frequently Asked Questions  
-[xDrip](../README.md) >> [FAQ](./FAQ_page)  
+[xDrip](../README.md) >> Frequently Asked Questions  
   
 #### [Why is xDrip not in Google Play Store?](./App-store)  
 #### [Which xDrip version do I have?](./xDrip-Version)  
