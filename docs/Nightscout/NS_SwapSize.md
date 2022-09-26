@@ -1,5 +1,5 @@
 ## Swap Size
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page) >> [Google Cloud](./GoogleCloud.md) >> [Swap Size](./NS_SwapSize.md)  
+[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page) >> [Google Cloud](./GoogleCloud.md) >> Swap Size  
   
 If you installed Nightscout on Google Cloud early following our instructions, it's possible that your swap size is 500MB.  
 Since then, we have increased the recommended size to 2GB.  We have also changed the recommended disk space from 10GB to 30GB.  
