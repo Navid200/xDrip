@@ -1,5 +1,5 @@
 ## Automatic Calibration
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Calibration](./Calibration.md) >> [Automatic Calibration](./AutoCal.md)  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Calibration](./Calibration.md) >> Automatic Calibration  
   
 You can enter blood glucose measurements, that you perform using your blood glucose meter, into xDrip to keep records.  
 If you enable automatic calibration, xDrip will monitor readings for several read cycles and if the trend is not rapid, it will use the blood glucose reading for calibration with a time parameter added.  This means the calibration is entered in the past, when the measurement was entered.  
