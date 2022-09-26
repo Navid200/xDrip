@@ -1,5 +1,5 @@
 # Features  
-[xDrip](../README.md) >> [Features](./Features_page)  
+[xDrip](../README.md) >> Features  
   
 ### [Alerts](./Alerts_page)
 ### [Statistics](./Statistics)
@@ -22,3 +22,5 @@
 #### [Stop xDrip - disable collection](./Stop-xDrip)
 #### [Reminders](./Reminders)
 #### [Data tables](./Datatables)
+#### [Engineering mode](./Engineering-Mode.md)
+  
