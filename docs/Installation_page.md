@@ -1,8 +1,7 @@
 # Download & Installation  
-[xDrip](../README.md) >> [Download & Installation](./Installation_page)  
+[xDrip](../README.md) >> Download & Installation  
   
 ![](./images/Install.png)  
-  
   
 #### [Requirements](./Requirements_page)
 #### [Release notes - changelog](ReleaseNotes)
