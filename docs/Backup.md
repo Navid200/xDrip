@@ -1,5 +1,5 @@
 ## Backup
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Backup](./Backup.md)  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> Backup  
   
 You can access backup functions from the top right menu button under "Import /Export featurets".  
 ![](./images/Backup.png)  
