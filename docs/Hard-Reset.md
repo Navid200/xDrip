@@ -1,5 +1,5 @@
 ## Hard Reset  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> [Hard Reset](./Hard-Reset.md)  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Hard Reset  
   
 Please disable [engineering mode](./Engineering-Mode.md).  No need to enable engineering mode in order to perform a hard reset.  
   
@@ -19,14 +19,13 @@ You should also disable the Dexcom app as you cannot link to the same transmitte
 
 Tap on the treatment (dropper) symbol on the main screen.  
 ![](./images/syringe-symbol.png)
-
-
+  
 This opens a form mainly showing a numeric pad. At the bottom right corner, long press on the microphone symbol.  
 ![](./images/treatment-menu.png)
-
-
+  
 A keyboard will appear. Type "Hard Reset Transmitter" without the quotes.  You will see a message confirming the attempt will be made.  
-
+  
 Monitor the system status page. It will take several read cycles (5 minutes each) for the messages in the queue to clear.  
 You may see a message warning that hard reset may have failed.  
 Restart the phone.  
+  
