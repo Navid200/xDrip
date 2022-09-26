@@ -1,4 +1,4 @@
-## Sync Executables
+## Update to latest release
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Sync Executables  
   
 This is how you can update the Nightscout executable files in the root installtion directory.  
