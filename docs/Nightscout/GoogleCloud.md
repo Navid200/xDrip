@@ -24,6 +24,7 @@ It will take a while (about 90 minutes) to complete the entire setup.
 #### [Nightscout variables](./NS_Variables)
 #### [Update to latest release](./NS_SyncExecutables)
 #### [Data Transfer](./NS_Transfer)
+#### [Maintenance](./Maintenance)
 <br/>  
   
 ---  
