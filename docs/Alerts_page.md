@@ -1,5 +1,5 @@
 # xDrip Alerts  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip Alerts](./Alerts_page.md)  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> xDrip Alerts  
   
 ![](./images/Alerts.png)  
   
