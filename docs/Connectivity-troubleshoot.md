@@ -1,5 +1,5 @@
 ## Connectivity troubleshooting
-[xDrip](../README.md) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> [Connectivity troubleshooting](./Connectivity-troubleshoot.md)  
+[xDrip](../README.md) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Connectivity troubleshooting  
   
 Don't randomly tweak the xDrip settings hoping to get it going.  
 Disable [engineering mode](./Engineering-Mode.md).  
