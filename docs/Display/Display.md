@@ -1,5 +1,5 @@
 ## Display  
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Display](./Display)  
+[xDrip](../../README.md) >> [Features](../Features_page) >> Display  
   
 #### [Legend](../Legend)
 #### [Time range](../TimeButtons)
