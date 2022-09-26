@@ -1,5 +1,5 @@
 ## Clear Transmitter Queue  
-[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip & Dexcom](./Dexcom_page) >> [Clear Transmitter Queue](./Clear-queue)  
+[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip & Dexcom](./Dexcom_page) >> Clear Transmitter Queue  
   
 If you have a command in the [queue](./Transmitter-Queue.md) (G5/G6 status page) that should not be there now, you can clear the queue.  
 ![](./images/tx-queue.png)  
