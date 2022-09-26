@@ -1,5 +1,5 @@
 ## Dexcom Basics
-[xDrip](../README.md) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> [Dexcom Basics](./Dexcom-Basics.md)  
+[xDrip](../README.md) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Dexcom Basics  
 
 ### Transmitter Expiry
 When you receive a new transmitter, pay attention to the dates printed on the box. The first date is the date of manufacture. The second date is either a Ship-By or a Use-By Date.  
