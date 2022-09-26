@@ -1,5 +1,5 @@
 ## Download xDrip  
-[xDrip](../README.md) >> [Download & Installation](./Installation_page) >> [Download xDrip](./Download-xDrip)  
+[xDrip](../README.md) >> [Download & Installation](./Installation_page) >> Download xDrip  
   
 You can download the latest stable version under "Latest" from the [GitHub repository](https://github.com/NightscoutFoundation/xDrip/).  
 ![](./images/Releases.png)  
