@@ -1,5 +1,5 @@
 ## Setting up Nightscout  
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> [Setting up Nightscout](./NS_setup)  
+[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Setting up Nightscout  
   
 We will now log into our new Nightscout, installed on the Google Cloud virtual machine, and set it up.    
   
