@@ -1,5 +1,5 @@
 ## Legend  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> [Legend](./Legend.md)  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> Legend  
   
 You can customize some colors at: Settings &#8722;> xDrip+ Display Settings &#8722;> xDrip+ Color Settings  
   
@@ -17,3 +17,4 @@ If you enable G6 prediction (Settings &#8722;> xDrip+ Display Settings &#8722;> 
   
 Enabling Forecast Lows alert will show the extrapolated curve when a low is predicted as shown in the following figure.  
 ![](./images/Legend_predictLow.png)  
+  
