@@ -1,6 +1,6 @@
 # Index
-[xDrip](./README.md) >> [Index](./Search_Index)  
-
+[xDrip](./README.md) >> Index  
+  
 You can use your browser's search function on this page to find an item you may have difficulty finding on the site.  
 <br/>  
   
