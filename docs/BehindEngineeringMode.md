@@ -1,5 +1,5 @@
 ## These functions are behind engineering mode
-[xDrip](../README.md) >> [Features](./Features_page) >> [Engineering mode](./Engineering-Mode.md) >> [Behind eng mode](./BehindEngineeringMode.md)  
+[xDrip](../README.md) >> [Features](./Features_page) >> [Engineering mode](./Engineering-Mode.md) >> Behind eng mode  
   
 1- Ultra sensitive noise  
 2- Append viewholder!  
