@@ -1,5 +1,5 @@
 ## xDrip Sync Follow  
-[xDrip](../README.md) >> [Features](./Features_page) >> [Follow](./Follow_page.md) >> [How to follow with xDrip](./How-to-follow.md) >> [xDrip Sync](./xDripSync.md)  
+[xDrip](../README.md) >> [Features](./Features_page) >> [Follow](./Follow_page.md) >> [How to follow with xDrip](./How-to-follow.md) >> xDrip Sync  
   
 This page explains how to set up xDrip Sync.  
 This is easy to set up. But, it relies on Google.  
@@ -13,11 +13,11 @@ Tap on xDrip plus security key settings only.
 On the follower, tap on Settings &#8722;> Auto configure.  
 Scan the QR code shown on the master screen. This will change all the settings, on the follower, to follow the master.  
 Ensure Settings &#8722;> xDrip+ Sync settings &#8722;> Disable all sync features is disabled on the follower.  
-
+  
 In some cases, the scan does not work. You can manually set up the follower:  
 Under Settings &#8722;> Hardware Data Source, select xDrip+ Sync Follower.  
 Then, go to Settings &#8722;> xDrip+ Sync Settings and tap on "Handset Group Security Sync Key". Make sure the key matches the key on the same page on the master.  
-
+  
 On both master and follower ensure that Settings &#8722;> xDrip+ Sync Settings &#8722;> Disable all sync features is disabled (no check mark beside it).  
 ![](./images/DisableAllSyncFeatures.png)  
   
