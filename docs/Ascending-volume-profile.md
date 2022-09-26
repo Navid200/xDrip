@@ -1,5 +1,5 @@
 ## Ascending Volume Profile  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip Alerts](./Alerts_page.md) >> [Ascending Volume Profile](./Ascending-volume-profile.md)  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip Alerts](./Alerts_page.md) >> Ascending Volume Profile  
   
 Try the ascending volume profile if you haven't already.  
 When the alarm triggers, it starts silent or at low volume depending on the setting.  Then, the alarm plays at 1-minute intervals.  Every time it plays, the volume increases a little bit.  Eventually, it plays it at the max. volume.  
