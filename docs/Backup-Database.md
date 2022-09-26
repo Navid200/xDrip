@@ -1,5 +1,5 @@
 ## Backup database  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Backup](./Backup.md) >> [Backup database](Backup-Database.md)  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Backup](./Backup.md) >> Backup database  
   
 Do you need to uninstall xDrip?  If yes, you should backup the database and settings.  If you don't, you will lose all your blood glucose readings history, your alerts, and login and passwords.  
 There is a limitation though.  You will not be able to import the database.  You can only restore it.  The existing database will be overwritten by the database that is restored.  
