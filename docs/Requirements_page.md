@@ -1,5 +1,5 @@
 # Requirements  
-[xDrip](../README.md) >> Requirements  
+[xDrip](../README.md) >> [Download & Installation](./Installation_page.md) >> Requirements  
   
 xDrip is only a piece of software.  It could malfunction.  
 Even if it does exactly what's intended, it should still not be used as a main controller.  
