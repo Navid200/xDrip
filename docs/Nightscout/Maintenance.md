@@ -6,5 +6,5 @@ Once a month, you will receive an email informing you that your hostname is expi
   
 You need to click on "Confirm Hostname".  That will open a page giving you the option to upgrade or to renew.  
 ![](./images/UpgradeNow.png)  
-Just choose to extend.  There will be no need to log in.  
+Just choose to renew the free hostname.  There will be no need to log in.  
   
