@@ -1,5 +1,5 @@
 # Follow
-[xDrip](../README.md) >> [Features](./Features_page) >> [Follow](./Follow_page)  
+[xDrip](../README.md) >> [Features](./Features_page) >> Follow  
   
 ![](./images/FollowPage.png)  
   
