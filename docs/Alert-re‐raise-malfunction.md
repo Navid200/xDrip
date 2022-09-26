@@ -1,5 +1,5 @@
 ## Alert re-raise malfunction
-[xDrip](../README.md) >> [Troubleshooting](./Troubleshooting_page.md) >> [Alert re-raise malfunction](./Alert-re‐raise-malfunction.md)  
+[xDrip](../README.md) >> [Troubleshooting](./Troubleshooting_page.md) >> Alert re-raise malfunction  
   
 If you are using the [ascending volume profile](./Ascending-volume-profile.md), and you have set re-raise every x minutes, in one of your alerts, to anything other than 1, you may think that xDrip is malfunctioning.  
 
