@@ -1,5 +1,5 @@
 ## Dexcom app to xDrip  
-[xDrip](../README.md) >> [Features](./Features_page) >> [Follow](./Follow_page.md) >> [How to follow with xDrip](./How-to-follow.md) >> [Dexcom app](./DexcomAppxDrip.md)  
+[xDrip](../README.md) >> [Features](./Features_page) >> [Follow](./Follow_page.md) >> [How to follow with xDrip](./How-to-follow.md) >> Dexcom app  
   
 If you have to use the Dexcom app as your collector and want to use xDrip as a follower, if you run both on the same phone, you can use local broadcast to not have to need WiFi or data.  
   
