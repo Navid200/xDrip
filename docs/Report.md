@@ -1,5 +1,5 @@
 ## Report  
-[xDrip](../README.md) >> [Features](./Features_page) >> [Report](./Report)  
+[xDrip](../README.md) >> [Features](./Features_page) >> Report  
   
 In xDrip, tap on Statistics from the top left menu button. You can swipe left or right to access a total of 3 pages. The first and the last pages are the ones you need for a report.  
 At the top, tap on 90D for the past 90 days. Tap on share from the top right menu. Select your email client and email it to yourself. Go to the other page and email that one to yourself as well.  
@@ -17,3 +17,4 @@ You can provide this as your report to your Endocrinologist.
   
 This (with images from xDrip) only works if you have been using xDrip consistently for the past 3 months on the same device.  
 Otherwise, the data in xDrip may not cover all your readings from the past 3 months. In which case, you need to first gather all the data in one database. [Nightscout](./Nightscout.md) is one option.  
+  
