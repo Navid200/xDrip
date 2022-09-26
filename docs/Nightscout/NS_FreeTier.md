@@ -1,5 +1,5 @@
 ## Free Tier virtual machine  
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> [Free Tier virtual machine](./NS_FreeTier)  
+[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Free Tier virtual machine  
   
 Here, We will understand the limitations and requirements of a free tier machine.  Then, we will create a free virtual machine in our [Google project](./NS_GCProject).  
 <br/>  
