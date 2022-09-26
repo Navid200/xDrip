@@ -1,5 +1,5 @@
 ## Maintenance
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> [Maintenance](./Maintenance.md)  
+[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Maintenance  
   
 Once a month, you will receive an email informing you that your hostname is expiring.  
 ![](./images/Expiring.png)  
