@@ -1,5 +1,5 @@
 ## Custom Alert Sound  
-[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip Alerts](./Alerts_page) >> [Custom Alert Sound](./Custom-Alert-Sound)  
+[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip Alerts](./Alerts_page) >> Custom Alert Sound  
   
 The issue described below is now resolved.  As long as you use an xDrip release of September 1, 2022 or newer, you will be able to select a custom sound file regardless of where on your phone the file is located.      
   
