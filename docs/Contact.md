@@ -1,5 +1,5 @@
 ## Contact Us
-[xDrip](../README.md) >> [Contact us](./Contact)  
+[xDrip](../README.md) >> Contact us  
 Contact xDrip    
   
 ### Request for Help  
