@@ -18,7 +18,7 @@ Rebooting the machine will disconnect you and you will see an error message in t
 If you haven't done anything destructive, your Nightscout will keep going.  
   
 If anything breaks, you can re-run [installation](./NS_Install).  
-When you attempt to rerun the install, you will be offered the following teo options:  
+When you attempt to rerun the install, you will be offered the following two options:  
 1- Attempt to reinstall this existing certificate  
 2- Renew & replace the cert (limit ~5 per 7 days)  
   
