@@ -22,7 +22,7 @@ And let's say you set the API secret, while finalizing the Nightscout installati
 If you've forgotten the password, you can see it on the first line of the nsconfig file ([Variables](./NS_Variables)).  
   
 Tap on Base URL.  Enter the following.  
-https://ThisIsMyPassword@justausername.ddns.net/api/v1/  
+https://<span style="color:orange">ThisIsMyPassword</span>@justausername.ddns.net/api/v1/  
   
 That's it.  Your xDrip readings should now upload to your Nightscout on Google Cloud.  
   
