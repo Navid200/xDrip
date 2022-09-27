@@ -8,6 +8,11 @@ In the terminal, type sudo nano /etc/nsconfig.
 This will open, using nano, the file containing the variables for edit.  
 ![](./images/nsconfig.png)  
   
+Let's add a variable to correctly reflect the database capacity.  I have set the disk space to 30GB.  Therefore, I have more than 20GB of space for the database.  
+So, let's set it to 20000, which is reasonably close and leaves some margin.  
+![](./images/dbsize.png)  
+
+  
 After you are done editing and saving the file, you will need to reboot the virtual machine. To do that, type sudo reboot.  
 Rebooting the machine will disconnect you and you will see an error message in the terminal. Just close the terminal.  
 If you haven't done anything destructive, your Nightscout will keep going.  
