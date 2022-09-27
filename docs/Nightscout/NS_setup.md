@@ -18,7 +18,7 @@ Enable at the top.
 
 Let's say the hostname you chose when you signed up for noip.com was justausername.ddns.net.  
 If you've forgotten what it is, you can log into noip.com and go to dashboard.  The hostname is shown on that page under Free Dynamic DNS Hostname.  
-And let's say you set the API secret, while finalizing the Nightscout installation as explained previously, to ThisIsMyPassword.  
+And let's say you set the API secret, while finalizing the Nightscout installation as explained previously, to <span style="color:orange">ThisIsMyPassword</span>.  
 If you've forgotten the password, you can see it on the first line of the nsconfig file ([Variables](./NS_Variables)).  
   
 Tap on Base URL.  Enter the following.  
