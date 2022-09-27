@@ -3,7 +3,9 @@
   
 #### **Credit:**    
 Thanks to jamorham, the current xDrip head developer, for the idea, putting it together, implementing the installer, testing everything, and providing instructions.  
-<br/>    
+<br/>  
+  
+---  
   
 If you already have a working Nightscout on Heroku, there is no rush to switch to this now yet.  
   
