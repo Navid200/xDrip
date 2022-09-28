@@ -1,4 +1,5 @@
-## Restart G5 Sensor  
+## Restart G5 Sensor
+[xDrip](../README.md) >> [Features](./Features_page) >> [Dexcom](./Dexcom_page) >> Restart G5 Sensor  
   
 You should not need to restart a G5 sensor manually.  
 If you use it in non-native mode, the sensor will keep working and will not stop after 7 days.  
