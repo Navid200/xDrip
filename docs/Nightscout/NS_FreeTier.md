@@ -40,10 +40,11 @@ Set name to "nightscout".
   
 Set machine type to "e2-micro".  
 Select a region that qualifies for free tier.  
-  
+Pay attention to the marked settings as they can affect cost and you will not be able to change them later.  
 ![](./images/vm2.png)  
   
 Edit "Boot Disk" and modify as shown below.  Click on "Select".  
+Pay attention to the marked settings as they can affect cost and you will not be able to change them later.  
 ![](./images/Disk2.png)  
   
 Under firewall, enable both http and https.  
