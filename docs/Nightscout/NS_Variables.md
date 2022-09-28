@@ -7,6 +7,8 @@ To edit your Nightscout variables, open a [terminal](./Terminal).
 In the terminal, type sudo nano /etc/nsconfig.  
 This will open, using nano, the file containing the variables for edit.  
 ![](./images/nsconfig.png)  
+To exit, press ctrl and X at the same time.
+To save, press ctrl and O at the same time.  It will offer the same name to save the file.  Press enter to approve.  Or, enter a different name to create a copy.   
   
 Let's add a variable to correctly reflect the database capacity.  I have set the disk space to 30GB.  Therefore, I have more than 20GB of space for the database.  
 So, let's set it to 20000, which is reasonably close and leaves some margin.  
