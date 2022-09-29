@@ -14,6 +14,10 @@ Testing
   
 <span style="background-color: #FFFF00">Marked text</span>  
   
+<mark style="background-color: #FFFF00">Highlighted text</mark>  
+  
+<span style="color:orange">Stable</span>  
+  
 ```
 Testing
 ```
