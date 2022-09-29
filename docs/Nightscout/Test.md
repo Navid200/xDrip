@@ -7,17 +7,17 @@ Copy and paste the following line into the terminal of your Nighscout virtual ma
 **Caution:** Be very careful not to copy it into any other computer as it could overwrite the contents of the machine.  
   
 1-    
+curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh \| bash  
+<br/>  
+
+2-  
 <mark>curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>  
 <br/>  
   
-2-    
+3-    
 ```
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash
 ```
-<br/>  
-  
-3-    
-curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh \| bash  
 <br/>  
   
 4-  
@@ -28,8 +28,5 @@ curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.s
 **curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh \| bash**  
 <br/>  
   
-6-  
-This is a test.::  
-    
-     curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh \| bash  
+
   
