@@ -20,4 +20,4 @@ Testing
 <br/>   
 <br/>   
   
-<mark style="background-color: #aFeFef"> curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash </mark>  
+<mark style="background-color: #aFaFef"> curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash </mark>  
