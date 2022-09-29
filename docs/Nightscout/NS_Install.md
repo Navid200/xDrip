@@ -9,12 +9,10 @@ Go to the dashboard (top left menu button &#8722;> Cloud Overview &#8722;> Dahsb
 Click on "SSH" on the right side of the IP address on your Nightscout machine.  A terminal will appear shortly.  
 ![](./images/Terminal1.png)  
 
-Copy and paste the following line into the terminal of your Nighscout virtual machine.  
+Copy and paste the following line into the terminal of your Nighscout virtual machine and enter.  
 **Caution:** Be very careful not to copy it into any other computer as it could overwrite the contents of the machine.  
   
 <mark>curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>  
-   
-Enter.  
   
 It will take 10-15 minutes to complete the installation.  
 If you get an error message that says EINTEGRITY ending with (0 bytes) and it hangs, just press CTRL and C keys at the same time to interrupt.  Then, re-run the curl bootstrap command.  You can use the up arrow on the terminal to go back to the previous command.  
