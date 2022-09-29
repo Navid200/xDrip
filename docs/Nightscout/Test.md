@@ -9,14 +9,15 @@ Copy and paste the following line into the terminal of your Nighscout virtual ma
 1-  
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh \| bash  
 <br/>  
+<br/>  
 
 2-  
 <mark>curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>  
+<br/>  
 <br/>  
   
 3-  
 ```
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash
 ```
-<br/>  
   
