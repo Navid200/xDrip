@@ -12,9 +12,7 @@ Click on "SSH" on the right side of the IP address on your Nightscout machine.  
 Copy and paste the following line into the terminal of your Nighscout virtual machine.  
 **Caution:** Be very careful not to copy it into any other computer as it could overwrite the contents of the machine.  
   
-```
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh \| bash  
-```
    
 Enter.  
   
