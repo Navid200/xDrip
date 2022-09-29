@@ -4,7 +4,7 @@
   
 <mark>curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>  
   
-``curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh \| bash``  
+*curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh \| bash*  
   
 <span style="background-color: #4F4F4F color: #fFfFfF">Marked text</span>   
   
