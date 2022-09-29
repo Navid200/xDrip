@@ -14,7 +14,7 @@ Testing
   
 <span style="background-color: #4F4F4F color: #fFfFfF">Marked text</span>  
   
-<mark style="background-color: #FFFF00">Highlighted text</mark>  
+<mark style="background-color: #3FdFdf">Highlighted text</mark>  
   
 <span style="color:orange">Stable</span>  
   
