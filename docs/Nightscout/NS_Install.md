@@ -13,6 +13,7 @@ Copy and paste the following line into the terminal of your Nighscout virtual ma
 **Caution:** Be very careful not to copy it into any other computer as it could overwrite the contents of the machine.  
   
 <mark>curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>  
+<br/>  
   
 It will take 10-15 minutes to complete the installation.  
 If you get an error message that says EINTEGRITY ending with (0 bytes) and it hangs, just press CTRL and C keys at the same time to interrupt.  Then, re-run the curl bootstrap command.  You can use the up arrow on the terminal to go back to the previous command.  
