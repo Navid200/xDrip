@@ -2,10 +2,6 @@
   
 Test  
   
-#### Header  
-
-#### Header  
-  
 Testing  
 
 **TEsting**  
@@ -14,7 +10,7 @@ Testing
   
 <span style="background-color: #4F4F4F color: #fFfFfF">Marked text</span>  
   
-**<mark style="background-color: #3FeFef">Highlighted text</mark>**  
+<mark style="background-color: #3FeFef">curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>  
   
 <span style="color:orange">Stable</span>  
   
