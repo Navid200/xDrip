@@ -6,7 +6,7 @@ Testing
 
 **TEsting**  
   
-<mark>curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh \| bash</mark>  
+<mark>curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>  
   
 <span style="background-color: #4F4F4F color: #fFfFfF">Marked text</span>   
   
