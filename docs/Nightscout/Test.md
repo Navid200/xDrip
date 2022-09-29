@@ -6,7 +6,7 @@ This is a test for how code will appear.
 Copy and paste the following line into the terminal of your Nighscout virtual machine and enter.  
 **Caution:** Be very careful not to copy it into any other computer as it could overwrite the contents of the machine.  
   
-1-    
+1-  
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh \| bash  
 <br/>  
 
@@ -14,19 +14,9 @@ curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.s
 <mark>curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>  
 <br/>  
   
-3-    
+3-  
 ```
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash
 ```
 <br/>  
-  
-4-  
-*curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh \| bash*  
-<br/>  
-  
-5-  
-**curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh \| bash**  
-<br/>  
-  
-
   
