@@ -32,6 +32,5 @@ It will take a while (about 90 minutes) to complete the entire setup.
 ---  
   
 #### [Terminal](./Terminal)
-#### [Swap space increase recommended](./NS_SwapSize)
 #### [Restart](./Restart)
   
