@@ -20,4 +20,9 @@ curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.s
 ```
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash
 ```
+<br/>  
+<br/>  
+  
+4-  one backtick before and after
+`curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash`  
   
