@@ -32,7 +32,7 @@ Select 2 to redirect to secure https.
 You will be asked to change the API secret.  This is the password you will login to Nightscout with.  
 Enter a password and take note.  
   
-You will be asked if you want to copy your old Nightscout database from another site.  You can skip this and do it later by just pressing Enter.  
+You will be asked if you want to copy your old Nightscout database from another site.  You can skip this and do it later, it could take quite a while depending on how much data you have, by just pressing Enter.  
 Otherwise, enter the URL to your original Nightscout site like https://UserID.herokuapp.com.  
 You will be asked if you need to enter a token.  If your Nightscout is open to the world, which is not recommended, you don't need to enter anything.  But, if you use [tokens](./NS_Followers), you can enter a read token.  
   
