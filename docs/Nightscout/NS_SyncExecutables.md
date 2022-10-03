@@ -5,7 +5,7 @@ This is how you can update the Nightscout executable files in the root installti
 If you followed the instructions in the early days to install Nightscout on Google Cloud, you may not have the latest files.  It's a good idea to follow these instructions to update.  
   
 Open a [terminal](./Terminal).  
-In the terminal, type and enter:  
+In the terminal, type and enter the following in sequence:  
   
 <Mark>cd /srv/nightcout-vps</Mark>  
 <Mark>sudo git pull</Mark>  
