@@ -49,15 +49,16 @@ You can use your browser's search function on this page to find an item you may 
 <br/>  
   
 #### **Data Tables**
-#### [Data tables](./docs/Datatables)  
+#### [Data tables](./docs/Datatables)
 <br/>  
   
 #### **Dexcom**
-#### [xDrip and Dexcom](./docs/Dexcom_page)  
-#### [Dexcom basics](./docs/Dexcom-Basics)  
-#### [Dexcom One](./docs/Dexcom-One)  
-#### [Both xDrip and Dexcom app](./docs/xDrip-and-Dexcom-app)  
-#### [Gel (petroleum jelly) on the transmitter contacts](./docs/Dielectric-Grease-in-Dexcom-G6-Sensor)  
+#### [Dexcom status](./docs/StatusG5G6)
+#### [xDrip and Dexcom](./docs/Dexcom_page)
+#### [Dexcom basics](./docs/Dexcom-Basics)
+#### [Dexcom One](./docs/Dexcom-One)
+#### [Both xDrip and Dexcom app](./docs/xDrip-and-Dexcom-app)
+#### [Gel (petroleum jelly) on the transmitter contacts](./docs/Dielectric-Grease-in-Dexcom-G6-Sensor)
 <br/>  
   
 #### **Disconnect**
