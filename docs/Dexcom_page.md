@@ -10,6 +10,7 @@ If you use xDrip with a Dexcom G5 or G6 transmitter, this page contains informat
 #### [Dexcom One](./Dexcom-One)
 <br/>  
   
+#### [Status](./StatusG5G6)
 #### [Proper Connectivity](./Proper-connectivity)
 #### [Session in progress](./Session-in-progress)
 #### [Can xDrip coexist with t:slim or receiver?](./Receiver-or-t:slim-and-xDrip)
