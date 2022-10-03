@@ -226,7 +226,7 @@ You can use your browser's search function on this page to find an item you may 
 <br/>  
   
 #### **Status**
-#### [Clasic status page](./docs/xDrip-Version.md)
+#### [Classic status page](./docs/xDrip-Version.md)
 #### [G5/G6 status page](./docs/StatusG5G6.md)
 <br/>  
   
