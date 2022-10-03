@@ -52,7 +52,7 @@ You can use your browser's search function on this page to find an item you may 
 #### [Data tables](./docs/Datatables)
 <br/>  
   
-#### **Dexcom**
+#### **[Dexcom](./docs/Dexcom_page.html)**
 #### [Dexcom status](./docs/StatusG5G6)
 #### [xDrip and Dexcom](./docs/Dexcom_page)
 #### [Dexcom basics](./docs/Dexcom-Basics)
