@@ -137,6 +137,8 @@ You can use your browser's search function on this page to find an item you may 
 #### [Legend](./docs/Legend)  
 #### [Where are the Logs?](./docs/Logs)  
 <br/>  
+
+#### [Lock Screen](./docs/Lock-screen)  
   
 #### **Medical**
 #### [No medical decisions](./docs/Medical)  
