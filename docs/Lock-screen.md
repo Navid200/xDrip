@@ -1,4 +1,5 @@
 ## Lock Screen
+[xDrip](../README.md) >> [Display](./Display/Display.md) >> [Lock screen](./Lock-screen.md)  
   
 You can set xDrip to show your blood glucose on screen as well as an image as the lock screen when the phone is not being charged.  
 To do this, go to Settings &#8722;> xDrip+ Display Setting &#8722;> Number Wall on Lock Screen.  
