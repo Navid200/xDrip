@@ -138,7 +138,8 @@ You can use your browser's search function on this page to find an item you may 
 #### [Where are the Logs?](./docs/Logs)  
 <br/>  
 
-#### [Lock Screen](./docs/Lock-screen)  
+#### **[Lock Screen](./docs/Lock-screen)**  
+<br/>  
   
 #### **Medical**
 #### [No medical decisions](./docs/Medical)  
