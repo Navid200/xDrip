@@ -1,7 +1,7 @@
 ## Screensaver
 [xDrip](../README.md) >> [Features](./Features_page) >> [Display](./Display/Display) >> Screensaver  
   
-You can set xDrip as the lockscreen on your phone.  
+You can set xDrip as the screen saver on your phone.  
 Then, when it is being charged, you can see your readings on screen even when the phone is locked.  
 You need to set this in Android, not xDrip itself.  
   
