@@ -4,6 +4,8 @@
 You need to have completed the [installation](./GoogleCloud.md) steps before using this utility.  
 By default, it will install Nightscout from the latest release of the official Nightscout.  
 But, you can also to choose to install from a Github fork.  
+
+[Update] to the latest release.  
   
 Open the [terminal](./Terminal.md)  
 Show scrollbar on your terminal as shown below.    
