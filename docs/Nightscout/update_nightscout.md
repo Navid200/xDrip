@@ -5,7 +5,7 @@ You need to have completed the [installation](./GoogleCloud.md) steps before usi
 By default, it will install the latest release of official Nightscout.  
 But, you can also choose to install from a Github fork.  
 
-[Update] to the latest release.  
+[Update](./NS_SyncExecutables.md) to the latest release.  
   
 Open the [terminal](./Terminal.md)  
 Show scrollbar on your terminal as shown below.    
