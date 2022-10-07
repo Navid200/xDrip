@@ -16,3 +16,7 @@ Show scrollbar on your terminal as shown below.
 Copy and paste the following into the terminal and enter.  
   
 <mark>sudo /srv/nightscout-vps/update_nightscout.sh</mark>  
+  
+In a minute, this window will show.  
+![](./images/Dialog1.png)  
+If nothing shows in the terminal, pay attention to the scrollbar on the side.  
