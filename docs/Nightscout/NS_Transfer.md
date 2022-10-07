@@ -7,7 +7,8 @@ This will overwrite your existing database.
   
 Open a [terminal](./Terminal).  
 Type the following in the terminal and Enter.  
-/srv/nightscout-vps/clone_nightscout.sh  
+  
+<Mark>/srv/nightscout-vps/clone_nightscout.sh</Mark>  
   
 You will be asked for site name.  Enter the URL you use to access the source Nightscout site.  For example, https://UserId.herokuapp.com of Heroku.  
 You will be asked for a read token.  If the source Nightscout is open to the world, not recommended, you can just hit enter.  If it's not, enter a read token.  You can see [here](./NS_Followers) how to create and use tokens.  
