@@ -23,5 +23,5 @@ If nothing shows in the terminal, pay attention to the scrollbar on the side.
 You may need to scroll down in order to see the dialog.  
   
 If you want to update Nightscout, choose Yes.  It will update Nightscout from the official repository.  
-On the other hand, if you want to install Nightscout from a fork, choose no.  
+On the other hand, if you want to install Nightscout from a fork, choose No.  
 If you have changed your mind and want to cancel, press the escape key.  If you don't and proceed, Nightscout will be shut down and will not come up until the process is completed, in about 20 minutes, and you rebbot the virtual machine.  
