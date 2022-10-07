@@ -12,3 +12,7 @@ During the process, which takes 20 minutes, your Nightscout will not be operatio
 Open the [terminal](./Terminal.md)  
 Show scrollbar on your terminal as shown below.    
 ![](./images/Scroll.png)  
+  
+Copy and paste the following into the terminal and enter.  
+  
+<mark>sudo /srv/nightscout-vps/update_nightscout.sh</mark>  
