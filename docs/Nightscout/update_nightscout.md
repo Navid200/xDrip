@@ -41,7 +41,7 @@ Nightscout should be running again now.
   
 ---  
   
-#### Customizations
+#### **Customizations**  
 You can install Nightscout from your fork.  You can customize Nightscout in your fork and use this utility to install it.  
 If you choose No on the first dialog presented to you, after a minute, you will be presented with the following dialog.  
 ![](./images/Dialog2.png)  
