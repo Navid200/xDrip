@@ -29,8 +29,9 @@ If you have changed your mind and want to cancel, press the escape key.  If you 
 If you proceed, you will see progress in the terminal for a while.  Then, you will see no change in the terminal for 20 minutes.  So, you need to be patient.  
 After the process is completed, the prompt will be available again in the terminal.  
   
-Copy and past the following into the terminal and enter.  
+Copy and past the following into the terminal and enter to restart.  
   
 <mark>sudo reboot</mark>  
   
-  
+After reboot, you will need to wait a minute for the machine to come back up.  Then, you can close the terminal and open a new one, or click on retry to reconnect.  
+Nightscout should be running again now.  
