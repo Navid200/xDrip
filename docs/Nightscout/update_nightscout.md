@@ -46,3 +46,10 @@ You can install Nightscout from your fork.  You can customize Nightscout in your
 If you choose No on the first dialog presented to you, after a minute, you will be presented with the following dialog.  
 ![](./images/Dialog2.png)  
   
+Enter the user ID, repository name and branch name to install from.  
+Then, use tab to move the cursor to Submit.  
+  
+After submitting, Nightscout will be installed from the fork you have selected.  
+It will take about 20 minutes.  After completion, you will need to reboot for Nightscout to resume operation.  
+  
+  
