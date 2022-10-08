@@ -28,9 +28,10 @@ On the other hand, if you want to install Nightscout from a fork, choose No.
 If you have changed your mind and want to cancel, press the escape key.  If you don't and proceed, Nightscout will be shut down and will not come up until the process is completed, in about 20 minutes, and you reboot the virtual machine.  
   
 If you proceed, you will see progress in the terminal for a while.  Then, you will see no change in the terminal for 20 minutes.  So, you need to be patient.  
-After the process is completed, the prompt will be available again in the terminal.  
-  
-Copy and past the following into the terminal and enter to restart.  
+You will be presented with a choice to use an existing ceritifcation or to renew it.  Choose 1 to attempt to reinstall the existing certificate.  
+Then, select 2 to redirect to secure https.  
+
+When the prompt becomes available again in the terminal, copy and past the following into the terminal and enter to restart.  
   
 <mark>sudo reboot</mark>  
   
