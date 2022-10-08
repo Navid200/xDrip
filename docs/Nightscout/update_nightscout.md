@@ -36,3 +36,11 @@ Copy and past the following into the terminal and enter to restart.
   
 After reboot, you will need to wait a minute for the machine to come back up.  Then, you can close the terminal and open a new one, or click on retry to reconnect.  
 Nightscout should be running again now.  
+<br/>  
+<br/>  
+  
+#### Customizations
+You can install Nightscout from your fork.  You can customize Nightscout in your fork and use this utility to install it.  
+If you choose No on the first dialog presented to you, after a minute, you will be presented with the following dialog.  
+![](./images/Dialog2.png)  
+  
