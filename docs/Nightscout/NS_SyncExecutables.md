@@ -1,4 +1,4 @@
-## Update command files to latest release
+## Update command files to latest release  
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Update to latest release  
   
 This is how you can update the Nightscout executable files in the root installtion directory.  
