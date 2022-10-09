@@ -5,26 +5,21 @@ You need to have completed the [installation](./GoogleCloud.md) steps before usi
 By default, it will install the latest release of official Nightscout.  
 But, you can also choose to install from a GitHub fork.  
   
-During the process, which takes 20 minutes, your Nightscout will not be operational.  And after the completion, you will need to reboot the virtual machine for Nightscout to resume operation.  
+During the process, which takes 20 minutes, your Nightscout will not be operational.  And after the completion, you will need to reboot the virtual machine for Nightscout to resume operation.  If you need Nightscout for a loop, please create an alternative session and switch to it while updating the other.  
   
 [Update](./NS_SyncExecutables.md) to the latest release.  
   
-Open the [terminal](./Terminal.md)  
-Show scrollbar on your terminal as shown below.    
-![](./images/Scroll.png)  
-  
+Open the [terminal](./Terminal.md)    
 Copy and paste the following into the terminal and enter.  
   
 <mark>sudo /srv/nightscout-vps/update_nightscout.sh</mark>  
   
 In a minute, this window will show.  
 ![](./images/Dialog1.png)  
-If nothing shows in the terminal, pay attention to the scrollbar on the side.  
-You may need to scroll down in order to see the dialog.  
   
 You can use the arrow keys to move the cursor onto Yes or No.    
 If you want to update Nightscout, choose Yes.  It will update Nightscout from the official repository.  
-On the other hand, if you want to install Nightscout from a fork, choose No.  
+On the other hand, if you want to install Nightscout from a fork (Advanced), choose No.  
 If you have changed your mind and want to cancel, press the escape key.  If you don't and proceed, Nightscout will be shut down and will not come up until the process is completed, in about 20 minutes, and you reboot the virtual machine.  
   
 If you proceed, you will see progress in the terminal for a while.  Then, you will see no change in the terminal for 20 minutes.  So, you need to be patient.  
