@@ -7,7 +7,7 @@ If you followed the instructions in the early days to install Nightscout on Goog
 Open a [terminal](./Terminal).  
 In the terminal, type and enter the following in sequence:  
   
-<Mark>cd /srv/nightcout-vps</Mark>  
+<Mark>cd /srv/nightscout-vps</Mark>  
 <Mark>sudo git pull</Mark>  
   
 You will see a report of any files that were updated.  
