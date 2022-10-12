@@ -11,6 +11,7 @@ An archive file, with the name you have chosen, will be created in the current d
   
 You should transfer the backup off the virtual machine.  Otherwise, you will lose it if you delete the machine.  
 To do that, click on download at the top on the terminal.  
+  
 ![](./images/Download.png)  
 Enter a full path to the backup file to download it to the device you are accessing your virtual machine on now.  
   
