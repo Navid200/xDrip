@@ -50,7 +50,13 @@ Pay attention to the marked settings as they can affect cost and you will not be
 Under firewall, enable both http and https.  
 ![](./images/Firewall2.png)  
   
-Click on "Create" to create the virtual machine.  Google will now bring up your virtual machine.  Wait for it to come up.  When the external IP column appears, you should be good to go.  
+Before clicking on create, make sure the conditions listed in the following table are satisfied to ensure you will not be charged.  
+| Parameters | Requirements |  
+|-----------|-------------|  
+| Machine Region    | Oregon, Iowa or South Carolina |  
+| Machine Type | e2-micro |  
+| Disk type    | persistent disk |  
+| Disk size   |  Less than or equal to 30GB |  
   
-[Delete a VM](./images/DeleteVM.png)  
+Click on "Create" to create the virtual machine.  Google will now bring up your virtual machine.  Wait for it to come up.  When the external IP column appears, you should be good to go.  
   
