@@ -7,4 +7,8 @@ Open a [terminal](./Terminal.md).  Copy and paste the following into the termina
   
 <mark>mongodump --archive=backupfile</mark>  
   
+You should transfer the backup off the virtual machine.  Otherwise, you will lose it if you delete the machine.  
+To do that, click on download at the top on the terminal.  
+![](./images/Download.png)  
+  
   
