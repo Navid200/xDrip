@@ -52,7 +52,7 @@ Under firewall, enable both http and https.
   
 Before clicking on create, make sure the conditions listed in the following table are satisfied to ensure you will not be charged.  
 | Parameters | Requirements |  
-|-----------|-------------|  
+| ---------- | ------------ |  
 | Machine Region    | Oregon, Iowa or South Carolina |  
 | Machine Type | e2-micro |  
 | Disk type    | persistent disk |  
