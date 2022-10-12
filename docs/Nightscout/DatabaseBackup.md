@@ -16,3 +16,5 @@ To do that, click on download at the top on the terminal.
 Enter a full path to the backup file and click on "Download" to download it to the device you are accessing your virtual machine on now.  
   
 If the terminal shows a [disconnect](./images/Disconnect.png) error, wait a minute and click on retry to reconnect.  Try again and this time, it will download.  
+  
+You should safekeep the backup.    
