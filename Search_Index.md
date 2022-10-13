@@ -283,3 +283,4 @@ You can use your browser's search function on this page to find an item you may 
 #### [WearOS](./docs/WearOS-Instructions)  
 <br/>  
   
+#### [xDrip Sync](./docs/xDripSync)  
