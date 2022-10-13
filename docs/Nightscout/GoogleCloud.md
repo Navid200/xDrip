@@ -15,8 +15,6 @@ Set this up, and add the link to your xDrip Nightscout upload URL, separated by 
 You will need a credit card to set up billing.  The hope is that this will be free and this guide will be updated as soon as we can confirm in the next few weeks.  Regardless, a credit card is required.  
 If you have a follower who is in Australia or China, the data traffic from your server to them will not qualify for Free Tier as you can see in Free Tier details below.  
   
-**<span style="color:red">Do NOT delete</span>** the virtual machine before [backing up](./DatabaseBackup.md).  
-  
 It will take a while (about 90 minutes) to complete the entire setup.  
 <br/>  
   
@@ -28,7 +26,7 @@ It will take a while (about 90 minutes) to complete the entire setup.
 #### 6- [Setting up followers](./NS_Followers)  
 <br/>  
   
-#### [Backup](./DatabaseBackup.md)
+#### **<span style="color:red">Do NOT delete</span>** the virtual machine unless you [Backup](./DatabaseBackup.md)
 #### [Restore](./DatabaseRestore.md)
 #### [Nightscout variables](./NS_Variables)
 #### [Update command files (not Nightscout itself) to latest release](./NS_SyncExecutables)
