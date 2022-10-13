@@ -1,5 +1,5 @@
 ## Google Drive Backup
-[xDrip](../README.md) >> [Features](./Features_page) >> [Backup](./Backup) >> Google Cloud  
+[xDrip](../README.md) >> [Features](./Features_page) >> [Backup](./Backup) >> Google Drive Backup  
   
 To access the Google Cloud functions, tap on "Import /Export features" from the top right (3-dot) menu button on the main screen.  Then, tap on "Cloud Backup" from the sub-menu.  
 ![](./images/GCloudBackup.png)  
