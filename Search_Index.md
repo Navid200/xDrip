@@ -40,7 +40,7 @@ You can use your browser's search function on this page to find an item you may 
 <br/>  
   
 #### [Companion App](./docs/Follow/CompanionApp.md)  
-  
+<br/>  
   
 #### **Crash**
 #### [xDrip causes other apps to restart](./docs/RestartingApps)  
