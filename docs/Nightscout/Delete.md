@@ -3,6 +3,6 @@
   
 **<span style="color:red">Do NOT</span>** delete the virtual machine!
 Your Nightscout database (all your readings history) is stored on the virtual machine disk.  If you delete the virtual machine, you will lose the database.  
-Only delete the machine if you have backed up the database, or if you are certian you don't need the contnets.  Follow [backup](./DatabaseBackup.md) instructions to create a backup of your database.
+Only delete the machine if you have backed up the database, or if you are certain you don't need the contents.  Follow [backup](./DatabaseBackup.md) instructions to create a backup of your database.
   
   
