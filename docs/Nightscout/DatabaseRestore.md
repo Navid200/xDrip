@@ -7,7 +7,7 @@ Open a [terminal](./Terminal.md).
 Click on upload at the top on the terminal.  
   
 ![](./images/Upload.png)  
-Select the baclup file you created following [these](./DatabaseBackup.md) instructions, and click on "Upload".  
+Click on "Choose Files".  Select the baclup file you created following [these](./DatabaseBackup.md) instructions, and click on "Upload".  
 The file will be uploaded into the virtual machine in the working directory.  
 
 Copy and paste the following into the terminal and enter, where backupfile is the name of the backup file you want to restore.  
