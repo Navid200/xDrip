@@ -17,7 +17,7 @@ Copy and paste the following into the terminal and enter.
 In a minute, the following dialog will show.  
 ![](./images/Dialog1.png)  
   
-You need to use the keyboard, not the mouse.  Use the arrow keys to move the curser and enter to choose.  
+You need to use the keyboard, not the mouse.  Use the arrow keys to move the cursor and enter to choose.  
 If you want to update Nightscout, choose Yes.  It will update Nightscout from the official repository.  
 If you want to install Nightscout from a fork (Advanced), choose No.  
 If you have changed your mind and want to cancel, press the escape key.  If you proceed, Nightscout will stop and will not come back up until the process is completed, in about 25 minutes.  
