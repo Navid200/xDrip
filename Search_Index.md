@@ -43,6 +43,9 @@ You can use your browser's search function on this page to find an item you may 
 #### [xDrip causes other apps to restart](./docs/RestartingApps)  
 <br/>  
   
+#### [Companion App](./docs/Follow/CompanionApp.md)  
+  
+  
 #### **Database**
 #### [Restore database](./docs/Restore-Database)  
 #### [Database restore failure](./docs/Database-restore-failure)  
