@@ -26,6 +26,8 @@ It will take a while (about 90 minutes) to complete the entire setup.
 #### 6- [Setting up followers](./NS_Followers)  
 <br/>  
   
+#### [Backup](./DatabaseBackup.md)
+#### [Restore](./DatabaseRestore.md)
 #### [Nightscout variables](./NS_Variables)
 #### [Update command files (not Nightscout itself) to latest release](./NS_SyncExecutables)
 #### [Data Transfer](./NS_Transfer)
