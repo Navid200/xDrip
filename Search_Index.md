@@ -39,12 +39,12 @@ You can use your browser's search function on this page to find an item you may 
 #### [Calibrate G6 after a restart](./docs/Calibrate-after-G6Restart)  
 <br/>  
   
+#### [Companion App](./docs/Follow/CompanionApp.md)  
+  
+  
 #### **Crash**
 #### [xDrip causes other apps to restart](./docs/RestartingApps)  
 <br/>  
-  
-#### [Companion App](./docs/Follow/CompanionApp.md)  
-  
   
 #### **Database**
 #### [Restore database](./docs/Restore-Database)  
