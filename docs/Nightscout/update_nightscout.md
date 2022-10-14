@@ -1,4 +1,4 @@
-## Update Nightscout
+## Update/Customize Nightscout
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Update  
   
 You need to have completed the [installation](./GoogleCloud.md) steps before using this utility.  
