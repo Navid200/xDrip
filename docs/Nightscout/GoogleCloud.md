@@ -29,6 +29,7 @@ It will take a while (about 90 minutes) to complete the entire setup.
 #### [**<span style="color:red">Backup</span>**](./DatabaseBackup.md) before deleting the virtual machine.
 #### [Restore](./DatabaseRestore.md)
 #### [Nightscout variables](./NS_Variables)
+#### [Update/Customize Nightscout](./update_nightscout.md)
 #### [Update command files (not Nightscout itself) to latest release](./NS_SyncExecutables)
 #### [Data Transfer](./NS_Transfer)
 #### [Maintenance](./Maintenance)
