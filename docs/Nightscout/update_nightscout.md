@@ -12,6 +12,7 @@ During the process, which takes about 25 minutes, your Nightscout will not be op
 Open the [terminal](./Terminal.md)    
 Copy and paste the following into the terminal and enter.  
   
+<mark>sudo chmod 755 /srv/nightscout-vps/update_nightscout.sh</mark>
 <mark>sudo /srv/nightscout-vps/update_nightscout.sh</mark>  
   
 In a minute, the following dialog will show.  
