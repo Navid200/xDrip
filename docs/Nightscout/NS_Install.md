@@ -3,11 +3,7 @@
   
 Now, we will install Linux on our [virtual machine](./NS_FreeTier), and Nightscout in it.  
   
-If you have logged out, log back into Google and go to [https://console.cloud.google.com](https://console.cloud.google.com).  
-Go to the dashboard (top left menu button &#8722;> Cloud Overview &#8722;> Dahsboard).  Select "Compute Engine" on the left.  
-  
-Click on "SSH" on the right side of the IP address on your Nightscout machine.  A terminal will appear shortly.  
-![](./images/Terminal1.png)  
+Open a [terminal](./Terminal.md).  
 
 Copy and paste the following line into the terminal of your Nighscout virtual machine and enter.  
 **Caution:** Be very careful not to copy it into any other computer as it could overwrite the contents of the machine.  
