@@ -5,9 +5,9 @@ You must have mongodb set up on the virtual machine for this to work.  That is t
   
 Open a [terminal](./Terminal.md).  Copy and paste the following into the terminal and enter, where backupfile is the name you choose for the backup.  
   
-<mark>mongodump --archive=backupfile</mark>  
+<mark>mongodump --gzip --archive=backupfile</mark>  
   
-An archive file, with the name you have chosen, will be created in the current directory.  
+A compressed archive file, with the name you have chosen, will be created in the current directory.  
   
 You should transfer the backup off the virtual machine.  Otherwise, you will lose it if you delete the machine.  
 To do that, click on download at the top on the terminal.  
