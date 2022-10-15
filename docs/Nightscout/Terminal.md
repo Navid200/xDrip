@@ -3,8 +3,7 @@
   
 You can access a Linux terminal on your virtual machine if you have [installed Linux](./NS_Install).  
   
-Go to [Google Cloud](https://cloud.google.com/).  
-Sign in using your Google account.  
+If you have logged out, go to [Google Cloud](https://cloud.google.com/) and sign in using your Google account.  
 Click on Console.  
 ![](./images/Console.png)  
   
