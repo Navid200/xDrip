@@ -12,7 +12,7 @@ The file will be uploaded into the virtual machine in the working directory.
 
 Copy and paste the following into the terminal and enter, where backupfile is the name of the backup file you want to restore.  
   
-<mark>mongorestore --archive=backupfile</mark>  
+<mark>mongorestore --gzip --archive=backupfile</mark>  
   
 The backup content will be added to the database.     
   
