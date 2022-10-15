@@ -16,8 +16,7 @@ Select "Compute Engine".
 Click on SSH on the line associated with your Nightscout virtual machine.  
 ![](./images/SSH.png)  
   
-Be patient as it may take while for the terminal to come up.  
-  
-This is a Linux terminal.  
+Be patient as it may take a few seconds for the terminal to come up.  
+    
 When you are done, you can type exit to close the terminal or just click on X at the top right corner.  
   
