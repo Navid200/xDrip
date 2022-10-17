@@ -1,7 +1,7 @@
 ## Follow Libre 3
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [Follow](./Follow_page.md) >> Libre 3  
   
-1- Set up the official ink-up follower app.  
+1- Set up the official link-up follower app.  
 2- Register an email address and password.  
 3- Invite that email from the official Libre app.  
 4- Accept the invitation in the link-up app.  
