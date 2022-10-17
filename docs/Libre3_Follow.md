@@ -1,4 +1,5 @@
-## Follow Libre 3  
+## Follow Libre 3
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Follow](./Follow_page.md) >> Libre 3
 August 24, 2022  
   
 1- Set up the official ink-up follower app.  
