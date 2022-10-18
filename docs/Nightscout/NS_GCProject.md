@@ -6,13 +6,19 @@ You will need a Google account, a Google project, and activated billing for the 
 Create a Google account if you don't have one already.  
   
 Go to  [https://console.cloud.google.com](https://console.cloud.google.com) and log in with your Google account.  
+When you see the welcome messsage, agree and continue.  
+![](./images/GC_Welcome.png)  
+When you see the free trial offer, activate it.  
+![](./images/FreeTrial.png)  
+You will be taken to registration for Google Cloud for free.  Select your country of residence and choose personal project, accept terms, and continue.  
+![](./images/Country.png)  
+On the registration second page, choose individual.  Enter your address.  Enter your credit card details.  Start free trial.  
+  
+You will be asked to decribe yourself.  Answer the questions and click on Done.  
+  
 ![](./images/GoogleCloud.png)  
   
-Create a project.  
-![](./images/NewProject.png)  
-  
-Select your new project.  
-![](./images/SelectProject.png)  
+By default, a new project titled "My First Project" is created for you.  You can use it or create another.  
   
 Go to dashboard.  
 ![](./images/Dashboard.png)  
@@ -23,16 +29,5 @@ Select "Compute Engine".
 Enable.  
 ![](./images/Enable.png)  
 
-Enable billing.  
-![](./images/EnableBilling.png)  
-  
-Go to https://console.cloud.google.com/
-Enable the engine again.  It will ask you to enable billing again.  But, this time, select the billing account you just created.  
-Enable billing for your new project.  
-![](./images/BillingforProject.png)  
-  
-You will be asked to select your country and describe your organization.  Select "Personal project".  
-![](./images/Country.png)  
-  
-Enter billing details.  Select "Start free trial".  
+If you didn't take care of entering your credit card details already, you will be asked for it now.  Enter the details and enable billing.  
   
