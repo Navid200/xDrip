@@ -6,7 +6,7 @@ You will need a Google account, a Google project, and activated billing for the 
 Create a Google account if you don't have one already.  
   
 Go to  [https://console.cloud.google.com](https://console.cloud.google.com) and log in with your Google account.  
-When you see the welcome messsage, agree and continue.  
+When you see the welcome message, agree and continue.  
 ![](./images/GC_Welcome.png)  
 When you see the free trial offer, activate it.  
 ![](./images/FreeTrial.png)  
@@ -14,7 +14,7 @@ You will be taken to registration for Google Cloud for free.  Select your countr
 ![](./images/Country.png)  
 On the registration second page, choose individual.  Enter your address.  Enter your credit card details.  Start free trial.  
   
-You will be asked to decribe yourself.  Answer the questions and click on Done.  
+You will be asked to describe yourself.  Answer the questions and click on Done.  
   
 ![](./images/GoogleCloud.png)  
   
