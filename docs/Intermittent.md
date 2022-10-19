@@ -12,5 +12,6 @@ It is hard to provide instructions for all available brands and models of handse
 #### [G5](./G5-Recommended-Settings.md)
 #### [G6](./G6-Recommended-Settings.md)
 #### 3. Disable any battery optimization/adaptation settings you can find under Android Settings &#8722;> Battery.
-#### 4. If the problem persists, please [contact us](./Contact)
+#### 4. If you still get a disconnect more than once a week, try disabling "Avoid Scanning"
+#### 5. If the problem persists, please [contact us](./Contact)
   
