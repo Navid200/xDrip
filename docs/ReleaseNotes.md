@@ -67,7 +67,7 @@ Major releases are identified here with brief descriptions.
 | [2021.07.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.07.10) | G6 Temperature is shown on the system status page again |  
 | [2021.06.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.06.19) | Nightscout user ID and password are not shown in the logs anymore |  
 | [2021.05.21](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.05.21) | xDrip sync follower cannot stop sensor on the master unless "Accept follower actions" is enabled.  Unfortunately, it is enabled by default.  So, make sure to disable if not intended. |   
-| [2021.05.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.05.10) | Speak readings twice does not say dot dot dot anymore.  |  
+| [2021.05.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.05.10) | Speak readings twice does not say dot dot dot anymore; Restore (not import) database |  
 | [2021.05.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.05.05) | Preemptive restart will not be applied if transmitter is not capable |  
 | [2021.03.30](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.03.30) | G6 2.27.2.103 firmware was added |  
 | [2021.03.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.03.08) | G5 1.0.4.14 firmware was added |  
