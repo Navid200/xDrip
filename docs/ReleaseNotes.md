@@ -5,6 +5,7 @@ Major releases are identified here with brief descriptions.
   
 | Release | Notes |  
 |---------|-------|  
+| [2022.10.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.25) | Android 4 not supported any longer |  
 | [2022.10.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.15) | Companion App backfill - Bluetooth Settings &#8722;> Companion Bluetooth |  
 | [2022.10.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.05) | Can scan with NFC as well when using Libre 2 patched app |  
 | [2022.09.21](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.21) | Dex G6 transmitter end of life warning |  
