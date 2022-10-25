@@ -9,6 +9,7 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [127](https://github.com/NightscoutFoundation/xDrip/issues/127) | Follower scheme using SMS | | | 2017.06.02 |  
 | [131](https://github.com/NightscoutFoundation/xDrip/issues/131) | Medtronic Guardian Connect | | | 2017.07.15 |  
 | [182](https://github.com/NightscoutFoundation/xDrip/issues/182) - [319](https://github.com/NightscoutFoundation/xDrip/issues/319) - [911](https://github.com/NightscoutFoundation/xDrip/issues/911) - [1155](https://github.com/NightscoutFoundation/xDrip/issues/1155) - [1399](https://github.com/NightscoutFoundation/xDrip/issues/1399) - [1611](https://github.com/NightscoutFoundation/xDrip/issues/1611) - [1654](https://github.com/NightscoutFoundation/xDrip/issues/1654) - [1799](https://github.com/NightscoutFoundation/xDrip/issues/1799) | Watch-related | | | 2017.09.20 |  
+| [266](https://github.com/NightscoutFoundation/xDrip/issues/266) | Upload to muiltiple Nightscout sites | Nightscout | | 2018.01.12 |  
 | [296](https://github.com/NightscoutFoundation/xDrip/issues/296) | Calibration issues with Bluetooth glucose meters | | |2018.02.08 |  
 | [400](https://github.com/NightscoutFoundation/xDrip/issues/400) | mDNS support | | | 2018.04.18 |  
 | [414](https://github.com/NightscoutFoundation/xDrip/issues/414) - [691](https://github.com/NightscoutFoundation/xDrip/issues/691) - [800](https://github.com/NightscoutFoundation/xDrip/issues/800) - [920](https://github.com/NightscoutFoundation/xDrip/issues/920) | Delta inconsistency | | | 2018.05.02 |  
