@@ -1,6 +1,8 @@
 ## Maintenance
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Maintenance  
   
+We are evaluating an alternative to noip.com, which will not require this maintenance.  It should be released soon.  
+
 Once a month, you will receive an email informing you that your hostname is expiring.  
 ![](./images/Expiring.png)  
   
