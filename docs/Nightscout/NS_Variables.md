@@ -1,7 +1,7 @@
 ## Nightscout variables  
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Variables  
   
-After [setting up Nightscout](./NS_setup), you can edit your [Nightscout variables](https://github.com/nightscout/cgm-remote-monitor/blob/master/README.md#environment) if needed.  
+After [setting up Nightscout](./NS_setup), you can edit your Nightscout variables if needed.  
   
 To edit your Nightscout variables, open a [terminal](./Terminal).  
 In the terminal, type and enter:  
@@ -29,6 +29,11 @@ You will be offered the following two options:
   
 Choose 1.  
 <br/>  
+  
+---  
+  
+[All Nightscout variables and their definitions](https://github.com/nightscout/cgm-remote-monitor/blob/master/README.md#environment)  
+<br/>
   
 ---  
   
