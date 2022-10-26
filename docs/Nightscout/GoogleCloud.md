@@ -8,7 +8,7 @@ Thanks to JamOrHam, the current xDrip head developer, for the idea, putting it t
 ---  
   
 If you already have a working Nightscout on Heroku, there is no rush to switch to this now yet.  
-We are still testing and improving this.  It's not finalized yet.  
+We are still testing and improving this.   
 But, we need you to test and provide feedback.  This is how to do it:  
 Set this up, and add the link to your xDrip Nightscout upload URL, separated by a space from your Heroku link.  Now, xDrip will continue to upload to your Heroku.  But, also upload to your Google Cloud Nightscout.
   
