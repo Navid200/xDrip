@@ -20,7 +20,9 @@ After you are done editing and saving the file, you will need to reboot the virt
 Rebooting the machine will disconnect you and you will see an error message in the terminal. Just close the terminal.  
 If you haven't done anything destructive, your Nightscout will keep going.  
   
-If anything breaks, you can re-run [installation](./NS_Install).  
+If anything breaks, you can edit the file again and change it back.  You can see the default values in the image above.  
+  
+Or, you can re-run [installation](./NS_Install).  
 You will be offered the following two options:  
 1- Attempt to reinstall this existing certificate  
 2- Renew & replace the cert (limit ~5 per 7 days)  
