@@ -7,7 +7,7 @@ But, you can also choose to install from a GitHub fork.
   
 During the process, which takes about 25 minutes, your Nightscout will not be operational.  If you need Nightscout for a loop, please create an alternative session and switch to it while updating the other.  
   
-To proceed, select "Update/Customize Nightscout" from the menu and enter.  
+To proceed, select "Update/Customize Nightscout" from the [menu](./Menu.md) and enter.  
 In a minute, the following dialog will show.  
 ![](./images/Dialog1.png)  
   
