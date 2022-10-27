@@ -3,10 +3,7 @@
   
 You must have mongodb set up on the virtual machine for this to work.  That is the case if you have Nightscout running following [install](./NS_Install.md) instructions.  
   
-Open a [terminal](./Terminal.md).  Copy and paste the following into the terminal and enter, where backupfile is the name you choose for the backup.  
-  
-<mark>mongodump --gzip --archive=backupfile</mark>  
-  
+Open a [terminal](./Terminal.md).  Select "Backup MongoDB" from the menu.  
 A compressed archive file, with the name you have chosen, will be created in the current directory.  
   
 You should transfer the backup off the virtual machine.  Otherwise, you will lose it if you delete the machine.  
