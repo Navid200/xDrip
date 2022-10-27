@@ -1,14 +1,10 @@
 ## Data transfer from another repository
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Data Transfer  
   
-This is how you can transfer your past readings from another repository, for example, from Heroku.  
-  
-This will overwrite your existing database.  
+This is how you can transfer your past readings from another repository, for example, from Heroku.    
   
 Open a [terminal](./Terminal).  
-Type the following in the terminal and Enter.  
-  
-<mark>/srv/nightscout-vps/clone_nightscout.sh</mark>  
+Select "Copy data from another Nightscout" and Enter.  
   
 You will be asked for site name.  Enter the URL you use to access the source Nightscout site.  For example, https://UserId.herokuapp.com of Heroku.  
 You will be asked for a read token.  If the source Nightscout is open to the world, not recommended, you can just hit enter.  If it's not, enter a read token.  You can see [here](./NS_Followers) how to create and use tokens.  
