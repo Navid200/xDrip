@@ -1,7 +1,7 @@
 ## Linux/Nightscout install  
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Linux/Nightscout install  
   
-Now, we will install Linux on our [virtual machine](./NS_FreeTier), and Nightscout in it.  
+Now, we will install Linux on our [virtual machine](./NS_FreeTier), and Nightscout in it.  You must have [No IP](./noip_com) and [Google Project](./NS_GCProject) set up already to proceed.  
   
 Open a [terminal](./Terminal.md).  
 
