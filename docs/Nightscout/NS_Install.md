@@ -11,7 +11,7 @@ Copy and paste the following line into the terminal of your Nighscout virtual ma
 <mark>curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>  
 <br/>  
   
-It will take 2 minutes to complete a preliminay installation step.  The machine will automatically reboot then.  You will see a disconnect message on the screen.  Wait 30 seconds and click on retry.  This time when the terminal opens, you will see this menu:  
+It will take 2 minutes to complete a preliminary installation step.  The machine will automatically reboot then.  You will see a disconnect message on the screen.  Wait 30 seconds and click on retry.  This time when the terminal opens, you will see this menu:  
 ![](./images/Menu.png)  
 
 To continue the installation, select item 1 "Initial Nightscout install" and enter.  
