@@ -38,5 +38,6 @@ It will take a while (about 90 minutes) to complete the entire setup.
 ---  
   
 #### [Terminal](./Terminal)
+#### [Menu](./Menu.md)
 #### [Restart](./Restart)
   
