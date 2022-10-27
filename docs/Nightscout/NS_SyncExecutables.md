@@ -1,14 +1,15 @@
 ## Update command files to latest release  
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Update to latest release  
   
-This is how you can update the Nightscout executable files in the root installtion directory.  
+This is how you can update your virtual machine with the latest menus and commands.  
+For updating Nightscout, see [here](./update_nightscout.md).  
 If you followed the instructions in the early days to install Nightscout on Google Cloud, you may not have the latest files.  It's a good idea to follow these instructions to update.  
   
-Open a [terminal](./Terminal).  
-In the terminal, type and enter the following in sequence:  
+Open a [terminal](./Terminal.md).  
+From the menu, select "Update scripts".  
+If the main menu does not come up automatically when you open a terminal, type and enter the following.  
   
-<Mark>cd /srv/nightscout-vps</Mark>  
-<Mark>sudo git pull</Mark>  
+<Mark>curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</Mark>  
   
-You will see a report of any files that were updated.  
+The terminal will show a disconnect.  Wait 30 seconds and then, click on retry.  The terminal will open and you should see the updated menu automatically coming up on screen.    
   
