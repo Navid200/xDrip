@@ -4,7 +4,7 @@
 After [setting up Nightscout](./NS_setup), you can edit your Nightscout variables if needed.  
   
 To edit your Nightscout variables, open a [terminal](./Terminal).  
-Select "Edit Nightscout Variables" in the menu and enter.  
+Select "Edit Nightscout Variables" in the [menu](./Menu.md) and enter.  
   
 This will open, using nano, the file containing the variables for edit.  
 ![](./images/nsconfig.png)  
