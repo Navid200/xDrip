@@ -11,10 +11,15 @@ Copy and paste the following line into the terminal of your Nighscout virtual ma
 <mark>curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>  
 <br/>  
   
-It will take 15-20 minutes to complete the installation.  
-If you get an error message that says EINTEGRITY ending with (0 bytes) and it hangs, just press CTRL and C keys at the same time to interrupt.  Then, re-run the curl bootstrap command.  You can use the up arrow on the terminal to go back to the previous command.  
+It will take 2 minutes to complete a preliminay installation step.  The machine will automatically reboot then.  You will see a disconnect message on the screen.  Wait 30 seconds and click on retry.  This time when the terminal opens, you will see this menu:  
+![](./images/Menu.png)  
+
+To continue the installation, select item 1 "Initial Nightscout install" and enter.  
+It will take about 15 minutes for this step to complete.  
+If you get an error message that says EINTEGRITY ending with (0 bytes) and it hangs, just press CTRL and C keys at the same time to interrupt.  Exit and open a new terminal.  Repeat running item 1 on the menu.  
   
-After the installation is completed, you will be asked to login.  
+After step 1 is completed, to proceed with installation, choose item 2 on the menu "noip.com association" and enter.  
+You will be asked to login.  
 ![](./images/Terminal.png)  
 To log in, use the email address and password you used to register for noip.com.  
   
@@ -26,12 +31,8 @@ Press N to decline sharing email address.
 Select 2 to redirect to secure https.  
   
 You will be asked to change the API secret.  This is the password you will login to Nightscout with.  
-Enter a password and take note.  
+Enter a password and take note.    
   
-You will be asked if you want to copy your old Nightscout database from another site.  You can skip this and do it later, it could take quite a while depending on how much data you have, by just pressing Enter.  
-Otherwise, enter the URL to your original Nightscout site like https://UserID.herokuapp.com.  
-You will be asked if you need to enter a token.  If your Nightscout is open to the world, which is not recommended, you don't need to enter anything.  But, if you use [tokens](./NS_Followers), you can enter a read token.  
-  
-When you see the following, the install is complete and you can close the terminal by clicking on X at the top right corner of the terminal.  
-![](./images/TermEnd.png)  
-  
+When installation is complete, the machine will automatically reboot again and you will see the disconnect message again.  
+Wait 30 seconds, and Nightscout will be running.  
+ 
