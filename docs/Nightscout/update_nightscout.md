@@ -1,20 +1,13 @@
 ## Update/Customize Nightscout
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Update  
   
-You need to have completed the [installation](./GoogleCloud.md) steps before using this utility.  
+You need to have completed the Nightscout [installation](./NS_Install.md) steps before using this utility.  
 By default, it will install the latest release of official Nightscout.  
 But, you can also choose to install from a GitHub fork.  
   
 During the process, which takes about 25 minutes, your Nightscout will not be operational.  If you need Nightscout for a loop, please create an alternative session and switch to it while updating the other.  
   
-[Update](./NS_SyncExecutables.md) executables to the latest release.  
-  
-Open the [terminal](./Terminal.md)    
-Copy and paste the following into the terminal and enter.  
-  
-<mark>sudo chmod 755 /srv/nightscout-vps/update_nightscout.sh</mark>  
-<mark>sudo /srv/nightscout-vps/update_nightscout.sh</mark>  
-  
+To proceed, select "Update/Customize Nightscout" from the menu and enter.  
 In a minute, the following dialog will show.  
 ![](./images/Dialog1.png)  
   
