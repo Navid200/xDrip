@@ -6,7 +6,7 @@ If you followed the instructions in the early days to install Nightscout on Goog
   
 Open a [terminal](./Terminal.md).  
 A menu should come up automatically.  From the menu, select "Update scripts".  
-If the main menu does not come up automatically when you open a terminal, type and enter the following.  
+If the main [menu](./Menu.md) does not come up automatically when you open a terminal, type and enter the following.  
   
 <Mark>curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</Mark>  
   
