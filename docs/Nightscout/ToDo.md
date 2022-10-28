@@ -5,3 +5,4 @@
 2- Are there errors, like wrong password or ID, that can interrupt install?  Find a way to deal with those.  
 2- When reinstalling Nightscout, offer the option to keep the variables and not overwrite.  
 3- Can a mobile do ssh?  
+4- Add a menu option to backup Nightscout variables  
