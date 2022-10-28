@@ -9,4 +9,6 @@
 #### 6- Find a way to remove the distortion caused by -nook option: 
 ![](./images/Dist1.png)  
 #### 7- Rename second installation phase on the menu.  
+#### 8- Tzachi's Heroku vars transfer  
+#### 9- Tzachi's son's Nightscout variable app  
   
