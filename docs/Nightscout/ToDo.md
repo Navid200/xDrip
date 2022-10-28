@@ -6,3 +6,7 @@
 #### 3- When reinstalling Nightscout, offer the option to keep the variables and not overwrite.  
 #### 4- Can a mobile do ssh?  
 #### 5- Add a menu option to backup Nightscout variables  
+#### 6- Find a way to remove the distortion caused by -nook option: 
+![](./images/Dist1.png)  
+  
+  
