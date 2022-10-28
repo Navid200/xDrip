@@ -15,4 +15,5 @@
 #### 11- Find an easy way to determine which Nightscout version is being used to add to status.  
 #### 12- Can we determine if noip hostname has expired to add to the status page?  
 #### 13- Change the tags on the main menu from numbers to letters to have unique single-digit tags.  
+#### 14- Add a menu option for copying Nightscout variables from Heroku using Tzachi's script.  
   
