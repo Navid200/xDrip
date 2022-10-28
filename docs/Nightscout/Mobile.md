@@ -5,7 +5,7 @@ You can use Chrome on a mobile device to log into Google Cloud, select your proj
 Tapping on the menu will open the Android keyboard.  
 ![](./images/Mobile.png)  
   
-The arrow keys may not work.  But, each option on the menu has an effective tag highlighted in red.  Pressing the effective tag on the keyboard selects the corresponding option.  
+The arrow keys may not exist or work.  But, each option on the menu has an effective tag highlighted in red.  Pressing the effective tag on the keyboard selects the corresponding option.  
 If multiple options have the same effective tag, pressing the corresponding key repeatedly selects those options in sequence.  
   
 Pressing backspace is the same as pressing the escape key.  
