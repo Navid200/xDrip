@@ -11,4 +11,5 @@
 #### 7- Rename second installation phase on the menu.  
 #### 8- Tzachi's Heroku vars transfer  
 #### 9- Tzachi's son's Nightscout variable app  
+#### 10- Add Tzachi to the credit list in the guide  
   
