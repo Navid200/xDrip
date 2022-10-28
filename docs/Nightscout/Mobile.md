@@ -3,6 +3,8 @@
   
 You can use Chrome on a mobile device to log into Google Cloud, select your project, access the instance and tap on SSH to open the menu.   
 Tapping on the menu will open the Android keyboard.  
+![](./images/Mobile.png)  
+  
 The arrow keys may not work.  But, each option on the menu has an effective tag highlighted in red.  Pressing the effective tag on the keyboard selects the corresponding option.  
 If multiple options have the same effective tag, pressing the corresponding key repeatedly selects those options in sequence.  
   
