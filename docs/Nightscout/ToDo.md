@@ -8,5 +8,5 @@
 #### 5- Add a menu option to backup Nightscout variables  
 #### 6- Find a way to remove the distortion caused by -nook option: 
 ![](./images/Dist1.png)  
-  
+#### 7- Rename second installation phase on the menu.  
   
