@@ -1,5 +1,5 @@
 ## BlueJay GTS Settings  
-August 26, 2022  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Watches](./Watches.md) >> [BlueJay](./Bluejay_page.md) >> GTS Settings  
 
 ![](./images/bj_stngs_stngs.png)  &nbsp;  ![](./images/bj_stngs_ruler.png)  &nbsp;  ![](./images/bj_stngs_hand.png)  &nbsp;  ![](./images/bj_stngs_motion.png)  
 <br/>  
