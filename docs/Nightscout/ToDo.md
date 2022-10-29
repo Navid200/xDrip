@@ -19,3 +19,4 @@
 #### 15- Add to the dialog of update/customize that the procedure will take about 25 minutes, and there will be an auto reboot.  
 #### 16- Show a checkmark beside completed installation steps on the main menu.  
 #### 17- Move update/customize Nightscout up to step 2.  Rename the menu option to Nightscout install step 2.   
+#### 18- Find a way to invert the font for the status page so that "Developed by the xDrip team" looks the same as other pages.  
