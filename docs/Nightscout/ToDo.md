@@ -18,3 +18,4 @@
 #### 14- Add to the dialog of install2 informing user that there will be an auto reboot at the end.  
 #### 15- Add to the dialog of update/customize that the procedure will take about 25 minutes, and there will be an auto reboot.  
 #### 16- Show a checkmark beside completed installation steps on the main menu.  
+#### 17- Move update/customize Nightscout up to step 2.  Rename the menu option to Nightscout install step 2.   
