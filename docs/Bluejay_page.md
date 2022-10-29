@@ -1,5 +1,5 @@
 ## BlueJay  
-August 26, 2022  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Watches](./Watches.md) >> BlueJay
   
 BlueJay is a watch that can collect directly from G5 or G6.  
 BlueJay [web site](https://bluejay.website/).  
