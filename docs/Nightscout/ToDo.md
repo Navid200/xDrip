@@ -16,4 +16,5 @@
 #### 12- Change the tags on the main menu from numbers to letters to have unique single-digit tags. - Done  
 #### 13- Add a menu option for copying Nightscout variables from Heroku using Tzachi's script.  
 #### 14- Add to the dialog of install2 informing user that there will be an auto reboot at the end.  
+#### 15- Add to the dialog of update/customize that the procedure will take about 25 minutes, and there will be an auto reboot.  
   
