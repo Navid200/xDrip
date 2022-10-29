@@ -15,4 +15,5 @@
 #### 11- Can we determine if noip hostname has expired to add to the status page?  
 #### 12- Change the tags on the main menu from numbers to letters to have unique single-digit tags. - Done  
 #### 13- Add a menu option for copying Nightscout variables from Heroku using Tzachi's script.  
+#### 14- Add to the dialog of install2 informing user that there will be an auto reboot at the end.  
   
