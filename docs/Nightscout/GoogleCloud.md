@@ -3,6 +3,8 @@
   
 #### **Credit:**    
 Thanks to JamOrHam, the current xDrip head developer, for the idea, putting it together, implementing the installer, testing everything, and providing instructions.  
+
+Thanks to tzachi-dar, senior xDrip developer, for development of critical code, and for providing support.  
 <br/>  
   
 ---  
