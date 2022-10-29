@@ -17,4 +17,5 @@
 #### 13- Add a menu option for copying Nightscout variables from Heroku using Tzachi's script.  
 #### 14- Add to the dialog of install2 informing user that there will be an auto reboot at the end.  
 #### 15- Add to the dialog of update/customize that the procedure will take about 25 minutes, and there will be an auto reboot.  
-  
+#### 16- Show a checkmark beside completed installation steps on the main menu.  
+#### 17- Add an option to the main menu as an installation step for setting up freedns.    
