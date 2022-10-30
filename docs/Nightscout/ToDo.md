@@ -1,7 +1,7 @@
 ## To Do List
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> To Do List
   
-#### 1- FreeDNS option  - Done  
+#### 1- FreeDNS option  - **Done**  
 #### 2- Are there errors, like wrong password or ID, that can interrupt install?  Find a way to deal with those.  
 #### 3- When reinstalling Nightscout, offer the option to keep the variables and not overwrite.  -  Will not overwrite if file exists. - Done  
 #### 4- Can a mobile do ssh?  -  Can use Chrome  - Done  
