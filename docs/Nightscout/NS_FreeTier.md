@@ -40,7 +40,7 @@ Set name to whatever you like.
   
 Set machine type to "e2-micro".  
 Select a region that qualifies for free tier.  
-Pay special attention to the settings marked with starrs (in the images below) as they can affect cost and you will not be able to change them after you create the machine unless you delete and recreate the machine.  
+Pay special attention to the settings marked with stars (in the images below) as they can affect cost and you will not be able to change them after you create the machine unless you delete and recreate the machine.  
 ![](./images/vm2.png)  
   
 Edit "Boot Disk" and modify as shown below.  Click on "Select".  
