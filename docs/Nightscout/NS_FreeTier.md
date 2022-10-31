@@ -50,7 +50,7 @@ Pay attention to the marked settings as they can affect cost and you will not be
 Under firewall, enable both http and https.  
 ![](./images/Firewall2.png)  
   
-You will not be able to change any of this after you create.  The only way to change is to delete the machine and cfreate a new one.  Therefore, before clicking on create, make sure the conditions listed in the following table are satisfied to ensure you will not be charged.  
+You will not be able to change any of this after you create.  The only way to change is to delete the machine and create a new one.  Therefore, before clicking on create, make sure the conditions listed in the following table are satisfied to ensure you will not be charged.  
   
 | Parameters | Requirements |  
 | ---------- | ------------ |  
