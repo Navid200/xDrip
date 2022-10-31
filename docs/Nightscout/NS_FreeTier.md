@@ -31,16 +31,16 @@ You can use the [calculator](https://cloud.google.com/products/calculator) to co
 ---    
   
 ### **Creating a virtual machine**  
-Let's create the machine now.    
+Let's create the machine now.  
 Go to dashboard.  Select "Compute Engine".  Select the "VM instances" tab in the left pane if it's not already selected.  
 Select "Create Instance".  
 ![](./images/CreateInstance.png)  
   
-Set name to "nightscout".    
+Set name to whatever you like.    
   
 Set machine type to "e2-micro".  
 Select a region that qualifies for free tier.  
-Pay attention to the marked settings (in the image below) as they can affect cost and you will not be able to change them later.  
+Pay special attention to the settings marked with starrs (in the images below) as they can affect cost and you will not be able to change them later.  
 ![](./images/vm2.png)  
   
 Edit "Boot Disk" and modify as shown below.  Click on "Select".  
@@ -50,7 +50,7 @@ Pay attention to the marked settings as they can affect cost and you will not be
 Under firewall, enable both http and https.  
 ![](./images/Firewall2.png)  
   
-Before clicking on create, make sure the conditions listed in the following table are satisfied to ensure you will not be charged.  
+You will not be able to change any of this after you create.  The only way to change is to delete the machine and cfreate a new one.  Therefore, before clicking on create, make sure the conditions listed in the following table are satisfied to ensure you will not be charged.  
   
 | Parameters | Requirements |  
 | ---------- | ------------ |  
