@@ -10,7 +10,7 @@ It is hard to provide instructions for all available brands and models of handse
 #### 1. If you are using an xDrip release older than the current stable release, please [update](./Updates.md).
 #### 2. Start from the recommended settings:
 #### [G5](./G5-Recommended-Settings.md)
-#### [G6](./G6-Recommended-Settings.md)
+#### [G6 or Dex1](./G6-Recommended-Settings.md)
 #### 3. Disable any battery optimization/adaptation settings you can find under Android Settings &#8722;> Battery.
 #### 4. If you still get a disconnect more than once a week, try disabling "Avoid Scanning".
 #### 5. If the problem persists, please [contact us](./Contact).
