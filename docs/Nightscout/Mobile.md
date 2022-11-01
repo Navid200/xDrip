@@ -1,6 +1,8 @@
 ## Mobile
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Mobile  
   
+This is about how to use a mobile device to access your Nighscout on Google Cloud.   
+
 ---  
 **Chrome**  
 You can use Chrome on a mobile device to log into Google Cloud, select your project, access the instance and tap on SSH to open the menu.   
