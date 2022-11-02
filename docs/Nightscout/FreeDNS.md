@@ -1,4 +1,4 @@
-## FREEDNS
+## Free DNS
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> FreeDNS  
   
 Go to FreeDNS site: [https://freedns.afraid.org/](https://freedns.afraid.org/)  
@@ -16,3 +16,8 @@ Save.
 Go to Dynamic DNS.  
 ![](./images/FD_DynamicDNS.png)  
 
+In the table at the bottom, you can see all your hostnames.  The one we just created is circled in red in the following image.  
+![](./images/FD_DynamicDNS2.png)  
+You will need that hostname.  Take a note.  
+In the row containing the hostname you intend to use, click on "Direct URL".  
+You will be taken to a web page 
