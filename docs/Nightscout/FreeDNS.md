@@ -32,4 +32,4 @@ With both hostname and direct URL recorded, you can move on to the next step.
   
 Select "Free DNS setup" from the main menu.  
 You will be asked for the hostname and direct URL.  Enter the values you have recorded from the previous steps.  
-When the process completes, Nightscout will be running, and accessible through Free DNS.  
+When the process completes, Nightscout will be running, and accessible through your Free DNS hostname.  
