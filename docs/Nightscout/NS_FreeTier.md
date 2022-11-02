@@ -59,5 +59,6 @@ You will not be able to change any of this after you create.  The only way to ch
 | Disk type    | persistent disk |  
 | Disk size   |  Less than or equal to 30GB |  
   
+The estimate shown at the top right of the same page will not be 0.  As long as you satisfy the conditions listed in the above table, it's OK.  You can ignore that non-0 estimate.  
 Click on "Create" to create the virtual machine.  Google will now bring up your virtual machine.  Wait for it to come up.  When the external IP column appears, you should be good to go.  
   
