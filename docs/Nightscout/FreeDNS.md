@@ -12,9 +12,11 @@ Add.
 Enter a subdomain name.  Pick a public domain.  Under the image, enter text (capital) to capture the image you see.  You can ask for a different image if it's not clear.  
 Save.  
 ![](./images/FreeDNS2.png)  
+<br/>  
   
 Go to Dynamic DNS.  
 ![](./images/FD_DynamicDNS.png)  
+<br/>  
 
 In the table at the bottom, you can see all your hostnames.  The one we just created is circled in red in the following image.  
 ![](./images/FD_DynamicDNS2.png)  
