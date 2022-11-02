@@ -12,6 +12,7 @@ Add.
 Enter a subdomain name.  Pick a public domain.  Under the image, enter text (capital) to capture the image you see.  You can ask for a different image if it's not clear.  
 Save.  
 ![](./images/FreeDNS2.png)  
+  
 Go to Dynamic DNS.  
 ![](./images/FD_DynamicDNS.png)  
 
