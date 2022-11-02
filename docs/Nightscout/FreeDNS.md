@@ -19,5 +19,6 @@ Go to Dynamic DNS.
 In the table at the bottom, you can see all your hostnames.  The one we just created is circled in red in the following image.  
 ![](./images/FD_DynamicDNS2.png)  
 You will need that hostname.  Take a note.  
-In the row containing the hostname you intend to use, click on "Direct URL".  
-You will be taken to a web page 
+In the row containing the hostname you intend to use, which you took a note of, click on "Direct URL".  
+You will be taken to a web page.  
+![](./images/FD_DirectURL.png)  
