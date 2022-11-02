@@ -23,3 +23,4 @@ In the row containing the hostname you intend to use, which you took a note of, 
   
 You will be taken to a web page.  
 ![](./images/FD_DirectURL.png)  
+You may or may not see an error message on this page.  You can ignore the error message on the page.  But, what you need is what is in the addressbar.  You need to copy the entire contect as the "Direct URL" associated with the hostname.  Copy this as well.    
