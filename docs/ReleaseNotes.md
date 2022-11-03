@@ -5,6 +5,7 @@ Major releases are identified here with brief descriptions.
   
 | Release | Notes |  
 |---------|-------|  
+| [2022.11.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.03) | Collector title updates |  
 | [2022.11.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.02) | CareLink |  
 | [2022.11.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.01) | Aidex support |  
 | [2022.10.31](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.31) | Max snooze time increased from 10 hours to 12 hours. |  
