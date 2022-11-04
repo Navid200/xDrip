@@ -5,7 +5,7 @@ You need to have completed the Nightscout [installation](./NS_Install.md) steps 
 By default, it will install the latest release of official Nightscout.  
 But, you can also choose to install from a GitHub fork.  
   
-During the process, which takes about 25 minutes, your Nightscout will not be operational.  If you need Nightscout for a loop, please create an alternative session and switch to it while updating the other.  
+<span style="color:red">During the process, which takes about 25 minutes, your Nightscout will not be operational.</span>  If you need Nightscout for a loop, please create an alternative session and switch to it while updating the other.  
   
 To proceed, select "Update/Customize Nightscout" from the [menu](./Menu.md) and enter.  
 In a minute, the following dialog will show.  
