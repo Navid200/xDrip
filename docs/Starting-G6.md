@@ -1,4 +1,4 @@
-## Starting Dexcom G6  
+## Starting Dexcom G6 or Dexcom One
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Starting G6  
   
 Please be patient and do not rush to tap on "Start Sensor" even if xDrip encourages you to.  Please follow the steps exactly as stated below, in the specified sequence, to avoid common issues.  
