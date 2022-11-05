@@ -6,7 +6,7 @@ New versions of Android have features to extend the phone battery run time.  Thi
 The phone manufacturers also include their methods for accomplishing the same.  
 This behavior interferes with proper operation of xDrip.  As a result, when you first install xDrip on Android 10 or newer releases of Android, it is almost guaranteed it will have connectivity issues.  
   
-It is hard to provide instructions for all available brands and models of handsets.  Please use what follows as a method for tweaking your device to find the best settings.  The following link is an example of tips for one particular brand of phone.  Search for something similar for your phone brnad.  
+It is hard to provide instructions for all available brands and models of handsets.  Please use what follows as a method for tweaking your device to find the best settings.  The following link is an example of tips for one particular brand of phone.  Search for something similar for your phone brand.  
 [https://dontkillmyapp.com/xiaomi](https://dontkillmyapp.com/xiaomi)
   
 #### 1. If you are using an xDrip release older than the current stable release, please [update](./Updates.md).
