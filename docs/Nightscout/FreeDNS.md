@@ -1,11 +1,14 @@
 ## Free DNS
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> FreeDNS  
-  
+
+Follow these instructions in order to use the FreeDNS Setup utility to switch to using FreeDNS instead of noip.com.  
+
 Go to FreeDNS site: [https://freedns.afraid.org/](https://freedns.afraid.org/)  
-Sign up Free  
+Click on Sign up Free, and sign up.  
 Send activation email.  
 ![](./images/FreeDNS1.png)  
 Open email and activate your account.  
+  
 Click on Main Menu to log in.  
 Go to [Subdomains](https://freedns.afraid.org/subdomain/).  
 Add.  
