@@ -5,7 +5,7 @@ Major releases are identified here with brief descriptions.
   
 | Release | Notes |  
 |---------|-------|  
-| [2022.11.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.05) | Companion backfill & History fix |  
+| [2022.11.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.05b) | Companion backfill & History fix |  
 | [2022.11.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.04) | Companion App backfill fix |  
 | [2022.11.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.03) | Collector title updates |  
 | [2022.11.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.02) | CareLink |  
