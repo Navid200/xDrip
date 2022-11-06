@@ -10,6 +10,10 @@ Send activation email.
 Open email and activate your account.  
   
 Click on Main Menu to log in.  
+After loging in, you can see your user ID at the top right corner.  
+![](./images/FD_userID.png)  
+You will need your user ID and password.  
+
 Go to [Subdomains](https://freedns.afraid.org/subdomain/).  
 Add.  
 Enter a subdomain name.  Pick a public domain.  Under the image, enter text (capital) to capture the image you see.  You can ask for a different image if it's not clear.  
