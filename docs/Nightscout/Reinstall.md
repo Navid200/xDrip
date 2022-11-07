@@ -8,7 +8,12 @@ Download the following file as well: /etc/nsconfig
 
 If you have any other files on the virtual machine that you like to keep, download those as well.  
 Now, delete the machine.  
-Carefully follow [this guide](./GoogleCloud.md) to create the machine and install Nightscout.  
+Carefully follow [this guide](./GoogleCloud.md) to create the machine and install Nightscout.  Set up Nightscout and xDrip to upload.  
   
 Upload the nsconfig file.  Restore nsconfig by entering the following in the terminal.  
-<mark>sudo mv -f onfig
+<mark>sudo mv -f nsconfig /etc/nsconfig  
+  
+Type menu to open the menu.  Use Restore MongoDB from the menu to resture your backup file.  
+  
+[Restart](./Restart.md) the server.  
+After restart, your Nightscout must be running with your data in it.  What will be missing is anything that xDrip collected while you were working on the reinstall.  To upload those as well, use Back-fill data from xDrip Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API) &#8722;> Extras Options.
