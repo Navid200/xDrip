@@ -45,4 +45,5 @@ It will take a while (about 90 minutes) to complete the entire setup.
 #### [Menu](./Menu.md)
 #### [Restart](./Restart)
 #### [Mobile](./Mobile.md)
+#### [Reinstall](./Reinstall.md)
   
