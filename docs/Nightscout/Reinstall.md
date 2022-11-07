@@ -10,8 +10,9 @@ If you have any other files on the virtual machine that you like to keep, downlo
 If you are certain you have all the files you need, delete the machine.  
   
 Carefully follow [this guide](./GoogleCloud.md) to create a new machine, and install Nightscout.  Set up Nightscout and xDrip to upload.  
-  
-Upload the nsconfig and backup files.  Restore nsconfig by entering the following in the terminal.  
+
+Follow [these](./DatabaseRestore.md) instructions to restore the MongoDB backup.    
+Upload the nsconfig file the same way.  Restore nsconfig by entering the following in the terminal.  
 <mark>sudo mv -f nsconfig /etc/nsconfig</mark>  
   
 Type menu to open the menu.  Use Restore MongoDB from the menu to restore your backup file (of your MongoDB).  
