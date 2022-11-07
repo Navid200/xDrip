@@ -24,7 +24,9 @@ Save.
 Now, if you go to [Subdomains](https://freedns.afraid.org/subdomain/), you will see your new subdomain:  
 ![](./images/FD_hostname.png)  
 That is what you will be using to access your Nightscout in a web browser after the switch.
+<br/>  
   
+Open a [terminal](./Terminal.md).  
 Select "FreeDNS Setup" from the main menu.  
 If you don't see it on the main menu, select Update scripts and enter.  After it completes, close the window and open a new one.  Now, you will have FreeDNS Setup on the menu.  
   
