@@ -14,7 +14,7 @@ Carefully follow [this guide](./GoogleCloud.md) to create a new machine, and ins
 Upload the nsconfig file.  Restore nsconfig by entering the following in the terminal.  
 <mark>sudo mv -f nsconfig /etc/nsconfig</mark>  
   
-Type menu to open the menu.  Use Restore MongoDB from the menu to resture your backup file.  
+Type menu to open the menu.  Use Restore MongoDB from the menu to restore your backup file.  
   
 [Restart](./Restart.md) the server.  
 After restart, your Nightscout must be running with your data in it.  
