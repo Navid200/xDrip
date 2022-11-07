@@ -1,7 +1,7 @@
 ## Free DNS
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> FreeDNS  
 
-Follow these instructions in order to use the FreeDNS Setup utility to switch to using FreeDNS instead of noip.com.  
+Follow these instructions in order to switch to using FreeDNS instead of noip.com.  
 <br/>  
   
 ---  
