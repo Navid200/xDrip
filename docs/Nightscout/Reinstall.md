@@ -17,4 +17,6 @@ Upload the nsconfig file.  Restore nsconfig by entering the following in the ter
 Type menu to open the menu.  Use Restore MongoDB from the menu to resture your backup file.  
   
 [Restart](./Restart.md) the server.  
-After restart, your Nightscout must be running with your data in it.  What will be missing is anything that xDrip collected while you were working on the reinstall.  To upload those as well, use Back-fill data from xDrip Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API) &#8722;> Extras Options.
+After restart, your Nightscout must be running with your data in it.  
+  
+What will be missing is anything that xDrip collected while you were working on the reinstall.  To upload those as well, use Back-fill data from xDrip Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API) &#8722;> Extras Options.  
