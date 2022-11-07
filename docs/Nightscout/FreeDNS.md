@@ -2,7 +2,10 @@
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> FreeDNS  
 
 Follow these instructions in order to use the FreeDNS Setup utility to switch to using FreeDNS instead of noip.com.  
-
+<br/>  
+  
+---  
+**FreeDNS Site**  
 Go to FreeDNS site: [https://freedns.afraid.org/](https://freedns.afraid.org/)  
 Click on Sign up Free, and sign up.  
 Send activation email.  
@@ -27,6 +30,8 @@ That is what you will be using to access your Nightscout in a web browser after 
 <br/>  
 <br/>  
   
+---  
+**FreeDNS Utility**  
 Open a [terminal](./Terminal.md) on the virtual machine.  
 Select "FreeDNS Setup" from the main menu.  
 If you don't see it on the main menu, select Update scripts and enter.  After it completes, close the window and open a new one.  Now, you will have FreeDNS Setup on the menu.  
