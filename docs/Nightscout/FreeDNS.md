@@ -23,8 +23,15 @@ Save.
   
 Now, if you go to [Subdomains](https://freedns.afraid.org/subdomain/), you will see your new subdomain:  
 ![](./images/FD_hostname.png)  
-That is what you will be using to access your Nightscout in a web browser.
+That is what you will be using to access your Nightscout in a web browser after the switch.
   
 Select "FreeDNS Setup" from the main menu.  
-You will be asked for the hostname and direct URL.  Enter the values you have recorded from the previous steps.  
-When the process completes, Nightscout will be running, and accessible through your Free DNS hostname.  
+If you don't see it on the main menu, select Update scripts and enter.  After it completes, close the window and open a new one.  Now, you will have FreeDNS Setup on the menu.  
+  
+You will be asked for your user ID and password.  Enter those.  
+After you have provided what the script needs, it will perform the necessary changes to swith to FreeDNS.  Please be patient allowing the script to complete.  It may take up to 10 minutes.  
+
+If you see a disconnect message, just close the window, open a new one and resrun the unitilty.  
+
+When the process completes, Nightscout will be running, and accessible through your Free DNS subdomain (hostname).  
+ 
