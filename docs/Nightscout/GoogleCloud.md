@@ -28,6 +28,7 @@ It will take a while (about 90 minutes) to complete the entire setup.
 #### 6- [Setting up followers](./NS_Followers)  
 <br/>  
   
+#### [FreeDNS](./FreeDNS.md)
 #### [**<span style="color:red">Backup</span>**](./DatabaseBackup.md) before deleting the virtual machine.
 #### [Restore](./DatabaseRestore.md)
 #### [Nightscout variables](./NS_Variables)
