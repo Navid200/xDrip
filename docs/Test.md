@@ -31,3 +31,6 @@ This is a test.
 This is another test.    
 <mark style="color: #fFfFff"> curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash </mark>  
   
+One more test.    
+<mark style="background-color: #000000"> curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash </mark>   
+  
