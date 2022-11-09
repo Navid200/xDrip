@@ -5,7 +5,7 @@ Now, we will update Linux on our [virtual machine](./NS_FreeTier), and install N
   
 Open a [terminal](./Terminal.md).  
 
-Copy and paste the following line into the terminal of your Nighscout virtual machine and enter.  
+Copy and paste the following highlighted line into the terminal of your Nighscout virtual machine and enter.  
 **Caution:** Be very careful not to copy it into any other computer as it could overwrite the contents of the machine.  
   
 <mark style="background-color: #dFbFff">curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>  
