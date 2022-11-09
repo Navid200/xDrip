@@ -10,6 +10,8 @@
   
 <span style="color:orange">Stable</span>  
   
+<span style="backgroun-color:orange"> curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash </span>  
+  
 ```
 Testing
 ```
