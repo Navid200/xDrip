@@ -29,7 +29,7 @@ You will not be able to change any of this after you create.  The only way to ch
 | Machine Type | e2-micro | Free Tier |  
 | Disk type    | persistent disk | Free Tier |  
 | Disk size   |  Less than or equal to 30GB | Free Tier |  
-| Operating system | Ubuntu | Guide consistency |  
+| Operating system | Ubuntu | Compatibility |  
 | Version | 20.04 LTS Minimal x86 /64, amd64 ... | Nightscout compatibility |  
 | Firewall | Allow HTTP traffic | Nightscout access |  
 | Firewall | Allow HTTPS traffic | Nightscout access |  
