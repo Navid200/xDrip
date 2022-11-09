@@ -7,7 +7,7 @@ Go to dashboard.  Select "Compute Engine".  Select the "VM instances" tab in the
 Select "Create Instance".  
 ![](./images/CreateInstance.png)  
   
-Set name to whatever you like.    
+Set name to whatever you like.  Select all the items mentioned below and marked in the images as specified (those marked with stars affect cost).  Leave everything else that is unmarked as is.  
   
 Select a region that qualifies for free tier.  Those are ![](./images/Oregon.png), ![](./images/Iowa.png) or ![](./images/S_Carolina.png).  
 Set machine type to "e2-micro".    
