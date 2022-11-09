@@ -9,7 +9,7 @@ Select "Create Instance".
   
 Set name to whatever you like.    
   
-Select a region that qualifies for free tier.  Those are ![](./imaged/Oregon.png), ![](./images/Iowa.png) or ![](./images/S_Carolina.png).  
+Select a region that qualifies for free tier.  Those are ![](./images/Oregon.png), ![](./images/Iowa.png) or ![](./images/S_Carolina.png).  
 Set machine type to "e2-micro".  
 Pay special attention to the settings marked with stars (in the images below) as they can affect cost and you will not be able to change them after you create the machine unless you delete and recreate the machine.  
 ![](./images/vm2.png)  
