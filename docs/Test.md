@@ -28,7 +28,7 @@ curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.s
 ```  
   
 This is a test.    
-<mark style="background-color: #dFcFff"> curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash </mark>  
+<mark style="background-color: #dFbFff"> curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash </mark>  
   
 This is another test.    
 <mark style="color: #fFfFff"> curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash </mark>  
