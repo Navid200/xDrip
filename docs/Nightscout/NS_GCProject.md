@@ -16,6 +16,8 @@ On the registration second page, choose individual.  Enter your address.  Enter 
   
 <video width="400" controlsList="nodownload" src="./video/VM.mp4" controls>  
 </video>  
+<br/>  
+<br/>  
   
 You will be asked to describe yourself.  Answer the questions and click on Done.  
   
