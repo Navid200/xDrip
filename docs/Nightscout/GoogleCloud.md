@@ -9,10 +9,8 @@ Thanks to tzachi-dar, senior xDrip developer, for ideas, development of critical
   
 ---  
   
-If you already have a working Nightscout on Heroku, there is no rush to switch to this now yet.  
-We are still testing and improving this.   
-But, we need you to test and provide [feedback](https://github.com/NightscoutFoundation/xDrip/discussions).  This is how to do it:  
-Set this up, and add the link to your xDrip Nightscout upload URL, separated by a space from your Heroku link.  Now, xDrip will continue to upload to your Heroku.  But, also upload to your Google Cloud Nightscout.
+Please provide [feedback](https://github.com/NightscoutFoundation/xDrip/discussions).  
+If you want to use this while still using Heroku, eet this up, and add the link to your xDrip Nightscout upload URL, separated by a space from your Heroku link.  Now, xDrip will continue to upload to your Heroku.  But, also upload to your Google Cloud Nightscout.
   
 You will need a credit card to set up billing.  This will be free as long as you don't have too much outgoing traffic (more than 1GB per month) from your Google Cloud server.  Regardless, a credit card is required.  
 If you have a follower who is in Australia or China, the data traffic from your server to them will not qualify for Free Tier as you can see in Free Tier details below.
