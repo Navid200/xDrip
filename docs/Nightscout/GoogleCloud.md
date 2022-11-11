@@ -44,5 +44,5 @@ It will take a while (about 90 minutes) to complete the entire setup.
 #### [Restart](./Restart)
 #### [Mobile](./Mobile.md)
 #### [Reinstall](./Reinstall.md)
-#### [Will this be free?][(./Free.md)
+#### [Will this be free?](./Free.md)
   
