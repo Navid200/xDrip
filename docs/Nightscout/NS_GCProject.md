@@ -25,6 +25,11 @@ You will be asked to describe yourself.  Answer the questions and click on Done.
   
 By default, a new project titled "My First Project" is created for you.  You can use it or create another.  
   
+<video width="400" controlsList="nodownload" src="./video/VM2.mp4" controls>  
+</video>  
+<br/>  
+<br/>  
+  
 Go to dashboard.  
 ![](./images/Dashboard.png)  
   
