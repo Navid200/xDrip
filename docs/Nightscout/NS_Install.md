@@ -12,7 +12,16 @@ Copy and paste the following highlighted line into the terminal of your Nighscou
 <br/>  
   
 You will be presented with a notification.  To acknowledge, you need to select OK.  However, you will not be able to use the mouse.  Just press enter.  
-It will take 2 minutes to complete a preliminary installation step.  The machine will automatically reboot then.  You will see a disconnect message on the screen.  Wait 30 seconds and click on retry.  This time when the terminal opens, you will see this menu:  
+It will take 2 minutes to complete a preliminary installation step.  You will then see the status page.  If any item on the page is in red, it mean you made an incorrect selection when you created the virtual machine.  The following table shows what the status page should look like, as well as what it will look like for different incorrerct selections.  
+
+| Incorrect choice | Status page |  
+| ---------------- | ----------- |  
+| None | |  
+| Machine type | [![](./images/NoMicro_icon)](./images/NoMicro.png) |  
+
+
+
+The machine will reboot then.  You will see a disconnect message on the screen.  Wait 30 seconds and click on retry.  This time when the terminal opens, you will see this menu:  
 ![](./images/Menu.png)  
   
 <video width="400" controlsList="nodownload" src="./video/Install1.mp4" controls>  
