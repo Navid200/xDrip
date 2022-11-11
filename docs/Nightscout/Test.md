@@ -26,6 +26,4 @@ curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.s
 4-  one backtick before and after
 `curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash`  
   
-
-<video width="400" controlsList="nodownload" src="./video/tmp.mp4" controls>  
-</video>
+<mark style="background-color: #dFbFff">curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>   
