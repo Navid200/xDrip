@@ -20,6 +20,7 @@ It will take 2 minutes to complete a preliminary installation step.  You will th
 | Disk type | [<img src="./images/NotStandard_Icon.png">](./images/NotStandard.png) |  
 | Disk size | [<img src="./images/DiskSize_Icon.png">](./images/DiskSize.png) |  
 | Firewall | [<img src="./images/Firewall_Icon.png">](./images/Firewall.png) |  
+| Ubuntu | [<img src="./images/WrongUbuntu_Icon.png">](./images/WrongUbuntu.png) |  
 
 
 
