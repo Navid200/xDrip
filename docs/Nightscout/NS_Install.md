@@ -11,8 +11,12 @@ Copy and paste the following highlighted line into the terminal of your Nighscou
 <mark style="background-color: #dFbFff">curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>  
 <br/>  
   
+You will be presented with a notification.  To acknowledge, you need to select OK.  However, you will not be able to use the mouse.  Just press enter.  
 It will take 2 minutes to complete a preliminary installation step.  The machine will automatically reboot then.  You will see a disconnect message on the screen.  Wait 30 seconds and click on retry.  This time when the terminal opens, you will see this menu:  
 ![](./images/Menu.png)  
+  
+<video width="400" controlsList="nodownload" src="./Install1.mp4" controls>  
+</video>    
 
 To continue the installation, select item 1 "Initial Nightscout install" and enter.  
 It will take about 15 minutes for this step to complete.  
