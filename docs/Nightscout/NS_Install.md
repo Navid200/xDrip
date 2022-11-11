@@ -20,7 +20,7 @@ It will take 2 minutes to complete a preliminary installation step.  The machine
 <br/>  
 <br/>  
 
-To continue the installation, select item 1 "Initial Nightscout install" and enter.  
+To continue the installation, select item 1 (using arrows) "Initial Nightscout install" and enter.  
 It will take about 15 minutes for this step to complete.  
 If you get an error message that says EINTEGRITY ending with (0 bytes) and it hangs (screen showing the same content for more than 10 minutes), just press CTRL and C keys at the same time to interrupt.  Exit and open a new terminal.  Repeat running item 1 on the menu.  
   
