@@ -15,7 +15,7 @@ If you want to use this while still using Heroku, set this up, and add the link 
 You will need a credit card to set up billing.  
   
 It will take a while (about 90 minutes) to complete the entire setup.  
-**Video** clips are included to help with setup.  They have no sound.  To enlarge, click on the square symbol on the left side of the speaker symbol at the bottom of the video.  
+**Video** clips are included to help with setup.  They have no sound.  To enlarge, click on the square symbol on the right side of the speaker symbol at the bottom of the video.  
 <br/>  
   
 #### 1- ["No IP" registration](./noip_com)
