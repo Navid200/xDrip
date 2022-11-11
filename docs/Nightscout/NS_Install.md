@@ -14,7 +14,7 @@ Copy and paste the following highlighted line into the terminal of your Nighscou
 You will be presented with a notification.  To acknowledge, you need to select OK.  However, you will not be able to use the mouse.  Just press enter.  
 It will take 1 minute to complete a preliminary installation step.  You will then see a note or the status page.  If the note directs you to delete the machine and create a new one or if any item on the status page is in red, it mean you made an incorrect selection when you created the virtual machine.  The following table shows what you will see depending on each possible incorrect choice.  
   
-| Incorrect choice | Status page |  
+| Incorrect choice | Outcome |  
 | ---------------- | ----------- |  
 | Machine type | [<img src="./images/NoMicro_icon.png">](./images/NoMicro.png) |  
 | Disk type | [<img src="./images/NotStandard_Icon.png">](./images/NotStandard.png) |  
