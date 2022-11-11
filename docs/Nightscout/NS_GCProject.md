@@ -14,7 +14,7 @@ You will be taken to registration for Google Cloud for free.  Select your countr
 ![](./images/Country.png)  
 On the registration second page, choose individual.  Enter your address.  Enter your credit card details.  Start free trial.  
   
-<video width="400" controlsList="nodownload" src="./video/VM.mp4" controls>  
+<video width="400" controlsList="nodownload" src="./video/GC.mp4" controls>  
 </video>  
 <br/>  
 <br/>  
@@ -25,7 +25,7 @@ You will be asked to describe yourself.  Answer the questions and click on Done.
   
 By default, a new project titled "My First Project" is created for you.  You can use it or create another.  
   
-<video width="400" controlsList="nodownload" src="./video/VM2.mp4" controls>  
+<video width="400" controlsList="nodownload" src="./video/GC2.mp4" controls>  
 </video>  
 <br/>  
 <br/>  
@@ -41,7 +41,7 @@ Enable.
 
 If you didn't take care of entering your credit card details already, you will be asked for it now.  Enter the details and enable billing.  
   
-<video width="400" controlsList="nodownload" src="./video/VM3.mp4" controls>  
+<video width="400" controlsList="nodownload" src="./video/GC3.mp4" controls>  
 </video>  
 <br/>  
 <br/>   
