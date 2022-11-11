@@ -8,7 +8,7 @@ Open a [terminal](./Terminal.md).
 Copy and paste the following highlighted line into the terminal of your Nighscout virtual machine and enter.  
 **Caution:** Be very careful not to copy it into any other computer as it could overwrite the contents of the machine.  
   
-<mark style="background-color: #dFbFff">curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>  
+<mark style="background-color: #eFdFef">curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>  
 <br/>  
   
 You will be presented with a notification.  To acknowledge, you need to select OK.  However, you will not be able to use the mouse.  Just press enter.  
