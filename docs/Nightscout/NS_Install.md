@@ -15,8 +15,10 @@ You will be presented with a notification.  To acknowledge, you need to select O
 It will take 2 minutes to complete a preliminary installation step.  The machine will automatically reboot then.  You will see a disconnect message on the screen.  Wait 30 seconds and click on retry.  This time when the terminal opens, you will see this menu:  
 ![](./images/Menu.png)  
   
-<video width="400" controlsList="nodownload" src="./Install1.mp4" controls>  
-</video>    
+<video width="400" controlsList="nodownload" src="./video/Install1.mp4" controls>  
+</video>  
+<br/>  
+<br/>  
 
 To continue the installation, select item 1 "Initial Nightscout install" and enter.  
 It will take about 15 minutes for this step to complete.  
