@@ -12,8 +12,8 @@ Copy and paste the following highlighted line into the terminal of your Nighscou
 <br/>  
   
 You will be presented with a notification.  To acknowledge, you need to select OK.  However, you will not be able to use the mouse.  Just press enter.  
-It will take 2 minutes to complete a preliminary installation step.  You will then see the status page.  If any item on the page is in red, it mean you made an incorrect selection when you created the virtual machine.  The following table shows what the status page should look like, as well as what it will look like for different incorrerct selections.  
-
+It will take 1 minute to complete a preliminary installation step.  You will then see a note or the status page.  If the note directs you to delete the machine and create a new one or if any item on the status page is in red, it mean you made an incorrect selection when you created the virtual machine.  The following table shows what you will see depending on each possible incorrect choice.  
+  
 | Incorrect choice | Status page |  
 | ---------------- | ----------- |  
 | Machine type | [<img src="./images/NoMicro_icon.png">](./images/NoMicro.png) |  
@@ -21,9 +21,8 @@ It will take 2 minutes to complete a preliminary installation step.  You will th
 | Disk size | [<img src="./images/DiskSize_Icon.png">](./images/DiskSize.png) |  
 | Firewall | [<img src="./images/Firewall_Icon.png">](./images/Firewall.png) |  
 | Ubuntu | [<img src="./images/WrongUbuntu_Icon.png">](./images/WrongUbuntu.png) |  
-
-
-
+| Region | Unfortunately, there is no way to detect what region the virtual machine is in.  Therefore, that is one setting you need to be very careful about when creating the virtual machine. |  
+  
 The machine will reboot then.  You will see a disconnect message on the screen.  Wait 30 seconds and click on retry.  This time when the terminal opens, you will see this menu:  
 ![](./images/Menu.png)  
   
