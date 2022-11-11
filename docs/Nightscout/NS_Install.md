@@ -24,6 +24,13 @@ To continue the installation, select item 1 (using arrows) "Initial Nightscout i
 It will take about 15 minutes for this step to complete.  
 If you get an error message that says EINTEGRITY ending with (0 bytes) and it hangs (screen showing the same content for more than 10 minutes), just press CTRL and C keys at the same time to interrupt.  Exit and open a new terminal.  Repeat running item 1 on the menu.  
   
+<video width="400" controlsList="nodownload" src="./video/Install2.mp4" controls>  
+</video>  
+<video width="400" controlsList="nodownload" src="./video/Install3.mp4" controls>  
+</video>  
+<br/>  
+<br/>  
+  
 After step 1 is completed, to proceed with installation, choose item 2 on the menu "noip.com association" and enter.  
 You will be asked to login.  
 ![](./images/Terminal.png)  
