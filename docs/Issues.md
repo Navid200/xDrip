@@ -24,7 +24,6 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [735](https://github.com/NightscoutFoundation/xDrip/issues/735) - [1196](https://github.com/NightscoutFoundation/xDrip/issues/1196) - [1518](https://github.com/NightscoutFoundation/xDrip/issues/1518) | Nightscout sync issue | Nightscout | | 2019.01.07 |  
 | [929](https://github.com/NightscoutFoundation/xDrip/issues/929) | Nightscout follower delay | Nightscout | | 2019.06.23 | 🐛 |  
 | [935](https://github.com/NightscoutFoundation/xDrip/issues/935) | Alert related to loop | | | 2019.06.27 |  
-| [972](https://github.com/NightscoutFoundation/xDrip/issues/972) | carelink support | | | 2019.08.05 |  
 | [1216](https://github.com/NightscoutFoundation/xDrip/issues/1216) | Vertical axis extremes | | | 2020.01.30 |  
 | [1229](https://github.com/NightscoutFoundation/xDrip/issues/1229) | Datricsae reading mismatch with xDrip graph | | | 2020.02.06 | 🐛 |  
 | [1266](https://github.com/NightscoutFoundation/xDrip/issues/1266) | Calibrations that are not entered by the user or a Bluetooth meter | | | 2020.03.10 | 🐛 |   
