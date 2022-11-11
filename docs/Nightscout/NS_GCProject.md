@@ -41,3 +41,8 @@ Enable.
 
 If you didn't take care of entering your credit card details already, you will be asked for it now.  Enter the details and enable billing.  
   
+<video width="400" controlsList="nodownload" src="./video/VM3.mp4" controls>  
+</video>  
+<br/>  
+<br/>   
+  
