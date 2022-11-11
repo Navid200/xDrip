@@ -14,6 +14,9 @@ You will be taken to registration for Google Cloud for free.  Select your countr
 ![](./images/Country.png)  
 On the registration second page, choose individual.  Enter your address.  Enter your credit card details.  Start free trial.  
   
+<video width="400" controlsList="nodownload" src="./video/VM.mp4" controls>  
+</video>  
+  
 You will be asked to describe yourself.  Answer the questions and click on Done.  
   
 ![](./images/GoogleCloud.png)  
