@@ -17,7 +17,7 @@ It will take 2 minutes to complete a preliminary installation step.  You will th
 | Incorrect choice | Status page |  
 | ---------------- | ----------- |  
 | None | |  
-| Machine type | [![](./images/NoMicro_icon.png)](./images/NoMicro.png) |  
+| Machine type | [<img src="./images/NoMicro_icon.png">](./images/NoMicro.png) |  
 
 
 
