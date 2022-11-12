@@ -1,6 +1,9 @@
 ## Free Tier  
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Free Tier  
   
+You will need a credit card to set up billing. This will be free as long as you don’t have too much outgoing traffic (more than 1GB per month) from your Google Cloud server. Regardless, a credit card is required. 
+  
+If you have a follower who is in Australia or China, the data traffic from your server to them will not qualify for Free Tier.  
 Here, We will understand the limitations and requirements of a free tier machine.  
   
 You can have a look at the details under the "Free Tier" heading [here](https://cloud.google.com/free/docs/free-cloud-features#free-tier).  
