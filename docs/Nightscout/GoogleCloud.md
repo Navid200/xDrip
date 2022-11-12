@@ -20,11 +20,10 @@ It will take a while (about 90 minutes) to complete the entire setup.
   
 #### 1- ["No IP" registration](./noip_com)
 #### 2- [Google Cloud project](./NS_GCProject)
-#### 3- [Understanding Free Tier](./NS_FreeTier)
-#### 4- [Virtual Machine](./VirtualMachine.md)
-#### 5- [Linux/Nightscout install](./NS_Install)
-#### 6- [Setting up Nightscout](./NS_setup)
-#### 7- [Setting up followers](./NS_Followers)  
+#### 3- [Virtual Machine](./VirtualMachine.md)
+#### 4- [Linux/Nightscout install](./NS_Install)
+#### 5- [Setting up Nightscout](./NS_setup)
+#### 6- [Setting up followers](./NS_Followers)  
 <br/>  
   
 #### [FreeDNS](./FreeDNS.md)
@@ -45,5 +44,6 @@ It will take a while (about 90 minutes) to complete the entire setup.
 #### [Mobile](./Mobile.md)
 #### [Reinstall](./Reinstall.md)
 #### [Will this be free?](./Free.md)
+#### [Understanding Free Tier](./NS_FreeTier)
 #### [Will this work in Australia or China?](./AustraliaChina.md)
   
