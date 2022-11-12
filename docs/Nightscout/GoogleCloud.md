@@ -43,7 +43,6 @@ It will take a while (about 90 minutes) to complete the entire setup.
 #### [Restart](./Restart)
 #### [Mobile](./Mobile.md)
 #### [Reinstall](./Reinstall.md)
-#### [Will this be free?](./Free.md)
-#### [Understanding Free Tier](./NS_FreeTier)
+#### [Will this be free?](./NS_FreeTier)
 #### [Will this work in Australia or China?](./AustraliaChina.md)
   
