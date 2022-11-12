@@ -31,7 +31,7 @@ It will take a while (about 90 minutes) to complete the entire setup.
 #### [Restore](./DatabaseRestore.md)
 #### [Nightscout variables](./NS_Variables)
 #### [Update/Customize Nightscout](./update_nightscout.md)
-#### [Update command files (not Nightscout itself) to latest release](./NS_SyncExecutables)
+#### [Update command files & menus(not Nightscout itself)](./NS_SyncExecutables)
 #### [Data Transfer](./NS_Transfer)
 #### [Maintenance](./Maintenance)
 <br/>  
