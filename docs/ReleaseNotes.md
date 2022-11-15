@@ -5,6 +5,7 @@ Major releases are identified here with brief descriptions.
   
 | Release | Notes |  
 |---------|-------|  
+| [2022.11.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.15) | Quiet Engineering mode notification |  
 | [2022.11.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.08) | Companion backfill - Medtronic Guardian Connect |  
 | [2022.11.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.05b) | Companion backfill & History fix |  
 | [2022.11.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.04) | Companion App backfill fix |  
