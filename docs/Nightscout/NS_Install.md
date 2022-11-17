@@ -48,11 +48,10 @@ You will be asked to login.
 To log in, use the email address and password you used to register for noip.com.  
   
 Leave the update interval at 30.  
-select N for running command during update.  
+For the next question, you don't need to press enter.  Press N for running command at successful update (no need to press enter).  
 Enter email address "used for urgent renewal ...".  
 Press A to accept the terms of service.  
 Press N to decline sharing email address.  
-Select 2 to redirect to secure https.  
   
 You will be asked to change the API secret.  This is the password you will login to Nightscout with.  
 Enter a password and take note.    
