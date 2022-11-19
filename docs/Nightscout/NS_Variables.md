@@ -2,9 +2,22 @@
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Variables  
   
 After [setting up Nightscout](./NS_setup), you can edit your Nightscout variables if needed.  
-  
 To edit your Nightscout variables, open a [terminal](./Terminal).  
-Select "Edit Nightscout Variables" in the [menu](./Menu.md) and enter.  
+
+
+  
+---  
+  
+**Using a web browser**  
+Select "Edit variables in a browser" in the [menu](./Menu.md) and enter.  
+Be patient.  In a minute, you will be presented with a URL on screen.  Copy it, open a web browser, and paste it into the address bar of the browser.  
+You will have 15 minutes, from when you clicked in the menu, to use the browser to edit the variables.  You can add variables, edit or delete them.  
+After you are done, you can just close the browser.  You will need to restart the server (Nightscout).  After a restart, the edited variables will be in effect.  
+  
+---  
+  
+**Using a text editor**  
+Select "Edit variables" in the [menu](./Menu.md) and enter.  
   
 This will open, using nano, the file containing the variables for edit.  
 ![](./images/nsconfig.png)  
