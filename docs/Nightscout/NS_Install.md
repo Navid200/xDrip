@@ -45,21 +45,14 @@ You will see error messages.  Please be patient allowing the process to complete
   
 After phase 1 is completed, to proceed with installation, choose item 3 on the menu "Installation Phase 2" and enter.    
   
-You will be asked to choose API-SECRET.  Enter a password and take a note.  You will need it to access Nightscout.  
+You will be asked to choose API-SECRET.  Enter a password and take note.  You will need it to access Nightscout.  
 <video width="400" controlsList="nodownload" src="./video/Install4.mp4" controls>  
 </video>  
 <br/>  
 <br/>  
-
-Leave the update interval at 30.  
-For the next question, you don't need to press enter.  Press N for running command at successful update (no need to press enter).  
-Enter email address "used for urgent renewal ...".  
-Press A to accept the terms of service.  
-Press N to decline sharing email address.  
   
-You will be asked to change the API secret.  This is the password you will login to Nightscout with.  
-Enter a password and take note.    
-  
-When installation is complete, the machine will automatically reboot again and you will see the disconnect message again.  
+You will be asked to enter your FreeDNS user ID and password.  Enter those.  If you have more than one subdomain, you will be asked to identify the one you want to use.  
+You may be directed to exit and try again.  After sucessful setup, you will be asked to enter email address for security notices.  Enter the same email address you used to create a FreeDNS account.  
+You will be asked to confirm a restart.  Please do.  You will see the disconnect message.  
 Wait 30 seconds, and Nightscout will be running.  
  
