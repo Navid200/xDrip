@@ -16,7 +16,7 @@ It will take 1 minute to complete a preliminary installation step.  You will the
   
 | Incorrect choice | Outcome |  
 | ---------------- | ----------- |  
-| Region | [<img src="./images/Region_icon.png">](./images/Region.png) |  
+| Region | [<img src="./images/Region_Icon.png">](./images/Region.png) |  
 | Machine type | [<img src="./images/NoMicro_icon.png">](./images/NoMicro.png) |  
 | Disk type | [<img src="./images/NotStandard_Icon.png">](./images/NotStandard.png) |  
 | Disk size | [<img src="./images/DiskSize_Icon.png">](./images/DiskSize.png) |  
