@@ -8,7 +8,7 @@ Thanks to tzachi-dar, senior xDrip developer, for ideas, development of critical
 <br/>  
   
 ---  
-**WARNING: There has been a new release.  This guide will be updated to refelct that shortly (an hour), at which point, this note will be removed.**
+**WARNING: There has been a new release (November 19, 2022).  This guide will be updated to refelct that shortly (an hour), at which point, this note will be removed.**
   
 Please provide [feedback](https://github.com/NightscoutFoundation/xDrip/discussions).  
 If you want to use this while still using Heroku, set this up, and add the link to your xDrip Nightscout upload URL, separated by a space from your Heroku link.  Now, xDrip will continue to upload to your Heroku.  But, also upload to your Google Cloud Nightscout.
