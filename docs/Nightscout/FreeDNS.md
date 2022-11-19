@@ -1,7 +1,7 @@
 ## Free DNS
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> FreeDNS  
 
-Follow these instructions in order to switch to using FreeDNS instead of noip.com.  
+Follow these instructions in order to use FreeDNS, which you will need in order to set up Nightscout on Google Cloud.  
 <br/>  
   
 ---  
