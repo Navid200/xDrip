@@ -17,7 +17,9 @@ Be patient.  In a minute, you will be presented with a URL on screen.  Please do
 To copy, after highlighting it by clicking and dragging, right click and choose Copy.  
 ![](./images/Copy.png)  
 
-Open a web browser, and paste it into the address bar of the browser.  
+Open a web browser, and paste it into the address bar of the browser.  You will see the variable edit page as shown next.  
+![](./images/Server.png)  
+  
 You will have 15 minutes, from when you clicked in the menu, to use the browser to edit the variables.  You can add variables, edit or delete them.  
 After you are done, you can just close the browser.  You will need to restart the server (Nightscout).  After a restart, the edited variables will be in effect.  
   
