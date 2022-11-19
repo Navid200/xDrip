@@ -19,7 +19,7 @@ It will take a while (about 90 minutes) to complete the entire setup.
 **Video** clips are included to help with setup.  They have no sound.  To enlarge, click on the square symbol on the right side of the speaker symbol at the bottom of the video frame.  
 <br/>  
   
-#### 1- ["No IP" registration](./noip_com)
+#### 1- [FreeDNS](./FreeDNS.md)
 #### 2- [Google Cloud project](./NS_GCProject)
 #### 3- [Virtual Machine](./VirtualMachine.md)
 #### 4- [Linux/Nightscout install](./NS_Install)
@@ -27,11 +27,11 @@ It will take a while (about 90 minutes) to complete the entire setup.
 #### 6- [Setting up followers](./NS_Followers)  
 <br/>  
   
-#### [FreeDNS](./FreeDNS.md)
 #### [Backup](./DatabaseBackup.md) before deleting the virtual machine.
 #### [Restore](./DatabaseRestore.md)
 #### [Nightscout variables](./NS_Variables)
-#### [Update/Customize Nightscout](./update_nightscout.md)
+#### [FreeDNS Utility](./FreeDNS_Util.md)
+#### [Customize Nightscout](./update_nightscout.md)
 #### [Update commands & menus](./NS_SyncExecutables) (not Nightscout itself)
 #### [Data Transfer](./NS_Transfer)
 #### [Maintenance](./Maintenance)
