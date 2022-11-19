@@ -33,7 +33,8 @@ If nothing is red on the status page, just press enter to close the status page.
 
 To continue the installation, select item 2 (using arrows) "Installation Phase 1" and enter.  
 It will take about 15 minutes for this step to complete.  
-If you get an error message that says EINTEGRITY ending with (0 bytes) and it hangs (screen showing the same content for more than 1 minute), just press CTRL and C keys at the same time to interrupt.  Exit and open a new terminal.  Repeat running item 2 on the menu.  
+If SSH disconnects and you see a disconnect message, please reconnect and run sitem 2 again.  
+You will see error messages.  Please be patient allowing the process to complete.  
   
 <video width="400" controlsList="nodownload" src="./video/Install2.mp4" controls>  
 </video>  
