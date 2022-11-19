@@ -26,7 +26,7 @@ Save.
   
 Now, if you go to [Subdomains](https://freedns.afraid.org/subdomain/), you will see your new subdomain:  
 ![](./images/FD_hostname.png)  
-That is what you will be using to access your Nightscout in a web browser after the switch.
+That is what you will be using to access your Nightscout in a web browser.  
 <br/>  
 <br/>  
   
