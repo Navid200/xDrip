@@ -43,11 +43,14 @@ You will see error messages.  Please be patient allowing the process to complete
 <br/>  
 <br/>  
   
-After phase 1 is completed, to proceed with installation, choose item 3 on the menu "Installation Phase 2" and enter.  
-You will be asked to login.  
-![](./images/Terminal.png)  
-To log in, use the email address and password you used to register for noip.com.  
+After phase 1 is completed, to proceed with installation, choose item 3 on the menu "Installation Phase 2" and enter.    
   
+You will be asked to choose API-SECRET.  Enter a password and take a note.  You will need it to access Nightscout.  
+<video width="400" controlsList="nodownload" src="./video/Install4.mp4" controls>  
+</video>  
+<br/>  
+<br/>  
+
 Leave the update interval at 30.  
 For the next question, you don't need to press enter.  Press N for running command at successful update (no need to press enter).  
 Enter email address "used for urgent renewal ...".  
