@@ -43,7 +43,7 @@ You will see error messages.  Please be patient allowing the process to complete
 <br/>  
 <br/>  
   
-After step 1 is completed, to proceed with installation, choose item 2 on the menu "noip.com association" and enter.  
+After phase 1 is completed, to proceed with installation, choose item 3 on the menu "Installation Phase 2" and enter.  
 You will be asked to login.  
 ![](./images/Terminal.png)  
 To log in, use the email address and password you used to register for noip.com.  
