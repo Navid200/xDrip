@@ -33,7 +33,7 @@ If nothing is red on the status page, just press enter to close the status page.
 
 To continue the installation, select item 2 (using arrows) "Installation Phase 1" and enter.  
 It will take about 15 minutes for this step to complete.  
-If SSH disconnects and you see a disconnect message, please reconnect and run sitem 2 again.  
+If SSH disconnects and you see a disconnect message, please reconnect and run item 2 again.  
 You will see error messages.  Please be patient allowing the process to complete.  
   
 <video width="400" controlsList="nodownload" src="./video/Install2.mp4" controls>  
