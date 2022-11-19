@@ -16,12 +16,12 @@ It will take 1 minute to complete a preliminary installation step.  You will the
   
 | Incorrect choice | Outcome |  
 | ---------------- | ----------- |  
+| Region | [<img src="./images/Region_icon.png">](./images/Region.png)
 | Machine type | [<img src="./images/NoMicro_icon.png">](./images/NoMicro.png) |  
 | Disk type | [<img src="./images/NotStandard_Icon.png">](./images/NotStandard.png) |  
 | Disk size | [<img src="./images/DiskSize_Icon.png">](./images/DiskSize.png) |  
 | Firewall | [<img src="./images/Firewall_Icon.png">](./images/Firewall.png) |  
 | Ubuntu | [<img src="./images/WrongUbuntu_Icon.png">](./images/WrongUbuntu.png) |  
-| Region | Unfortunately, there is no way to detect what region the virtual machine is in from within the virtual machine itself.  Therefore, that is one setting you need to be very careful about when creating the virtual machine. |  
   
 The machine will reboot then.  You will see a disconnect message on the screen.  Wait 30 seconds and click on retry.  This time when the terminal opens, you will see this menu:  
 ![](./images/Menu.png)  
