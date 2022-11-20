@@ -33,7 +33,6 @@ It will take a while (about 90 minutes) to complete the entire setup.
 #### [Customize Nightscout](./update_nightscout.md)
 #### [Update commands & menus](./NS_SyncExecutables) (not Nightscout itself)
 #### [Data Transfer](./NS_Transfer)
-#### [Maintenance](./Maintenance)
 <br/>  
   
 ---  
