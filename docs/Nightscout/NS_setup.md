@@ -16,14 +16,14 @@ This is what you need to do in xDrip on your master phone.
 Go to xDrip Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API).  
 Enable at the top.  
 
-Let's say the hostname you chose when you signed up for noip.com was <span style="color:green">justausername\.ddns\.net</span>.  
-If you've forgotten what it is, you can log into noip.com and go to dashboard.  The hostname is shown on that page under Free Dynamic DNS Hostname.  
+Let's say the subdomain you chose when you signed up for FreeDNS was <span style="color:green">justausername\.chickenkiller\.com</span>.  
+If you've forgotten what it is, you can log into FreeDNS and go to subdomains.  
   
 And let's say you set the API secret, while finalizing the Nightscout installation as explained previously, to <span style="color:orange">ThisIsMyPassword</span>.  
 If you've forgotten the password, you can see it on the first line of the nsconfig file ([Variables](./NS_Variables)).  
   
 Tap on Base URL.  Enter the following.  
-https://<span style="color:orange">ThisIsMyPassword</span>@<span style="color:green">justausername\.ddns\.net</span>/api/v1/  
+https://<span style="color:orange">ThisIsMyPassword</span>@<span style="color:green">justausername\.chickenkiller\.com</span>/api/v1/  
   
 That's it.  Your xDrip readings should now upload to your Nightscout on Google Cloud.  
   
