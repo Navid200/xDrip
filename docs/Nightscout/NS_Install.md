@@ -43,7 +43,8 @@ You will see error messages.  Please be patient allowing the process to complete
 <br/>  
 <br/>  
   
-After phase 1 is completed, to proceed with installation, choose item 3 on the menu "Installation Phase 2" and enter.    
+After phase 1 is completed, to proceed with installation, <span style="color:red">reboot the server by choosing item 12 from the menu</span>.  
+After a reboot, choose item 3 on the menu "Installation Phase 2" and enter.    
   
 You will be asked to choose API-SECRET.  Enter a password and take note.  You will need it to access Nightscout.  
 <video width="400" controlsList="nodownload" src="./video/Install4.mp4" controls>  
@@ -52,7 +53,8 @@ You will be asked to choose API-SECRET.  Enter a password and take note.  You wi
 <br/>  
   
 You will be asked to enter your FreeDNS user ID and password.  Enter those.  If you have more than one subdomain, you will be asked to identify the one you want to use.  
-You may be directed to exit and try again.  After sucessful setup, you will be asked to enter email address for security notices.  Enter the same email address you used to create a FreeDNS account.  
+You may be directed to exit and try again (internal error).  Do that.  If you are asked again to retry, please reboot the server before trying again.  
+After sucessful setup, you will be asked to enter email address for security notices.  Enter the same email address you used to create a FreeDNS account.  
 You will be asked to confirm a restart.  Please do.  You will see the disconnect message.  
 Wait 30 seconds, and Nightscout will be running.  
  
