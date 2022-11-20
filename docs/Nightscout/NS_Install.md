@@ -53,7 +53,9 @@ You will be asked to choose API-SECRET.  Enter a password and take note.  You wi
 <br/>  
   
 You will be asked to enter your FreeDNS user ID and password.  Enter those.  If you have more than one subdomain, you will be asked to identify the one you want to use.  
+  
 You may be directed to exit and try again (internal error).  Do that.  If you are asked again to retry, please reboot the server before trying again.  
+  
 After sucessful setup, you will be asked to enter email address for security notices.  Enter the same email address you used to create a FreeDNS account.  
 You will be asked to confirm a restart.  Please do.  You will see the disconnect message.  
 Wait 30 seconds, and Nightscout will be running.  
