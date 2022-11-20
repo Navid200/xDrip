@@ -1,13 +1,12 @@
 ## Update/Customize Nightscout
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Update  
+[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Customize  
   
 You need to have completed the Nightscout [installation](./NS_Install.md) steps before using this utility.  
-By default, it will install the latest release of official Nightscout.  
-But, you can also choose to install from a GitHub fork.  
+You can use it to install from a GitHub fork.  
   
 **<span style="color:red">During the process, which takes about 25 minutes, your Nightscout will not be operational.</span>**  If you need Nightscout for a loop, please create an alternative session and switch to it while updating the other.  
   
-To proceed, select "Update/Customize Nightscout" from the [menu](./Menu.md) and enter.  
+To proceed, select "Customize Nightscout" from the [menu](./Menu.md) and enter.  
 In a minute, the following dialog will show.  
 ![](./images/Dialog1.png)  
   
