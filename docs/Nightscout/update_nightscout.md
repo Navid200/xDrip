@@ -8,7 +8,7 @@ You can use it to install from a GitHub fork.
   
 To proceed, select "Customize Nightscout" from the [menu](./Menu.md) and enter.  
 In a minute, the following dialog will show.  
-![](./images/Dialog1.png)  
+![](./images/Dialog2.png)  
   
 You need to use the keyboard, not the mouse.  Use the arrow keys to move the cursor and enter to choose.  
 If you want to update Nightscout, choose Yes.  It will update Nightscout from the official repository.  
