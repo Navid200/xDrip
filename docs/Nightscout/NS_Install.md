@@ -3,6 +3,7 @@
   
 Now, we will update Linux on our [virtual machine](./NS_FreeTier), and install Nightscout on it.  You must have [FreeDNS](./FreeDNS.md) and [Google Project](./NS_GCProject.md) set up already to proceed.  
 <br/>  
+  
 ---  
   
 **Bootstrap**    
