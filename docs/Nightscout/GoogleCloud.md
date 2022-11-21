@@ -14,7 +14,9 @@ If you want to use this while still using Heroku, set this up, and add the link 
   
 You will need a credit card to set up billing.  
   
+To complete installation, you will need to go through the first 5 items on the list below.  If you have followers, you will also need to complete item 6 after.  
 It will take a while (about 90 minutes) to complete the entire setup.  
+The rest of the items you see on this page are optional items on the menu or issues you may run into and how to address them.  
 **Video** clips are included to help with setup.  They have no sound.  To enlarge, click on the square symbol on the right side of the speaker symbol at the bottom of the video frame.  
 <br/>  
   
