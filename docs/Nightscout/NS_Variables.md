@@ -10,7 +10,7 @@ To edit your Nightscout variables, open a [terminal](./Terminal).
   
 **Using a web browser**  
 Select "Edit variables in a browser" in the [menu](./Menu.md) and enter.  
-Be patient.  In a minute, you will be presented with a URL on screen.  Please don't use ctrl C to copy.  Ctrl C in Linux will terminate a proces.  
+Be patient.  In a minute, you will be presented with a URL on screen.  Please don't use ctrl C to copy.  Ctrl C in Linux will terminate a process.  
   
 ![](./images/ServerURL.png)  
   
