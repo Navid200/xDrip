@@ -56,9 +56,7 @@ You will see error messages.  Please be patient allowing the process to complete
 To complete the installation, choose item 3 on the menu "Installation Phase 2" and enter.    
   
 You will be asked to choose API-SECRET.  Enter a password and take note.  You will need it to access Nightscout.  Avoid the following characters.  
-$ " \  
-  
-If you are presented with the prompt to enter your FreeDNS user ID and password instead, please close the window.  Open a new window using SSH.  Use item 12 from the menu to reboot.  Wait 30 seconds.  Click on retry to reconnect.  Run installation phase 2 again.  
+$ " \   
   
 <video width="400" controlsList="nodownload" src="./video/Install4.mp4" controls>  
 </video>  
