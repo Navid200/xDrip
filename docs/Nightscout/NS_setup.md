@@ -26,6 +26,10 @@ Tap on Base URL.  Enter the following.
 https://<span style="color:orange">ThisIsMyPassword</span>@<span style="color:green">justausername\.chickenkiller\.com</span>/api/v1/  
   
 That's it.  Your xDrip readings should now upload to your Nightscout on Google Cloud.  
+<br/>  
   
-Alternatively, you can scan a QR code to automatically set up xDrip to upload to Nightscout.  To do that, use "Edit variables in a browser" from the menu.  After following the instructions and accessing the server in a browser, click on "Click here for QR configuration code" at the bottom of the page.  Then, scan the QR code that appers with xDrip.  However, please note that doing this will erase any existing URLs from xDrip.  Therefore, if you intend to upload to multiple Nightscout sites, please use the manual method explained above.  
+---  
+  
+#### **QR code**
+Alternatively, you can scan a QR code to automatically set up xDrip to upload to Nightscout.  To do that, use "Edit variables in a browser" from the menu.  After following the instructions and accessing the server in a browser, click on "Click here for QR configuration code" at the bottom of the page.  Then, scan the QR code that appears with xDrip.  However, please note that doing this will erase any existing URLs from xDrip.  Therefore, if you intend to upload to multiple Nightscout sites, please use the manual method explained above.  
   
