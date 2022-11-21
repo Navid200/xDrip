@@ -2,7 +2,10 @@
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Linux/Nightscout install  
   
 Now, we will update Linux on our [virtual machine](./NS_FreeTier), and install Nightscout on it.  You must have [FreeDNS](./FreeDNS.md) and [Google Project](./NS_GCProject.md) set up already to proceed.  
+<br/>  
+---  
   
+**Bootstrap**    
 Open a [terminal](./Terminal.md).  
 
 Copy and paste the following highlighted line into the terminal of your Nighscout virtual machine and enter.  
@@ -30,7 +33,10 @@ If nothing is red on the status page, just press enter to close the status page.
 </video>  
 <br/>  
 <br/>  
-
+  
+---  
+  
+**Phase 1**  
 To continue the installation, select item 2 (using arrows) "Installation Phase 1" and enter.  
 It will take about 15 minutes for this step to complete.  
 If SSH disconnects and you see a disconnect message, please reconnect and run item 2 again.  
@@ -44,6 +50,12 @@ You will see error messages.  Please be patient allowing the process to complete
 <br/>  
   
 After phase 1 is completed, to proceed with installation, <span style="color:red">reboot the server by choosing item 12 from the menu</span>.  
+<br/>  
+<br/>  
+  
+---
+  
+**Phase 2**  
 After a reboot, choose item 3 on the menu "Installation Phase 2" and enter.    
   
 You will be asked to choose API-SECRET.  Enter a password and take note.  You will need it to access Nightscout.  
