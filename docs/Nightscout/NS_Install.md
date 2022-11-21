@@ -50,14 +50,10 @@ You will see error messages.  Please be patient allowing the process to complete
 <br/>  
 <br/>  
   
-After phase 1 is completed, to proceed with installation, <span style="color:red">reboot the server by choosing item 12 from the menu</span>.  
-<br/>  
-<br/>  
-  
 ---
   
 **Phase 2**  
-After a reboot, choose item 3 on the menu "Installation Phase 2" and enter.    
+To complete the installation, choose item 3 on the menu "Installation Phase 2" and enter.    
   
 You will be asked to choose API-SECRET.  Enter a password and take note.  You will need it to access Nightscout.  Avoid the following characters.  
 $ " \  
