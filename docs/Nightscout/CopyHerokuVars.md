@@ -2,7 +2,7 @@
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Copy Heroku Variables  
   
 It's always best to adjust variables/settings for each device/setup individually.  However, there are times you may have too many variables and you prefer to copy everything first.  
-This may result in some variables, on the new setup, that may need to be changed or deleted.  
+This may result in some variables, in the new setup, that may need to be changed or deleted.  
   
 You have two options. 
   
