@@ -11,6 +11,7 @@ However, you can use this utility only if you have not enabled multi-factor auth
 You will need your Heroku user ID (email) and password.  To run the utility, enter the following into the terminal.  
   
 <mark style="background-color: #eFdFef">/xDrip/scripts/GetHerokuVars.sh</mark>  
+<br/>  
   
 2- Log into Heroku.  
 Go to the dashboard.  Click on your app that contains your Nightscout.  Click on "Settings".  Click on "Reveal Config Vars".  
