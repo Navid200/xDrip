@@ -66,7 +66,9 @@ $ " \
 <br/>  
 <br/>  
   
-You will be asked to enter your FreeDNS user ID and password.  Enter those.  If you have more than one subdomain, you will be asked to identify the one you want to use.  
+You will be asked to enter your FreeDNS user ID and password.  
+![](./images/FreeDNS_IDPass.png)  
+Enter those.  If you have more than one subdomain, you will be asked to identify the one you want to use.  
   
 You may be directed to exit and try again (internal error).  Do that.  If you are asked again to retry, please close the window.  Open a new window.  Use item 12 from the menu to reboot the server.  Wait 30 seconds.  Click on retry to reconnect.  Run installation phase 2 again.  
   
