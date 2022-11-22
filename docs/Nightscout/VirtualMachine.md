@@ -15,9 +15,11 @@ Set machine type to "e2-micro".
   
 Edit "Boot Disk" and modify as shown below.  
 ![](./images/Disk2.png)  
-Click on "Select".  
-If yoy don't see the required version of Ubuntu, please click on "Show 20 more of ..." at the bottom to view more options.  You may need to do that several times until you see the required version.  
+  
+If you don't see the required version of Ubuntu, please click on "Show 20 more of ..." at the bottom to view more options.  You may need to do that several times until you see the required version.  
 ![](./images/Show20More.png)  
+  
+Click on "Select".    
   
 Under firewall, enable both http and https.  
 ![](./images/Firewall2.png)  
