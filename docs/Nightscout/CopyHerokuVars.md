@@ -3,8 +3,8 @@
   
 It's always best to adjust variables/settings for each device/setup individually.  However, there are times you may have too many variables and you prefer to copy everything first.  
 This may result in some variables, in the new setup, that may need to be changed or deleted.  
-  
-You have two options. 
+You have two options.  
+<br/>  
   
 1- We have a utilty that copies all your Heroku variables into a file.  You can then view and edit it first and then, add it to your variables, which are in /etc/nsconfig.  
 However, you can use this utility only if you have not enabled multi-factor autherntication on Heroku.  
