@@ -75,7 +75,7 @@ You may be directed to exit and try again (internal error).  Do that.  If you ar
   
 After successful setup, you will be asked to enter an email address for security notices.  
 ![](./images/emailUrgentRenewal.png)  
-Enter the same email address you used to create a FreeDNS account.  
+Enter an email address.  
 You will be asked to confirm a restart.  Please do.  You will see the disconnect message.  
 Wait 30 seconds, and Nightscout will be running.  
  
