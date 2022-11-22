@@ -73,7 +73,9 @@ If you have more than one subdomain, you will be asked to identify the one you w
   
 You may be directed to exit and try again (internal error).  Do that.  If you are asked again to retry, please close the window.  Open a new window.  Use item 12 from the menu to reboot the server.  Wait 30 seconds.  Click on retry to reconnect.  Run installation phase 2 again.  
   
-After successful setup, you will be asked to enter email address for security notices.  Enter the same email address you used to create a FreeDNS account.  
+After successful setup, you will be asked to enter an email address for security notices.  
+![](./images/emailUrgentRenewal.png)  
+Enter the same email address you used to create a FreeDNS account.  
 You will be asked to confirm a restart.  Please do.  You will see the disconnect message.  
 Wait 30 seconds, and Nightscout will be running.  
  
