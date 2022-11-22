@@ -31,6 +31,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Backup](./DatabaseBackup.md) before deleting the virtual machine.
 #### [Restore](./DatabaseRestore.md)
 #### [Nightscout variables](./NS_Variables)
+#### [Copying Heroku variables](./CopyHerokuVars.md)
 #### [FreeDNS Utility](./FreeDNS_Util.md)
 #### [Customize Nightscout](./update_nightscout.md)
 #### [Update commands & menus](./NS_SyncExecutables) (not Nightscout itself)
