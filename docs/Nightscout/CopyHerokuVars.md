@@ -7,7 +7,7 @@ This may result in some variables, in the new setup, that may need to be changed
 You have two options. 
   
 1- We have a utilty that copies all your Heroku variables into a file.  You can then view and edit it first and then, add it to your variables, which are in /etc/nsconfig.  
-However, youc an use this utility only if you have not enabled multi-factor autherntication on Heroku.  
+However, you can use this utility only if you have not enabled multi-factor autherntication on Heroku.  
 You will need your Heroku user ID (email) and password.  To run the utility, enter the following into the terminal.  
   
 <mark style="background-color: #eFdFef">/xDrip/scripts/GetHerokuVars.sh</mark>  
