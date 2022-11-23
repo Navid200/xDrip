@@ -5,7 +5,7 @@ If you use xDrip with a Dexcom G5 or G6 transmitter, this page contains informat
 
 #### [Dexcom basics](./Dexcom-Basics)
 #### [G5 recommended settings](./G5-Recommended-Settings)
-#### [G6 recommended settings](./G6-Recommended-Settings)
+#### [G6 (and Dex1) recommended settings](./G6-Recommended-Settings)
 #### [Start G6](./Starting-G6)
 #### [Dexcom One](./Dexcom-One)
 <br/>  
