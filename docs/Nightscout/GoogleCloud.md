@@ -9,6 +9,10 @@ Thanks to tzachi-dar, senior xDrip developer, for ideas, development of critical
   
 ---  
   
+**<span style="color:orange">If you installed Nightscout on Google Cloud before November 16,2022,</span>** please use "Update scripts" from the main menu twice to update.  
+  
+---  
+  
 Please provide [feedback](https://github.com/NightscoutFoundation/xDrip/discussions).  
 If you want to use this while still using Heroku, set this up, and add the link to your xDrip Nightscout upload URL, separated by a space from your Heroku link.  Now, xDrip will continue to upload to your Heroku.  But, also upload to your Google Cloud Nightscout.
   
