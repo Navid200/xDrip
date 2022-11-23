@@ -9,7 +9,7 @@ Thanks to tzachi-dar, senior xDrip developer, for ideas, development of critical
   
 ---  
   
-**<span style="color:orange">If you installed Nightscout on Google Cloud before November 16,2022,</span>** please use "Update scripts" from the main menu twice to update.  
+**<span style="color:red">If you installed Nightscout on Google Cloud before November 16,2022,</span>** please use "Update scripts" from the main menu twice to update.  
   
 ---  
   
