@@ -23,3 +23,5 @@ Give a name (all lower case) to the snapshot so that you can easily identify it 
 Make sure to select Regional under Location.  By default, Multi-regional is selected.  Otherwise, there may be a cost.  
 ![](./images/SnapshotRegion.png)  
   
+Click on "Create" at the bottom of the page.  
+Depending on how much data you have on the disk, this could take a different amount of time to complete.  For a fresh install with no database imported yet, it take about a minute.  
