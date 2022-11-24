@@ -1,7 +1,7 @@
 ## Google Cloud snapshots
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Google Cloud](./GoogleCloud) >> Snapshots  
   
-You can create a snapshot of the virtual machine disk.  Then, if you experiement and run into trouble, you can always restore the snapshot to reurn the disk to the way it was ehen you created the snapshot.
+You can create a snapshot of the virtual machine disk.  Then, if you experiment and run into trouble, you can always restore the snapshot to return the disk to the way it was when you created the snapshot.
 Of course this means any data added to the database since the snapshot was created will be lost also.  So, you should use this utility taking into account that consequence.  
 <br/>  
   
@@ -9,7 +9,7 @@ Of course this means any data added to the database since the snapshot was creat
 **Create**  
 Let's go through the steps.  Let's say we have run bootstrap, the first step in installation.  And let's create a snapshot.   
   
-When on the Compuete Engine page, click on Snapshots in the left pane.  
+When on the Compute Engine page, click on Snapshots in the left pane.  
 ![](./images/Snapshots.png)  
   
 Click on create snapshot at the top.  
@@ -18,7 +18,7 @@ Click on create snapshot at the top.
 Select the disk in your virtual machine from the pull-down menu under "Source disk".  
 ![](./images/SourceDisk.png)  
   
-If you have just completed an install phase, you may see nothng under the pull-down menu.  Just return to the dahsboard and go through the menu items to get back to the snapshot creation page.  
+If you have just completed an install phase, you may see nothing under the pull-down menu.  Just return to the dashboard and go through the menu items to get back to the snapshot creation page.  
   
 Give a name (all lower case) to the snapshot so that you can easily identify it later.  
 ![](./images/SnapshotTitle.png)  
@@ -51,7 +51,7 @@ Only if you have no data on the machine, or only after you have backed up your d
 Click on create instance.  
 ![](./images/CreateInstance2.png)  
   
-Choose region.  It's not enough to choose a free region.  It must be the same region the machine in the snapshot was in.  Looking at the snapshot, you can see what reagion the machine was in under the Location heading.  
+Choose region.  It's not enough to choose a free region.  It must be the same region the machine in the snapshot was in.  Looking at the snapshot, you can see what region the machine was in under the Location heading.  
   
 Choose e2-micro for the machine type.  
   
@@ -60,7 +60,7 @@ At the top, click on "Snapshots".
 ![](./images/DiskChangeSnapshot.png)  
   
 Select the snapshot.  
-Make sure to change disk type to standard.  By default, it is set to ballanced.  Click on select.  
+Make sure to change disk type to standard.  By default, it is set to balanced.  Click on select.  
 ![](./images/SnapshotDiskType.png)  
   
 Under firewall options, enable allow http traffic and allow https traffic.  
