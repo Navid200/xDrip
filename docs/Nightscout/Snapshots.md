@@ -8,3 +8,7 @@ Let's go through the steps.  Let's say we have run bootstrap, the first step in 
   
 When on the Compuete Engine page, click on Snapshots in the left pane.  
 ![](./images/Snapshots.png)  
+  
+Click on create snapshot at the top.  
+![](./images/Snapshots2.png)  
+  
