@@ -49,7 +49,7 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ---  
   
-**Tips**  
+**Tips**
 #### [Terminal](./Terminal)
 #### [Connection Failed](./ConnectionFailed.md)
 #### [Menu](./Menu.md)
