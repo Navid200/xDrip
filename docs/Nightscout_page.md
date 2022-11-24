@@ -1,8 +1,6 @@
 # xDrip & Nightscout  
 [xDrip](../README.md) >> [Features](./Features_page) >> xDrip & Nightscout  
   
-[Nightscout on Google Cloud](./Nightscout/GoogleCloud)  
-  
 Nightscout can be a repository of all your xDrip readings.  
 Your readings are important because you need them to create a report for your endocrinologist.  
 You yourself may like to create reports for different time periods in order to examine how your control has changed over long periods of time.  
