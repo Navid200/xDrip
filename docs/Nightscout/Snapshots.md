@@ -3,7 +3,10 @@
   
 You can create a snapshot of the virtual machine disk.  Then, if you experiement and run into trouble, you can always restore the snapshot to reurn the disk to the way it was ehen you created the snapshot.
 Of course this means any data added to the database since the snapshot was created will be lost also.  So, you should use this utility taking into account that consequence.  
+<br/>  
   
+---  
+**Create**  
 Let's go through the steps.  Let's say we have run bootstrap, the first step in installation.  And let's create a snapshot.   
   
 When on the Compuete Engine page, click on Snapshots in the left pane.  
