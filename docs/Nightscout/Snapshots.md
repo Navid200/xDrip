@@ -20,3 +20,6 @@ If you have just completed an install phase, you may see nothng under the pull-d
 Give a name (all lower case) to the snapshot so that you can easily identify it later.  
 ![](./images/SnapshotTitle.png)  
   
+Make sure to select Regional under Location.  By default, Multi-regional is selected.  Otherwise, there may be a cost.  
+![](./images/SnapshotRegion.png)  
+  
