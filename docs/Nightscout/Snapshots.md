@@ -30,5 +30,5 @@ Pay attention to the total size of your snapshots.  If you go over a limit (5GB)
 ![](./images/Snapshots3.png)  
   
 The following screenshot shows the free tier limits.  
-![](FreeTierSnapshot.png)  
+![](./images/FreeTierSnapshot.png)  
   
