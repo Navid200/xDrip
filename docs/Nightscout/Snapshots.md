@@ -34,4 +34,16 @@ Pay attention to the total size of your snapshots.  If you go over a limit (5GB)
   
 The following screenshot shows the free tier limits.  
 ![](./images/FreeTierSnapshot.png)  
+<br/>  
+  
+---  
+  
+**Restore**
+Let's now go through the steps of restoring a snapshot.  
+  
+**WARNING**
+You can have only one machine in order to satisfy the free tier limits.  Therefore, in order to restore a snapshot, you will need to first delete your existing machine.  Doing that (deleting your machine) will delete your Nightscout database.  
+Please don't proceed if you are not sure what you are doing.  
+This may be a useful tool to have while yo uare experimenting with your choices and have not copied your database yet.  
+  
   
