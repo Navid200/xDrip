@@ -1,6 +1,11 @@
 ## Nightscout on Google Cloud & security
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Security  
   
+There have been questions about how robust Nightscout on Google Cloud may be compared to alternatives.  We reached out to our head developer, JamOrHam, for advice and the following was his response.  
+<br/>  
+  
+---   
+  
 In terms of security, the google cloud vps only has web port open. Google manage the ssh keys. The web port has a nginx front-end using openssl and node-js.  
 These are the main critical attack surfaces and these components power half of the internet and we have automatic updates enabled for them.  
 So, any vulnerability will be automatically patched.  
