@@ -59,3 +59,8 @@ Under boot disk, click on change.
 At the top, click on "Snapshots".  
 ![](./images/DiskChangeSnapshot.png)  
   
+Select the snapshot.  
+Make sure to change disk type to standard.  By default, it is set to ballanced.  Click on select.  
+![](./images/SnapshotDiskType.png)  
+  
+
