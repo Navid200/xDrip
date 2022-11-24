@@ -12,3 +12,8 @@ When on the Compuete Engine page, click on Snapshots in the left pane.
 Click on create snapshot at the top.  
 ![](./images/Snapshots2.png)  
   
+Select the disk in your virtual machine from the pull-down menu under "Source disk".  
+![](./images/SourceDisk.png)  
+  
+If you have just completed an install phase, you may see nothng under the pull-down menu.  Just return to the dahsboard and go through the menu items to get back to the snapshot creation page.  
+  
