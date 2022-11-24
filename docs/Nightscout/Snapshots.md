@@ -53,3 +53,9 @@ Click on create instance.
   
 Choose region.  It's not enough to choose a free region.  It must be the same region the machine in the snapshot was in.  Looking at the snapshot, you can see what reagion the machine was in under the Location heading.  
   
+Choose e2-micro for the machine type.  
+  
+Under boot disk, click on change.  
+At the top, click on "Snapshots".  
+![](./images/DiskChangeSnapshot.png)  
+  
