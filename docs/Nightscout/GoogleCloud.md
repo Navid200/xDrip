@@ -25,6 +25,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 **Video** clips are included to help with setup.  They have no sound.  To enlarge, click on the square symbol on the right side of the speaker symbol at the bottom of the video frame.  
 <br/>  
   
+**Installation**  
 #### 1- [FreeDNS](./FreeDNS.md)
 #### 2- [Google Cloud project](./NS_GCProject)
 #### 3- [Virtual Machine](./VirtualMachine.md)
@@ -33,6 +34,9 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### 6- [Setting up followers](./NS_Followers)  
 <br/>  
   
+---  
+  
+**Utilities**  
 #### [Backup](./DatabaseBackup.md) before deleting the virtual machine.
 #### [Restore](./DatabaseRestore.md)
 #### [Nightscout variables](./NS_Variables)
@@ -45,6 +49,7 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ---  
   
+**Tips**  
 #### [Terminal](./Terminal)
 #### [Connection Failed](./ConnectionFailed.md)
 #### [Menu](./Menu.md)
@@ -54,4 +59,5 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Will this be free?](./NS_FreeTier)
 #### [Will this work in Australia or China?](./AustraliaChina.md)
 #### [Edit variables using a browser does not work!](UpdateScripts_22.md)
+#### [Securiry](./Security.md)
   
