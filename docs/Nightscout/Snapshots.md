@@ -26,6 +26,9 @@ Make sure to select Regional under Location.  By default, Multi-regional is sele
 Click on "Create" at the bottom of the page.  
 Depending on how much data you have on the disk, this could take a different amount of time to complete.  For a fresh install with no database imported yet, it take about a minute.  
   
-Pay attention to the total size of your snapshots.  If you go over a limit, it will not be free.  
+Pay attention to the total size of your snapshots.  If you go over a limit (5GB), it will not be free.  
 ![](./images/Snapshots3.png)  
+  
+The following screenshot shows the free tier limits.  
+![](FreeTierSnapshot.png)  
   
