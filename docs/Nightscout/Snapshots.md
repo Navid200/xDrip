@@ -50,6 +50,6 @@ Only if you have no data on the machine, or only after you have backed up your d
   
 Click on create instance.  
 ![](./images/CreateInstance2.png)  
-
   
+Choose region.  It's not enough to choose a free region.  It must be the same region the machine in the snapshot was in.  Looking at the snapshot, you can see what reagion the machine was in under the Location heading.  
   
