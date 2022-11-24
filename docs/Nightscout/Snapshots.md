@@ -63,4 +63,9 @@ Select the snapshot.
 Make sure to change disk type to standard.  By default, it is set to ballanced.  Click on select.  
 ![](./images/SnapshotDiskType.png)  
   
-
+Under firewall options, enable allow http traffic and allow https traffic.  
+  
+Click on create at the bottom.  Wait for the machine to be created.  
+After the machine is created, click on SSH to open the terminal and see the menu.  
+Use Status to ensure the free tier settings are satisfied.  
+  
