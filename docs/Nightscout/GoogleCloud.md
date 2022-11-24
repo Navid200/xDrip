@@ -44,7 +44,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [FreeDNS Utility](./FreeDNS_Util.md)
 #### [Customize Nightscout](./update_nightscout.md)
 #### [Update commands & menus](./NS_SyncExecutables) (not Nightscout itself)
-#### [Data Transfer](./NS_Transfer)
+#### [Copy Database](./NS_Transfer)
 <br/>  
   
 ---  
