@@ -17,3 +17,6 @@ Select the disk in your virtual machine from the pull-down menu under "Source di
   
 If you have just completed an install phase, you may see nothng under the pull-down menu.  Just return to the dahsboard and go through the menu items to get back to the snapshot creation page.  
   
+Give a name (all lower case) to the snapshot so that you can easily identify it later.  
+![](./images/SnapshotTitle.png)  
+  
