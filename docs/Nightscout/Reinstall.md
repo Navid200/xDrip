@@ -1,6 +1,11 @@
 ## How to reinstall
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> How to reinstall  
   
+There have been questions about how robust Nightscout on Google Cloud may be compared to alternatives.  We reached out to our head developer for advice and the following is his response.  
+<br/>  
+  
+---  
+  
 If you have made a mistake when you created the virtual machine and need to recreate it, you should backup first to avoid losing everything when you delete the machine.  
   
 Follow the instructions [here](./DatabaseBackup.md) to backup the database and download it from the machine to your computer.  
