@@ -16,7 +16,7 @@ You will need your user ID and password later to use the FreeDNS Setup utility.
   
 Go to [Subdomains](https://freedns.afraid.org/subdomain/).  
 Add.  
-Enter a subdomain name.  Pick a public domain.  Under the image, enter text (capital) to capture the image you see.  You can change the image if it's not clear.  
+Enter a subdomain name (<span style="color:red">all lowercase</span>).  You can create a subdomain that has capital letters in it.  This will cause problems later.  Therefore, please make sure you use lowercase only.  Pick a public domain.  Under the image, enter text (capital) to capture the image you see.  You can change the image if it's not clear.  
 Save.  
 ![](./images/FreeDNS2.png)  
 <br/>  
