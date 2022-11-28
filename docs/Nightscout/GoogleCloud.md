@@ -14,9 +14,6 @@ Thanks to tzachi-dar, senior xDrip developer, for ideas, development of critical
 ---  
 <br/>  
   
-Please provide [feedback](https://github.com/NightscoutFoundation/xDrip/discussions).  
-If you want to use this while still using Heroku, set this up, and add the link to your xDrip Nightscout upload URL, separated by a space from your Heroku link.  Now, xDrip will continue to upload to your Heroku.  But, also upload to your Google Cloud Nightscout.
-  
 You will need a credit card to set up billing.  However, it will be free if you meet the [requirements](./NS_FreeTier).  
   
 To complete installation, you will need to go through the first 5 items on the list below.  If you have followers, you will also need to complete item 6 after.  
@@ -61,4 +58,5 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Edit variables using a browser does not work!](UpdateScripts_22.md)
 #### [Securiry](./Security.md)
 #### [Snapshots (Advanced)](./Snapshots)
+#### [Contact us](../Contact.md)
   
