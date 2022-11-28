@@ -38,7 +38,10 @@ You will not be able to change any of this after you create.  The only way to ch
 | Firewall | Allow HTTPS traffic | Nightscout access |  
   
 The estimate shown at the top right on the same page will not be 0.  As long as you satisfy the conditions listed in the above table, it's OK.  You can ignore that non-0 estimate.  
-Click on "Create" to create the virtual machine.  Google will now bring up your virtual machine.  Wait for it to come up.  When the external IP column appears, you should be good to go.  
+Click on "Create" to create the virtual machine.  Google will now bring up your virtual machine.  Wait for it to come up.  It could take a minute.  When the external IP column appears, you should be good to go.  
+  
+If instead, you see a red excalamation point and hovering the cursor over it shows the message noting that a virtual machine is unavailable, you will need to dismiss the request by clicking on the garbage can symbol on the right.  Then, try to create the machine in a different region.  Unfortunately, you will need to make all the selections again for a new request.    
+![](./images/VM_Unavailable.png)  
   
 <video width="400" controlsList="nodownload" src="./video/VM.mp4" controls>  
 </video>    
