@@ -2,7 +2,7 @@
 [xDrip](../README.md) >> [Features](./Features_page) >> [Follow](./Follow_page.md) >> [How to follow with xDrip](./How-to-follow.md) >> xDrip Sync  
   
 This page explains how to set up xDrip Sync.  
-This is easy to set up. But, it relies on Google.  
+This is easy to set up. But, it relies on Google.  It will need Google Play services to be on your phone.  
   
 On master, go to Settings &#8722;> xDrip+ Sync settings, and tap on "Be master for followers".  
 **<span style="color:red">Disable "Allow follower actions". Otherwise, the follower will be able to stop the sensor.</span>**  
