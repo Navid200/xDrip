@@ -14,6 +14,8 @@ On the follower, tap on Settings &#8722;> Auto configure.
 Scan the QR code shown on the master screen. This will change all the settings, on the follower, to follow the master.  
 Ensure Settings &#8722;> xDrip+ Sync settings &#8722;> Disable all sync features is disabled on the follower.  
   
+All that is shown in a clip [here](https://youtu.be/LcgjfbYcWkE).  
+  
 In some cases, the scan does not work. You can manually set up the follower:  
 Under Settings &#8722;> Hardware Data Source, select xDrip+ Sync Follower.  
 Then, go to Settings &#8722;> xDrip+ Sync Settings and tap on "Handset Group Security Sync Key". Make sure the key matches the key on the same page on the master.  
