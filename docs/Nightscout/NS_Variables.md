@@ -2,6 +2,7 @@
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Variables  
   
 After [setting up Nightscout](./NS_setup), you can edit your Nightscout variables if needed.  <span style="color:red">For any change to the variables to take effect, you will need to [reboot the server](./Restart.md).</span>  
+  
 To edit your Nightscout variables, open a [terminal](./Terminal).  
 
 
