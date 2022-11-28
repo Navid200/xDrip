@@ -58,5 +58,4 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Edit variables using a browser does not work!](UpdateScripts_22.md)
 #### [Securiry](./Security.md)
 #### [Snapshots (Advanced)](./Snapshots)
-#### [Contact us](../Contact.md)
   
