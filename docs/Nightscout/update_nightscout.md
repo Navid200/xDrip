@@ -17,7 +17,7 @@ The installation will take about 25 minutes.
   
 If you proceed, you will see progress in the terminal for a while.  Then, you will see no change in the terminal for 20 minutes.  You need to be patient.  
   
-After installation is complete, the virtual machine will reboot.  Your terminal will show an error.  This is expected.  Wait a minute and Nightscout will come up.  You can close the terminal.  
+After installation is complete, the virtual machine will reboot.  Your terminal will show an error.  This is expected.  Wait a minute and Nightscout will come up.  You can close the terminal now.  
 <br/>  
 <br/>  
   
