@@ -1,4 +1,5 @@
-## Nightscout Settings  
+## Nightscout Settings
+[xDrip](../README.md) >> [Features](./Features_page) >> [Nightscout](Nightscout_page.md) >> Nightscout master
   
 To enable Nightscout uploader (master), go to the following page.  
 Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API)  
