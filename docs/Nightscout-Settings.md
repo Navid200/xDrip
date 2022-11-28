@@ -11,6 +11,6 @@ Tap on Base URL.  Enter the following:
 https<nolink>://password@hostname/api/v1/  
 
 "password" is the "API_SECRET" you can find in your Nightscout variables.  
-"hoatname" is the URL you use to access Nightscout excluding https<nolink>://    
+"hoatname" is the URL you use to access Nightscout in a browser excluding https<nolink>://    
   
   
