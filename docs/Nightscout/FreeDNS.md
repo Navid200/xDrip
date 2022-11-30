@@ -4,7 +4,12 @@
 Follow these instructions in order to use FreeDNS, which you will need in order to set up Nightscout on Google Cloud.  
   
 Go to FreeDNS site: [https://freedns.afraid.org/](https://freedns.afraid.org/)  
-Click on Sign up Free, and sign up.  
+Click on Sign up Free, and sign up.  Make sure to choose a user ID excluding capital letters.  
+If you include capital letters in your user ID, FreeDNS will convert it all to lowercase.  You can see that in the email you receive from FreeDNS for email confirmation.  Also, if you log in to FreeDNS, you can see your user ID at the top in the right pane.  
+  
+You will be asked to enter your user ID and password later on as a part of the installation.  If you enter capital letters, FreeDNS will not authenticate the user ID.  
+The best course of action is to avoid capital letters in your user ID.  
+  
 Send activation email.  
 ![](./images/FreeDNS1.png)  
 Open email and activate your account.  
