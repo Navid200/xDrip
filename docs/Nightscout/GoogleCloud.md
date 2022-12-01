@@ -37,11 +37,11 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Backup](./DatabaseBackup.md) before deleting the virtual machine.
 #### [Restore](./DatabaseRestore.md)
 #### [Nightscout variables](./NS_Variables)
-#### [Copying Heroku variables](./CopyHerokuVars.md)
+#### [Copying Heroku variables](./CopyHerokuVars.md)  Very likely, this is not going to work anymore unless you subscribe to a paid plan.
 #### [FreeDNS Utility](./FreeDNS_Util.md)
 #### [Customize Nightscout](./update_nightscout.md)
 #### [Update commands & menus](./NS_SyncExecutables) (not Nightscout itself)
-#### [Copy Database](./NS_Transfer)
+#### [Copy Database](./NS_Transfer)  Very likely, this is not going to work anymore unless you subscribe to a paid plan.  
 <br/>  
   
 ---  
@@ -49,6 +49,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 **Tips**
 #### [Terminal](./Terminal)
 #### [Connection Failed](./ConnectionFailed.md)
+#### [Heroku is gone! Can I still get my data?](./HerokuGone.md)
 #### [Menu](./Menu.md)
 #### [Restart](./Restart)
 #### [Mobile](./Mobile.md)
