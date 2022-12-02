@@ -20,7 +20,7 @@ If you don't remember the password (this is not the password you use to log into
 In the left pane, click on "Database" to go back to the main page.  Click on the 3-dot menu button and click on "Command Line Tools" as shown in the following image.  
 ![](./images/Atlas_CLTools.png)  
   
-Under "Binary Import and Export Tools", copy the mongodump string.  You can do that by clicking on the copy symbol on the right of the sring marked in the image below.  
+Under "Binary Import and Export Tools", copy the mongodump string.  You can do that by clicking on the copy symbol on the right side of the sring, as marked in the image below.  
 ![](./images/mongodump.png)  
   
 Open a [terminal](./Terminal.md).  Exit the menu.  Enter the following into the terminal.  
