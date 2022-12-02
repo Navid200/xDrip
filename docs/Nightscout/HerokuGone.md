@@ -25,7 +25,6 @@ Open a [terminal](./Terminal.md).  Exit the menu.  Enter the following into the 
 <mark style="background-color: #eFdFef">mongodump --forceTableScan --uri mongodb+srv://U?:P?@D?.csbuy.mongodb.net/U? -o /tmp </mark>  
   
 Wait for the export process to compete.  It could take a few minutes.  
-  
 Now, enter the following in the terminal replacing U? with username.  
   
 <mark style="background-color: #eFdFef">mongorestore -d Nightscout /tmp/U? </mark>  
