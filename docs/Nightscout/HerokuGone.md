@@ -29,10 +29,8 @@ Open a [terminal](./Terminal.md).  Exit the menu.  Enter the following into the 
   
 Paste the mongodump string you copied into the terminal.  
   
-Replace \<PASSWORD\> with your Atlas database admin password, which excludes special characters.  Replace \<DATABASE\> with the user name you copied from the Atlas database access page.  
+Replace \<PASSWORD\> with your Atlas database admin password, which excludes special characters.  Replace \<DATABASE\> with the user name you copied from the Atlas database access page.  Enter.  
   
-Enter.  
-   
 Wait for the export process to compete.  It could take a few minutes.  
 Now, enter the following in the terminal replacing U? with the user name you copied from the Atlas database access page.  
   
