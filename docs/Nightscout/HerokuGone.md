@@ -10,7 +10,7 @@ Take note of the database name enclosed in orange in the following image.  You w
 In the left pane, click on Database Access.  
 ![](./images/Atlas_dbAccess.png)  
   
-You will be taken to the Database Access page.  Take note of the user name enclosed in orange in the following image.  You will nee it later.  
+You will be taken to the Database Access page.  Take note of the user name enclosed in orange in the following image.  You will need it later.  
 ![](./images/Atlas_dbAccess2.png)  
   
 Your data is on Atlas, not on Heroku.  Fortunately, you can still get it.  
