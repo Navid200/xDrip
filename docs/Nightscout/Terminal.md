@@ -18,6 +18,9 @@ Click on SSH on the line associated with your Nightscout virtual machine.
   
 Be patient as it may take a few seconds for the terminal to come up.  
 ![](./images/TerminalBlank.png)  
-    
-When you are done, you can click on X at the top right corner to close it.  
+  
+If instead, you get a connectivity error message shown in the following image, click on "Retry without Cloud Identity-Aware Proxy".  
+![](./images/IdentityAware.png)  
+  
+When you are done using the terminal, you can click on X at the top right corner to close it.  
   
