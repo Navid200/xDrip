@@ -5,6 +5,8 @@
 
 You will need the email address and password you used when you signed up for Atlas.  We all had to do this in 2020.  
 Go to [mongodb](https://www.mongodb.com/home) and sign in.  
+In the left pane, click on Database Access.  
+![](./images/Atlas_dbAccess.png)  
   
 Your data is on Atlas, not on Heroku.  Fortunately, you can still get it.  
   
