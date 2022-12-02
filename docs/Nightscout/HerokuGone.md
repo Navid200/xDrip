@@ -6,12 +6,10 @@ In order to transfer a database from Atlas, you need to have already completed N
   
 You will need the email address and password you used when you signed up for Atlas.  We all had to do this in 2020.  
 Go to [mongodb](https://www.mongodb.com/home) and sign in.  
-![](./images/Atlas.png)  
-
-
-In the left pane, click on Database Access.  
+![](./images/Atlas_dbAccess.png)  
+In the left pane, click on Database Access.
   
-You will be taken to the Database Access page.  Take note of the user name enclosed in orange in the following image.  You will need it later.  
+You will be taken to the Database Access page.  
 ![](./images/Atlas_dbAccess2.png)  
 On the right, click on "Edit".  
   
@@ -19,7 +17,7 @@ You will be taken to the page shown below.
 ![](./images/Atlas_pass.png)  
 If you don't remember the password (this is not the password you use to log into Atlas) or if your password contains special characters, click on Edit Password and change the password.  Take note of the password because you will need it later.  
   
-With the username, database name, and password (excluding special characters) in hand, you can log out of Atlas.  
+With the password (excluding special characters) in hand, you can log out of Atlas.  
   
 Open a [terminal](./Terminal.md).  Exit the menu.  Enter the following into the terminal replacing U? with username, D? with database name, and P? with password.
   
