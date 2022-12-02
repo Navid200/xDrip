@@ -9,7 +9,7 @@ Go to [mongodb](https://www.mongodb.com/home) and sign in.
 ![](./images/Atlas_dbAccess.png)  
 In the left pane, click on Database Access.
   
-You will be taken to the Database Access page.  
+You will be taken to the Database Access page.  Take nore of the user name enclosed in orange in the following image.  You will need it later.  
 ![](./images/Atlas_dbAccess2.png)  
 On the right, click on "Edit".  
   
