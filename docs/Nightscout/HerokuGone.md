@@ -4,9 +4,7 @@
 **Work in progress**  
 
 You will need the email address and password you used when you signed up for Atlas.  We all had to do this in 2020.  
-Go to [mongodb](https://www.mongodb.com/home) and sign in.  
-  
-Take note of the database name enclosed in orange in the following image.  You will need it later.  
+Go to [mongodb](https://www.mongodb.com/home) and sign in.   
 ![](./images/Atlas_dbAccess.png)  
 In the left pane, click on Database Access.  
   
@@ -18,8 +16,12 @@ You will ba taken to the page shown below.
 ![](./images/Atlas_pass.png)  
 If you don't remember the password or if your password contains special characters, click on Edit Password and change the password.  Take note because you will need it later.  
   
-With the username, database name and password (excluding psecial characters) in hand, you can log out of Atlas.  
+With the username, database name and password (excluding special characters) in hand, you can log out of Atlas.  
   
+Open a [terminal](./Terminal.md).  Exit the menu.  Enter the following into the terminal replacing .
+  
+mongodump --forceTableScan --uri mongodb+srv://heroku_61rpvdf1:Novemb3r102022@cluster-61rpvdf1.csbuy.mongodb.net/heroku_61rpvdf1
+
 Your data is on Atlas, not on Heroku.  Fortunately, you can still get it.  
   
 Steps for importing your data from Atlas will be added here shortly.  
