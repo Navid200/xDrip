@@ -8,7 +8,7 @@ Open a [terminal](./Terminal.md).  Exit the menu.  Enter the following into the 
   
 <mark style="background-color: #eFdFef">cd /tmp </mark>    
   
-You will need the email address and password you used when you signed up for Atlas.  We all had to do this in 2020.  
+You will need the email address and password you used when you signed up for Atlas.  We all had to do that in 2020.  
 Go to [mongodb](https://www.mongodb.com/home) and sign in.  
 ![](./images/Atlas_dbAccess.png)  
 In the left pane, click on Database Access.
