@@ -49,6 +49,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 **Tips**
 #### [Terminal](./Terminal)
 #### [Connection Failed](./ConnectionFailed.md)
+#### [Connection via Cloud Identity-Aware Proxy Failed](./ConnIdentAwareFailed.md)
 #### [Heroku is gone! Can I still get my data?](./HerokuGone.md)
 #### [Menu](./Menu.md)
 #### [Restart](./Restart)
