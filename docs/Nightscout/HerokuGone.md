@@ -8,6 +8,9 @@ Go to [mongodb](https://www.mongodb.com/home) and sign in.
 In the left pane, click on Database Access.  
 ![](./images/Atlas_dbAccess.png)  
   
+You will be taken to the Database Access page.  Take note of the uset name enclosed in orange.  You will nee it later.  
+![](./images/Atlas_dbAccess2.png)  
+  
 Your data is on Atlas, not on Heroku.  Fortunately, you can still get it.  
   
 Steps for importing your data from Atlas will be added here shortly.  
