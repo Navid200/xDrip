@@ -16,6 +16,9 @@ On the right, click on "Edit".
   
 You will ba taken to the page shown below.  
 ![](./images/Atlas_pass.png)  
+If you don't remember the password or if your password contains special characters, click on Edit Password and change the password.  Take note because you will need it later.  
+  
+With the username, database name and password (excluding psecial characters) in hand, you can log out of Atlas.  
   
 Your data is on Atlas, not on Heroku.  Fortunately, you can still get it.  
   
