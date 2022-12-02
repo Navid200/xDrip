@@ -21,7 +21,7 @@ With the username, database name, and password (excluding special characters) in
   
 Open a [terminal](./Terminal.md).  Exit the menu.  Enter the following into the terminal replacing \<un\> with username, \<dn\> with database name, and \<pw\> with password.
   
-<mark style="background-color: #eFdFef">mongodump --forceTableScan --uri mongodb+srv://\<un\>:\<pw\>@\<dn\>.csbuy.mongodb.net/\<un\></mark>
+<mark style="background-color: #eFdFef">mongodump --forceTableScan --uri mongodb+srv://<un>:<pw>@<dn>.csbuy.mongodb.net/<un></mark>
 
 Your data is on Atlas, not on Heroku.  Fortunately, you can still get it.  
   
