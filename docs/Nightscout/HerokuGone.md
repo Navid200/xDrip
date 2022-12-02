@@ -31,7 +31,7 @@ Paste the mongodump string you copied into the terminal.
   
 Replace \<PASSWORD\> with your Atlas database admin password, which excludes special characters.  Replace \<DATABASE\> with the user name you copied from the Atlas database access page.  Enter.  
   
-Wait for the export process to compete.  It could take a few minutes.  
+Wait for the export process to complete.  It could take a few minutes.  
 Now, enter the following in the terminal replacing U? with the user name you copied from the Atlas database access page.  
   
 <mark style="background-color: #eFdFef">mongorestore -d Nightscout ./dump/U? </mark>  
