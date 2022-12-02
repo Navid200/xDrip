@@ -5,9 +5,8 @@ Even though Heroku is not free any longer, you can still transfer your database 
 In order to transfer a database from Atlas, you need to have already completed Nightscout [installation](./NS_Install.md).  
   
 You will need the email address and password you used when you signed up for Atlas.  We all had to do that in 2020.  
-Go to [mongodb](https://www.mongodb.com/home) and sign in.  
+Go to [mongodb](https://www.mongodb.com/home) and sign in.  In the left pane, click on Database Access.  
 ![](./images/Atlas_dbAccess.png)  
-In the left pane, click on Database Access.
   
 You will be taken to the Database Access page.  Take note of the user name (enclosed in orange in the following image).  You will need it later.  
 ![](./images/Atlas_dbAccess2.png)  
