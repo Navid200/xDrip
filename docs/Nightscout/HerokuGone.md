@@ -17,6 +17,9 @@ You will be taken to the page shown below.
 ![](./images/Atlas_pass.png)  
 If you don't remember the password (this is not the password you use to log into Atlas) or if your password contains special characters, click on Edit Password and change the password.  Take note of the password because you will need it later.  
   
+In the left pane, click on "Database" to go back to the main page.  Click on the 3-dot menu button as shown in the following image.  
+![](./images/Atlass.png)  
+  
 With the password (excluding special characters) in hand, you can log out of Atlas.  
   
 Open a [terminal](./Terminal.md).  Exit the menu.  Enter the following into the terminal replacing U? with username, D? with database name, and P? with password.
