@@ -4,7 +4,8 @@
 **Work in progress**  
 
 You will need the email address and password you used when you signed up for Atlas.  We all had to do this in 2020.  
-Go to [mongodb](https://www.mongodb.com/home) and sign in.   
+Go to [mongodb](https://www.mongodb.com/home) and sign in.  
+Take note of the database name (enclosed in orange in the following image).  
 ![](./images/Atlas_dbAccess.png)  
 In the left pane, click on Database Access.  
   
@@ -20,7 +21,7 @@ With the username, and password (excluding special characters) in hand, you can 
   
 Open a [terminal](./Terminal.md).  Exit the menu.  Enter the following into the terminal replacing .
   
-
+mongodump --forceTableScan --uri mongodb+srv://<username>:<password>@<dbname>.csbuy.mongodb.net/<username>
 
 Your data is on Atlas, not on Heroku.  Fortunately, you can still get it.  
   
