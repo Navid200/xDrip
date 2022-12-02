@@ -28,7 +28,7 @@ Wait for the export process to compete.  It could take a few minutes.
   
 Now, enter the following in the terminal replacing (U) with username.  
   
-<mark style="background-color: #eFdFef">mongorestore -d Nightscout /tmp/(U) </mark>  
+<mark style="background-color: #eFdFef">mongorestore -d Nightscout /tmp/U </mark>  
 
 Your data is on Atlas, not on Heroku.  Fortunately, you can still get it.  
   
