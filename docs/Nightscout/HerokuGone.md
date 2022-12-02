@@ -23,14 +23,18 @@ In the left pane, click on "Database" to go back to the main page.  Click on the
 Under "Binary Import and Export Tools", copy the mongodump string.  You can do that by clicking on the copy symbol on the right of the sring marked in the image below.  
 ![](./images/mongodump.png)  
   
-With the password (excluding special characters) in hand, you can log out of Atlas.  
+Open a [terminal](./Terminal.md).  Exit the menu.  Enter the following into the terminal.  
   
-Open a [terminal](./Terminal.md).  Exit the menu.  Enter the following into the terminal replacing U? with username, D? with database name, and P? with password.
+<mark style="background-color: #eFdFef">cd /tmp </mark>  
   
-<mark style="background-color: #eFdFef">mongodump --forceTableScan --uri mongodb+srv://U?:P?@D?.csbuy.mongodb.net/U? -o /tmp </mark>  
+Paste the mongodump string you copied into the terminal.  
   
+Replace <PASSWORD> with your Atlas database admin password, which excludes special characters.  Replace <DATABASE> with the user name you copied from the Atlas database access page.  
+  
+Enter.  
+   
 Wait for the export process to compete.  It could take a few minutes.  
-Now, enter the following in the terminal replacing U? with username.  
+Now, enter the following in the terminal replacing U? with the user name you copied from the Atlas database access page.  
   
 <mark style="background-color: #eFdFef">mongorestore -d Nightscout /tmp/U? </mark>  
   
