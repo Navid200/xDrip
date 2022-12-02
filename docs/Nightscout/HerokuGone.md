@@ -16,7 +16,7 @@ On the right, click on "Edit".
   
 You will be taken to the page shown below.  
 ![](./images/Atlas_pass.png)  
-If you don't remember the password or if your password contains special characters, click on Edit Password and change the password.  Take note because you will need it later.  
+If you don't remember the password (this is not the password you use to log into Atlas) or if your password contains special characters, click on Edit Password and change the password.  Take note because you will need it later.  
   
 With the username, database name, and password (excluding special characters) in hand, you can log out of Atlas.  
   
