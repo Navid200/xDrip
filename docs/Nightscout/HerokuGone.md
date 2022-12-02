@@ -19,9 +19,9 @@ If you don't remember the password or if your password contains special characte
   
 With the username, database name, and password (excluding special characters) in hand, you can log out of Atlas.  
   
-Open a [terminal](./Terminal.md).  Exit the menu.  Enter the following into the terminal replacing <un> with username, <dn> with database name, and <pw> with password.
+Open a [terminal](./Terminal.md).  Exit the menu.  Enter the following into the terminal replacing \<un\> with username, \<dn\> with database name, and \<pw\> with password.
   
-mongodump --forceTableScan --uri mongodb+srv://\<un\>:\<pw\>@\<dn\>.csbuy.mongodb.net/\<un\>
+<mark style="background-color: #eFdFef">mongodump --forceTableScan --uri mongodb+srv://\<un\>:\<pw\>@\<dn\>.csbuy.mongodb.net/\<un\></mark>
 
 Your data is on Atlas, not on Heroku.  Fortunately, you can still get it.  
   
