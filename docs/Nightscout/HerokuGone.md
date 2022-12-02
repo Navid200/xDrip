@@ -35,7 +35,7 @@ Enter.
 Wait for the export process to complete.  It could take a few minutes.  
 Now, enter the following in the terminal replacing UserName with the user name you copied from the Atlas database access page.  
   
-<mark style="background-color: #eFdFef">mongorestore -d Nightscout ./dump/UserName </mark>  
+<mark style="background-color: #eFdFef">mongorestore -d Nightscout /tmp/dump/UserName </mark>  
   
 Wait a minute.  Reload Nightscout in a browser.  Your imported data from Atlas should be present now.  
   
