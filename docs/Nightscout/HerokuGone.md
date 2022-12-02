@@ -7,11 +7,15 @@ You will need the email address and password you used when you signed up for Atl
 Go to [mongodb](https://www.mongodb.com/home) and sign in.  
   
 Take note of the database name enclosed in orange in the following image.  You will need it later.  
-In the left pane, click on Database Access.  
 ![](./images/Atlas_dbAccess.png)  
+In the left pane, click on Database Access.  
   
 You will be taken to the Database Access page.  Take note of the user name enclosed in orange in the following image.  You will need it later.  
 ![](./images/Atlas_dbAccess2.png)  
+On the right, click on "Edit".  
+  
+You will ba taken to the page shown below.  
+![](./images/Atlas_pass.png)  
   
 Your data is on Atlas, not on Heroku.  Fortunately, you can still get it.  
   
