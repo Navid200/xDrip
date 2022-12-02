@@ -6,8 +6,9 @@ In order to transfer a database from Atlas, you need to have already completed N
   
 You will need the email address and password you used when you signed up for Atlas.  We all had to do this in 2020.  
 Go to [mongodb](https://www.mongodb.com/home) and sign in.  
-Take note of the database name (enclosed in orange in the following image).  
-![](./images/Atlas_dbAccess.png)  
+![](./images/Atlas.png)  
+
+
 In the left pane, click on Database Access.  
   
 You will be taken to the Database Access page.  Take note of the user name enclosed in orange in the following image.  You will need it later.  
