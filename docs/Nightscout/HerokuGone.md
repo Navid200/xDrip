@@ -29,7 +29,9 @@ Open a [terminal](./Terminal.md).  Exit the menu.  Enter the following into the 
   
 Paste the mongodump string you copied into the terminal.  
   
-Replace \<PASSWORD\> with your Atlas database admin password, which excludes special characters.  Replace \<DATABASE\> with the user name you copied from the Atlas database access page.  Enter.  
+Replace \<PASSWORD\> with your Atlas database admin password, which excludes special characters.  Replace \<DATABASE\> with the user name you copied from the Atlas database access page.  Insert --forceTableScan right after mongodump.  What you have in the terminal should now look like the following.  
+![](./images/mongodump_string.png)  
+Enter.  
   
 Wait for the export process to complete.  It could take a few minutes.  
 Now, enter the following in the terminal replacing U? with the user name you copied from the Atlas database access page.  
