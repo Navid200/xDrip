@@ -30,3 +30,5 @@ Now, enter the following in the terminal replacing U? with username.
   
 <mark style="background-color: #eFdFef">mongorestore -d Nightscout /tmp/U? </mark>  
   
+Wait a minute.  Reload Nightscout in a browser.  Your imported data should be present now.  
+  
