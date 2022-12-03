@@ -19,10 +19,10 @@ Start it.  After the machine starts, you may notice that you still cannot access
   
 **Don't wait to upgrade**  
 To avoid a surprise interruption in your Nightscout operation, upgrade before your free trial period ends.  
-To do that, log into Google Cloud;  go to billing.  You will see the details of your free trial on the page.  
+To do that, log into Google Cloud;  go to billing.  You will see the details of your free trial on the page.  Click on Upgrade.  
 ![](./images/FreeTrialCredit.png)  
   
-Click on Upgrade.  This will open the window shown below.  
+This will open the window shown below.  
 ![](./images/ActivateFullAccountBefore.png)  
   
   
