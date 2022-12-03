@@ -13,3 +13,13 @@ Go to the console and the Compute Engine.  You will see that the virtual machine
 ![](./images/VM_Stopped.png)  
   
 Start it.  After the machine starts, you may notice that you still cannot access Nightscout.  This is because restarting the machine after it was shut down for a while has resulted in the machine IP to have been changed.  At this point, the only way to remedy this is to rerun the FreeDNS setup utility.  Doing that will map the new IP to the subdomain.  Then, you will be able to access Nightscout again using the subdomain.  
+<br/>  
+  
+---  
+  
+**Don't wait to upgrade**  
+To avoid a surprise interruption in your Nightscout operation, upgrade before your free trial period ends.  
+To do that, log into Google Cloud;  go to billing.  You will see the details of your free trial on the page.  
+![](./images/FreeTrialCredit.png)  
+  
+  
