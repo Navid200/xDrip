@@ -23,6 +23,6 @@ To do that, log into Google Cloud;  go to billing.  You will see the details of 
 ![](./images/FreeTrialCredit.png)  
   
 Click on Upgrade.  This will open the window shown below.  
-![](./ActivateFullAccountBefore.png)  
+![](./images/ActivateFullAccountBefore.png)  
   
   
