@@ -53,5 +53,5 @@ That will bring up the form shown in the following image.  Click on Activate.
 ![](./images/ActivateFullAccountBefore.png)  
   
 Your free trial credit will remain available until you use it or its expiry date.  
-As ong as you satisfy the free tier requirements, everything will be free.  
+As long as you satisfy the free tier requirements, everything will be free.  
   
