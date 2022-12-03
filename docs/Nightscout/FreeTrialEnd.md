@@ -22,7 +22,8 @@ To avoid a surprise interruption in your Nightscout operation, upgrade before yo
 To do that, log into Google Cloud;  go to billing.  You will see the details of your free trial on the page.  Click on Upgrade.  
 ![](./images/FreeTrialCredit.png)  
   
-This will open the window shown below.  
+This will open the window shown below.  Click on Activate.  
 ![](./images/ActivateFullAccountBefore.png)  
   
+![](./images/Activated.png)  
   
