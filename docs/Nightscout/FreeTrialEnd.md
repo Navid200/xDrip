@@ -28,3 +28,6 @@ This will open the window shown below.  Click on Activate.
 ![](./images/Activated.png)  
   
 You will not lose your remaining free credit.  You can use your remaining free credit up to its original expiry date.  
+Since you have already upgraded, nothing will be interrupted when your free trial ends.  
+As long as you satisfy the free tier requirements, everything will be free.  
+  
