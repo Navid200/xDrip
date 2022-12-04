@@ -17,6 +17,8 @@ The rest of the items you see on this page are optional items on the menu or iss
 **Video** clips are included to help with setup.  They have no sound.  To enlarge, click on the square symbol on the right side of the speaker symbol at the bottom of the video frame.  
 <br/>  
   
+---  
+  
 **Installation**  
 #### 1- [FreeDNS](./FreeDNS.md)
 #### 2- [Google Cloud project](./NS_GCProject)
