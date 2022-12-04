@@ -6,7 +6,7 @@ To access the alerts page, tap on the top left menu button from the main screen 
 ![](./images/Alerts.png)  
   
 |  Alert |  Volume |  Sound file |  Override Silent Mode |  
-| ----- | ------ | ---------- | -------------------- |  
+| :----: | :-----: | :---------: | :-------------------: |  
 | Glucose level | Volume profile | Can choose | Can enable |  
 | Calibration | Ring & notification | Can choose | Can enable |  
 | Missed Reading | Ring & notification | "Other Alerts" \* | "Other Alerts" \* | 
