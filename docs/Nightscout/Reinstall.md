@@ -15,6 +15,7 @@ Carefully follow [this guide](./GoogleCloud.md) to create a new machine, and ins
 
 Follow [these](./DatabaseRestore.md) instructions to restore the MongoDB backup.    
 Upload the nsconfig file the same way.  Restore nsconfig by entering the following in the terminal.  
+  
 <mark style="background-color: #eFdFef">sudo mv -f nsconfig /etc/nsconfig</mark>  
   
 [Restart](./Restart.md) the server.  
