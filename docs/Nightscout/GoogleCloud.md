@@ -8,7 +8,6 @@ Thanks to tzachi-dar, senior xDrip developer, for ideas, development of critical
 <br/>   
   
 ---  
-<br/>  
   
 You will need a credit card to set up billing.  However, it will be free if you meet the [requirements](./NS_FreeTier).  
   
