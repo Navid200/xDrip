@@ -57,5 +57,5 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Will this work in Australia or China?](./AustraliaChina.md)
 #### [Edit variables using a browser does not work!](UpdateScripts_22.md)
 #### [Securiry](./Security.md)
-#### [Snapshots (Advanced)](./Snapshots)
+#### [Snapshots](./Snapshots) (Advanced)
   
