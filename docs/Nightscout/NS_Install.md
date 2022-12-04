@@ -18,14 +18,14 @@ Copy and paste the following highlighted line into the terminal of your Nighscou
 You will be presented with a notification.  To acknowledge, you need to select OK.  However, you will not be able to use the mouse.  Just press enter.  
 It will take a few minutes to complete a preliminary installation step.  You will then see a note or the status page.  If the note directs you to delete the machine and create a new one or if any item on the status page is in red, it means you made an incorrect selection when you created the virtual machine.  The following table shows what you will see depending on each possible incorrect choice.  
   
-| Incorrect choice | Outcome |  
-| ---------------- | ----------- |  
-| Region | [<img src="./images/Region_Icon.png">](./images/Region.png) |  
-| Machine type | [<img src="./images/NoMicro_icon.png">](./images/NoMicro.png) |  
-| Disk type | [<img src="./images/NotStandard_Icon.png">](./images/NotStandard.png) |  
-| Disk size | [<img src="./images/DiskSize_Icon.png">](./images/DiskSize.png) |  
-| Firewall | [<img src="./images/Firewall_Icon.png">](./images/Firewall.png) |  
-| Ubuntu | [<img src="./images/WrongUbuntu_Icon.png">](./images/WrongUbuntu.png) |  
+| Incorrect choice | Notification | Outcome |  
+| ---------------- | ------------ | ------- |  
+| Region | [<img src="./images/Region_Icon.png">](./images/Region.png) | Not free |  
+| Machine type | [<img src="./images/NoMicro_icon.png">](./images/NoMicro.png) | Not free |  
+| Disk type | [<img src="./images/NotStandard_Icon.png">](./images/NotStandard.png) | Not free |  
+| Disk size | [<img src="./images/DiskSize_Icon.png">](./images/DiskSize.png) | Unused resource |  
+| Firewall | [<img src="./images/Firewall_Icon.png">](./images/Firewall.png) | Insecurity |  
+| Ubuntu | [<img src="./images/WrongUbuntu_Icon.png">](./images/WrongUbuntu.png) | Incompatibility |  
   
 If nothing is red on the status page, just press enter to close the status page.  You will see this menu:  
 ![](./images/Menu.png)  
