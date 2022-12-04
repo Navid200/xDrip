@@ -27,7 +27,7 @@ It will take a few minutes to complete a preliminary installation step.  You wil
 | Firewall | [<img src="./images/Firewall_Icon.png">](./images/Firewall.png) | Insecurity |  
 | Ubuntu | [<img src="./images/WrongUbuntu_Icon.png">](./images/WrongUbuntu.png) | Incompatibility |  
   
-If nothing is red on the status page, just press enter to close the status page.  You will see this menu:  
+If you did not get a notification to recreate the machine, because of a wrong Ubuntu version, and nothing is red on the status page, just press enter to close the status page.  You will see this menu:  
 ![](./images/Menu.png)  
   
 <video width="400" controlsList="nodownload" src="./video/Install1.mp4" controls>  
