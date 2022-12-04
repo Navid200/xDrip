@@ -19,7 +19,7 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ---  
   
-####          **Installation**  
+####   **Installation**  
 #### 1- [FreeDNS](./FreeDNS.md)
 #### 2- [Google Cloud project](./NS_GCProject)
 #### 3- [Virtual Machine](./VirtualMachine.md)
