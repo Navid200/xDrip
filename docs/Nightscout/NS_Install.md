@@ -23,7 +23,7 @@ It will take a few minutes to complete a preliminary installation step.  You wil
 | Region | [<img src="./images/Region_Icon.png">](./images/Region.png) | Not free |  
 | Machine type | [<img src="./images/NoMicro_icon.png">](./images/NoMicro.png) | Not free |  
 | Disk type | [<img src="./images/NotStandard_Icon.png">](./images/NotStandard.png) | Not free |  
-| Disk size | [<img src="./images/DiskSize_Icon.png">](./images/DiskSize.png) | Unused resource |  
+| Disk size | [<img src="./images/DiskSize_Icon.png">](./images/DiskSize.png) | Unused resource <br/> Not free |  
 | Firewall | [<img src="./images/Firewall_Icon.png">](./images/Firewall.png) | Insecurity |  
 | Ubuntu | [<img src="./images/WrongUbuntu_Icon.png">](./images/WrongUbuntu.png) | Incompatibility |  
   
