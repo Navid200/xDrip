@@ -19,7 +19,7 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ---  
   
-####   **Installation**  
+####       **Installation**  
 #### 1- [FreeDNS](./FreeDNS.md)
 #### 2- [Google Cloud project](./NS_GCProject)
 #### 3- [Virtual Machine](./VirtualMachine.md)
@@ -30,7 +30,7 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ---  
   
-**Utilities**  
+####       **Utilities**  
 #### [Backup](./DatabaseBackup.md) before deleting the virtual machine.
 #### [Restore](./DatabaseRestore.md)
 #### [Nightscout variables](./NS_Variables)
@@ -43,7 +43,7 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ---  
   
-**Tips**
+####       **Tips**
 #### [Terminal](./Terminal)
 #### [Connection Failed](./ConnectionFailed.md)
 #### [Connection via Cloud Identity-Aware Proxy Failed](./ConnIdentAwareFailed.md)
