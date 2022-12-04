@@ -3,3 +3,5 @@
   
 Choose Status from the menu.  You will see a page showing details about your machine and what's on it.  
 ![](./images/Status.png)  
+The content can be useful when troubleshooting your Nightscout.  
+  
