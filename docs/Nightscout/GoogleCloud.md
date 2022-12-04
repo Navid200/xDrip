@@ -5,11 +5,7 @@
 Thanks to JamOrHam, the current xDrip head developer, for the idea, putting it together, implementing the installer, testing everything, and providing instructions.  
 
 Thanks to tzachi-dar, senior xDrip developer, for ideas, development of critical code, and for providing support.  
-<br/>  
-  
----  
-  
-<span style="color:red">If you installed Nightscout on Google Cloud before November 16,2022,</span> please use "Update scripts" from the main menu **twice** to update.  
+<br/>   
   
 ---  
 <br/>  
