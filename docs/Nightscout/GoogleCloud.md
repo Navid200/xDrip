@@ -33,6 +33,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 ####       **Utilities**  
 #### [Backup](./DatabaseBackup.md) before deleting the virtual machine.
 #### [Restore](./DatabaseRestore.md)
+#### [Status page](./Status.md)
 #### [Nightscout variables](./NS_Variables)
 #### [Copying Heroku variables](./CopyHerokuVars.md)
 #### [FreeDNS Utility](./FreeDNS_Util.md)
