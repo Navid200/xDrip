@@ -11,8 +11,8 @@ Follow the instructions and open a new terminal or click on retry.
 In the new window, from the menu, select "Installation phase 1" and enter.  
 After completion, reboot the server.  Nightscout is now updated.  
   
-When a new version of Nightscout is released, we will need to install it on Google Cloud to verify that the installation succeeds.  We then need to test it to verify that it is functional in our setup.  
-Only after that, will we release an updated installation routine.  At that point, the version noted on the Nightscout on Google Cloud page will be updated to reflect the new release.  
+When a new version of Nightscout is released, we will need to install it on Google Cloud to verify that the installation succeeds.  We then need to test it to verify that it is functional in our setup.  We may need to change the packages we install in Linux in order to be able to install the new release.  
+Only after everything is tested, will we release an updated installation routine.  At that point, the version noted on the Nightscout on Google Cloud page will be updated to reflect the new release, and you will be able to use the method mentioned above to update.  
   
 Therefore, there will be times (right after a new Nightscout version is released) when you will not be able to use the method mentioned above to update.  
 In that case, the best course of action is to be patient.  
