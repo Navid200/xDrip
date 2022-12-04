@@ -36,7 +36,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Nightscout variables](./NS_Variables)
 #### [Copying Heroku variables](./CopyHerokuVars.md)  This is not going to work anymore unless you subscribe to a paid plan.
 #### [FreeDNS Utility](./FreeDNS_Util.md)
-#### [Customize Nightscout](./update_nightscout.md)
+#### [Customize Nightscout](./update_nightscout.md) (Advanced)
 #### [Update commands & menus](./NS_SyncExecutables) (not Nightscout itself)
 #### [Copy Database](./NS_Transfer)    
 <br/>  
