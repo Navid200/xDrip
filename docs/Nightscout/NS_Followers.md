@@ -34,6 +34,6 @@ You can create multiple tokens with specific permissions for each to use for dif
 In the follower xDrip, choose "Nightscout Follower" as the hardware data source.  
 Under "Nightscout Follow URL", enter https://Token@hostname assuming Token is the token you generated as explained above, and hostname is your FreeDNS hostname.  
   
-If it doesn't work, try the following in a browser on the follower phone.  If it doesn't work, the token may be wrong.  
+If it doesn't work, try the following in a browser on the follower phone, where Token is the token you generated as explained above.  If it doesn't work, the token may be wrong.  
 https://hostname/?token=Token  
   
