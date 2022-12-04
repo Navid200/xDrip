@@ -8,7 +8,7 @@ Look at the [Nightscout on Google Cloud](./GoogleCloud.md) web site.  Look at th
   
 To proceed, select "Update scripts" from the [menu](./Menu.md) and enter.  
 Follow the instructions and open a new terminal or click on retry.  
-In the new window, from the menu, select "Installation pahse 1" and enter.  
+In the new window, from the menu, select "Installation phase 1" and enter.  
 After completion, reboot the server.  Nightscout is now updated.  
   
 When a new version of Nightscout is released, we will need to install it on Google Cloud to verify that the installation succeeds.  We then need to test it to verify that it is functional in our setup.  
