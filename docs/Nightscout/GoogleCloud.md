@@ -43,19 +43,24 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ---  
   
-####       **Tips**
-#### [Terminal](./Terminal)
+####       **Troubleshooting**
 #### [Connection Failed](./ConnectionFailed.md)
 #### [Connection via Cloud Identity-Aware Proxy Failed](./ConnIdentAwareFailed.md)
+#### [Edit variables using a browser does not work!](UpdateScripts_22.md)
+#### [Free Trial has ended!](./FreeTrialEnd.md)
+<br/>  
+  
+---  
+  
+####       **Tips**
+#### [Terminal](./Terminal)
 #### [Heroku is gone! Can I still get my data?](./HerokuGone.md)
 #### [Menu](./Menu.md)
 #### [Restart](./Restart)
 #### [Mobile](./Mobile.md)
 #### [Reinstall](./Reinstall.md)
 #### [Will this be free?](./NS_FreeTier)
-#### [Free Trial has ended!](./FreeTrialEnd.md)
 #### [Will this work in Australia or China?](./AustraliaChina.md)
-#### [Edit variables using a browser does not work!](UpdateScripts_22.md)
 #### [Securiry](./Security.md)
 #### [Snapshots](./Snapshots) (Advanced)
   
