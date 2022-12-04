@@ -19,7 +19,7 @@ You will be presented with a notification.  To acknowledge, you need to select O
 It will take a few minutes to complete a preliminary installation step.  You will then see a note or the status page.  If the note directs you to delete the machine and create a new one or if any item on the status page is in red, it means you made an incorrect selection when you created the virtual machine.  The following table shows what you will see depending on each possible incorrect choice.  
   
 | Incorrect choice | Notification | Outcome |  
-| ---------------- | ------------ | ------- |  
+| :--------------: | :----------: | :-----: |  
 | Region | [<img src="./images/Region_Icon.png">](./images/Region.png) | Not free |  
 | Machine type | [<img src="./images/NoMicro_icon.png">](./images/NoMicro.png) | Not free |  
 | Disk type | [<img src="./images/NotStandard_Icon.png">](./images/NotStandard.png) | Not free |  
