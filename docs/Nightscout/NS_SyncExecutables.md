@@ -3,7 +3,7 @@
   
 This is how you can update your virtual machine with the latest menus and commands.  
   
-Open a [terminal](./Terminal.md).  A [menu](./Menu.md) should come up automatically.  If not, you have a very old version of our platform.  To update, please proceed to the section titled "Bootstrap" below.  
+Open a [terminal](./Terminal.md).  A [menu](./Menu.md) should come up automatically.  If not, you have a very old version of our platform.  To update, please skip to the section titled "Bootstrap" below.  
   
 From the menu, select "Update scripts".  After completion and closing the terminal and opening a new one, if a menu does not automatically open up, please proceed to the section titled "Bootstrap" below.  
 <br/>  
