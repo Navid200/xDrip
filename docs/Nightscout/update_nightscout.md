@@ -6,9 +6,9 @@ You need to have completed the Nightscout [installation](./NS_Install.md) steps 
   
 Look at the [Nightscout on Google Cloud](./GoogleCloud.md) web site.  Look at the "Installation" heading.  What follows, in parentheses, is the version of Nightscout a fresh installation will provide.  You can easily update to that version as explained below.  
   
-To proceed, select "Update scripts" from the [menu](./Menu.md) and enter.  
-Follow the instructions and open a new terminal or click on retry.  
-In the new window, from the menu, select "Installation phase 1" and enter.  
+Follow these [instructions](./NS_SyncExecutables.md) to update your virtual machine setup to the latest.  
+  
+From the menu, select "Installation phase 1" and enter.  
 After completion, reboot the server.  Nightscout is now updated.  
   
 When a new version of Nightscout is released, we will need to install it on Google Cloud to verify that the installation succeeds.  We then need to test it to verify that it is functional in our setup.  We may need to change the packages we install in Linux in order to be able to install the new release.  
