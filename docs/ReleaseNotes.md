@@ -5,6 +5,7 @@ Major releases are identified here with brief descriptions.
   
 | Release | Notes |  
 |---------|-------|  
+| [2022.12.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.05) | minimedmobile |  
 | [2022.11.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.27) | BT pairing, WiFi sleep, Google Health connect |  
 | [2022.11.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.16) | **<span style="color:orange">Alpha</span>** <br/> Aidex fix |  
 | [2022.11.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.15) | Quiet Engineering mode notification |  
