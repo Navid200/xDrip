@@ -13,7 +13,7 @@
 #### [Show when the sensor expires](./Sensor-Expiry)  
 #### [Can I create a simple report for my doctor](./Report)  
 #### [Why is the alert so loud - so quiet?](./Ascending-volume-profile)  
-#### [What is Nightscout?](./Nightscout)  
+#### [What is Nightscout?](./Nightscout_page.md)  
 #### [What is Engineering mode?](./Engineering-Mode)  
 #### [How to delete a reminder](./Delete-Reminder)  
 #### [Missed Reading Alert not repeating](./MissedSignalAlert)  
