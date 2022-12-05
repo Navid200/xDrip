@@ -1,4 +1,5 @@
-## Sensor Expiry  
+## Sensor Expiry
+[xDrip](../README.md) >> [FAQ](./FAQ_page.md) >> Sensor expiry  
 
 xDrip doesn't have an alert warning you about sensor expiry as it approaches.  
 
