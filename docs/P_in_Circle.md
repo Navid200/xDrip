@@ -1,4 +1,4 @@
-## P in circle
+## Encircled P
 [xDrip](../README.md) >> [FAQ](./FAQ_page.md) >> Encircled P in front of the reading  
   
 ![](./images/p_in_circle.png)  
