@@ -4,7 +4,7 @@
 To see what version of Nightscout you currently have, open Nightscout in a browser, click on the (hamburger) menu button, and scroll down to the "About" section, where you can see the Nightscout version.      
 You need to have completed the Nightscout [installation](./NS_Install.md) steps before attempting to update.  
   
-Look at the [Nightscout on Google Cloud](./GoogleCloud.md) web site.  Look at the "Installation" heading.  What follows, in parentheses, is the version of Nightscout a fresh installation will provide.  You can easily update to that version as explained below.  
+Look at the "Installation" heading on the [Nightscout on Google Cloud](./GoogleCloud.md) web site.  What follows, in parentheses, is the version of Nightscout a fresh installation will provide.  You can easily update to that version as explained below.  
   
 Follow these [instructions](./NS_SyncExecutables.md) to update your virtual machine setup to the latest.  
   
