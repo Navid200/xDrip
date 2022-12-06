@@ -7,7 +7,7 @@ Major releases are identified here with brief descriptions.
 |---------|-------|  
 | [2022.12.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.05) | minimedmobile |  
 | [2022.11.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.27) | BT pairing, WiFi sleep, Google Health connect |  
-| [2022.11.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.16) | **<span style="color:orange">Alpha</span>** <br/> Aidex fix |  
+| [2022.11.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.16) | **<span style="color:orange">Stable</span>** <br/> Aidex fix |  
 | [2022.11.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.15) | Quiet Engineering mode notification |  
 | [2022.11.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.08) | Companion backfill - Medtronic Guardian Connect |  
 | [2022.11.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.05b) | Companion backfill & History fix |  
@@ -30,7 +30,7 @@ Major releases are identified here with brief descriptions.
 | [2022.08.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.20) | Watchdrip graph fix |  
 | [2022.08.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.19) | Audio loop, de-duplication, half background check |  
 | [2022.08.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.18) | Graph improvements |  
-| [2022.08.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03) | **<span style="color:orange">Stable</span>** <br/> NFC reading age and other cleanup |  
+| [2022.08.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03) | NFC reading age and other cleanup |  
 | [2022.08.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.02) | Show unsmoothed data option "Debug smoothing" |  
 | [2022.08.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.01b) | Graph Smoothing |  
 | [2022.07.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.26) | One per minute max reading rate for wear |  
