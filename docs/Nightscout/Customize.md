@@ -10,8 +10,11 @@ What could be even worse is if you end up with a working system that provides er
 To proceed, select "Customize Nightscout" from the [menu](./Menu.md) and enter.  
 In a minute, the following dialog will show.  
 ![](./images/Dialog2.png)  
-
-Enter the user ID, repository name and branch name to install from.  You can use the arrow keys to move the cursor to different fields.
+  
+The following image shows the official Nightscout page on GitHub.  The user ID, repository and branch fields are identified in the image.  
+![](./images/GitHubParams.png)  
+  
+Enter the user ID, repository name and branch name to install from.  You can use the arrow keys to move the cursor to different fields.  
 Then, use tab to move the cursor to Submit or cancel.  
 After submitting, Nightscout will be installed from the fork you have selected.  
 The installation will take about 25 minutes.  
