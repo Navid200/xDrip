@@ -38,5 +38,8 @@ Now, enter the following in the terminal replacing UserName with the user name y
   
 <mark style="background-color: #eFdFef">mongorestore -d Nightscout /tmp/dump/UserName </mark>  
   
+If it succeeds, you will see something as shown below.  
+![](./images/RestoreSuccess.png)  
+  
 Wait a minute.  Reload Nightscout in a browser.  Your imported data from Atlas should be present now.  
   
