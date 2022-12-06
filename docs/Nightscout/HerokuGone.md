@@ -32,6 +32,7 @@ Replace \<PASSWORD\> with your Atlas database admin password, which excludes spe
 Enter.  
   
 Wait for the export process to complete.  It could take a few minutes.  If it succeeds, you will see something as shown below.  
+![](./images/ExportSuccess.png)  
   
 Now, enter the following in the terminal replacing UserName with the user name you copied from the Atlas database access page.  
   
