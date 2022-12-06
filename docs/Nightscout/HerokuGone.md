@@ -31,7 +31,7 @@ Replace \<PASSWORD\> with your Atlas database admin password, which excludes spe
 ![](./images/mongodump_string.png)  
 Enter.  
   
-Wait for the export process to complete.  It could take a few minutes.  If it succeeds, you will see something like the following.  
+Wait for the export process to complete.  It could take a few minutes.  If it succeeds, you will see something as shown below.  
   
 Now, enter the following in the terminal replacing UserName with the user name you copied from the Atlas database access page.  
   
