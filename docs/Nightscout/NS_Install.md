@@ -55,7 +55,7 @@ You will see error messages.  Please be patient allowing the process to complete
 **Phase 2**  
 To complete the installation, choose item 3 on the menu "Installation Phase 2" and enter.    
   
-You will be asked to choose API-SECRET.  
+You will be asked to choose API_SECRET.  
 ![](./images/API-SECRET.png)  
 Enter a password and take note.  You will need it to access Nightscout.  
 Avoid the following characters.  
