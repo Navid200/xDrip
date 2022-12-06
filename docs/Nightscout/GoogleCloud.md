@@ -63,6 +63,6 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Reinstall](./Reinstall.md)
 #### [Will this be free?](./NS_FreeTier)
 #### [Will this work in Australia or China?](./AustraliaChina.md)
-#### [Securiry](./Security.md)
+#### [Security](./Security.md)
 #### [Snapshots](./Snapshots) (Advanced)
   
