@@ -7,5 +7,5 @@ Go to [Heroku](https://www.heroku.com/).  Log in.
 ![](./images/HerokuLoggedIn.png)  
   
 Click on the name of your project below.  That will take you to your project.  Click on "Settings".  
-![](HerokuSettingsClick.png)   
+![](./images/HerokuSettingsClick.png)   
   
