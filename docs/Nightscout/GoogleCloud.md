@@ -55,9 +55,9 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ####          **Tips**
 #### [Terminal](./Terminal)
+#### [Menu](./Menu.md)
 #### [Heroku variables](./HerokuVars.md)
 #### [Can I still get my data from Heroku?](./HerokuGone.md)
-#### [Menu](./Menu.md)
 #### [Restart](./Restart)
 #### [Mobile](./Mobile.md)
 #### [Reinstall](./Reinstall.md)
