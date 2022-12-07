@@ -56,7 +56,7 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ####       **Tips**
 #### [Terminal](./Terminal)
-#### [Heroku is gone! Can I still get my data?](./HerokuGone.md)
+#### [Can I still get my data from Heroku?](./HerokuGone.md)
 #### [Menu](./Menu.md)
 #### [Restart](./Restart)
 #### [Mobile](./Mobile.md)
