@@ -9,3 +9,6 @@ Go to [Heroku](https://www.heroku.com/).  Log in.  Click on the name of your app
 That will take you to your project.  Click on "Settings".  
 ![](./images/HerokuSettingsClick.png)   
   
+You will be taken to the variables page.  Click on "Reveal Config Vars at the bottom".  
+![](./images/RevealConfigVars.png)  
+  
