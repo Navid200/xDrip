@@ -1,7 +1,7 @@
 ## Nightscout on Google Cloud  
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> Nightscout on Google Cloud  
   
-####       **Credit**    
+####          **Credit**    
 Thanks to JamOrHam, the current xDrip head developer, for the idea, putting it together, implementing the installer, testing everything, and providing instructions.  
 
 Thanks to tzachi-dar, senior xDrip developer, for ideas, development of critical code, and for providing support.  
@@ -19,7 +19,7 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ---  
   
-####       **Installation** (14.2.6)  
+####          **Installation** (14.2.6)  
 #### 1- [FreeDNS](./FreeDNS.md)
 #### 2- [Google Cloud project](./NS_GCProject)
 #### 3- [Virtual Machine](./VirtualMachine.md)
@@ -30,7 +30,7 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ---  
   
-####       **Utilities**  
+####          **Utilities**  
 #### [Backup](./DatabaseBackup.md) before deleting the virtual machine.
 #### [Restore](./DatabaseRestore.md)
 #### [Status page](./Status.md)
@@ -45,7 +45,7 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ---  
   
-####       **Troubleshooting**
+####          **Troubleshooting**
 #### [Connection Failed](./ConnectionFailed.md)
 #### [Connection via Cloud Identity-Aware Proxy Failed](./ConnIdentAwareFailed.md)
 #### [Edit variables using a browser does not work!](UpdateScripts_22.md)
@@ -54,7 +54,7 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ---  
   
-####       **Tips**
+####          **Tips**
 #### [Terminal](./Terminal)
 #### [Can I still get my data from Heroku?](./HerokuGone.md)
 #### [Menu](./Menu.md)
