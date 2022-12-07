@@ -65,6 +65,6 @@ So, let's set it to 20000, which is reasonably close and leaves some margin.
   
 For troubleshooting, if you want to temporarily allow anyone who has your hostname to be able to access your Nightscout, you need to change the following line:  
 export AUTH_DEFAULT_ROLES="denied"  
-Change denied to admin.  
-This is an extremely unsafe setting and you should change it back as soon as possible.  
+Change denied to readable.  
+
   
