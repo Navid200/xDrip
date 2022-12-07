@@ -15,3 +15,7 @@ You will be taken to the variables page.  Click on "Reveal Config Vars at the bo
 Scroll down to see the revealed variables.  
 ![](./images/ConfigVars.png)  
   
+It may not be a good idea to copy every variable from Heroku to Google Cloud.  For example, the variable that sets up MongoDB, on Heroku, sets it up on Atlas.  You don't need a Nightscout variable on Google Cloud to set up Mongo DB on the virtal machine.  That is done for you by default when you install.  
+  
+But, it's always a good idea to have a look at your old variables.   They may help you realize what you may have set up incorrectly now.  
+  
