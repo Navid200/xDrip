@@ -12,3 +12,6 @@ That will take you to your project.  Click on "Settings".
 You will be taken to the variables page.  Click on "Reveal Config Vars at the bottom".  
 ![](./images/RevealConfigVars.png)  
   
+Scroll down to see the revealed variables.  
+![](./images/ConfigVars.png)  
+  
