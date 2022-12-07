@@ -6,6 +6,6 @@ If Nightscout worked for you on Heroku and now you have problems, you can log in
 Go to [Heroku](https://www.heroku.com/).  Log in.  
 ![](./images/HerokuLoggedIn.png)  
   
-Click on the name of your project below.  
-  
+Click on the name of your project below.  That will take you to your project.  Click on "Settings".  
+![](HerokuSettingsClick.png)   
   
