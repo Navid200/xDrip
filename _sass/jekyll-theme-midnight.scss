@@ -122,7 +122,31 @@ pre {
     text-shadow: 0px 1px 0px #000;
     margin: 0;
     padding: 0;
+    
   }
+  //
+  .copy {
+      color: #4AF626;
+      position: absolute;
+      right: 1.2rem;
+      top: 1.2rem;
+      opacity: 0;
+  
+      &:active,
+      &:focus,
+      &:hover {
+        background: rgba(0, 0, 0, 0.7);
+        opacity: 1;
+      }
+    }
+  
+    &:active .copy,
+    &:focus .copy,
+    &:hover .copy {
+      background: rgba(0, 0, 0, 0.7);
+      opacity: 1;
+    }
+  //
 }
 
 table {
