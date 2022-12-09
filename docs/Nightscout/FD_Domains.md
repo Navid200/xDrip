@@ -22,3 +22,4 @@ Go through the pages and find a public domain that is categorized as low risk wh
   
 After selecting a domain, click on it in the left column.  Doing that takes you back to the subdomain page with the domain selected.  Now, enter a subdomain and proceed to activate it and create a hostname as explained [here](./FreeDNS.md).  
   
+In order to switch to using your new hostname, use the [FreeDNS setip utility](./FreeDNS_Util.md).  
