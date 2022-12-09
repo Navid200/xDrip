@@ -1,6 +1,4 @@
-
-
-var codeBlocks = document.querySelectorAll('pre');
+var codeBlocks = document.querySelectorAll('pre.highlight');
 
 
 codeBlocks.forEach(function (codeBlock) {
