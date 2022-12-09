@@ -12,7 +12,7 @@ At the top of the page, you can see the 7 previously mentioned domains.
 ![](./images/FD_DomainList1.png)  
 You can see the number of users under each listing.  mooo.com has more than half a million uers.  It is not surprising that some routers may block it.  
   
-Go to https://urlfiltering.paloaltonetworks.com/query/.  
+Go to [https://urlfiltering.paloaltonetworks.com/query/](https://urlfiltering.paloaltonetworks.com/query/).  
 Enter mooo.com.  You will see that it is categorized as high risk.  
   
 Now, scroll down to the bottom of the page.  There are more than 400 pages!  
