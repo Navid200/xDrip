@@ -31,7 +31,6 @@ asdfg
 <mark style="background-color: #efdfef">curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>   
 
 
-{% include codeHeader.html %}
 ```
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash
 ```
