@@ -1,7 +1,7 @@
 ## FreeDNS Utility
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> FreeDNS Utility  
   
-This utility is called as a part of the installation process.  You can also use it after installatio to change your FreeDNS hostname.  
+This utility is called as a part of the installation process.  You can also use it after installation to change your FreeDNS hostname.  
   
 Open a [terminal](./Terminal.md) on the virtual machine.  
 Select "FreeDNS Setup" from the main menu.  
