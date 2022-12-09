@@ -36,4 +36,4 @@ asdfg
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash
 ```
   
-Test2  3  
+Test2  31  
