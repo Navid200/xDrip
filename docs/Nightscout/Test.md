@@ -19,6 +19,8 @@ curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.s
 3-  
 ```
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1
+asdfg
+asdfg
 ```
 <br/>  
 <br/>  
