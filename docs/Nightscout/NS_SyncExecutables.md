@@ -18,7 +18,7 @@ Open a [terminal](./Terminal.md).  If a menu opens, close it by choosing "Exit t
 ```  
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash
 ```  
-  
+<br/>  
   
 You will see the following note:  
 ![](./images/BootstrapConfirm.png)  
