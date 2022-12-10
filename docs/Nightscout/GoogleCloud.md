@@ -40,7 +40,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Customize Nightscout](./Customize.md) (Advanced)
 #### [Update commands & menus](./NS_SyncExecutables) (not Nightscout itself)
 #### [Copy Database](./NS_Transfer.md)
-#### Copy Heroku variables
+#### [Copy Heroku variables](./CopyHerokuVars.md)
 <br/>  
   
 ---  
