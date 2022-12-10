@@ -15,7 +15,9 @@ If the menu that opens looks like [this](./images/Menu.png), the platform has up
 #### **Bootstrap**  
 Open a [terminal](./Terminal.md).  If a menu opens, close it by choosing "Exit to shell".  Copy the entire highlighted text below and paste into the terminal.  Hit enter.  
   
-<mark style="background-color: #efdfef">curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>  
+```  
+curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash</mark>
+```  
   
   
 You will see the following note:  
