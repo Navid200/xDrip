@@ -22,6 +22,7 @@ It will take a few minutes to complete a preliminary installation step.  You wil
   
 | Incorrect choice | Notification | Outcome |  
 | :--------------: | :----------: | :-----: |  
+| Nothing | [<img src="./images/AllGood_Icon.png">](./images/AllGood.png) | All good |  
 | Region | [<img src="./images/Region_Icon.png">](./images/Region.png) | Not free |  
 | Machine type | [<img src="./images/NoMicro_icon.png">](./images/NoMicro.png) | Not free |  
 | Disk type | [<img src="./images/NotStandard_Icon.png">](./images/NotStandard.png) | Not free |  
