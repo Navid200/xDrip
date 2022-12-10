@@ -10,6 +10,7 @@ You will need your Heroku user ID (email) and password.  To run the utility, ent
 ```  
 /xDrip/scripts/GetHerokuVars.sh
 ```  
+  
 <br/>  
   
 Alternatively, you can log into Heroku and access your variables as explained [here](./HerokuVars.md).  
