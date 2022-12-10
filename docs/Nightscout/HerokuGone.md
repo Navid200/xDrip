@@ -24,7 +24,10 @@ Under "Binary Import and Export Tools", copy the mongodump string.  You can do t
   
 Open a [terminal](./Terminal.md).  Exit the menu.  Enter the following into the terminal.  
   
-<mark style="background-color: #eFdFef">cd /tmp </mark>  
+```  
+cd /tmp
+```  
+<br/>  
   
 Paste the mongodump string you copied, from the binary import and export tools, into the terminal.  It will be similar to what is shown in the followiong figure.  
 ![](./images/dumpPaste.png)  
@@ -43,7 +46,10 @@ Wait for the export process to complete.  It could take a few minutes.  If it su
   
 Now, enter the following in the terminal replacing UserName with the user name you copied from the Atlas database access page.  
   
-<mark style="background-color: #eFdFef">mongorestore -d Nightscout /tmp/dump/UserName </mark>  
+```  
+mongorestore -d Nightscout /tmp/dump/UserName 
+```  
+<br/>  
   
 If it succeeds, you will see something as shown below.  
 ![](./images/RestoreSuccess.png)  
