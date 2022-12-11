@@ -12,3 +12,8 @@ To go back to the area at the top and add or edit any parameters, you can press 
   
 In fact, there is no reason to move the cursor to the area at the bottom.  If you are happy with everything you have entered and are ready to submit, all you need to do is to press ENTER.  On the other hand, if you have changed your mind and would like to cancel, you can just press the escape key.  
   
+You will also see notifications.  The following image shows an example.  
+![](./images/NoteMenu.png)  
+  
+In the case of a notification, you only need to press ENTER to dismiss the notification.   
+  
