@@ -23,4 +23,4 @@ You will also see notifications.  The following image shows an example.
 ![](./images/NoteMenu.png)  
   
 In the case of a notification, you only need to press ENTER to dismiss the notification.   
-  
+   
