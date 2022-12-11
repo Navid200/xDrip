@@ -11,7 +11,7 @@ You may see the following.  Don't panic.  Click on "Activate".
 Go to the console and the Compute Engine.  You will see that the virtual machine has been stopped!  
 ![](./images/VM_Stopped.png)  
   
-Start it (one of the options under the 3-dot menu).  After the machine starts, you may notice that you still cannot access Nightscout.  This is because restarting the machine after it was shut down for a while has resulted in the machine IP to have been changed.  At this point, the only way to remedy this is to rerun the FreeDNS setup utility.  Doing that will map the new IP to the hostname again.  Then, you will be able to access Nightscout again using the subdomain.  
+Start it (one of the options under the 3-dot menu).  After the machine starts, you may notice that you still cannot access Nightscout.  This is because restarting the machine after it was shut down for a while has resulted in the machine IP to have been changed.  At this point, the only way to remedy this is to rerun the FreeDNS setup utility.  Doing that will map the new IP to the hostname again.  Then, you will be able to access Nightscout again using the same hostname as before.  
 <br/>  
   
 ---  
