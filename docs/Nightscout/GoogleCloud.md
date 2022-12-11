@@ -57,7 +57,8 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ####          **Tips**
 #### [Terminal](./Terminal)
-#### [Menu](./Menu.md)
+#### [Main menu](./Menu.md)
+#### [How to use menus](./HowToMenu.md)
 #### [Update Nightscout](./update_nightscout.md)
 #### [Heroku variables](./HerokuVars.md)
 #### [Can I still get my data from Heroku?](./HerokuGone.md)
