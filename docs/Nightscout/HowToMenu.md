@@ -15,7 +15,7 @@ In fact, there is no reason to move the cursor to the area at the bottom.  If yo
 The file selection menu is shown in the following image.  
 ![](./images/FileSelectMenu.png)  
   
-In that case, after you move the cursor over the filename you want to choose, you will need to use the spacebar.  Pressing enter will not select the file.  After selecting the file using the spacebar, the filename will appear in the fuul path at the bottom.  Then, you need to press ENTER to submit.  
+In that case, after you move the cursor over the filename you want to choose, you will need to use the spacebar.  Pressing enter will not select the file.  After selecting the file using the spacebar, the filename will appear in the full path at the bottom.  Then, you need to press ENTER to submit.  
   
 You will also see notifications.  The following image shows an example.  
 ![](./images/NoteMenu.png)  
