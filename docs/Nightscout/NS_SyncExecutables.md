@@ -7,7 +7,7 @@ Open a [terminal](./Terminal.md).  A [menu](./Menu.md) should come up automatica
   
 From the menu, select "Update scripts".  After completion and closing the terminal and opening a new one, if a menu does not automatically open up, please skip to the section titled "Bootstrap" below.  
   
-If the menu opens, view the Status page by selecting "Status".  If it looks like this, the platform has updated to the latest.  If not, please proceed to Bootstrap explained below.   
+If the menu opens, view the Status page by selecting "Status".  If it looks like [this](./images/Status.png), the platform has updated to the latest.  If not, please proceed to Bootstrap explained below.   
 <br/>  
   
 ---  
