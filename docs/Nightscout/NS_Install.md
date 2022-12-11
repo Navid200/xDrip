@@ -72,7 +72,7 @@ $ " \
 You will be asked to enter your FreeDNS user ID and password.  
 ![](./images/FreeDNS_IDPass.png)  
 Enter those.  Use the up and down arrow keys to move between the password and user ID fields.  Your FreeDNS user ID is shown at the top right corner of the page when you log into [FreeDNS](https://freedns.afraid.org/zc.php?from=L21lbnUv).  After you enter your user ID and password, you can press enter to submit.  
-If you have more than one subdomain, you will be asked to identify the one you want to use.  In that case, you need to enter the first few characters of the subdomain to identify it with respect to your other subdomains.  
+If you have more than one subdomain, you will be asked to identify the one you want to use.  In that case, you need to enter the first few characters of the subdomain to identify it with respect to your other subdomains, and press enter.  
   
 You may be directed to exit and try again (internal error).  Do that.  If you are asked again to retry, please close the window.  Open a new window.  Use item 12 from the menu to reboot the server.  Wait 30 seconds.  Click on retry to reconnect.  Run installation phase 2 again.  
   
