@@ -11,11 +11,13 @@ When you first see a menu, the cursor is in the first area at the top.  You can 
 To go back to the area at the top and add or edit any parameters, you can press the TAB key again.  
   
 In fact, there is no reason to move the cursor to the area at the bottom.  If you are happy with everything you have entered and are ready to submit, all you need to do is to press ENTER.  On the other hand, if you have changed your mind and would like to cancel, you can just press the escape key.  
+<br/>  
   
 The file selection menu is shown in the following image.  
 ![](./images/FileSelectMenu.png)  
   
 In that case, after you move the cursor over the filename you want to choose, you will need to use the spacebar.  Pressing enter will not select the file.  After selecting the file using the spacebar, the filename will appear in the full path at the bottom.  Then, you need to press ENTER to submit.  
+<br/>  
   
 You will also see notifications.  The following image shows an example.  
 ![](./images/NoteMenu.png)  
