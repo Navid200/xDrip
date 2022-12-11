@@ -7,3 +7,5 @@ Menus are used so that you can accomplish everything you need without having to 
 There are two different areas on the menu.  One is at the top containing the different paramerts that can be entered identified with an orange enclosing marker.  
 The other is at the bottom containing "Submit" and "Cencel" in this case identified by a green enclosing marker.  
   
+When you first see a menu, the cursor is in the first area at the top.  You can move between User ID and Password using the up and down arrow keays.  
+  
