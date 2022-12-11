@@ -14,11 +14,12 @@ You can see the number of users under each listing.  mooo.com has more than half
   
 Go to [https://urlfiltering.paloaltonetworks.com/query/](https://urlfiltering.paloaltonetworks.com/query/).  
 Enter mooo.com and click on search.  You will see that it is categorized as high risk.  
+You can also try [https://www.virustotal.com/gui/home/url](https://www.virustotal.com/gui/home/url)  
   
 On the registry page of FreeDNS, scroll down to the bottom of the page.  There are more than 400 pages!  
 ![](./images/FD_DomainsPages.png)  
   
-Go through the pages and find a public domain that is categorized as low risk when you test using the link provided above.  Also take into account the number of users.  You may be better off if you choose a domain with a small number of users on it.  
+Go through the pages and find a public domain that is categorized as low risk when you test using the links provided above.  Also take into account the number of users.  You may be better off if you choose a domain with a small number of users on it.  
   
 After selecting a domain, click on it in the left column.  Doing that takes you back to the subdomain page with the domain selected.  Now, enter a subdomain and proceed to activate it and create a hostname as explained [here](./FreeDNS.md).  
   
