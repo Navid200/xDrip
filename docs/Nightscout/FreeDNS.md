@@ -8,8 +8,7 @@ Click on Sign up Free, and sign up.  Make sure to choose a user ID excluding cap
   
 If you include capital letters in your user ID, FreeDNS will convert it all to lowercase.  You can see that in the activation email you receive from FreeDNS.  Also, if you log in to FreeDNS, you can see your approved user ID at the top in the right pane.  
   
-You will be asked to enter your user ID and password later on as a part of the installation.  If you enter capital letters, FreeDNS will not authenticate the user ID and the installation process will not proceed.  
-The best course of action is to avoid capital letters in your FreeDNS user ID.  
+You will be asked to enter your user ID and password later on as a part of the installation.  So, please remember both.  
   
 Send activation email.  
 ![](./images/FreeDNS1.png)  
