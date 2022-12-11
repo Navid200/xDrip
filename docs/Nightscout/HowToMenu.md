@@ -4,6 +4,6 @@
 Menus are used so that you can accomplish everything you need without having to deal with Linux command entry.  The following shows one of the menus.  
 ![](./images/Menus.png)  
   
-There are two different sreas on the menu.  One is at the top containing the different paramerts that can be entered identified with an orange enclosing marker.  
-  
+There are two different areas on the menu.  One is at the top containing the different paramerts that can be entered identified with an orange enclosing marker.  
+The other is at the bottom containing "Submit" and "Cencel" in this case identified by a green enclosing marker.  
   
