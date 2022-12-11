@@ -36,7 +36,6 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Restore](./DatabaseRestore.md)
 #### [Status page](./Status.md)
 #### [Nightscout variables](./NS_Variables)
-#### [Update Nightscout](./update_nightscout.md)
 #### [FreeDNS Utility](./FreeDNS_Util.md)
 #### [Customize Nightscout](./Customize.md) (Advanced)
 #### [Update commands & menus](./NS_SyncExecutables) (not Nightscout itself)
@@ -59,6 +58,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 ####          **Tips**
 #### [Terminal](./Terminal)
 #### [Menu](./Menu.md)
+#### [Update Nightscout](./update_nightscout.md)
 #### [Heroku variables](./HerokuVars.md)
 #### [Can I still get my data from Heroku?](./HerokuGone.md)
 #### [Restart](./Restart)
