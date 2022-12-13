@@ -12,7 +12,7 @@
 ### [Display](./Display/Display)
 ### [Dexcom](./Dexcom_page)
 ### [Watches](./Watches)
-### [Report](./Report)
+### [Reminders](./Reminders)
   
 <br/>  
   
@@ -20,6 +20,7 @@
 #### [Screen saver (lock screen) while being charged](./Screensaver)
 #### [Lock Screen](./Lock-screen)
 #### [Stop xDrip - disable collection](./Stop-xDrip)
+#### [Report](./Report)
 #### [Reminders](./Reminders)
 #### [Data tables](./Datatables)
 #### [Engineering mode](./Engineering-Mode.md)
