@@ -1,3 +1,9 @@
+---
+category: doc
+tags: [tutorial, textalic]
+---
+
+
 ## Test  
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Test  
   
