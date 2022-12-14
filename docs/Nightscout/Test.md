@@ -1,6 +1,6 @@
 ---
 category: doc
-tags: [tutorial, textalic]
+tags: [Nightscout]
 ---
 
 
