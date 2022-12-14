@@ -47,4 +47,4 @@ You will see the following note:
 ![](./images/BootstrapConfirm.png)  
 Press enter to proceed.  After bootstrap is complete, your platform will be updated to the latest release.
   
-Test2  3123  
+Test2  312  
