@@ -2,7 +2,7 @@
 
 xDrip is an [open-source Android app](https://github.com/NightscoutFoundation/xDrip), developed, maintained and supported by volunteers, that you can use as a continuous glucose monitor.  
 There is no financial incentive for any of us in what we do for xDrip.  Each one of us either has diabetes or has a loved one who does.  We need and use xDrip ourselves.  
-![](./docs/images/xDinaction.png)  
+![](./docs/images/xDinaction.png)  ![](./docs/images/MainScreenTop.png)  
   
 <br/>  
   
