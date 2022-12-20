@@ -9,4 +9,4 @@ First, set up a FreeDNS hostname following the installation guide.  After comple
 sudo certbot --nginx -d my-private-domain-hostname --redirect --agree-tos --no-eff-email
 ```
   
-  
+Then, [reboot](./Restart.md) the server.  
