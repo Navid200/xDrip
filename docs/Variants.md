@@ -12,6 +12,11 @@ View as list &#8722;> sort by last modified.
 ---  
   
 #### **Identify basic notifications**  
-The basic notifications are already identified by the name of the app as highlicghted in the following screenshot example.  
+The basic notifications are already identified by the name of the app as highlicghted in the following screenshot example.  So, you don't need to do anything for that.  
 ![](./images/variantNote.png)  
+<br/>  
   
+---  
+  
+#### **Identify Alerts**  
+Name the alerts in each app according to the person you are following.  For example, name the low alert in the main app "HanselLow" while naming the low alert in the variant "GretelLow".  Now, when you get a low alert, you can tell whom the alert is for.  
