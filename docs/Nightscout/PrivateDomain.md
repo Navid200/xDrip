@@ -3,7 +3,7 @@
   
 You can use your private domain instead of a FreeDNS hostname.  
   
-First, set up a FreeDNS hostname following the installation guide.  After completing installation and having a working setup, enter the following in a [terminal](./Terminal.md), where hostname is your private hostname.  
+First, set up a FreeDNS hostname following the installation guide.  After completing installation and having a working setup, enter the following in a [terminal](./Terminal.md), where hostname is your private hostname.  For example, it could be host.name.com.  
   
 ```
 sudo certbot --nginx -d hostname --redirect --agree-tos --no-eff-email
