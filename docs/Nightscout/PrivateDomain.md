@@ -10,3 +10,5 @@ sudo certbot --nginx -d hostname --redirect --agree-tos --no-eff-email
 ```
   
 Then, [reboot](./Restart.md) the server.  
+  
+  
