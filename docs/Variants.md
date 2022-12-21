@@ -11,7 +11,7 @@ View as list &#8722;> sort by last modified.
   
 ---  
   
-#### Identify basic notifications  
+#### **Identify basic notifications**  
 The basic notifications are already identified by the name of the app as highlicghted in the following screenshot example.  
 ![](./images/variantNote.png)  
   
