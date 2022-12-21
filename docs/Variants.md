@@ -12,7 +12,7 @@ View as list &#8722;> sort by last modified.
 ---  
   
 #### **Identify basic notifications**  
-The basic notifications are already identified by the name of the app as highlicghted in the following screenshot example.  So, you don't need to do anything for that.  
+The basic notifications are already identified by the name of the app as highlighted in the following screenshot example.  So, you don't need to do anything for that.  
 ![](./images/variantNote.png)  
 <br/>  
   
