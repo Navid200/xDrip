@@ -20,3 +20,5 @@ The basic notifications are already identified by the name of the app as highlig
   
 #### **Identify Alerts**  
 Name the alerts in each app according to the person you are following.  For example, name the low alert in the main app "HanselLow" while naming the low alert in the variant "GretelLow".  Now, when you get a low alert, you can tell whom the alert is for.  
+  
+  
