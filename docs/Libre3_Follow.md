@@ -9,3 +9,6 @@
 6- In xDrip select "Web Follower" as the hardware data source.  
 7- Use the same credentials you created for the web follower settings.  
 8- Enter beonlabs for Configuration Script.  
+  
+There has been an update to the link-up app.  If this scheme was working for you, it may not any longer.  
+To solve the problem, you will need to install the link-up app again.  Make sure it is updated to the latest.  It may ask you to accept terms and conditions.  Do that.  It should work again now.  
