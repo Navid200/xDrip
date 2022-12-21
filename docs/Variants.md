@@ -27,4 +27,10 @@ Name the alerts in each app according to the person you are following.  For exam
 #### **Icons**
 The icons are clearly identified.  
 ![](./images/variantIcons.png)  
+<br/>  
+  
+---  
+  
+#### **Which xDrip do I have open?**
+You can customize the navigation bar and/or the title bar colors, as shown [here](./Legend.md).  Then, it may be easier for you to tell which app you are in.  
   
