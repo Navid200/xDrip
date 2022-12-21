@@ -33,4 +33,4 @@ The icons are clearly identified.
   
 #### **Which xDrip do I have open?**
 You can customize the navigation bar and/or the title bar colors, as shown [here](./Legend.md).  Then, it may be easier for you to tell which app you are in.  
-  
+   
