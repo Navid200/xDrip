@@ -50,7 +50,7 @@ If you didn't take care of entering your credit card details already, you will b
 **Go to Google Cloud Billing.**  On that page, you can see your free  trial credit.  Click on **upgrade.**  
 ![](./images/FreeTrialCredit.png)  
   
-That will bring up the form shown in the following image.  Click on Activate.  
+That will bring up the form shown in the following image.  Click on **Activate.**  
 ![](./images/ActivateFullAccountBefore.png)  
   
 Your free trial credit will remain available until you use it or its expiry date.  
