@@ -261,9 +261,6 @@
       <loc>https://navid200.github.io/xDrip/docs/Display/TrendArrow.html</loc>
    </url>
    <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/Maintenance.html</loc>
-   </url>
-   <url>
       <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_Followers.html</loc>
    </url>
    <url>
@@ -294,9 +291,6 @@
       <loc>https://navid200.github.io/xDrip/docs/Nightscout/Terminal.html</loc>
    </url>
    <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/noip_com.html</loc>
-   </url>
-   <url>
       <loc>https://navid200.github.io/xDrip/docs/Restart-G5-sensor.html</loc>
    </url>
    <url>
@@ -310,6 +304,18 @@
    </url>
    <url>
       <loc>https://navid200.github.io/xDrip/docs/Nightscout/GoogleCloud.html</loc>
+   </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/Nightscout/FD_Domains.html</loc>
+   </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/Nightscout/FreeDNS.html</loc>
+   </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/Nightscout/VirtualMachine.html</loc>
+   </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_Install.html</loc>
    </url>
 
 </urlset> 
