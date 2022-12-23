@@ -3,6 +3,9 @@
   
 Go to the [Google Cloud](https://cloud.google.com/).  
 Sign in.  
+Click on "Console".  
+![](./images/Console.png)  
+  
 Go to the dashboard.  
 ![](./images/Dashboard.png)  
   
