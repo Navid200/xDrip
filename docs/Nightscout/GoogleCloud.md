@@ -56,6 +56,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 ---  
   
 ####          **Tips**
+#### [Compute Engine](./ComputeEngine.md)
 #### [Terminal](./Terminal.md)
 #### [Main menu](./Menu.md)
 #### [How to use menus](./HowToMenu.md)
