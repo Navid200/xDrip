@@ -22,11 +22,11 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ####          **Installation** (14.2.6)  
 #### 1- [FreeDNS](./FreeDNS.md)
-#### 2- [Google Cloud project](./NS_GCProject)
+#### 2- [Google Cloud project](./NS_GCProject.md)
 #### 3- [Virtual Machine](./VirtualMachine.md)
-#### 4- [Linux/Nightscout install](./NS_Install)
-#### 5- [Setting up Nightscout](./NS_setup)
-#### 6- [Setting up followers](./NS_Followers)  
+#### 4- [Linux/Nightscout install](./NS_Install.md)
+#### 5- [Setting up Nightscout](./NS_setup.md)
+#### 6- [Setting up followers](./NS_Followers.md)  
 <br/>  
   
 ---  
@@ -56,17 +56,17 @@ The rest of the items you see on this page are optional items on the menu or iss
 ---  
   
 ####          **Tips**
-#### [Terminal](./Terminal)
+#### [Terminal](./Terminal.md)
 #### [Main menu](./Menu.md)
 #### [How to use menus](./HowToMenu.md)
 #### [Update Nightscout](./update_nightscout.md)
 #### [Heroku variables](./HerokuVars.md)
 #### [Can I still get my data from Heroku?](./HerokuGone.md)
-#### [Restart](./Restart)
+#### [Restart](./Restart.md)
 #### [Mobile](./Mobile.md)
 #### [Reinstall](./Reinstall.md)
-#### [Will this be free?](./NS_FreeTier)
+#### [Will this be free?](./NS_FreeTier.md)
 #### [Will this work in Australia or China?](./AustraliaChina.md)
 #### [Security](./Security.md)
-#### [Snapshots](./Snapshots) (Advanced)
+#### [Snapshots](./Snapshots.md) (Advanced)
    
