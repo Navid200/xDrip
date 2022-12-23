@@ -34,6 +34,9 @@ By default, a new project titled "My First Project" is created for you.  You can
 <br/>  
 <br/>  
   
+**Click on "Console".**  
+![](./images/Console.png)  
+  
 **Go to dashboard.**  
 ![](./images/Dashboard.png)  
   
