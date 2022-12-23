@@ -58,3 +58,4 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1898](https://github.com/NightscoutFoundation/xDrip/issues/1898) | Requests for support: Insulin profiles | | | Consolidated |  
 | [2122](https://github.com/NightscoutFoundation/xDrip/issues/2122) | Allow Missed Readings Alert to use Volume Profiles | | | 2022.05.12 |  
 | [2136](https://github.com/NightscoutFoundation/xDrip/issues/2136) | Speak Readings Audio Focus options | | | 2022.05.19 | |  
+| [2172](https://github.com/NightscoutFoundation/xDrip/issues/2172) | Back to search results options | | | 2022.06.10 | |  
