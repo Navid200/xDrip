@@ -4,6 +4,7 @@
 Here, we will create a free virtual machine in our [Google project](./NS_GCProject).   
   
 **Go to dashboard.**  **Select "Compute Engine".**  Select the "VM instances" tab in the left pane if it's not already selected.  
+  
 **Select "Create Instance".**  
 ![](./images/CreateInstance.png)  
   
