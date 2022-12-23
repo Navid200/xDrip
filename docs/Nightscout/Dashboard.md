@@ -9,3 +9,6 @@ Click on "Console".
 Go to the dashboard.  
 ![](./images/Dashboard.png)  
   
+![](./images/Dashboard2.png)  
+  
+  
