@@ -60,3 +60,4 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [2136](https://github.com/NightscoutFoundation/xDrip/issues/2136) | Speak Readings Audio Focus options | | | 2022.05.19 | |  
 | [2172](https://github.com/NightscoutFoundation/xDrip/issues/2172) | Back to search results options | | | 2022.06.10 | |  
 | [2173](https://github.com/NightscoutFoundation/xDrip/issues/2173) | Quicker reset of the vertical axis span after a very high reading | | | 2022.06.10 | |  
+| [2335](https://github.com/NightscoutFoundation/xDrip/issues/2335) | Wahoo Element Bolt V2 does not configure | | | 2022.09.13 | 🐛 |  
