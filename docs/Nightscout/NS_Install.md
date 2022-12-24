@@ -44,10 +44,10 @@ If you did not get a notification to recreate the machine, because of a wrong Ub
 ---  
   
 **Phase 1**  
-To continue the installation, select item 2 (using arrows) "Installation Phase 1" and enter.  
+To continue the installation, **select item 2** (using arrows) "Installation Phase 1" and enter.  
 It will take about 15 minutes for this step to complete.  
 If SSH disconnects and you see a disconnect message, please reconnect and run item 2 again.  
-You will see error messages.  Please be patient allowing the process to complete.  
+You will see a few error messages.  Those are expected and can be ignored.  Please be patient allowing the process to complete.  
   
 <video width="400" controlsList="nodownload" src="./video/Install2.mp4" controls>  
 </video>  
@@ -59,11 +59,11 @@ You will see error messages.  Please be patient allowing the process to complete
 ---
   
 **Phase 2**  
-To complete the installation, choose item 3 on the menu "Installation Phase 2" and enter.    
+To complete the installation, **choose item 3** on the menu "Installation Phase 2" and enter.    
   
 You will be asked to choose API_SECRET.  
 ![](./images/API-SECRET.png)  
-Enter a password and take note.  You will need it to access Nightscout.  
+**Enter a password** and take note.  You will need it to access Nightscout.  
 Avoid the following characters.  
 $ " \   
   
@@ -74,14 +74,14 @@ $ " \
   
 You will be asked to enter your FreeDNS user ID and password.  
 ![](./images/FreeDNS_IDPass.png)  
-Enter those.  Use the up and down arrow keys to move between the password and user ID fields.  Your FreeDNS user ID is shown at the top right corner of the page when you log into [FreeDNS](https://freedns.afraid.org/menu/).  After you enter your user ID and password, you can press enter to submit.  
+**Enter those.**  Use the up and down arrow keys to move between the password and user ID fields.  Your FreeDNS user ID is shown at the top right corner of the page when you log into [FreeDNS](https://freedns.afraid.org/menu/).  After you enter your user ID and password, you can press enter to submit.  
 If you have more than one subdomain, you will be asked to identify the one you want to use.  In that case, you need to enter the first few characters of the subdomain to identify it with respect to your other subdomains, and press enter.  
   
-You may be directed to exit and try again (internal error).  Do that.  If you are asked again to retry, please close the window.  Open a new window.  Use item 12 from the menu to reboot the server.  Wait 30 seconds.  Click on retry to reconnect.  Run installation phase 2 again.  
+You may be directed to exit and try again (internal error).  Do that.  **If you are asked again to retry, please close the window.**  Open a new window.  Use item 12 from the menu to reboot the server.  Wait 30 seconds.  Click on retry to reconnect.  Run installation phase 2 again.  
   
 After successful setup, you will be asked to enter an email address for security notices.  
 ![](./images/emailUrgentRenewal.png)  
-Enter an email address.  
+**Enter an email address.**  
 You will be asked to confirm a restart.  Please do.  You will see the disconnect message.  
 Wait 30 seconds, and Nightscout will be running.  
  
