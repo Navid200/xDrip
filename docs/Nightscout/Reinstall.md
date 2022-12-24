@@ -9,7 +9,7 @@ Follow the instructions [here](./DatabaseBackup.md) to backup the database and d
 Download the following file as well: /etc/nsconfig
 
 If you have any other files on the virtual machine that you like to keep, download those as well.  
-If you are certain you have all the files you need, only then, should you delete the machine.  
+If you are certain you have all the files you need, only then, should you [delete the machine](./DeleteVM.md).  
   
 Carefully follow [this guide](./GoogleCloud.md) to create a new machine, and install Nightscout.  Set up Nightscout and xDrip to upload.  
 
