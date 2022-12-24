@@ -65,6 +65,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Can I still get my data from Heroku?](./HerokuGone.md)
 #### [Restart](./Restart.md)
 #### [Mobile](./Mobile.md)
+#### [Delete virtual machine](./DeleteVM.md)
 #### [Reinstall](./Reinstall.md)
 #### [Will this be free?](./NS_FreeTier.md)
 #### [Will this work in Australia or China?](./AustraliaChina.md)
