@@ -18,8 +18,8 @@ curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.s
 <br/>  
   
 You will be presented with a notification.  To acknowledge, you need to select OK.  However, you will not be able to use the mouse.  Just **press enter.**  [This](./HowToMenu.md) explains how the menus work.  
-It will take a few minutes to complete a preliminary installation step.  You will then see a note or the status page.  If the note directs you to delete the machine and create a new one or if any item above the line on the status page is in red, it means you made an incorrect selection when you created the virtual machine.  In that case, delete the virtual machine and repeat the [virtual machine](./VirtualMachine.md) step.  
-The following table shows what you will see depending on each possible incorrect choice.  
+It will take a few minutes to complete a preliminary installation step.  You will then see a note or the status page.  
+The following table shows what you may see depending on different choices you can make.  
   
 | Incorrect choice | Notification | Outcome |  
 | :--------------: | :----------: | :-----: |  
@@ -30,6 +30,8 @@ The following table shows what you will see depending on each possible incorrect
 | Disk size | [<img src="./images/DiskSize_Icon.png">](./images/DiskSize.png) | Unused resource <br/> Not free |  
 | Firewall | [<img src="./images/Firewall_Icon.png">](./images/Firewall.png) | Insecurity |  
 | Ubuntu | [<img src="./images/WrongUbuntu_Icon.png">](./images/WrongUbuntu.png) | Incompatibility |  
+  
+If the note directs you to delete the machine and create a new one or if any item above the line on the status page is in red, it means you made an incorrect selection when you created the virtual machine.  In that case, [delete the virtual machine](./DeleteVM.md) and go back and repeat the [virtual machine](./VirtualMachine.md) step.  
   
 If you did not get a notification to recreate the machine, because of a wrong Ubuntu version, and nothing is red above the line on the status page, just press enter to close the status page.  You will see this menu:  
 ![](./images/Menu.png)  
