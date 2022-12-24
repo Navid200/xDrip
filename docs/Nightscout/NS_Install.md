@@ -51,6 +51,7 @@ You will see a few error messages.  Those are expected and can be ignored.  Plea
   
 <video width="400" controlsList="nodownload" src="./video/Install2.mp4" controls>  
 </video>  
+  
 <video width="400" controlsList="nodownload" src="./video/Install3.mp4" controls>  
 </video>  
 <br/>  
