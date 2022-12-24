@@ -13,7 +13,7 @@
   
 ---  
   
-#### ** Update**  
+#### **Update**  
 There has been an update to the link-up app.  If this scheme was working for you, it may not any longer.  
 To solve the problem, you will need to install the link-up app again.  Make sure it is updated to the latest.  It may ask you to accept terms and conditions.  
 If you have it installed and never uninstalled it, you will need to log off and log back in to get the prompt to accept the terms and conditions.  
