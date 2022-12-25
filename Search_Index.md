@@ -241,7 +241,7 @@ You can use your browser's search function on this page to find an item you may 
 <br/>  
   
 #### **t:slim**
-#### [Can xDrip coexist with t:slim or receiver?](./docs/Receiver-or-t:slim-and-xDrip)  
+#### [Can xDrip coexist with t:slim or receiver?](./docs/Receiver-or-tslim-and-xDrip)  
 <br/>  
   
 #### **Transmitter**
