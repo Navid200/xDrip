@@ -13,7 +13,7 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 #### [Status](./StatusG5G6)
 #### [Proper Connectivity](./Proper-connectivity)
 #### [Session in progress](./Session-in-progress)
-#### [Can xDrip coexist with t:slim or receiver?](./Receiver-or-t:slim-and-xDrip)
+#### [Can xDrip coexist with t:slim or receiver?](./Receiver-or-tslim-and-xDrip.md)
 #### [Both xDrip and Dexcom app](./xDrip-and-Dexcom-app)
 #### [Troubleshooting](./Connectivity-troubleshoot)
 #### [Intermittent Connectivity](./Intermittent)
