@@ -1,3 +1,8 @@
+---
+title: "What not to do"
+permalink: "/docs/What-not-to-do.html"
+---
+
 ## What not to do!
 [xDrip](../README.md) >> [Features](./Features_page) >> [xDrip & Dexcom](./Dexcom_page) >> What not to do  
   
