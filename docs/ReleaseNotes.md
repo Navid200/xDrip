@@ -5,6 +5,7 @@ Major releases are identified here with brief descriptions.
   
 | Release | Notes |  
 |---------|-------|  
+| [2022.12.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.24) | Google play service not being installed will not crash any more. |  
 | [2022.12.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09) | Resolve intermittent IoB display |  
 | [2022.12.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.05) | minimedmobile |  
 | [2022.11.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.27) | BT pairing, WiFi sleep, Google Health connect |  
