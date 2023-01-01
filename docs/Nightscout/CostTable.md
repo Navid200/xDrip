@@ -9,4 +9,14 @@ Click on "Cost table".  Click on "Column display options".
 ![](./images/ColDisOpt.png)  
   
 Disable all options except the following:  
-
+  
+Project name  
+SKU description  
+Credit type  
+Cost type  
+Usage start date  
+Usage end date  
+Usage amount  
+Usage unit  
+Unrounded Cost ($)  
+  
