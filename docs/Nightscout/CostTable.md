@@ -25,12 +25,12 @@ Click on OK.
 Choose an invoice.  Keep in mind that an invoice will only become complete on the third day of the month.  So, the invoice for December, will not yet be valid on January 2.  
 ![](./images/ChooseInvoice.png)  
   
-Put a checkmark beside project names.  Then, click on "Download CSV".  
+Put a check mark beside project names.  Then, click on "Download CSV".  
 ![](./images/DL_Invoice.png)  
   
 Open the csv file you downloaded.  If you don't have Excel, you can use Open Office (free).  
 ![](./images/CostTable.png)  
   
-Any credit listed as "free tier" is independant of your free trial.  Even after yopur free trial period ends, all free tier credits remain and stay in effect.  
+Any credit listed as "free tier" is independent of your free trial.  Even after your free trial period ends, all free tier credits remain and stay in effect.  
   
   
