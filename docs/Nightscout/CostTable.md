@@ -31,3 +31,6 @@ Put a checkmark beside project names.  Then, click on "Download CSV".
 Open the csv file you downloaded.  If you don't have Excel, you can use Open Office (free).  
 ![](./images/CostTable.png)  
   
+Any credit listed as "free tier" is independant of your free trial.  Even after yopur free trial period ends, all free tier credits remain and stay in effect.  
+  
+  
