@@ -42,16 +42,16 @@ function lunr_search(term) {
     $('#lunrsearchresults').show( 1000 );
     $( "body" ).addClass( "modal-open" );
     
-    document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block"  tabindex="-1" role="dialog" aria-labelledby="resultsmodal"> <div class="modal-dialog shadow-lg" role="document"> <div class="modal-content"> <div class="small" id="modtit"> <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close"> &times; </button> </div> <div class="modal-body"> <ul class="mb-0"> </ul>  </div> <div class="modal-footer"><button id="btnx" type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close search results</button></div></div> </div></div>';
+    document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block"  tabindex="-1" role="dialog" aria-labelledby="resultsmodal"> <div class="modal-dialog shadow-lg" role="document"> <div class="modal-content"> <div class="modal-header" id="modtit"> <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close"> &times; </button> </div> <div class="modal-body"> <ul class="mb-0"> </ul>    </div> <div class="modal-footer"><button id="btnx" type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button></div></div> </div></div>';
     if(term) {
-        document.getElementById('modtit').innerHTML = "<a class='small'>Search results for '" + term + "'</a>" + document.getElementById('modtit').innerHTML;
+        document.getElementById('modtit').innerHTML = "<h3 class='modal-title'>Search results for '" + term + "'</h3>" + document.getElementById('modtit').innerHTML;
         //put results on the screen.
         var results = idx.search(term);
         if(results.length>0){
             //console.log(idx.search(term));
             //if results
 var res_l=results.length;
-if(res_l>10) {res_l=10}
+if(res_l>40) {res_l=40}
             for (var i = 0; i < res_l; i++) {
                 // more statements
                 var ref = results[i]['ref'];
@@ -69,7 +69,7 @@ if(res_l>10) {res_l=10}
 }
 </script>
 <style>
-    .lunrsearchresult .title {color: #d9230f; margin-top: 100px;}
+    .lunrsearchresult .title {color: #b91308; margin-top: 100px; line-height: 2.0;}
     .lunrsearchresult .url {color: silver;}
     .lunrsearchresult a {display: block; color: #777;}
     .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
@@ -80,5 +80,5 @@ if(res_l>10) {res_l=10}
 
 
 <form class="bd-search hidden-sm-down" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
-<input type="text" class="search-input"  id="lunrsearch" name="search" placeholder="Enter search keywords" autocomplete="off"> 
+<input type="text" class="form-control text-small"  id="lunrsearch" name="q" value="" placeholder="Enter search keywords" autocomplete="off"> 
 </form>
