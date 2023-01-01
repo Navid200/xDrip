@@ -28,4 +28,6 @@ Choose an invoice.  Keep in mind that an invoice will only become complete on th
 Put a checkmark beside project names.  Then, click on "Download CSV".  
 ![](./images/DL_Invoice.png)  
   
+Open the csv file you downloaded.  If you don't have Excel, you can use Open Office (free).  
+![](./images/CostTable.png)  
   
