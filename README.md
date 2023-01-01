@@ -17,9 +17,4 @@ You need the advice of a competent medical professional to control your, or your
 #### [Troubleshooting](./docs/Troubleshooting_page)
 #### [Frequently Asked Questions](./docs/FAQ_page)
 #### [Bugs & Feature Requests](./docs/Issues)
-<br/>  
-  
----  
-  
-#### [Index](./Search_Index)
   
