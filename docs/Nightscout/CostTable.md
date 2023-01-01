@@ -25,3 +25,7 @@ Click on OK.
 Choose an invoice.  Keep in mind that an invoice will only become complete on the third day of the month.  So, the invoice for December, will not be valid on December 2.  
 ![](./images/ChooseInvoice.png)  
   
+Click on "Download CSV".  
+![](./images/DL_Invoice.png)  
+  
+  
