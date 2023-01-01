@@ -3,6 +3,10 @@
   
 You can get a categorized list of costs from Google Cloud even before your free trial period ends.  You must have [created a Google Project and activated billing](./NS_GCProject.md) for this to work.  
   
-Go to the [Billing](./Billing.md).   
+Go to the [Billing](./Billing.md).  
   
+Click on "Cost table".  Click on "Column display options".  
+![](./images/ColDisOpt.png)  
   
+Disable all options except the following:  
+
