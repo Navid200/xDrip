@@ -9,7 +9,7 @@ Click on "Console".
 Go to the dashboard.  
 ![](./images/Dashboard.png)  
   
-Click on "Compute Engine".    
+Click on "Compute Engine".  If you don't see it, you can customize the dashboard (top right corner) and make the compute engine card visible.  
 ![](./images/Dash.png)  
   
 ![](./images/ComputeEngine.png)  
