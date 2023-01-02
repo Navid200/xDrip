@@ -599,11 +599,11 @@ fieldset:disabled a.btn {
 
 .btn-secondary {
   color: #fff;
-  background-color: #330066;
-  border-color: #7832e2; }
+  background-color: #590304;
+  border-color: #9832e2; }
   .btn-secondary:hover {
     color: #fff;
-    background-color: #651dd0;
+    background-color: #991304;
     border-color: #5f1cc5; }
   .btn-secondary:focus, .btn-secondary.focus {
     box-shadow: 0 0 0 0.2rem rgba(120, 50, 226, 0.5); }
@@ -884,7 +884,7 @@ button.close {
   position: relative;
   width: auto;
   margin: 0.5rem;
-  margin-top: 54px;
+  margin-top: 62px;
   pointer-events: none; }
   .modal.fade .modal-dialog {
     transition: -webkit-transform 0.3s ease-out;
@@ -900,7 +900,6 @@ button.close {
             transform: translate(0, 0); }
 
 .modal-dialog-centered {
-  margin-top: 40px;
   display: flex;
   align-items: center;
   min-height: calc(100% - (0.5rem * 2)); }
@@ -938,7 +937,9 @@ button.close {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 0.4rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   border-bottom: 1px solid #e9ecef;
   border-top-left-radius: 0.3rem;
   border-top-right-radius: 0.3rem; }
@@ -953,14 +954,18 @@ button.close {
 .modal-body {
   position: relative;
   flex: 1 1 auto;
-  padding: 1rem; }
+  padding-bottom: 4x;
+}
 
 .modal-footer {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   padding: 1rem;
-  border-top: 1px solid #e9ecef; }
+  padding-top: 4px;
+  padding-bottom: 6px;
+//  border-top: 1px solid #e9ecef; 
+  }
   .modal-footer > :not(:first-child) {
     margin-left: .25rem; }
   .modal-footer > :not(:last-child) {
@@ -973,12 +978,11 @@ button.close {
   height: 50px;
   overflow: scroll; }
 
-@media (min-width: 570px) {
+@media (min-width: 440px) {
   .modal-dialog {
-    max-width: 500px;
-//    margin: 1.75rem auto;
-    margin: auto;
-    margin-top: 54px;
+    max-width: 400px;
+    margin: 0.6rem auto;
+    margin-top: 62px;
   }
   .modal-dialog-centered {
     min-height: calc(100% - (1.75rem * 2)); }
@@ -990,7 +994,7 @@ button.close {
 
 @media print, screen and (max-width: 480px) {
   .modal-dialog {
-      margin-top: 42px;
+      margin-top: 48px;
   }
 }
 

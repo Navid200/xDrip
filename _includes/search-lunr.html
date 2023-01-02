@@ -44,7 +44,7 @@ function lunr_search(term) {
     
     document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block"  tabindex="-1" role="dialog" aria-labelledby="resultsmodal"> <div class="modal-dialog shadow-lg" role="document"> <div class="modal-content"> <div class="modal-header" id="modtit"> <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close"> &times; </button> </div> <div class="modal-body"> <ul class="mb-0"> </ul>    </div> <div class="modal-footer"><button id="btnx" type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button></div></div> </div></div>';
     if(term) {
-        document.getElementById('modtit').innerHTML = "<h3 class='modal-title'>Search results for '" + term + "'</h3>" + document.getElementById('modtit').innerHTML;
+        document.getElementById('modtit').innerHTML = "<h3sr class='modal-title'>Search results for '" + term + "'</h3sr>" + document.getElementById('modtit').innerHTML;
         //put results on the screen.
         var results = idx.search(term);
         if(results.length>0){
@@ -58,8 +58,7 @@ if(res_l>40) {res_l=40}
                 var url = documents[ref]['url'];
                 var title = documents[ref]['title'];
                 var body = documents[ref]['body'].substring(0,160)+'...';
-                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'><span class='title'>" + title +
-"</span></small></a></li>";
+                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'> <span class='title'>" + title + "</span></small></a></li>";
             }
         } else {
             document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>No results! Check spelling. Close & try again.</li>";
@@ -69,7 +68,7 @@ if(res_l>40) {res_l=40}
 }
 </script>
 <style>
-    .lunrsearchresult .title {color: #b91308; margin-top: 80px; line-height: 1.7em;}
+    .lunrsearchresult .title {color: #b91308; line-height: 1.7em; margin-top: 60px;}
     .lunrsearchresult .url {color: silver;}
     .lunrsearchresult a {display: block; color: #777;}
     .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
