@@ -1,28 +1,28 @@
 # Features  
 [xDrip](../README.md) >> Features  
   
-### [Alerts](./Alerts_page)
-### [Statistics](./Statistics)
-### [Calibration](./Calibration)
-### [Nightscout](./Nightscout_page)
-### [Follow](./Follow_page)
-### [Backup](./Backup)
-### [Emergency Messages](./Emergency)
-### [Update xDrip](./Updates)
-### [Display](./Display/Display)
-### [Dexcom](./Dexcom_page)
-### [Watches](./Watches)
-### [Reminders](./Reminders)
-  
+### [Alerts](./Alerts_page.md)
+### [Statistics](./Statistics.md)
+### [Calibration](./Calibration.md)
+### [Nightscout](./Nightscout_page.md)
+### [Follow](./Follow_page.md)
+### [Backup](./Backup.md)
+### [Emergency Messages](./Emergency.md)
+### [Update xDrip](./Updates.md)
+### [Display](./Display/Display.md)
+### [Dexcom](./Dexcom_page.md)
+### [Watches](./Watches.md)
+### [Reminders](./Reminders.md)
+   
 <br/>  
   
-#### [Logs](./Logs)
-#### [Screen saver (lock screen) while being charged](./Screensaver)
-#### [Lock Screen](./Lock-screen)
-#### [Stop xDrip - disable collection](./Stop-xDrip)
-#### [Report](./Report)
-#### [Reminders](./Reminders)
-#### [Data tables](./Datatables)
+#### [Logs](./Logs.md)
+#### [Screen saver (lock screen) while being charged](./Screensaver.md)
+#### [Lock Screen](./Lock-screen.md)
+#### [Stop xDrip - disable collection](./Stop-xDrip.md)
+#### [Report](./Report.md)
+#### [Reminders](./Reminders.md)
+#### [Data tables](./Datatables.md)
 #### [Engineering mode](./Engineering-Mode.md)
 #### [Emergency Message](./Emergency.md)
    

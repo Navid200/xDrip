@@ -45,6 +45,7 @@ h2 {
 
 h4, h5, h6 {
   color:#101010;
+  line-height: 1.3em;
 }
 
 h3 {
@@ -62,6 +63,7 @@ a {
 
   &:hover {
     color: #66bbff;
+    text-decoration: underline;
   }
 }
 
@@ -370,7 +372,15 @@ section {
 @media print, screen and (max-width: 480px) {
 
   #header {
-    margin-top: -16px;
+    margin-top: -14px;
+  }
+
+  h3 {
+    line-height: 1.5em;
+  }
+
+  h4 {
+    line-height: 1.7em;
   }
 
   section {
@@ -379,4 +389,5 @@ section {
   nav {
     display: none;
   }
+
 }

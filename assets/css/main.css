@@ -884,6 +884,7 @@ button.close {
   position: relative;
   width: auto;
   margin: 0.5rem;
+  margin-top: 54px;
   pointer-events: none; }
   .modal.fade .modal-dialog {
     transition: -webkit-transform 0.3s ease-out;
@@ -899,6 +900,7 @@ button.close {
             transform: translate(0, 0); }
 
 .modal-dialog-centered {
+  margin-top: 40px;
   display: flex;
   align-items: center;
   min-height: calc(100% - (0.5rem * 2)); }
@@ -971,16 +973,26 @@ button.close {
   height: 50px;
   overflow: scroll; }
 
-@media (min-width: 576px) {
+@media (min-width: 570px) {
   .modal-dialog {
     max-width: 500px;
-    margin: 1.75rem auto; }
+//    margin: 1.75rem auto;
+    margin: auto;
+    margin-top: 54px;
+  }
   .modal-dialog-centered {
     min-height: calc(100% - (1.75rem * 2)); }
     .modal-dialog-centered::before {
-      height: calc(100vh - (1.75rem * 2)); }
+      height: calc(100vh - (1.75rem * 2)); 
+    }
   .modal-sm {
     max-width: 300px; } }
+
+@media print, screen and (max-width: 480px) {
+  .modal-dialog {
+      margin-top: 42px;
+  }
+}
 
 @media (min-width: 992px) {
   .modal-lg {
