@@ -12,9 +12,9 @@ Documentation, instructions and guides here are provided to help you use xDrip.
 You need the advice of a competent medical professional to control your, or your loved one's, diabetes. This site provides no medical advice.  
   
   
-#### [Download & Installation](./docs/Installation_page)
-#### [Features](./docs/Features_page)
-#### [Troubleshooting](./docs/Troubleshooting_page)
-#### [Frequently Asked Questions](./docs/FAQ_page)
-#### [Bugs & Feature Requests](./docs/Issues)
+### [Download & Installation](./docs/Installation_page.md)
+### [Features](./docs/Features_page.md)
+### [Troubleshooting](./docs/Troubleshooting_page.md)
+### [Frequently Asked Questions](./docs/FAQ_page.md)
+### [Bugs & Feature Requests](./docs/Issues.md)
   
