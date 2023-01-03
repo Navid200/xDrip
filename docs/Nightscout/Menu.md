@@ -1,4 +1,4 @@
-## Main menu
+## Google Cloud Nightscout menu
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Menu  
   
 When you open a terminal, the main menu will automatically come up.  
