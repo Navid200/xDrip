@@ -1,4 +1,4 @@
-## Update commands & menus
+## Update Google Cloud Nightscout platform
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Update to latest release  
   
 This is how you can update your virtual machine with the latest menus and commands.  
