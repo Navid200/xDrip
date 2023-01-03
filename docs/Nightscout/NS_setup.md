@@ -1,4 +1,4 @@
-## Setting up Nightscout  
+## Setting up Nightscout on Google Cloud
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Setting up Nightscout  
   
 We will now log into our new Nightscout, installed on the Google Cloud virtual machine, and set it up.  Everything we do in this section is done on a regular web browser on your computer or mobile, and not in the virtual machine.   
