@@ -1,4 +1,4 @@
-## How to reinstall
+## Google Cloud Nightscout reinstall
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> How to reinstall   
   
 If you have made a mistake when you created the virtual machine and need to recreate it, you should backup first to avoid losing everything when you delete the machine.  
