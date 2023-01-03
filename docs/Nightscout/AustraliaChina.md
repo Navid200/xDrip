@@ -1,4 +1,4 @@
-## Will this work in Australia or China?
+## Nightscout on Google Cloud in Australia or China
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Australia or China  
   
 You will need access to the internet for this to work.  If you do, it will work no matter where you are.  
