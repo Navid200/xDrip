@@ -1,4 +1,4 @@
-## Mobile
+## Virtual machine mobile access
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Mobile  
   
 This is about how to use a mobile device to access your Nighscout on Google Cloud.   
