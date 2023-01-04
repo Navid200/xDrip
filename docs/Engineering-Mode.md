@@ -8,11 +8,12 @@ No one should need to enable engineering mode under normal circumstances.
 To enable engineering mode, tap on the dropper symbol on the main screen.  
 ![](./images/syringe-symbol.png).  
 
-Then, long press on the microphone symbol at the bottom right corner of the form.  
+Then, tap on the microphone symbol at the bottom right corner of the form.  
 ![](./images/treatment-menu.png)  
+The microphone will open.  Say "Enable engineering mode".  
 
-Then, type "enable engineering mode" without the quotes.  
-
+If this does not work, long press on the microphone symbol instead of tapping on it.  A form will open up.  Type in it "enable engineering mode" without the quotes and enter.  
+  
 **Disable**  
 To disable engineering mode, disable it on the page at Settings &#8722;> Less common settings &#8722;> Other misc options.  
   
