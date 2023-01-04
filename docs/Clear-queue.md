@@ -16,6 +16,8 @@ Long press (hold your finger on it instead of tapping on it) the microphone symb
 <br/>  
 
 Doing this will bring up a form so that you can type in the command instead of speaking it into the microphone.  
+![](./images/TypeVoiceCommand.png)  
+  
 Type the following phrase into the form and enter.  
 clear transmitter queue  
   
