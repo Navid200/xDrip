@@ -22,7 +22,7 @@ It may seem illogical that after closing permission to the world, crawlers could
 #### **Can I change the setting to "readable"?**
 Yes, you definitely can.  Doing that will make the settings the same as what most people had their Nightscout settings on Heroku.  But, Heroku bandwidth was/is not limited.  
 Changing the variable to "readable" may increase the cost of your Nightsocut.  
-If you open the permission, please tell us what the resulting bandwidth will be.  
+If you open the permission, please tell us what the resulting bandwidth will become.  
   
 #### **Malfunctioning apps**
 There are apps that will not function with the permission set to denied.  An example is AutotuneWeb.  
