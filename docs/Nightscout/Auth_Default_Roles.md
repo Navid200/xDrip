@@ -18,10 +18,10 @@ It may seem illogical that after closing permission to the world, crawlers could
 This is why we have set the variable to denied by default.  
   
 #### **Can I change the setting to readable?**
-Yes, definitely.  But, this may cause the cost of your Nightsocut to go up.  Please continue to read.  
+Yes, definitely.  But, this may cause the cost of your Nightsocut to increase.  Please continue to read.  
   
 #### **Malfunctioning apps**
 There are apps or features that will not function with the permission set to denied.  An example is AutotuneWeb.  
-You can change the setting to readable to allow such an app to function.  However, you should know your Nightscout cost may go up.  
+You can change the setting to readable to allow such an app to function.  However, you should know your Nightscout cost may increase then.  
 A better solution would be to contact the app developer and ask them to modify it such that it can use a token to read.  Then, the app will be able to function without causing the Nightscout bandwidth to unnecessarily increase.  
   
