@@ -7,8 +7,9 @@ There is a Nightscout variable titled AUTH_DEFAULT_ROLES.  The default value for
 There is absolutely no security reason for setting this variable to denied.  That is not why we have set the variable to denied.  Please continue to read.  
   
 #### **Privacy**
-If you set the variable to readable, anyone who has your hostname will be able to view your readings with no need to a password or a token.  You should not be ashamed of having diabetes.  But, you should know that there are insurance companies that will raise your premiums, for life insurance, if they know you have diabetes.  
-The solution is not to hide the fact that you have diabetes.  But, why would you want to advertise it?  
+If you set the variable to readable, anyone who has your hostname will be able to view your readings with no need to a password or a token.  
+You should not be ashamed of having diabetes.  But, you should know that there are insurance companies that will raise your premiums, for life insurance, if they know you have diabetes.  The solution is not to hide the fact that you have diabetes.  But, why would you want to advertise it?  
+There may be other reasons one may wish to keep their readings confidential.  
 Nevertheless, this is also not why we have set the variable to denied.  Please continue to read.  
   
 #### **Bandwidth**
