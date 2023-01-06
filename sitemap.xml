@@ -258,6 +258,21 @@
       <loc>https://navid200.github.io/xDrip/docs/Display/TrendArrow.html</loc>
    </url>
    <url>
+      <loc>https://navid200.github.io/xDrip/docs/Nightscout/Billing.html</loc>
+   </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/Nightscout/Customize.html</loc>
+   </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/Nightscout/DatabaseBackup.html</loc>
+   </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/Nightscout/DatabaseRestore.html</loc>
+   </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/Nightscout/Menu.html</loc>
+   </url>
+   <url>
       <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_Followers.html</loc>
    </url>
    <url>
@@ -270,7 +285,10 @@
       <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_Install.html</loc>
    </url>
    <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_SwapSize.html</loc>
+      <loc>https://navid200.github.io/xDrip/docs/Nightscout/Reinstall.html</loc>
+   </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/Nightscout/Restart.html</loc>
    </url>
    <url>
       <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_SyncExecutables.html</loc>
@@ -285,7 +303,16 @@
       <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_setup.html</loc>
    </url>
    <url>
+      <loc>https://navid200.github.io/xDrip/docs/Nightscout/Security.html</loc>
+   </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/Nightscout/Status.html</loc>
+   </url>
+   <url>
       <loc>https://navid200.github.io/xDrip/docs/Nightscout/Terminal.html</loc>
+   </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/Nightscout/update_nightscout.html</loc>
    </url>
    <url>
       <loc>https://navid200.github.io/xDrip/docs/Restart-G5-sensor.html</loc>
