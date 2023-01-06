@@ -17,11 +17,11 @@ By setting the variable to denied, I have been able to lower my cost to $0.01 Ca
 It may seem illogical that after closing permission to the world, crawlers could still cause traffic.  The bandwidth would be much higher if the permission was open.  
 This is why we have set the variable to denied by default.  
   
-#### **Can I change the setting to readable the same as it was when I had my Nightsocut on Heroku?**
+#### **Can I change the setting to readable?**
 Yes, definitely.  But, this may cause the cost of your Nightsocut to go up.  Please continue to read.  
   
 #### **Malfunctioning apps**
-There are apps or features that will not function with the permission set to denied.  An example is Autotune.  
-You can change the setting to readable to allow such an app to function.  However, you should be aware your Nightscout cost may go up.  
+There are apps or features that will not function with the permission set to denied.  An example is AutotuneWeb.  
+You can change the setting to readable to allow such an app to function.  However, you should know your Nightscout cost may go up.  
 A better solution would be to contact the app developer and ask them to modify it such that it can use a token to read.  Then, the app will be able to function without causing the Nightscout bandwidth to unnecessarily increase.  
   
