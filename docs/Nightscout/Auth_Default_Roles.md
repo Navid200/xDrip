@@ -19,7 +19,7 @@ By setting the variable to denied, I have been able to limit my cost to $0.01 Ca
 It may seem illogical that after closing permission to the world, crawlers could still cause traffic.  When anyone attempts to log in, Nightscout asks for a token or password.  This request is an output traffic.  The bandwidth would be much higher if the permission was open.  
   
 #### **Can I change the setting to readable?**
-Yes, definitely.  But, this may increase the cost of your Nightsocut.  If you open the permission, please tell us what the resulting bandwidth is.  
+Yes, definitely.  But, this may increase the cost of your Nightsocut.  If you open the permission, please tell us what the resulting bandwidth will be.  
   
 #### **Malfunctioning apps**
 There are apps that will not function with the permission set to denied.  An example is AutotuneWeb.  
