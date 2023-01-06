@@ -1,4 +1,4 @@
-## Malfunctioning applications
+## Malfunctioning Nightscout applications
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >> Malfunctioning applications  
   
 There is a Nightscout variable titled AUTH_DEFAULT_ROLES.  The default value for this variable is "readable".  However, in our Nightscout on Google Cloud setup, we have set this variable to "denied".  Let's see why we have done that, and the consequences and options.  
