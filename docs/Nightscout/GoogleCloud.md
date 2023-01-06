@@ -51,6 +51,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Hostname blocked at work or in school](./FD_Domains.md)
 #### [Edit variables using a browser does not work!](UpdateScripts_22.md)
 #### [Free Trial has ended!](./FreeTrialEnd.md)
+#### [Malfunctioning applications](./Auth_Default_Roles.md)
 <br/>  
   
 ---  
