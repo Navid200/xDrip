@@ -1,13 +1,15 @@
 ## Display  
 [xDrip](../../README.md) >> [Features](../Features_page) >> Display  
   
-#### [Legend](../Legend)
-#### [Time range](../TimeButtons)
-#### [Sensor expiry](../Sensor-Expiry)
-#### [Connect the dots!](../Connect-the-dots)
-#### [Extra Status Line](../Extra-status-line)
-#### [Graph smoothing](../Display/GraphSmoothing)
-#### [Screensaver](../Screensaver)
-#### [Lock screen](../Lock-screen)
-#### [Trend Arrow](./TrendArrow)
+#### [Legend](../Legend.md)
+#### [Time range](../TimeButtons.md)
+#### [Sensor expiry](../Sensor-Expiry.md)
+#### [Connect the dots!](../Connect-the-dots.md)
+#### [Extra Status Line](../Extra-status-line.md)
+#### [Graph smoothing](../Display/GraphSmoothing.md)
+#### [Screensaver](../Screensaver.md)
+#### [Lock screen](../Lock-screen.md)
+#### [Trend Arrow](./TrendArrow.md)
+#### [Exclude a reading](./ExcludeReading.md)
+  
   
