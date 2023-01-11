@@ -41,7 +41,6 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1617](https://github.com/NightscoutFoundation/xDrip/issues/1617) | Graph disappearing for L2 | L2 | | 2021.01.19 | 🐛 |  
 | [1643](https://github.com/NightscoutFoundation/xDrip/issues/1643) | Allow linking more than one Bluetooth meter at a time | | | 2021.02.15 |  
 | [1661](https://github.com/NightscoutFoundation/xDrip/issues/1661) | Automated settings backup | | | 2021.02.28 |  
-| [1664](https://github.com/NightscoutFoundation/xDrip/issues/1664) | Android 10 and 11 link interruptions with G6 | G6 | 10-11 | 2021.03.02 | 🐛 |  
 | [1672](https://github.com/NightscoutFoundation/xDrip/issues/1672) | Don't enable Out of process libre algorithm | | | 2021.03.14 |  
 | [1690](https://github.com/NightscoutFoundation/xDrip/issues/1690) | xDrip detecting future data | MiaoMiao | | 2021.03.30 | 🐛 |  
 | [1692](https://github.com/NightscoutFoundation/xDrip/issues/1692) | G5 Dexcom receiver loses connectivity after Feb. 4, 2021 | G5 | | 2021.04.02 | 🐛 |  
