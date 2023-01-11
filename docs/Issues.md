@@ -34,6 +34,7 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1331](https://github.com/NightscoutFoundation/xDrip/issues/1331) | Status line layout | | | 2020.05.05 | 🐛 |  
 | [1430](https://github.com/NightscoutFoundation/xDrip/issues/1430) | Reception of scanned Libre 2 values| | | 2020.09.03 |  
 | [1448](https://github.com/NightscoutFoundation/xDrip/issues/1448) | Vibration pattern option | | | 2020.09.24 |  
+| [1467](https://github.com/NightscoutFoundation/xDrip/issues/1467) | Sensor expiry notification for Dexcom G6 | G6 | | 2020.10.14 | |  
 | [1483](https://github.com/NightscoutFoundation/xDrip/issues/1483) | Include High and Low levels on the statistics page | | | 2020.10.22 |  
 | [1503](https://github.com/NightscoutFoundation/xDrip/issues/1503) | Android 11 notification channel settings missing | | 11 | 2020.11.11 | 🐛 |  
 | [1521](https://github.com/NightscoutFoundation/xDrip/issues/1521) | GlucoMen Day support | | | 2020.11.23 |  
