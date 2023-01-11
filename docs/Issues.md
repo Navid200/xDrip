@@ -47,7 +47,6 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1705](https://github.com/NightscoutFoundation/xDrip/issues/1705) | Android 11 database restore (import) malfunction | | 11 | 2021.04.22 | 🐛 |  
 | [1762](https://github.com/NightscoutFoundation/xDrip/issues/1762) | Consistent behavior and capability of alerts | | | 2021.06.21 |  
 | [1786](https://github.com/NightscoutFoundation/xDrip/issues/1786) | Smart alert malfunction | | | 2021.07.20 | 🐛 |  
-| [1789](https://github.com/NightscoutFoundation/xDrip/issues/1789) | Watches interfering with pair request | Dexcom | 10-11 | 2021.07.23 | 🐛 |  
 | [1793](https://github.com/NightscoutFoundation/xDrip/issues/1793) | Notification channel for number icon | | | 2021.07.31 |  
 | [1813](https://github.com/NightscoutFoundation/xDrip/issues/1813) | Motion tracking fails and is disabled | | | 2021.08.16 |  
 | [1864](https://github.com/NightscoutFoundation/xDrip/issues/1864) | Option to save Logs | | | 2021.10.29 |  
