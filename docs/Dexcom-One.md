@@ -5,4 +5,6 @@ If you are using Dexcom One and want to use xDrip as a collector, make sure to a
 Under Hardware Data Source, choose "G5/G6 Transmitter".  
 Follow all guides, recommendations and instructions written for "G6" [here](./Dexcom_page).  
   
-![](./images/dex-one-statuspg.png)    
+![](./images/dex-one-statuspg.png)  
+  
+![](./images/dex-oneC-statuspg.png)  
