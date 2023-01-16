@@ -2,7 +2,7 @@
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> Nightscout on Google Cloud  
   
 ####          **Credits**    
-Thanks to JamOrHam, the current xDrip head developer, for the idea, putting it together, implementing the installer, testing everything, and providing instructions.  
+Thanks to JamOrHam, the current xDrip lead developer, for the idea, putting it together, implementing the installer, testing everything, and providing instructions.  
 
 Thanks to tzachi-dar, senior xDrip developer, for ideas, development of critical code, and for providing support.  
 <br/>   
