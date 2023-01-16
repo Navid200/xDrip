@@ -1,4 +1,4 @@
-## Data transfer from another repository
+## Data transfer from another Nightscout
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Data Transfer  
   
 This is how you can transfer your past readings from another repository, for example, from Heroku.    
