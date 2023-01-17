@@ -4,7 +4,7 @@
 This utility is called as a part of the installation process.  You can also use it after installation to change your FreeDNS hostname.  
   
 Open a [terminal](./Terminal.md) on the virtual machine.  
-Select "FreeDNS Setup" from the main menu.  
+Select "FreeDNS Setup" from the Google Cloud setup submenu.  
 If you don't see it on the main menu, select Update scripts and enter.  After it completes, close the window and open a new one.  Now, you will have FreeDNS Setup on the menu.  
   
 You will be asked for your user ID and password.  Enter those.  
