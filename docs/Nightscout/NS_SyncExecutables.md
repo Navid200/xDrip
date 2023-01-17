@@ -1,7 +1,7 @@
 ## Update Google Cloud Nightscout platform
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Update to latest release  
   
-This is how you can update your virtual machine with the latest menus and commands.  
+This is how you can update your virtual machine with the latest menus, commands and packages.  
   
 Open a [terminal](./Terminal.md).  A [menu](./Menu.md) should come up automatically.  If not, you have a very old version of our platform.  To update, please skip to the section titled "Bootstrap" below.  
   
@@ -16,7 +16,9 @@ However, if it looks different, for example, if the username, repository name an
 ---  
   
 #### **Bootstrap**  
-Open a [terminal](./Terminal.md).  If a menu opens, close it by choosing "Exit to shell".  Copy the entire highlighted text below and paste into the terminal.  Press enter.  
+Open a [terminal](./Terminal.md).  If a menu opens, select "bootstrap" from the Google Cloud submenu.  
+  
+If no menu opens after opening a terminal, using SSH, Copy the entire highlighted text below and paste into the terminal.  Press enter.  
   
 ```  
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash
