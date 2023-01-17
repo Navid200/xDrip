@@ -21,7 +21,7 @@ You will be presented with a notification.  To acknowledge, you need to select O
 It will take a few minutes to complete a preliminary installation step.  You will then see a note or the status page.  
 The following table shows what you may see depending on different choices you can make.  
   
-| Incorrect choice | Notification | Outcome |  
+| Incorrect choice | Clue | Outcome |  
 | :--------------: | :----------: | :-----: |  
 | Nothing | [<img src="./images/AllGood_Icon.png">](./images/AllGood.png) | All good ✅ |  
 | Region | [<img src="./images/Region_Icon.png">](./images/Region.png) | Not free ❌ |  
