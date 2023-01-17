@@ -44,9 +44,9 @@ If you did not get a notification to recreate the machine, because of a wrong Ub
 ---  
   
 **Phase 1**  
-To continue the installation, **select item 2** (using arrows) "Installation Phase 1" and enter.  
+To continue the installation, go to the Google Cloud setup sub menu and **select item 1** "Install Nightscout Phase 1" and enter.  
 It will take about 15 minutes for this step to complete.  
-If SSH disconnects and you see a disconnect message, please reconnect and run item 2 again.  
+If SSH disconnects and you see a disconnect message, please reconnect and run Install Nightscout Phase 1 again.  
 You will see a few error messages.  Those are expected and can be ignored.  Please be patient allowing the process to complete.  
   
 <video width="400" controlsList="nodownload" src="./video/Install2.mp4" controls>  
