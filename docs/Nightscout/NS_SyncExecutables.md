@@ -16,7 +16,7 @@ However, if it looks different, for example, if the username, repository name an
 ---  
   
 #### **Bootstrap**  
-Open a [terminal](./Terminal.md).  If a menu opens, select "bootstrap" from the Google Cloud submenu.  
+Open a [terminal](./Terminal.md).  If a menu opens, select "Bootstrap" from the Google Cloud submenu.  
   
 If no menu opens after opening a terminal, using SSH, Copy the entire highlighted text below and paste into the terminal.  Press enter.  
   
@@ -27,5 +27,12 @@ curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.s
   
 You will see the following note:  
 ![](./images/BootstrapConfirm.png)  
-Press enter to proceed.  After bootstrap is complete, your platform will be updated to the latest release.  
+Press enter to proceed.  After bootstrap is complete, go to the status page.  Please see the next section.  
+  
+---  
+  
+#### **Missing packages**
+If you see "Missing packages" on the status page as shown below, please run "Update platform" from the Google Cloud setup submenu again.  
+![](./images/MissingPackages.png)  
+  
   
