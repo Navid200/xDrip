@@ -7,7 +7,7 @@ Use a web browser and enter your hostname (from when you [set up](./FreeDNS.md) 
 Check "Remember this device" checkbox to avoid having to re-enter it.  
 On first time, Nightscout will ask you to set up a profile for sensitivity etc.  Either enter real values or just click save and then use close button on top right of the screen.  You may need to do this twice.  
   
-<video width="400" controlsList="nodownload" src="./video/NS_Setup.mp4.mp4" controls>  
+<video width="400" controlsList="nodownload" src="./video/NS_Setup.mp4" controls>  
 </video>  
 <br/>    
 <br/>  
