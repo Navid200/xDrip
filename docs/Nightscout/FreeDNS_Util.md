@@ -12,4 +12,4 @@ After you have provided what the script needs, it will perform the necessary edi
 
 Only if you see a disconnect message, just close the window, open a new one and rerun the utility.  Otherwise, please allow the script to continue to run until it completes even if you see errors on screen even in red.  
 
-When the process completes, Nightscout will be running, and accessible through your Free DNS subdomain (hostname).    
+When the process completes, Nightscout will be running, and accessible through your FreeDNS hostname.    
