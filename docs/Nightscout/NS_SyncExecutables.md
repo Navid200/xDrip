@@ -28,6 +28,7 @@ curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.s
 You will see the following note:  
 ![](./images/BootstrapConfirm.png)  
 Press enter to proceed.  After bootstrap is complete, go to the status page.  Please see the next section.  
+<br/>  
   
 ---  
   
