@@ -1,7 +1,7 @@
 ## Nightscout on Google Cloud  
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> Nightscout on Google Cloud  
   
-####          **Credits**    
+####          **Credits**  
 Thanks to JamOrHam, the current xDrip lead developer, for the idea, putting it together, implementing the installer, testing everything, and providing instructions.  
 
 Thanks to tzachi-dar, senior xDrip developer, for ideas, development of critical code, and for providing support.  
@@ -9,9 +9,7 @@ Thanks to tzachi-dar, senior xDrip developer, for ideas, development of critical
   
 ---  
   
-####          **Introduction**
-**<span style="color:orange">We have just had a new release.  This guide is being updated.  After completion, this note will be removed.  Please be patient.  You can perform an installation.  You may see slight differences in the clips and screenshots until they are updated.  The estimated completion time is the end of Monday, January 16, 2023.</span>**
-
+####          **Introduction
 You will need a credit card to set up billing.  However, it will be free if you meet the [requirements](./NS_FreeTier).  
   
 To complete installation, you will need to go through the first 5 items on the list below.  You will need to use menus.  [This](./HowToMenu.md) explains what to expect when using the menus.  If you have followers, you will also need to complete item 6 after.  
