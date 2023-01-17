@@ -10,7 +10,7 @@ To edit your Nightscout variables, open a [terminal](./Terminal).
 ---  
   
 **Using a web browser**  
-Select "Edit variables in a browser" in the [menu](./Menu.md) and enter.  
+Select "Edit variables in a browser" in the Nightscout setup submenu and enter.  
 Be patient.  In a minute, you will be presented with a URL on screen.  Please don't use ctrl C to copy.  Ctrl C in Linux will terminate a process.  
   
 ![](./images/ServerURL.png)  
@@ -27,7 +27,7 @@ After you are done, you can just close the browser.  You will need to restart th
 ---  
   
 **Using a text editor**  
-Select "Edit variables" in the [menu](./Menu.md) and enter.  
+Select "Edit variables using a text editor" in the Nightscout setup submenu and enter.  
   
 This will open, using nano, the file containing the variables for edit.  
 ![](./images/nsconfig.png)  
@@ -52,13 +52,6 @@ Choose 1.
 ---  
   
 [All Nightscout variables and their definitions](https://github.com/nightscout/cgm-remote-monitor/blob/master/README.md#environment)  
-<br/>
-  
----  
-  
-Let's add a variable to correctly reflect the database capacity.  I have set the disk space to 30GB.  Therefore, I have more than 20GB of space for the database.  
-So, let's set it to 20000, which is reasonably close and leaves some margin.  
-![](./images/dbsize.png)  
 <br/>  
   
 ---  
