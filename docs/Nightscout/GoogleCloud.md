@@ -20,7 +20,7 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ---  
   
-####          **Installation** (14.2.6)  
+####          **Installation** (14.2.6)
 #### 1- [FreeDNS](./FreeDNS.md)
 #### 2- [Google Cloud project](./NS_GCProject.md)
 #### 3- [Virtual Machine](./VirtualMachine.md)
@@ -31,7 +31,7 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ---  
   
-####          **Utilities**  
+####          **Utilities**
 #### [Backup](./DatabaseBackup.md) before deleting the virtual machine.
 #### [Restore](./DatabaseRestore.md)
 #### [Status page](./Status.md)
