@@ -9,7 +9,7 @@ Thanks to tzachi-dar, senior xDrip developer, for ideas, development of critical
   
 ---  
   
-####          **Introduction
+####          **Introduction**  
 You will need a credit card to set up billing.  However, it will be free if you meet the [requirements](./NS_FreeTier).  
   
 To complete installation, you will need to go through the first 5 items on the list below.  You will need to use menus.  [This](./HowToMenu.md) explains what to expect when using the menus.  If you have followers, you will also need to complete item 6 after.  
