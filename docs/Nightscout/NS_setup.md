@@ -21,6 +21,10 @@ This is what you need to do if you use xDrip and want to make it your uploader. 
 **QR code**  
 You can scan a QR code to automatically set up xDrip to upload to Nightscout.  
 To do that, go to the xDrip setup submenu.  Select "QR code to make xDrip master" on the submenu.  Then, scan the QR code that appears with xDrip autoconfigure.  
+<video width="400" controlsList="nodownload" src="./video/xDrip_Setup.mp4" controls>  
+</video>  
+<br/>    
+<br/>  
   
 However, please note that doing this will erase any existing URLs from xDrip.  Therefore, if you intend to upload to multiple Nightscout sites, and you have already set up one of them, please use the manual method explained below.  
   
@@ -37,6 +41,6 @@ If you've forgotten the password, you can see it on the first line of the nsconf
 Tap on Base URL.  Enter the following.  
 https://<span style="color:orange">ThisIsMyPassword</span>@<span style="color:green">justaname\.chickenkiller\.com</span>/api/v1/  
   
-That's it.  Your xDrip readings should now upload to your Nightscout on Google Cloud.    
+That's it.  Your xDrip readings should now upload to your Nightscout on Google Cloud.  
   
   
