@@ -5,7 +5,7 @@ You need to have completed the Nightscout [installation](./NS_Install.md) steps 
 You can use it to install from a GitHub fork.  There is no guarantee that this will be successful.  If the fork you install from has errors, you will not have a working system.  
 What could be even worse is if you end up with a working system that provides erroneous information.  Please proceed at your own risk.  
   
-**<span style="color:red">During the process, which takes about 25 minutes, your Nightscout will not be operational.</span>**  If you need Nightscout for a loop, please create an alternative session and switch to it while updating the other.  
+**<span style="color:red">During the process, which takes about 25 minutes, your Nightscout will not be operational.</span>**  If you need Nightscout for a loop, please create an alternative session and switch to it while customizing the other.  
   
 To proceed, select "Customize Nightscout" from the [menu](./Menu.md) and enter.  
 In a minute, the following dialog will show.  
@@ -21,7 +21,7 @@ The installation will take about 25 minutes.
   
 If you proceed, you will see progress in the terminal for a while.  Then, you will see no change in the terminal for 20 minutes.  You need to be patient.  
   
-After installation is complete, the virtual machine will reboot.  Your terminal will show an error.  This is expected.  Wait a minute and Nightscout will come up.  You can close the terminal now.  
-<br/>  
-<br/>  
+After installation is complete, the virtual machine will reboot automatically.  Your terminal will show an error.  This is expected.  However, if there is an SSH connectivity random error, you will experience the exact same behavior.  
+Wait 30 seconds and Nightscout will come up.  Click on retry to reconnect.  View the logs by selecting "Logs" from the main menu.  If you see a log starting with "Nightscout customization completed" as the last log with the correct universal time, customization succeeded.  On the oher hand, if you don't see such a log, there mush have been a random disconnect.  In that case, you will need to repeat the customization process.  
+  
   
