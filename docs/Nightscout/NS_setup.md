@@ -16,7 +16,15 @@ On first time, Nightscout will ask you to set up a profile for sensitivity etc. 
   
 #### **Setting up xDrip to upload to your Nightscout**  
   
-This is what you need to do if you use xDrip and want to make it your uploader.  If your uploader is going to be an app other than xDrip, you need to find out how it needs to be set up.  The following instructions are only for xDrip.    
+This is what you need to do if you use xDrip and want to make it your uploader.  If your uploader is going to be an app other than xDrip, you need to find out how it needs to be set up.  The following instructions are only for xDrip.  
+  
+**QR code**
+You can scan a QR code to automatically set up xDrip to upload to Nightscout.  
+To do that, go to the xDrip setup submenu.  Select "QR code to make xDrip master" on the submenu.  Then, scan the QR code that appears with xDrip autoconfigure.  
+  
+However, please note that doing this will erase any existing URLs from xDrip.  Therefore, if you intend to upload to multiple Nightscout sites, and you have already set up one of them, please use the manual method explained below.  
+  
+**Manual**  
 Go to xDrip Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API).  
 Enable at the top.  
 
@@ -29,18 +37,6 @@ If you've forgotten the password, you can see it on the first line of the nsconf
 Tap on Base URL.  Enter the following.  
 https://<span style="color:orange">ThisIsMyPassword</span>@<span style="color:green">justaname\.chickenkiller\.com</span>/api/v1/  
   
-That's it.  Your xDrip readings should now upload to your Nightscout on Google Cloud.  
-<br/>  
+That's it.  Your xDrip readings should now upload to your Nightscout on Google Cloud.    
   
----  
   
-#### **QR code**
-You can scan a QR code to automatically set up xDrip to upload to Nightscout.  
-To do that, go to the xDrip setup submenu.  Select "QR code to make xDrip master" on the submenu.  Then, scan the QR code that appears with xDrip autoconfigure.  
-  
-However, please note that doing this will erase any existing URLs from xDrip.  Therefore, if you intend to upload to multiple Nightscout sites, please use the manual method explained above.  
-  
-<video width="400" controlsList="nodownload" src="./video/xDrip_Setup.mp4" controls>  
-</video>  
-<br/>    
-<br/>  
