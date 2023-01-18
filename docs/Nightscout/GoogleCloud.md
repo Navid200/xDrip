@@ -60,18 +60,22 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Compute Engine](./ComputeEngine.md)
 #### [Terminal](./Terminal.md)
 #### [Main menu](./Menu.md)
-#### [How to use menus](./HowToMenu.md)
 #### [Update Nightscout](./update_nightscout.md)
 #### [Heroku variables](./HerokuVars.md)
-#### [Can I still get my data from Heroku?](./HerokuGone.md)
 #### [Restart](./Restart.md)
 #### [Mobile](./Mobile.md)
 #### [Delete virtual machine](./DeleteVM.md)
 #### [Reinstall](./Reinstall.md)
-#### [Will this be free?](./NS_FreeTier.md)
 #### [Billing](./Billing.md)
 #### [Cost Table](./CostTable.md)
-#### [Will this work in Australia or China?](./AustraliaChina.md)
 #### [Security](./Security.md)
 #### [Snapshots](./Snapshots.md) (Advanced)
-   
+<br/>  
+  
+---  
+  
+####          **Frequently Asked Questions**
+#### [How to use menus](./HowToMenu.md)
+#### [Can I still get my data from Heroku?](./HerokuGone.md)
+#### [Will this be free?](./NS_FreeTier.md)
+#### [Will this work in Australia or China?](./AustraliaChina.md)
