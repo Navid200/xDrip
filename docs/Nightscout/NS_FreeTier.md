@@ -22,4 +22,4 @@ You can use the [calculator](https://cloud.google.com/products/calculator) to co
 ![](./images/Estimate.png)  
   
 If you have a follower who is in Australia or China, the data traffic from your server to them will not qualify for Free Tier.  
-Any outgoing traffic to crawlers in China or Australia will also not be free.  This could result in a cost of about 1-3c per month.  We will hopefully add a switch to block traffic to China (enabled by default).  
+Any outgoing traffic to crawlers in China or Australia will also not be free.  This could result in a cost of about 0.02$ CDN per month.  We will hopefully add a switch to block traffic to China (enabled by default).  
