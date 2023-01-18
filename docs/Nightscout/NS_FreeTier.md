@@ -20,6 +20,7 @@ The above constraint relates to where your followers are located.
   
 You can use the [calculator](https://cloud.google.com/products/calculator) to confirm the price.  
 ![](./images/Estimate.png)  
+<br/>  
   
 ---  
   
