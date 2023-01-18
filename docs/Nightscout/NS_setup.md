@@ -18,7 +18,7 @@ On first time, Nightscout will ask you to set up a profile for sensitivity etc. 
   
 This is what you need to do if you use xDrip and want to make it your uploader.  If your uploader is going to be an app other than xDrip, you need to find out how it needs to be set up.  The following instructions are only for xDrip.  
   
-**QR code**
+**QR code**  
 You can scan a QR code to automatically set up xDrip to upload to Nightscout.  
 To do that, go to the xDrip setup submenu.  Select "QR code to make xDrip master" on the submenu.  Then, scan the QR code that appears with xDrip autoconfigure.  
   
