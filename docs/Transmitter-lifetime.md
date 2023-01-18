@@ -11,9 +11,8 @@ You cannot hard reset the other G6 transmitters.  So, only start the counter if 
 The last day you can start (or restart) a sensor on a transmitter in [native mode](./Native-Algorithm.md) is when the system status page shows 99 (105 for G5) for "Transmitter Days" as shown in the following image.  
 ![](./images/G6TX_LastsDay.png)  
   
-![](./images/TransmitterDays.png)  
-  
-After you successfully start a sensor, it will work for 10 days (7 days for G5 in native mode).  
+After you successfully start a sensor, it will work for 10 days (7 days for G5 in native mode) as shown in the following image.  
+![](./images/G6TX_LastsDay10.png)  
   
 Hard resetting a transmitter does nothing to the battery.  If the battery is dying, you will need to replace the battery.  
   
