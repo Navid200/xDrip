@@ -22,6 +22,6 @@ The installation will take about 25 minutes.
 If you proceed, you will see progress in the terminal for a while.  Then, you will see no change in the terminal for 20 minutes.  You need to be patient.  
   
 After installation is complete, the virtual machine will reboot automatically.  Your terminal will show an error.  This is expected.  However, if there is an SSH disconnect random error, you will observe the exact same behavior.  
-Wait 30 seconds, and click on retry to reconnect.  View the logs by selecting "Logs" from the main menu.  If you see a log starting with "Nightscout customization completed" as the last log with the correct universal time, customization succeeded.  On the oher hand, if you don't see such a log, there must have been a random disconnect.  In that case, you will need to repeat the customization process.  
+Wait 30 seconds, and click on retry to reconnect.  View the logs by selecting "Logs" from the main menu.  If you see a log starting with "Nightscout customization completed" as the last log with the correct universal time, customization succeeded.  On the other hand, if you don't see such a log, there must have been a random disconnect.  In that case, you will need to repeat the customization process.  
   
   
