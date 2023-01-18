@@ -16,7 +16,7 @@ On first time, Nightscout will ask you to set up a profile for sensitivity etc. 
   
 #### **Setting up xDrip to upload to your Nightscout**  
   
-This is what you need to do in xDrip on your master phone.  
+This is what you need to do if you use xDrip and want to make it your uploader.  If your uploader is going to be an app other than xDrip, you need to find out how it needs to be set up.  The following instructions are only for xDrip.    
 Go to xDrip Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API).  
 Enable at the top.  
 
