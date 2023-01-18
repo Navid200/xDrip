@@ -8,7 +8,8 @@ You can also hard reset a G6 if its firmware is 1.6.5.25 or older.  That include
   
 You cannot hard reset the other G6 transmitters.  So, only start the counter if you intend to use the transmitter.  The counter starts counting as soon as you insert the transmitter in a sensor.   It could even start if you hold the trasnsmitter in your hand touching the contacts for a while.  So, it's best to keep the transmitter in the box until you intend to start using it.  
   
-The last day you can start (or restart) a sensor on a transmitter in [native mode](./Native-Algorithm.md) is when the system status page shows 99 (105 for G5) for "Transmitter Days".  
+The last day you can start (or restart) a sensor on a transmitter in [native mode](./Native-Algorithm.md) is when the system status page shows 99 (105 for G5) for "Transmitter Days" as shown in the following image.  
+![](./images/G6TX_LastsDay.png)  
   
 ![](./images/TransmitterDays.png)  
   
