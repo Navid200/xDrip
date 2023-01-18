@@ -44,7 +44,6 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1672](https://github.com/NightscoutFoundation/xDrip/issues/1672) | Don't enable Out of process libre algorithm | | | 2021.03.14 |  
 | [1690](https://github.com/NightscoutFoundation/xDrip/issues/1690) | xDrip detecting future data | MiaoMiao | | 2021.03.30 | 🐛 |  
 | [1692](https://github.com/NightscoutFoundation/xDrip/issues/1692) | G5 Dexcom receiver loses connectivity after Feb. 4, 2021 | G5 | | 2021.04.02 | 🐛 |  
-| [1705](https://github.com/NightscoutFoundation/xDrip/issues/1705) | Android 11 database restore (import) malfunction | | 11 | 2021.04.22 | 🐛 |  
 | [1762](https://github.com/NightscoutFoundation/xDrip/issues/1762) | Consistent behavior and capability of alerts | | | 2021.06.21 |  
 | [1786](https://github.com/NightscoutFoundation/xDrip/issues/1786) | Smart alert malfunction | | | 2021.07.20 | 🐛 |  
 | [1793](https://github.com/NightscoutFoundation/xDrip/issues/1793) | Notification channel for number icon | | | 2021.07.31 |  
