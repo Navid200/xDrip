@@ -1,6 +1,7 @@
 # xDrip Frequently Asked Questions  
 [xDrip](../README.md) >> Frequently Asked Questions  
   
+#### [How to access the settings](./Settings.md)
 #### [Why is xDrip not in Google Play Store?](./App-store.md)
 #### [Which xDrip version do I have?](./xDrip-Version.md)
 #### [Should I enable Android auto update?](./Android-auto-update.md)
