@@ -17,16 +17,16 @@ To return to the menu after, you can open a new terminal, or enter "menu" withou
 #### **Submenus**
 There are 4 submenus.  Options 3, 4, 5 and 6 on the main menu take you to those submenus.  
   
-#### **Google Cloud setup, main menu option 3**
+Google Cloud setup, main menu option 3  
 ![](./images/GCS_submenu.png)  
   
-#### **Nightscout setup, main menu option 4**
+Nightscout setup, main menu option 4  
 ![](./images/NSS_submenu.png)   
   
-#### **xDrip setup, main menu option 5**
+xDrip setup, main menu option 5  
 ![](./images/xDS_submenu.png)  
   
-#### **Data, main menu option 6**
+Data, main menu option 6  
 ![](./images/D_submenu.png)  
   
   
