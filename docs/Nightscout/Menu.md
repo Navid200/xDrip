@@ -10,4 +10,20 @@ We use SSH on Google Cloud to access the virtual machine.  It is not possible to
   
 If you need to use the shell (terminal), select "Exit to shell".  
 To return to the menu after, you can open a new terminal, or enter "menu" without the quotes in the terminal.  
-   
+<br/>  
+  
+---  
+  
+#### **Submenus**
+There are 4 submenus.  Options 3, 4, 5 and 6 on the main menu take you to those submenus.  
+  
+#### **Google Cloud setup**
+![](./images/GCS_submenu.png)  
+  
+#### **Nightscout setup**
+![](./images/NSS_submenu.png)   
+  
+#### **xDrip setup**
+![](./images/xDS_submenu.png)  
+  
+  
