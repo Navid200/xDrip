@@ -78,7 +78,7 @@ Major releases are identified here with brief descriptions.
 | [2021.11.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.11.06) | Can upload Dex transmitter battery level to Nightscout - No references to SD card |  
 | [2021.10.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.10.17) | Libre 2 all house and oop2 improvements |  
 | [2021.10.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.10.13) | Don't ask to enable oop if libreoop2 is found |  
-| [2021.10.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.10.04) | Atom is supported now |   
+| [2021.10.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.10.04) | **Previous Stable** <br/> Atom is supported now |   
 |[2021.08.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.08.04) | Firefly G6 will now have "Add calibration" instead of initial calibration in the main menu |  
 | [2021.07.31](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.07.31) | Sensor start and stop flags are shown on the main screen |  
 | [2021.07.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.07.17) | Rewrite history is disabled by default |  
