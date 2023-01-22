@@ -88,7 +88,7 @@ Major releases are identified here with brief descriptions.
 | [2021.05.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.05.10) | Speak readings twice does not say dot dot dot anymore; Restore (not import) database |  
 | [2021.05.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.05.05) | Preemptive restart will not be applied if transmitter is not capable |  
 | [2021.03.30](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.03.30) | G6 2.27.2.103 firmware was added |  
-| [2021.03.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.03.08) | G5 1.0.4.14 firmware was added |  
+| [2021.03.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.03.08) | **Previous Stable** <br/> G5 1.0.4.14 firmware was added |  
 | [2021.02.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.02.17) | G5 1.0.4.15 firmware was added |  
 | [2020.11.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2020.11.27) | G6 Frequent pair request resolved - "When did you insert sensor" was removed for Dexcom native mode |  
 | [2018.08.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2018.08.18) | Hard reset does not require engineering mode any longer |
