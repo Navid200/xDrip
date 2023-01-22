@@ -35,7 +35,7 @@ Major releases are identified here with brief descriptions.
 | [2022.08.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.20) | Watchdrip graph fix |  
 | [2022.08.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.19) | Audio loop, de-duplication, half background check |  
 | [2022.08.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.18) | Graph improvements |  
-| [2022.08.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03) | NFC reading age and other cleanup |  
+| [2022.08.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03) | **Previous Stable** <br/> NFC reading age and other cleanup |  
 | [2022.08.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.02) | Show unsmoothed data option "Debug smoothing" |  
 | [2022.08.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.01b) | Graph Smoothing |  
 | [2022.07.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.26) | One per minute max reading rate for wear |  
