@@ -1,10 +1,10 @@
 ## Update Google Cloud Nightscout
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Update Nightscout  
   
-To see what version of Nightscout you currently have, open Nightscout in a browser, click on the (hamburger) menu button, and scroll down to the "About" section, where you can see the Nightscout version.      
-You need to have completed the Nightscout [installation](./NS_Install.md) steps before attempting to update.  
+To see what version of Nightscout you currently have, open Nightscout in a browser, click on the (hamburger) menu button, and scroll down to the "About" section, where you can see the Nightscout version.  You can also see "Check for updates".  However, that is not a valid option for us.  
+Instead, look at the "Installation" heading on the [Nightscout on Google Cloud](./GoogleCloud.md) web site.  What follows, in parentheses, is the version of Nightscout a fresh installation will provide.  If the version you have is older, you can easily update to that version as explained below.  
   
-Look at the "Installation" heading on the [Nightscout on Google Cloud](./GoogleCloud.md) web site.  What follows, in parentheses, is the version of Nightscout a fresh installation will provide.  You can easily update to that version as explained below.  
+You need to have completed the Nightscout [installation](./NS_Install.md) steps before attempting to update.  
   
 Follow these [instructions](./NS_SyncExecutables.md) to update your virtual machine setup to the latest.  
   
