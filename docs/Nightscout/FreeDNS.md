@@ -6,7 +6,7 @@ Follow these instructions in order to use FreeDNS, which you will need in order 
 **Go to FreeDNS site:** [https://freedns.afraid.org/](https://freedns.afraid.org/)  
 **Click on Sign up Free, and sign up.**  Make sure to choose a user ID excluding capital letters.  
 If you include capital letters in your user ID, FreeDNS will convert them all to lowercase.  
-**Please remember your password.**  
+Please remember your password.  
   
 **Send activation email.**  
 ![](./images/FreeDNS1.png)  
@@ -15,7 +15,7 @@ If you include capital letters in your user ID, FreeDNS will convert them all to
 **Click on Main Menu to log in.**  
 After logging in, you can see your user ID at the top right corner.  
 ![](./images/FD_userID.png)  
-You will need your user ID and password later to use the FreeDNS Setup utility.  **Please remember your user ID.**  
+You will need your user ID and password later to use the FreeDNS Setup utility.  Please remember your user ID.  
   
 **Go to [Subdomains](https://freedns.afraid.org/subdomain/).**  
 **Add.**  
