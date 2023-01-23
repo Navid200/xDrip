@@ -5,7 +5,7 @@ Follow these instructions in order to use FreeDNS, which you will need in order 
   
 **Go to FreeDNS site:** [https://freedns.afraid.org/](https://freedns.afraid.org/)  
 **Click on Sign up Free, and sign up.**  Make sure to choose a user ID excluding capital letters.  
-If you include capital letters in your user ID, FreeDNS will convert it all to lowercase.  
+If you include capital letters in your user ID, FreeDNS will convert them all to lowercase.  
 **Please remember your password.**  
   
 **Send activation email.**  
