@@ -1,12 +1,12 @@
 ## Variants  
 [xDrip](../README.md) >> [Download & Installation](./Installation_page) >> Variants  
   
-You cannot install xDrip multiple times on the same phone.  But, xDrip variants have different names.  So, you can install xDrip and an xDrip variant or even more.  This effectively lets you install multiple instances of xDrip on the same phone.  
-  
+You cannot install multiple instances of xDrip on the same phone.  But, xDrip variants have different names.  So, you can install xDrip and an xDrip variant or even more.  This effectively lets you install multiple instances of xDrip on the same phone.  
 You can use each instance to follow a different person.  
   
 You can download nightly variants [here](https://drive.google.com/drive/folders/0B6mvYVNVC-fOWkxnVF80dlFabjQ?resourcekey=0-ebguuiPuB1wUI9Rp2zjMNg).  
 Click on the button at the top right to view as list.  Then, click on "Last modified" at the top and click on the check mark.  This will place an arrow beside "Last Modified".  Click on the arrow to sort.  But, be patient.  Now, the latest one is at the top.  
+![](./images/Variants.png)  
 <br/>  
   
 ---  
