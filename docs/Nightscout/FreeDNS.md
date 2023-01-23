@@ -5,7 +5,7 @@ Follow these instructions in order to use FreeDNS, which you will need in order 
   
 **Go to FreeDNS site:** [https://freedns.afraid.org/](https://freedns.afraid.org/)  
 **Click on Sign up Free, and sign up.**  Make sure to choose a user ID excluding capital letters.  
-If you include capital letters in your user ID, FreeDNS will convert it all to lowercase.  You can see that in the activation email you receive from FreeDNS.  Also, if you log in to FreeDNS, you can see your approved user ID at the top in the right pane.  
+If you include capital letters in your user ID, FreeDNS will convert it all to lowercase.  
 You will be asked to enter your user ID and password later on as a part of the Nightscout installation.  **Please remember your password.**  
   
 **Send activation email.**  
