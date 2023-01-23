@@ -25,7 +25,7 @@ Major releases are identified here with brief descriptions.
 | [2022.10.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.15) | Companion App backfill - Bluetooth Settings &#8722;> Companion Bluetooth |  
 | [2022.10.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.10.05) | Can scan with NFC as well when using Libre 2 patched app |  
 | [2022.09.21](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.21) | Dex G6 transmitter end of life warning |  
-| [2022.09.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.08b) | Backup to Google Cloud |  
+| [2022.09.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.08b) | Backup to Google Drive |  
 | [2022.09.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.06) | Unsmoothed graph view does no longer need engineering mode. |  
 | [2022.09.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.02) | Companion hardware data source upper limit raised to 405 mg/dL. |  
 | [2022.09.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.01) | Custom sound selction fix for alerts |  
