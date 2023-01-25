@@ -1036,7 +1036,22 @@ button.close {
       border-color: transparent;
       border-style: solid; }
 
+.bg-white {
+  background-color: #101010 !important; }
 
+a.bg-white:hover, a.bg-white:focus,
+button.bg-white:hover,
+button.bg-white:focus {
+  background-color: #303030 !important; }
+
+.border-top {
+  border-top: 1px solid #e8f3ec !important; }
+
+.p-3 {
+  padding: 1rem !important; }
+
+.text-muted {
+  color: #6c757d !important; }
 
 
 

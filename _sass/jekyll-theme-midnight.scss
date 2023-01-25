@@ -8,10 +8,8 @@ body {
   font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#101010;
   font-weight: normal;
- // background: #252525;
   background: #f0f0f0;
   background-attachment: fixed !important;
-//  background: linear-gradient(#2a2a29, #1c1c1c);
   background: linear-gradient(#f0f0f0, #f0f0f0);
 }
 
@@ -180,9 +178,7 @@ dt {
   height: 60px;
   width: 100%;
   position: fixed;
-//  background: #330066;
   background-color: #222222;
-//  border-bottom: 2px solid #434343;
   box-shadow: 0px 1px 3px rgba(0,0,0,.25);
 
 
@@ -285,6 +281,109 @@ box-shadow: inset 0px 0px 0px rgba(245,185,45,1), 0px 2px 15px rgba(245,185,45,1
     }
 }
 
+#footer { 
+  border-top: 1px solid #d0d0d0;
+  left:0;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  padding: 0;
+  background-color: #f0f0f0;
+
+
+ ul {
+      margin-left: 2px;
+      margin-right: 2px;
+      margin-top: -4px;
+      margin-bottom: 1px;
+      padding: 0;
+
+      li {
+        font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-weight: normal;
+        list-style: none;
+        display: inline;
+        color: white;
+        line-height: 50px;
+        text-shadow: 0px 1px 0px rgba(0,0,0,.2);
+        font-size: 14px;
+
+        a.one {
+          color: #f0f0f0;
+          font-weight:400;
+          text-decoration:none;
+          border: 1px solid #200000;
+          background: linear-gradient(#333333, #333333);
+          border-radius: 2px;
+          box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 3px rgba(0,0,0,.7);
+
+          background-color: #313131;
+          padding: 4px 6px;
+          line-height:14px;
+          font-size:14px;
+          display:inline-block;
+          text-align:center;
+
+          &:hover {
+            background: linear-gradient(#323232, #313131);
+            background-color: #353535;
+            border: 1px solid #200000;
+            box-shadow: inset 0px 0px 0px rgba(5,5,5,.3), 0px 0px 6px rgba(0,0,0,1);
+            color: #dddddd;
+          }
+        }
+        
+
+
+          &.fork {
+            float: left;
+            margin-left: 0px;
+          }
+
+          &.downloads {
+            float: right;
+            margin-left: 6px;
+          }
+
+          &.title {
+            float: right;
+            margin-right: 10px;
+            font-size: 11px;
+          }
+        
+          &.RN {
+            float: right;
+            margin-right: 0px;
+          }
+        
+          &.imaga {
+            float: right;
+            margin-right: 10px;
+            margin-top: 10px;
+          }
+        
+          &.imag_L {
+            float: left;
+            margin-left: 4px;
+          }
+        
+          &.cont {
+            float: left;
+            margin-left: 10px;
+            margin-top: -4px;
+          }
+
+          &.release {
+            float: right;
+            margin-right: 10px;
+            margin-top: -4px;
+          }  
+      }
+    }
+
+
+}
+
 
 .bd-search .form-control {
       margin-top: 16px;
@@ -297,18 +396,13 @@ box-shadow: inset 0px 0px 0px rgba(245,185,45,1), 0px 2px 15px rgba(245,185,45,1
 	border-radius:12px;
 	border:1px solid #888888;
       float: right;
-      padding: 2px 2px;
+      padding: 0px 5px 2px 5px;
       &:hover {
-//        border:1px solid #cfbb5b;
 box-shadow: inset 0px 0px 0px rgba(240,180,40,1), 0px 0px 6px rgba(240,180,40,1);
       }
 }
 
-//.mb-0,
-//.my-0 {
-//  padding: 4px;
-//  margin-bottom: 0 !important; 
-//}
+
 
 
 section {
