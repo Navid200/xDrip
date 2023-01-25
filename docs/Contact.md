@@ -1,6 +1,6 @@
-## Contact Us
-[xDrip](../README.md) >> Contact us  
-Contact xDrip    
+## Support
+[xDrip](../README.md) >> Support  
+xDrip Support  
   
 ### Request for Help  
 If you need help using xDrip, please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  
