@@ -1,9 +1,5 @@
 ## Update Google Cloud Nightscout platform
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Update to latest release  
-  
-**<span style="color:red">Please be patient until we resolve an issue with the update strategy.</span>**  
-Please wait for the above note to be removed, in the next day or two, before you proceed with updating.  
-January 23, 2023  
+[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Update to latest release   
   
 This is how you can update your virtual machine with the latest menus, commands and packages.  
   
