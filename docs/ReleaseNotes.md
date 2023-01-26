@@ -7,6 +7,7 @@ How to [install](./Install.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.01.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.26) | Tidepool new authentication |  
 | [2023.01.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.18) | Database connections closure before import|  
 | [2023.01.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.17) | Companion app mode fix |  
 | [2023.01.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.12) | Dexcom One (C) |  
