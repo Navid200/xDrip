@@ -1,5 +1,5 @@
 ## Save database daily
-[xDrip](../README.md) >> [Backup](./Baclup.md) >> Save database daily  
+[xDrip](../../README.md) >> [Backup](../Baclup.md) >> Save database daily  
   
 This setting can be found under Settings &#8722;> Less common settings.  
 By default it is disabled.  And the setting Glucose retention on the same page is also set to 0 by default.
