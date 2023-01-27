@@ -2,6 +2,7 @@
 [xDrip](../../README.md) >> [Backup](../Backup.md) >> Save database daily  
   
 This setting can be found under Settings &#8722;> Less common settings.  
+![](./images/SaveDaily.png)  
 By default it is disabled.  And the setting Glucose retention on the same page is also set to 0 by default.
 With those (default) settings, your database will contain all your readings and will never be deleted.  
   
