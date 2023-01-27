@@ -1,5 +1,5 @@
 ## Save database daily
-[xDrip](../../README.md) >> [Backup](../Backup.md) >> Save database daily  
+[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Backup](../Backup.md) >> Save database daily  
   
 This setting can be found under Settings &#8722;> Less common settings.  
 ![](./images/SaveDaily.png)  
