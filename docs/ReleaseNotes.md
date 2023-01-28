@@ -12,7 +12,7 @@ How to [install](./Install.md).
 | [2023.01.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.26) | Tidepool new authentication (developer test) |  
 | [2023.01.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.18) | Database connections closure before import|  
 | [2023.01.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.17) | Companion app mode fix |  
-| [2023.01.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.12) | Dexcom One (C) |  
+| [2023.01.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.12) | Dexcom One (C\*\*\*\*\*) |  
 | [2022.12.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.24) | **<span style="color:orange">Alpha</span>** <br/> Google play service not being installed will not crash any more. |  
 | [2022.12.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09) | Resolve intermittent IoB display |  
 | [2022.12.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.05) | minimedmobile |  
