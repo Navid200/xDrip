@@ -15,11 +15,16 @@ Please remember your password.
 **Click on Main Menu to log in.**  
 After logging in, you can see your user ID at the top right corner.  
 ![](./images/FD_userID.png)  
+  
 You will need your user ID and password later to use the FreeDNS Setup utility.  Please remember your user ID.  
   
 **Go to [Subdomains](https://freedns.afraid.org/subdomain/).**  
 **Add.**  
-**Enter a subdomain name.**  Pick a public domain.  Under the image, enter text (capital) to capture the image you see.  You can change the image if it's not clear.  
+  
+You can see that under "Domain", you have only 7 options.  Instead of using one of those, it is best to do what is suggested [here](./FD_Domains.md).  
+After having selected a public domain, please proceed with the following.  
+  
+**Enter a subdomain name.**  Under the image, enter text (capital) to capture the image you see.  You can change the image if it's not clear.  
 **Save.**  
 ![](./images/FreeDNS2.png)  
 <br/>  
