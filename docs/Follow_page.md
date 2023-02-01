@@ -1,8 +1,6 @@
 # Follow
 [xDrip](../README.md) >> [Features](./Features_page) >> Follow  
   
-![](./images/FollowPage.png)  
-  
 #### [How to follow](./How-to-follow.md)
 #### [xDrip Sync](./xDripSync.md)
 #### [Nightscout](./Nightscout_page.md)
