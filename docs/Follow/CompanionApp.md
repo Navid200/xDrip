@@ -6,7 +6,8 @@ For example, if you have CamAPS installed and operational, you can have xDrip on
 Similarly, if you have a Dexcom app installed collecting from a transmitter, you can use the Companion App feature to receive readings from the Dexcom app.  
 
 For this to work, you need to have notifications showing on your phone from the other app.  Pull down from the top of the screen on your phone to see all the notifications.  
-If you have more than one app showing notifications containing blood glucose values, xDrip will have no way to distinguish and select one. That would be an untested scenario that is not recommended.  
+If you have more than one app showing notifications containing blood glucose values, xDrip will have no way to distinguish and select one and not the other.  That scenario is not tested and not recommended.  
+In such a case, you should disable the notifications of one of the two apps.  
   
 This feature does not require internet access.  
   
