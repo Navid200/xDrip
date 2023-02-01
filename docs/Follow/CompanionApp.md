@@ -7,7 +7,9 @@ Similarly, if you have a Dexcom app installed collecting from a transmitter, you
 
 For this to work, you need to have notifications showing on your phone from the other app.  Pull down from the top of the screen on your phone to see all the notifications.  
 If you have more than one app showing notifications containing blood glucose values, xDrip will have no way to distinguish and select one and not the other.  That scenario is not tested and not recommended.  
-In such a case, you should disable the notifications of one of the two apps.  
+In such a case, you should disable the notifications for one of the two apps.  
+
+You meed to give xDrip notification access.  
   
 This feature does not require internet access.  
   
