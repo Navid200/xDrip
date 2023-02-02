@@ -42,6 +42,6 @@ If you see the option to upgrade as shown in the following image, you have not u
 If you see remaining credit shown, as shown in the following image, you have already upgraded. But, you still have time to use the remaining credit from your free trial.  If you click on credit details at the bottom, you can see how many days are left for you to use the remaining credit.  
 ![](./images/RemainingCredit.png)  
   
-If you see "No remaining credits" as shoiwn in the following image, you have already upgraded and the free trial credit period has expired.  
+If you see "No remaining credits" as shown in the following image, you have already upgraded and the free trial credit period has expired.  
 ![](./images/NoCreditLeft.png)  
   
