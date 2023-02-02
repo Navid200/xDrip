@@ -7,6 +7,7 @@ How to [install](./Install.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.02.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.02) | Libre US 14-day sensor SN ends with E6 |  
 | [2023.02.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.01) | Refactor Services to services |  
 | [2023.01.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.28) | Kotlin (for developers) |  
 | [2023.01.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.27) | Tidepool new authentication (developer test) |  
