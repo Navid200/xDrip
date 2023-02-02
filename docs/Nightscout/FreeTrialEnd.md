@@ -29,4 +29,19 @@ This will open the window shown below.  Click on Activate.
 You will not lose your remaining free credit.  You can use your remaining free credit up to its original expiry date.  
 Since you have already upgraded, nothing will be interrupted when your free trial ends.  
 As long as you satisfy the free tier requirements, everything will be free.  
+<br/>  
+  
+---  
+  
+**How can I tell if I have already upgraded or not?**  
+Log into Google Cloud.  Go to billing, from the dashboard.  Click on "Overview" in the left pane.  
+  
+If you see the option to upgrade as shown in the following image, you have not upgraded yet, and you can.  
+![](./images/Upgrade.png)  
+  
+If you see remaining credit shown, as shown in the following image, you have already upgraded. But, you still have time to use the remaining credit from your free trial.  If you click on credit details at the bottom, you can see how many days are left for you to use the remaining credit.  
+![](./images/RemainingCredit.png)  
+  
+If you see "No remaining credits" as shoiwn in the following image, you have already upgraded and the free trial credit period has expired.  
+![](./images/NoCreditLeft.png)  
   
