@@ -17,5 +17,5 @@ https<nolink>://password@hostname/api/v1/
 ---  
   
 **Upload to multiple Nightscout sites**  
-Enter the URLs in the same fields, separated by space.  
+Enter the URLs in the same field, separated by space.  
   
