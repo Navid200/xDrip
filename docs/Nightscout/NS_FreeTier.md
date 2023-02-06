@@ -1,6 +1,9 @@
 ## Free Tier  
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Free Tier  
   
+When you first sign up for Google Cloud, you can enable a free trial program, and you should.  It gives you $300 for a 3-month period.  In that period, any cost will be charged against that credit.  So, it will be free for you.  However, you can see what the cost will be later when your free trial period ends.  
+Therefore, if you live in China or Australia, you can clearly see what your cost will be using this without having to pay anything.  
+
 You will need a credit card to set up billing. This will be free as long as you don’t have too much outgoing traffic (more than 1GB per month) from your Google Cloud server. Regardless, a credit card is required.  
   
 Next, We will understand the limitations and requirements of a free tier machine.  
