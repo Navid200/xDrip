@@ -3,6 +3,7 @@
   
 If you are experiencing problems using xDrip, some possible issues, and suggested solutions, are listed on this page.  
   
+#### [xDrip does not install](./DoesNotInstall.md)
 #### [IoB does not show consistently](./IoB_not_showing.md)
 #### [Why do I get xDrip imported AAPS profile pop-up?](./AAPS_ProfileImportNotification)
 #### [Bluetooth headphone interruption](./Bluetooth-headphone-interruption)
