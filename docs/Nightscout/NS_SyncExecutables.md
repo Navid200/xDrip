@@ -27,7 +27,11 @@ curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.s
   
 You will see the following note:  
 ![](./images/BootstrapConfirm.png)  
-Press enter to proceed.  After bootstrap is complete, go to the status page.  Please see the next section.  
+Press enter to proceed.  After bootstrap is complete, you will go to the status page.  
+  
+You must now run "Install Nightscout phase 1" from the Google Cloud setup submenu.  
+  
+Please see the next section.  
 <br/>  
   
 ---  
