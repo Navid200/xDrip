@@ -7,7 +7,8 @@ How to [install](./Install.md).
   
 | Release | Notes |  
 |---------|-------|  
-| [2023.02.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.07) | Xiaomi Android incompatibility |  
+| [2023.02.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.08) | OnePlus Android workaround |  
+| [2023.02.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.07) | Xiaomi Android workaround |  
 | [2023.02.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.06) | Wake screen - Use camera light |  
 | [2023.02.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.02) | Libre US 14-day sensor SN ends with E6 |  
 | [2023.02.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.01) | Refactor Services to services |  
