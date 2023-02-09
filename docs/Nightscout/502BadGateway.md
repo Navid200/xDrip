@@ -3,7 +3,6 @@
   
 Do you get this error when you attempt to access your Nightscout in a browser?  
 <br/>  
-<br/>  
   
 ![](./images/502BadGateway.png)  
 <br/>  
