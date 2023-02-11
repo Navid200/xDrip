@@ -3,7 +3,7 @@
   
 If you are experiencing a problem with xDrip, please start [here](https://navid200.github.io/xDrip/docs/Troubleshooting_page.html).  
   
-| # | Subject | Data Source | Android | Opened | Bug |  
+| # | Subject | Data Source | Android | Opened |  |  
 |---|---------|--------|---------|--------|----------|  
 | [91](https://github.com/NightscoutFoundation/xDrip/issues/91) - [164](https://github.com/NightscoutFoundation/xDrip/issues/164) - [464](https://github.com/NightscoutFoundation/xDrip/issues/464) - [569](https://github.com/NightscoutFoundation/xDrip/issues/569) - [833](https://github.com/NightscoutFoundation/xDrip/issues/833) - [1259](https://github.com/NightscoutFoundation/xDrip/issues/1259) - [1477](https://github.com/NightscoutFoundation/xDrip/issues/1477) - [1479](https://github.com/NightscoutFoundation/xDrip/issues/1479) - [1519](https://github.com/NightscoutFoundation/xDrip/issues/1519) - [1545](https://github.com/NightscoutFoundation/xDrip/issues/1545) | Simulator-related | | | 2017.03.23 | |  
 | [127](https://github.com/NightscoutFoundation/xDrip/issues/127) | Follower scheme using SMS | | | 2017.06.02 | |  
