@@ -13,8 +13,9 @@ To access the alerts page, tap on the top left menu button from the main screen 
 | Missed Reading | Ring & notification | "Other Alerts" \* | "Other Alerts" \* | 
 | Other Alerts | Ring & notification | Can choose | Can enable |  
 | Persistent High 📍 | Ring & notification | Can choose | "Other Alerts" \* |  
-| Forecast Lows 📍 | Ring & notification | Can choose | "Other Alerts" \* |
-
+| Forecast Lows 📍 | Ring & notification | Can choose | "Other Alerts" \* |  
+| Sensor expiry 📍 | No sound | No sound | No sound |  
+  
  \* Uses the same setting selected for "Other Alerts".  
  <br/>  
   
