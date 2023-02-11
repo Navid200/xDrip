@@ -15,7 +15,7 @@ To access the alerts page, tap on the top left menu button from the main screen 
 | Forecast Lows + | Ring & notification | Can choose | "Other Alerts" \* |
 
  \* Uses the same setting selected for "Other Alerts".  
- + Under Extra Alerts (xDrip+)
+ \+ Under Extra Alerts (xDrip+)
 
   
 #### [Glucose Level Alert List](./Glucose-level-alerts.md)
