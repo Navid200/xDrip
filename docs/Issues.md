@@ -16,7 +16,6 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [520](https://github.com/NightscoutFoundation/xDrip/issues/520) | Android Auto | | | 2018.07.24 |  
 | [555](https://github.com/NightscoutFoundation/xDrip/issues/555) | Unique sound for missed readings alert | | | 2018.08.20 |  
 | [565](https://github.com/NightscoutFoundation/xDrip/issues/565) | Three decimal points resulting in incorrect treatment entry | | | 2018.08.27 | 🐛 |  
-| [570](https://github.com/NightscoutFoundation/xDrip/issues/570) | Libre sensor expiry alert | | | 2018.09.08 |  
 | [616](https://github.com/NightscoutFoundation/xDrip/issues/616) | Eversense integration | | | 2018.10.08 |  
 | [642](https://github.com/NightscoutFoundation/xDrip/issues/642) | Max sync queue size exceeded | | | 2018.10.26 | 🐛 |  
 | [650](https://github.com/NightscoutFoundation/xDrip/issues/650) | More than 24 hours on-screen coverage option | | | 2018.10.29 |  
