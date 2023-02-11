@@ -1,13 +1,22 @@
 ## Sensor Expiry
 [xDrip](../README.md) >> [FAQ](./FAQ_page.md) >> Sensor expiry  
-
-xDrip doesn't have an alert warning you about sensor expiry as it approaches.  
-
-However, you can have it show when the sensor expires at the bottom of the main screen.  
+  
+---  
+  
+#### **Show on main screen**    
+You can have xDrip show when the sensor expires at the bottom of the main screen.  
 To do that, long press the xDrip icon on the main screen.  You will see something like this:  
 ![](./images/home_shelf.png)  
   
 Enable "Show Sensor Expiry".  
   
 If you use a G5 in non-[native](./Native-Algorithm) mode, or if you use a G5 (or an old G6) and have enabled [preemptive restart](./Preemptive-Restart), your sensor will not stop.  But, if you enable this setting, it will show on the main screen that it will.  So, you should disable this setting in those cases.  
+<br/>  
+<br/>  
+  
+---  
+  
+#### **Notifications**  
+You can enable sensor expiry notifications under [Alerts](./Alerts_page.md).  
+When enabled, you will receive notifications 24 hours, 9 hours and 2 hours before expiry.  
   
