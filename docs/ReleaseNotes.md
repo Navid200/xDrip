@@ -7,6 +7,7 @@ How to [install](./Install.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.02.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.15) | iob in keystore - Libre 1-minute test |  
 | [2023.02.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.11) | Sensor expiry notification - 400mg/dL max |  
 | [2023.02.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.08) | OnePlus Android workaround |  
 | [2023.02.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.07) | Xiaomi Android workaround |  
