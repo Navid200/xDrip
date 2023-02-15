@@ -57,7 +57,7 @@ You will see a few error messages.  Those are expected and can be ignored.  Plea
 ---
   
 **Phase 2**  
-To complete the installation, go to the Google Cloud setup submenu and **select item 2** on the menu "Install Nightscout Phase 2" and enter.    
+To complete the installation, go to the Google Cloud setup submenu and select item 2 on the menu "Install Nightscout Phase 2" and enter.    
   
 You will be asked to choose API_SECRET.  
 ![](./images/API-SECRET.png)  
