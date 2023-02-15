@@ -7,9 +7,9 @@ Now, we will update Linux on our [virtual machine](./NS_FreeTier), and install N
 ---  
   
 **Bootstrap**    
-**Open a [terminal](./Terminal.md).**  
+Open a [terminal](./Terminal.md).  
   
-**Copy and paste the following highlighted line into the terminal of your Nighscout virtual machine and enter.**  
+Copy and paste the following highlighted line into the terminal of your Nighscout virtual machine and enter.  
 **Caution:** Be very careful not to copy it into any other computer as it could overwrite the contents of the machine.  
   
 ```  
@@ -17,7 +17,7 @@ curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.s
 ```  
 <br/>  
   
-You will be presented with a notification.  To acknowledge, you need to select OK.  However, you will not be able to use the mouse.  Just **press enter.**  [This](./HowToMenu.md) explains how the menus work.  
+You will be presented with a notification.  To acknowledge, you need to select OK.  However, you will not be able to use the mouse.  Just press enter.  [This](./HowToMenu.md) explains how the menus work.  
 It will take a few minutes to complete a preliminary installation step.  You will then see a note or the status page.  
 The following table shows what you may see depending on different choices you can make.  
   
@@ -61,19 +61,19 @@ To complete the installation, go to the Google Cloud setup submenu and **select 
   
 You will be asked to choose API_SECRET.  
 ![](./images/API-SECRET.png)  
-**Enter a password** and take note.  You will need it to access Nightscout.  
+Enter a password and take note.  You will need it to access Nightscout.  
 Avoid the following characters.  
 $ " \     
   
 You will be asked to enter your FreeDNS user ID and password.  
 ![](./images/FreeDNS_IDPass.png)  
-**Enter those.**  Use the up and down arrow keys to move between the password and user ID fields.  Your FreeDNS user ID is shown at the top right corner of the page when you log into [FreeDNS](https://freedns.afraid.org/menu/).  After you enter your user ID and password, you can press enter to submit.  
+Enter those.  Use the up and down arrow keys to move between the password and user ID fields.  Your FreeDNS user ID is shown at the top right corner of the page when you log into [FreeDNS](https://freedns.afraid.org/menu/).  After you enter your user ID and password, you can press enter to submit.  
 If you have more than one subdomain, you will be asked to identify the one you want to use.  In that case, you need to enter the first few characters of the subdomain to identify it with respect to your other subdomains, and press enter.  
   
 You may be directed to exit and try again (internal error).  Do that.  **If you are asked again to retry, please close the window.**  Open a new window.  Use item 7 from the menu to reboot the server.  Wait 30 seconds.  Click on retry to reconnect.  Run install Nightscout phase 2 again.  
   
 After successful setup, you will be asked to enter an email address for security notices.   
-**Enter an email address.**  
+Enter an email address.  
 You will be asked to confirm a restart.  Please do.  You will see the disconnect message.  
 Wait 30 seconds, and Nightscout will be running.  
  
