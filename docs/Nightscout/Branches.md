@@ -23,12 +23,12 @@ You can then restart the server to ensure that everything is working as expected
   
 #### **Bootstrap**  
 Stable branch:
-````  
+````
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash
 ````  
   
 Development branch:
-````  
+````
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-dev/bootstrap.sh | bash
 ````  
 <br/>  
