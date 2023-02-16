@@ -1,0 +1,39 @@
+## Nightscout on Google Cloud branches
+[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >> Branches  
+  
+Nightscout on Google Cloud has two branches that you can choose from to use.  
+The development branch, vps-dev, is updated more frequencty and as a result, less tested.  You can access the latest updates the fastest using this branch.  
+The stable branch, vps-1, is updated less often.  It is updated by promoting a development branch release to it.  Therefore, it is more stable.  
+<br/>  
+  
+---  
+  
+#### **Updates**  
+When you [update the platform](./NS_SyncExecutables.md), you get the latest release in the branch you are using.  
+<br/>  
+  
+---  
+  
+#### **Switch**  
+If you are already using Nightscout on Google Cloud and you want to switch to the other branch, all you need to do is to run the bootstrap associated with the branch followed by running "Install Nightscout phase 1" from the Google Cloud setup submenu.  
+You can then restart the server to ensure that everything is working as expected.  
+<br/>  
+  
+---  
+  
+#### **Bootstrap**  
+Stable branch:
+````  
+curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash
+````  
+  
+Development branch:
+````  
+curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-dev/bootstrap.sh | bash
+````  
+<br/>  
+  
+---  
+  
+#### **Which branch am I using?**  
+Go to the status page.  The full GitHub path is shown on the status page.  The last section on the line is vps-1 or vps-dev for the stable or development branch respectively.  
