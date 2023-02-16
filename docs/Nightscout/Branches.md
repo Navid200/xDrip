@@ -2,7 +2,7 @@
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >> Branches  
   
 Nightscout on Google Cloud has two branches that you can choose from to use.  
-The development branch, vps-dev, is updated more frequenctly and as a result, less tested.  You can access the latest updates the fastest using this branch.  
+The development branch, vps-dev, is updated more frequently and as a result, less tested.  You can access the latest updates the fastest using this branch.  
 The stable branch, vps-1, is updated less often.  It is updated by promoting a development branch release to it.  Therefore, it is more stable.  
 <br/>  
   
