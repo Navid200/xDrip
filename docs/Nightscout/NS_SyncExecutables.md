@@ -1,7 +1,7 @@
 ## Update Google Cloud Nightscout platform
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Update to latest release   
   
-This is how you can update your virtual machine with the latest menus, commands and packages.  
+This is how you can update the menus, commands and packages on your virtual machine.  This is not about updating Nightscout.  If you want to update Nightscout, please have a look at [this](./update_nightscout.md).  
   
 Open a [terminal](./Terminal.md).  A [menu](./Menu.md) should come up automatically.  If not, you have a very old version of our platform.  To update, please skip to the section titled "Bootstrap" below.  
   
