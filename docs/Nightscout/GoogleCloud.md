@@ -45,7 +45,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 ---  
   
 ####          **How to**
-#### [How to use menus](./HowToMenu.md)
+#### [Use menus](./HowToMenu.md)
 #### [Restart](./Restart.md)
 #### [Mobile](./Mobile.md)
 #### [Update Nightscout](./update_nightscout.md)
