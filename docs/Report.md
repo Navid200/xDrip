@@ -1,7 +1,7 @@
 ## Report  
 [xDrip](../README.md) >> [Features](./Features_page) >> Report  
   
-In xDrip, tap on Statistics from the top left menu button. You can swipe left or right to access a total of 3 pages. The first and the last pages are the ones you need for a report.  
+In xDrip, tap on [Statistics](./Statistics.md) from the top left menu button. You can swipe left or right to access a total of 3 pages. The first and the last pages are the ones you need for a report.  
 At the top, tap on 90D for the past 90 days. Tap on share from the top right menu. Select your email client and email it to yourself. Go to the other page and email that one to yourself as well.  
   
 Alternatively, you can create the two images from [Nightscout](./Nightscout.md).  In that case, choose "Reports" from the Nightscout menu.  Then, use "Percentile Chart" and "Distribution" to create the two images.  Make sure to choose a 3-month period up to now.   
