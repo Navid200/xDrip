@@ -7,6 +7,7 @@ To access statistics, tap on "Statistics" from the top left menu button.
   
 Now, you can swipe left or right to access a total of three different pages.  
 The page on the left contains all the statistical parameters.  
+![](./images/StatParams.png)  
   
 The page in the middle is a pie chart representing the percentage of time in range, high and low.  
   
