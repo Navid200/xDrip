@@ -17,5 +17,5 @@ Now print this document into a PDF file.
 You can provide this as your report to your Endocrinologist.  
   
 This (with images from xDrip) only works if you have been using xDrip consistently for the past 3 months on the same device.  
-Otherwise, the data in xDrip may not cover all your readings from the past 3 months. In which case, you need to first gather all the data in one database. [Nightscout](./Nightscout.md) is one option.  
+Otherwise, the data in xDrip may not cover all your readings from the past 3 months. In which case, you need to first gather all the data in one database. [Nightscout](./Nightscout_page.md) is one option.  
   
