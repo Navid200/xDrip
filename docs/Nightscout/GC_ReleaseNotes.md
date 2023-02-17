@@ -4,7 +4,7 @@
 | Release | Notes | Status page |  
 |---------|-------| ----------- |  
 | 2023.01.07 | Variable server improvements |  |  
-| 2022.12.10 | Copy Nightscout improvements |  |  
+| 2022.12.10 | Copy Nightscout improvements<br/>FreeDNS capital letters are rejected. |  |  
 | 2022.12.02 | Install heavily dependent on bootstrap | ![](./images/Dec022022StatusP.png) |  
 | 2022.11.27 | FreeDNS name with capital letters |  |  
 | 2022.11.21 | Installation improvements |  |  
