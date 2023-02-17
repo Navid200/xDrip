@@ -3,6 +3,7 @@
   
 | Release | Notes | Status page |  
 |---------|-------| ----------- |  
+| 2022.11.19 | Nightscout 14.2.6 - Verify VM region as well |  |  
 | 2022.11.11 | Verify virtual machine | ![](./images/Nov112022StatusP.png) |  
 | 2022.11.08 | Variable edit in a browser |  |  
 | 2022.11.06 | FreeDNS menus |  |  
