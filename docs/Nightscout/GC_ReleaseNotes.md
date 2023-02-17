@@ -3,6 +3,9 @@
   
 | Release | Notes | Status page |  
 |---------|-------| ----------- | 
+| 2023.02.15 | **Current dev branch** <br/>Log copy Nightscout |  |  
+| 2023.02.11 | Detect incomplete update |  |  
+| 2023.01.30 | Development branch setup |  |  
 | 2023.01.25 | **Current stable release** <br/> Minimal Ubuntu detection fix |  |  
 | 2023.01.21 | Minimal Ubuntu enforced |  |  
 | 2023.01.16 | Submenus | ![](./images/Jan162023StatusP.png) |  
