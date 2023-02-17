@@ -6,7 +6,7 @@
 | 2022.11.11 | Verify virtual machine | ![](./images/Nov112022StatusP.png) |  
 | 2022.11.08 | Variable edit in a browser |  |  
 | 2022.11.06 |  |  |  
-| 2022.10.28 | Filter out MongoDB parameters in copy | ![](./images/Oct272022StatusP.png) |  
+| 2022.10.28 | Filter out MongoDB parameters in copy |  |  
 | 2022.10.27 | First main menu | ![](./images/Oct272022StatusP.png) |  
 | 2022.10.14 | Customize Nightscout | None |  
 | 2022.10.13 | Mongo admin - FreeDNS | None |  
