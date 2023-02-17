@@ -2,7 +2,8 @@
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >> Release notes  
   
 | Release | Notes | Status page |  
-|---------|-------| ----------- |  
+|---------|-------| ----------- | 
+| 2023.01.16 | Submenus | ![](./images/Jan162023StatusP.png) |  
 | 2023.01.07 | Variable server improvements |  |  
 | 2022.12.10 | Copy Nightscout improvements<br/>FreeDNS capital letters are rejected. <br/> Database size set to 20GB <br/> Utility logs | ![](./images/Dec102022StatusP.png) |  
 | 2022.12.02 | Install heavily dependent on bootstrap | ![](./images/Dec022022StatusP.png) |  
