@@ -3,7 +3,7 @@
   
 | Release | Notes | Status page |  
 |---------|-------| ----------- | 
-| 2023.01.21 | Minimal Ubuntu enforced |  |  
+| 2023.01.21 | **Current stable release** <br/> Minimal Ubuntu enforced |  |  
 | 2023.01.16 | Submenus | ![](./images/Jan162023StatusP.png) |  
 | 2023.01.07 | Variable server improvements |  |  
 | 2022.12.10 | Copy Nightscout improvements<br/>FreeDNS capital letters are rejected. <br/> Database size set to 20GB <br/> Utility logs | ![](./images/Dec102022StatusP.png) |  
