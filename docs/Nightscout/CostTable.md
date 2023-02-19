@@ -25,7 +25,7 @@ Click on OK.
 Choose an invoice.  Keep in mind that an invoice will only become complete on the third day of the month.  So, the invoice for December, will not yet be valid on January 2.  
 ![](./images/ChooseInvoice.png)  
   
-Put a check mark beside project names.  Then, click on "Download CSV".  
+Put a check mark beside project name.  Then, click on "Download CSV".  
 ![](./images/DL_Invoice.png)  
   
 Open the csv file you downloaded.  If you don't have Excel, you can use Open Office (free).  
