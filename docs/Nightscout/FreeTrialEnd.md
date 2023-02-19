@@ -12,7 +12,7 @@ Go to the console and the Compute Engine.  You will see that the virtual machine
 ![](./images/VM_Stopped.png)  
   
 Start it (one of the options under the 3-dot menu).  After the machine starts, you may notice that you still cannot access Nightscout.  This is because restarting the machine after it was shut down for a while has resulted in the machine IP address to have been changed.  
-Please be patient.  It may take a minute or two for the new IP address to be associated with your hostname.    
+Please be patient.  It may take a minute or two, after restarting the virtual machine, for the new IP address to be associated with your hostname.    
 <br/>  
   
 ---  
