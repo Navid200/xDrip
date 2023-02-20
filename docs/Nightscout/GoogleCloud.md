@@ -69,7 +69,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 ---  
   
 ####          **Frequently Asked Questions**
-#### [Can I still get my data from Heroku?](./HerokuGone.md)
+#### [Can I still get my data from (Heroku) Atlas?](./HerokuGone.md)
 #### [Will this be free?](./NS_FreeTier.md)
 #### [Will this work in Australia or China?](./AustraliaChina.md)
 <br/>  
