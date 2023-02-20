@@ -2,8 +2,9 @@
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >> Release notes  
   
 | Release | Notes | Status page |  
-|---------|-------| ----------- | 
-| 2023.02.15 | **Current dev release** <br/>Log copy Nightscout | ![](./images/Feb152023StatusP.png) |  
+|---------|-------| ----------- |  
+| 2023.02.20 | **Current dev release** <br/>FreeDNS dialog update | |  
+| 2023.02.15 | Log copy Nightscout | ![](./images/Feb152023StatusP.png) |  
 | 2023.02.11 | Detect incomplete update |  |  
 | 2023.01.30 | Development branch setup |  |  
 | 2023.01.25 | **Current stable release** <br/> Minimal Ubuntu detection fix |  |  
