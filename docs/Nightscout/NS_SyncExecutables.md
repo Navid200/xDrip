@@ -30,8 +30,9 @@ You will see the following note:
 Press enter to proceed.  After bootstrap is complete, you will go to the status page.  
   
 **You must now run "Install Nightscout phase 1" from the Google Cloud setup submenu.**  
+<br/>  
   
-Please see the next section.  
+Please process to the next section.  
 <br/>  
   
 ---  
