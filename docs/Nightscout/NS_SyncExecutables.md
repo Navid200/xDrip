@@ -29,7 +29,7 @@ You will see the following note:
 ![](./images/BootstrapConfirm.png)  
 Press enter to proceed.  After bootstrap is complete, you will go to the status page.  
   
-You must now run "Install Nightscout phase 1" from the Google Cloud setup submenu.  
+**You must now run "Install Nightscout phase 1" from the Google Cloud setup submenu.**  
   
 Please see the next section.  
 <br/>  
