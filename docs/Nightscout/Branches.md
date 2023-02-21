@@ -16,7 +16,7 @@ When you [update the platform](./NS_SyncExecutables.md), you get the latest rele
 ---  
   
 #### **Comparison**  
-To see the differences between the two branches, you can use the [release notes](./GC_ReleaseNotes.md).  
+To see the differences between the two branches, you can view the [release notes](./GC_ReleaseNotes.md).  
 <br/>  
   
 ---  
