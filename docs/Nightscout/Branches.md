@@ -47,5 +47,14 @@ curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-dev/bootstrap
 #### **Which branch am I using?**  
 Go to the status page.  The full GitHub path is shown on the status page.  The last section on the line is vps-1 or vps-dev for the stable or development branches respectively.  
 ![](./images/BranchFlag.png)  
+<br/>  
   
+---  
+  
+#### **Which branch should I use?**  
+That's for you to decide.  
+  
+If you are confident with tech and are willing to contribute by testing, use the development branch.  
+If you need a feature that is only available in the development branch, use the development branch.  
+If you don't feel like using the new release, and the stable release gives you all you need, use the stable release.  
   
