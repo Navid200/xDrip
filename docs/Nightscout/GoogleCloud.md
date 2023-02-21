@@ -47,12 +47,13 @@ The rest of the items you see on this page are optional items on the menu or iss
 ####          **How to**
 #### [Use menus](./HowToMenu.md)
 #### [Restart](./Restart.md)
-#### [Access from a Mobile](./Mobile.md)
-#### [Update Nightscout](./update_nightscout.md)
-#### [Reinstall](./Reinstall.md)
-#### [Delete virtual machine](./DeleteVM.md)
 #### [Access Compute Engine](./ComputeEngine.md)
 #### [Access Billing](./Billing.md)
+#### [Switch branches](./Branches.md)
+#### [Reinstall](./Reinstall.md)
+#### [Delete virtual machine](./DeleteVM.md)
+#### [Access from a Mobile](./Mobile.md)
+#### [Update Nightscout](./update_nightscout.md)
 #### [Create a cost table](./CostTable.md)
 <br/>  
   
