@@ -51,18 +51,18 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Update Nightscout](./update_nightscout.md)
 #### [Reinstall](./Reinstall.md)
 #### [Delete virtual machine](./DeleteVM.md)
+#### [Access Compute Engine](./ComputeEngine.md)
+#### [Access Billing](./Billing.md)
+#### [Create a cost table](./CostTable.md)
 <br/>  
   
 ---  
   
 ####          **Tips**
-#### [Compute Engine](./ComputeEngine.md)
 #### [Terminal](./Terminal.md)
 #### [Main menu](./Menu.md)
 #### [Heroku variables](./HerokuVars.md)
 #### [Release notes](./GC_ReleaseNotes.md)
-#### [Billing](./Billing.md)
-#### [Cost Table](./CostTable.md)
 #### [Security](./Security.md)
 #### [Snapshots](./Snapshots.md) (Advanced)
 <br/>  
