@@ -15,6 +15,12 @@ When you [update the platform](./NS_SyncExecutables.md), you get the latest rele
   
 ---  
   
+#### **Comparison**  
+To see the differences between the two branches, you can use the [release notes](./GC_ReleaseNotes.md)  
+<br/>  
+  
+---  
+    
 #### **Switch**  
 If you are already using Nightscout on Google Cloud and you want to switch to the other branch, all you need to do is to run the bootstrap associated with the branch followed by running "Install Nightscout phase 1" from the Google Cloud setup submenu.  
 You can then restart the server to ensure that everything is working as expected.  
