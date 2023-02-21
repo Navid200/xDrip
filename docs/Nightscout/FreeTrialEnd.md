@@ -1,4 +1,4 @@
-## Free Trial has ended  
+## Free Trial has ended - Upgrade your account
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Free Trial End  
   
 You should upgrade Google Cloud to avoid any surprises.  
