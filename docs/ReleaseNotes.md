@@ -7,6 +7,7 @@ How to [install](./Install.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.02.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.23) | Samsung workaround renamed to wake workaround |  
 | [2023.02.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.20) | ns-sdk - test receiver |  
 | [2023.02.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.15) | iob in keystore - Libre 1-minute test |  
 | [2023.02.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.11) | Sensor expiry notification - 400mg/dL max |  
