@@ -5,7 +5,7 @@ Dexcom G6 or Dexcom One recommended settings
   
 These are the recommended G6 settings.  Click/tap on the hyperlinks to see the details.  After a fresh install of xDrip, running the source wizard will result in these same settings.  If you see a discrepancy, please let me know.  
 
-* You should use an xDrip [version](./xDrip-Version.md) not older than the current stable release.  Please [update](./Updates.md) if you are not.  
+* You should use an xDrip [version](./xDrip-Version.md) not older than the current stable release.  If you are using a Dexcom One with the transmitter serial number starting with C, you should use an xDrip release of 2023.01.12 or later.  Please [update](./Updates.md) accordingly.  
 <br/>   
   
 * Android versions **10** or **newer**: Settings &#8722;> [G5/G6 Debug Settings](./images/g6-recommended-settings.png)  
