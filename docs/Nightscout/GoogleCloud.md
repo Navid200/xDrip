@@ -54,6 +54,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Delete virtual machine](./DeleteVM.md)
 #### [Access from a Mobile](./Mobile.md)
 #### [Update Nightscout](./update_nightscout.md)
+#### [Install Nightscout dev branch](./NightscoutDevBranch.md)
 #### [Create a cost table](./CostTable.md)
 <br/>  
   
