@@ -5,7 +5,7 @@ I thought this was supposed to be free.  I followed all the instructions when se
 Yet, I have been invoiced a non-zero value.  Why?  
   
 There are crawlers everywhere scanning all IP addresses looking for vulnerabilities.  
-When a crawler contacts your site, your Nightscout asks for either a read token or the API_SECRET.  That request for a token or the API-SECRET is an outgoing traffic.  
+When a crawler contacts your site, your Nightscout asks for either a read token or the API_SECRET.  That request for a token or the API_SECRET is an outgoing traffic.  
 Any such traffic to either China or Australia will result in a cost while traffic to all other geographic locations will only trigger a cost if the total traffic is greater than 1GB per month.  
 
 You can use a [cost table](./CostTable.md) to confirm that is the reason for your non-zero invoice.  If you see an unexpected cost, please [tell us](https://github.com/NightscoutFoundation/xDrip/discussions).  
