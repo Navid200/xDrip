@@ -1,8 +1,8 @@
 ## Invoice for egress to China
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >>  Invoice for traffic to China  
   
-I thought this was supposed to be free.  I followed all the instructions when setting up my site.  
-Yet, I have been invoiced a non-zero value.  Why?  
+*I thought this was supposed to be free.  I followed all the instructions when setting up my site.  
+Yet, I have been invoiced a non-zero value.  Why?*  
   
 There are crawlers everywhere scanning all IP addresses looking for vulnerabilities.  
 When a crawler contacts your site, your Nightscout asks for either a read token or the API_SECRET.  That request for a token or the API_SECRET is an outgoing traffic.  
