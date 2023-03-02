@@ -9,7 +9,7 @@ There are crawlers everywhere scanning all IP addresses looking for vulnerabilit
 When a crawler contacts your site, your Nightscout asks for either a read token or the API_SECRET.  That request for a token or the API_SECRET is an outgoing traffic.  
 Any such traffic to either China or Australia will result in a cost while traffic to all other geographic locations will only trigger a cost if the total traffic is greater than 1GB per month.  
   
-The traffic caused by crawlers is very small.  The cost reported due to this has been about $0.01-$0.02 (USD).  
+The traffic caused by crawlers is very small.  The cost reported due to this has been about $0.01-$0.02 (USD) per month.  
 
 You can use a [cost table](./CostTable.md) to confirm that is the reason for your non-zero invoice.  If you see an unexpected cost, please [tell us](https://github.com/NightscoutFoundation/xDrip/discussions).  
   
