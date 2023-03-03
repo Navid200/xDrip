@@ -3,11 +3,11 @@
   
 | Release | Notes | Status page |  
 |---------|-------| ----------- |  
-| 2023.02.20 | **<span style="color:orange">Dev release</span>** <br/>FreeDNS dialog update | |  
+| 2023.02.20 | **<span style="color:orange">Dev & Stable release</span>** <br/>FreeDNS dialog update | |  
 | 2023.02.15 | Log copy Nightscout | ![](./images/Feb152023StatusP.png) |  
 | 2023.02.11 | Detect incomplete update |  |  
 | 2023.01.30 | Development branch setup |  |  
-| 2023.01.25 | **<span style="color:orange">Stable release</span>** <br/> Minimal Ubuntu detection fix |  |  
+| 2023.01.25 | Minimal Ubuntu detection fix |  |  
 | 2023.01.21 | Minimal Ubuntu enforced |  |  
 | 2023.01.16 | Submenus | ![](./images/Jan162023StatusP.png) |  
 | 2023.01.07 | Variable server improvements |  |  
