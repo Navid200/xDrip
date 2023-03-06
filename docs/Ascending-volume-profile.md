@@ -25,7 +25,7 @@ The following table summarizes the behavior of the ascending volume profile base
   
 \* The volume reaches maximum (100%) on the next reading if the next reading does not trigger another alert or does not result in the current alert ending.  The sound and vibration end as soon as the alert is snoozed.  
   
-The "Delay Ascending Volume" setting is on the follow page.  
+The "Delay Ascending Volume" setting is on the following page.  
 Settings &#8722;> Alarms and Alerts &#8722;> Glucose Alerts Settings  
   
   
