@@ -3,6 +3,7 @@
   
 #### [Legend](../Legend.md)
 #### [Time range](../TimeButtons.md)
+#### [Glucose range](./GlucoseRange.md)
 #### [Sensor expiry](../Sensor-Expiry.md)
 #### [Connect the dots!](../Connect-the-dots.md)
 #### [Extra Status Line](../Extra-status-line.md)
