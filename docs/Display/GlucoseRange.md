@@ -22,6 +22,8 @@ Please be careful if the range expands due to very high readings.
 You can access the setting at:  
 Settings &#8722;> xDrip+ Display Settings &#8722;> Graph Settings &#8722;> Customize y axis range  
   
+![](./images/CustomizeYaxisRange.png)    
+  
 Enable the feature.  When you do, two settings, on the same page, become available allowing you to adjust Y Min and Y Max.  
 Adjusting either will take effect imidiately on screen.  
   
