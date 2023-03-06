@@ -20,6 +20,6 @@ Settings &#8722;> xDrip+ Display Settings &#8722;> Graph Settings &#8722;> Custo
   
 Enable the feature.  When you do, two settings, on the same page, become available allowing you to adjust Y Min and Y Max.  
 Adjusting either will take effect imidiately on screen.  
-If you disable the feature, the range will go back to default.  But, the settings will not be erased.  So, if you reenable, the settings you have chosen previously will take effect again.  
+If you disable the feature after, the range will go back to default, but, the settings will not be erased.  So, if you reenable, the settings you had chosen previously will take effect again.  
   
   
