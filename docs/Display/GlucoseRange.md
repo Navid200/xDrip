@@ -7,9 +7,12 @@ You can adjust the range shown on screen as long as you have no readings that go
 ---  
   
 #### **Warning**  
-If you reduce the range dramatically and get used to the way your variations look on screen, and one day you end up with an unusual high, the range shown on screen will change significantly for you.  
-This change will currently last 24 hours.  During those 24 hours, your screen will show curves with much less ups and dows dues to the significant change in range.  
+If you reduce the range dramatically and get used to the way your variations look on screen, and one day you end up with an unusual high, the range shown on screen will automatically expand significantly for you.  
+This expanded change will last 24 hours.  During those 24 hours, your screen will show curves with much less ups and dows due to the significant change in range.  
 Please be careful.  
+  
+The following image shows the exact same results at the two extremes.  
+![](./images/GlucoseRange.png)  
 <br/>  
   
 ---  
