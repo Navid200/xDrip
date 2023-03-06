@@ -15,7 +15,7 @@ Please be careful.
 ---  
   
 #### **How**  
-You can access the setting at:
+You can access the setting at:  
 Settings &#8722;> xDrip+ Display Settings &#8722;> Graph Settings &#8722;> Customize y axis range  
   
 Enable the feature.  When you do, two settings, on the same page, become available allowing you to adjust Y Min and Y Max.  
