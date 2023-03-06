@@ -7,6 +7,7 @@ How to [install](./Install.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.03.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.06) | Vertical (y) axis range |  
 | [2023.02.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26) | OOP2 on wear app |  
 | [2023.02.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.23) | Samsung workaround renamed to wake workaround |  
 | [2023.02.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.20) | ns-sdk - test receiver |  
