@@ -11,6 +11,7 @@ You can access the nightly builds (least tested but more recent) from "releases"
   
 Download the file with .apk at the end.  If there are multiple files with .apk at the end, download the one without "variant" included in the name.  
   
-#### [Updates](./Updates)
-#### [Release Notes](./ReleaseNotes)
-#### [xDrip is not in Google Play Store ...](./App-store)
+#### [Install](./Install.md)
+#### [Updates](./Updates.md)
+#### [Release Notes](./ReleaseNotes.md)
+#### [xDrip is not in Google Play Store ...](./App-store.md)
