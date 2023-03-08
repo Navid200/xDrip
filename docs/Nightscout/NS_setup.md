@@ -1,5 +1,5 @@
 ## Setting up Nightscout on Google Cloud
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Setting up Nightscout  
+[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >> Setting up Nightscout  
   
 We will now log into our new Nightscout, installed on the Google Cloud virtual machine, and set it up.  Everything we do in this section is done on a regular web browser on our computer or mobile, and not in the virtual machine.   
   
@@ -23,7 +23,7 @@ What follows explains how you can set up xDrip, only if you use xDrip as your CG
   
 ---  
   
-#### **Setting up xDrip to upload to your Nightscout**  
+#### **Only if xDrip is your CGM**  
 This is what you need to do if you use xDrip as your CGM and want to make it your uploader.  If you use an app other than xDrip as your CGM, you need to find out how it needs to be set up.  The following instructions are only for xDrip.  
   
 **QR code**  
