@@ -24,8 +24,7 @@ What follows explains how you can set up xDrip, only if you use xDrip as your CG
 ---  
   
 #### **Setting up xDrip to upload to your Nightscout**  
-  
-This is what you need to do if you use xDrip and want to make it your uploader.  If your uploader is going to be an app other than xDrip, you need to find out how it needs to be set up.  The following instructions are only for xDrip.  
+This is what you need to do if you use xDrip as your CGM and want to make it your uploader.  If you use an app other than xDrip as your CGM, you need to find out how it needs to be set up.  The following instructions are only for xDrip.  
   
 **QR code**  
 You can scan a QR code to automatically set up xDrip to upload to Nightscout.  
