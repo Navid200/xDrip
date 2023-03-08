@@ -36,6 +36,7 @@ To do that, go to the xDrip setup submenu.  Select "QR code to make xDrip master
 <br/>  
   
 However, please note that doing this will erase any existing URLs from xDrip.  Therefore, if you intend to upload to multiple Nightscout sites, and you have already set up one of them, please use the manual method explained below.  
+<br/>  
   
 **Manual**  
 Go to xDrip Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API).  
