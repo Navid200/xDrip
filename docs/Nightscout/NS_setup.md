@@ -25,6 +25,8 @@ A continuous glucose monitor (CGM) may allow you to upload to Nightscout.  If yo
 xDrip can easily upload its readings to Nightscout.  
 If you use xDrip as your CGM, independently or in conjunction with another app, and want to make it your uploader, please use the following instructions.  
   
+If you need help using xDrip as a CGM, please post in [xDrip discussions](https://github.com/NightscoutFoundation/xDrip/discussions) and ask for help.  
+  
 **QR code**  
 You can scan a QR code to automatically set up xDrip to upload to Nightscout.  
 To do that, go to the xDrip setup submenu.  Select "QR code to make xDrip master" on the submenu.  Then, scan the QR code that appears with xDrip autoconfigure (in xDrip, under Settings &#8722;> Auto configure).  
