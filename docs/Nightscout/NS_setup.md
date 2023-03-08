@@ -17,14 +17,13 @@ On first time, Nightscout will ask you to set up a profile for sensitivity etc. 
   
 #### **Uploading to Nightscout**  
 A continuous glucose monitor (CGM) may allow you to upload to Nightscout.  If you don't know how to set up your CGM to do that, please ask in a Nightscout support group.  This is an example: [https://www.facebook.com/groups/cgminthecloud](https://www.facebook.com/groups/cgminthecloud).  
-  
-What follows explains how you can set up xDrip, only if you use xDrip as your CGM, to upload to Nightscout on Google Cloud.  
 <br/>  
   
 ---  
   
 #### **Only if xDrip is your CGM**  
-This is what you need to do if you use xDrip as your CGM and want to make it your uploader.  If you use an app other than xDrip as your CGM, you need to find out how it needs to be set up.  These instructions are only for xDrip.  
+xDrip can easily upload its readings to Nightscout.  
+If you use xDrip as your CGM, independently or in conjunction with another app, and want to make it your uploader, please use the following instructions.  
   
 **QR code**  
 You can scan a QR code to automatically set up xDrip to upload to Nightscout.  
