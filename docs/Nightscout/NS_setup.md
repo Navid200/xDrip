@@ -20,7 +20,7 @@ This is what you need to do if you use xDrip and want to make it your uploader. 
   
 **QR code**  
 You can scan a QR code to automatically set up xDrip to upload to Nightscout.  
-To do that, go to the xDrip setup submenu.  Select "QR code to make xDrip master" on the submenu.  Then, scan the QR code that appears with xDrip autoconfigure.  
+To do that, go to the xDrip setup submenu.  Select "QR code to make xDrip master" on the submenu.  Then, scan the QR code that appears with xDrip autoconfigure (in xDrip, under Settings &#8722;> Auto configure).  
 <video width="400" controlsList="nodownload" src="./video/xDrip_Setup.mp4" controls>  
 </video>  
 <br/>    
