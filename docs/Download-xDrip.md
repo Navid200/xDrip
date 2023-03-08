@@ -9,7 +9,7 @@ On a mobile, you will need to scroll almost all the way down to reach Releases a
 
 You can access the nightly builds (least tested but more recent) from "releases" on the same page.  
   
-Download the file with .apk at the end.  If there are multiple files with .apk at the end, download the one without "variant" included in the name.  
+Download the file with .apk at the end.  If there are multiple files with .apk at the end, download the one without "[variant](./Variants.md)" included in the name.  
   
 #### [Install](./Install.md)
 #### [Updates](./Updates.md)
