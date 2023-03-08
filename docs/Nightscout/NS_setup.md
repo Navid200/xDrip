@@ -20,7 +20,6 @@ A continuous glucose monitor (CGM) may allow you to upload to Nightscout.  If yo
   
 What follows explains how you can set up xDrip, only if you use xDrip as your CGM, to upload to Nightscout on Google Cloud.  
 <br/>  
-<br/>  
   
 ---  
   
@@ -31,8 +30,7 @@ This is what you need to do if you use xDrip as your CGM and want to make it you
 You can scan a QR code to automatically set up xDrip to upload to Nightscout.  
 To do that, go to the xDrip setup submenu.  Select "QR code to make xDrip master" on the submenu.  Then, scan the QR code that appears with xDrip autoconfigure (in xDrip, under Settings &#8722;> Auto configure).  
 <video width="400" controlsList="nodownload" src="./video/xDrip_Setup.mp4" controls>  
-</video>  
-<br/>    
+</video>   
 <br/>  
   
 However, please note that doing this will erase any existing URLs from xDrip.  Therefore, if you intend to upload to multiple Nightscout sites, and you have already set up one of them, please use the manual method explained below.  
