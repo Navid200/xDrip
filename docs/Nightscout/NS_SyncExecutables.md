@@ -3,7 +3,7 @@
   
 This is how you can update the menus, commands and packages on your virtual machine.  This is not about updating Nightscout.  If you want to update Nightscout, please have a look at [this](./update_nightscout.md).  
   
-Are you still using noip.com?  If yes, you will need to go through [this](./FreeDNS.md) to create a FreeDNS account and a new hostname.  You will need those when you run "Install Nightscout phase 2".  
+Are you still using noip.com?  If yes, you will need to go through [this](./FreeDNS.md) to create a FreeDNS account and a new hostname.  You will need those when you run "Install Nightscout phase 2" later.  
   
 Open a [terminal](./Terminal.md).  A [menu](./Menu.md) should come up automatically.  If not, you have a very old version of our platform.  To update, please skip to the section titled "Bootstrap" below.  
   
