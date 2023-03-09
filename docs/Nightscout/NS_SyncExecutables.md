@@ -3,9 +3,11 @@
   
 This is how you can update the menus, commands and packages on your virtual machine.  This is not about updating Nightscout.  If you want to update Nightscout, please have a look at [this](./update_nightscout.md).  
   
+Are you still using noip.com?  If yes, you will need to go through [this](./FreeDNS.md) to create a FreeDNS account and a new hostname.  
+  
 Open a [terminal](./Terminal.md).  A [menu](./Menu.md) should come up automatically.  If not, you have a very old version of our platform.  To update, please skip to the section titled "Bootstrap" below.  
   
-From the Google Cloud setup submenu, select "Update platform".  After completion and closing the terminal and opening a new one, if a menu does not automatically open up, please skip to the section titled "Bootstrap" below.  
+From the menu, or Google Cloud setup submenu, select "Update scripts" or "Update platform".  After completion and closing the terminal and opening a new one, if a menu does not automatically open up, please skip to the section titled "Bootstrap" below.  
   
 If the menu opens, view the Status page by selecting "Status".  If it looks like [this](./images/Status.png), the platform has updated to the latest.  If not, please update platform from the Google Cloud setup submenu again.  
   
@@ -40,5 +42,11 @@ Please proceed to the next section.
 #### **Missing packages**
 If you see "Missing packages" on the status page as shown below, please run "Update platform" from the Google Cloud setup submenu again.  
 ![](./images/MissingPackages.png)  
+<br/>  
   
+---  
+  
+#### **No Hostname**    
+If after you run bootstrap and "Install Nightscout phase 1", you see "No hostname" on the status page as shown below, please run "Install Nightscout phase 2" from the Google Cloud setup submenu.  
+![](./images/NoHostname.png)  
   
