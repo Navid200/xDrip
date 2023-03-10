@@ -38,9 +38,7 @@ curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.s
 You will see the following note:  
 ![](./images/BootstrapConfirm.png)  
 Press enter to proceed.  After bootstrap is complete, you will go to the status page.  
-  
-**You must now run "Install Nightscout phase 1" from the Google Cloud setup submenu.**  
-<br/>  
+You must now run "Install Nightscout phase 1" from the Google Cloud setup submenu.    
   
 Please proceed to the following sections.  
 <br/>  
@@ -54,10 +52,18 @@ If you see "Missing packages" on the status page as shown below, please run "Upd
   
 ---  
   
-#### **No Hostname**    
+#### **No Hostname**
 If you are still using noip.com, after you run bootstrap and run "Install Nightscout phase 1", you will see "No hostname" on the status page as shown below.  
 ![](./images/NoHostname.png)  
   
 To switch to FreeDNS, please follow the instructions [here](./FreeDNS.md) to create a FreeDNS account and create a new hostname.  
 Then, please run "Install Nightscout phase 2" from the Google Cloud setup submenu.  
+<br/>  
+  
+---  
+  
+#### **Missing node_modules**
+If you see "Missing node_modules" on the status page as shown below, please run "Install Nightscout phase 1" from the Google Cloud setup submenu.  
+![](./images/MissNodeModules.png)  
+  
   
