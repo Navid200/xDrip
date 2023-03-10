@@ -20,7 +20,7 @@ If the status page still looks different, for example, if the username, reposito
 #### **Bootstrap**  
 Open a [terminal](./Terminal.md).  If a menu opens, select "Bootstrap" from the Google Cloud submenu.  
   
-If no menu opens after opening a terminal, Copy the entire highlighted text below and paste into the terminal.  Press enter.  
+If no menu opens after opening a terminal, copy the entire highlighted text below and paste into the terminal.  Press enter.  
   
 ```  
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash
