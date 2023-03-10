@@ -11,7 +11,7 @@ From the menu, or Google Cloud setup submenu, select "Update scripts" or "Update
   
 If the menu opens, view the Status page by selecting "Status".  If it looks like [this](./images/Status.png), the platform has updated to the latest.  If not, please update platform from the Google Cloud setup submenu again.  
   
-If the status page still looks different, for example, if the username, repository name and branch name are blank, as shown below, please proceed to Bootstrap explained below.  
+If the status page still looks different, for example, if the username, repository name and branch name are blank, as shown below, please proceed to the section titled "Bootstrap" below.  
 ![](./images/NoRepoStat.png)  
 <br/>  
   
