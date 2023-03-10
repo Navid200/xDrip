@@ -12,6 +12,9 @@ Go to [Compute Engine](./ComputeEngine.md).
 Under the heading "Name", click on the instance name.  
 ![](./images/InstanceName.png)  
   
+Click on "Edit" at the top to edit the instance.  
+![](./images/EditInstance.png)  
+  
 If you cannot connect to the virtual machine using SSH any longer, this page explains how you can recover the MongoDB from it.  
 This is a last resort.  If you can still connect to the machine, it is much easier to either create a [backup](./DatabaseBackup.md) or [copy](./NS_Transfer.md).  
   
