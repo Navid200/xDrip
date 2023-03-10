@@ -12,8 +12,11 @@ Go to [Compute Engine](./ComputeEngine.md).
 Under the heading "Name", click on the instance name.  
 ![](./images/InstanceName.png)  
   
-Click on "Edit" at the top to edit the instance.  
-![](./images/EditInstance.png)  
+Scroll down to "Storage".  After confirming that the disk apce is 10GB, click on the disk name.  
+![](./images/EditInstanceDisk.png)  
+  
+Now, you need to expand your browser screen horizontally until you can see "Edit" at the top.  
+You can see the disk size  
   
 If you cannot connect to the virtual machine using SSH any longer, this page explains how you can recover the MongoDB from it.  
 This is a last resort.  If you can still connect to the machine, it is much easier to either create a [backup](./DatabaseBackup.md) or [copy](./NS_Transfer.md).  
