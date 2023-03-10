@@ -18,9 +18,11 @@ Scroll down to "Storage".  After confirming that the disk apce is 10GB, click on
 Now, you need to expand your browser screen horizontally until you can see "Edit" at the top.  Click on "Edit".  
 ![](./images/EditDisk.png)  
   
-Edit the disk size.  
+Edit disk size.  
 ![](./images/Disk10G.png)  
   
+Change it to 30GB and save.  
+![](./images/UpdateDiskSize.png)  
   
 
 If you cannot connect to the virtual machine using SSH any longer, this page explains how you can recover the MongoDB from it.  
