@@ -23,7 +23,14 @@ Edit disk size.
   
 Change it to 30GB and save.  
 ![](./images/UpdateDiskSize.png)  
+<br/>  
   
+---  
+  
+#### **Restart the server**
+You now need to [restart the server](./Restart.md) so that the filesystem uses the added disk apce.  
+
+
 
 If you cannot connect to the virtual machine using SSH any longer, this page explains how you can recover the MongoDB from it.  
 This is a last resort.  If you can still connect to the machine, it is much easier to either create a [backup](./DatabaseBackup.md) or [copy](./NS_Transfer.md).  
