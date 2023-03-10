@@ -34,12 +34,11 @@ If no menu opens after opening a terminal, copy the entire highlighted text belo
 ```  
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash
 ```  
-<br/>  
+  
 You will see the following note:  
 ![](./images/BootstrapConfirm.png)  
 Press enter to proceed.  After bootstrap is complete, you will go to the status page.  
-You must now run "Install Nightscout phase 1" from the Google Cloud setup submenu.    
-  
+You must now run "Install Nightscout phase 1" from the Google Cloud setup submenu.  
 Please proceed to the following sections.  
 <br/>  
   
