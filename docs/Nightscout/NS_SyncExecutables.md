@@ -6,6 +6,7 @@ If you have not completed the [installation](./GoogleCloud.md), please complete 
   
 Open a [terminal](./Terminal.md).  A [menu](./Menu.md) should come up automatically.  Select "Update platform" from the Google Cloud setup submenu.  You can then check the status page to confirm that your setup has been [updated](./GC_ReleaseNotes.md).  
 <br/>  
+<br/>  
   
 ---  
   
