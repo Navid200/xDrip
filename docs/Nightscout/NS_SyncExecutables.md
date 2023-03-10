@@ -51,18 +51,17 @@ If you see "Missing packages" on the status page as shown below, please run "Upd
   
 ---  
   
+#### **Missing node_modules**
+If you see "Missing node_modules" on the status page as shown below, please run "Install Nightscout phase 1" from the Google Cloud setup submenu.  
+![](./images/MissNodeModules.png)  
+<br/>  
+  
+---  
+  
 #### **No Hostname**
 If you are still using noip.com, after you run bootstrap and run "Install Nightscout phase 1", you will see "No hostname" on the status page as shown below.  
 ![](./images/NoHostname.png)  
   
 To switch to FreeDNS, please follow the instructions [here](./FreeDNS.md) to create a FreeDNS account and create a new hostname.  
-Then, please run "Install Nightscout phase 2" from the Google Cloud setup submenu.  
-<br/>  
-  
----  
-  
-#### **Missing node_modules**
-If you see "Missing node_modules" on the status page as shown below, please run "Install Nightscout phase 1" from the Google Cloud setup submenu.  
-![](./images/MissNodeModules.png)  
-  
+Then, please run "Install Nightscout phase 2" from the Google Cloud setup submenu.    
   
