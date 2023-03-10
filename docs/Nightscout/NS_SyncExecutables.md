@@ -11,7 +11,7 @@ Open a [terminal](./Terminal.md).  A [menu](./Menu.md) should come up automatica
 #### **If you created your setup a long time ago**  
 Our platform has evolved significantly since it was first released.  You don't need to start from scratch.  But, you may need to go through a few steps in order to update depending on how long ago you created your setup.  After you update, there will be no difference between your setup and one that has just been created.  
 
-Are you still using noip.com?  If yes, you will be asked, below, to create a FreeDNS account and a new hostname to use instead to switch from noip.com to FreeDNS.  
+If you are still using noip.com, you will be asked, below, to create a FreeDNS account and a new hostname to use to switch from noip.com to FreeDNS.  
   
 If a menu does not open when you open a terminal, you have a very old version of our platform.  To update, please skip to the section titled "Bootstrap" below.  
   
