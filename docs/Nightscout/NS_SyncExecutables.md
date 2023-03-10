@@ -13,7 +13,7 @@ Our platform has evolved significantly since it was first released.  You don't n
 
 If you are still using noip.com, you will be asked, below, to create a FreeDNS account and a new hostname in order to switch from noip.com to FreeDNS.  
   
-If a menu does not open when you open a terminal, you have a very old version of our platform.  To update, please skip to the section titled "Bootstrap" below.  
+If a menu does not open when you open a terminal, please skip to the section titled "Bootstrap" below.  
   
 If a menu opens when you open a terminal, from the menu, or Google Cloud setup submenu, select "Update scripts" or "Update platform".  After completion and closing the terminal and opening a new one, if a menu does not automatically open up, please skip to the section titled "Bootstrap" below.  
   
