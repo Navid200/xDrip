@@ -1,4 +1,4 @@
-## 30GB Disk
+## Google Cloud 30GB Disk
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >> Restore a system with full disk  
   
 If you created your setup a long time ago (August 2022) with a 10GB disk and never updated to increase the disk space to 30GB, your system will sooner or later stop to work.  
@@ -37,6 +37,10 @@ You now need to [restart the server](./Restart.md) so that the filesystem uses t
 If you cannot connect to the virtual machine using SSH because the disk is full, even after increasing the disk size to 30GB, you may still not be able to connect.  
 This is because Ubuntu needs to adjust the filesystem to use the added disk space.  But, if Ubuntu cannot start, it will not be able to do that.  
   
-We are going to use another instance to remedy this to fix the problem.  
+We are going to create another (recovery) instance to use temporarily to fix this problem.  
+There may be a cost involved.  I will use what's needed to minimize cost.  Hopefully, it will be free.  
+  
+1- Create a new instance.  
+Follow the same [guidelines](./VirtualMachine.md) for creating the main machine except there is no need to change the disk space to 30GB.  You can leave it at 10GB for the recovery machine.  
   
   
