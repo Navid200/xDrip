@@ -36,6 +36,7 @@ You now need to [restart the server](./Restart.md) so that the filesystem uses t
 #### **Full disk**
 If you cannot connect to the virtual machine using SSH because the disk is full, even after increasing the disk size to 30GB, you may still not be able to connect.  
 This is because Ubuntu needs to adjust the filesystem to use the added disk space.  But, if Ubuntu cannot start, it will not be able to do that.  
+  
 We are going to use another instance to remedy this to fix the problem.  
   
   
