@@ -1,4 +1,4 @@
-## Recover MongoDB
+## 30GB Disk
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >> Restore a system with full disk  
   
 If you created your setup a long time ago (August 2022) with a 10GB disk and never updated to increase the disk space to 30GB, your system will sooner or later stop to work.  
@@ -28,11 +28,14 @@ Change it to 30GB and save.
 ---  
   
 #### **Restart the server**
-You now need to [restart the server](./Restart.md) so that the filesystem uses the added disk apce.  
-
-
-
-If you cannot connect to the virtual machine using SSH any longer, this page explains how you can recover the MongoDB from it.  
-This is a last resort.  If you can still connect to the machine, it is much easier to either create a [backup](./DatabaseBackup.md) or [copy](./NS_Transfer.md).  
+You now need to [restart the server](./Restart.md) so that the filesystem uses the added disk space.  
+<br/>  
+  
+---  
+  
+#### **Full disk**
+If you cannot connect to the virtual machine using SSH because the disk is full, even after increasing the disk size to 30GB, you may still not be able to connect.  
+This is because Ubuntu needs to adjust the filesystem to use the added disk space.  But, if Ubuntu cannot start, it will not be able to do that.  
+We are going to use another instance to remedy this to fix the problem.  
   
   
