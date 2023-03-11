@@ -11,7 +11,6 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 <br/>  
   
 #### [Status](./StatusG5G6.md)
-#### [Proper Connectivity](./Proper-connectivity.md)
 #### [Session in progress](./Session-in-progress.md)
 #### [Can xDrip coexist with t:slim or receiver?](./Receiver-or-tslim-and-xDrip.md)
 #### [Both xDrip and Dexcom app](./xDrip-and-Dexcom-app.md)
@@ -20,21 +19,27 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 #### [What not to do!](./What-not-to-do.md)
 <br/>  
   
+---  
+  
+#### **What is ...?**  
+#### [Proper Connectivity](./Proper-connectivity.md)
 #### [Native algorithm - mode](./Native-Algorithm.md)
 #### [Preemptive Restart](./Preemptive-Restart.md)
 #### [Hard reset](./Hard-Reset.md)
 #### [Transmitter Queue](./Transmitter-Queue.md)
-#### [Restart G5](./Restart-G5-sensor.md)
 #### [Transmitter Lifetime](./Transmitter-lifetime.md)
-#### [G6, or Dex1, Slot Number](./G6_slot.md)
 <br/>  
   
+---  
+  
+#### **How to**
 #### [Calibrate G6, or Dex1](./Calibrate-G6)
 #### [Please report unknown firmware!](./Report-firmware.md)
 #### [Restart G6, or Dex1](./Restart-G6-sensor.md)
 #### [Remove a G6, or Dex1, transmitter from sensor](./Remove-transmitter.md)
 #### [Calibrate G6, or Dex1, after a restart](./Calibrate-after-G6Restart.md)
-#### [Petroleum jelly on the transmitter contacts](./Petroleum-jelly-in-Dexcom-G6-Sensor.md)
+#### [Restart G5](./Restart-G5-sensor.md)
+#### [Change G6, or Dex1, Slot Number (advanced)](./G6_slot.md)
 <br/>  
   
 ---  
@@ -47,3 +52,8 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 #### [G6 Transmitter Warranty](./G6_Warranty.md)
 #### [How strong is the transmitter signal?](./Bluetooth-Scanner.md)
 #### [How good is the battery?](./Battery-condition.md)
+<br/>  
+  
+---  
+  
+#### [Petroleum jelly on the transmitter contacts](./Petroleum-jelly-in-Dexcom-G6-Sensor.md)
