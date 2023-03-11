@@ -97,6 +97,6 @@ sudo resize2fs /dev/sdb1
 sudo lsblk  
 ```  
 ![](./images/lsblk2.png)  
-You can see that partition sdba has grown to occupy the added disk space.  
+You can see that partition sdb1 has grown to occupy the added disk space.  
   
   
