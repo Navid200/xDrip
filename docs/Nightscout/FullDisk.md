@@ -81,7 +81,7 @@ Even though sdb shows 30GB, sdb1, which is the partition containing Ubuntu and M
 sudo growpart /dev/sdb 1  
 ```  
 
-- 13- Type and enter the following in the terminal.  In response to the prompt for fix, press y to approve.  
+- 13- Type and enter the following in the terminal.  In response to the prompt(s) for fix, press y to approve.  
 ```  
 sudo e2fsck -f /dev/sdb1  
 ```  
@@ -97,7 +97,7 @@ sudo resize2fs /dev/sdb1
 sudo lsblk  
 ```  
 ![](./images/lsblk2.png)  
-You can see that partition sdb1 has grown to occupy the added disk space.  
+You can see that partition sdb1 has grown to occupy the added disk space.  You can now exit (close) the terminal.  
 
 - 16- Go back to the VM instances page.  Click on the recovery instance name.  Click on Edit.  Scroll down to Additional disks.  Click on x to remove disk.  Click on save.  
 ![](./images/DetachAdditionalDisk.png)  
@@ -109,7 +109,7 @@ You can see that partition sdb1 has grown to occupy the added disk space.
 ![](./images/SelectBootDisk.png)  
 That takes you to the instance edit page.  Click on Save to finalize the instance edit.  
 
-- 19- Go back to the VM instances page.  Start the Nightscout instance from the 3-dot menu on the right side of the Nightscout instance line.  
+- 19- Go back to the VM instances page.  You can stop the recovery instance.  Start the Nightscout instance from the 3-dot menu on the right side of the Nightscout instance line.  
 
 - 20- Click on SSH on the Nightscout instance line.  It should connect and open a terminal.  Don't do anything other than [restarting](./Restart.md) the server from the menu.  
 
