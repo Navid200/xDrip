@@ -1,7 +1,8 @@
 # xDrip and Dexcom  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> xDrip & Dexcom  
   
-If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page contains information that may help you.    
+If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page contains information that may help you.  
+<br/>  
   
 ---  
   
