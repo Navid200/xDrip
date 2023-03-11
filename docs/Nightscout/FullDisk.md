@@ -55,4 +55,7 @@ Follow the same [guidelines](./VirtualMachine.md) for creating the main machine 
 
 - 6- Scroll down to "Storage".  Click on "Detach boot disk".  Click on "Save".  
 ![](./images/DetachBootDisk.png)  
+
+- 7- Go back to VM instances.  
+![](./images/VM_Instances.png)  
   
