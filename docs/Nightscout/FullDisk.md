@@ -87,4 +87,9 @@ sudo e2fsck -f /dev/sdb1
 ```  
 ![](./images/e2fsk_Fix.png)  
 
+- 14- Type and enter the following in the terminal.  
+```  
+sudo resize2fs /dev/sdb1  
+````  
+  
   
