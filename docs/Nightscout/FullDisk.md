@@ -101,5 +101,8 @@ You can see that partition sdb1 has grown to occupy the added disk space.
 
 - 16- Go back to the VM instances page.  Click on the recovery instance name.  Click on Edit.  Scroll down to Additional disks.  Click on x to remove disk.  Click on save.  
 ![](./images/DetachAdditionalDisk.png)  
+
+- 17- Go back to the VM instances page.  Click on the stopped Nightscout instance name.  Click on Edit.  Scroll down to Boot disk.  Click on Configure boot disk.  
+![](./images/ConfigBootDisk.png)  
   
   
