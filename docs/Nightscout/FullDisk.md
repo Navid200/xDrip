@@ -104,5 +104,8 @@ You can see that partition sdb1 has grown to occupy the added disk space.
 
 - 17- Go back to the VM instances page.  Click on the stopped Nightscout instance name.  Click on Edit.  Scroll down to Boot disk.  Click on Configure boot disk.  
 ![](./images/ConfigBootDisk.png)  
+
+- 18- Select "Existing disks".  From the pull-down menu, select the repaired disk you detached from the recovery instance.  Clcik on "Select".  
+![](./images/SelectBootDisk.png)  
   
   
