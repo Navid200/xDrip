@@ -56,6 +56,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Update Nightscout](./update_nightscout.md)
 #### [Install Nightscout dev branch](./NightscoutDevBranch.md)
 #### [Create a cost table](./CostTable.md)
+#### [Increase disk size to 30GB](./FullDisk.md)
 <br/>  
   
 ---  
@@ -88,4 +89,5 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [502 Bad Gateway](./502BadGateway.md)
 #### [Free Trial has ended!](./FreeTrialEnd.md)
 #### [Malfunctioning applications](./Auth_Default_Roles.md)
-#### [Development branch of Nightscout fails](./NightscoutDevBranch.md)  
+#### [Development branch of Nightscout fails](./NightscoutDevBranch.md)
+#### [Cannot connect - full disk](./FullDisk.md)
