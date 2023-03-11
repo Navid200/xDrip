@@ -44,7 +44,7 @@ There may be a cost involved.  I will use what's needed to minimize cost.  Hopef
 * 1- Create a new recovery instance.  
 Follow the same [guidelines](./VirtualMachine.md) for creating the main machine except there is no need to change the disk space to 30GB.  You can leave it at 10GB for the recovery machine.  
     * Use SSH to connect to the new machine.  This is very important.  Please don't skip this step.  
-  
+    
 * 2- Detach Nightscout disk 
     * Stop the Nightscout instance using the 3-dot menu on the right side of the instance line on the Compute Engine page.  This may take up to 3 minutes to complete.  
 
@@ -57,7 +57,7 @@ Follow the same [guidelines](./VirtualMachine.md) for creating the main machine 
     * Scroll down to "Storage".  Click on "Detach boot disk".  Click on "Save".  
 ![](./images/DetachBootDisk.png)  
 
-- 3- Attach Nightscout disk to the recovery instance.  
+* 3- Attach Nightscout disk to the recovery instance.  
     * Go back to VM instances.  
 ![](./images/VM_Instances.png)  
 
@@ -103,21 +103,23 @@ sudo lsblk
 ![](./images/lsblk2.png)  
 You can see that partition sdb1 has grown to occupy the added disk space.  You can now exit (close) the terminal.  
 
-- 16- Go back to the VM instances page.  Click on the recovery instance name.  Click on Edit.  Scroll down to Additional disks.  Click on x to remove disk.  Click on save.  
+* 5- Transfer Nightscout disk back to Nightscout instance.
+    * Go back to the VM instances page.  Click on the recovery instance name.  Click on Edit.  Scroll down to Additional disks.  Click on x to remove disk.  Click on save.  
 ![](./images/DetachAdditionalDisk.png)  
 
-- 17- Go back to the VM instances page.  Click on the stopped Nightscout instance name.  Click on Edit.  Scroll down to Boot disk.  Click on Configure boot disk.  
+    * Go back to the VM instances page.  Click on the stopped Nightscout instance name.  Click on Edit.  Scroll down to Boot disk.  Click on Configure boot disk.  
 ![](./images/ConfigBootDisk.png)  
 
-- 18- Select "Existing disks".  From the pull-down menu, select the repaired disk you detached from the recovery instance.  Click on "Select".  
+    * Select "Existing disks".  From the pull-down menu, select the repaired disk you detached from the recovery instance.  Click on "Select".  
 ![](./images/SelectBootDisk.png)  
 That takes you to the instance edit page.  Click on Save to finalize the instance edit.  
 
-- 19- Go back to the VM instances page.  You can stop the recovery instance.  Start the Nightscout instance from the 3-dot menu on the right side of the Nightscout instance line.  
+* 6- Finalization  
+    * Go back to the VM instances page.  You can stop the recovery instance now.  Start the Nightscout instance from the 3-dot menu on the right side of the Nightscout instance line.  
 
-- 20- Click on SSH on the Nightscout instance line.  It should connect and open a terminal.  Don't do anything other than [restarting](./Restart.md) the server from the menu.  
+    * Click on SSH on the Nightscout instance line.  It should connect and open a terminal.  Don't do anything other than [restarting](./Restart.md) the server from the menu.  
 
-- 21- After the restart, Nightscout will be up and running again.  Follow these [instructions](./NS_SyncExecutables.md) to update if needed.  
+    * After the restart, Nightscout will be up and running again.  Follow these [instructions](./NS_SyncExecutables.md) to update if needed.  
 
-- 22- You can now delete (or stop) the recovery instance.  
+    * You can delete the recovery instance if everything is working.  
   
