@@ -59,6 +59,6 @@ Follow the same [guidelines](./VirtualMachine.md) for creating the main machine 
 - 7- Go back to VM instances.  
 ![](./images/VM_Instances.png)  
 
-- 8- Click on the recovery instance name.  
+- 8- Click on the recovery instance name.  Click on Edit at the top.  
 ![](./images/EditRecoveryInstance.png)  
   
