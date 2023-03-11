@@ -40,7 +40,7 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 ---  
   
 #### **Troubleshooting**
-#### [Troubleshooting](./Connectivity-troubleshoot.md)
+#### [Connectivity Troubleshooting](./Connectivity-troubleshoot.md)
 #### [Intermittent Connectivity](./Intermittent.md)
 #### [Clear the queue](./Clear-queue.md)
 #### [How to trigger a pair request](./MissedPairRequest.md)
