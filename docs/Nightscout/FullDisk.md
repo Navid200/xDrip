@@ -25,8 +25,6 @@ Change it to 30GB and save.
 ![](./images/UpdateDiskSize.png)  
 <br/>  
   
----  
-  
 You now need to [restart the server](./Restart.md) so that the file system uses the added disk space.  This is a critical step that should not be forgotten.  
 <br/>  
 <br/>  
