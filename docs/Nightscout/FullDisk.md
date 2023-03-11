@@ -56,6 +56,7 @@ There may be a cost involved.  I will use what's needed to minimize cost.  Hopef
 * 2- Recovery instance  
     * Create a new recovery instance.  
 Follow the same [guidelines](./VirtualMachine.md) for creating the main machine except there is no need to change the disk space to 30GB.  You can leave it at 10GB for the recovery machine.  
+
     * Use SSH to connect to the new machine.  This is very important.  Please don't skip this step.  
 
     * Go back to VM instances.  
