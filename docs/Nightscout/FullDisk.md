@@ -41,11 +41,7 @@ This is because Ubuntu needs to adjust the file system to use the added disk spa
 We are going to create another (recovery) instance to use temporarily to fix this problem.  
 There may be a cost involved.  I will use what's needed to minimize cost.  Hopefully, it will be free.  
   
-* 1- Create a new recovery instance.  
-Follow the same [guidelines](./VirtualMachine.md) for creating the main machine except there is no need to change the disk space to 30GB.  You can leave it at 10GB for the recovery machine.  
-    * Use SSH to connect to the new machine.  This is very important.  Please don't skip this step.  
-
-* 2- Detach Nightscout disk 
+* 1- Detach Nightscout disk 
     * Stop the Nightscout instance using the 3-dot menu on the right side of the instance line on the Compute Engine page.  This may take up to 3 minutes to complete.  
 
     * Click on the stopped Nighscout instance name.  
@@ -56,6 +52,10 @@ Follow the same [guidelines](./VirtualMachine.md) for creating the main machine 
 
     * Scroll down to "Storage".  Click on "Detach boot disk".  Click on "Save".  
 ![](./images/DetachBootDisk.png)  
+
+* 2- Create a new recovery instance.  
+Follow the same [guidelines](./VirtualMachine.md) for creating the main machine except there is no need to change the disk space to 30GB.  You can leave it at 10GB for the recovery machine.  
+    * Use SSH to connect to the new machine.  This is very important.  Please don't skip this step. 
 
 * 3- Attach Nightscout disk to the recovery instance.  
     * Go back to VM instances.  
@@ -103,7 +103,7 @@ sudo lsblk
 ![](./images/lsblk2.png)  
 You can see that partition sdb1 has grown to occupy the added disk space.  You can now exit (close) the terminal.  
 
-* 5- Transfer Nightscout disk back to Nightscout instance.
+* 5- Transfer the Nightscout disk back to the Nightscout instance.
     * Go back to the VM instances page.  Click on the recovery instance name.  Click on Edit.  Scroll down to Additional disks.  Click on x to remove disk.  Click on save.  
 ![](./images/DetachAdditionalDisk.png)  
 
