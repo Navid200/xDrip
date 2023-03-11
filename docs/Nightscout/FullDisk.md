@@ -118,7 +118,7 @@ You can see that partition sdb1 has grown to occupy the added disk space.  You c
 ![](./images/SelectBootDisk.png)  
 That takes you to the instance edit page.  Click on Save to finalize the instance edit.  
 
-* 5- Finalization  
+* 5- Resolution  
     * Go back to the VM instances page.  You can stop the recovery instance now.  Start the Nightscout instance from the 3-dot menu on the right side of the Nightscout instance line.  
 
     * Click on SSH on the Nightscout instance line.  It should connect and open a terminal.  Don't do anything other than [restarting](./Restart.md) the server from the menu.  
