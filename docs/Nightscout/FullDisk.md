@@ -67,4 +67,10 @@ Follow the same [guidelines](./VirtualMachine.md) for creating the main machine 
 
 - 10- From the pull-down menu, select the disk of your Nightscout instance.  Click on save.  That will save the disk setting of the instance.  But, you are still on the instance edit page.  Click on save again to finalize editing the instance.  
 ![](./images/SelectExistingDisk.png)  
+
+- 11- Go back to the VM instances page again.  Click on SSH on the temporary (recovery) instance line.  Wait for a terminal to pop up and the prompt to appear.  Type and enter the following in the terminal.  
+```  
+sudo lsblk  
+```  
+![](./images/lsblk1.png)  
   
