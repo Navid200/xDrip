@@ -7,6 +7,12 @@ The best solution is to update before the disk is full.
   
 ---  
   
+#### **Snapshot**
+Create a [snapshot](./Snapshots.md) of your Nightscout insdtance just in case something goes wrong.  
+<br/>  
+  
+---    
+  
 #### **Increase Nightscout disk size from 10GB to 30GB**  
 Go to [Compute Engine](./ComputeEngine.md).  
 Under the heading "Name", click on the Nightscout instance name.  
