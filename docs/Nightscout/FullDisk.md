@@ -44,9 +44,10 @@ There may be a cost involved.  I will use what's needed to minimize cost.  Hopef
 - 1- Create a new recovery instance.  
 Follow the same [guidelines](./VirtualMachine.md) for creating the main machine except there is no need to change the disk space to 30GB.  You can leave it at 10GB for the recovery machine.  
     * Use SSH to connect to the new machine.  This is very important.  Please don't skip this step.  
- 
+  
 - 2- Detach Nightscout disk 
     * Stop the Nightscout instance using the 3-dot menu on the right side of the instance line on the Compute Engine page.  This may take up to 3 minutes to complete.  
+
     * Click on the stopped Nighscout instance name.  
 ![](./images/StoppedInstanceSelect.png)  
 
@@ -56,16 +57,17 @@ Follow the same [guidelines](./VirtualMachine.md) for creating the main machine 
     * Scroll down to "Storage".  Click on "Detach boot disk".  Click on "Save".  
 ![](./images/DetachBootDisk.png)  
 
-- 7- Go back to VM instances.  
+- 3- Attach Nightscout disk to the recovery instance.  
+    * Go back to VM instances.  
 ![](./images/VM_Instances.png)  
 
-- 8- Click on the recovery instance name.  
+    * Click on the recovery instance name.  
 ![](./images/EditRecoveryInstance.png)  
 
-- 9- Click on Edit at the top.  Scroll down to Storage.  Scroll further down to "Additional disks".  Click on "Attach existing disk".  If you see a note that there is no disk to attach, it means you did not detach the boot disk of your Nightscout instance.  Go back and do that.  
+    * Click on Edit at the top.  Scroll down to Storage.  Scroll further down to "Additional disks".  Click on "Attach existing disk".  If you see a note that there is no disk to attach, it means you did not detach the boot disk of your Nightscout instance.  Go back and do that.  
 ![](./images/AttachExistingDisk.png)  
 
-- 10- From the pull-down menu, select the disk of your Nightscout instance.  Click on save.  That will save the disk setting of the instance.  But, you are still on the instance edit page.  Click on save again to finalize editing the instance.  
+    * From the pull-down menu, select the disk of your Nightscout instance.  Click on save.  That will save the disk setting of the instance.  But, you are still on the instance edit page.  Click on save again to finalize editing the instance.  
 ![](./images/SelectExistingDisk.png)  
 Now, you have a new instance with two disks attached to it.  One is its boot disk.  The other is the problem disk that we are going to fix.  
 
