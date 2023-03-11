@@ -43,18 +43,17 @@ There may be a cost involved.  I will use what's needed to minimize cost.  Hopef
   
 - 1- Create a new recovery instance.  
 Follow the same [guidelines](./VirtualMachine.md) for creating the main machine except there is no need to change the disk space to 30GB.  You can leave it at 10GB for the recovery machine.  
-
     * Use SSH to connect to the new machine.  This is very important.  Please don't skip this step.  
  
-- 3- Stop the Nightscout instance using the 3-dot menu on the right side of the instance line on the Compute Engine page.  This may take up to 3 minutes to complete.  
- 
-- 4- Click on the stopped Nighscout instance name.  
+- 2- Detach Nightscout disk 
+    * Stop the Nightscout instance using the 3-dot menu on the right side of the instance line on the Compute Engine page.  This may take up to 3 minutes to complete.  
+    * Click on the stopped Nighscout instance name.  
 ![](./images/StoppedInstanceSelect.png)  
 
-- 5- Click on Edit at the top.  
+    * Click on Edit at the top.  
 ![](./images/EditInstance.png)  
 
-- 6- Scroll down to "Storage".  Click on "Detach boot disk".  Click on "Save".  
+    * Scroll down to "Storage".  Click on "Detach boot disk".  Click on "Save".  
 ![](./images/DetachBootDisk.png)  
 
 - 7- Go back to VM instances.  
