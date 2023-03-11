@@ -113,5 +113,5 @@ That takes you to the instance edit page.  Click on Save to finalize the instanc
 
 - 20- Click on SSH on the Nightscout instance line.  It should connect and open a terminal.  Don't do anything other than [restarting](./Restart.md) the server from the menu.  
 
-- 21- After the restart, use SSH to connect again.  Follow these [instructions](./NS_SyncExecutables.md) to update.  
+- 21- After the restart, follow these [instructions](./NS_SyncExecutables.md) to update if needed.  
   
