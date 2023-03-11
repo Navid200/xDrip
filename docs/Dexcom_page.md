@@ -2,26 +2,22 @@
 [xDrip](../README.md) >> [Features](./Features_page.md) >> xDrip & Dexcom  
   
 If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page contains information that may help you.    
-
+  
+---  
+  
+#### **Setup**
 #### [Dexcom basics](./Dexcom-Basics.md)
 #### [G5 recommended settings](./G5-Recommended-Settings.md)
 #### [G6 (or Dex1) recommended settings](./G6-Recommended-Settings.md)
-#### [Start G6 (or Dex1)](./Starting-G6.md)
-#### [Dexcom One](./Dexcom-One.md)
-<br/>  
-  
-#### [Status](./StatusG5G6.md)
-#### [Session in progress](./Session-in-progress.md)
 #### [Can xDrip coexist with t:slim or receiver?](./Receiver-or-tslim-and-xDrip.md)
 #### [Both xDrip and Dexcom app](./xDrip-and-Dexcom-app.md)
-<br/>  
-
-#### [What not to do!](./What-not-to-do.md)
 <br/>  
   
 ---  
   
-#### **What is ...?**  
+#### **What is ...?**
+#### [Status](./StatusG5G6.md)
+#### [Session in progress](./Session-in-progress.md)
 #### [Proper Connectivity](./Proper-connectivity.md)
 #### [Native algorithm - mode](./Native-Algorithm.md)
 #### [Preemptive Restart](./Preemptive-Restart.md)
@@ -33,6 +29,8 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 ---  
   
 #### **How to**
+#### [Start G6 (or Dex1)](./Starting-G6.md)
+#### [Use Dexcom One](./Dexcom-One.md)
 #### [Calibrate G6, or Dex1](./Calibrate-G6)
 #### [Please report unknown firmware!](./Report-firmware.md)
 #### [Restart G6, or Dex1](./Restart-G6-sensor.md)
@@ -40,6 +38,7 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 #### [Calibrate G6, or Dex1, after a restart](./Calibrate-after-G6Restart.md)
 #### [Restart G5](./Restart-G5-sensor.md)
 #### [Change G6, or Dex1, Slot Number (advanced)](./G6_slot.md)
+#### [What not to do!](./What-not-to-do.md)
 <br/>  
   
 ---  
