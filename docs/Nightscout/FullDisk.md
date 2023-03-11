@@ -41,7 +41,7 @@ This is because Ubuntu needs to adjust the file system to use the added disk spa
 We are going to create another (recovery) instance to use temporarily to fix this problem.  
 There may be a cost involved.  I will use what's needed to minimize cost.  Hopefully, it will be free.  
   
-- 1- Create a new instance.  
+- 1- Create a new recovery instance.  
 Follow the same [guidelines](./VirtualMachine.md) for creating the main machine except there is no need to change the disk space to 30GB.  You can leave it at 10GB for the recovery machine.  
 
     * Use SSH to connect to the new machine.  This is very important.  Please don't skip this step.  
