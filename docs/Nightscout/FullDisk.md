@@ -59,6 +59,9 @@ Follow the same [guidelines](./VirtualMachine.md) for creating the main machine 
 - 7- Go back to VM instances.  
 ![](./images/VM_Instances.png)  
 
-- 8- Click on the recovery instance name.  Click on Edit at the top.  
+- 8- Click on the recovery instance name.  
 ![](./images/EditRecoveryInstance.png)  
+
+- 9- Click on Edit at the top.  Scroll down to Storage.  Scroll further down to "Additional disks".  Click on "Attach existing disk".  
+![](./images/AttachExistingDisk.png)  
   
