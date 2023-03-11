@@ -62,6 +62,6 @@ Follow the same [guidelines](./VirtualMachine.md) for creating the main machine 
 - 8- Click on the recovery instance name.  
 ![](./images/EditRecoveryInstance.png)  
 
-- 9- Click on Edit at the top.  Scroll down to Storage.  Scroll further down to "Additional disks".  Click on "Attach existing disk".  
+- 9- Click on Edit at the top.  Scroll down to Storage.  Scroll further down to "Additional disks".  Click on "Attach existing disk".  If you see a note that there is no disk to attach, it means you did not detach the boot disk of your Nightscout instance.  Go back and do that.  
 ![](./images/AttachExistingDisk.png)  
   
