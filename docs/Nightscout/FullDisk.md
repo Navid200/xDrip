@@ -42,7 +42,7 @@ If you cannot connect to the virtual machine using SSH because the disk is full,
 This is because Ubuntu needs to adjust the file system to use the added disk space.  But, if Ubuntu cannot start, it will not be able to do that.  
   
 We are going to create another (recovery) instance to use temporarily to fix this problem.  
-There may be a cost involved.  I will use what's needed to minimize cost.  Hopefully, it will be free.  
+There may be a cost involved.  We will use what's needed to minimize cost.  Hopefully, it will be free.  
   
 * 1- Detach Nightscout disk 
     * Stop the Nightscout instance using the 3-dot menu on the right side of the instance line on the Compute Engine page.  This may take up to 3 minutes to complete.  
