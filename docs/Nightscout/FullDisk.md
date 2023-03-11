@@ -90,6 +90,11 @@ sudo e2fsck -f /dev/sdb1
 - 14- Type and enter the following in the terminal.  
 ```  
 sudo resize2fs /dev/sdb1  
-````  
+```  
+
+- 15- To verify, enter the following in the terminal again.  
+```  
+sudo lsblk  
+```  
   
   
