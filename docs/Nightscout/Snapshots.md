@@ -42,9 +42,9 @@ The following screenshot shows the free tier limits.
 Let's now go through the steps of restoring a snapshot.  
   
 **WARNING**
-You can have only one machine running in order to satisfy the free tier limits.  Therefore, in order to restore a snapshot, you will need to first stop your existing machine.  Even if you stop the instance, the disk attached to it may cost you.  Deleting your machine will delete your Nightscout database.    
+You can have only one machine running in order to satisfy the free tier limits.  Therefore, in order to restore a snapshot, you will need to first stop your existing machine.  Even if you stop the instance, the disk attached to it may cost you.  
   
-If you want to delte a machine, only if you have no data on the machine, or only after you have backed up your database and have copied the backup file from the virtual machine to your real computer, delete the machine on the VM instances tab.  
+Deleting your machine will delete your Nightscout database.  If you want to delte a machine, only if you have no data on the machine, or only after you have backed up your database and have copied the backup file from the virtual machine to your real computer, delete the machine on the VM instances tab.  
   
 Click on create instance.  
 ![](./images/CreateInstance2.png)  
