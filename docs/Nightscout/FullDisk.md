@@ -12,7 +12,7 @@ Go to [Compute Engine](./ComputeEngine.md).
 Under the heading "Name", click on the instance name.  
 ![](./images/InstanceName.png)  
   
-Scroll down to "Storage".  After confirming that the disk apce is 10GB, click on the disk name.  
+Scroll down to "Storage".  After confirming that the disk space is 10GB, click on the disk name.  
 ![](./images/EditInstanceDisk.png)  
   
 Now, you need to expand your browser screen horizontally until you can see "Edit" at the top.  Click on "Edit".  
@@ -28,14 +28,14 @@ Change it to 30GB and save.
 ---  
   
 #### **Restart the server**
-You now need to [restart the server](./Restart.md) so that the filesystem uses the added disk space.  
+You now need to [restart the server](./Restart.md) so that the file system uses the added disk space.  
 <br/>  
   
 ---  
   
 #### **Full disk**
 If you cannot connect to the virtual machine using SSH because the disk is full, even after increasing the disk size to 30GB, you may still not be able to connect.  
-This is because Ubuntu needs to adjust the filesystem to use the added disk space.  But, if Ubuntu cannot start, it will not be able to do that.  
+This is because Ubuntu needs to adjust the file system to use the added disk space.  But, if Ubuntu cannot start, it will not be able to do that.  
   
 We are going to create another (recovery) instance to use temporarily to fix this problem.  
 There may be a cost involved.  I will use what's needed to minimize cost.  Hopefully, it will be free.  
@@ -47,7 +47,7 @@ Follow the same [guidelines](./VirtualMachine.md) for creating the main machine 
  
 - 3- Stop the Nightscout instance using the 3-dot menu on the right side of the instance line on the Compute Engine page.  This may take up to 3 minutes to complete.  
  
-- 4- Click on the stopped Nighsctout instance name.  
+- 4- Click on the stopped Nighscout instance name.  
 ![](./images/StoppedInstanceSelect.png)  
 
 - 5- Click on Edit at the top.  
@@ -105,7 +105,7 @@ You can see that partition sdb1 has grown to occupy the added disk space.  You c
 - 17- Go back to the VM instances page.  Click on the stopped Nightscout instance name.  Click on Edit.  Scroll down to Boot disk.  Click on Configure boot disk.  
 ![](./images/ConfigBootDisk.png)  
 
-- 18- Select "Existing disks".  From the pull-down menu, select the repaired disk you detached from the recovery instance.  Clcik on "Select".  
+- 18- Select "Existing disks".  From the pull-down menu, select the repaired disk you detached from the recovery instance.  Click on "Select".  
 ![](./images/SelectBootDisk.png)  
 That takes you to the instance edit page.  Click on Save to finalize the instance edit.  
 
