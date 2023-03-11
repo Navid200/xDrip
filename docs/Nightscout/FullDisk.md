@@ -41,11 +41,11 @@ This is because Ubuntu needs to adjust the file system to use the added disk spa
 We are going to create another (recovery) instance to use temporarily to fix this problem.  
 There may be a cost involved.  I will use what's needed to minimize cost.  Hopefully, it will be free.  
   
-- 1- Create a new recovery instance.  
+* 1- Create a new recovery instance.  
 Follow the same [guidelines](./VirtualMachine.md) for creating the main machine except there is no need to change the disk space to 30GB.  You can leave it at 10GB for the recovery machine.  
     * Use SSH to connect to the new machine.  This is very important.  Please don't skip this step.  
   
-- 2- Detach Nightscout disk 
+* 2- Detach Nightscout disk 
     * Stop the Nightscout instance using the 3-dot menu on the right side of the instance line on the Compute Engine page.  This may take up to 3 minutes to complete.  
 
     * Click on the stopped Nighscout instance name.  
@@ -71,30 +71,32 @@ Follow the same [guidelines](./VirtualMachine.md) for creating the main machine 
 ![](./images/SelectExistingDisk.png)  
 Now, you have a new instance with two disks attached to it.  One is its boot disk.  The other is the problem disk that we are going to fix.  
 
-- 11- Go back to the VM instances page again.  Click on SSH on the temporary (recovery) instance line.  Wait for a terminal to pop up and the prompt to appear.  Type and enter the following in the terminal.  
+* 4- Resize partition  
+    * Go back to the VM instances page again.  Click on SSH on the temporary (recovery) instance line.  Wait for a terminal to pop up and the prompt to appear.  Type and enter the following in the terminal.  
 ```  
 sudo lsblk  
 ```  
 ![](./images/lsblk1.png)  
 sda is the boot disk of the temporary (recovery) instance.  sdb is the trouble disk.  
 Even though sdb shows 30GB, sdb1, which is the partition containing Ubuntu and MongoDB still shows 9.9GB.  This is why we couldn't log into the Nightscout instance.  
-- 12- Type and enter the following in the terminal.  
+
+    * Type and enter the following in the terminal.  
 ```  
 sudo growpart /dev/sdb 1  
 ```  
 
-- 13- Type and enter the following in the terminal.  In response to the prompt(s) for fix, press y to approve.  
+    * Type and enter the following in the terminal.  In response to the prompt(s) for fix, press y to approve.  
 ```  
 sudo e2fsck -f /dev/sdb1  
 ```  
 ![](./images/e2fsk_Fix.png)  
 
-- 14- Type and enter the following in the terminal.  
+    * Type and enter the following in the terminal.  
 ```  
 sudo resize2fs /dev/sdb1  
 ```  
 
-- 15- To verify, enter the following in the terminal again.  
+    * To verify, enter the following in the terminal again.  
 ```  
 sudo lsblk  
 ```  
