@@ -81,10 +81,10 @@ Even though sdb shows 30GB, sdb1, which is the partition containing Ubuntu and M
 sudo growpart /dev/sdb 1  
 ```  
 
-- 13- Type and enter the following in the terminal.  
+- 13- Type and enter the following in the terminal.  In response to the prompt for fix, press y to approve.  
 ```  
 sudo e2fsck -f /dev/sdb1  
 ```  
 ![](./images/e2fsk_Fix.png)  
-  
+
   
