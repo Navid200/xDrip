@@ -75,6 +75,10 @@ sudo lsblk
 ```  
 ![](./images/lsblk1.png)  
 sda is the boot disk of the temporary (recovery) instance.  sdb is the trouble disk.  
-Even though sdb shows 30GB, sdb1, which is the partition containing Ububtu and MongoDB still shows 9.9GB.  This is why we ccouldn't log into the Nightscout instance.  
-  
+Even though sdb shows 30GB, sdb1, which is the partition containing Ubuntu and MongoDB still shows 9.9GB.  This is why we couldn't log into the Nightscout instance.  
+- 12- Type and enter the following in the terminal.  
+```  
+sudo growpart /dev/sdb 1  
+```  
+
   
