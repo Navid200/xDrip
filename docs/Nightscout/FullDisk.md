@@ -85,4 +85,6 @@ sudo growpart /dev/sdb 1
 ```  
 sudo e2fsck -f /dev/sdb1  
 ```  
+![](./images/e2fsk_Fix.png)  
+  
   
