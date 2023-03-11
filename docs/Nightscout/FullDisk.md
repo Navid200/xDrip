@@ -98,5 +98,8 @@ sudo lsblk
 ```  
 ![](./images/lsblk2.png)  
 You can see that partition sdb1 has grown to occupy the added disk space.  
+
+- 16- Go back to the VM instances page.  Click on the recovery instance name.  Click on Edit.  Scroll down to Additional disks.  Click on x to detach.  Click on save.  
+![](./images/DetachAdditionalDisk.png)  
   
   
