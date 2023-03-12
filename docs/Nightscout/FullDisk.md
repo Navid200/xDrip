@@ -8,7 +8,7 @@ The best solution is to update before the disk is full.
 ---  
   
 #### **Snapshot**
-Create a [snapshot](./Snapshots.md) of your Nightscout instance just in case something goes wrong.  
+Create a [snapshot](./Snapshots.md) of your Nightscout disk just in case something goes wrong.  
 <br/>  
   
 ---    
