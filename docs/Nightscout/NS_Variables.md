@@ -9,6 +9,19 @@ To edit your Nightscout variables, open a [terminal](./Terminal).
   
 ---  
   
+**Defaults**
+
+export API_SECRET="YOUR_API_SECRET_HERE"  
+export ENABLE="careportal food boluscalc bwp cob bgi pump openaps rawbg iob upbat cage sage basal"  
+export AUTH_DEFAULT_ROLES="denied"  
+export PUMP_FIELDS="reservoir battery clock"  
+export DEVICESTATUS_ADVANCED="true"  
+export THEME="colors"  
+export DBSIZE_MAX="20000"  
+<br/>  
+  
+---  
+  
 **Using a web browser**  
 Select "Edit variables in a browser" in the Nightscout setup submenu and enter.  
 Be patient.  In a minute, you will be presented with a URL on screen.  Please don't use ctrl C to copy.  Ctrl C in Linux will terminate a process.  
