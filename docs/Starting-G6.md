@@ -18,6 +18,7 @@ If there is a command stuck in the queue, [clear the queue](./Clear-queue.md).
   
 5.  If "Start Sensor" isn't available as an option from the top left menu on the main screen, "Stop Sensor" from the same menu.  Wait 5 minutes.    
 The transmitter needs to be detached from your body for at least 10 minutes before you proceed.  
+The calibration code is printed on the adhesive cover of the sensor.  You will need it to start sensor.  
 If there is bleeding, after inserting a new sensor, use Q-tips to absorb the blood.  Keep doing that, and don't allow any blood to get to the contacts, until bleeding stops.  
   
 6.  If you are starting a new transmitter, enter the new transmitter serial number (Transmitter ID): Settings &#8722;> Dexcom Transmitter ID.     
