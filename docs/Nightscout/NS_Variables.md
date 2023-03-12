@@ -4,21 +4,6 @@
 After [setting up Nightscout](./NS_setup), you can edit your Nightscout variables if needed.  <span style="color:red">For any change to the variables to take effect, you will need to [reboot the server](./Restart.md).</span>  
   
 To edit your Nightscout variables, open a [terminal](./Terminal).  
-
-
-  
----  
-  
-**Defaults**
-
-export API_SECRET="YOUR_API_SECRET_HERE"  
-export ENABLE="careportal food boluscalc bwp cob bgi pump openaps rawbg iob upbat cage sage basal"  
-export AUTH_DEFAULT_ROLES="denied"  
-export PUMP_FIELDS="reservoir battery clock"  
-export DEVICESTATUS_ADVANCED="true"  
-export THEME="colors"  
-export DBSIZE_MAX="20000"  
-<br/>  
   
 ---  
   
@@ -60,6 +45,19 @@ You will be offered the following two options:
 2- Renew & replace the cert (limit ~5 per 7 days)  
   
 Choose 1.  
+<br/>  
+  
+---  
+  
+**Defaults**
+
+export API_SECRET="YOUR_API_SECRET_HERE"  
+export ENABLE="careportal food boluscalc bwp cob bgi pump openaps rawbg iob upbat cage sage basal"  
+export AUTH_DEFAULT_ROLES="denied"  
+export PUMP_FIELDS="reservoir battery clock"  
+export DEVICESTATUS_ADVANCED="true"  
+export THEME="colors"  
+export DBSIZE_MAX="20000"  
 <br/>  
   
 ---  
