@@ -39,3 +39,6 @@ A common mistake is to replace an old transmitter with a new one, stop sensor, c
   
 Never soak (insert sensor a while before starting it) a G6 sensor. The main advantage of G6 over G5 is factory calibration. You will be interfering with factory calibration (accuracy) the longer it takes from the moment you insert the sensor to the moment you start the sensor in xDrip.  
   
+The calibration code for each sensor is printed on the adhesive cover you have to peel off before you insert the sensor.  Don't throw it away.  
+![](./images/CalCode.png)  
+  
