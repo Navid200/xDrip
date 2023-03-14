@@ -15,6 +15,7 @@ Select "Compute Engine".
   
 Click on SSH on the line associated with your Nightscout virtual machine.  
 ![](./images/SSH.png)  
+If your browser asks permission to open a window, grant it.  If your browser is set to block pop-ups, this will not work.  You will need to change your browser's settings to allow pop-ups from the Google Cloud page.  
   
 Be patient as it may take a few seconds for the terminal to come up.  
 ![](./images/TerminalBlank.png)  
