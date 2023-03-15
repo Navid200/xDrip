@@ -24,6 +24,7 @@ A mistake some make with G6 is to place a new sensor on with the previous sensor
 Otherwise, you may get a confused calibration error.  Please calibrate as explained [here](./Calibrate-G6.md).  
 
 **Don't stop sensor thinking you can restart easily.**
+There is no reason to stop sensor except when you intend you remove it from your body.  Other than that, there is a better way to accomplish what you need than to stop the sensor.  
 
 **When you get a new phone, ...**   
 Don't forget to [disable collection](./Stop-xDrip.md) on the old phone.  Otherwise, both phones will have constant connectivity issues.  
