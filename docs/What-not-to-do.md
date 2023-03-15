@@ -9,7 +9,7 @@ permalink: "/docs/What-not-to-do.html"
 **Don't remove a transmitter from the box until you intend to use it.**  
 As soon as you place the transmitter in a sensor, or even if you just touch the contacts long enough, the counter (on the transmitter) starts counting the number of days.  Since the number of days you can use a transmitter is [limited](./Transmitter-lifetime.md), don't start the counter unless you intend to start using the transmitter.  The best practice is to keep the transmitter in the box until you intend to use it.  
 
-**Don't throw away the sensor adhesive covers**
+**Don't throw away the sensor adhesive covers**  
 The calibration code you need to start is printed on one of them.  
 
 **Don't start a sensor on a new G6 transmitter before voltages are shown.**  
