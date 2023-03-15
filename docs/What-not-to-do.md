@@ -12,6 +12,9 @@ As soon as you place the transmitter in a sensor, or even if you just touch the 
 **Don't throw away the sensor adhesive covers**  
 The calibration code you need to start is printed on one of them.  
 
+**Don't pre-soak**  
+Factory calibration is why you don't need to calibrate twice a day.  You will be interfering with factory calibration if you pre-soak.  
+
 **Don't start a sensor on a new G6 (or Dexcom One) transmitter before voltages are shown.**  
 Only start a sensor after you have established [connectivity](/Proper-connectivity.md), and can see the voltages reported on the system status page as explained.  
 When you first establish connectivity to a transmitter, it will take a few read cycles for everything to be properly synced.  You can start a sensor right away.  You shouldn't!  See the [details](./Starting-G6.md).  
