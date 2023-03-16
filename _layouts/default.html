@@ -7,43 +7,49 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     {% include head-custom.html %}
 
 
+
 <!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
-   
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">              
 
     {% include tracking-header.html %}
 
   </head>
   <body>
-    <div id="header">
+    <div id="header">       
       <ul>
-        <li class="imag_L"><a class="two" href="https://navid200.github.io/xDrip/"><img src="{{ site.baseurl }}/assets/img/avatar-icon.png" ></a></li>         
+        <li class="imag_L"><a class="two" href="https://navid200.github.io/xDrip/"><img src="{{ site.baseurl }}/assets/img/avatar-icon.png" ></a></li> 
       </ul> 
       <ul>
         {% include search-lunr.html %}
-      </ul>
-    </div>
-  
-    <div id="lunrsearchresults">
-      <ul class="mb-0"></ul>
+      </ul>       
     </div>
 
-    <div class="wrapper">
-      <section>
-        {{ content }}
-      </section>
-    </div>
+  <div id="lunrsearchresults">
+    <ul class="mb-0"></ul>
+  </div>
 
-    <div id="footer">
-      <ul>
+  <div class="wrapper">
+    <section>       
+       {{ content }}
+     </section>
+  </div>
+
+  <div id="footer">
+    <ul> 
       <li class="cont"><a class="one" href="https://navid200.github.io/xDrip/docs/Contact.html">Support</a></li>
-      <li class="release"><a class="one" href="https://navid200.github.io/xDrip/docs/ReleaseNotes.html">Release Notes</a></li>          
-      </ul>
-    </div>
+      <li class="release"><a class="one" href="https://navid200.github.io/xDrip/docs/ReleaseNotes.html">Release Notes</a></li> 
+     </ul>
+  </div>
 
     <script src="{{site.baseurl}}/assets/js/theme.js"></script>
   </body>
