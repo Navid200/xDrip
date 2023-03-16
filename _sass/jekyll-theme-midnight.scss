@@ -2,15 +2,20 @@
 @import "fonts";
 @import "rouge-base16-dark.scss";
 
+:root {
+  --bg-color: #3dc7f5;
+}
+
 body {
-  padding:0px 0 20px 0px;
+  padding:0px 10ps 0px 10px;
   margin: 0px;
   font:14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#101010;
   font-weight: normal;
-  background: #f0f0f0;
+  background: var(--bg-color);
+//  background: var(--bg-color);  
+// 222222
   background-attachment: fixed !important;
-  background: linear-gradient(#f0f0f0, #f0f0f0);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -89,10 +94,11 @@ strong {
 }
 
 .wrapper {
-  max-width:650px;
+  max-width:680px;
   margin:0 auto;
   position:relative;
-  padding: 0 20px;
+  padding: 0 8px;
+  background: var(--bg-color);
 }
 
 section img {
@@ -178,8 +184,7 @@ dt {
   height: 60px;
   width: 100%;
   position: fixed;
-  background-color: #222222;
-  box-shadow: 0px 1px 3px rgba(0,0,0,.25);
+  background: #222222;
 
 
     ul {
@@ -282,13 +287,12 @@ box-shadow: inset 0px 0px 0px rgba(245,185,45,1), 0px 2px 15px rgba(245,185,45,1
 }
 
 #footer { 
-  border-top: 1px solid #d0d0d0;
   left:0;
   bottom: 0px;
   height: 30px;
   width: 100%;
   padding: 0;
-  background-color: #f0f0f0;
+  background: var(--bg-color);
 
 
  ul {
@@ -406,10 +410,10 @@ box-shadow: inset 0px 0px 0px rgba(240,180,40,1), 0px 0px 6px rgba(240,180,40,1)
 
 
 section {
-  max-width:650px;
-  padding: 30px 0px 50px 0px;
-  margin: 20px 0;
-  margin-top: 70px;
+  max-width:658px;
+  padding: 84px 14px 30px 14px;
+  margin: 0;
+  background: #f0f0f0;
 
   #title {
     border: 0;
