@@ -27,7 +27,7 @@ To access the alerts page, tap on the top left menu button from the main screen 
 #### [Audio Focus - alert raises music volume](./AudioFocus.md)
 #### [Custom Alert Sound](./Custom-Alert-Sound.md)
 #### [Strobe light](./Alerts/TurnLightOn.md)  
-  
+<br/>  
 #### [Alert makes no sound](./Silent-alert.md)
 #### [Alert blasts my ears on headphone](./Force-Speaker.md)
 #### [Missed Readings alert not repeating](./MissedSignalAlert.md)
