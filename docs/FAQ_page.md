@@ -16,6 +16,7 @@
 #### [Can I create a simple report for my doctor](./Report.md)
 #### [Why is the alert so loud - so quiet?](./Ascending-volume-profile.md)
 #### [Turn a light on for an alert](./Alerts/TurnLightOn.md)
+#### [Show readings on a screen all the time](./Screensaver.md)
 #### [What is Nightscout?](./Nightscout_page.md)
 #### [What is Engineering mode?](./Engineering-Mode.md)
 #### [How to delete a reminder](./Delete-Reminder.md)
