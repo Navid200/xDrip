@@ -6,3 +6,5 @@ To access settings, tap on the 3 horizontal lines at the top left of the main sc
   
 ![](./images/Settings.png)  
   
+![](./images/SettingsPage.png)  
+  
