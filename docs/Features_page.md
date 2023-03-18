@@ -12,7 +12,6 @@
 ### [Display](./Display/Display.md)
 ### [Dexcom](./Dexcom_page.md)
 ### [Watches](./Watches.md)
-### [Reminders](./Reminders.md)
    
 <br/>  
   
