@@ -24,7 +24,7 @@ G6 offers factory calibration, which means the user does not need to perform cal
 Regardless, it is a good idea to test with your blood glucose meter if your symptoms disagree with what the CGM shows.  
 <br/>  
   
-If you are interested in more detail, [this article](./pdf/biosensors-08-00024.pdf)is a good reference.  
+If you are interested in more detail, [this article](./pdf/biosensors-08-00024.pdf) is a good reference.  
 <br/>  
   
 ---  
