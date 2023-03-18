@@ -22,7 +22,13 @@ Therefore, you should never calibrate when the glucose is changing rapidly.  If 
 ### Factory-calibrated CGM  
 G6 offers factory calibration, which means the user does not need to perform calibrations anymore after entering a 4-digit calibration code when starting the sensor.  However, this is based on studies that have minimized the average error.  Some individuals may be farther from the average.   G6 allows you to calibrate if you need to.  
 Regardless, it is a good idea to test with your blood glucose meter if your symptoms disagree with what the CGM shows.  
-
+<br/>  
+  
+If you are interested in more detail, [this article](./pdf/biosensors-08-00024.pdf)is a good reference.  
+<br/>  
+  
+---  
+  
 ### When to test your blood glucose  
 Just because you test your blood glucose with your meter doesn't mean you have to calibrate.  You should test whenever your symptoms disagree with what the CGM shows.  
 
