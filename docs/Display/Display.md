@@ -1,6 +1,8 @@
 ## Display  
 [xDrip](../../README.md) >> [Features](../Features_page) >> Display  
   
+You can customize what xDrip shows.  
+  
 #### [Legend](../Legend.md)
 #### [Time range](../TimeButtons.md)
 #### [Glucose range](./GlucoseRange.md)
