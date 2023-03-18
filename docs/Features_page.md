@@ -24,5 +24,4 @@
 #### [Reminders](./Reminders.md)
 #### [Data tables](./Datatables.md)
 #### [Engineering mode](./Engineering-Mode.md)
-#### [Emergency Message](./Emergency.md)
    
