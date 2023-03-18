@@ -38,5 +38,6 @@ You can calibrate by selecting "Add Calibration" from the top left menu.
   
 ---  
   
+#### [Calibration of Minimally Invasive Continuous Glucose Monitoring Sensors: State-of-The-Art and Current Perspectives](./pdf/biosensors-08-00024.pdf)
 #### [Automatic Calibration](./AutoCal)
   
