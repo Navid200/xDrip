@@ -9,6 +9,9 @@ On a mobile, you will need to scroll almost all the way down to reach Releases a
 
 You can access the nightly builds (least tested but more recent) from "releases" on the same page.  
   
+After accessing the release you want, you will see something like this after expanding "Assets":  
+![](./images/apk.png)  
+    
 Download the file with .apk at the end.  If there are multiple files with .apk at the end, download the one without "[variant](./Variants.md)" included in the name.  
   
 #### [Install](./Install.md)
