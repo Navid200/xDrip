@@ -7,6 +7,7 @@ How to [install](./Install.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.03.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.28b) | QR cinfirmation - Watchdrip iob |  
 | [2023.03.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.23) | No more old logs - Wake workarounds for all brands |  
 | [2023.03.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.06) | Vertical (y) axis range |  
 | [2023.02.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.02.26) | OOP2 on wear app |  
