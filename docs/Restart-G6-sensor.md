@@ -11,11 +11,14 @@ Ensure [settings](./G6-Recommended-Settings.md) are correct first.   If your sen
   
 You can use the original calibration code for restart or you can restart in no-code mode.  But, there are reports of malfunction in attempting to restart in no-code mode.  So, my recommended approach is to use the original calibration code as described below.   
   
-1. Tap on stop sensor (top left menu). Tap on "STOP SENSOR".  You should do this even if the sensor has already stopped if the "start sensor" option is not available. Wait 5 minutes.  If day 10 has ended and the sensor has already stopped, and the "Start Sensor" option is already available under the top left menu, you can skip step 1.  
+1. Tap on stop sensor (top left menu). Tap on "STOP SENSOR".  
+There will be "stop sensor" as a queue item on the G5/G6 status page. The queue will clear in 5 minutes.  Then, you will see Sensor: Stopped on the G5/G6 status page.  
+You tap on stop even if the sensor has already stopped if the "start sensor" option is not available.  Wait 5 minutes.  
+Only after the "stop sensor" note has cleared the queue should you proceed to step 2.  
+If day 10 has ended and the sensor has already stopped, and the "Start Sensor" option is already available under the top left menu, you can skip step 1.  
+If you had a sensor start failed message, you may still see that message instead.  
 2. Remove the transmitter without causing damage to the sensor ([see how](./Remove-transmitter.md)).  There is petroleum jelly on the transmitter and sensor contacts. Don't wipe it off.  
-3. Wait 15 minutes from when you removed the transmitter.
-After you stopped sensor, there would be "stop sensor" in a queue item on the G5/G6 status page. The queue would clear in about 10 to 15 minutes. Then, you would see Sensor: Stopped on the G5/G6 status page. If you had a sensor start failed message, you may still see that message instead.
-Only after the "stop sensor" note has cleared the queue should you proceed.  
+3. Wait at least 10 minutes from when you remove the transmitter.  
 4. Snap the transmitter back into the sensor.  
 5. Start Sensor.  Enter the original calibration code when asked.      
 6. After the 2-hour warm-up, your readings will be significantly high in error (*).  You will need to calibrate.  You should calibrate in small steps to avoid a confused calibration error ([see how](./Calibrate-after-G6Restart.md)).  
