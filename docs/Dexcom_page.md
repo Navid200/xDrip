@@ -22,7 +22,6 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 #### [Proper Connectivity](./Proper-connectivity.md)
 #### [Native algorithm - mode](./Native-Algorithm.md)
 #### [Preemptive Restart](./Preemptive-Restart.md)
-#### [Hard reset](./Hard-Reset.md)
 #### [Transmitter Queue](./Transmitter-Queue.md)
 #### [Transmitter Lifetime](./Transmitter-lifetime.md)
 <br/>  
@@ -39,6 +38,7 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 #### [Calibrate G6, or Dex1, after a restart](./Calibrate-after-G6Restart.md)
 #### [Restart G5](./Restart-G5-sensor.md)
 #### [Change G6, or Dex1, Slot Number (advanced)](./G6_slot.md)
+#### [Hard reset](./Hard-Reset.md)
 #### [What not to do!](./What-not-to-do.md)
 <br/>  
   
