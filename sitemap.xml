@@ -8,6 +8,9 @@
    <url>
       <loc>https://navid200.github.io/</loc>
    </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/Alert-re‐raise-malfunction.html</loc>
+  </url>
   <url>
       <loc>https://navid200.github.io/xDrip/docs/Requirements_page.html</loc>
    </url>
@@ -108,6 +111,18 @@
       <loc>https://navid200.github.io/xDrip/docs/DexcomAppxDrip.html</loc>
    </url>
    <url>
+      <loc>https://navid200.github.io/xDrip/docs/Display/Display.html</loc>
+   </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/Display/GraphSmoothing.html</loc>
+   </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/Display/TrendArrow.html</loc>
+   </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/Download-xDrip.html</loc>
+   </url>
+   <url>
       <loc>https://navid200.github.io/xDrip/docs/Engineering-Mode.html</loc>
    </url>
    <url>
@@ -115,6 +130,9 @@
    </url>
    <url>
       <loc>https://navid200.github.io/xDrip/docs/Follow_page.html</loc>
+   </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/Follow/CompanionApp.html</loc>
    </url>
    <url>
       <loc>https://navid200.github.io/xDrip/docs/G5-Recommended-Settings.html</loc>
@@ -177,10 +195,13 @@
       <loc>https://navid200.github.io/xDrip/docs/NumberWallDisable.html</loc>
    </url>
    <url>
+      <loc>https://navid200.github.io/xDrip/docs/Preemptive-Restart.html</loc>
+   </url>
+   <url>
       <loc>https://navid200.github.io/xDrip/docs/Proper-connectivity.html</loc>
    </url>
    <url>
-      <loc>https://navid200.github.io/xDrip/docs/Receiver-or-t:slim-and-xDrip.html</loc>
+      <loc>https://navid200.github.io/xDrip/docs/Receiver-or-tslim-and-xDrip.html</loc>
    </url>
    <url>
       <loc>https://navid200.github.io/xDrip/docs/Reinstall.html</loc>
@@ -193,6 +214,9 @@
    </url>
    <url>
       <loc>https://navid200.github.io/xDrip/docs/Requirements_page.html</loc>
+   </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/Restart-G5-sensor.html</loc>
    </url>
    <url>
       <loc>https://navid200.github.io/xDrip/docs/Restart-G6-sensor.html</loc>
@@ -214,6 +238,9 @@
    </url>
    <url>
       <loc>https://navid200.github.io/xDrip/docs/Snooze.html</loc>
+   </url>
+   <url>
+      <loc>https://navid200.github.io/xDrip/docs/StatusG5G6.html</loc>
    </url>
    <url>
       <loc>https://navid200.github.io/xDrip/docs/Starting-G6.html</loc>
