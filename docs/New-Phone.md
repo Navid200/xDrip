@@ -17,5 +17,5 @@ This will restore the previous readings (history).
 6. Set up the new phone as your new collector.  You should disable collection on the old phone first.  
 7. If you want to bring in more settings from the old phone, you need to load the settings file from the old phone as well.  
   
-This is not meant to convince you to use your phone as a repository of all your previous readings.  A better repository for your readings is [Nightscout](./Nightscout.md) because it is independent of your phone, which you may replace or lose.  You can use Nightscout to access previous readings and perform statistical analyses and use them for creating reports.  But, it's meant to let you bring in your reaadings etc. from your old phone to the new one if you choose to.  
+This is not meant to convince you to use your phone as a repository of all your previous readings.  A better repository for your readings is [Nightscout](./Nightscout_page.md) because it is independent of your phone, which you may replace or lose.  You can use Nightscout to access previous readings and perform statistical analyses and use them for creating reports.  But, it's meant to let you bring in your reaadings etc. from your old phone to the new one if you choose to.  
   
