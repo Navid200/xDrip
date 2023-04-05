@@ -13,7 +13,7 @@ If you are new to xDrip or Dexcom, have a look at the [general information](./De
 If there is another mobile device set to collect from the same transmitter (not a follower, but a master), you need to disconnect it.  
 
 The G5/G6 status page gives you most of the information you need about how your system (xDrip, Dexcom transmitter and sensor) is doing.  
-![](./system-status-pg.png)  
+![](./images/system-status-pg.png)  
 
 Is there [proper connectivity](./Proper-connectivity.md)?  If not, you need to resolve that before anything else. 
  Don't waste your time starting the sensor.  If there is a command stuck in the queue, [clear](./Clear-queue.md) the queue.  
