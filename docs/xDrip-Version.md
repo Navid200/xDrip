@@ -6,5 +6,5 @@ Each status page has a specific heading at the top.  You should go to the classi
   
 To see what version of xDrip you are currently running, look at the classic status page.  
 ![](./images/classic-status-pg.png)  
-The version is shown at the top of the page.  
+The version is shown at the top right under the "Classic Status Page" subheading.  
   
