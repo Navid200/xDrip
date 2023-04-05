@@ -1,375 +1,1007 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-   <url>
-      <loc>https://navid200.github.io/xDrip/</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Alert-re‐raise-malfunction.html</loc>
-  </url>
-  <url>
-      <loc>https://navid200.github.io/xDrip/docs/Requirements_page.html</loc>
-   </url>
-  <url>
-      <loc>https://navid200.github.io/xDrip/docs/Installation_page.html</loc>
-   </url>
-  <url>
-      <loc>https://navid200.github.io/xDrip/docs/Features_page.html</loc>
-   </url>
-  <url>
-      <loc>https://navid200.github.io/xDrip/docs/Dexcom_page.html</loc>
-   </url>
-  <url>
-      <loc>https://navid200.github.io/xDrip/docs/Troubleshooting_page.html</loc>
-   </url>
-  <url>
-      <loc>https://navid200.github.io/xDrip/docs/FAQ_page.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Download-xDrip.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Install.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Alerts_page.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Backup.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout_page.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/AAPS_ProfileImportNotification.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Alert-re‐raise-malfunction.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/App-store.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Ascending-volume-profile.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/AudioFocus.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/AutoCal.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Backup-Database.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Battery-condition.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/BehindEngineeringMode.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Bluetooth-Scanner.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Bluetooth-headphone-interruption.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Calibrate-G6.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Calibrate-after-G6Restart.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Calibration.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Clear-queue.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Connect-the-dots.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Connectivity-troubleshoot.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Contact.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Database-restore-failure.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Dexcom-Basics.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Dexcom-One.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/DexcomAppxDrip.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Display/Display.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Display/GraphSmoothing.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Display/TrendArrow.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Download-xDrip.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Engineering-Mode.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Extra-status-line.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Follow_page.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Follow/CompanionApp.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/G5-Recommended-Settings.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/G6-Recommended-Settings.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/G6_slot.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Glucose-level-alerts.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/GoogleDriveBackup.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/GooglePlayServices_NotInstalled.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Hard-Reset.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/How-to-follow.html</loc>
-   </url>
-      <url>
-      <loc>https://navid200.github.io/xDrip/docs/Installation_page.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Intermittent.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Issues.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Legend.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Logs.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/MissedPairRequest.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Native-Algorithm.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/New-Phone.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout_page.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/NoUpdate.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Notification-channels.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/NumberWallDisable.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Preemptive-Restart.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Proper-connectivity.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Receiver-or-tslim-and-xDrip.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Reinstall.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/ReleaseNotes.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Report.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Requirements_page.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Restart-G5-sensor.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Restart-G6-sensor.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/RestartingApps.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Restore-Database.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Screensaver.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Session-in-progress.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Silent-alert.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Snooze.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/StatusG5G6.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Starting-G6.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Statistics.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Stop-xDrip.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/TimeButtons.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Transmitter-Queue.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Transmitter-lifetime.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Updates.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Variants.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Volume-profiles.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/xDrip-Sync-not-working.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/xDrip-Version.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/xDripSync.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Display/Display.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Display/GraphSmoothing.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Display/TrendArrow.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/Billing.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/Customize.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/DatabaseBackup.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/DatabaseRestore.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/Menu.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_Followers.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_FreeTier.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_GCProject.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_Install.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/Reinstall.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/Restart.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_SyncExecutables.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_Transfer.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_Variables.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_setup.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/Security.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/Status.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/Terminal.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/update_nightscout.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Restart-G5-sensor.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Preemptive-Restart.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/StatusG5G6.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Follow/CompanionApp.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/GoogleCloud.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/FD_Domains.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/FreeDNS.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/VirtualMachine.html</loc>
-   </url>
-   <url>
-      <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_Install.html</loc>
-   </url>
+<url>
+  <loc>https://navid200.github.io/xDrip/</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Installation_page.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Features_page.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Troubleshooting_page.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/FAQ_page.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Issues.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Contact.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/ReleaseNotes.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Requirements_page.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Download-xDrip.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Install.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/xDrip-Version.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Updates.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/New-Phone.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Reinstall.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Variants.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/App-store.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Starting-G6.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Alerts_page.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Statistics.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Calibration.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout_page.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Follow_page.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Backup.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Emergency.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Display/Display.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Dexcom_page.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Watches.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Logs.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Screensaver.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Lock-screen.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Stop-xDrip.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Report.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Reminders.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Datatables.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Engineering-Mode.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/DoesNotInstall.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/IoB_not_showing.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/AAPS_ProfileImportNotification</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Bluetooth-headphone-interruption</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Custom-sound-grayed-out</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Database-restore-failure</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Silent-alert</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Alert-re%E2%80%90raise-malfunction</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/xDrip-Sync-not-working</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/RestartingApps</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/NumberWallDisable</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/GooglePlayServices_NotInstalled</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Issues</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Settings.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Android-auto-update.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Snooze.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Frequent_notifications.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/NoUpdate.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Noise.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/How-to-follow.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Sensor-Expiry.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Ascending-volume-profile.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Alerts/TurnLightOn.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Delete-Reminder.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/MissedSignalAlert.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/P_in_Circle.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/AAPS_ProfileImportNotification.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Delete_Treatment.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/MissedPairRequest.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Native-Algorithm.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Calibrate-G6.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/What-not-to-do.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/DexcomAppxDrip.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Intermittent.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Medical.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Smartphone-Requirements.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Installation_page</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Download-xDrip</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Features_page</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/NoUpdate</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Restore-Database.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Backup-Database.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Legend.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Dexcom-Basics.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Clear-queue.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/G6-Recommended-Settings.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Proper-connectivity.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Glucose-level-alerts.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Volume-profiles.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Notification-channels.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/AudioFocus.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Custom-Alert-Sound.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Silent-alert.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Force-Speaker.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/pdf/biosensors-08-00024.pdf</loc>
+  <lastmod>2023-04-05T15:29:53+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/AutoCal</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/GoogleCloud.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout-Settings.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/xDripSync.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Follow/CompanionApp.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/xDrip-Sync-not-working.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Dexcom-share-delta-format-change.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Libre3_Follow.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Backup-Database</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Restore-Database</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/GoogleDriveBackup.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Backup/SaveDaily.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/TimeButtons.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Display/GlucoseRange.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Connect-the-dots.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Extra-status-line.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Display/GraphSmoothing.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Display/TrendArrow.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Display/ExcludeReading.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/G5-Recommended-Settings.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Receiver-or-tslim-and-xDrip.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/xDrip-and-Dexcom-app.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/StatusG5G6.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Session-in-progress.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Preemptive-Restart.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Transmitter-Queue.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Transmitter-lifetime.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Dexcom-One.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Calibrate-G6</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Report-firmware.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Restart-G6-sensor.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Remove-transmitter.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Calibrate-after-G6Restart.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Restart-G5-sensor.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/G6_slot.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Hard-Reset.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Connectivity-troubleshoot.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/G6_Warranty.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Bluetooth-Scanner.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Battery-condition.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Petroleum-jelly-in-Dexcom-G6-Sensor.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Bluejay_page.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Display/Display</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Troubleshooting_page</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Alerts_page</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Updates</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Native-Algorithm</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Preemptive-Restart</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Dexcom_page</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Android.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Backup</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout_page</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_FreeTier</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/HowToMenu.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/FreeDNS.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_GCProject.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/VirtualMachine.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_Install.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_setup.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_Followers.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/DatabaseBackup.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/DatabaseRestore.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/Status.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_Variables.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/Customize.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_SyncExecutables.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_Transfer.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/CopyHerokuVars.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/Restart.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/ComputeEngine.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/Billing.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/Branches.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/Reinstall.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/DeleteVM.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/Mobile.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/update_nightscout.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/NightscoutDevBranch.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/CostTable.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/FullDisk.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/Terminal.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/Menu.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/HerokuVars.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/GC_ReleaseNotes.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/Security.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/Snapshots.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/HerokuGone.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_FreeTier.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/AustraliaChina.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/Crawlers.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/ConnectionFailed.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/ConnIdentAwareFailed.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/FD_Domains.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/UpdateScripts_22.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/502BadGateway.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/FreeTrialEnd.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/Auth_Default_Roles.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Follow_page</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Proper-connectivity</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Firmware-versions.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/bj_GTS_stngs.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Follow_Bluejay.html</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/GoogleCloud</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_GCProject</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_Install</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_Variables</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_setup</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/Terminal</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://navid200.github.io/xDrip/docs/Nightscout/NS_Followers</loc>
+  <lastmod>2023-04-05T15:31:11+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
 
-</urlset> 
+
+</urlset>
