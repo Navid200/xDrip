@@ -12,7 +12,7 @@ Tap on the 3-dot menu and select "Colors for printing".  This will change the ba
 Tap on share or create a screenshot.  Email it to yourself or place it on your Google Drive.  
 Swipe right twice to go to the statistics distribution page.  Share that as well and send to yourself.  
   
-Alternatively, you can create the two images from [Nightscout](./Nightscout-page.md).  In that case, choose "Reports" from the Nightscout menu.  Then, use "Percentile Chart" and "Distribution" to create the two images.  Make sure to choose a 3-month period up to now.  
+Alternatively, you can create the two images from [Nightscout](./Nightscout_page.md).  In that case, choose "Reports" from the Nightscout menu.  Then, use "Percentile Chart" and "Distribution" to create the two images.  Make sure to choose a 3-month period up to now.  
   
 Create a document using your favorite word processor. On the first page, enter your name, contact details, date, and doctor's name.  
 Enter the names of your insulin types and how much you take from each.  
