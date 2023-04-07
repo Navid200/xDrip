@@ -7,6 +7,7 @@ How to [install](./Install.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.04.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.07) | CareLink pump status |  
 | [2023.03.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.28b) | QR confirmation - Watchdrip iob |  
 | [2023.03.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.23) | No more old logs - Wake workarounds for all brands |  
 | [2023.03.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.03.15) | keks |  
