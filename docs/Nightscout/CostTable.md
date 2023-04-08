@@ -5,7 +5,7 @@ You can get a categorized list of costs from Google Cloud even before your free 
   
 Go to [Billing](./Billing.md).  
   
-Click on "Cost table".  Click on "Column display options".  
+Click on "Cost table" in the left pane.  Click on "Column display options".  
 ![](./images/ColDisOpt.png)  
   
 Disable all options except the following:  
