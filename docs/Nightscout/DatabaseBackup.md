@@ -1,10 +1,10 @@
 ## Nightscout Database Backup
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Backup  
   
-You must have mongodb set up on the virtual machine for this to work.  That is the case if you have Nightscout running following [install](./NS_Install.md) instructions.  
+You must have Nightscout running following [install](./NS_Install.md) instructions for this to work.  
   
-Open a [terminal](./Terminal.md).  Select "Backup MongoDB" from the Data submenu.  
-A compressed archive file, with the name you have chosen, will be created in the current directory.  
+Open a [terminal](./Terminal.md).  Select "Backup MongoDB and variables" from the Data submenu.  
+A compressed archive file, with the name you have chosen, will be created in the current directory containing Mongo database and variables.  
   
 You should transfer the backup off the virtual machine.  Otherwise, you will lose it if you delete the machine.  
 To do that, exit the menu first.  Let's find out what directory you are in.  Type and enter pwd. You will see something like this:  
