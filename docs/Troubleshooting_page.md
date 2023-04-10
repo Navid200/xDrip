@@ -4,12 +4,14 @@
 If you are experiencing problems using xDrip, some possible issues, and suggested solutions, are listed on this page.  
   
 #### [xDrip does not install](./DoesNotInstall.md)
+#### [Alert is silent](./Silent-alert)
+#### [Dexcom transmitter does not connect](./Connectivity-troubleshoot.md)
+#### [Dexcom transmitter keeps disconnecting](./Intermittent.md)
 #### [IoB does not show consistently](./IoB_not_showing.md)
 #### [Why do I get xDrip imported AAPS profile pop-up?](./AAPS_ProfileImportNotification)
 #### [Bluetooth headphone interruption](./Bluetooth-headphone-interruption)
 #### [Custom sound/alarm grayed out](./Custom-sound-grayed-out)
 #### [Database restore failure](./Database-restore-failure)
-#### [Alert is silent](./Silent-alert)
 #### [Alert re-raise malfunction](./Alert-re‐raise-malfunction)
 #### [xDrip sync not working](./xDrip-Sync-not-working)
 #### [xDrip causes apps to restart](./RestartingApps)
