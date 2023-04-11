@@ -7,6 +7,7 @@ How to [install](./Install.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.04.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.11) | Don't start G6 (Dex1) before connection |  
 | [2023.04.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.10) | Medtrum prediction - power efficiency |  
 | [2023.04.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.08) | Linear ascending volume - selective wake workaround |  
 | [2023.04.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.07) | CareLink pump status |  
