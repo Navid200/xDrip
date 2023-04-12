@@ -15,6 +15,7 @@
    
 <br/>  
   
+#### [Hardware Data Source](./HardwareDataSource.md)
 #### [Logs](./Logs.md)
 #### [Screen saver (lock screen) while being charged](./Screensaver.md)
 #### [Lock Screen](./Lock-screen.md)
