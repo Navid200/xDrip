@@ -3,13 +3,13 @@
   
 ### [Alerts](./Alerts_page.md)
 ### [Statistics](./Statistics.md)
+### [Display](./Display/Display.md)
+### [Update xDrip](./Updates.md)
+### [Backup](./Backup.md)
+### [Follow](./Follow_page.md)
 ### [Calibration](./Calibration.md)
 ### [Nightscout](./Nightscout_page.md)
-### [Follow](./Follow_page.md)
-### [Backup](./Backup.md)
 ### [Emergency Messages](./Emergency.md)
-### [Update xDrip](./Updates.md)
-### [Display](./Display/Display.md)
 ### [Dexcom](./Dexcom_page.md)
 ### [Watches](./Watches.md)
    
