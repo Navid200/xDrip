@@ -8,6 +8,6 @@ If you have done this already and have created an alternative subdomain as well,
   
 Now, run "Install Nightscout phase 2" from the Google Cloud setup submenu.  
   
-You will be given the option to change your ASPI_SECRET.  You don't have to change it.  
+You will be given the option to change your API_SECRET.  You don't have to change it.  
 Then, you will be asked to identify the subdomain you want to use.  Choose the one you want to switch to.  
 After the setup completes, you will be asked to restart the server.  After you do that, your Nightscout will be on your new hostname.  
