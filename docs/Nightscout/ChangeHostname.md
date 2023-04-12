@@ -3,7 +3,7 @@
   
 Assuming you already have a working Nightscout following our [instructions](./GoogleCloud.md), and all you want to do is to change the hostname, this page explains how to do it.  
 
-You first need to log into your FreeDNS account and choose a domain and create a subdomain as described [here](./FreeDNS).  
+You first need to log into your FreeDNS account and choose a domain and create a new subdomain as described [here](./FreeDNS).  
 If you have done this already and have created an alternative subdomain as well, you can skip this step.  
   
 Now, run "Install Nightscout phase 2" from the Google Cloud setup submenu.  
