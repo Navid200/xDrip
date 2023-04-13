@@ -7,7 +7,7 @@ How to [install](./Install.md).
   
 | Release | Notes |  
 |---------|-------|  
-| [2023.04.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.13) | 7 |  
+| [2023.04.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.13) | QR code export - 4-digt txid - 7 |  
 | [2023.04.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.11) | Don't start G6 (Dex1) before connection |  
 | [2023.04.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.10) | Medtrum prediction - power efficiency |  
 | [2023.04.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.08) | Linear ascending volume - selective wake workaround |  
