@@ -40,6 +40,7 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 #### [Change G6, or Dex1, Slot Number (advanced)](./G6_slot.md)
 #### [Hard reset](./Hard-Reset.md)
 #### [What not to do!](./What-not-to-do.md)
+#### [Use G7 experimental](./Dexcom/G7.md)
 <br/>  
   
 ---  
