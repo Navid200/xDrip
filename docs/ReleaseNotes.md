@@ -3,7 +3,7 @@
   
 Major releases are identified here with brief descriptions.  
 How to [update](./Updates.md).  
-How to [install](./Install.md).  
+How to [download and install](./Installation_page.md).  
   
 | Release | Notes |  
 |---------|-------|  
