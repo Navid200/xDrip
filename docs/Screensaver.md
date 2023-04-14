@@ -1,5 +1,5 @@
 ## Screensaver
-[xDrip](../README.md) >> [Features](./Features_page) >> [Display](./Display/Display) >> Screensaver  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> Screensaver  
   
 You can set xDrip as the screen saver on your phone.  
 Then, when it is being charged, you can see your readings on screen continuously even when the phone is locked.  
