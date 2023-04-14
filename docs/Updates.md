@@ -49,5 +49,5 @@ When you tap on the top right menu button on the main screen and tap on "Check f
   
 ---  
   
-#### [Why nothing happens when I check for updates?](./NoUpdate)
+#### [Why nothing happens when I check for updates?](./NoUpdate.md)
   
