@@ -16,9 +16,9 @@ In such a case, you should disable the notifications for one of the two apps.
 3- Give xDrip notification access.  When you enable Companion app mode, you will be offered the opportunity to give that permission to xDrip.  If you didn't grant permission, this is how you can do it later.  
 Go to Android settings on your phone.  Perform a search and search for notification access.  Android will find and show you the setting.  Tap on it.  Enable xDrip.  
 ![](./images/NoteAccess.png)  
-<br/>  
   
 4- Set xDrip to use the same [unit](./Display/Units_HiLow.md) for blood glucose that your companion app is set to, mmol/L or mg/dL.  
+<br/>  
   
 ---  
   
