@@ -6,17 +6,19 @@ For example, if you have CamAPS installed and operational, you can have xDrip on
 Similarly, if you have a Dexcom app installed collecting from a transmitter, you can use the Companion App feature to receive readings from the Dexcom app.  
 This feature does not require internet access.  
   
-For this to work, you need to have notifications showing on your phone from the other app.  Pull down from the top of the screen on your phone to see all the notifications.  
+1- You need to have notifications showing on your phone from the other app.  Pull down from the top of the screen on your phone to see all the notifications.  
 If you have more than one app showing notifications containing blood glucose values, xDrip will have no way to distinguish and select one and not the other.  That scenario is not tested and not recommended.  
 In such a case, you should disable the notifications for one of the two apps.  
   
-To use it, enable Companion App on the Hardware Data Source page.  
+2- Enable Companion App on the Hardware Data Source page.  
 ![](./images/CompanionApp.png)  
   
-You need to give xDrip notification access.  When you enable Companion app mode, you will be offered the opportunity to give that permission to xDrip.  If you didn't grant permission, this is how you can do it later.  
+3- Give xDrip notification access.  When you enable Companion app mode, you will be offered the opportunity to give that permission to xDrip.  If you didn't grant permission, this is how you can do it later.  
 Go to Android settings on your phone.  Perform a search and search for notification access.  Android will find and show you the setting.  Tap on it.  Enable xDrip.  
 ![](./images/NoteAccess.png)  
 <br/>  
+  
+4- Set xDrip to use the same [unit](./Display/Units_HiLow.md) for blood glucose that your companion app is set to, mmol/L or mg/dL.  
   
 ---  
   
