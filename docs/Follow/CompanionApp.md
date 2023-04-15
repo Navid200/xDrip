@@ -17,7 +17,7 @@ In such a case, you should disable the notifications for one of the two apps.
 Go to Android settings on your phone.  Perform a search and search for notification access.  Android will find and show you the setting.  Tap on it.  Enable xDrip.  
 ![](./images/NoteAccess.png)  
   
-4- Set xDrip to use the same [unit](./Display/Units_HiLow.md) for blood glucose that your companion app is set to, mmol/L or mg/dL.  
+4- Set xDrip to use the same [unit](../Display/Units_HiLow.md) for blood glucose that your companion app is set to, mmol/L or mg/dL.  
 <br/>  
   
 ---  
