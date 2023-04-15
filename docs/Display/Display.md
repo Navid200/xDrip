@@ -16,4 +16,3 @@ You can customize what xDrip shows.
 #### [Trend Arrow](./TrendArrow.md)
 #### [Exclude a reading](./ExcludeReading.md)
   
-  
