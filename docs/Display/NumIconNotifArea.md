@@ -3,6 +3,7 @@
   
 On some phones, you can show the glucose reading in the notification area even when xDrip is minimized.  
 To set this up, go to Settings &#8722;> xDrip+ Display Settings &#8722;> Number icon in Notification Area.  
+![](./images/Menu_NumIconNotifArea.png)  
   
 On that page, test it first.  Enable "Number Icon tested".  
 Enable "Show small number icon".  
