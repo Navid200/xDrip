@@ -3,6 +3,7 @@
   
 You can customize what xDrip shows.  
   
+#### [Units](./Units_HiLow.md)
 #### [Legend](../Legend.md)
 #### [Time range](../TimeButtons.md)
 #### [Glucose range](./GlucoseRange.md)
