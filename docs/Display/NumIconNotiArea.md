@@ -1,5 +1,5 @@
-## Trend Arrow
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Display](./Display) >> Trend Arrow  
+## Number Icon in Notification Area
+[xDrip](../../README.md) >> [Features](../Features_page) >> [Display](./Display) >> Number icon in notification area  
   
 The trend arrow is shown on the main screen on the right beside the current reading.  The direction of the arrow represents the difference between the current reading and the previous.  
 You can customize the trend arrow.  
