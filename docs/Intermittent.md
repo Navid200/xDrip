@@ -15,7 +15,7 @@ It is hard to provide instructions for all available brands and models of handse
 #### [G6 or Dex1](./G6-Recommended-Settings.md)
 #### 3. Disable any battery optimization/adaptation settings you can find under Android Settings &#8722;> Battery.
 #### 4. Look at Bluetooth Battery Optimization [here](./Dexcom-Basics.md).  Set it to not optimized or unrestricted.
-#### 5. If problems persist, for a Samsung, enable "Special Pairing Workaround".
-#### 6. If you still get a disconnect more than once a month, try disabling "Avoid Scanning".
+#### 5. If it keeps unpairing, try enabling "Special Pairing Workaround" even if you are not using a Samsung.
+#### 6. If you still get a disconnect more than once a month, try disabling "Avoid Scanning". 
 #### 7. If the problem persists, please [open a discussion](https://github.com/NightscoutFoundation/xDrip/discussions) (not an issue).
   
