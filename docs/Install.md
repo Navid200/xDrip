@@ -12,6 +12,7 @@ Enable "Allow from this source" and go back.  Now, you will see this:
 ![](./images/WantToInstall.png)  
   
 Tap on "Install".  
+<br/>  
   
 Or, you may see this:  
 ![](./images/UnsafeAppBlocked1.png)  
