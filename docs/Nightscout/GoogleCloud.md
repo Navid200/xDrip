@@ -9,6 +9,13 @@ Thanks to tzachi-dar, senior xDrip developer, for ideas, development of critical
   
 ---  
   
+####        **<span style="color:red">FreeDNS is down</span>****  
+  
+You will not be able to perform an installation.  Please be patient.  
+<br//>  
+  
+---  
+  
 ####          **Introduction**  
 You will need a credit card to set up billing.  However, it will be free if you meet the [requirements](./NS_FreeTier).  
   
