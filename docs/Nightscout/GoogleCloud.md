@@ -5,14 +5,6 @@
 Thanks to JamOrHam, the current xDrip lead developer, for the idea, putting it together, implementing the installer, testing everything, and providing instructions.  
 
 Thanks to tzachi-dar, senior xDrip developer, for ideas, development of critical code, and for providing support.  
-<br/>   
-  
----  
-  
-####        **<span style="color:red">FreeDNS is down</span>**  
-  
-You will not be able to perform an installation.  Please be patient.  
-If your Nightscout is working, please postpone any updates or modifications to when FreeDNS is back up and this note is removed from this page.  
 <br/>  
   
 ---  
