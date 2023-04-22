@@ -3,6 +3,7 @@
   
 You can adjust the voltage level that xDrip provides a warning for.  
 To do that, go to Settings &#8722;> G5/G6/Dex1 Debug Settings &#8722;> Adjust battery warning level  
+![](./images/BatteryWarning.png)  
   
 For a G6, it is safe to set it to 285.  
   
