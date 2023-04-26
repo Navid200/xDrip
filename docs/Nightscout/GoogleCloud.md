@@ -91,3 +91,5 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Malfunctioning applications](./Auth_Default_Roles.md)
 #### [Development branch of Nightscout fails](./NightscoutDevBranch.md)
 #### [Cannot connect - full disk](./FullDisk.md)
+  
+  
