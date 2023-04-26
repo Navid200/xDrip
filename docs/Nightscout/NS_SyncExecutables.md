@@ -72,4 +72,4 @@ Then, please run "Install Nightscout phase 2" from the Google Cloud setup submen
   
 #### **Startup dependence on FreeDNS site**
 If you see "Startup Dependence on FreeDNS" on the status page as shown below, please run "Install Nightscout phase 2".  
-![](StartFreeDNS_dependence.png)  
+![](./images/StartFreeDNS_dependence.png)  
