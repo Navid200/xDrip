@@ -1,6 +1,8 @@
 ## Nightscout on Google Cloud release notes
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >> Release notes  
   
+The development and stable branches are explained [here](./Branches.md).  
+  
 | Release | Notes | Status page |  
 |---------|-------| ----------- |  
 | 2023.04.26 | **<span style="color:orange">Dev release</span>** <br/>FreeDNS site failure contingency | |  
