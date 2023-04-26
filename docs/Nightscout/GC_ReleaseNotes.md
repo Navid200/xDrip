@@ -3,9 +3,10 @@
   
 | Release | Notes | Status page |  
 |---------|-------| ----------- |  
-| 2023.03.19 | **<span style="color:orange">Dev release</span>** <br/>Single quote variables | |  
+| 2023.04.26 | **<span style="color:orange">Dev release</span>** <br/>FreeDNS site failure contingency | |  
+| 2023.03.19 | **<span style="color:orange">Stable release</span>** <br/>Single quote variables | |  
 | 2023.02.28 | Backup variables also | |  
-| 2023.02.20 | **<span style="color:orange">Stable release</span>** <br/>FreeDNS dialog update | |  
+| 2023.02.20 | FreeDNS dialog update | |  
 | 2023.02.15 | Log copy Nightscout | ![](./images/Feb152023StatusP.png) |  
 | 2023.02.11 | Detect incomplete update |  |  
 | 2023.01.30 | Development branch setup |  |  
