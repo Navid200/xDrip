@@ -1,7 +1,7 @@
 ## How to use Google Cloud Nightscout menus
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >> How to use menus  
   
-Menus are used so that you can accomplish everything you need without having to deal with Linux command entry.  The following shows one of the menus.  
+Menus are available on Google Cloud Nightscout so that you can accomplish everything you need without having to deal with Linux command entry.  The following shows one of the menus.  
 ![](./images/Menus.png)  
   
 There are two different areas on the menu.  One is at the top containing the different parameters that can be entered identified with an orange enclosing marker.  
