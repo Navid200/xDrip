@@ -19,6 +19,7 @@ If your browser asks permission to open a window, grant it.  If your browser is 
   
 Be patient as it may take a few seconds for the terminal to come up.  
 ![](./images/TerminalBlank.png)  
+  
 If you have completed installation already, a menu will come up in the terminal.  
 ![](./images/Menu.png)  
 If you need to use the terminal (shell), you can close the menu (exit to shell).  
