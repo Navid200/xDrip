@@ -1,7 +1,7 @@
 ## Virtual machine terminal
 [xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Google Cloud](./GoogleCloud) >> Terminal  
   
-You can access a Linux terminal on your virtual machine if you have [installed Linux](./NS_Install).  
+You can access a Linux terminal on your virtual machine if you have completed the [installation](./NS_Install).  
   
 If you have logged out, go to [Google Cloud](https://cloud.google.com/) and sign in using your Google account.  
 Click on Console.  
