@@ -42,10 +42,10 @@ Go to xDrip Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API).
 Enable at the top.  
 
 Let's say the subdomain you chose, when you signed up for FreeDNS, and the domain you chose it in was <span style="color:green">justaname\.chickenkiller\.com</span>.  
-If you've forgotten what it is, you can log into FreeDNS and go to subdomains, or on Google Cloud Nightscout status page, check [Hostname and password](./Hostname.md).  
+If you've forgotten what the hostname is, follow these [instructions](./Hostname.md).  
   
 And let's say you set the API secret, while finalizing the Nightscout installation as explained previously, to <span style="color:orange">ThisIsMyPassword</span>.  
-If you've forgotten the password, you can see it on the first line of the nsconfig file ([Variables](./NS_Variables)), or on Google Cloud Nightscout status page, check [Hostname and password](./API_SECRET.md).  
+If you've forgotten the password (API_SECRET), follow these [instructions](./API_SECRET.md).  
   
 Tap on Base URL.  Enter the following.  
 https://<span style="color:orange">ThisIsMyPassword</span>@<span style="color:green">justaname\.chickenkiller\.com</span>/api/v1/  
