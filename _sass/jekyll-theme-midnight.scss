@@ -392,7 +392,7 @@ box-shadow: inset 0px 0px 0px rgba(245,185,45,1), 0px 2px 15px rgba(245,185,45,1
 .bd-search .form-control {
       margin-top: 16px;
       margin-right: 8px;
-      max-width: 60px;
+      max-width: 54px;
       max-height: 18px;
 	font-size:13.6px;
 	color:#dddddd;
@@ -400,7 +400,7 @@ box-shadow: inset 0px 0px 0px rgba(245,185,45,1), 0px 2px 15px rgba(245,185,45,1
 	border-radius:12px;
 	border:1px solid #888888;
       float: right;
-      padding: 0px 5px 2px 5px;
+      padding: 0px 5px 2px 10px;
       &:hover {
 box-shadow: inset 0px 0px 0px rgba(240,180,40,1), 0px 0px 6px rgba(240,180,40,1);
       }
