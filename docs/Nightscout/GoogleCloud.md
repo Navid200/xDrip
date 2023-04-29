@@ -78,6 +78,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Will this work in Australia or China?](./AustraliaChina.md)
 #### [Why have I been charged?](./Crawlers.md)
 #### [What is my hostname?](./Hostname.md)
+#### [What is my API_SECRET?](./API_SECRET.md)
 <br/>  
   
 ---  
