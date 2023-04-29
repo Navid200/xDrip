@@ -4,15 +4,13 @@
 ### Request for Help  
 If you need help using xDrip, please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  
 include the following in the first post.  
-- What device is attached to the sensor. For example, Dexcom G6, or MIAOMIAO.  
-- Is xDrip the collector or a follower?  
-- If the collector, what brand and model is the phone, and what Android version is on the phone?  
-- If a follower, what follower scheme is used?  
+- What device is attached to the sensor. For example, Dexcom G6, or MIAOMIAO.   
+- What brand and model is the phone, and what Android version is on the phone?  
 - A snapshot of the system status page (you can blackout serial numbers)  
 - A snapshot of the Hardware Data Source page  
 
 Include a short description of what is wrong. For example "No readings", or "Sensor Stopped".  
-Also, state if there is something that has changed. For example, is this a new phone, or did you recently receive an Android patch, if the problem only occurs with a particular release of xDrip, or if you are new to xDrip, or if a new sensor started the issue.  
+Also, state if there is something that has changed. For example, is this a new phone, did you recently receive an Android patch, if the problem only occurs with a particular release of xDrip, if you are new to xDrip, or if a new sensor started the issue.  
 
 **<span style="color:red">Please don't open an issue.</span>**  
 Please allow us to manage the issues.  There used to be too many issues opened up by users.  Many could just be addressed by using xDrip differently.  In the meantime, there were always too many open issues and there was no way for the developers to know which ones were real.  
