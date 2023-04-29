@@ -1,5 +1,5 @@
-## Nightscout on Google Cloud  
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> Nightscout on Google Cloud  
+## Google Cloud Nightscout  
+[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> Nightscout on Google Cloud  
   
 ####          **Credits**  
 Thanks to JamOrHam, the current xDrip lead developer, for the idea, putting it together, implementing the installer, testing everything, and providing instructions.  
@@ -10,7 +10,7 @@ Thanks to tzachi-dar, senior xDrip developer, for ideas, development of critical
 ---  
   
 ####          **Introduction**  
-You will need a credit card to set up billing.  However, it will be free if you meet the [requirements](./NS_FreeTier).  
+You will need a credit card to set up billing.  However, it will be free if you meet the [requirements](./NS_FreeTier.md).  
   
 To complete installation, you will need to go through the first 5 items on the list below.  You will need to use menus.  [This](./HowToMenu.md) explains what to expect when using the menus.  If you have followers, you will also need to complete item 6 after.  
 It will take a while (about 90 minutes) to complete the entire setup.  
