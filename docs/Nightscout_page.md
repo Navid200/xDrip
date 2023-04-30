@@ -1,5 +1,5 @@
 # xDrip & Nightscout  
-[xDrip](../README.md) >> [Features](./Features_page) >> xDrip & Nightscout  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> xDrip & Nightscout  
   
 Nightscout can be a repository of all your xDrip readings.  
 Your readings are important because you need them to create a report for your endocrinologist.  
