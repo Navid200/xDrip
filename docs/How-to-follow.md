@@ -28,6 +28,6 @@ If you use CamAPS or the official Dexcom app as the collector, you can use xDrip
 This option lacks back-fill capability.  There is a workaround for that, which may work for some phones with Android 12 or newer.  
 <br/>  
   
-### **Web Follower** (needs internet)  
-If you use Libre 3, you can use this [option](./Libre3_Follow.md) to have readings in xDrip.  
+### **[Web Follower](./Libre3_Follow.md)** (needs internet)  
+If you use Libre 3, you can use this option to have readings in xDrip.  
   
