@@ -14,5 +14,5 @@ Give yourself some time to complete everything.  It's not something you can do i
 These are instructions and tips for setting up [Nightscout on Google Cloud](./Nightscout/GoogleCloud.md).  
   
 If you have Nightscout already set up, how to set up xDrip as an uploader (master) is explained [here](./Nightscout-Settings.md).  
-If you want to use xDrip to follow an existing Nightscout site, you can use [this](./Follow/FollowNightscout.md).  
+How to use xDrip to follow an existing Nightscout site is explained [here](./Follow/FollowNightscout.md).  
   
