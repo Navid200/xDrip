@@ -14,11 +14,9 @@ Tap on Settings &#8722;> Nightscout Follow URL, and enter https<nolink>://Token@
 <br/>  
   
 ### **Dex Share Follower** (needs internet)  
-This is an option if the master must be a Dexcom app, for example, if the master is an iPhone.  
-
+This is an option if the master must be a Dexcom app.  
+  
 On the follower, tap on Settings &#8722;> Hardware Data Source &#8722;> Dex Share Follower.  
-Tap on Settings &#8722;> Share Username, to enter username.  
-Tap on Settings &#8722;> Share Password, to enter the Dex share password.  
 <br/>  
   
 ### **[Follow](./DexcomAppxDrip.md) Build your own Dexcom app**  
