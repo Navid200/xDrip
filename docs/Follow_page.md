@@ -14,5 +14,4 @@ There are several options for following someone’s readings as well as using xD
 <br/>  
   
 #### [xDrip sync not working](./xDrip-Sync-not-working.md)
-#### [Dexcom share not working](./Dexcom-share-delta-format-change.md)
 #### [Follow multiple people](./Variants.md)
