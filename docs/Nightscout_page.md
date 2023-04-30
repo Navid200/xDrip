@@ -3,7 +3,7 @@
   
 Nightscout can be a repository of all your xDrip readings.  
 Your readings are important because you need them to create a report for your endocrinologist.  
-You yourself may like to create reports for different time periods in order to examine how your control has changed over long periods of time.  
+You may like to create reports for different time periods in order to examine how your control has changed over long periods of time.  
 Without a repository, all your readings will be on your phone.  What happens if you lose your phone or if your phone is broken?  
   
 In addition, you can also use Nightscout as a server for your followers.  
@@ -13,5 +13,6 @@ Give yourself some time to complete everything.  It's not something you can do i
 
 These are instructions and tips for setting up [Nightscout on Google Cloud](./Nightscout/GoogleCloud.md).  
   
-If you have Nightscout already set up, how to set up xDrip as an uploader (master) is explained [here](./Nightscout-Settings.md).    
+If you have Nightscout already set up, how to set up xDrip as an uploader (master) is explained [here](./Nightscout-Settings.md).  
+If you want to use xDrip to follow an existing Nightscout site, you can use [this](./Follow/FollowNightscout.md).  
   
