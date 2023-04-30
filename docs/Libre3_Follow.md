@@ -1,5 +1,5 @@
-## Follow Libre 3
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Follow](./Follow_page.md) >> Libre 3  
+## Web Follower Libre 3
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Follow](./Follow_page.md) >> Web Follower for Libre 3  
   
 1- Set up the official link-up follower app.  
 2- Register an email address and password.  
