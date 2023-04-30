@@ -4,7 +4,7 @@
 There are several options for following someone’s readings as well as using xDrip to see your readings while using another app as the collector.  
     
 #### [xDrip Sync](./xDripSync.md)
-#### [Nightscout](./Nightscout_page.md)
+#### [Nightscout](./Follow/FollowNightscout.md)
 #### [Companion App](./Follow/CompanionApp.md)
 #### [Web Follower for Libre 3](./Libre3_Follow.md)
 #### [BYODA](./DexcomAppxDrip.md)
