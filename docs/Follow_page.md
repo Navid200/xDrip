@@ -8,8 +8,10 @@ There are several options for following someone’s readings as well as using xD
 #### [Companion App](./Follow/CompanionApp.md)
 #### [Web Follower for Libre 3](./Libre3_Follow.md)
 #### [BYODA](./DexcomAppxDrip.md)
+<br/>  
   
 #### [Comparison of follow schemes](./How-to-follow.md)
+<br/>  
   
 #### [xDrip sync not working](./xDrip-Sync-not-working.md)
 #### [Dexcom share not working](./Dexcom-share-delta-format-change.md)
