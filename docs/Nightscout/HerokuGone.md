@@ -15,7 +15,7 @@ Now, you will have the mongodump.exe file inside the uncompressed folder at: Des
   
 ---  
   
-#### **Note Atlas userID and password**  
+#### **Get mongodump command parameters**  
 You will need the email address and password associated with your Atlas account.  We all had to sign up in 2020.  
 Go to [mongodb](https://www.mongodb.com/home) and sign in.  In the left pane, click on Database Access.  
 ![](./images/Atlas_dbAccess.png)  
@@ -27,7 +27,11 @@ On the right, click on "Edit".
 You will be taken to the page shown below.  
 ![](./images/Atlas_pass.png)  
 If you don't remember the password (this is not the password you use to log into Atlas) or if your password contains special characters, click on Edit Password and change the password.  Take note of the password because you will need it later.  
+<br/>  
   
+---  
+  
+#### **Get mongodump command string**  
 In the left pane, click on "Database" to go back to the main page.  Click on the 3-dot menu button and click on "Command Line Tools" as shown in the following image.  
 ![](./images/Atlas_CLTools.png)  
   
@@ -35,11 +39,10 @@ Under "Binary Import and Export Tools", copy the mongodump string.  You can do t
 ![](./images/mongodump.png)  
 <br/>  
   
----  
+---    
   
 #### **mondodump**  
-Open a "Windows Terminal" by right clicking on Start.    
-<br/>  
+Open a "Windows Terminal" by right clicking on Start.  
   
 Paste the mongodump string you copied, from the binary import and export tools, into the terminal.  It will be similar to what is shown in the followiong figure.  
 ![](./images/dumpPaste.png)  
