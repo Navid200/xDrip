@@ -6,8 +6,8 @@ If you need help using xDrip, please post in [discussions](https://github.com/Ni
 include the following in the first post.  
 - What device is attached to the sensor. For example, Dexcom G6, or MIAOMIAO.   
 - What brand and model is the phone, and what Android version is on the phone?  
-- A snapshot of the system status page (you can blackout serial numbers)  
-- A snapshot of the Hardware Data Source page  
+- A screenshot of the system status page (you can blackout serial numbers)  
+- A screenshot of the Hardware Data Source page  
 
 Include a short description of what is wrong. For example "No readings", or "Sensor Stopped".  
 Also, state if there is something that has changed. For example, is this a new phone, did you recently receive an Android patch, if the problem only occurs with a particular release of xDrip, if you are new to xDrip, or if a new sensor started the issue.  
