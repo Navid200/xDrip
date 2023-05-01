@@ -13,7 +13,8 @@ It is hard to provide instructions for all available brands and models of handse
 #### 2. Start from the recommended settings:
 #### [G5](./G5-Recommended-Settings.md)
 #### [G6 or Dex1](./G6-Recommended-Settings.md)
-#### 3. Disable any battery optimization/adaptation settings you can find under Android Settings &#8722;> Battery.
+#### 3. Disable any battery optimization/adaptation settings you can find under Android Settings &#8722;> Battery.  
+For example, for Samsung, go to Settings &#8722;> Device care &#8722;> Battery, and disable "Power saving".  Then, tap on "Background usage limits", and disable "Put unused apps to sleep".  
 #### 4. Look at Bluetooth Battery Optimization [here](./Dexcom-Basics.md).  Set it to not optimized or unrestricted.
 #### 5. If it keeps unpairing, try enabling "Special Pairing Workaround" even if you are not using a Samsung.
 #### 6. If you still get a disconnect more than once a week, try disabling "Avoid Scanning". 
