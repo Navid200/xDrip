@@ -4,6 +4,10 @@
 Even though Heroku is not free any longer, you can still transfer your database for free as it is on Atlas and not Heroku.  This page explains how to do it.  
 In order to transfer a database from Atlas, you need to have already completed Nightscout [installation](./NS_Install.md).  
   
+First, you need to use mongodump to get a backup of your database.  Let's assume you want to do that using Windows.  Download the Database tools MSI installer zip file from [this](https://www.mongodb.com/docs/database-tools/installation/installation-windows/) page.  
+Let's say you download to your desktop.  
+Extract all.  Now, you will have the mongodump.exe file inside the uncompressed folder at: Desktop/mongodb-database-tools-windows-x86_64-100.7.0/mongodb-database-tools-windows-x86_64-100.7.0/bin/mongodump.exe.  We will use this later.  
+  
 You will need the email address and password associated with your Atlas account.  We all had to sign up in 2020.  
 Go to [mongodb](https://www.mongodb.com/home) and sign in.  In the left pane, click on Database Access.  
 ![](./images/Atlas_dbAccess.png)  
@@ -19,7 +23,7 @@ If you don't remember the password (this is not the password you use to log into
 In the left pane, click on "Database" to go back to the main page.  Click on the 3-dot menu button and click on "Command Line Tools" as shown in the following image.  
 ![](./images/Atlas_CLTools.png)  
   
-Under "Binary Import and Export Tools", copy the mongodump string.  You can do that by clicking on the copy symbol on the right side of the sring, as marked in the image below.  
+Under "Binary Import and Export Tools", copy the mongodump string.  You can do that by clicking on the copy symbol on the right side of the string, as marked in the image below.  
 ![](./images/mongodump.png)  
   
 Open a [terminal](./Terminal.md).  Exit the menu.  Enter the following into the terminal.  
