@@ -1,13 +1,8 @@
 ## Custom Alert Sound  
-[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip Alerts](./Alerts_page) >> Custom Alert Sound  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip Alerts](./Alerts_page.md) >> Custom Alert Sound  
   
-The issue described below is now resolved.  As long as you use an xDrip release of September 1, 2022 or newer, you will be able to select a custom sound file regardless of where on your phone the file is located.  
-<br/>  
-<br/>  
+You can choose a custom sound to be used for your alert.  Alternatively, you can add a sound file to become one of your system stound files as explained below.  
   
----  
-  
-**Workaround**  
 Place your mp3 sound file in the Notifications folder on your internal storage.  If the folder does not exist, create one.  
 ![](./images/NotificationsFolder.png)  
 You need to know the title of the sound clip, which may be different than the filename.  In order to know the sound clip title, play it using a music player on your phone.  
