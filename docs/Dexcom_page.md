@@ -31,7 +31,7 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 #### **How to**
 #### [Start G6 (or Dex1)](./Starting-G6.md)
 #### [Use Dexcom One](./Dexcom-One.md)
-#### [Calibrate G6, or Dex1](./Calibrate-G6)
+#### [Calibrate G6, or Dex1](./Calibrate-G6.md)
 #### [Please report unknown firmware!](./Report-firmware.md)
 #### [Restart G6, or Dex1](./Restart-G6-sensor.md)
 #### [Remove a G6, or Dex1, transmitter from sensor](./Remove-transmitter.md)
