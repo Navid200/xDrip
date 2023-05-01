@@ -3,11 +3,19 @@
   
 Even though Heroku is not free any longer, you can still transfer your database for free as it is on Atlas and not Heroku.  This page explains how to do it.  
 In order to transfer a database from Atlas, you need to have already completed Nightscout [installation](./NS_Install.md).  
+<br/>  
   
+---  
+  
+#### **Get mongodump.exe**  
 First, you need to use mongodump to get a backup of your database.  Let's assume you want to do that using Windows.  Download the Database tools MSI installer zip file from [this](https://www.mongodb.com/docs/database-tools/installation/installation-windows/) page.  
-Let's say you download to your desktop.  
-Extract all.  Now, you will have the mongodump.exe file inside the uncompressed folder at: Desktop/mongodb-database-tools-windows-x86_64-100.7.0/mongodb-database-tools-windows-x86_64-100.7.0/bin/mongodump.exe.  We will use this later.  
+Let's say you download to your desktop.  Extract all.  
+Now, you will have the mongodump.exe file inside the uncompressed folder at: Desktop/mongodb-database-tools-windows-x86_64-100.7.0/mongodb-database-tools-windows-x86_64-100.7.0/bin/mongodump.exe.  We will use this later.  
+<br/>  
   
+---  
+  
+#### **Note Atlas userID and password**  
 You will need the email address and password associated with your Atlas account.  We all had to sign up in 2020.  
 Go to [mongodb](https://www.mongodb.com/home) and sign in.  In the left pane, click on Database Access.  
 ![](./images/Atlas_dbAccess.png)  
@@ -25,12 +33,12 @@ In the left pane, click on "Database" to go back to the main page.  Click on the
   
 Under "Binary Import and Export Tools", copy the mongodump string.  You can do that by clicking on the copy symbol on the right side of the string, as marked in the image below.  
 ![](./images/mongodump.png)  
+<br/>  
   
-Open a [terminal](./Terminal.md).  Exit the menu.  Enter the following into the terminal.  
+---  
   
-```  
-cd /tmp
-```  
+#### **mondodump**  
+Open a "Windows Terminal" by right clicking on Start.    
 <br/>  
   
 Paste the mongodump string you copied, from the binary import and export tools, into the terminal.  It will be similar to what is shown in the followiong figure.  
