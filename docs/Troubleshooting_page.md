@@ -10,7 +10,6 @@ If you are experiencing problems using xDrip, some possible issues, and suggeste
 #### [IoB does not show consistently](./IoB_not_showing.md)
 #### [Why do I get xDrip imported AAPS profile pop-up?](./AAPS_ProfileImportNotification.md)
 #### [Bluetooth headphone interruption](./Bluetooth-headphone-interruption.md)
-#### [Custom sound/alarm grayed out](./Custom-sound-grayed-out.md)
 #### [Database restore failure](./Database-restore-failure.md)
 #### [Alert re-raise malfunction](./Alert-re‐raise-malfunction.md)
 #### [xDrip sync not working](./xDrip-Sync-not-working.md)
