@@ -7,7 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
-| [2023.05.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.02) | Falling and rising fast alert name and unit updated to represent a rate |  
+| [2023.05.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.02) | Falling and rising fast alert names and units updated to represent rates |  
 | [2023.04.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.24) | No more Dex G4 - Scan for glucose meter fix |  
 | [2023.04.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.13) | Keks update - QR code export - 4-digt txid - G7 (experimental) |  
 | [2023.04.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.11) | Don't start G6 (Dex1) before connection |  
