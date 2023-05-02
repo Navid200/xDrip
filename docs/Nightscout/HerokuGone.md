@@ -52,7 +52,7 @@ Paste the mongodump string you copied, from the binary import and export tools, 
 ![](./images/dumpPaste.png)  
   
 There are three changes you need to make to this.  
-1- Replace mongodump with ./mongodump.exe
+1- Replace mongodump with ./mongodump.exe  
 2- Replace \<PASSWORD\>, including the brackets, with your Atlas database admin password, which excludes special characters.  
 3- Replace \<DATABASE\>, including brackets, with the user name you copied from the Atlas database access page.  
   
