@@ -11,7 +11,7 @@ How to [download and install](./Installation_page.md).
 | [2023.05.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.02) | Falling and rising fast alert names and units updated to represent rates |  
 | [2023.04.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.24) | No more Dex G4 - Scan for glucose meter fix |  
 | [2023.04.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.13) | Keks update - QR code export - 4-digt txid - G7 (experimental) |  
-| [2023.04.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.11) | Don't start G6 (Dex1) before connection |  
+| [2023.04.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.11) | Don't start G6 (Dex1) before connection - Lispro |  
 | [2023.04.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.10) | Medtrum prediction - power efficiency |  
 | [2023.04.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.08) | Linear ascending volume - selective wake workaround |  
 | [2023.04.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.07) | CareLink pump status |  
