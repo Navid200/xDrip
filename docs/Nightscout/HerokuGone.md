@@ -65,7 +65,17 @@ Press Enter.
   
 Wait for the export process to complete.  It could take a few minutes.  If it succeeds, you will see something as shown below.  
 ![](./images/ExportSuccess.png)  
+<br/>  
   
+---  
+  
+#### **Transfer to virtual machine**  
+
+<br/>
+  
+---  
+  
+#### **mongorestore**  
 Now, enter the following in the terminal replacing UserName with the user name you copied from the Atlas database access page.  
   
 ```  
