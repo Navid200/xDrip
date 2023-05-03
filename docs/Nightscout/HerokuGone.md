@@ -48,7 +48,7 @@ Under "Binary Import and Export Tools", copy the mongodump string.  You can do t
 Open a "Windows Terminal" after right clicking on Start.  
 Type and enter cd Desktop.  Type cd and press TAB to fill the folder name.  Press ENTER.  Again, Type cd and press TAB and ENTER.  
 Now, type and enter cd bin.  
-Type and enter ls.  You should see the commands including mongosump.exe that we will use as shown below.  
+Type and enter ls.  You should see the commands including mongodump.exe that we will use as shown below.  
 ![](./images/WinMongodumpExe.png)  
   
 Paste the mongodump string you copied, from the binary import and export tools, into the terminal.  It will be similar to what is shown in the followiong figure.  
