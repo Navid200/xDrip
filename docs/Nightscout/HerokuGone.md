@@ -54,7 +54,7 @@ Type and enter ls.  You should see the commands, including mongodump.exe that we
 Paste the mongodump string you copied, from the binary import and export tools, into the terminal.  It will be similar to what is shown in the followiong figure.  
 ![](./images/dumpPaste.png)  
   
-There are three changes you need to make to this.  
+There are three changes you need to make to this string before executing it.  
 1- Replace mongodump with ./mongodump.exe  
 2- Replace \<PASSWORD\>, including the brackets, with your Atlas database admin password, which excludes special characters.  
 3- Replace \<DATABASE\>, including brackets, with the user name you copied from the Atlas database access page.  
