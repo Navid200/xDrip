@@ -61,7 +61,7 @@ There are three changes you need to make to this string before executing it.
   
 What you will have in the terminal after these three changes should look like the following.  
 ![](./images/dumpPasteMod.png)  
-Enter.  
+Press Enter.  
   
 Wait for the export process to complete.  It could take a few minutes.  If it succeeds, you will see something as shown below.  
 ![](./images/ExportSuccess.png)  
