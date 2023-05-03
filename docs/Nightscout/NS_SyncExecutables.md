@@ -73,3 +73,7 @@ Then, please run "Install Nightscout phase 2" from the Google Cloud setup submen
 #### **Startup dependence on FreeDNS site**
 If you see "Startup Dependence on FreeDNS" on the status page as shown below, please run "Install Nightscout phase 2".  
 ![](./images/StartFreeDNS_dependence.png)  
+  
+You will be asked if you want to change API_SECRET.  Just press Escape unless you want to change it.  
+You will be asked for your FreeDNS userID and password.  Enter those.  
+You will be asked to identify the subdomain to use.  Enter the same subdomain you have been using unless you want to change it.  
