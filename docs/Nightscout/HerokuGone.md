@@ -1,5 +1,5 @@
 ## Import data from Heroku Atlas
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Import data from Atlas  
+[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >> Import data from Atlas  
   
 **This page is being edited and is not complete.**  
 Please be patient until this note is removed.  
@@ -10,7 +10,7 @@ In order to transfer a database from Atlas, you need to have already completed N
   
 ---  
   
-#### **Get mongodump.exe**  
+#### **Get mongodump.exe, for Windows**  
 First, you need to use mongodump to get a backup of your database.  Let's assume you want to do that using Windows.  Download the Database tools MSI installer zip file from [this](https://www.mongodb.com/docs/database-tools/installation/installation-windows/) page.  
 Let's say you download to your desktop.  Extract all.  
 Now, you will have the mongodump.exe file inside the uncompressed folder at: Desktop/mongodb-database-tools-windows-x86_64-100.7.0/mongodb-database-tools-windows-x86_64-100.7.0/bin/mongodump.exe.  We will use this later.  
