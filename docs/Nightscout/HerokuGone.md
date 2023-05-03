@@ -44,7 +44,7 @@ Under "Binary Import and Export Tools", copy the mongodump string.  You can do t
   
 ---    
   
-#### **mondodump**  
+#### **mongodump**  
 Open a "Windows Terminal" after right clicking on Start.  
 Type and enter cd Desktop.  Type cd and press TAB to fill the folder name.  Press ENTER.  Again, Type cd and press TAB and ENTER.  
 Now, type and enter cd bin.  
