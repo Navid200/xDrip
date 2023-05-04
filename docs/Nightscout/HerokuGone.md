@@ -80,6 +80,11 @@ Right click the dump folder and select "Compress to ZIP file".  Now, we have a Z
 ---  
   
 #### **mongorestore**  
+We first need to unzip the file we uploaded to the virtual machine.  
+Go to your home directory, where the dump.zip file should be after the upload.  Type unzip dump.zip.  
+If you see the following message, it means that the unzip command is not installed.  
+![](./images/unzipNotInstalled.png)  
+
 Now, enter the following in the terminal replacing UserName with the user name you copied from the Atlas database access page.  
   
 ```  
