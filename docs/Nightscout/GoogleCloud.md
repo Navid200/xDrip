@@ -57,6 +57,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Install Nightscout dev branch](./NightscoutDevBranch.md)
 #### [Create a cost table](./CostTable.md)
 #### [Increase disk size to 30GB](./FullDisk.md)
+#### [Import MongoDB from Atlas](./HerokuGone.md)
 <br/>  
   
 ---  
