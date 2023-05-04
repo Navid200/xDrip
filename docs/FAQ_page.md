@@ -11,7 +11,7 @@
 #### [What is Noise?](./Noise.md)
 #### [What is Calibration and when should I calibrate?](./Calibration.md)
 #### [Where are the Logs?](./Logs.md)
-#### [How to follow](./How-to-follow.md)
+#### [How to follow](./Follow_page.md)
 #### [Show when the sensor expires](./Sensor-Expiry.md)
 #### [Can I create a simple report for my doctor](./Report.md)
 #### [Why is the alert so loud - so quiet?](./Ascending-volume-profile.md)
