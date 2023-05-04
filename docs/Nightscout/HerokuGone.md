@@ -88,8 +88,8 @@ If you see the following message, it means that the unzip command is not install
 If unzip is not installed, type and enter the following two commands in sequence to install it.  
 
 ```  
-sudo apt-get update  
-sudo apt-get install unzip  
+sudo apt-get update
+sudo apt-get install unzip
 ```  
 
 Now, enter the following in the terminal replacing UserName with the user name you copied from the Atlas database access page.  
