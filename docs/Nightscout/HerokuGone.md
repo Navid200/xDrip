@@ -97,12 +97,12 @@ sudo apt-get update
 sudo apt-get install unzip
 ```  
   
+If unzip was not installed and you installed it, run the unzip command again.  The dump folder should be in your home directory.  
   
-
 Now, enter the following in the terminal replacing UserName with the user name you copied from the Atlas database access page.  
   
 ```  
-mongorestore -d Nightscout /tmp/dump/UserName 
+mongorestore -d Nightscout ./dump/UserName 
 ```  
 <br/>  
   
