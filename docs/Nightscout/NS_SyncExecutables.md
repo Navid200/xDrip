@@ -55,7 +55,7 @@ If you see "Missing packages" on the status page as shown below, please run "Upd
 #### **Missing node_modules**
 If you see "Missing node_modules" on the status page as shown below, please run "Install Nightscout phase 1" from the Google Cloud setup submenu.  
 ![](./images/MissNodeModules.png)  
-Please note that if you have [customized Nightscout](./Customize.md), running phase 1 will undo that.  In that case, you can customize again after.  
+Please note that if you have [customized Nightscout](./Customize.md), running phase 1 may undo that.  In that case, you can customize again after.  
 <br/>  
   
 ---  
