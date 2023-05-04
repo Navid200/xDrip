@@ -70,6 +70,8 @@ Wait for the export process to complete.  It could take a few minutes.  If it su
 ---  
   
 #### **Transfer to virtual machine**  
+We now need to transfer the output of mongodump to the virtual machine.  The output is a folder located where we ran the mongodump command.  Use windows explorer and navigate to Desktop\mongodb-database-tools-windows-x86_64-100.7.0\mongodb-database-tools-windows-x86_64-100.7.0\bin.  You should see what shown in the following figure.  
+![](./images/WinMongoDumpOut.png)  
 
 <br/>
   
