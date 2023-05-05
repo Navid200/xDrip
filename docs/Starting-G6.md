@@ -1,5 +1,5 @@
 ## Starting Dexcom G6 or Dexcom ONE
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Starting G6 or ONE  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Starting G6 or Dexcom ONE  
   
 Please be patient and do not rush to tap on "Start Sensor" even if xDrip encourages you to.  Please follow the steps exactly as stated below, in the specified sequence, to avoid common issues.  
 If you see references here to functions you don't recognize, please have a look at [this](./Dexcom-Basics.md).  
@@ -8,7 +8,7 @@ If you have been using the Dexcom app, you need to disable it.  You cannot have 
   
 1.  If you are using an old version of xDrip, [update](./Updates.md) to the current stable release.  
   
-2.  Set "G5/G6 Transmitter" under &nbsp; Settings &#8722;> Hardware Data Source.  
+2.  Set "G5/G6 Transmitter" under &nbsp; Settings &#8722;> [Hardware Data Source](./HardwareDataSource.md).  
   
 3.  Is there a "Start G6 Sensor" stuck in the queue on the G5/G6 status page?  Please note that in the last step when you start sensor, there will be a "Start G6 Sensor" in the queue for one read cycle (up to 5 minutes).  That is expected and does not count as a stuck command.  A stuck command remains in the queue and does not clear.  
 ![](./images/queue-stuck.png)  
@@ -23,7 +23,7 @@ If there is bleeding, after inserting a new sensor, use Q-tips to absorb the blo
   
 6.  If you are starting a new transmitter, enter the new transmitter serial number (Transmitter ID): Settings &#8722;> Dexcom Transmitter ID.     
   
-7.  Clean the transmitter contacts (not if you are restarting sensor) using rubbing alcohol.  Wait for it (10 seconds) to dry.  Snap the transmitter into the sensor.  If you are starting a new transmitter, snapping it into the sensor on your body is required to activate it.  
+7.  Clean the transmitter contacts (not if you are restarting sensor) using rubbing alcohol.  Wait for it (10 seconds) to dry.  You can place a very small amount of [petroleum jelly](./Petroleum-jelly-in-Dexcom-G6-Sensor.md) on the transmitter adjacent to the contacts if you don't see any in the sensor.  Snap the transmitter into the sensor.  If you are starting a new transmitter, snapping it into the sensor on your body is required to activate it.  
   
 8.  Monitor the G5/G6 system status page. Every 5 minutes, a read cycle completes.  
 If you don't have [proper connectivity](./Proper-connectivity.md), don't proceed before figuring out why. Perhaps, your settings are incorrect.  
