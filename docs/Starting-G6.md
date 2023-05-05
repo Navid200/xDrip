@@ -27,7 +27,8 @@ If there is bleeding, after inserting a new sensor, use Q-tips to absorb the blo
   
 8.  Monitor the G5/G6 system status page. Every 5 minutes, a read cycle completes.  
 If you don't have [proper connectivity](./Proper-connectivity.md), don't proceed before figuring out why. Perhaps, your settings are incorrect.  
-If you are starting a new transmitter, be patient and wait for the battery voltages to be populated before you proceed.  It may take up to half an hour.     
+If you are starting a new transmitter, be patient and wait for the battery voltages to be populated before you proceed.  It may take up to half an hour.  
+  
 9.  Start sensor.  Enter the 4-digit calibration code from the sensor adhesive cover when asked. Keep the code. In 2 hours, your readings will start with no need for initial calibrations.  
   
 ---  
