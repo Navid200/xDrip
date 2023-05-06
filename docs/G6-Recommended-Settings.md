@@ -1,5 +1,5 @@
 ## G6 (or Dex1) Recommended Settings  
-[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip & Dexcom](./Dexcom_page) >> G6 recommended settings  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> G6 recommended settings  
   
 Dexcom G6 or Dexcom One recommended settings  
   
