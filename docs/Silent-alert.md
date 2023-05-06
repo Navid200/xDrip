@@ -1,5 +1,5 @@
 ## xDrip Alert makes no sound
-[xDrip](../README.md) >> [Features](./Features_page) >> [Alerts](./Alerts_page) >> Alert makes no sound  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Alerts](./Alerts_page.md) >> Alert makes no sound  
   
 Different factors could result in an alert not making any sound.  The following is a list of such combinations.  
   
