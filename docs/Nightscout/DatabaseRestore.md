@@ -1,5 +1,11 @@
-## Nightscout Database Restore
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Restore  
+---
+layout: GCNS
+title: "Nightscout Restore"
+permalink: "/docs/Nightscout/DatabaseRestore.html"
+---
+
+## Nightscout Restore
+[Google Cloud Nightscout](./GoogleCloud.md) >> Restore  
   
 You must have Nightscout running following [install](./NS_Install.md) instructions for this to work.  
   
