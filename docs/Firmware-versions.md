@@ -1,5 +1,5 @@
 ## Firmware Versions
-[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip & Dexcom](./Dexcom_page) >> Firmware version  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Firmware version  
   
 You can find the first xDrip release that recognizes a new transmitter firmware in the following table.  
 To install, download, and install, the file ending in .apk.  No need to uninstall first.  
