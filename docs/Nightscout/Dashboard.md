@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Dashboard"
+permalink: "/docs/Nightscout/Dashboard.html"
+---
+
 ## Dashboard
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Dashboard  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Dashboard  
   
 Go to the [Google Cloud](https://cloud.google.com/).  
 Sign in.  
