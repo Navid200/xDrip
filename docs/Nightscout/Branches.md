@@ -1,5 +1,11 @@
-## Nightscout on Google Cloud branches
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >> Branches  
+---
+layout: GCNS
+title: "Google Cloud Nightscout branches"
+permalink: "/docs/Nightscout/Nightscout/Branches.html"
+---
+
+## Google Cloud Nightscout branches
+[Google Cloud Nightscout](./GoogleCloud.md) >> Branches  
   
 Nightscout on Google Cloud has two branches that you can choose from to use.  
 This is not about Nightscout itself.  This is about the Google Cloud platform we use for running Nightscout.  
