@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Google Cloud Nightscout"
+permalink: "/docs/Nightscout/GoogleCloud.html"
+---
+
 ## Google Cloud Nightscout  
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> Nightscout on Google Cloud  
+[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> Google Cloud Nightscout  
   
 ####          **Credits**  
 Thanks to JamOrHam, the current xDrip lead developer, for the idea, putting it together, implementing the installer, testing everything, and providing instructions.  
