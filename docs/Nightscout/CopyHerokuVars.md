@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Copy Heroku Variables"
+permalink: "/docs/Nightscout/CopyHerokuVars.html"
+---
+
 ## Copy Heroku Variables
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Copy Heroku Variables  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Copy Heroku Variables  
   
 It's always best to adjust variables/settings for each device/setup individually.  However, there are times you may have too many variables and you prefer to copy everything first.  
     
