@@ -1,5 +1,5 @@
 ## xDrip Sync Follow  
-[xDrip](../README.md) >> [Features](./Features_page) >> [Follow](./Follow_page.md) >> [How to follow with xDrip](./How-to-follow.md) >> xDrip Sync  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Follow](./Follow_page.md) >> [How to follow with xDrip](./How-to-follow.md) >> xDrip Sync  
   
 This page explains how to set up xDrip Sync.  
 This is easy to set up. But, it relies on Google.  It will need Google Play services to be on your phone.  
