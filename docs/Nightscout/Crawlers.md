@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Invoice for egress to China"
+permalink: "/docs/Nightscout/Crawlers.html"
+---
+
 ## Invoice for egress to China
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >>  Invoice for traffic to China  
+[Google Cloud Nightscout](./GoogleCloud.md) >>  Invoice for traffic to China  
   
 *I thought this was supposed to be free.  I followed all the instructions when setting up my site.  
 Yet, I have been invoiced a non-zero value.  Why?*  
