@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Free Trial has ended - Upgrade your account"
+permalink: "/docs/Nightscout/FreeTrialEnd.html"
+---
+
 ## Free Trial has ended - Upgrade your account
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Free Trial End  
+[Google Cloud Nightscout](./GoogleCloud) >> Free Trial End  
   
 You should upgrade Google Cloud to avoid any surprises.  
 If you don't upgrade, you will receive an email notification as shown below when your free trial ends.  Click on "Upgrade now".  
