@@ -1,5 +1,5 @@
 ## Disable Collection  
-[xDrip](../README.md) >> [Features](./Features_page) >> Disable collection  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> Disable collection  
   
 If you want to stop using xDrip without uninstalling it, you can disable collection.  
 To do that, go to Settings &#8722;> Hardware Data Source.  
