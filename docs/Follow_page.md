@@ -1,5 +1,5 @@
 # Follow
-[xDrip](../README.md) >> [Features](./Features_page) >> Follow  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> Follow  
   
 There are several options for following someone’s readings as well as using xDrip to see your readings while using another app as the collector.  
     
