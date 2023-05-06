@@ -1,6 +1,6 @@
 ## Dexcom share delta format change
 
-[xDrip](../README.md) >> [Troubleshooting](./Troubleshooting_page) >> Dexcom share delta format change  
+[xDrip](../README.md) >> [Troubleshooting](./Troubleshooting_page.md) >> Dexcom share delta format change  
   
 The Dexcom share format was changed resulting in failure to use xDrip as a follower.
 This was addressed on December 2, 2021.  
