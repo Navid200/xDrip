@@ -1,5 +1,5 @@
 ## Transfer to a new phone  
-[xDrip](../README.md) >> [Download & Installation](./Installation_page) >> Transfer to a new phone  
+[xDrip](../README.md) >> [Download & Installation](./Installation_page.md) >> Transfer to a new phone  
   
 If you like to have your previous readings on your new phone, this is about how you should do it.  
   
