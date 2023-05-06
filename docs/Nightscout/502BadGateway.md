@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "502 Bad Gateway"
+permalink: "/docs/Nightscout/502BadGateway.html"
+---
+
 ## 502 Bad Gateway
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> 502 Bad Gateway  
+[Google Cloud Nightscout](./GoogleCloud.md) >> 502 Bad Gateway  
   
 Do you get this error when you attempt to access your Nightscout in a browser?  
 <br/>  
