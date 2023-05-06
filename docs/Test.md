@@ -1,3 +1,8 @@
+---
+title: "Test"
+permalink: "/docs/Test.html"
+---
+
 ## Test  
   
 **TEsting**  
