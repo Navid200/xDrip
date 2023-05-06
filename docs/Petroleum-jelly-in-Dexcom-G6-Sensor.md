@@ -1,5 +1,5 @@
 ## Petroleum Jelly in Dexcom G6 Sensor
-[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip & Dexcom](./Dexcom_page) >> Petroleum jelly  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Petroleum jelly  
   
 After inserting the sensor and before snapping in the transmitter, you can see small blobs of petroleum jelly inside the sensor around the contacts.  
 Don't wipe them off. Don't let dust or any other material get into it.  
