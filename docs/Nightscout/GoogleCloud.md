@@ -86,7 +86,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Why have I been charged?](./Crawlers.md)
 #### [What is my hostname?](./Hostname.md)
 #### [What is my API_SECRET?](./API_SECRET.md)
-#### [Where to ask for help?](./NeedHelp.md)
+#### [Where to ask for help?](./GCNS_Support.md)
 <br/>  
   
 ---  
