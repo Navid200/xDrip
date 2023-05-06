@@ -1,5 +1,5 @@
 ## xDrip coexists with Dexcom receiver or t:slim pump  
-[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip & Dexcom](./Dexcom_page) >> xDrip and G6 Receiver  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> xDrip and G6 Receiver  
   
 If you have a t:slim pump, you can start your sensors on the pump, not on xDrip.  
 There is no need to start the same sensor also on xDrip or to enter the calibration code in xDrip.  
