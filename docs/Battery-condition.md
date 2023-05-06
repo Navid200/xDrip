@@ -1,5 +1,5 @@
 ## Transmitter Battery condition
-[xDrip](../README.md) >> [Features](./Features_page) >> [Dexcom](./Dexcom_page) >> Transmitter Battery  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Transmitter Battery  
   
 G6 Battery  
   
