@@ -1,5 +1,5 @@
 ## Smartphone requirements
-[xDrip](../README.md) >> [Download & Installation](./Installation_page) >> Phone requirements  
+[xDrip](../README.md) >> [Download & Installation](./Installation_page.md) >> Phone requirements  
   
 **[Android](./Android.md)**  
 xDrip runs on Android.  
