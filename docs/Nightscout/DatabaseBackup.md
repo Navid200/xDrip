@@ -1,5 +1,11 @@
-## Nightscout Database Backup
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Backup  
+---
+layout: GCNS
+title: "Google Cloud Nightscout Database and variables Backup"
+permalink: "/docs/Nightscout/DatabaseBackup.html"
+---
+
+## Google Cloud Nightscout Database and variables Backup
+[Google Cloud Nightscout](./GoogleCloud.md) >> Backup  
   
 You must have Nightscout running following [install](./NS_Install.md) instructions for this to work.  
   
