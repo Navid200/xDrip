@@ -1,5 +1,5 @@
 ## Report  
-[xDrip](../README.md) >> [Features](./Features_page) >> Report  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> Report  
   
 This explains how you can create a report for your endocrinologist.  
 
