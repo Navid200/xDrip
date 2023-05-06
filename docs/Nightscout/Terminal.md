@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Virtual machine terminal"
+permalink: "/docs/Nightscout/Terminal.html"
+---
+
 ## Virtual machine terminal
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Terminal  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Terminal  
   
 You can access a Linux terminal on your virtual machine if you have completed the setup of your [virtual machine](./VirtualMachine.md).  
   
