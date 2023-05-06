@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Import data from Heroku Atlas"
+permalink: "/docs/Nightscout/HerokuGone.html"
+---
+
 ## Import data from Heroku Atlas
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >> Import data from Atlas  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Import data from Atlas  
   
 Even though Heroku is not free any longer, you can still transfer your database for free as it is on Atlas and not Heroku.  This page explains how to do it.  
 In order to transfer a database from Atlas, you need to have already completed Nightscout [installation](./NS_Install.md).  
