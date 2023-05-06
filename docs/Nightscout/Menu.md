@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Google Cloud Nightscout menu"
+permalink: "/docs/Nightscout/Menu.html"
+---
+
 ## Google Cloud Nightscout menu
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Menu  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Menu  
   
 When you open a [terminal](./Terminal.md), the main menu will automatically come up.  
 ![](./images/Menu.png)  
