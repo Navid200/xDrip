@@ -1,5 +1,5 @@
 ## Dexcom Transmitter Queue  
-[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip & Dexcom](./Dexcom_page) >> Dexcom Transmitter Queue  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Dexcom Transmitter Queue  
   
 The transmitter is only active once every 5 minutes for a very short period of time.  During the rest of the time, the transmitter is silent and inactive.  Otherwise, the batteries would not last as long as they do.  
   
