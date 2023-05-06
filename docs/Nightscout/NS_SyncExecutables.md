@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Update Google Cloud Nightscout platform"
+permalink: "/docs/Nightscout/NS_SyncExecutables.html"
+---
+
 ## Update Google Cloud Nightscout platform
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Update to latest release   
+[Google Cloud Nightscout](./GoogleCloud.md) >> Update to latest release   
   
 We update the Nightscout on Google Cloud platform in order to add functionality and fix issues.  This is how you can update the menus, commands and packages of your virtual machine to the latest.  This is not about updating Nightscout.  If you want to update Nightscout, please have a look at [this](./update_nightscout.md).  
 If you have not completed the [installation](./GoogleCloud.md), please complete it first.  
