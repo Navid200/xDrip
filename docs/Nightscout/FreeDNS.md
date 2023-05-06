@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Free DNS"
+permalink: "/docs/Nightscout/FreeDNS.html"
+---
+
 ## Free DNS
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> FreeDNS  
+[Google Cloud Nightscout](./GoogleCloud.md) >> FreeDNS  
 
 Follow these instructions in order to use FreeDNS, which you will need in order to set up Nightscout on Google Cloud.  
   
