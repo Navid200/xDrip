@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Google Cloud snapshots"
+permalink: "/docs/Nightscout/Snapshots.html"
+---
+
 ## Google Cloud snapshots
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Google Cloud](./GoogleCloud) >> Snapshots  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Snapshots  
   
 You can create a snapshot of the virtual machine disk.  Then, if you experiment and run into trouble, you can always restore the snapshot to return the disk to the way it was when you created the snapshot.
 Of course this means any data added to the database since the snapshot was created will be lost also.  So, you should use this utility taking into account that consequence.  
