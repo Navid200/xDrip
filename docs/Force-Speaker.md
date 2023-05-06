@@ -1,5 +1,5 @@
 ## Force Speaker
-[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip Alerts](./Alerts_page) >> Force speaker  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip Alerts](./Alerts_page.md) >> Force speaker  
   
 Why does the music blast my ears when I am listening to music using my headphones and an alert triggers?  
 
