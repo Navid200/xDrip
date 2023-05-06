@@ -1,7 +1,13 @@
+---
+layout: GCNS
+title: "Virtual Machine"
+permalink: "/docs/Nightscout/VirtualMachine.html"
+---
+
 ## Virtual Machine  
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Virtual Machine  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Virtual Machine  
   
-Here, we will create a free virtual machine in our [Google project](./NS_GCProject).   
+Here, we will create a free virtual machine in our [Google project](./NS_GCProject.md).   
   
 Go to dashboard.  Select "Compute Engine".  Select the "VM instances" tab in the left pane if it's not already selected.  
   
