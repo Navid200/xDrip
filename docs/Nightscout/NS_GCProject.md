@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Google Cloud project"
+permalink: "/docs/Nightscout/NS_GCProject.html"
+---
+
 ## Google Cloud project  
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Google Cloud project  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Google Cloud project  
   
 You will need a Google account, a Google project, and activated billing for the Google project.  We will take care of all that now.  
   
