@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "FreeDNS blocked domains"
+permalink: "/docs/Nightscout/FD_Domains.html"
+---
+
 ## FreeDNS blocked domains
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> FreeDNS blocked domains  
+[Google Cloud Nightscout](./GoogleCloud.md) >> FreeDNS blocked domains  
   
 It may be best to choose a domain that is not too popular.  It has been reported that some hostnames are blocked by some schools and or work networks.  You can have a total of 5 different FreeDNS hostnames for free.  
   
