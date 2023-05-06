@@ -1,3 +1,9 @@
+---
+layout: GCNS
+title: "Restart Nightscout"
+permalink: "/docs/Nightscout/Restart.html"
+---
+
 ## Restart Nightscout
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nighsctout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Restart Nightscout  
   
