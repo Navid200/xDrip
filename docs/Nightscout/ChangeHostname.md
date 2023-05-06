@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "How can I change the hostname?"
+permalink: "/docs/Nightscout/Restart.html"
+---
+
 ## How can I change the hostname?
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Can I change hostname?  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Can I change hostname?  
   
 Assuming you already have a working Nightscout following our [instructions](./GoogleCloud.md), and all you want to do is to change the hostname, this page explains how to do it.  
 
