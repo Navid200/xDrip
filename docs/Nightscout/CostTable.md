@@ -1,5 +1,11 @@
-## Nightscout on Google Cloud Cost Table
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Cost Table  
+---
+layout: GCNS
+title: "Google Cloud Nightscout Cost Table"
+permalink: "/docs/Nightscout/CostTable.html"
+---
+
+## Google Cloud Nightscout Cost Table
+[Google Cloud Nightscout](./GoogleCloud) >> Cost Table  
   
 You can get a categorized list of costs from Google Cloud even before your free trial period ends.  You must have [created a Google Project and activated billing](./NS_GCProject.md) for this to work.  
   
