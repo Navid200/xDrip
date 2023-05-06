@@ -1,5 +1,11 @@
-## Nightscout on Google Cloud release notes
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >> Release notes  
+---
+layout: GCNS
+title: "Google Cloud Nightscout release notes"
+permalink: "/docs/Nightscout/GC_ReleaseNotes.html"
+---
+
+## Google Cloud Nightscout release notes
+[Google Cloud Nightscout](./GoogleCloud.md) >> Release notes  
   
 The development and stable branches are explained [here](./Branches.md).  
   
