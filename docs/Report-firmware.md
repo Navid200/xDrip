@@ -1,5 +1,5 @@
 ## Report Firmware
-[xDrip](../README.md) >> [Features](./Features_page) >> [xDrip & Dexcom](./Dexcom_page) >> Report firmware  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Report firmware  
   
 If the firmware version, on the system status page, is unknown and should be reported, see this [page](./Firmware-versions.md).  
 
