@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Customize Nightscout"
+permalink: "/docs/Nightscout/Customize.html"
+---
+
 ## Customize Nightscout
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Customize  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Customize  
   
 You need to have completed the Nightscout [installation](./NS_Install.md) steps before using this utility.  
 You can use it to install from a GitHub fork.  There is no guarantee that this will be successful.  If the fork you install from has errors, you will not have a working system.  
