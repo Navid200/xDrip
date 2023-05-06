@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Edit Variables in a browser does not work!"
+permalink: "/docs/Nightscout/UpdateScripts_22.html"
+---
+
 ## Edit Variables in a browser does not work!
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Update variables in a browser  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Update variables in a browser  
   
 If choosing "Edit variables in a browser" from the menu brings up a dialog directing you to press enter to proceed, but doing that takes you back to the main menu, you will need to update the platform.  
   
