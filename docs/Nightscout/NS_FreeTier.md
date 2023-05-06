@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Free Tier "
+permalink: "/docs/Nightscout/NS_FreeTier.html"
+---
+
 ## Free Tier  
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Free Tier  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Free Tier  
   
 When you first sign up for Google Cloud, you can enable a free trial program, and you should.  It gives you $300 for a 3-month period.  In that period, any cost will be charged against that credit.  However, you can see in your billing what the cost is.  
 Therefore, if you live in China or Australia, you can clearly see what your cost will be, using this method, without having to pay anything.  If you find out that the cost will be unreasonable, you can delete the virtual machine, before your free trial period ends, and never have to pay for it.  
