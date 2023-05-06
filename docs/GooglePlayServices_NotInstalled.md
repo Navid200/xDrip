@@ -1,5 +1,5 @@
 ## Google Play Services Not Installed
-[xDrip](../README.md) >> [Troubleshooting](./Troubleshooting_page) >> Google Play Services Not Installed  
+[xDrip](../README.md) >> [Troubleshooting](./Troubleshooting_page.md) >> Google Play Services Not Installed  
 xDrip without Google Play Services  
   
 Do you see this message in xDrip?  
