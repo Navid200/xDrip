@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Google Cloud Compute Engine"
+permalink: "/docs/Nightscout/ComputeEngine.html"
+---
+
 ## Google Cloud Compute Engine
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Compute Engine  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Compute Engine  
   
 Go to the [Google Cloud](https://cloud.google.com/).  
 Sign in.  
