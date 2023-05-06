@@ -5,7 +5,7 @@
 If you need help installing or using Google Cloud Nightscout, please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  
 include the following in the first post.  
 - What is (or will be) uploading to Nightscout?
-- A screenshot of the [status page](../Status.md) if you have completed the installation.  
+- A screenshot of the [status page](./Status.md) if you have completed the installation.  
 
 Include a short description of what is wrong. For example "No readings", or "Sensor Stopped".  
 Also, state if there is something that has changed. For example, is this a new phone, did you recently receive an Android patch, if the problem only occurs with a particular release of xDrip, if you are new to xDrip, or if a new sensor started the issue.  
