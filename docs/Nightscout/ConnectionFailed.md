@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Virtual machine connection failed"
+permalink: "/docs/Nightscout/ConnectionFailed.html"
+---
+
 ## Virtual machine connection failed
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Connection Failed  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Connection Failed  
   
 You may experience a connection failed error.  
 ![](./images/ConnectionFailed.png)  
