@@ -1,9 +1,15 @@
+---
+layout: GCNS
+title: "Nightscout variables"
+permalink: "/docs/Nightscout/NS_Variables.html"
+---
+
 ## Nightscout variables  
-[xDrip](../../README.md) >> [Features](../Features_page) >> [Nightscout](../Nightscout_page) >> [Nightscout on Google Cloud](./GoogleCloud) >> Variables  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Variables  
   
-After [setting up Nightscout](./NS_setup), you can edit your Nightscout variables if needed.  <span style="color:red">For any change to the variables to take effect, you will need to [reboot the server](./Restart.md).</span>  
+After [setting up Nightscout](./NS_setup.md), you can edit your Nightscout variables if needed.  <span style="color:red">For any change to the variables to take effect, you will need to [reboot the server](./Restart.md).</span>  
   
-To edit your Nightscout variables, open a [terminal](./Terminal).  
+To edit your Nightscout variables, open a [terminal](./Terminal.md).  
   
 ---  
   
@@ -39,7 +45,7 @@ If you haven't done anything destructive, your Nightscout will keep going.
   
 If anything breaks, you can edit the file again and change it back.  You can see the default values in the image above.  
   
-Or, you can re-run [installation](./NS_Install).  
+Or, you can re-run [installation](./NS_Install.md).  
 You will be offered the following two options:  
 1- Attempt to reinstall this existing certificate  
 2- Renew & replace the cert (limit ~5 per 7 days)  
