@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Setting up followers on Google Cloud"
+permalink: "/docs/Nightscout/NS_Followers.html"
+---
+
 ## Setting up followers on Google Cloud
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >> Setting up followers  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Setting up followers  
   
 You can always use a web browser or xDrip to follow and see the readings from your Nightscout site.  
 Using tokens for following is the most secure method.  Giving permission to the world to access your site is not.  
