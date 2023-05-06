@@ -1,5 +1,11 @@
+---
+layout: GCNS
+title: "Upload/Download files"
+permalink: "/docs/Nightscout/Upload_Download.html"
+---
+
 ## Upload/Download files
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >> Upload or Download files  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Upload or Download files  
   
 To upload or download a file to/from the virtual machine, you need to open a [terminal](./Terminal.md).  
 <br/>  
