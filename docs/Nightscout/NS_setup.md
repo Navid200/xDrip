@@ -1,9 +1,15 @@
-## Setting up Nightscout on Google Cloud
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> [Nightscout on Google Cloud](./GoogleCloud.md) >> Setting up Nightscout  
+---
+layout: GCNS
+title: "Setting up Google Cloud Nightscout"
+permalink: "/docs/Nightscout/NS_setup.html"
+---
+
+## Setting up Google Cloud Nightscout
+[Google Cloud Nightscout](./GoogleCloud.md) >> Setting up Nightscout  
   
 We will now log into our new Nightscout, installed on the Google Cloud virtual machine, and set it up.  Everything we do in this section is done on a regular web browser on our computer or mobile, and not in the virtual machine.   
   
-Use a web browser and enter your hostname (from when you [set up](./FreeDNS.md) FreeDNS).  This will bring up your Nightscout.  It will ask you for a password.  Use the API secret you chose earlier when you [installed](./NS_Install) Nightscout.  
+Use a web browser and enter your hostname (from when you [set up](./FreeDNS.md) FreeDNS).  This will bring up your Nightscout.  It will ask you for a password.  Use the API secret you chose earlier when you [installed](./NS_Install.md) Nightscout.  
 Check "Remember this device" checkbox to avoid having to re-enter it.  
 On first time, Nightscout will ask you to set up a profile for sensitivity etc.  Either enter real values or just click save and then use close button on top right of the screen.  You may need to do this twice.  
   
