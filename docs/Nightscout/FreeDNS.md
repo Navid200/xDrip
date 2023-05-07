@@ -9,29 +9,29 @@ permalink: "/docs/Nightscout/FreeDNS.html"
 
 Follow these instructions in order to use FreeDNS, which you will need in order to set up Nightscout on Google Cloud.  
   
-**Go to FreeDNS site:** [https://freedns.afraid.org/](https://freedns.afraid.org/)  
-**Click on Sign up Free, and sign up.**  Make sure to choose a user ID excluding capital letters.  
+Go to FreeDNS site: [https://freedns.afraid.org/](https://freedns.afraid.org/)  
+Click on Sign up Free, and sign up.  Make sure to choose a user ID excluding capital letters.  
 If you include capital letters in your user ID, FreeDNS will convert them all to lowercase.  
 Please remember your password.  
   
-**Send activation email.**  
+Send activation email.  
 ![](./images/FreeDNS1.png)  
-**Open email and activate your account.**  
+Open email and activate your account.  
   
-**Click on Main Menu to log in.**  
+Click on Main Menu to log in.  
 After logging in, you can see your user ID at the top right corner.  
 ![](./images/FD_userID.png)  
   
 You will need your user ID and password later to use the FreeDNS Setup utility.  Please remember your user ID.  
   
-**Go to [Subdomains](https://freedns.afraid.org/subdomain/).**  
-**Add.**  
+Go to [Subdomains](https://freedns.afraid.org/subdomain/).  
+Add.  
   
 You can see that under "Domain", you have only 7 options.  Instead of using one of those, it is best to do what is suggested [here](./FD_Domains.md).  
 After having selected a public domain, please proceed with the following.  
   
-**Enter a subdomain name.**  Under the image, enter text (capital) to capture the image you see.  You can change the image if it's not clear.  
-**Save.**  
+Enter a subdomain name.  Under the image, enter text (capital) to capture the image you see.  You can change the image if it's not clear.  
+Save.  
 ![](./images/FreeDNS2.png)  
 <br/>  
   
