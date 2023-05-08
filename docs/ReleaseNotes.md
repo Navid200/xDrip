@@ -7,7 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
-| [2023.05.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.03) | G7 32.192.104.82 |  
+| [2023.05.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.03) | **<span style="color:orange">Alpha</span>** <br/> G7 32.192.104.82 |  
 | [2023.05.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.02) | Falling and rising fast alert names and units updated to represent rates |  
 | [2023.04.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.24) | No more Dex G4 - Scan for glucose meter fix |  
 | [2023.04.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.13) | Keks update - QR code export - 4-digt txid - G7 (experimental) |  
@@ -35,7 +35,7 @@ How to [download and install](./Installation_page.md).
 | [2023.01.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.18) | Database connections closure before import|  
 | [2023.01.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.17) | Companion app mode fix |  
 | [2023.01.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.01.12) | Dexcom One (C\*\*\*\*\*) |  
-| [2022.12.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.24) | **<span style="color:orange">Alpha</span>** <br/> Google play service not being installed will not crash any more. |  
+| [2022.12.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.24) | Google play service not being installed will not crash any more. |  
 | [2022.12.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09) | Resolve intermittent IoB display |  
 | [2022.12.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.05) | minimedmobile |  
 | [2022.11.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.27) | BT pairing, WiFi sleep, Google Health connect |  
