@@ -24,7 +24,7 @@ The connectivity is OK only if, looking at the system status page, all the follo
 ---  
   
 #### **Disconnect**  
-There is a disconnect if either of the above conditions is not satisfied.  
+There is a disconnect if either of the conditions mentioned in the previous section is not satisfied.  
 There is a disconnect if you see "Deep sleeping errors" or "Checking auth errors" on the status page as shown below.  
 ![](./Dexcom/images/DeepSleepingErrors.png)  
   
