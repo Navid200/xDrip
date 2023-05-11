@@ -1,4 +1,4 @@
-## Connectivity troubleshooting
+## Transmitter connectivity troubleshooting
 [xDrip](../README.md) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Connectivity troubleshooting  
   
 Don't randomly tweak the xDrip settings hoping to get it going.  
