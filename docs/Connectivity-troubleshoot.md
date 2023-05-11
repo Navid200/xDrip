@@ -19,7 +19,7 @@ The G5/G6 status page gives you most of the information you need about how your 
 
 Is there a [disconnect](./Proper-connectivity.md)?  If yes, you need to resolve it before anything else.  Don't waste your time starting a sensor before you have connectivity.  
   
-Is there a command stuck in the queue?  If there is a command in the queue on the status page, it should clear on the next read cycle (once every 5 minutes).  if it does not clear on the next read cycle, you have a command stuck in the queue.  In that case, [clear](./Clear-queue.md) the queue.  
+If there is a command in the queue on the status page, it should clear on the next read cycle (once every 5 minutes).  If it does not clear on the next read cycle, you have a command stuck in the queue.  In that case, [clear](./Clear-queue.md) the queue.  
   
 If there is no proper connectivity, if you don't see "scanning" on the G5/G6 status page, you should tap on "Restart Collector" on the classic status page.  You may need to approve a pair request, which may come up any time up to 5 minutes after tapping on restart collector.  
 If there is still no proper connectivity, [trigger a pair request](./MissedPairRequest.md).  It should connect.  
