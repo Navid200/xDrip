@@ -31,3 +31,4 @@ If  there is no disconnect, and the status page shows "OK \*\* days" for sensor 
 Please tap on start sensor.  You can enter the same calibration code shown on the status page.  It doesn't really matter because the session has already started and the calibration code you enter now does not matter.  
   
 If you are still having trouble, you can [ask for help](./Contact.md).  
+  
