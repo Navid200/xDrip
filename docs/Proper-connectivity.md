@@ -1,4 +1,4 @@
-## Proper Connectivity  
+## Transmitter Bluetooth Connectivity  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Proper Connectivity  
   
 Dexcom is a sample and hold system.  Things update only once every 5 minutes and for the rest of the time, nothing happens.  
