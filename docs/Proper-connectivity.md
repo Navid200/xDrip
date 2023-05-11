@@ -12,6 +12,9 @@ The connectivity is OK only if, looking at the system status page, all the follo
 4. You don't see messages like hunting transmitter, scanning error, waiting connect errors, power connect error, ...
 <br/>  
   
+---  
+  
+#### **Disconnect**  
 There is a disconnect if either of the above conditions is not satisfied.  
 There is a disconnect if you see "Deep sleeping errors" or "Checking auth errors" on the status page as shown below.  
 ![](./Dexcom/images/DeepSleepingErrors.png)  
