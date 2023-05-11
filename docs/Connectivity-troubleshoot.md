@@ -30,5 +30,7 @@ If there is still a disconnect, [trigger a pair request](./MissedPairRequest.md)
 If  there is no disconnect, and the status page shows "OK \*\* days" for sensor status, yet, you have no readings, it means that there is a session in progress and you are connected;  but, xDrip needs a start.  
 Please tap on start sensor.  You can enter the same calibration code shown on the status page.  It doesn't really matter because the session has already started and the calibration code you enter now does not matter.  
   
+If you have resolved the problem and have a working system, but, it occasionally disconnects requireing you to take action to reconnect, please see [this](./Intermittent.md).  
+  
 If you are still having trouble, you can [ask for help](./Contact.md).  
   
