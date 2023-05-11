@@ -1,7 +1,7 @@
 ## Transmitter connectivity troubleshooting
 [xDrip](../README.md) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Connectivity troubleshooting  
   
-Don't randomly tweak the xDrip settings hoping to get it going.  
+Don't tweak the xDrip settings hoping to get it going.  
 Disable [engineering mode](./Engineering-Mode.md).  
   
 When making changes to meet the following recommendations, be patient and allow a new reading to complete.  Communication with the transmitter happens only once every 5 minutes.  After you make a change, you are not going to see an impact, on the status page, until the next read cycle completes.  Please keep that in mind every time you make a change to the settings.  
