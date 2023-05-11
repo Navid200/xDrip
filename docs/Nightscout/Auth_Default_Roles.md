@@ -18,8 +18,8 @@ You should not be ashamed of having diabetes.  But, you should know that there a
 There may be other reasons one may wish to keep their readings confidential.  
 Nevertheless, this is also not why we have set the variable to denied.  Please continue to read.  
   
-#### **Bandwidth**
-If you give read permission to the world, by setting this variable to readable instead of denied, crawlers will be able to create higher bandwidth output from your server.  This could increase the cost of your Nightsdcout on Google Cloud.  
+#### **Traffic**
+If you give read permission to the world, by setting this variable to readable instead of denied, crawlers will be able to create more output traffic from your server.  This could increase the cost of your Nightsdcout on Google Cloud.  
 This is why we have set the variable to denied by default.  
   
 By setting the variable to denied, I have been able to limit my cost to $0.01 Canadian for the month of December.  The reason for the 1 cent cost is crawlers in China.  
