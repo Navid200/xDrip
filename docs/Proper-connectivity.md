@@ -30,5 +30,5 @@ There is a disconnect if you see "Deep sleeping errors" or "Checking auth errors
   
 ![](./Dexcom/images/CheckingAuthErrors.png)  
   
-If there is a connectivity issue, you need to resolve it before issuing commands (start, stop, calibrate, hard reset, ...).  
+If there is a connectivity issue, you need to [resolve it](./Connectivity-troubleshoot.md) before issuing commands (start, stop, calibrate, hard reset, ...).  
   
