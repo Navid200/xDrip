@@ -1,5 +1,5 @@
-## Release Notes  
-[xDrip](../README.md) >> Release Notes  
+## xDrip Release Notes  
+[xDrip](../README.md) >> xDrip Release Notes  
   
 Major releases are identified here with brief descriptions.  
 How to [update](./Updates.md).  
