@@ -1,6 +1,10 @@
 ## Update xDrip  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> Update xDrip  
   
+**<span style="color:red">Do not uninstall</span>**  
+You don't need to uninstall xDrip.  You can just install a different version over your existing installation.  
+If you uninstall, you will lose all your old readings.  
+  
 You will need to update xDrip manually.  There is an automatic check for updates that is explained below, which informs you that an update is available.  But, there is no automatic update.  How you can verify a successful update is also explained below.  
 You should at least update xDrip to the latest stable release.  
   
