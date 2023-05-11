@@ -14,7 +14,7 @@ The connectivity is OK only if, looking at the system status page, all the follo
   
 There is a disconnect if either of the above conditions is not satisfied.  
 There is a disconnect if you see "Deep sleeping errors" or "Checking auth errors" on the status page as shown below.  
-![](./Dexcom_page/images/DeepSleepingErrors.png)  
+![](./Dexcom/images/DeepSleepingErrors.png)  
   
 If there is a connectivity issue, you need to resolve it before issuing commands (start, stop, calibrate, hard reset, ...).  
   
