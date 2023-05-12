@@ -18,7 +18,9 @@ The following graph shows the ascending volume versus time for an alert that has
   
 ![](./Alerts/images/AscendingVolume.png)  
   
-\* The volume reaches maximum (100%) on the next reading if the next reading does not trigger another alert or does not result in the current alert ending.  The sound and vibration end as soon as the alert is snoozed.  
+The vibration is independent of the delay ascending setting.  
+The medium and high volumes correspond to the values of 0.7 and 1 in the graph.  
+As soon as the alert is snoozed, both sound and vibration terminate.   
   
 The "Delay Ascending Volume" setting is on the following page.  
 Settings &#8722;> Alarms and Alerts &#8722;> Glucose Alerts Settings  
