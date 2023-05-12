@@ -14,7 +14,7 @@ If your alarm wakes up or annoys others around you, this can solve the problem b
 
 <br/>  
 
-The following graph shows the ascending volume versus time.  
+The following graph shows the ascending volume versus time for an alert that has triggered at time 0.  
   
 ![](./Alerts/images/AscendingVolume.png)  
   
