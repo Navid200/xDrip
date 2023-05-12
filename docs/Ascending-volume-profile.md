@@ -15,6 +15,7 @@ If your alarm wakes up or annoys others around you, this can solve the problem b
 <br/>  
 
 The following graph shows the ascending volume versus time.  
+  
 ![](./Alerts/images/AscendingVolume.png)  
   
 \* The volume reaches maximum (100%) on the next reading if the next reading does not trigger another alert or does not result in the current alert ending.  The sound and vibration end as soon as the alert is snoozed.  
