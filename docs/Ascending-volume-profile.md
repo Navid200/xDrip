@@ -14,14 +14,8 @@ If your alarm wakes up or annoys others around you, this can solve the problem b
 
 <br/>  
 
-The following table summarizes the behavior of the ascending volume profile based on the settings.  
-
-| Intended behavior | Vibrate on alert | Delay Ascending Volume | Sound | Vibration | Volume trend |  
-|:-----------------:|:----------------:|:----------------------:|:-----:|:---------:|:------------:|  
-| Vibrate & delayed sound | Enabled | Enabled | Delayed by 3 minutes | Starts at trigger | 0, 0, 0, 33%, 67%, 100% * |  
-| Vibrate & sound | Enabled | Disabled | Starts at trigger | Starts at trigger | 30%, 30%, 30%, 33%, 67%, 100% * |  
-| Delayed sound only | Disabled | Enabled | Delayed by 3 minutes | None | 0, 0, 0, 33%, 67%, 100% * |  
-| Sound only | Disabled | Disabled | Starts at trigger | None | 30%, 30%, 30%, 33%, 67%, 100% * |  
+The following graph shows the ascending volume versus time.  
+![](./Alerts/images/AscendingVolume.png)  
   
 \* The volume reaches maximum (100%) on the next reading if the next reading does not trigger another alert or does not result in the current alert ending.  The sound and vibration end as soon as the alert is snoozed.  
   
