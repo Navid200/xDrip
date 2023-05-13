@@ -11,4 +11,7 @@ To enable, use xDrip auto configure to scan this QR code:
 After that, if you view the [logs](../Logs.md), you will see a lot more logs generated per minute.  
 It will be pointless to upload the logs as soon as you have enabled the OB1 collector debugging.  You need to wait for the problem to occur.  Then, you can upload the logs.  
   
-To disable this, all you need to do is to go to Settings &#8722;>   
+To disable this, go to Settings &#8722;> Less common settings &#8722;> Extra Logging Settings &#8722;> Extra tags for logging.  
+Delete the content and click on "OK".  
+  
+  
