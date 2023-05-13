@@ -53,6 +53,7 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 #### [G6 Transmitter Warranty](./G6_Warranty.md)
 #### [How strong is the transmitter signal?](./Bluetooth-Scanner.md)
 #### [How good is the battery?](./Battery-condition.md)
+#### [OB1 Debugging logs](./Dexcom/OB1Debug.md)
 <br/>  
   
 ---  
