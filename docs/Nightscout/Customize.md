@@ -8,10 +8,12 @@ permalink: "/docs/Nightscout/Customize.html"
 [Google Cloud Nightscout](./GoogleCloud.md) >> Customize  
   
 You need to have completed the Nightscout [installation](./NS_Install.md) steps before using this utility.  
-You can use it to install from a GitHub fork.  There is no guarantee that this will be successful.  If the fork you install from has errors, you will not have a working system.  
+You can use it to install from a GitHub fork created from the development branch of the official Nightscout repository in order to update to the development branch.  
+  
+You could also cutomize your fork.  There is no guarantee that this will be successful.  If the fork you install from has errors, you will not have a working system.  
 What could be even worse is if you end up with a working system that provides erroneous information.  Please proceed at your own risk.  
   
-**<span style="color:red">During the process, which takes about 25 minutes, your Nightscout will not be operational.</span>**  If you need Nightscout for a loop, please create an alternative session and switch to it while customizing the other.  
+**<span style="color:red">During the process, which takes about 25 minutes, your Nightscout will not be operational.</span>**  
   
 To proceed, select "Customize Nightscout" from the [menu](./Menu.md) and enter.  
 In a minute, the following dialog will show.  
