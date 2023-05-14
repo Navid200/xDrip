@@ -16,9 +16,7 @@ include the following in the first post.
 Include a short description of what is wrong.  
 
 **<span style="color:red">Please don't open an issue.</span>**  
-Please allow us to manage the issues.  There used to be too many issues opened up by users.  Many could just be addressed by using xDrip differently.  In the meantime, there were always too many open issues and there was no way for the developers to know which ones were real.  
-Please help us manage the issues more efficiently by opening a [discussion](https://github.com/NightscoutFoundation/xDrip/discussions) instead of an issue.  If it turns out to be an issue, we will convert the discussion into an issue.  
-  
+Please allow us to manage the issues.    
   
 #### What you shouldn't include  
 Your hostname or API_SECRET, your full name, address, phone number, or email address.  We don't need any of those in order to help you.  
