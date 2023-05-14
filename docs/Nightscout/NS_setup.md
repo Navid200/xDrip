@@ -56,6 +56,6 @@ If you've forgotten the password (API_SECRET), follow these [instructions](./API
 Tap on Base URL.  Enter the following.  
 https://<span style="color:orange">ThisIsMyPassword</span>@<span style="color:green">justaname\.chickenkiller\.com</span>/api/v1/  
   
-That's it.  Your xDrip readings should now upload to your Nightscout on Google Cloud.  
+That's it.  Your xDrip readings should now upload to your Nightscout.  
   
   
