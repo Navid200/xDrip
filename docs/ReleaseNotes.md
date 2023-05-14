@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.05.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.14) | Reading marked as bad (excluded from statistics) will not expand the vertical (y) axis range |  
 | [2023.05.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.03) | **<span style="color:orange">Alpha</span>** <br/> G7 32.192.104.82 |  
 | [2023.05.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.02) | Falling and rising fast alert names and units updated to represent rates |  
 | [2023.04.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.24) | No more Dex G4 - Scan for glucose meter fix |  
