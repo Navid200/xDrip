@@ -7,10 +7,10 @@ permalink: "/docs/Nightscout/Nightscout/Branches.html"
 ## Google Cloud Nightscout branches
 [Google Cloud Nightscout](./GoogleCloud.md) >> Branches  
   
-Nightscout on Google Cloud has two branches that you can choose from to use.  
+Google Cloud Nightscout has two branches.  You can use either.  
 This is not about Nightscout itself.  This is about the Google Cloud platform we use for running Nightscout.  
 The development branch, vps-dev, is updated more frequently and as a result, less tested.  You can access the latest updates the fastest using this branch.  
-The stable branch, vps-1, is updated less often.  It is updated by promoting a development branch release to it.  Therefore, it is more stable.  
+The stable branch, vps-1, is updated less often.  It is updated by promoting a development branch release.  Therefore, it is more stable.  
 <br/>  
   
 ---  
