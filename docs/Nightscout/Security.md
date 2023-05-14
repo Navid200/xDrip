@@ -7,7 +7,7 @@ permalink: "/docs/Nightscout/Security.html"
 ## Google Cloud Nightscout & security
 [Google Cloud Nightscout](./GoogleCloud.md) >> Security  
   
-There have been questions about how robust Nightscout on Google Cloud may be compared to alternatives.  We reached out to our head developer, JamOrHam, for advice and the following was his response.  
+There have been questions about how robust Google Cloud Nightscout may be compared to alternatives.  We reached out to our head developer, JamOrHam, for advice and the following was his response.  
 <br/>  
   
 ---   
