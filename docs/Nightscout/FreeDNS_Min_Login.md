@@ -19,5 +19,9 @@ Log into your FreeDNS account.  You will see this:
   
 Click on "proceed here".  You will see this:  
 ![](./images/AreYouStillUsingThisAccount.png)  
- 
+  
+Click on "Extend your account".  
+  
+Access the subdomains page to confirm that your hostname is active again.    
+[Restart the server](./Restart.md).  
   
