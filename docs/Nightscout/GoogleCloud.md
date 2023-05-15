@@ -41,6 +41,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Backup](./DatabaseBackup.md) before deleting the virtual machine.
 #### [Restore](./DatabaseRestore.md)
 #### [Status page](./Status.md)
+#### [Logs](./GCNS_Logs.md)
 #### [Nightscout variables](./NS_Variables.md)
 #### [Customize Nightscout](./Customize.md) (Advanced)
 #### [Update platform](./NS_SyncExecutables.md) (not Nightscout itself)
