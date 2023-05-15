@@ -25,5 +25,5 @@ Click on "Extend your account".
 Access the subdomains page to confirm that your hostname is active again.  
 [Restart the server](./Restart.md).  
   
-If the hostname is active and you restart the server, the hostname will be mapped to the ip address and Nightscout will resume operation again.  
+If the hostname is active and you restart the server, the hostname will be mapped to the ip address, and Nightscout will resume operation again.  
   
