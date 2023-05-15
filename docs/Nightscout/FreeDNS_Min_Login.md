@@ -1,7 +1,7 @@
 ---
 layout: GCNS
 title: "FreeDNS login frequency"
-permalink: "/docs/Nightscout/FreeDNS_Login.html"
+permalink: "/docs/Nightscout/FreeDNS_Min_Login.html"
 ---
 
 ## FreeDNS login frequency
