@@ -8,7 +8,7 @@ How to [download and install](./Installation_page.md).
 | Release | Notes |  
 |---------|-------|  
 | [2023.05.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.14) | Reading marked as bad (excluded from statistics) will not expand the vertical (y) axis range |  
-| [2023.05.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.03) | **<span style="color:orange">Alpha</span>** <br/> G7 32.192.104.82 |  
+| [2023.05.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.03) | **<span style="color:orange">Stable</span>** <br/> G7 32.192.104.82 |  
 | [2023.05.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.02) | Falling and rising fast alert names and units updated to represent rates |  
 | [2023.04.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.24) | No more Dex G4 - Scan for glucose meter fix |  
 | [2023.04.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.13) | Keks update - QR code export - 4-digt txid - G7 |  
@@ -40,7 +40,7 @@ How to [download and install](./Installation_page.md).
 | [2022.12.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09) | Resolve intermittent IoB display |  
 | [2022.12.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.05) | minimedmobile |  
 | [2022.11.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.27) | BT pairing, WiFi sleep, Google Health connect |  
-| [2022.11.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.16) | **<span style="color:orange">Stable</span>** <br/> Aidex fix |  
+| [2022.11.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.16) | **Previous Stable** <br/> Aidex fix |  
 | [2022.11.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.15) | Quiet Engineering mode notification |  
 | [2022.11.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.08) | Companion backfill - Medtronic Guardian Connect |  
 | [2022.11.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.05b) | Companion backfill & History fix |  
