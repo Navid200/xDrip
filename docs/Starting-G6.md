@@ -23,7 +23,7 @@ If there is bleeding, after inserting a new sensor, use Q-tips to absorb the blo
   
 6.  If you are starting a new transmitter, enter the new transmitter serial number (Transmitter ID): Settings &#8722;> Dexcom Transmitter ID.     
   
-7.  Clean the transmitter contacts (not if you are restarting sensor) using rubbing alcohol.  Wait for it (10 seconds) to dry.  You can place a very small amount of [petroleum jelly](./Petroleum-jelly-in-Dexcom-G6-Sensor.md) on the transmitter adjacent to the contacts if you don't see any in the sensor.  Snap the transmitter into the sensor.  If you are starting a new transmitter, snapping it into the sensor on your body is required to activate it.  
+7.  Clean the transmitter contacts (not if you are restarting sensor) using rubbing alcohol.  Wait for it (10 seconds) to dry.  Snap the transmitter into the sensor.  If you are starting a new transmitter, snapping it into the sensor on your body is required to activate it.  
   
 8.  Monitor the G5/G6 system status page. Every 5 minutes, a read cycle completes.  
 If you don't have [proper connectivity](./Proper-connectivity.md), don't proceed before figuring out why. Perhaps, your settings are incorrect.  
