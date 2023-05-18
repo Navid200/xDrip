@@ -7,7 +7,7 @@ permalink: "/docs/Nightscout/Auth_Default_Roles.html"
 ## Malfunctioning Nightscout applications
 [Google Cloud Nightscout](./GoogleCloud.md) >> Malfunctioning applications  
   
-There is a Nightscout variable titled AUTH_DEFAULT_ROLES.  When we all used Heroku, many set this variable to "readable".  However, in our Google Cloud Nightscout setup, we have set this variable to "denied" be default.  Let's see why we have done that, and the consequences and options.  
+There is a Nightscout variable titled AUTH_DEFAULT_ROLES.  We have set this variable to "denied" be default.  Let's see why we have done that, and the consequences and options.  
   
 #### **Security**
 There is absolutely no security reason for setting this variable to denied.  That is not why we have set the variable to denied.  Please continue to read.  
@@ -23,7 +23,7 @@ If you give read permission to the world, by setting this variable to readable i
 This is why we have set the variable to denied by default.   
   
 #### **Can I change the setting to "readable"?**
-Yes, you definitely can.  Doing that will make the settings the same as what most people had their Nightscout settings on Heroku.  But, Heroku output traffic was/is not limited.  
+Yes, you definitely can.  Doing that will make the setting the same as what most people had it set to on Heroku.  But, Heroku output traffic was/is not limited.  
 Changing the variable to "readable" may increase the cost of your Nightsocut.    
   
 #### **Malfunctioning apps**
