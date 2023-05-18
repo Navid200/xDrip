@@ -10,7 +10,7 @@ Therefore, please don't look at the status page wondering why things make no sen
 ---  
   
 #### **Connectivity**  
-Go to G5/G6 status page.  
+Go to G5/G6/G7 status page.  
 ![](./images/system-status-pg.png)  
 <br/>  
   
