@@ -7,7 +7,7 @@ permalink: "/docs/Nightscout/Auth_Default_Roles.html"
 ## Malfunctioning Nightscout applications
 [Google Cloud Nightscout](./GoogleCloud.md) >> Malfunctioning applications  
   
-There is a Nightscout variable titled AUTH_DEFAULT_ROLES.  The default value for this variable is "readable".  However, in our Nightscout on Google Cloud setup, we have set this variable to "denied".  Let's see why we have done that, and the consequences and options.  
+There is a Nightscout variable titled AUTH_DEFAULT_ROLES.  The default value for this variable is "readable".  However, in our Google Cloud Nightscout setup, we have set this variable to "denied" be default.  Let's see why we have done that, and the consequences and options.  
   
 #### **Security**
 There is absolutely no security reason for setting this variable to denied.  That is not why we have set the variable to denied.  Please continue to read.  
