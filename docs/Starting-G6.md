@@ -8,9 +8,9 @@ If you have been using the Dexcom app, you need to disable it.  You cannot have 
   
 1.  If you are using an old version of xDrip, [update](./Updates.md) to the current stable release.  
   
-2.  Set "G5/G6 Transmitter" under &nbsp; Settings &#8722;> [Hardware Data Source](./HardwareDataSource.md).  
+2.  Set "G5/G6/G7/1 Transmitter" under &nbsp; Settings &#8722;> [Hardware Data Source](./HardwareDataSource.md).  
   
-3.  Is there a "Start G6 Sensor" stuck in the queue on the G5/G6 status page?  Please note that in the last step when you start sensor, there will be a "Start G6 Sensor" in the queue for one read cycle (up to 5 minutes).  That is expected and does not count as a stuck command.  A stuck command remains in the queue and does not clear.  
+3.  Is there a "Start G6 Sensor" stuck in the queue on the G5/G6/G7 status page?  Please note that in the last step when you start sensor, there will be a "Start G6 Sensor" in the queue for one read cycle (up to 5 minutes).  That is expected and does not count as a stuck command.  A stuck command remains in the queue and does not clear.  
 ![](./images/queue-stuck.png)  
 If there is a command stuck in the queue, [clear the queue](./Clear-queue.md).  
   
@@ -25,9 +25,8 @@ If there is bleeding, after inserting a new sensor, use Q-tips to absorb the blo
   
 7.  Clean the transmitter contacts (not if you are restarting sensor) using rubbing alcohol.  Wait for it (10 seconds) to dry.  Snap the transmitter into the sensor.  If you are starting a new transmitter, snapping it into the sensor on your body is required to activate it.  
   
-8.  Monitor the G5/G6 system status page. Every 5 minutes, a read cycle completes.  
-If you don't have [proper connectivity](./Proper-connectivity.md), don't proceed before figuring out why. Perhaps, your settings are incorrect.  
-If you are starting a new transmitter, be patient and wait for the battery voltages to be populated before you proceed.  It may take up to half an hour.  
+8.  Monitor the G5/G6/G7 system status page. Every 5 minutes, a read cycle completes.  
+If you don't have [proper connectivity](./Proper-connectivity.md), don't proceed before figuring out why. Perhaps, your settings are incorrect.    
   
 9.  Start sensor.  Enter the 4-digit calibration code from the sensor adhesive cover when asked. Keep the code. In 2 hours, your readings will start with no need for initial calibrations.  
   
