@@ -12,7 +12,7 @@ Ensure [settings](./G6-Recommended-Settings.md) are correct first.   If your sen
 You can use the original calibration code for restart or you can restart in no-code mode.  But, there are reports of malfunction in attempting to restart in no-code mode.  So, my recommended approach is to use the original calibration code as described below.   
   
 1. Tap on stop sensor (top left menu). Tap on "STOP SENSOR".  
-There will be "stop sensor" as a queue item on the G5/G6 status page. The queue will clear in 5 minutes.  Then, you will see Sensor: Stopped on the G5/G6 status page.  
+There will be "stop sensor" as a queue item on the G5/G6/G7 status page. The queue will clear in 5 minutes.  Then, you will see Sensor: Stopped on the G5/G6/G7 status page.  
 Tap on stop sensor even if the sensor has already stopped if the "start sensor" option is not available.  Wait 5 minutes.  
 Only after the "stop sensor" note has cleared the queue should you proceed to step 2.  
 If day 10 has ended and the sensor has already stopped, and the "Start Sensor" option is already available under the top left menu, you can skip step 1.  
