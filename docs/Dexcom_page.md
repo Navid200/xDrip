@@ -1,7 +1,7 @@
 # xDrip and Dexcom  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> xDrip & Dexcom  
   
-If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page contains information that may help you.  
+If you use xDrip with a Dexcom G5, G6, G7 or Dexcom ONE transmitter, this page contains information that may help you.  
 <br/>  
   
 ---  
@@ -11,8 +11,7 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 #### [G5 recommended settings](./G5-Recommended-Settings.md)
 #### [G6 (or Dex1) recommended settings](./G6-Recommended-Settings.md)
 #### [Can xDrip coexist with t:slim or receiver?](./Receiver-or-tslim-and-xDrip.md)
-#### [Both xDrip and Dexcom app](./xDrip-and-Dexcom-app.md)
-<br/>  
+ [Both xDrip and Dexcom app](./xDrip-and-Dexcom-app.md)  
   
 #### **What is ...?**
 #### [G5/G6/Dex1 Status](./StatusG5G6.md)
@@ -21,8 +20,7 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 #### [Native algorithm - mode](./Native-Algorithm.md)
 #### [Preemptive Restart](./Preemptive-Restart.md)
 #### [Transmitter Queue](./Transmitter-Queue.md)
-#### [Transmitter Lifetime](./Transmitter-lifetime.md)
-<br/>  
+ [Transmitter Lifetime](./Transmitter-lifetime.md)  
   
 #### **How to**
 #### [Start G6 (or Dex1)](./Starting-G6.md)
@@ -36,8 +34,7 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 #### [Change G6, or Dex1, Slot Number (advanced)](./G6_slot.md)
 #### [Hard reset](./Hard-Reset.md)
 #### [What not to do!](./What-not-to-do.md)
-#### [Use G7 (experimental)](./Dexcom/G7.md)
-<br/>  
+ [Use G7 (experimental)](./Dexcom/G7.md)  
   
 #### **Troubleshooting**
 #### [Connectivity Troubleshooting](./Connectivity-troubleshoot.md)
@@ -47,7 +44,6 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 #### [G6 Transmitter Warranty](./G6_Warranty.md)
 #### [How strong is the transmitter signal?](./Bluetooth-Scanner.md)
 #### [How good is the battery?](./Battery-condition.md)
-#### [OB1 Debugging logs](./Dexcom/OB1Debug.md)
-<br/>  
+ [OB1 Debugging logs](./Dexcom/OB1Debug.md)  
   
 #### [Petroleum jelly on the transmitter contacts](./Petroleum-jelly-in-Dexcom-G6-Sensor.md)
