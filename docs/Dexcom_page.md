@@ -14,8 +14,6 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 #### [Both xDrip and Dexcom app](./xDrip-and-Dexcom-app.md)
 <br/>  
   
----  
-  
 #### **What is ...?**
 #### [G5/G6/Dex1 Status](./StatusG5G6.md)
 #### [Session in progress](./Session-in-progress.md)
@@ -25,8 +23,6 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 #### [Transmitter Queue](./Transmitter-Queue.md)
 #### [Transmitter Lifetime](./Transmitter-lifetime.md)
 <br/>  
-  
----  
   
 #### **How to**
 #### [Start G6 (or Dex1)](./Starting-G6.md)
@@ -43,8 +39,6 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 #### [Use G7 (experimental)](./Dexcom/G7.md)
 <br/>  
   
----  
-  
 #### **Troubleshooting**
 #### [Connectivity Troubleshooting](./Connectivity-troubleshoot.md)
 #### [Intermittent Connectivity](./Intermittent.md)
@@ -55,7 +49,5 @@ If you use xDrip with a Dexcom G5, G6 or Dexcom ONE transmitter, this page conta
 #### [How good is the battery?](./Battery-condition.md)
 #### [OB1 Debugging logs](./Dexcom/OB1Debug.md)
 <br/>  
-  
----  
   
 #### [Petroleum jelly on the transmitter contacts](./Petroleum-jelly-in-Dexcom-G6-Sensor.md)
