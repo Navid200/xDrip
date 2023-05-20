@@ -13,12 +13,11 @@
 #### [Why do I get xDrip imported AAPS profile pop-up?](./AAPS_ProfileImportNotification.md)
 #### [What is Calibration and when should I calibrate?](./Calibration.md)  
   
-  
 #### Where
 #### [Where are the Logs?](./Logs.md)
 #### [Where are the settings](./Settings.md)
 #### [Which xDrip version do I have?](./xDrip-Version.md)
-<br/>  
+<br/>
   
 #### How
 #### [How to follow](./Follow_page.md)
