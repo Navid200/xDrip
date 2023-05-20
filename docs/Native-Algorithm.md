@@ -8,7 +8,7 @@ When we use the native algorithm, the transmitter maintains the calibration form
   
 |        | Native | Non-Native | Notes |
 |  :--------------:            | :----: |   :----:   |  :--:  |  
-|To activate                   |Select:  |Deselect:     |Settings &#8722;> G5/G6 Debug Settings <br/> &#8722;> Native Algorithm
+|To choose                   |Enable:  |Disable:     |Settings &#8722;> G5/G6/Dex1 Debug Settings <br/> &#8722;> Native Algorithm
 |    Backfill                  | Yes    |  No        |Last 3 hours |  
 |Session stops after <br/> 10 days \(7 for G5\) | Yes     | No        |In native mode, only [preemptive restart](./Preemptive-Restart.md) <br/> will keep the sensor going. |  
 |G6 factory calibration        |Yes     |No          |  
