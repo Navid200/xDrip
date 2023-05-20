@@ -29,7 +29,7 @@
 #### [How to delete a treatment](./Delete_Treatment.md)
 #### [Can I snooze alert without unlocking the phone?](./Snooze.md)
 <br/>  
-  
+
 #### Alerts
 #### [What's the easiest way to snooze?](./Snooze.md)
 #### [Why is the alert so loud or so quiet?](./Ascending-volume-profile.md)
