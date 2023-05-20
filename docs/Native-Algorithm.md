@@ -6,7 +6,7 @@ The sensor has no direct access to blood.  It has access to interstitial fluid. 
 When we use the native algorithm, the transmitter maintains the calibration formula.  In non-native mode, xDrip maintains the formula.  The two modes are compared in the following table.  
 <br/> 
   
-| Behavior | Native | Non-Native | Notes |
+|        | Native | Non-Native | Notes |
 |  :--------------:            | :----: |   :----:   |  :--:  |  
 |To activate                   |Select:  |Deselect:     |Settings &#8722;> G5/G6 Debug Settings <br/> &#8722;> Native Algorithm
 |    Backfill                  | Yes    |  No        |Last 3 hours |  
