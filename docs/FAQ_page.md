@@ -11,8 +11,8 @@
 #### [What is Engineering mode?](./Engineering-Mode.md)
 #### [&#x24c5; Encircled P in front of the reading](./P_in_Circle.md)
 #### [Why do I get xDrip imported AAPS profile pop-up?](./AAPS_ProfileImportNotification.md)
-#### [What is Calibration and when should I calibrate?](./Calibration.md)
-<br/>  
+#### [What is Calibration and when should I calibrate?](./Calibration.md)  
+  
   
 #### Where
 #### [Where are the Logs?](./Logs.md)
