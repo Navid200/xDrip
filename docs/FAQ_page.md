@@ -43,7 +43,6 @@
 #### [What is Native algorithm - mode?](./Native-Algorithm.md)
 #### [Can I calibrate G6?](./Calibrate-G6.md)
 #### [Why did G6 do that?](./What-not-to-do.md)
-#### [Dexcom Intermittent connectivity](./Intermittent.md)
-<br/>  
+ [Dexcom Intermittent connectivity](./Intermittent.md)
   
 #### [How can I ask a question or make a suggestion?](./Contact.md)
