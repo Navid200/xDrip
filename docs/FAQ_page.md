@@ -11,12 +11,14 @@
 #### [What is Engineering mode?](./Engineering-Mode.md)
 #### [&#x24c5; Encircled P in front of the reading](./P_in_Circle.md)
 #### [Why do I get xDrip imported AAPS profile pop-up?](./AAPS_ProfileImportNotification.md)
-#### [What is Calibration and when should I calibrate?](./Calibration.md)  
+#### [What is Calibration and when should I calibrate?](./Calibration.md)
+<br/>  
   
 #### Where
 #### [Where are the Logs?](./Logs.md)
 #### [Where are the settings](./Settings.md)
-#### [Which xDrip version do I have?](./xDrip-Version.md)  
+#### [Which xDrip version do I have?](./xDrip-Version.md)
+<br/>  
   
 #### How
 #### [How to follow](./Follow_page.md)
@@ -26,13 +28,15 @@
 #### [How to delete a reminder](./Delete-Reminder.md)
 #### [How can I stop xDrip without uninstalling it?](./Stop-xDrip.md)
 #### [How to delete a treatment](./Delete_Treatment.md)
-#### [Can I snooze alert without unlocking the phone?](./Snooze.md)  
+#### [Can I snooze alert without unlocking the phone?](./Snooze.md)
+<br/>  
   
 #### Alerts
 #### [What's the easiest way to snooze?](./Snooze.md)
 #### [Why is the alert so loud or so quiet?](./Ascending-volume-profile.md)
 #### [Turn a light on for an alert](./Alerts/TurnLightOn.md)
-#### [Missed Reading Alert not repeating](./MissedSignalAlert.md)  
+#### [Missed Reading Alert not repeating](./MissedSignalAlert.md)
+<br/>  
   
 #### Dexcom
 #### [How to trigger a pair request](./MissedPairRequest.md)
@@ -40,8 +44,7 @@
 #### [What is Native algorithm - mode?](./Native-Algorithm.md)
 #### [Can I calibrate G6?](./Calibrate-G6.md)
 #### [Why did G6 do that?](./What-not-to-do.md)
-#### [Dexcom Intermittent connectivity](./Intermittent.md)  
-  
+#### [Dexcom Intermittent connectivity](./Intermittent.md)
 <br/>  
   
 #### [How can I ask a question or make a suggestion?](./Contact.md)
