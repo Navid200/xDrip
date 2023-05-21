@@ -5,7 +5,7 @@ permalink: "/docs/Nightscout/ChangeHostname.html"
 ---
 
 ## How can I change the hostname?
-[Google Cloud Nightscout](./GoogleCloud.md) >> Can I change hostname?  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Can I change the hostname?  
   
 Assuming you already have a working Nightscout following our [instructions](./GoogleCloud.md), and all you want to do is to change the hostname, this page explains how to do it.  
 
