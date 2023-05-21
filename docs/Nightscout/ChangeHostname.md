@@ -1,7 +1,7 @@
 ---
 layout: GCNS
 title: "How can I change the hostname?"
-permalink: "/docs/Nightscout/Restart.html"
+permalink: "/docs/Nightscout/ChangeHostname.html"
 ---
 
 ## How can I change the hostname?
