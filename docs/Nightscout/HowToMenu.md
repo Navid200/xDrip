@@ -5,7 +5,7 @@ permalink: "/docs/Nightscout/HowToMenu.html"
 ---
 
 ## How to use Google Cloud Nightscout menus
-[Google Cloud Nightscout](./GoogleCloud.md) >> How to use menus  
+[Google Cloud Nightscout](./GoogleCloud.md) >> How to use Google Cloud Nightscout menus  
   
 Menus are available on Google Cloud Nightscout so that you can accomplish everything you need without having to manually deal with Linux command entry.  The following shows one of the menus.  
 ![](./images/Menus.png)  
