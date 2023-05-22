@@ -4,9 +4,9 @@
 ### [Alerts](./Alerts_page.md)
 ### [Statistics](./Statistics.md)
 ### [Display](./Display/Display.md)
+### [Follow](./Follow_page.md)
 ### [Update xDrip](./Updates.md)
 ### [Backup](./Backup.md)
-### [Follow](./Follow_page.md)
 ### [Calibration](./Calibration.md)
 ### [Nightscout](./Nightscout_page.md)
 ### [Emergency Messages](./Emergency.md)
@@ -21,7 +21,6 @@
 #### [Lock Screen](./Lock-screen.md)
 #### [Stop xDrip - disable collection](./Stop-xDrip.md)
 #### [Report](./Report.md)
-#### [Reminders](./Reminders.md)
 #### [Data tables](./Datatables.md)
 #### [Engineering mode](./Engineering-Mode.md)
    
