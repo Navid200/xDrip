@@ -6,7 +6,6 @@ This is easy to set up. It relies on Google.  It will need Google Play services 
   
 On master, go to Settings &#8722;> xDrip+ Sync settings, and tap on "Be master for followers".  
 **<span style="color:red">Disable "Allow follower actions". Otherwise, the follower will be able to stop the sensor.</span>**  
-Ensure "Disable all sync features", at the bottom of the page, is disabled.  
 Tap on Settings &#8722;> Show Settings QR codes.  
 ![](./images/ShowSettingsQR.png)  
   
@@ -18,8 +17,7 @@ The QR code will now display on the master phone.
 On the follower phone, tap on Settings &#8722;> Auto configure.  
 ![](./images/AutoConfigureTap.png)  
   
-Scan the QR code shown on the master screen. This will change all the settings, on the follower, to follow the master.  
-Ensure Settings &#8722;> xDrip+ Sync settings &#8722;> Disable all sync features is disabled on the follower.  
+Scan the QR code shown on the master screen. This will change all the required settings, on the follower, to follow the master.  
   
 All that is shown in a clip [here](https://youtu.be/LcgjfbYcWkE).  
   
