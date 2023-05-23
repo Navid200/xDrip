@@ -16,6 +16,8 @@ Tap on xDrip plus security key settings only.
 The QR code will now display on the master phone.  
   
 On the follower phone, tap on Settings &#8722;> Auto configure.  
+![](./images/AutoConfigureTap.png)  
+  
 Scan the QR code shown on the master screen. This will change all the settings, on the follower, to follow the master.  
 Ensure Settings &#8722;> xDrip+ Sync settings &#8722;> Disable all sync features is disabled on the follower.  
   
