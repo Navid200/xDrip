@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.05.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.23) | Clarified Eng mode note - Ascending volume alerts can be tested |  
 | [2023.05.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.14) | Reading marked as bad (excluded from statistics) will not expand the vertical (y) axis range |  
 | [2023.05.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.03) | **<span style="color:orange">Stable</span>** <br/> G7 32.192.104.82 |  
 | [2023.05.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.02) | Falling and rising fast alert names and units updated to represent rates |  
