@@ -15,10 +15,6 @@ The calibration code you need to start is printed on one of them.
 **Don't pre-soak**  
 Factory calibration is why you don't need to calibrate twice a day.  You will be interfering with factory calibration if you pre-soak.  
 
-**Don't start a sensor on a new G6 (or Dexcom One) transmitter before voltages are shown.**  
-Only start a sensor after you have established [connectivity](/Proper-connectivity.md), and can see the voltages reported on the system status page as explained.  
-When you first establish connectivity to a transmitter, it will take a few read cycles for everything to be properly synced.  You can start a sensor right away.  You shouldn't!  See the [details](./Starting-G6.md).  
-
 **Don't start a G6 (or Dexcom One) sensor unless ...**  
 Before you start a sensor, the transmitter must have been outside a sensor for at least 10 minutes.  Otherwise, the transmitter will conclude that you are attempting to restart and will fail.  
 A mistake some make with G6 is to place a new sensor on with the previous sensor still running.  Then, they stop the old sensor, remove the transmitter and snap it into the new sensor, right away, and start.  Even though the sensor is a new sensor, since the transmitter has not been kept out of both sensors for at least 10 minutes, the transmitter will stop the new sensor and issue an error.  
