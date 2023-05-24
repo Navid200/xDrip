@@ -41,7 +41,7 @@ How to [download and install](./Installation_page.md).
 | [2022.12.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.09) | Resolve intermittent IoB display |  
 | [2022.12.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.12.05) | minimedmobile |  
 | [2022.11.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.27) | BT pairing, WiFi sleep, Google Health connect |  
-| [2022.11.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.16) | **Previous Stable** <br/> Aidex fix |  
+| [2022.11.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.16) | **Previous Stable release** <br/> Aidex fix |  
 | [2022.11.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.15) | Quiet Engineering mode notification |  
 | [2022.11.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.08) | Companion backfill - Medtronic Guardian Connect |  
 | [2022.11.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.11.05b) | Companion backfill & History fix |  
@@ -64,7 +64,7 @@ How to [download and install](./Installation_page.md).
 | [2022.08.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.20) | Watchdrip graph fix |  
 | [2022.08.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.19) | Audio loop, de-duplication, half background check |  
 | [2022.08.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.18) | Graph improvements |  
-| [2022.08.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03) | **Previous Stable** <br/> NFC reading age and other cleanup |  
+| [2022.08.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.03) | **Previous Stable release** <br/> NFC reading age and other cleanup |  
 | [2022.08.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.02) | Show unsmoothed data option "Debug smoothing" |  
 | [2022.08.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.01b) | Graph Smoothing |  
 | [2022.07.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.07.26) | One per minute max reading rate for wear |  
@@ -83,7 +83,7 @@ How to [download and install](./Installation_page.md).
 | [2022.06.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.09) | Improved Dexcom collector connectivity, Android 12 workaround - System status Transmitter Days highlights end of life |  
 | [2022.06.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.02) | New "Companion" Hardware Data Source - Can read from CamAPS|  
 | [2022.06.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.06.01) | Advanced calibration "Use Treatment BG values" will be ignored when automatic calibration is enabled.  Set only Alert once |  
-| [2022.05.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.19) | **Previous Stable** <br/> G6 non-native mods |  
+| [2022.05.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.19) | **Previous Stable release** <br/> G6 non-native mods |  
 | [2022.05.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.12) | Version name as the system status subtitle |  
 | [2022.05.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.11) | Allow time period locking when Time buttons hidden |  
 | [2022.05.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.05.06) | Treatment menu blood glucose entry will not be used for calibration unless chosen. |   
@@ -97,7 +97,7 @@ How to [download and install](./Installation_page.md).
 | [2022.04.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.04.05) | BlueJay allows engineering slot number |  
 | [2022.02.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.02.15) | Full Android watch is not detected as Wear OS anymore.  G6 battery voltage logs kept for 7 days.  xDrip can use either G6 slot. |  
 | [2022.02.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.02.09) | Dexcom share user ID format (email address, special characters, ...) incompatibilities addressed |  
-| [2022.01.31](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.01.31) | **Previous Stable** |  
+| [2022.01.31](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.01.31) | **Previous Stable release** |  
 | [2022.01.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.01.14) | G6 and AAPS conflicts resolved |  
 | [2021.12.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.12.02) | Dex share delta format change fix |  
 | [2021.12.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.12.01) | Ascending volume profile delay control |  
@@ -107,7 +107,7 @@ How to [download and install](./Installation_page.md).
 | [2021.11.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.11.06) | Can upload Dex transmitter battery level to Nightscout - No references to SD card |  
 | [2021.10.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.10.17) | Libre 2 all house and oop2 improvements |  
 | [2021.10.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.10.13) | Don't ask to enable oop if libreoop2 is found |  
-| [2021.10.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.10.04) | **Previous Stable** <br/> Atom is supported now |   
+| [2021.10.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.10.04) | **Previous Stable release** <br/> Atom is supported now |   
 |[2021.08.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.08.04) | Firefly G6 will now have "Add calibration" instead of initial calibration in the main menu |  
 | [2021.07.31](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.07.31) | Sensor start and stop flags are shown on the main screen |  
 | [2021.07.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.07.17) | Rewrite history is disabled by default |  
@@ -117,7 +117,7 @@ How to [download and install](./Installation_page.md).
 | [2021.05.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.05.10) | Speak readings twice does not say dot dot dot anymore; Restore (not import) database |  
 | [2021.05.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.05.05) | Preemptive restart will not be applied if transmitter is not capable |  
 | [2021.03.30](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.03.30) | G6 2.27.2.103 firmware was added |  
-| [2021.03.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.03.08) | **Previous Stable** <br/> G5 1.0.4.14 firmware was added |  
+| [2021.03.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.03.08) | **Previous Stable release** <br/> G5 1.0.4.14 firmware was added |  
 | [2021.02.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2021.02.17) | G5 1.0.4.15 firmware was added |  
 | [2020.11.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2020.11.27) | G6 Frequent pair request resolved - "When did you insert sensor" was removed for Dexcom native mode |  
 | [2018.08.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2018.08.18) | Hard reset does not require engineering mode any longer |  
