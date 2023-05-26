@@ -68,7 +68,7 @@ To complete the installation, go to the Google Cloud setup submenu and select it
   
 You will be asked to choose API_SECRET.  
 ![](./images/API-SECRET.png)  
-Enter a password and take note.  You will need it to access Nightscout.   
+Enter a password and take note.  You will need it to access Nightscout.  Or, choose cancel to keep it as is.  
   
 You will be asked to enter your FreeDNS user ID and password.  
 ![](./images/FreeDNS_IDPass.png)  
