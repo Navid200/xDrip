@@ -1,7 +1,8 @@
 ## Snooze  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip Alerts](./Alerts_page.md) >> Snooze   
   
-When you snooze an alert, you silence it for a period of time.  If you use the snooze menu for snoozing an alert, you are given the option of how long to snooze it for.
+When you snooze an alert, you silence it for a period of time.  If you use the snooze menu for snoozing an alert, you are given the option of how long to snooze it for.  
+![](./Alerts/images/SnoozeFor.png)  
   
 If the cause of the alert is addressed before the snooze period ends, the alert will not continue after the snooze period ends.  
   
