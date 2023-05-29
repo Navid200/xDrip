@@ -1,6 +1,10 @@
 ## Snooze  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip Alerts](./Alerts_page.md) >> Snooze   
   
+When you snooze an alert, you silence it for a period of time.  If you use the snooze menu for snoozing an alert, you are given the option of how long to ing how long to snooze it for.
+  
+If the cause of the alert is addressed before the snooze period ends, the alert will not continue after the snooze period ends.  
+  
 If the phone is unlocked, the easiest way to snooze an alert is to just swipe right on the corresponding notification.  
 
 If you want to be able to snooze an alert the same way with the screen locked, go to Android Settings &#8722;> Apps & notifications &#8722;> Notifications &#8722;> Notifications on lock screen.  You will see 3 options.  They will have different wordings depending on the manufacturer.  The following image shows an example:  
