@@ -6,6 +6,10 @@ When you snooze an alert, you silence it for a period of time.  If you use the s
   
 If the cause of the alert is addressed before the snooze period ends, the alert will not continue after the snooze period ends.  
   
+But, there is a much easier way to snooze an alert by just swiping right the associatied notification.  Snoozing an alert this way, snoozes it for default snooze time.  
+The default snooze time for every Glucose level alert can be set on the edit alert page.  
+![](./Alerts/images/GLA_DefaultSnooze.png)  
+  
 If the phone is unlocked, the easiest way to snooze an alert is to just swipe right on the corresponding notification.  
 
 If you want to be able to snooze an alert the same way with the screen locked, go to Android Settings &#8722;> Apps & notifications &#8722;> Notifications &#8722;> Notifications on lock screen.  You will see 3 options.  They will have different wordings depending on the manufacturer.  The following image shows an example:  
