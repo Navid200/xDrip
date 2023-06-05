@@ -9,7 +9,6 @@ If you are experiencing problems using xDrip, some possible issues, and suggeste
 #### [Dexcom transmitter keeps disconnecting](./Intermittent.md)
 #### [Why do I get xDrip imported AAPS profile pop-up?](./AAPS_ProfileImportNotification.md)
 #### [Bluetooth headphone interruption](./Bluetooth-headphone-interruption.md)
-#### [Database restore failure](./Database-restore-failure.md)
 #### [Alert re-raise malfunction](./Alert-re‐raise-malfunction.md)
 #### [xDrip sync not working](./xDrip-Sync-not-working.md)
 #### [xDrip causes apps to restart](./RestartingApps.md)
