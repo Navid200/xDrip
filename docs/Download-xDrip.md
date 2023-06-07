@@ -23,6 +23,8 @@ After accessing the release you want, you will see something like this after exp
 Download the file with .apk at the end.  If there are multiple files with .apk at the end, download the one without "[variant](./Variants.md)" included in the name.  
 <br/>  
   
+---  
+  
 #### [Install](./Install.md)
 #### [Updates](./Updates.md)
 #### [Release Notes](./ReleaseNotes.md)
