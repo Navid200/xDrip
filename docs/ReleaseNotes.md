@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.06.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.08) | Uploaders status page cleanup |  
 | [2023.05.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.26) | CareLink fix |  
 | [2023.05.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.25) | No G6 cal code on G7 page - More Libre 2 sensor codes |  
 | [2023.05.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.23) | Clarified Eng mode note - Ascending volume alerts can be tested |  
