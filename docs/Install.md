@@ -17,16 +17,6 @@ Enable "Allow from this source" and go back.  Now, you will see this:
 Tap on "Install".  
 <br/>  
   
-Or, you may see this:  
-![](./images/UnsafeAppBlocked1.png)  
-  
-Tap on "More details".  Now, you will see this:  
-![](./images/UnsafeAppBlocked2.png)  
-  
-Tap on "Install anyway".  
-  
-xDrip is not in the Google Play store as explained [here](./App-store.md).  
-Because of that, in the above forms, you are encouraged to tap on "Got it", which will abandon the installation.  The "Got it" option is highlighted and centered to get your attention.  
-However, please note that you can also tap on "More details" and "Install anyway" in the above forms also.  And that's what you need to do in order to install xDrip.  
+You will see unsafe app blocked.  Follow these [instructions](./FAQ/UnsafeAppBlocked.md) to install.  
   
   
