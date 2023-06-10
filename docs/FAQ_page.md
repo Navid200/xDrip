@@ -12,7 +12,8 @@
 #### [Why is xDrip not in Google Play Store?](./App-store.md)
 #### [Why do I get a notification for each reading?](./Frequent_notifications.md)
 #### [Why nothing happens when I check for updates?](./NoUpdate.md)
- [Why do I get xDrip imported AAPS profile pop-up?](./AAPS_ProfileImportNotification.md)  
+#### [Why do I get xDrip imported AAPS profile pop-up?](./AAPS_ProfileImportNotification.md)
+ [Why do I get Treatment Reminders?](./Alerts/TreatmentReminders.md)  
   
 #### **Where**
 #### [Where are the Logs?](./Logs.md)
