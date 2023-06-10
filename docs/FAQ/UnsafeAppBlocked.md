@@ -9,3 +9,9 @@ This is expected.  Tap on “More details”. Now, you will see the following.
 ![](../images/UnsafeAppBlocked2.png)  
   
 Tap on “Install anyway”.  
+<br/>  
+  
+---  
+  
+#### [Install xDrip](../Install.md)  
+  
