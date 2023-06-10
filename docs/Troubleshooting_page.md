@@ -14,6 +14,7 @@ If you are experiencing problems using xDrip, some possible issues, and suggeste
 #### [xDrip causes apps to restart](./RestartingApps.md)
 #### [Number wall on lock screen does not disable](./NumberWallDisable.md)
 #### [Google Play Services is not installed](./GooglePlayServices_NotInstalled.md)
+#### [Why do I get treatment reminders?](./Alerts/TreatmentReminders.md)
   
 <br/>  
   
