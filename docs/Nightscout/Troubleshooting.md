@@ -12,6 +12,7 @@ Let's start from scratch and go over everything that could have gone wrong.
   
 ---  
   
+#### **Stopped virtual machine**  
 Go to [Google Cloud](https://cloud.google.com/).  Sign into Google.  
 Click on Console.  
 ![](./images/Console.png)  
