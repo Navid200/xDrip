@@ -31,6 +31,15 @@ But, if you see something like what is shown below with a square symbol (stop) u
   
 If you see that, please click on the 3-dot drop-down menu and select "Start".  
 ![](./images/StartVM.png)  
+<br/>  
   
-Always start by checking the [status page](./Status.md).  
+---  
+  
+#### **Dormant FreeDNS**  
+Go to [status page](./Status.md).  
+  
+If it shows FreeDNS name and IP mismatch and invalid certificate, as shown in the following figure, it is very likely that your FreeDNS account has gone dormant.  
+![](./images/HostnameProblem.png)  
+  
+In that case, please follow [these instructions](./FreeDNS_Min_Login.md) to solve the problem.  
   
