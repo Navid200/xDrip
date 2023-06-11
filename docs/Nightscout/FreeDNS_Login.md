@@ -16,4 +16,6 @@ Click on "Main Menu" under "For Members".  You will be presented with the login 
   
 Enter the email address and password you used to sign up with FreeDNS when you completed the [first step of installation](./FreeDNS.md).  
 
-You will see
+After you log in, if you click on "Main Menu" under "For Members", you will see what is shown below.  
+![](./images/FreeDNS_LoggedIn.png)  
+
