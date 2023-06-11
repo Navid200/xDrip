@@ -42,4 +42,9 @@ If it shows FreeDNS name and IP mismatch and invalid certificate, as shown in th
 ![](./images/HostnameProblem.png)  
   
 In that case, please follow [these instructions](./FreeDNS_Min_Login.md) to solve the problem.  
+<br/>  
   
+---  
+  
+#### **10GB disk**  
+If you created your virtual machine a long time ago and never updated, you may still have a 10GB disk.  Please follow [these instructions](./FullDisk.md) to address that.  
