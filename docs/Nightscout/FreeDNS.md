@@ -19,7 +19,7 @@ Send activation email.
 ![](./images/FreeDNS1.png)  
 Open email and activate your account.  
   
-Click on Main Menu to log in.  
+To log in, click on "Main Menu" under "For Members".  
 After logging in, you can see your user ID at the top right corner.  
 ![](./images/FD_userID.png)  
   
