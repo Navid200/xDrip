@@ -9,7 +9,6 @@ permalink: "/docs/Nightscout/Troubleshooting.html"
   
 Let's start from scratch and go over everything that could have gone wrong.  
 <br/>  
-<br/>  
   
 ---  
   
