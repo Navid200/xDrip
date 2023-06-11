@@ -56,6 +56,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Restart](./Restart.md)
 #### [Access Compute Engine](./ComputeEngine.md)
 #### [Access Billing](./Billing.md)
+#### [Log into FreeDNS](./FreeDNS_Login.md)
 #### [Switch branches](./Branches.md)
 #### [Reinstall](./Reinstall.md)
 #### [Delete virtual machine](./DeleteVM.md)
