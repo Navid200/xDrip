@@ -9,6 +9,7 @@ permalink: "/docs/Nightscout/Troubleshooting.html"
   
 Let's start from scratch and go over everything that could have gone wrong.  
 <br/>  
+<br/>  
   
 ---  
   
@@ -32,11 +33,13 @@ But, if you see something like what is shown below with a square symbol (stop) u
 If you see that, please click on the 3-dot drop-down menu and select "Start".  
 ![](./images/StartVM.png)  
 <br/>  
+<br/>  
   
 ---  
   
 #### **10GB disk**  
 If you created your virtual machine a long time ago and never updated, you may still have a 10GB disk.  Please follow [these instructions](./FullDisk.md) to address that.  
+<br/>  
 <br/>  
   
 ---  
@@ -48,6 +51,7 @@ If it shows FreeDNS name and IP mismatch and invalid certificate, as shown in th
 ![](./images/HostnameProblem.png)  
   
 In that case, please follow [these instructions](./FreeDNS_Min_Login.md) to solve the problem.  
+<br/>  
 <br/>  
   
 ---  
