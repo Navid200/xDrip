@@ -1,10 +1,10 @@
 ---
 layout: GCNS
-title: "Nightscout on 30GB Google Cloud disk"
+title: "Google Cloud Nightscout full disk"
 permalink: "/docs/Nightscout/FullDisk.html"
 ---
 
-## Nightscout on 30GB Google Cloud disk
+## Google Cloud Nightscout full disk
 [Google Cloud Nightscout](./GoogleCloud.md) >> Restore a system with full disk  
   
 If you created your setup a long time ago (August 2022) with a 10GB disk and never updated to increase the disk space to 30GB, your system will sooner or later stop working.  This happens because there are processes that generate logs and snapshots that occupy considerable space.  When the disk becomes full, SSH will not work anymore.  
