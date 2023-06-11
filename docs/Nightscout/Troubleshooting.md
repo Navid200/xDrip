@@ -24,7 +24,9 @@ You should see something like what is shown below with a checkmark under status.
   
 But, if you see something like what is shown below with a square symbol (stop) under status, it means your virtual machine has stopped.  
 ![](./images/VMhasStopped.png)  
-
-
+  
+If you see that, please click on the 3-dot drop-down menu and select "Start".  
+![](./images/StartVM.png)  
+  
 Always start by checking the [status page](./Status.md).  
   
