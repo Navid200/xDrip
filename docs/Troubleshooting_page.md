@@ -15,6 +15,7 @@ If you are experiencing problems using xDrip, some possible issues, and suggeste
 #### [Number wall on lock screen does not disable](./NumberWallDisable.md)
 #### [Google Play Services is not installed](./GooglePlayServices_NotInstalled.md)
 #### [Treatment reminders?](./Alerts/TreatmentReminders.md)
+#### [Google Cloud Nightscout troubleshooting](./Nightscout/Troubleshooting.md)
   
 <br/>  
   
