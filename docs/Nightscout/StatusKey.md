@@ -14,6 +14,6 @@ The following table lists the different keywords that may be shown on the status
   
 | Marker | Meaning | Severity | Solution |  
 | ------ | ------- | -------- | -------- |  
-| | 10GB disk | High | [Resize disk](./FullDisk.md) |  
-  
+| ![](./images/DiskSizeKey.png) | Disk size less than 30GB | High | [Resize disk](./FullDisk.md) |  
+|   
   
