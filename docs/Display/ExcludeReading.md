@@ -8,6 +8,7 @@ To do that, you will need to use the [data table](../Datatables.md).  Open the r
   
 Answer with "yes".  
 After you flag a reading as bad, the color of the point representing the reading on the main screen will change and the reading will be excluded from xDrip statistics.  
+Also, the marked reading will be highlighted in the data table.  
   
 You can undo this by using the data table again.  Go to the data table.  Long press the reading you want to unmark.  In response to the prompt that comes up, choose "no" to unmark the reading.  It will become a normal reading again.  
   
