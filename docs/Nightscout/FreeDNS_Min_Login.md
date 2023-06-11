@@ -16,7 +16,7 @@ If you don't log into your account for 6 months, your account will become dorman
 ---  
   
 #### **FreeDNS has gone dormant**  
-This is what the status page will show if your FreeDNS account has gone dormant.  
+This is what the [status page](./Status.md) will show if your FreeDNS account has gone dormant.  
 ![](./images/HostnameProblem.png)  
   
 Log into your FreeDNS account at [https://freedns.afraid.org/](https://freedns.afraid.org/).  You will see this:  
