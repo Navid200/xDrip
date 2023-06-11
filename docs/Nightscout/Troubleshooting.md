@@ -8,6 +8,9 @@ permalink: "/docs/Nightscout/Troubleshooting.html"
 [Google Cloud Nightscout](./GoogleCloud.md) >> Troubleshooting  
   
 Let's start from scratch and go over everything that could have gone wrong.  
+<br/>  
+  
+---  
   
 Go to [Google Cloud](https://cloud.google.com/).  Sign into Google.  
 Click on Console.  
