@@ -35,6 +35,12 @@ If you see that, please click on the 3-dot drop-down menu and select "Start".
   
 ---  
   
+#### **10GB disk**  
+If you created your virtual machine a long time ago and never updated, you may still have a 10GB disk.  Please follow [these instructions](./FullDisk.md) to address that.  
+<br/>  
+  
+---  
+  
 #### **Dormant FreeDNS**  
 Go to [status page](./Status.md).  
   
@@ -46,5 +52,8 @@ In that case, please follow [these instructions](./FreeDNS_Min_Login.md) to solv
   
 ---  
   
-#### **10GB disk**  
-If you created your virtual machine a long time ago and never updated, you may still have a 10GB disk.  Please follow [these instructions](./FullDisk.md) to address that.  
+#### **Old setup**  
+If your status page looks different than what is shown below, you should [update your setup](./NS_SyncExecutables.md).  
+![](./images/Status.png)  
+  
+  
