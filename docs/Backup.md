@@ -8,3 +8,6 @@ You can access backup functions from the top right menu button under "Import /Ex
 #### [Restore database](./Restore-Database)
 #### [Google Drive backup](./GoogleDriveBackup.md)
 #### [Save database daily](./Backup/SaveDaily.md)
+#### [Transfer to a new phone](./New-Phone.md)
+  
+  
