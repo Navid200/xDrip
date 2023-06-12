@@ -12,5 +12,3 @@ To restore the database, tap on Import / Export features &#8722;> Restore databa
 Read the warning.  If it does not make you change your mind about restoring a database, tap on OK.  
 Tap on the file name to restore.  
   
-If your phone has Android version 11 or higher, and you are using an older version of xDrip, you may experience an [issue](./Database-restore-failure).  
-  
