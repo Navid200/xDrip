@@ -17,6 +17,7 @@ The following table lists the different keywords that may be shown on the status
 | ![](./images/DiskSizeKey.png) | Disk size less than 30GB | [Resize disk](./FullDisk.md) | |  
 | ![](./images/ipMismatchCertInvalid_Key.png) | Dormant FreeDNS | [Extend account](./FreeDNS_Min_Login.md) | 1 |  
 | ![](./images/MissingPackages_Key.png) | New packages available | [Update platform](./NS_SyncExecutables.md) | 1 |  
+| ![](./images/MissNodeModules_Key.png) | Must complete bootstrap | Install Nightscout phase 1 from the Google Cloud setup submenu | |  
   
 1 - During the installation phase, you can ignore these markers.  But, they must be fixed if you see them after.  
   
