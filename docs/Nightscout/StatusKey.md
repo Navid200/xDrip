@@ -22,5 +22,5 @@ The following table lists the different keywords that may be shown on the status
 | ![](./images/StartFreeDNS_dependence_Key.png) | You cannot restart the server if the FreeDNS site is down. | Install Nightscout Phase 2 from the Google Cloud setup submenu. | 1, 2 |  
   
 1 - During the installation phase, you can ignore these markers.  But, they must be fixed if you see them after.  
-2 - You don't have to choose a different API_SECRET.  If you are happy with your existing API_SECRET, choose cancel when you are offered to change it. |  
+2 - You don't have to choose a different API_SECRET.  If you are happy with your existing API_SECRET, choose cancel when you are asked to change it.   
   
