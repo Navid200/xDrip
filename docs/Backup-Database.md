@@ -10,6 +10,6 @@ This will execute two tasks:
 The database contains all your previous readings as wellas all your alerts.  
   
 2- Saves settings to Internal storage &#8722;> Download &#8722;> xDrip-export  
-The settings contain what you have changed to customize xDrip.  For example, if you have modified the colors using the [legend](./Legend.md).  On a new phone, you are better off using the source wizard, which will choose all the correct settings for your collector.  
+The settings contain what you have changed to customize xDrip.  For example, if you have modified the colors using the [legend](./Legend.md).  On a new phone, you are better off using the source wizard, which will choose all the correct settings for your collector, instead of transferring the settings from an older phone.  
   
   
