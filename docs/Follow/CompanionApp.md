@@ -1,5 +1,5 @@
 ## Companion App
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Follow](../Follow_page.md) >> Companion App  
+[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Follow](../Follow_page.md) >> xDrip Companion App mode  
   
 xDrip can get readings from notifications issued by another app.  
 For example, if you have CamAPS installed and operational, you can have xDrip on the same phone show readings from CamAPS.  
