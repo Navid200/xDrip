@@ -1,4 +1,4 @@
-## Companion App
+## Companion App Mode
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Follow](../Follow_page.md) >> xDrip Companion App mode  
   
 xDrip can get readings from notifications issued by another app.  
