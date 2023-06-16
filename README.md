@@ -1,4 +1,4 @@
-# xDrip Documentation & Support
+# xDrip
   
 xDrip is an [open-source Android app](https://github.com/NightscoutFoundation/xDrip), developed, maintained and supported by volunteers, that you can use as a continuous glucose monitor (CGM).  
 ![](./docs/images/xDinaction.png)  
