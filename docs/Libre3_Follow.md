@@ -20,5 +20,12 @@ If you have it installed and never uninstalled it, you will need to log off and 
 Accept the terms and conditions.  
   
 It should work again now.  
+<br/>  
   
+---  
+  
+#### **Update**  
+If your setup has stopped working, add a space after the configuration script setting.  
+Shortly after, remove the space.  
+It should work again now.  
   
