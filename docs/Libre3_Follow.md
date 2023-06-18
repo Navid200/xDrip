@@ -13,7 +13,7 @@
   
 ---  
   
-#### **Update**  
+#### **Update - Dec. 24, 2022**  
 There has been an update to the link-up app.  If this scheme was working for you and is not now, it may be because of the update.  
 To solve the problem, you will need to install the link-up app again.  Make sure it is updated to the latest.  It may ask you to accept terms and conditions.  
 If you have it installed and never uninstalled it, you will need to log off and log back in to get the prompt to accept the terms and conditions.  
@@ -24,7 +24,7 @@ It should work again now.
   
 ---  
   
-#### **Update**  
+#### **Update - June 17, 2023**  
 If your setup has stopped working, add a space after the configuration script setting.  
 Shortly after, remove the space.  
 It should work again now.  
