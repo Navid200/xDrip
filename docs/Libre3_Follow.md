@@ -27,5 +27,5 @@ It should work again now.
 #### **Update - June 17, 2023**  
 If your setup has stopped working, add a space after the configuration script setting.  
 Shortly after, remove the space.  
-Doing that causes a full reset of the internal state, causing it to resume operation again.  
+Doing that causes a full reset of the internal state, causing it to resume operation.  
   
