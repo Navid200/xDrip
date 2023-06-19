@@ -11,6 +11,7 @@ On Android 10 and older, you will see this:
 ![](./images/LocationAndroid9.png)  
   
 Enable "Location".  
+<br/>  
   
 On Android 11 and newer, tap on "Location".  You will see this:  
 ![](./images/LocationAndroid11.png)  
