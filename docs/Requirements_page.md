@@ -9,4 +9,5 @@ You need to be the one making decisions. You need to consult with a competent me
   
 #### [No medical decisions](./Medical.md)
 #### [Phone](./Smartphone-Requirements.md)
+#### [Location Access](./Location.md)
   
