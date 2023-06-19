@@ -50,8 +50,8 @@ Scroll down to Bluetooth and tap on Bluetooth &#8722;> Advanced &#8722;> Battery
 ---  
   
 ### Location and Bluetooth
-In Android, you should have Location and Bluetooth active. If you put your phone in Airplane mode, you need to enable Bluetooth if you want xDrip to continue to work.
-
+In Android, you should have Location and Bluetooth active. If you put your phone in Airplane mode, you need to enable Bluetooth if you want xDrip to continue to collect.  
+  
 [Location](./Location.md)  
   
 ---  
