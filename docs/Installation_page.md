@@ -7,6 +7,8 @@
 #### [Install xDrip](./Install.md)
 <br/>  
   
+#### [Location access](./Location.md)
+#### [Bluetooth Battery optimization](./BluetoothBatteryOpt.md)
 #### [xDrip version](./xDrip-Version.md)
 #### [Update xDrip](./Updates.md)
 #### [Transfer to new phone](./New-Phone.md)
