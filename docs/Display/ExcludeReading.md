@@ -14,6 +14,7 @@ You can undo this by using the data table again.  Go to the data table.  Long pr
 <br/>  
   
 #### **Glucose range**  
-If you have had a high reding in error, and the reading is so high that it has afffected the vertical, y, axis, marking it as bad will tell xDrip not to adjust the scale.  
-
+If you have had a very high reding, xDrip will adjust the vertical, y, axis, so that the reading will be visible ignoring your chopsen vertical axis range.  
+  
+If the reading was in error, you can mark it as bad and xDrip will not adjust the range to include it on screen.  
   
