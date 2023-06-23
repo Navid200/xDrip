@@ -14,7 +14,7 @@ You can undo this by using the data table again.  Go to the data table.  Long pr
 <br/>  
   
 #### **Glucose range**  
-If you have had a very high reding, xDrip will adjust the vertical, y, axis, so that the reading will be visible ignoring your chosen vertical axis range.  
+If you have had a very high reding, xDrip will adjust the vertical, y, axis so that the reading will be visible ignoring your chosen vertical axis range.  
   
 If the reading was in error, you can mark it as bad and xDrip will not adjust the range to include it on screen.  
   
