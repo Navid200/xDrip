@@ -41,11 +41,8 @@ However, depending on device and Android version, you may need to look elsewhere
   
 ### Bluetooth Battery Optimization
 Disable Bluetooth battery optimization in Android.  
-Generally, to access this setting, you should go to Android Settings &#8722;> Apps & notifications.  
-Tap on "See all apps" if needed to see a list.  Tap on the "Show system apps" from the 3 dot menu.  
-Scroll down to Bluetooth and tap on Bluetooth &#8722;> Advanced &#8722;> Battery.  Disable battery optimization.  
-![](./images/BT_Opt.png)  
-<br/>  
+  
+[Bluetooth Battery Optimization](./BluetoothBatteryOpt.md)  
   
 ---  
   
