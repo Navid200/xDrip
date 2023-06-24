@@ -1,5 +1,5 @@
 ## Android update disconnected xDrip!
-[xDrip](../../README.md) >> [FAQ](../FAQ_page.md) >> Updated Android; xDrip disconnected!  
+[xDrip](../../README.md) >> [Troubleshooting](../Troubleshooting_page.md) >> Updated Android; xDrip disconnected!  
   
 After an Android update, some settings may change to default.  
 You may need to verify the following.  
