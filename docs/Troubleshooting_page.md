@@ -7,6 +7,7 @@ If you are experiencing problems using xDrip, some possible issues, and suggeste
 #### [Alert is silent](./Silent-alert.md)
 #### [Dexcom transmitter does not connect](./Connectivity-troubleshoot.md)
 #### [Dexcom transmitter keeps disconnecting](./Intermittent.md)
+#### [Android update & disconnects](./FAQ/AndroidUpdate.md)
 #### [Why do I get xDrip imported AAPS profile pop-up?](./AAPS_ProfileImportNotification.md)
 #### [Bluetooth headphone interruption](./Bluetooth-headphone-interruption.md)
 #### [Alert re-raise malfunction](./Alert-re‐raise-malfunction.md)
