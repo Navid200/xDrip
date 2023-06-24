@@ -9,4 +9,5 @@ Generally, this is at Android settings &#8722;> Apps &#8722;> xDrip+ &#8722;> Ad
 Depending on device and Android version, there may be minor differences in exactly where the setting may be or what it is called.  
   
 For example, on Pixel, you actually need to set xDrip battery usage to unrestricted to accomplish the same objective.  
+![](./images/BatUseUnrerstricted.png)  
   
