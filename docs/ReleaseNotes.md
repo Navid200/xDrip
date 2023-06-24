@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.06.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.24) | G6 inactive transmitter start dialog delayed |  
 | [2023.06.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.17) | Less intrusive Nightscout fail notifications - AAPS status |  
 | [2023.06.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.15) | Android 5 is retired. |  
 | [2023.06.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.09) | Libre 2 smoothing options - new G7 firmware|  
