@@ -12,7 +12,7 @@ These are the recommended G6 settings.  Click/tap on the hyperlinks to see the d
 Enable all recommended settings (settings in the diagram with checkmarks) even if you see "G5" in the description.  
 
 * Settings &#8722;> Less common settings &#8722;> [Other misc options](./images/other-misc-recommended.png)  
-Enable &nbsp; &nbsp; &nbsp; Samsung workarounds even if your phone is not Samsung.  
+Enable &nbsp; &nbsp; &nbsp; Wake workarounds even if your phone is not Samsung.  
 
 * Settings &#8722;> Less common settings &#8722;> [Bluetooth Settings](./images/ble-recommended-stngs.png)  
 
