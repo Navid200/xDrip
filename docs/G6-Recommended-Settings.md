@@ -11,8 +11,7 @@ These are the recommended G6 settings.  Click/tap on the hyperlinks to see the d
   Android versions **9** or **older**:  Settings &#8722;> [G5/G6/Dex1 Debug Settings](./images/g6_An9-recommended-settings.png)  
 Enable all recommended settings (settings in the diagram with checkmarks) even if you see "G5" in the description.  
 
-* Settings &#8722;> Less common settings &#8722;> [Other misc options](./images/other-misc-recommended.png)  
-Enable &nbsp; &nbsp; &nbsp; Wake workarounds even if your phone is not Samsung.  
+* Settings &#8722;> Less common settings &#8722;> [Other misc options](./images/other-misc-recommended.png)    
 
 * Settings &#8722;> Less common settings &#8722;> [Bluetooth Settings](./images/ble-recommended-stngs.png)  
 
