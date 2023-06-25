@@ -11,7 +11,6 @@ These are the recommended G5 settings.  Click/tap on the hyperlinks to see the d
 Enable [Native Algorithm](./Native-Algorithm.md) only if you have to.  If you don't know what it is, leave it disabled.  
 
 * Settings &#8722;> Less common settings &#8722;> [Other misc options](./images/other-misc-recommended.png)  
-Enable Samsung workarounds even if your phone is not Samsung.  
 
 * Settings &#8722;> Less common settings &#8722;> [Bluetooth Settings](./images/ble-recommended-stngs.png)  
   
