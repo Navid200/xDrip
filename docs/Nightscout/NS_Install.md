@@ -31,7 +31,7 @@ The following table shows what you may see depending on different choices you ca
 | :--------------: | :----------: | :-----: |  
 | Nothing | [<img src="./images/AllGood_Icon.png">](./images/AllGood.png) | All good ✅ |  
 | Region | [<img src="./images/AllGood_Icon.png">](./images/Region.png) | Not free ❌ |  
-| Machine type | [<img src="./images/AllGood_icon.png">](./images/NoMicro.png) | Not free ❌ |  
+| Machine type | [<img src="./images/AllGood_Icon.png">](./images/NoMicro.png) | Not free ❌ |  
 | Disk type | [<img src="./images/AllGood_Icon.png">](./images/NotStandard.png) | Not free ❌ |  
 | Disk size | [<img src="./images/AllGood_Icon.png">](./images/DiskSize.png) | Unused resource <br/> Not free ❌ |  
 | Firewall | [<img src="./images/AllGood_Icon.png">](./images/Firewall.png) | Insecurity ❌ |  
