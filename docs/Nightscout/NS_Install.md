@@ -38,7 +38,6 @@ The following table shows what you may see depending on different choices you ca
 | Ubuntu | [<img src="./images/WrongUbuntu_Icon.png">](./images/WrongUbuntu.png) | Incompatibility ❌ |  
   
 If the note directs you to delete the machine and create a new one or if any item above the line on the status page is in red, it means you made an incorrect selection when you created the virtual machine.  In that case, [delete the virtual machine](./DeleteVM.md) and go back and repeat the [virtual machine](./VirtualMachine.md) step.  
-<span style="color:orange">There has been an update to the Ubuntu images on Google Cloud.  If you see your Ubuntu version (20.04.6) shown in red, you can ignore the above note and continue the installation.  We will update the platform shortly to address the update.</span>  
   
 If you did not get a notification to recreate the machine, because of a wrong Ubuntu version, and nothing is red above the line on the status page, just press enter to close the status page.  You will see this menu:  
 ![](./images/Menu.png)  
