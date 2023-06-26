@@ -30,11 +30,11 @@ The following table shows what you may see depending on different choices you ca
 | Incorrect choice | Clue | Outcome |  
 | :--------------: | :----------: | :-----: |  
 | Nothing | [<img src="./images/AllGood_Icon.png">](./images/AllGood.png) | All good ✅ |  
-| Region | [<img src="./images/Region_Icon.png">](./images/Region.png) | Not free ❌ |  
-| Machine type | [<img src="./images/NoMicro_icon.png">](./images/NoMicro.png) | Not free ❌ |  
-| Disk type | [<img src="./images/NotStandard_Icon.png">](./images/NotStandard.png) | Not free ❌ |  
-| Disk size | [<img src="./images/DiskSize_Icon.png">](./images/DiskSize.png) | Unused resource <br/> Not free ❌ |  
-| Firewall | [<img src="./images/Firewall_Icon.png">](./images/Firewall.png) | Insecurity ❌ |  
+| Region | [<img src="./images/AllGood_Icon.png">](./images/Region.png) | Not free ❌ |  
+| Machine type | [<img src="./images/AllGood_icon.png">](./images/NoMicro.png) | Not free ❌ |  
+| Disk type | [<img src="./images/AllGood_Icon.png">](./images/NotStandard.png) | Not free ❌ |  
+| Disk size | [<img src="./images/AllGood_Icon.png">](./images/DiskSize.png) | Unused resource <br/> Not free ❌ |  
+| Firewall | [<img src="./images/AllGood_Icon.png">](./images/Firewall.png) | Insecurity ❌ |  
 | Ubuntu | [<img src="./images/WrongUbuntu_Icon.png">](./images/WrongUbuntu.png) | Incompatibility ❌ |  
   
 If the note directs you to delete the machine and create a new one or if any item above the line on the status page is in red, it means you made an incorrect selection when you created the virtual machine.  In that case, [delete the virtual machine](./DeleteVM.md) and go back and repeat the [virtual machine](./VirtualMachine.md) step.  
