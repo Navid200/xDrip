@@ -25,6 +25,6 @@ Enable all recommended settings (settings in the diagram with checkmarks) even i
 
 * Also disable Bluetooth battery optimization as explained [here](./BluetoothBatteryOpt.md).  
 
-* For Android 11 or newer, enable background location access as explained in "[Basics](./Dexcom-Basics.md#location-and-bluetooth)".  
+* For Android 11 or newer, enable background location access as explained [here](./Location.md).  
 
 * Restart the phone.  
