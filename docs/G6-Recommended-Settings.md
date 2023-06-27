@@ -21,9 +21,9 @@ Enable all recommended settings (settings in the diagram with checkmarks) even i
 
 * Use Android Settings to sync its time with the network as explained in "[Basics](./Dexcom-Basics.md#phone-time-accuracy)".  
 
-* Disable battery optimization as explained in [here](./BatteryOpt.md).  
+* Disable battery optimization as explained [here](./BatteryOpt.md).  
 
-* Also disable Bluetooth battery optimization as explained in "[Basics](./Dexcom-Basics.md#bluetooth-battery-optimization).  
+* Also disable Bluetooth battery optimization as explained [here](./BluetoothBatteryOpt.md).  
 
 * For Android 11 or newer, enable background location access as explained in "[Basics](./Dexcom-Basics.md#location-and-bluetooth)".  
 
