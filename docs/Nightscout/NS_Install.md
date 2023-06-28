@@ -72,7 +72,7 @@ Enter a password and take note.  You will need it to access Nightscout.  Or, cho
 You will be asked to enter your FreeDNS user ID and password.  
 ![](./images/FreeDNS_IDPass.png)  
 Enter those.  
-You cannot use your email address for user ID.  If you don't remember your FreeDNS user ID, you can log into [FreeDNS](https://freedns.afraid.org/menu/), where your user ID will be shown in the right pane at the top.  Or, you can look at the verificaion email you received when you first signed up for FreeDNS.  It shows your user ID as well.  
+You cannot use your email address for user ID.  If you don't remember your FreeDNS user ID, you can log into [FreeDNS](https://freedns.afraid.org/menu/), where your user ID will be shown in the right pane at the top.  Or, you can look at the verification email you received when you first signed up for FreeDNS.  It shows your user ID as well.  
   
 After you enter your user ID and password, you can press enter to submit.  
 If you have more than one subdomain, you will be asked to identify the one you want to use.  In that case, you need to enter the first few characters of the subdomain to identify it with respect to your other subdomains, and press enter.  
