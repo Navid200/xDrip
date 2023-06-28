@@ -82,5 +82,5 @@ If you see "Startup Dependence on FreeDNS" on the status page as shown below, pl
 ![](./images/StartFreeDNS_dependence.png)  
   
 You will be asked if you want to change API_SECRET.  Just press Escape unless you want to change it.  
-You will be asked for your FreeDNS userID and password.  See [this](FreeDNS_userID.md) if you don't remember your user ID.  Enter those.  
+You will be asked for your FreeDNS user ID and password.  See [this](FreeDNS_userID.md) if you don't remember your user ID.  Enter those.  
 You will be asked to identify the subdomain to use.  Enter the first few characters of the same subdomain you have been using unless you want to change it.  
