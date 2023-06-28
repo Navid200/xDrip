@@ -66,13 +66,15 @@ You will see a few error messages.  Those are expected and can be ignored.  Plea
 To complete the installation, go to the Google Cloud setup submenu and select item 2 on the menu "Install Nightscout Phase 2" and enter.    
   
 You will be asked to choose API_SECRET.  
+[This](./HowToMenu.md) explain how to use the menus without a mouse.  
 Enter a password and take note.  You will need it to access Nightscout.  Or, choose cancel to keep it as is.  
   
 You will be asked to enter your FreeDNS user ID and password.  
 ![](./images/FreeDNS_IDPass.png)  
 Enter those.  
-You cannot use your email address for user ID.  If you don't remember your user ID, you can log into FreeDNS.  Your user ID will be shown in the right pane at the top.  Or, you can look at the registration email you received when you first signed up for FreeDNS.  it shows your user ID as well.  
-Use the up and down arrow keys to move between the password and user ID fields.  Your FreeDNS user ID is shown at the top right corner of the page when you log into [FreeDNS](https://freedns.afraid.org/menu/).  After you enter your user ID and password, you can press enter to submit.  
+You cannot use your email address for user ID.  If you don't remember your FreeDNS user ID, you can log into [FreeDNS](https://freedns.afraid.org/menu/), where your user ID will be shown in the right pane at the top.  Or, you can look at the verificaion email you received when you first signed up for FreeDNS.  It shows your user ID as well.  
+  
+After you enter your user ID and password, you can press enter to submit.  
 If you have more than one subdomain, you will be asked to identify the one you want to use.  In that case, you need to enter the first few characters of the subdomain to identify it with respect to your other subdomains, and press enter.  
   
 You may be directed to exit and try again (internal error).  Do that.  **If you are asked again to retry, please close the window.**  Open a new window.  Use item 7 from the menu to reboot the server.  Wait 30 seconds.  Click on retry to reconnect.  Run install Nightscout phase 2 again.  
