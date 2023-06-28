@@ -77,7 +77,7 @@ You cannot use your email address for user ID.  If you don't remember your FreeD
 After you enter your user ID and password, you can press enter to submit.  
 If you have more than one subdomain, you will be asked to identify the one you want to use.  In that case, you need to enter the first few characters of the subdomain to identify it with respect to your other subdomains, and press enter.  
   
-You may be directed to exit and try again (internal error).  Do that.  **If you are asked again to retry, please close the window.**  Open a new window.  Use item 7 from the menu to reboot the server.  Wait 30 seconds.  Click on retry to reconnect.  Run install Nightscout phase 2 again.  
+You may be directed to exit and try again (internal error).  Do that.  **If you are asked again to retry, please close the window.**  Open a new window.  Use "Reboot server" from the menu to reboot the server.  Wait 30 seconds.  Click on retry to reconnect.  Run install Nightscout phase 2 again.  
   
 After successful setup, you will be asked to enter an email address for security notices.   
 Enter an email address.  
