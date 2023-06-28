@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.06.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.28) | CareLink fix |  
 | [2023.06.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.24) | Delayed inactive G6 transmitter start dialog |  
 | [2023.06.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.17) | Less intrusive Nightscout fail notifications - AAPS status |  
 | [2023.06.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.15) | Android 5 is retired. |  
