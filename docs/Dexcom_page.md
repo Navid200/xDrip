@@ -38,7 +38,7 @@ If you use xDrip with a Dexcom G5, G6, G7 or Dexcom ONE transmitter, this page c
   
 #### **Troubleshooting**
 #### [Connectivity Troubleshooting](./Connectivity-troubleshoot.md)
-#### [New G6 transmitter does not connect](./Dexcom/NewG6TX_Activation.md)
+#### [New G6 or Dexcom One transmitter does not connect](./Dexcom/NewG6TX_Activation.md)
 #### [Intermittent Connectivity](./Intermittent.md)
 #### [Clear the queue](./Clear-queue.md)
 #### [How to trigger a pair request](./MissedPairRequest.md)
