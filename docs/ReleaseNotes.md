@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.07.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.01) | IoB Pebble - TX ID space detection - TX remaining days highlight |  
 | [2023.06.29](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.29) | CareLink US fix |  
 | [2023.06.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.28) | CareLink fix |  
 | [2023.06.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.06.24) | Delayed inactive G6 transmitter start dialog |  
