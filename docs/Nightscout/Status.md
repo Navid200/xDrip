@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud Nightscout Status"
 permalink: "/docs/Nightscout/Status.html"
 ---
 

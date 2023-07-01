@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud Compute Engine"
 permalink: "/docs/Nightscout/ComputeEngine.html"
 ---
 

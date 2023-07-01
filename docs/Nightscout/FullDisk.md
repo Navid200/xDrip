@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud Nightscout full disk"
 permalink: "/docs/Nightscout/FullDisk.html"
 ---
 

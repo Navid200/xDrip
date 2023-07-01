@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Data transfer from another Nightscout"
 permalink: "/docs/Nightscout/NS_Transfer.html"
 ---
 

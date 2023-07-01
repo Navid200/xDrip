@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud Nightscout in Australia or China"
 permalink: "/docs/Nightscout/AustraliaChina.html"
 ---
 

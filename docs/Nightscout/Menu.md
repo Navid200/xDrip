@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud Nightscout menu"
 permalink: "/docs/Nightscout/Menu.html"
 ---
 

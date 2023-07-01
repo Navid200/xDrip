@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud Nightscout branches"
 permalink: "/docs/Nightscout/Nightscout/Branches.html"
 ---
 

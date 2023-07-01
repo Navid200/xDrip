@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud Nighscout API_SECRET"
 permalink: "/docs/Nightscout/API_SECRET.html"
 ---
 

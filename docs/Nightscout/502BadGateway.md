@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "502 Bad Gateway"
 permalink: "/docs/Nightscout/502BadGateway.html"
 ---
 

@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud Nightscout Logs"
 permalink: "/docs/Nightscout/GCNS_Logs.html"
 ---
 

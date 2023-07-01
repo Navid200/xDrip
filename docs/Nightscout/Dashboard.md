@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Dashboard"
 permalink: "/docs/Nightscout/Dashboard.html"
 ---
 

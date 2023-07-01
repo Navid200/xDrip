@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Virtual machine terminal"
 permalink: "/docs/Nightscout/Terminal.html"
 ---
 

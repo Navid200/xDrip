@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Delete virtual machine"
 permalink: "/docs/Nightscout/DeleteVM.html"
 ---
 

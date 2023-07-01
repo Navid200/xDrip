@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud Nightscout Cost Table"
 permalink: "/docs/Nightscout/CostTable.html"
 ---
 

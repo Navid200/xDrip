@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud Nightscout reinstall"
 permalink: "/docs/Nightscout/Reinstall.html"
 ---
 

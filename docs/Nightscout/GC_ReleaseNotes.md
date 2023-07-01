@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud Nightscout release notes"
 permalink: "/docs/Nightscout/GC_ReleaseNotes.html"
 ---
 

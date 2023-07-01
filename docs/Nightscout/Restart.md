@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Restart Nightscout"
 permalink: "/docs/Nightscout/Restart.html"
 ---
 

@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Invoice for egress to China"
 permalink: "/docs/Nightscout/Crawlers.html"
 ---
 

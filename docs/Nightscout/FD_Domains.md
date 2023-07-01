@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "FreeDNS blocked domains"
 permalink: "/docs/Nightscout/FD_Domains.html"
 ---
 

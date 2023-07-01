@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Status page keywords"
 permalink: "/docs/Nightscout/StatusKey.html"
 ---
 

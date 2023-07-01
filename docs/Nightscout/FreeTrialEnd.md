@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Free Trial has ended - Upgrade your account"
 permalink: "/docs/Nightscout/FreeTrialEnd.html"
 ---
 

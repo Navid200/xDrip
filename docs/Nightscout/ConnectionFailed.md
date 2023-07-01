@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Virtual machine connection failed"
 permalink: "/docs/Nightscout/ConnectionFailed.html"
 ---
 

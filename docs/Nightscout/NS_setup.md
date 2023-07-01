@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Setting up Google Cloud Nightscout"
 permalink: "/docs/Nightscout/NS_setup.html"
 ---
 

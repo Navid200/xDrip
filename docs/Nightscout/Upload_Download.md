@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Upload/Download files"
 permalink: "/docs/Nightscout/Upload_Download.html"
 ---
 

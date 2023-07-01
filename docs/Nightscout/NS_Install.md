@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Linux/Nightscout install  "
 permalink: "/docs/Nightscout/NS_Install.html"
 ---
 

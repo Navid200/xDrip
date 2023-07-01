@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Virtual machine mobile access"
 permalink: "/docs/Nightscout/Mobile.html"
 ---
 

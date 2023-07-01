@@ -2,19 +2,13 @@
 @import "fonts";
 @import "rouge-base16-dark.scss";
 
-:root {
-  --bg-color: #3dc7f5;
-}
-
 body {
   padding:0px 10ps 0px 10px;
   margin: 0px;
   font:16px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#101010;
   font-weight: normal;
-  background: var(--bg-color);
-//  background: var(--bg-color);  
-// 222222
+  background: #fbfbfb;
   background-attachment: fixed !important;
 }
 
@@ -98,7 +92,15 @@ strong {
   margin:0 auto;
   position:relative;
   padding: 0 8px;
-  background: var(--bg-color);
+  background: #f8fdff;
+}
+
+.wrapper_GCNS {
+  max-width:680px;
+  margin:0 auto;
+  position:relative;
+  padding: 0 8px;
+  background: #fffdf8;
 }
 
 section img {
@@ -176,7 +178,6 @@ dt {
   font-weight: normal;
 }
 
-
 #header {
   z-index: 1090;
   left:0;
@@ -184,8 +185,7 @@ dt {
   height: 60px;
   width: 100%;
   position: fixed;
-  background: #222222;
-
+  background: #184867;
 
     ul {
       margin-left: 2px;
@@ -209,7 +209,7 @@ dt {
           font-weight:400;
           text-decoration:none;
           border: 1px solid #200000;
-          background: linear-gradient(#333333, #333333);
+          background: linear-gradient(#121212, #121212);
           border-radius: 2px;
           box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 5px rgba(0,0,0,.7);
 
@@ -221,24 +221,25 @@ dt {
           text-align:center;
 
           &:hover {
-            background: linear-gradient(#323232, #313131);
-            background-color: #353535;
+            background: linear-gradient(#121212, #121212);
+        //    background-color: #353535;
             border: 1px solid #200000;
             box-shadow: inset 0px 0px 0px rgba(255,255,255,.3), 0px 0px 6px rgba(245,185,45,1);
-//            color: #ffeb9b;
-            color: #dddddd;
+            color: #f0f0f0;
           }
         }
         
         a.two {
           color: #ffbf00;
           font-weight:400;
-            &:hover {
-box-shadow: inset 0px 0px 0px rgba(245,185,45,1), 0px 2px 15px rgba(245,185,45,1);
+   //       border: 1px solid #200000;
+   //       background: linear-gradient(#222222, #222222);
+   //       border-radius: 2px;
+   //       box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 5px rgba(0,0,0,.7);
+          &:hover {
+            box-shadow: inset 0px 0px 0px rgba(245,185,45,1), 0px 2px 15px rgba(245,185,45,1);
           }
-          
         }
-
 
           &.fork {
             float: left;
@@ -269,12 +270,19 @@ box-shadow: inset 0px 0px 0px rgba(245,185,45,1), 0px 2px 15px rgba(245,185,45,1
         
           &.imag_L {
             float: left;
-            margin-left: 4px;
+            margin-left: 10px;
+            margin-bottom: -12px;
           }
         
           &.cont {
+            float: right;
+            margin-right: 8px;
+            margin-top: 3px;
+          }
+
+          &.release {
             float: left;
-            margin-left: 10px;
+            margin-left: 7px;
             margin-top: 3px;
           }
 
@@ -286,141 +294,36 @@ box-shadow: inset 0px 0px 0px rgba(245,185,45,1), 0px 2px 15px rgba(245,185,45,1
     }
 }
 
-#footer { 
-  left:0;
-  bottom: 0px;
-  height: 30px;
-  width: 100%;
-  padding: 0;
-  background: var(--bg-color);
-
-
- ul {
-      margin-left: 2px;
-      margin-right: 2px;
-      margin-top: -4px;
-      margin-bottom: 1px;
-      padding: 0;
-
-      li {
-        font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
-        font-weight: normal;
-        list-style: none;
-        display: inline;
-        color: white;
-        line-height: 50px;
-        text-shadow: 0px 1px 0px rgba(0,0,0,.2);
-        font-size: 14px;
-
-        a.one {
-          color: #f0f0f0;
-          font-weight:400;
-          text-decoration:none;
-          border: 1px solid #200000;
-          background: linear-gradient(#333333, #333333);
-          border-radius: 2px;
-          box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 3px rgba(0,0,0,.7);
-
-          background-color: #313131;
-          padding: 4px 6px;
-          line-height:14px;
-          font-size:14px;
-          display:inline-block;
-          text-align:center;
-
-          &:hover {
-            background: linear-gradient(#323232, #313131);
-            background-color: #353535;
-            border: 1px solid #200000;
-            box-shadow: inset 0px 0px 0px rgba(5,5,5,.3), 0px 0px 6px rgba(0,0,0,1);
-            color: #dddddd;
-          }
-        }
-        
-
-
-          &.fork {
-            float: left;
-            margin-left: 0px;
-          }
-
-          &.downloads {
-            float: right;
-            margin-left: 6px;
-          }
-
-          &.title {
-            float: right;
-            margin-right: 10px;
-            font-size: 11px;
-          }
-        
-          &.RN {
-            float: right;
-            margin-right: 0px;
-          }
-        
-          &.imaga {
-            float: right;
-            margin-right: 10px;
-            margin-top: 10px;
-          }
-        
-          &.imag_L {
-            float: left;
-            margin-left: 4px;
-          }
-        
-          &.cont {
-            float: left;
-            margin-left: 10px;
-            margin-top: -4px;
-          }
-
-          &.release {
-            float: right;
-            margin-right: 10px;
-            margin-top: -4px;
-          }  
-      }
-    }
-
-
-}
-
-
 .bd-search .form-control {
-      margin-top: 16px;
-      margin-right: 8px;
-      max-width: 52px;
-      max-height: 18px;
-	font-size:13.6px;
-	color:#dddddd;
-      background-color: #222222;
-	border-radius:12px;
-	border:1px solid #888888;
-      float: right;
-      padding: 0px 4px 2px 12px;
-      &:hover {
-box-shadow: inset 0px 0px 0px rgba(240,180,40,1), 0px 0px 6px rgba(240,180,40,1);
-      }
+  margin-top: 17px;
+  margin-right: 10px;
+  margin-bottom: -2px;
+  max-width: 46px;
+  max-height: 17px;
+  font-size:14px;
+  font-weight:400;
+  color:#dddddd;
+  background-color: #121212;
+  border-radius:12px;
+  border:1px solid #200000;
+  float: right;
+  padding: 2px 4px 2px 8px;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 5px rgba(0,0,0,.7);
+  &:hover {
+    box-shadow: inset 0px 0px 0px rgba(240,180,40,1), 0px 0px 6px rgba(240,180,40,1);
+  }
 }
-
-
-
 
 section {
   max-width:658px;
   padding: 84px 14px 30px 14px;
   margin: 0;
-  background: #f0f0f0;
-
+//  background: #f0f0f0;
   #title {
     border: 0;
     outline: none;
     margin: 0 0 50px 0;
     padding: 0 0 5px 0;
-
     h1 {
       font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
       font-weight: normal;
@@ -428,7 +331,6 @@ section {
       text-align: center;
       line-height: 36px;
     }
-
     p {
       color: #d7cfbe;
       font-family: 'OpenSansLight', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -436,7 +338,6 @@ section {
       font-size: 18px;
       text-align: center;
     }
-
     .credits {
       font-size: 11px;
       font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -447,57 +348,63 @@ section {
       &.left {
         float: left;
       }
-
       &.right {
         float: right;
-      }
-    }
-
-  }
-}
-
-@media print, screen and (max-width: 720px) {
-
-  #title {
-    .credits {
-      display: block;
-      width: 100%;
-      line-height: 30px;
-      text-align: center;
-
-      .left {
-        float: none;
-        display: block;
-      }
-
-      .right {
-        float: none;
-        display: block;
       }
     }
   }
 }
 
 @media print, screen and (max-width: 480px) {
-
   #header {
     margin-top: -14px;
+    &.imag_L {
+      margin-right: 0px;
+      margin-bottom: -12px;
+    }
+    &.release {
+      margin-left: 0px;
+    }
   }
-
   h3 {
     line-height: 1.5em;
   }
-
   h4 {
     line-height: 1.7em;
   }
-
   section {
     margin-top: -14px;
   }
   nav {
     display: none;
   }
+}
 
+@media print, screen and (max-width: 383px) {
+  #header {
+    margin-top: -14px;
+    padding-bottom: 30px;
+    ul {
+      li {
+          &.cont {
+            clear: right;
+            margin-right: 10px;
+            margin-top: -3px;
+          }
+          &.release {
+            clear: left;
+            margin-left: 10px;
+            margin-top: -3px;
+          }
+          &.imag_L {
+            margin-bottom: -12px;
+          }
+        }
+      }
+    }
+
+  section {
+    margin-top: 14px;
+  }
 }
   

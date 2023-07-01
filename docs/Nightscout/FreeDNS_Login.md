@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "FreeDNS login"
 permalink: "/docs/Nightscout/FreeDNS_Login.html"
 ---
 

@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Malfunctioning Nightscout applications"
 permalink: "/docs/Nightscout/Auth_Default_Roles.html"
 ---
 

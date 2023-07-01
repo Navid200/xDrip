@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "What is my FreeDNS user ID?"
 permalink: "/docs/Nightscout/FreeDNS_userID.html"
 ---
 

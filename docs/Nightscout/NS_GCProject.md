@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud project"
 permalink: "/docs/Nightscout/NS_GCProject.html"
 ---
 

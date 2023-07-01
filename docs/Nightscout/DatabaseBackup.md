@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud Nightscout Database and variables Backup"
 permalink: "/docs/Nightscout/DatabaseBackup.html"
 ---
 

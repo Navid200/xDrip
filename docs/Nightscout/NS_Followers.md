@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Setting up followers on Google Cloud"
 permalink: "/docs/Nightscout/NS_Followers.html"
 ---
 

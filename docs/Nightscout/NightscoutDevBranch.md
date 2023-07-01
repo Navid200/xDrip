@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Development branch of Nightscout"
 permalink: "/docs/Nightscout/NightscoutDevBranch.html"
 ---
 

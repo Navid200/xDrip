@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Connection via Cloud Identity-Aware Proxy Failed"
 permalink: "/docs/Nightscout/ConnIdentAwareFailed.html"
 ---
 

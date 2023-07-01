@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Import data from Heroku Atlas"
 permalink: "/docs/Nightscout/HerokuGone.html"
 ---
 

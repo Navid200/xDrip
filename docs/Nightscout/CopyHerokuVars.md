@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Copy Heroku Variables"
 permalink: "/docs/Nightscout/CopyHerokuVars.html"
 ---
 

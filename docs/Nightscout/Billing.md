@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud Nightscout Billing"
 permalink: "/docs/Nightscout/Nightscout/Billing.html"
 ---
 

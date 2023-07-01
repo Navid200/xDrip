@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud Hostname"
 permalink: "/docs/Nightscout/Hostname.html"
 ---
 

@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud snapshots"
 permalink: "/docs/Nightscout/Snapshots.html"
 ---
 

@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Edit Variables in a browser does not work!"
 permalink: "/docs/Nightscout/UpdateScripts_22.html"
 ---
 

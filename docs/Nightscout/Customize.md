@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Customize Nightscout"
 permalink: "/docs/Nightscout/Customize.html"
 ---
 

@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud Nightscout & security"
 permalink: "/docs/Nightscout/Security.html"
 ---
 

@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Google Cloud Nighscout Troubleshooting"
 permalink: "/docs/Nightscout/Troubleshooting.html"
 ---
 

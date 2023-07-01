@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Heroku Variables"
 permalink: "/docs/Nightscout/HerokuVars.html"
 ---
 

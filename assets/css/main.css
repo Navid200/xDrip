@@ -5,17 +5,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-
-
 @-ms-viewport {
   width: device-width; }
 
-
-
 [tabindex="-1"]:focus {
   outline: 0 !important; }
-
-
 
 abbr[title],
 abbr[data-original-title] {
@@ -95,10 +89,6 @@ svg {
   overflow: hidden;
   vertical-align: middle; }
 
-
-
-
-
 label {
   display: inline-block;
   margin-bottom: 0.5rem; }
@@ -153,9 +143,6 @@ input[type="month"] {
   -webkit-appearance: listbox; }
 
 
-
-
-
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -173,23 +160,25 @@ input[type="month"] {
   -webkit-appearance: button; }
 
 
-
-
 .form-control {
+  margin-top: 40px;
+  margin-bottom: 1px;
   display: block;
   width: 100%;
-  height: calc(2.5rem + 2px);
+//  height: calc(2.5rem + 2px);
   padding: 0.45rem 1.2rem;
-  font-size: 1rem;
-  line-height: 1.6;
-//  color: #495057;
+//  font-size: 1rem;
+//  line-height: 1.6;
   color: #dddddd;
-//  background-color: #fff;
-  background-color: transparent;
-  background-clip: padding-box;
+  background: #222222;
+//  background-color: transparent;
+//  background-clip: padding-box;
 //  border: 1px solid #ced4da;
-  border: 1px solid #888888;
-  border-radius: 0.25rem;
+//  border: 1px solid #888888;
+  border: 1px solid #222222;
+  box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 5px rgba(0,0,0,.7);
+//  border-radius: 0.25rem;
+  border-radius: 2px;
 //  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   @media screen and (prefers-reduced-motion: reduce) {
     .form-control {
@@ -198,37 +187,28 @@ input[type="month"] {
     background-color: transparent;
     border: 0; }
   .form-control:focus {
-//    color: #495057;
     color: #dddddd;
-//    background-color: #fff;
     background-color: transparent;
-//    border-color: #2ffbc5;
       border-color: #888888;
     outline: 0;
 //    box-shadow: 0 0 0 0.2rem rgba(3, 168, 124, 0.25); }
   .form-control::-webkit-input-placeholder {
-//    color: #6c757d;
     color: #dddddd;
     opacity: 1; }
   .form-control:-ms-input-placeholder {
-//    color: #6c757d;
     color: #dddddd;
     opacity: 1; }
   .form-control::-ms-input-placeholder {
-//    color: #6c757d;
     color: #dddddd;
     opacity: 1; }
   .form-control::placeholder {
-//    color: #6c757d;
     color: #dddddd;
     opacity: 1; }
   .form-control:disabled, .form-control[readonly] {
-//    background-color: #e9ecef;
     background-color: transparent;
     opacity: 1; }
 
 select.form-control:focus::-ms-value {
-//  color: #495057;
   color: #dddddd;
   background-color: #fff; }
 

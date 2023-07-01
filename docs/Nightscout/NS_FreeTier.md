@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Free Tier "
 permalink: "/docs/Nightscout/NS_FreeTier.html"
 ---
 

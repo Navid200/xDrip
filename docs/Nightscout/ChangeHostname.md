@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "How can I change the hostname?"
 permalink: "/docs/Nightscout/ChangeHostname.html"
 ---
 

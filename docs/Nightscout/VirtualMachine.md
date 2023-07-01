@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Virtual Machine"
 permalink: "/docs/Nightscout/VirtualMachine.html"
 ---
 

@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-title: "Nightscout Restore"
 permalink: "/docs/Nightscout/DatabaseRestore.html"
 ---
 
