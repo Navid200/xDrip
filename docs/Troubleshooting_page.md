@@ -5,6 +5,7 @@ If you are experiencing problems using xDrip, some possible issues, and suggeste
   
 #### [xDrip does not install](./DoesNotInstall.md)
 #### [Alert is silent](./Silent-alert.md)
+#### [New G6 or Dexcom One transmitter does not connect](./Dexcom/NewG6TX_Activation.md)
 #### [Dexcom transmitter does not connect](./Connectivity-troubleshoot.md)
 #### [Dexcom transmitter keeps disconnecting](./Intermittent.md)
 #### [Android update & disconnects](./FAQ/AndroidUpdate.md)
