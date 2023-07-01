@@ -9,6 +9,6 @@ If you attempt to install the official version, in that case, you will get a not
   
 The only way to install the official version of xDrip is to first uninstall the existing unofficial version.  However, before doing that, you should [backup the database](./Backup-Database.md) so that you can restore your data after switching to the official version.  
   
-After you have backed up the database, you can uninstall the unofficial version of xDrip.  Then, you can install xDrip.  
+After you have backed up the database, you can uninstall the unofficial version of xDrip.  Then, you can [install](./Install.md) xDrip.  
 Then, you should [restore the database](./Restore-Database.md).  
   
