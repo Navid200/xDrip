@@ -31,7 +31,7 @@ You can download the latest stable version from "Latest" under the "Releases" he
 | Nightly        | Most up-to-date but least tested |  
 | Alpha          | Less up-to-date but more tested than Nightly | 
 | Beta           | Less up-to-date but more tested than Alpha  |  
-| Stable         | Stable and Beta are usually the same |  
+| Stable         | Stable and Beta are the same for xDrip |  
   
 **How to install**  
 After finding the release that you want, download the file with .apk at the end and no "variant" in the title, under "Assets", and install over.  No need to uninstall first.  Installing over your existing xDrip will maintain the settings and readings history.  
