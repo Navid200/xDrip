@@ -14,6 +14,7 @@ You can customize what xDrip shows.
 #### [Graph smoothing](../Display/GraphSmoothing.md)
 #### [Screensaver](../Screensaver.md)
 #### [Lock screen](../Lock-screen.md)
+#### [Always-on Display](./AOD.md)
 #### [Trend Arrow](./TrendArrow.md)
 #### [Exclude a reading](./ExcludeReading.md)
   
