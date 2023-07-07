@@ -6,8 +6,8 @@ If you need help using xDrip, please post in [discussions](https://github.com/Ni
 include the following in the first post.  
 - What device is attached to the sensor. For example, Dexcom G6, or MIAOMIAO.   
 - What brand and model is the phone, and what Android version is on the phone?  
-- A screenshot of the system status page (you can blackout serial numbers)  
-- A screenshot of the Hardware Data Source page  
+- A screenshot of the [system status page](./StatusG5G6.md) (you can blackout serial numbers)  
+- A screenshot of the [Hardware Data Source page](./HardwareDataSource.md)  
 
 Include a short description of what is wrong. For example "No readings", or "Sensor Stopped".  
 Also, state if there is something that has changed. For example, is this a new phone, did you recently receive an Android patch, if the problem only occurs with a particular release of xDrip, if you are new to xDrip, or if a new sensor started the issue.  
@@ -15,7 +15,8 @@ Also, state if there is something that has changed. For example, is this a new p
 **<span style="color:red">Please don't open an issue.</span>**  
 Please allow us to manage the issues.  There used to be too many issues opened up by users.  Many could just be addressed by using xDrip differently.  In the meantime, there were always too many open issues and there was no way for the developers to know which ones were real.  
 Please help us manage the issues more efficiently by opening a [discussion](https://github.com/NightscoutFoundation/xDrip/discussions) instead of an issue.  If it turns out to be an issue, we will convert the discussion into an issue.  
-  
+
+- Please don't respond by replying to an email from GitHub.  Doing that will quote previous messages cluttering the thread.  
   
 #### What you shouldn't include  
 Items like user IDs, passwords, full name, address, phone number etc. can identify you or something that belongs to you.  We don't need any of those in order to help you.  Some of those information may be included in xDrip logs or shown on status pages.  You can blackout such information before posting.  
