@@ -1,7 +1,7 @@
 ## Support
 [xDrip](../README.md) >> Support  
   
-### Request for Help  
+### **Request for Help**  
 If you need help using xDrip, please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  
 include the following in the first post.  
 - What device is attached to the sensor. For example, Dexcom G6, or MIAOMIAO.   
@@ -23,11 +23,11 @@ Items like user IDs, passwords, full name, address, phone number etc. can identi
 On the other hand, the xDrip version you are using or the firmware version of the transmitter you are using are very important and can be relevant and will not compromise your privacy.  So, please don't leave those out of your screenshots.  
   
   
-### Suggestions 
+### **Suggestions** 
 To reach out to developers, post in the [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  
 xDrip is constantly being improved and your suggestions are welcome.  But, please note that there is a price to pay for every new feature.  xDrip needs to be maintained and documented.  That means xDrip bugs need to be fixed.  The more features there are, the more complicated the bugs will become.  
 Please post your suggestions.  But, please be patient.  
   
   
-### Feedback  
+### **Feedback**  
 If you find an item in the documentation that is not explained clearly, or if you like a subject to be added, or if you have found errors, please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  Please include in your post a link to the document to clarify which page you are referring to.  
