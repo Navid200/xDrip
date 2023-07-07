@@ -14,6 +14,8 @@ include the following in the first post.
 
 Include a short description of what is wrong.  
 
+- Please don't respond by replying to an email from GitHub.  Doing that will quote previous messages cluttering the thread.    
+  
 **<span style="color:red">Please don't open an issue.</span>**  
 Please allow us to manage the issues.    
   
