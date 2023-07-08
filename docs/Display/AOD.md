@@ -9,11 +9,11 @@ To set up, access Settings &#8722;> xDrip+ Display Settings &#8722;> Enable xDri
 It will take you to the Android accessibility menu.  Tap on xDrip to enable as shown below.  
 ![](./images/EnablexDripAOD.png)  
 
-If doing that does not allow you to enable it, go to xDrip app info under Android settings and from the 3-dot menu at the top right, select "Allow REstricted Permissions".  
+If doing that does not allow you to enable it, go to xDrip app info under Android settings and from the 3-dot menu at the top right, select "Allow restricted settings".  
 ![](./images/AllowRestrictedSettings.png)  
   
 Approve the confirmation request.  
 ![](./images/AllowRestrictedSettings2.png)  
 
-Now, repeat the process.  This time, you will be able to choose xDrip to be used for AOD on the accessibilty page.  
+Now, repeat the process.  This time, you will be able to choose xDrip to be used for AOD on the accessibility page.  
   
