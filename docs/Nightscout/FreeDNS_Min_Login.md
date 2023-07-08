@@ -17,6 +17,8 @@ If you don't log into your account for 6 months, your account will become dorman
 #### **FreeDNS has gone dormant**  
 This is what the [status page](./Status.md) will show if your FreeDNS account has gone dormant.  
 ![](./images/HostnameProblem.png)  
+But, please note that this is also what you will see when you just install Nightscout for the first time before completing phase 2.  
+This page should only be followed if you have had a fully functional Nightscout and now, it has deactivated.  
   
 [Log into your FreeDNS account](./FreeDNS_Login.md).  You will see this:  
 ![](./images/DormantFreeDNS.png)  
