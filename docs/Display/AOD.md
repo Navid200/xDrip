@@ -15,5 +15,5 @@ If doing that does not allow you to enable it, go to xDrip app info under Androi
 Approve the confirmation request.  
 ![](./images/AllowRestrictedSettings2.png)  
 
-Now, repeat the process.  This time, you will be able to enable to choose xDrip to be used for AOD.  
+Now, repeat the process.  This time, you will be able to choose xDrip to be used for AOD on the accessibilty page.  
   
