@@ -11,5 +11,9 @@ It will take you to the Android accessibility menu.  Tap on xDrip to enable as s
 
 If doing that does not allow you to enable it, go to xDrip app info under Android settings and from the 3-dot menu at the top right, select "Allow REstricted Permissions".  
 ![](./images/AllowRestrictedSettings.png)  
+  
+Approve the confirmation request.  
+![](./images/AllowRestrictedSettings2.png)  
 
+Now, repeat the process.  This time, you will be able to enable to choose xDrip to be used for AOD.  
   
