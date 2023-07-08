@@ -8,4 +8,8 @@ If your phone has [always-on display](https://en.wikipedia.org/wiki/Always-on_di
 To set up, access Settings &#8722;> xDrip+ Display Settings &#8722;> Enable xDrip Accessibility.  
 It will take you to the Android accessibility menu.  Tap on xDrip to enable as shown below.  
 ![](./images/EnablexDripAOD.png)  
+
+If doing that does not allow you to enable it, go to xDrip app info under Android settings and from the 3-dot menu at the top right, select "Allow REstricted Permissions".  
+![](./images/AllowRestrictedSettings.png)  
+
   
