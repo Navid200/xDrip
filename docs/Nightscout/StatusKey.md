@@ -14,7 +14,7 @@ The following table lists the different keywords that may be shown on the status
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Marker&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Meaning  | Solution | Notes |  
 | ------ | ------- | -------- | ------ |  
 | ![](./images/DiskSizeKey.png) | Disk size less than 30GB | [Resize disk](./FullDisk.md) | |  
-| ![](./images/ipMismatchCertInvalid_Key.png) | Dormant FreeDNS | [Extend account](./FreeDNS_Min_Login.md) | 1 |  
+| ![](./images/ipMismatchCertInvalid_Key.png) | Dormant FreeDNS | [Extend account](./FreeDNS_Min_Login.md) | If you had a fully functional Nightscout before this. |  
 | ![](./images/MissingPackages_Key.png) | New packages available | [Update platform](./NS_SyncExecutables.md) | 1 |  
 | ![](./images/MissNodeModules_Key.png) | Must complete bootstrap | Install Nightscout phase 1 from the Google Cloud setup submenu. | |  
 | ![](./images/NoHostname_Key.png) | Are you still using noip.com? | Follow [this](./FreeDNS.md) and then Install Nightscout Phase 2 from the Google Cloud setup submenu. | 1 |  
