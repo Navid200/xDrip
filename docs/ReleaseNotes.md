@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.07.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.08) | Fake data source pre cal - Web service fix |  
 | [2023.07.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.06) | G6/Dex1/G7 cleanup |  
 | [2023.07.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.02) | Samsung G6 or Dex1 connectivity |  
 | [2023.07.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.01) | IoB Pebble - TX ID space detection - TX remaining days highlight |  
