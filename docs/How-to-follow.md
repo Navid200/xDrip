@@ -1,5 +1,5 @@
-## Comparison of follow schemes  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Follow](./Follow_page.md) >> Comparison of xDrip follow schemes  
+## Comparison of follower schemes  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Follow](./Follow_page.md) >> Comparison of xDrip follower schemes  
   
 ### **[xDrip Sync Follower](./xDripSync.md)** (needs internet except Desert Sync)  
 This is easy to set up.  It relies on Google.  
