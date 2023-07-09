@@ -5,7 +5,7 @@ G6 Battery
   
 It's not a good idea to have a replacement transmitter stashed.  The battery ages even if you are not using the transmitter.  In fact, if you look at the transmitter box, you can see two different dates printed on it.  The first date is the date of manufacture.  The second date is the date the manufacturer considers the transmitter to be too old.  That's because of the expected lifetime of the battery.  
   
-You can see 2 voltages (Voltage A and Voltage B) reported on the G5/G6 status page.  
+You can see 2 voltages (Voltage A and Voltage B) reported on the xDrip G5/G6 status page.  
 ![](./images/system-status-pg.png)  
   
 You can see the values for the past 9 days in the logs.  You can tap on the magnifying glass symbol to search and search for volt.  That only shows the battery voltage logs.   
