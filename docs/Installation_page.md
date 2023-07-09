@@ -1,5 +1,5 @@
 # Download & Installation  
-[xDrip](../README.md) >> Download & Installation  
+[xDrip](../README.md) >> xDrip Download & Installation  
   
 #### [Requirements](./Requirements_page.md)
 #### [Release notes - changelog](ReleaseNotes.md)
