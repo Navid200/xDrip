@@ -3,6 +3,7 @@
   
 Have you ever wanted to test something in xDrip, but, didn't want to use a sensor for it?  
 You can.  xDrip has a fake data source.  
+![](./images/FakeDataSource.png)  
 
 Since it is meant for testing, you can only use it in [engineering mode](./Engineering-Mode.md).  
 After enabling engineering mode, enter "enable fake data source" as a voice command to enable the fake data source.  
