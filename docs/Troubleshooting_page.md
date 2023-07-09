@@ -1,5 +1,5 @@
 # xDrip Troubleshooting  
-[xDrip](../README.md) >> Troubleshooting  
+[xDrip](../README.md) >> xDrip Troubleshooting  
   
 If you are experiencing problems using xDrip, some possible issues, and suggested solutions, are listed on this page.  
   
