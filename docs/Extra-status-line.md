@@ -1,7 +1,7 @@
-## Extra Status Line  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> Extra status line  
+## xDrip Extra Status Line  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> xDrip Extra status line  
   
-You can add and set up an extra status line on the main screen at Settings &#8722;> Less common settings &#8722;> Extra Status Line.  
+You can add an extra status line on the xDrip main screen at Settings &#8722;> Less common settings &#8722;> Extra Status Line.  
 
 ![](./images/ExtraStatusLine.png)
 
