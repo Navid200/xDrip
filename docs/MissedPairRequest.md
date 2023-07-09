@@ -1,5 +1,5 @@
 ## How to trigger a pair request
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Pair Request  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Pair Request with xDrip  
   
 Tap on Setting &#8722;> Dexcom Transmitter ID.  
   
