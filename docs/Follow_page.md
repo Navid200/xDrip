@@ -1,7 +1,7 @@
 # Follow
 [xDrip](../README.md) >> [Features](./Features_page.md) >> Follow  
   
-There are several follow options to see your or someone else's readings in xDrip, or even other apps.  
+There are several options for using xDrip as a follower, to see your or someone else's readings in xDrip.  
   
 #### [xDrip Sync](./xDripSync.md)
 #### [Nightscout](./Follow/FollowNightscout.md)
