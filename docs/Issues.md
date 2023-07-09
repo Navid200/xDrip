@@ -1,5 +1,5 @@
 ## Bugs & Feature Requests  
-[xDrip](../README.md) >> Bugs and feature requests  
+[xDrip](../README.md) >> xDrip bugs and feature requests  
   
 If you are experiencing a problem with xDrip, please start [here](https://navid200.github.io/xDrip/docs/Troubleshooting_page.html).  
   
