@@ -1,5 +1,5 @@
 # xDrip Frequently Asked Questions  
-[xDrip](../README.md) >> Frequently Asked Questions  
+[xDrip](../README.md) >> xDrip Frequently Asked Questions  
   
 #### **What**
 #### [What is Noise?](./Noise.md)
