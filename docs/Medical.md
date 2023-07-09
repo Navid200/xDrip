@@ -1,4 +1,4 @@
-## Not for medical decisions  
+## xDrip Not for medical decisions  
   
 xDrip must not be used to make medical decisions.  
 It is a research tool only and is provided "as is" without warranty of any kind, either expressed or implied, including, but not limited to, the implied warranties of merchantability and fitness for particular purpose.  
