@@ -33,6 +33,5 @@ Access the subdomains page to confirm that your hostname is active again.
   
 If the hostname is active and you restart the server, the hostname will be mapped to the ip address, and Nightscout will resume operation again.  
   
-Make sure to set up your email client not to filter the emails from FreeDNS as junkmail so that you receive their reminder email next time.  
-
+Make sure to set up your email client not to block emails from FreeDNS.  Make sure their email address is not in your junk/spam mail list.  
   
