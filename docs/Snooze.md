@@ -1,5 +1,5 @@
 ## Snooze  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip Alerts](./Alerts_page.md) >> Snooze   
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip Alerts](./Alerts_page.md) >> Snooze xDrip  
   
 When you snooze an alert, you silence it for a period of time.  If you use the snooze menu for snoozing an alert, you are given the option of how long to snooze it for.  
 ![](./Alerts/images/SnoozeFor.png)  
