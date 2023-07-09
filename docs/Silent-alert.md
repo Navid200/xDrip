@@ -1,7 +1,7 @@
 ## xDrip Alert makes no sound
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Alerts](./Alerts_page.md) >> Alert makes no sound  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Alerts](./Alerts_page.md) >> xDrip Alert makes no sound  
   
-Different factors could result in an alert not making any sound.  The following is a list of such combinations.  
+Different factors could result in an xDrip alert not making any sound.  The following is a list of such combinations.  
   
 1- The alert is on the [Glucose Level Alerts List](./Glucose-level-alerts.md) and you have chosen the silent [volume profile](./Volume-profiles.md).  
   
