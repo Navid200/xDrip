@@ -1,5 +1,5 @@
 ## Why do I get a notification for each reading?
-[xDrip](../README.md) >> [FAQ](./FAQ_page.md) >> Notification for each reading  
+[xDrip](../README.md) >> [FAQ](./FAQ_page.md) >> xDrip notification for each reading  
   
 xDrip needs its persistent notification to be active to work properly.  
 But, you can silence it.  
