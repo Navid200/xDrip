@@ -5,7 +5,7 @@
 **Your readings will be significantly high in error after warm-up after a restart.**  If you ignore this and take insulin to lower your readings, you will cause hypoglycemia.  Similarly, if you have a closed loop system and do not open the loop while readings are wrong, the loop will inject insulin, to correct the erroneous High, and cause hypoglycemia.    
 **Please read the entire page and follow the required calibration steps.**  
   
-If the transmitter firmware version, shown on the xDrip G5/G6/G7 status page, is 1.6.5.25 or prior to that, you can use preemptive restart.  Then, you will not need to restart.  Preemptive restart will automatically restart the sensor and you will not need to restart manually.  
+If the transmitter firmware version, shown on the xDrip G5/G6/G7 status page, is 1.6.5.25 or prior to that, you can use preemptive restart.  Then, you will not need to restart.  xDrip preemptive restart will automatically restart the sensor and you will not need to restart manually.  Otherwise, you need to follow the instructions on this page to restart whether you use xDrip or another app or even the Dexcom receiver.  
   
 Ensure [settings](./G6-Recommended-Settings.md) are correct first.   If your sensor has unexpectedly stopped, restarting will not resolve the underlying problem.  You should resolve any connectivity issues first and verify that you have [proper connectivity](./Proper-connectivity.md).  You don't need to restart before the sensor stops on day 10.  You can, but, you don't have to.  
   
