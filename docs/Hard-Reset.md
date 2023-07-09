@@ -1,11 +1,10 @@
 ## Hard Reset  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Hard Reset  
   
-Please disable [engineering mode](./Engineering-Mode.md).  No need to enable engineering mode in order to perform a hard reset.  
+Please disable [engineering mode](./Engineering-Mode.md).  There is no need to enable engineering mode in order to perform a hard reset.  
   
-You can hard reset a G5.  
-You can also hard reset a G6 if the serial number starts with 80.  
-You can also hard reset a G6 with a serial number that starts with 81 if the Firmware version is 1.6.5.25 or prior to that.  
+You can hard reset a G5 using xDrip.   
+You can also hard reset a G6, using xDrip, if the Firmware version is 1.6.5.25 or prior to that.  
 At this point, there is no way to hard reset any other one of G6 transmitters.  
 
 If you hard reset a transmitter, the number of transmitter days, as shown on the system status page, will be reset to 0. This is only required if you want to use the Native mode, or if you want to use the Dexcom app or receiver. If you are using the xDrip non-native mode, you don't need to hard reset.  
