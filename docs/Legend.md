@@ -1,7 +1,7 @@
 ## Legend  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> Legend  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> xDrip Legend  
   
-You can customize some colors at: Settings &#8722;> xDrip+ Display Settings &#8722;> xDrip+ Color Settings  
+You can customize some xDrip colors at: Settings &#8722;> xDrip+ Display Settings &#8722;> xDrip+ Color Settings  
   
 The following image shows the page, without the example chart at the top.  
 ![](./images/legend.png)  
