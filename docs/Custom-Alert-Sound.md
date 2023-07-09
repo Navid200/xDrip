@@ -1,7 +1,7 @@
 ## Custom Alert Sound  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip Alerts](./Alerts_page.md) >> Custom Alert Sound  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip Alerts](./Alerts_page.md) >> xDrip Custom Alert Sound  
   
-You can choose a custom sound to be used for your alert.  Alternatively, you can add a sound file to become one of your system stound files as explained below.  
+You can choose a custom sound to be used for any of your xDrip alerts.  Alternatively, you can add a sound file to become one of your system stound files as explained below.  
   
 Place your mp3 sound file in the Notifications folder on your internal storage.  If the folder does not exist, create one.  
 ![](./images/NotificationsFolder.png)  
