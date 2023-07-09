@@ -1,5 +1,5 @@
 # Features  
-[xDrip](../README.md) >> Features  
+[xDrip](../README.md) >> xDrip Features  
   
 ### [Alerts](./Alerts_page.md)
 ### [Statistics](./Statistics.md)
