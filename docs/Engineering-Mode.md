@@ -1,8 +1,8 @@
 ## Engineering Mode
-[xDrip](../README.md) >> [Features](./Features_page.md) >> Engineering mode  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> xDrip Engineering mode  
   
-The functions that are not fully tested or are meant to be tested, or are meant to be used only in certain conditions that are not quite normal are only accessible in the engineering mode.  
-No one should need to enable engineering mode under normal circumstances.  
+The xDrip functions that are not fully tested or are meant to be tested, or are meant to be used only in certain conditions that are not quite normal are only accessible in the engineering mode.  
+No one should need to enable xDrip engineering mode under normal circumstances.  
 <br/>  
   
 ---  
