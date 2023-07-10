@@ -35,9 +35,9 @@ The following table shows what you may see depending on different choices you ca
 | Firewall | [<img src="./images/AllGood_Icon.png">](./images/Firewall.png) | Insecurity ❌ |  
 | Ubuntu | [<img src="./images/WrongUbuntu_Icon.png">](./images/WrongUbuntu.png) | Incompatibility ❌ |  
   
-If the note directs you to delete the machine and create a new one or if any item above the line on the status page is in red, it means you made an incorrect selection when you created the virtual machine.  In that case, [delete the virtual machine](./DeleteVM.md) and go back and repeat the [virtual machine](./VirtualMachine.md) step.  
+If the note directs you to delete the machine and create a new one or if any item above the horizontal line on the status page is in red, it means you made an incorrect selection when you created the virtual machine.  If this is a new machgine and you have no database on the machine yet, [delete the virtual machine](./DeleteVM.md) and go back and repeat the [virtual machine](./VirtualMachine.md) step.  
   
-If you did not get a notification to recreate the machine, because of a wrong Ubuntu version, and nothing is red above the line on the status page, just press enter to close the status page.  You will see this menu:  
+If you did not get a notification to recreate the machine, because of a wrong Ubuntu version, and nothing is red above the horizontal line on the status page, just press enter to close the status page.  All the red notes you see below the horizontal line are expected at this stage and you can ignore them.  You will see this menu:  
 ![](./images/Menu.png)  
   
 <video width="400" controlsList="nodownload" src="./video/Install1.mp4" controls>  
