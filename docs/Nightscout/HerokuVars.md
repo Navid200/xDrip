@@ -1,9 +1,8 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/HerokuVars.html"
 ---
 
-## Heroku Variables
+## Nightscout variables from Heroku
 [Google Cloud Nightscout](./GoogleCloud.md) >> Heroku Variables  
   
 If Nightscout worked for you on Heroku and now you have problems, you can log into Heroku to access the variables you had.  They may help.  What you need is your email address and password you used to log into Heroku.  If you enabled multi-factor authentication on Heroku, you will also need an authenticator app.  
