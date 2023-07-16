@@ -1,9 +1,8 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/DatabaseRestore.html"
 ---
 
-## Nightscout Restore
+## Google Cloud Nightscout Restore
 [Google Cloud Nightscout](./GoogleCloud.md) >> Restore  
   
 You must have Nightscout running following [install](./NS_Install.md) instructions for this to work.  
