@@ -1,9 +1,8 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/Upload_Download.html"
 ---
 
-## Upload/Download files
+## Google Cloud VM Upload/Download
 [Google Cloud Nightscout](./GoogleCloud.md) >> Upload or Download files  
   
 To upload or download a file to/from the virtual machine, you need to open a [terminal](./Terminal.md).  
