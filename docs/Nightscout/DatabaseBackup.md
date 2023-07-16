@@ -1,9 +1,8 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/DatabaseBackup.html"
 ---
 
-## Google Cloud Nightscout Database and variables Backup
+## Google Cloud Nightscout Backup
 [Google Cloud Nightscout](./GoogleCloud.md) >> Backup  
   
 You must have Nightscout running following [install](./NS_Install.md) instructions for this to work.  
