@@ -1,9 +1,8 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/Dashboard.html"
 ---
 
-## Dashboard
+## Google Cloud Dashboard
 [Google Cloud Nightscout](./GoogleCloud.md) >> Dashboard  
   
 Go to the [Google Cloud](https://cloud.google.com/).  
