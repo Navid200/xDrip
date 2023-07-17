@@ -1,9 +1,8 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/Nightscout/Billing.html"
 ---
 
-## Google Cloud Nightscout Billing
+## Google Cloud Billing
 [Google Cloud Nightscout](./GoogleCloud.md) >> Billing  
   
 Go to the [Google Cloud](https://cloud.google.com/).  
