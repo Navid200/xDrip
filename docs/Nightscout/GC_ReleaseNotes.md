@@ -10,7 +10,8 @@ The development and stable branches are explained [here](./Branches.md).
   
 | Release | Notes | Status page |  
 |---------|-------| ----------- |  
-| 2023.07.21 | **<span style="color:orange">Dev release</span>** <br/> FreeDNS user ID and password fix | ![](./images/July212023StatusP.png) |  
+| 2023.07.22 | **<span style="color:orange">Dev release</span>** <br/> | FreeDNS ID/pass status page marker fix | |  
+| 2023.07.21 | FreeDNS user ID and password fix | ![](./images/July212023StatusP.png) |  
 | 2023.07.17 | FreeDNS user ID and password on the status page | |  
 | 2023.05.09 | **<span style="color:orange">Stable release</span>** <br/> Update Ubuntu to 20.04.6 | |  
 | 2023.04.26 | FreeDNS site failure contingency | |  
