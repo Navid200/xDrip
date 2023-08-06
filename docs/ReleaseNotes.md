@@ -7,7 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
-| [2023.07.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.16) | **<span style="color:orange">Alpha</span>** <br/> Dex OB1 is permanently enabled, and setting is retired |  
+| [2023.07.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.16) | **<span style="color:orange">Stable</span>** <br/> Dex OB1 is permanently enabled, and setting is retired |  
 | [2023.07.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.13) | Carelink more countries - IoB from Omnipod |  
 | [2023.07.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.08) | Fake data source pre cal - Web service fix |  
 | [2023.07.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.06) | G6/Dex1/G7 cleanup |  
@@ -24,7 +24,7 @@ How to [download and install](./Installation_page.md).
 | [2023.05.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.25) | No G6 cal code on G7 page - More Libre 2 sensor codes |  
 | [2023.05.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.23) | Clarified Eng mode note - Ascending volume alerts can be tested |  
 | [2023.05.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.14) | Reading marked as bad (excluded from statistics) will not expand the vertical (y) axis range |  
-| [2023.05.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.03) | **<span style="color:orange">Stable</span>** <br/> G7 32.192.104.82 |  
+| [2023.05.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.03) | **Previous Stable release** <br/> G7 32.192.104.82 |  
 | [2023.05.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.02) | Falling and rising fast alert names and units updated to represent rates |  
 | [2023.04.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.24) | No more Dex G4 - Scan for glucose meter fix |  
 | [2023.04.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.13) | Keks update - QR code export - 4-digt txid - G7 - Advice: disable avoid scannning |  
