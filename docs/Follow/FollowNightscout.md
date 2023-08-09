@@ -9,7 +9,7 @@ Then, under Settings &#8722;> Nightscout Follow URL, enter the following dependi
 | AUTH_DEFAULT_ROLES | Nightscout Follow URL |  
 | ------------------ | --------------------- |  
 | readable | https://<span>hostname</span> |  
-| denied | https://<span>API_SECRET@</span>hostname or https://<span>Token@</span>hostname |  
+| denied | https://<span>API_SECRET@</span>hostname <br/> or <br/> https://<span>Token@</span>hostname |  
   
 The hostname is the address of the Nightscout site excluding https:// at the beginning.  
 API_SECRET is the password the uploader uses to upload to Nightscout.  
