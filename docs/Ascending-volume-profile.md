@@ -22,7 +22,7 @@ The vibration is independent of the delay ascending setting.
 The medium and high volumes correspond to the values of 0.7 and 1 in the graph.  
 As soon as the alert is snoozed, both sound and vibration terminate.   
   
-The `Delay Ascending Volume` setting is on the following page.  
+You can reach the `Delay Ascending Volume` setting at:  
 `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Glucose Alerts Settings`  
   
   
