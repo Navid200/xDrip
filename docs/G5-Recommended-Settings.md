@@ -10,7 +10,7 @@ These are the recommended G5 settings.  Click/tap on the hyperlinks to see the d
   Android versions **9** or **older**:  Settings &#8722;> [G5/G6/G7 Debug Settings](./images/g5_An9-recommended-settings.png)  
 Enable [Native Algorithm](./Native-Algorithm.md) only if you have to.  If you don't know what it is, leave it disabled.  
 
-* Settings &#8722;> Less common settings &#8722;> [Other misc options](./images/other-misc-recommended.png)  
+* `Settings` &#8722;> `Less common settings` &#8722;> `[Other misc options](./images/other-misc-recommended.png)`  
 
 * Settings &#8722;> Less common settings &#8722;> [Bluetooth Settings](./images/ble-recommended-stngs.png)  
   
