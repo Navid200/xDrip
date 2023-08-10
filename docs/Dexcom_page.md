@@ -14,7 +14,7 @@ If you use xDrip with a Dexcom G5, G6, G7 or Dexcom ONE transmitter, this page c
  [Both xDrip and Dexcom app](./xDrip-and-Dexcom-app.md)  
   
 #### **What is ...?**
-#### [G5/G6/Dex1 Status](./StatusG5G6.md)
+#### [G5/G6/G7 Status](./StatusG5G6.md)
 #### [Session in progress](./Session-in-progress.md)
 #### [Proper Connectivity](./Proper-connectivity.md)
 #### [Native algorithm - mode](./Native-Algorithm.md)
