@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.08.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.10) | Emergency message option to trigger only for the lowest alert |  
 | [2023.07.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.16) | **<span style="color:orange">Stable</span>** <br/> Dex OB1 is permanently enabled, and setting is retired |  
 | [2023.07.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.13) | Carelink more countries - IoB from Omnipod |  
 | [2023.07.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.08) | Fake data source pre cal - Web service fix |  
