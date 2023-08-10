@@ -4,9 +4,9 @@
 This page explains how to set up xDrip Sync.  You will need both the master and follower phones.  
 This is easy to set up. It relies on Google.  It will need Google Play services to be on your phone.  
   
-On master, go to Settings &#8722;> xDrip+ Sync settings, and tap on "Be master for followers".  
+On master, go to `Settings` &#8722;> `xDrip+ Sync settings`, and tap on `Be master for followers`.  
 **<span style="color:red">Disable "Allow follower actions". Otherwise, the follower will be able to stop the sensor.</span>**  
-Tap on Settings &#8722;> Show Settings QR codes.  
+Tap on `Settings` &#8722;> `Show Settings QR codes`.  
 ![](./images/ShowSettingsQR.png)  
   
 Tap on xDrip plus security key settings only.  
@@ -22,9 +22,9 @@ Scan the QR code shown on the master screen. This will change all the required s
 All that is shown in a clip [here](https://youtu.be/LcgjfbYcWkE).  
   
 In some cases, the scan does not work. You can manually set up the follower:  
-Under Settings &#8722;> Hardware Data Source, select xDrip+ Sync Follower.  
-Then, go to Settings &#8722;> xDrip+ Sync Settings and tap on "Handset Group Security Sync Key". Make sure the key matches the key on the same page on the master.  
+Under `Settings` &#8722;> `Hardware Data Source`, select `xDrip+ Sync Follower`.  
+Then, go to `Settings` &#8722;> `xDrip+ Sync Settings` and tap on `Handset Group Security Sync Key`. Make sure the key matches the key on the same page on the master.  
   
-On both master and follower, ensure that Settings &#8722;> xDrip+ Sync Settings &#8722;> Disable all sync features is disabled (no check mark beside it).  
+On both master and follower, ensure that `Settings` &#8722;> `xDrip+ Sync Settings` &#8722;> `Disable all sync features` is disabled (no check mark beside it).  
 ![](./images/DisableAllSyncFeatures.png)  
   
