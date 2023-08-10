@@ -21,5 +21,5 @@ Now, the notification can also be swiped right on the lock screen to snooze the 
   
 If you want the lock screen to automatically show when an alert triggers, without having to press on the power button, enable `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Glucose Alerts Settings` &#8722;> `Wake Screen`.  
   
-There is no need to open xDrip and access the "Snooze Alert" item from the menu unless you need to choose a snooze period different from the default.  
+There is no need to open xDrip and access the `Snooze Alert` item from the menu unless you need to choose a snooze period different from the default.  
   
