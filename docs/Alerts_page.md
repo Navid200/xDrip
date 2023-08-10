@@ -16,7 +16,7 @@ To access the alerts page, tap on the top left menu button from the main screen 
 | Forecast Lows 📍 | Ring & notification | Can choose | `Other Alerts` \* |  
 | Sensor Expiry 📍 | No sound | No sound | No sound |  
   
- \* Uses the same setting selected for "Other Alerts".  
+ \* Uses the same setting selected for `Other Alerts`.  
  <br/>  
   
 #### [Glucose Level Alert List](./Glucose-level-alerts.md)
