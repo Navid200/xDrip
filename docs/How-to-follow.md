@@ -6,7 +6,7 @@ This is easy to set up.  It relies on Google.
 <br/>  
   
 ### **Nightscout Follower** (needs internet)  
-This requires Nightscout to be [set up](./Nightscout_page.md).  After Nightscout has been set up, enter the required [settings](./Nightscout-Settings.md) in xDrip so that the master xDrip starts uploading to Nightscout.  
+This requires Nightscout to be [set up](./Nightscout_page.md).  After Nightscout has been set up, you need to set up your uploader.  If xDrip is your uploader, these are the required [settings](./Nightscout-Settings.md).  
 
 These are the [follower instructions](./Follow/FollowNightscout.md).    
 <br/>  
