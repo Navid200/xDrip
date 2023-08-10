@@ -10,7 +10,7 @@ But, there is a much easier way to snooze an alert by just swiping right the ass
 The default snooze time for every Glucose level alert can be set on its edit alert page.  
 ![](./Alerts/images/GLA_DefaultSnooze.png)  
   
-If you want to be able to snooze an alert the same way with the screen locked, go to Android `Settings` &#8722;> `Apps & notifications` &#8722;> `Notifications` &#8722;> Notifications on lock screen`.  You will see 3 options.  They will have different wordings depending on the manufacturer.  The following image shows an example:  
+If you want to be able to snooze an alert the same way with the screen locked, go to Android `Settings` &#8722;> `Apps & notifications` &#8722;> `Notifications` &#8722;> `Notifications on lock screen`.  You will see 3 options.  They will have different wordings depending on the manufacturer.  The following image shows an example:  
 ![](./images/NotifOnLockScreen.png)  
   
 Choose the least restrictive option.  
