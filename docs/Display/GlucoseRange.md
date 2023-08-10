@@ -20,7 +20,7 @@ Please be careful if the range expands due to very high readings.
   
 #### **How**  
 You can access the setting at:  
-Settings &#8722;> xDrip+ Display Settings &#8722;> Graph Settings &#8722;> Customize y axis range  
+`Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Graph Settings` &#8722;> `Customize y axis range`  
   
 ![](./images/CustomizeYaxisRange.png)    
   
