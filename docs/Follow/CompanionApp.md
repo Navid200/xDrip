@@ -24,7 +24,7 @@ Go to Android settings on your phone.  Perform a search and search for notificat
 #### **Back-fill**  
 If you use xDrip to read from Dexcom G6 and walk away from the phone, upon your return, xDrip acquires past readings up to 3 hours ago.  
 xDrip may not do that if you are using Companion app mode.  To find out if xDrip can do it, based on your Android version and the companion app, enable the following setting.  
-Settings &#8722;> Less common settings &#8722;> Bluetooth Settings &#8722;> Companion Bluetooth  
+`Settings` &#8722;> `Less common settings` &#8722;> `Bluetooth Settings` &#8722;> `Companion Bluetooth`  
 ![](./images/CompanionBluetoothSetting.png)  
   
   
