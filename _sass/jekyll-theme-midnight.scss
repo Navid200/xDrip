@@ -116,18 +116,17 @@ blockquote {
 
 code {
 //  font-family: Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace;
+// This defines what text looks like when placed inside single back ticks.
   font-family: 'OpenSansRegular', "Helvetica Neue", Helvetica, Arial, sans-serif;
-//  color:#f8f8f8;
   color:#080808;
-//  background: #393939;
-  background: #f0f0f0;
+  background: #eaeaea;
   font-size:14px/1.5;
   margin: 0 0px;
   padding: 0px 2px;
-//  border-radius: 1px;
 }
 
 pre {
+  // This defines what text looks like when placed inside 3 back ticks on a separate line.
   padding:1px 6px;
   background: #191919;
   overflow: auto;
