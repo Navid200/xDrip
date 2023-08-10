@@ -5,11 +5,10 @@
 This is easy to set up.  It relies on Google.  
 <br/>  
   
-### **[Nightscout Follower](./Follow/FollowNightscout.md)** (needs internet)  
+### **Nightscout Follower** (needs internet)  
 This requires Nightscout to be [set up](./Nightscout_page.md).  After Nightscout has been set up, enter the required [settings](./Nightscout-Settings.md) in xDrip so that the master xDrip starts uploading to Nightscout.  
 
-On the follower, tap on Settings &#8722;> Hardware Data Source &#8722;> Nightscout Follower.  
-Tap on `Settings` &#8722;> `Nightscout Follow URL`, and enter https<nolink>://Token@hostname, where Token is generated on the Nighscout admin page and hostname is the web address to your Nightscout.  
+These are the [follower instructions](./Follow/FollowNightscout.md).    
 <br/>  
 <br/>  
   
