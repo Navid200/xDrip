@@ -1,7 +1,7 @@
 ## How to trigger a pair request
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Pair Request with xDrip  
   
-Tap on `Setting` &#8722;> `Dexcom Transmitter ID`.  
+Tap on `Settings` &#8722;> `Dexcom Transmitter ID`.  
   
 Make a record of the code.  Either write it down or take a snapshot.  
 Change the last character to something else and apply.  
