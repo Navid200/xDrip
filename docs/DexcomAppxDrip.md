@@ -12,7 +12,7 @@ Select to broadcast to xDrip as shown below.
   
 Uninstall the Dexcom app if you have it or any version of it installed.  Then, download and install the BYODA that you created.  
     
-In xDrip, running on the same phone, choose Settings &#8722;> Hardware Data Source &#8722;> 640G / EverSense.  
+In xDrip, running on the same phone, choose `Settings` &#8722;> `Hardware Data Source` &#8722;> `640G / EverSense`.  
 ![](./images/HDS_Eversense.png)  
   
 Tap on start sensor and enter the time for 2 hours ago.  It will not interfere with the sensor running in the Dexcom app.  But, you should now have readings in xDrip.  
