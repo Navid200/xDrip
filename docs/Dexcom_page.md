@@ -9,7 +9,7 @@ If you use xDrip with a Dexcom G5, G6, G7 or Dexcom ONE transmitter, this page c
 #### **Setup**
 #### [Dexcom basics](./Dexcom-Basics.md)
 #### [G5 recommended settings](./G5-Recommended-Settings.md)
-#### [G6 (or Dex1) recommended settings](./G6-Recommended-Settings.md)
+#### [G6, Dex1 or G7 recommended settings](./G6-Recommended-Settings.md)
 #### [Can xDrip coexist with t:slim or receiver?](./Receiver-or-tslim-and-xDrip.md)
  [Both xDrip and Dexcom app](./xDrip-and-Dexcom-app.md)  
   
