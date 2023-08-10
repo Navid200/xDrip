@@ -15,6 +15,6 @@ It will be pointless to upload the logs as soon as you have enabled the OB1 coll
 Enter a note to identify the device and refer to it when you inform us that you have uploaded the logs.  
   
 To disable this, go to `Settings` &#8722;> `Less common settings` &#8722;> `Extra Logging Settings` &#8722;> `Extra tags for logging`.  
-Delete the content and click on "OK".  
+Delete the content and click on `OK`.  
   
   
