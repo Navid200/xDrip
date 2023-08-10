@@ -5,8 +5,8 @@ Try the ascending volume profile if you haven't already.
 When the xDrip alarm triggers, it starts silent or at low volume depending on the setting.  Then, the alarm plays at 1-minute intervals.  Every time it plays, the volume increases a little bit.  Eventually, it plays it at the max. volume.  
   
 To enable it, go to  
-Settings &#8722;> Alarms and Alerts &#8722;> Glucose Alert Settings &#8722;> Alert Volume Profile,  
-and choose "Ascending Volume Profile".  
+`Settings` &#8722;> `Alarms and Alerts` &#8722;> `Glucose Alert Settings` &#8722;> `Alert Volume Profile`,  
+and choose `Ascending Volume Profile`.  
 
 If you cannot hear your alarm when you are in a noisy environment, this can solve the problem because it will eventually play the alarm at the very high volume.  
 
@@ -22,7 +22,7 @@ The vibration is independent of the delay ascending setting.
 The medium and high volumes correspond to the values of 0.7 and 1 in the graph.  
 As soon as the alert is snoozed, both sound and vibration terminate.   
   
-The "Delay Ascending Volume" setting is on the following page.  
+The `Delay Ascending Volume` setting is on the following page.  
 Settings &#8722;> Alarms and Alerts &#8722;> Glucose Alerts Settings  
   
   
