@@ -15,7 +15,7 @@ Then, tap on the microphone symbol at the bottom right corner of the form.
 ![](./images/treatment-menu.png)  
 The microphone will open.  Say "Enable engineering mode".  
 
-If this does not work, long press on the microphone symbol instead of tapping on it.  A form will open up.  Type in it "enable engineering mode" without the quotes and enter.  
+If this does not work, long press on the microphone symbol instead of tapping on it.  A form will open up.  Type in it `enable engineering mode` and enter.  
 <br/>  
   
 ---  
