@@ -9,7 +9,7 @@ To enable, use xDrip auto configure to scan this QR code:
 ![](./images/OB1Debug.png)  
   
 After that, if you view the [logs](../Logs.md), you will see a lot more logs generated per minute.  
-It will be pointless to upload the logs as soon as you have enabled the OB1 collector debugging.  You need to wait for the problem to occur.  Then, you can upload the logs.  To do that, tap on "UPLOAD LOGS" at the bottom of the logs screen.  
+It will be pointless to upload the logs as soon as you have enabled the OB1 collector debugging.  You need to wait for the problem to occur.  Then, you can upload the logs.  To do that, tap on `UPLOAD LOGS` at the bottom of the logs screen.  
 ![](./images/UploadLogs.png)  
 
 Enter a note to identify the device and refer to it when you inform us that you have uploaded the logs.  
