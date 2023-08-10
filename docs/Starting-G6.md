@@ -21,7 +21,7 @@ The transmitter needs to be detached from your body for at least 10 minutes befo
 The calibration code is printed on the adhesive cover of the sensor.  You will need it to start sensor.  
 If there is bleeding, after inserting a new sensor, use Q-tips to absorb the blood.  Keep doing that, and don't allow any blood to get to the contacts, until bleeding stops.  
   
-6.  If you are starting a new transmitter, enter the new transmitter serial number (Transmitter ID): Settings &#8722;> Dexcom Transmitter ID.     
+6.  If you are starting a new transmitter, enter the new transmitter serial number (Transmitter ID): `Settings` &#8722;> `Dexcom Transmitter ID`.     
   
 7.  Clean the transmitter contacts (not if you are restarting sensor) using rubbing alcohol.  Wait for it (10 seconds) to dry.  Snap the transmitter into the sensor.  If you are starting a new transmitter, snapping it into the sensor on your body is required to activate it.  
   
