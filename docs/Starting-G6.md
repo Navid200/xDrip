@@ -8,9 +8,9 @@ If you have been using the Dexcom app, you need to disable it.  You cannot have 
   
 1.  If you are using an old version of xDrip, [update](./Updates.md) to the current stable release.  
   
-2.  Set "G5/G6/G7/1 Transmitter" under &nbsp; Settings &#8722;> [Hardware Data Source](./HardwareDataSource.md).  
+2.  Set `G5/G6/G7/1 Transmitter` under &nbsp; `Settings` &#8722;> [`Hardware Data Source`](./HardwareDataSource.md).  
   
-3.  Is there a "Start G6 Sensor" stuck in the queue on the G5/G6/G7 status page?  Please note that in the last step when you start sensor, there will be a "Start G6 Sensor" in the queue for one read cycle (up to 5 minutes).  That is expected and does not count as a stuck command.  A stuck command remains in the queue and does not clear.  
+3.  Is there a `Start G6 Sensor` stuck in the queue on the G5/G6/G7 status page?  Please note that in the last step when you start sensor, there will be a `Start G6 Sensor` in the queue for one read cycle (up to 5 minutes).  That is expected and does not count as a stuck command.  A stuck command remains in the queue and does not clear.  
 ![](./images/queue-stuck.png)  
 If there is a command stuck in the queue, [clear the queue](./Clear-queue.md).  
   
