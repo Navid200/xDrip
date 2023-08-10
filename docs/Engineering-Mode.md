@@ -21,5 +21,5 @@ If this does not work, long press on the microphone symbol instead of tapping on
 ---  
   
 **Disable**  
-To disable engineering mode, disable it on the page at Settings &#8722;> Less common settings &#8722;> Other misc options.  
+To disable engineering mode, disable it on the page at `Settings` &#8722;> `Less common settings` &#8722;> `Other misc options`.  
   
