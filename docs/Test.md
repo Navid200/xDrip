@@ -27,10 +27,7 @@ One more test.
 <br/>  
 <br/>  
 
-```
-curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash
-```
   
-<input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash" width=100px id="myInput">
+<input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash" width=200px id="myInput">
 <button onclick="FunctionCopyText()">Copy</button>
   
