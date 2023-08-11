@@ -45,5 +45,5 @@ One more test.
 <br/>  
   
 <input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash" id="myInput">  
-<button onclick="myFunction()">Copy text</button>
+<button onclick="FunctionCopyText()">Copy</button>
   
