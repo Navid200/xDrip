@@ -31,8 +31,12 @@ One more test.
 curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash
 ```
   
+<input type="text" value="
+
+```  
+curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash
 ```
-<input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash" id="myInput">
-```
+
+" id="myInput">
 <button onclick="FunctionCopyText()">Copy</button>
   
