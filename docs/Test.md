@@ -28,6 +28,6 @@ One more test.
 <br/>  
 
   
-<input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash" readonly id="myInputText" style="border:none; background-color:#ededed; width:100%; font-size:14px">  
+<input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash" readonly id="myInputText" style="border:none; background-color:#ededed; width:100%; font-size:15px">  
 <button onclick="FunctionCopyText()" style="border-color:#ededed; background-color:#66ff33; margin-left:40px">Copy</button>
   
