@@ -40,4 +40,7 @@ This is another test.
   
 One more test.    
 <mark style="background-color: #000000"> curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash </mark>   
+
+<input type="text" value="Hello World" id="myInput">
+<button onclick="myFunction()">Copy text</button>
   
