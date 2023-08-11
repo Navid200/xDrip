@@ -29,5 +29,5 @@ One more test.
 
   
 <input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash" readonly id="myInputText" style="border-color:#ededed; background-color:#ededed; width:100%; font-size:14px">  
-<button onclick="FunctionCopyText()">Copy</button>
+<button onclick="FunctionCopyText()" style="border-color:#ededed; background-color:#ededed">Copy</button>
   
