@@ -4,7 +4,7 @@ permalink: "/docs/Test.html"
 ---
 
 ## Test  
-This page is for testing only.  Any text you see on this page is there for testing of how the page looks like.  Please do not follow anything you see on this page.
+This page is for testing only.  Any notes you see on this page is there for testing of how the page looks like.  Please do not follow anything you see on this page.
   
 <br/>  
 <br/>  
