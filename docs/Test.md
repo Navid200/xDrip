@@ -11,5 +11,5 @@ This page is for testing only.  Any notes you see on this page is there for test
 
   
 <input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash" readonly id="myInputText" style="border:none; color:#101010; background-color:#ededed; width:100%; font-size:15px">  
-<button onclick="FunctionCopyText()" style="border-color:#ededed; color:#f0f0f0; background-color:#121212; border-radius: 2px; margin-left:70px; padding:0; &:hover {box-shadow: inset 0px 0px 0px rgba(245,99,71,1), 0px 2px 15px rgba(245,99,71,1);}">Copy</button>
+<button onclick="FunctionCopyText()" style="border-color:#ededed; color:#f0f0f0; background-color:#121212; font-weight:400; border-radius: 2px; margin-left:70px; padding:0; &:hover {box-shadow: inset 0px 0px 0px rgba(245,99,71,1), 0px 2px 15px rgba(245,99,71,1);}">Copy</button>
   
