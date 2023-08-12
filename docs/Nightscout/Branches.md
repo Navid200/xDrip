@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/Nightscout/Branches.html"
 ---
 
 ## Google Cloud Nightscout branches
