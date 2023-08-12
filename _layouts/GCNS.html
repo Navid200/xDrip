@@ -42,5 +42,13 @@
       </section>
     </div>
     <script src="{{site.baseurl}}/assets/js/theme.js"></script>
+    <script>
+      function FunctionCopyText() {
+        // Get the text field
+        var copyText = document.getElementById("myInputText");
+        // Copy the text inside the text field
+        navigator.clipboard.writeText(copyText.value);
+      }
+    </script>
   </body>
 </html>
