@@ -25,7 +25,6 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1166](https://github.com/NightscoutFoundation/xDrip/issues/1166) | Make SMB microbolus threshold configurable | 2020.01.10 |  
 | [1229](https://github.com/NightscoutFoundation/xDrip/issues/1229) | Datricsae reading mismatch with xDrip graph | 2020.02.06 |  
 | [1269](https://github.com/NightscoutFoundation/xDrip/issues/1269) | Android 10 landscape malfunction | 2020.03.11 |  
-| [1072](https://github.com/NightscoutFoundation/xDrip/issues/1072) | Omnipod support | 2019.10.28 |  
 | [1280](https://github.com/NightscoutFoundation/xDrip/issues/1280) | Database loss | 2020.03.22 |  
 | [1299](https://github.com/NightscoutFoundation/xDrip/issues/1299) | Treatment note impacting the vertical axis scale | 2020.04.13 |  
 | [1331](https://github.com/NightscoutFoundation/xDrip/issues/1331) | Status line layout | 2020.05.05 |  
