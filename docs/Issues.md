@@ -34,7 +34,6 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1521](https://github.com/NightscoutFoundation/xDrip/issues/1521) | GlucoMen Day support | 2020.11.23 |  
 | [1597](https://github.com/NightscoutFoundation/xDrip/issues/1597) | Libre 2 raw data sync | 2021.01.08 |  
 | [1643](https://github.com/NightscoutFoundation/xDrip/issues/1643) | Allow linking more than one Bluetooth meter at a time | 2021.02.15 |  
-| [1661](https://github.com/NightscoutFoundation/xDrip/issues/1661) | Automated settings backup | 2021.02.28 |  
 | [1672](https://github.com/NightscoutFoundation/xDrip/issues/1672) | Don't enable Out of process libre algorithm | 2021.03.14 |  
 | [1690](https://github.com/NightscoutFoundation/xDrip/issues/1690) | xDrip detecting future data | 2021.03.30 |  
 | [1692](https://github.com/NightscoutFoundation/xDrip/issues/1692) | G5 Dexcom receiver loses connectivity after Feb. 4, 2021 | 2021.04.02 |  
