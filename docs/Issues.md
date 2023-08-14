@@ -24,7 +24,6 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [929](https://github.com/NightscoutFoundation/xDrip/issues/929) | Nightscout follower delay | 2019.06.23 |  
 | [1166](https://github.com/NightscoutFoundation/xDrip/issues/1166) | Make SMB microbolus threshold configurable | 2020.01.10 |  
 | [1229](https://github.com/NightscoutFoundation/xDrip/issues/1229) | Datricsae reading mismatch with xDrip graph | 2020.02.06 |  
-| [1266](https://github.com/NightscoutFoundation/xDrip/issues/1266) | Calibrations that are not entered by the user or a Bluetooth meter | 2020.03.10 |   
 | [1269](https://github.com/NightscoutFoundation/xDrip/issues/1269) | Android 10 landscape malfunction | 2020.03.11 |  
 | [1072](https://github.com/NightscoutFoundation/xDrip/issues/1072) | Omnipod support | 2019.10.28 |  
 | [1280](https://github.com/NightscoutFoundation/xDrip/issues/1280) | Database loss | 2020.03.22 |  
