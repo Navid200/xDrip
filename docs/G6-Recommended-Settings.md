@@ -14,7 +14,7 @@ Enable all recommended settings (settings in the diagram with checkmarks) even i
 
 * `Settings` &#8722;> `Less common settings` &#8722;> [`Bluetooth Settings`](./images/ble-recommended-stngs.png)  
 
-* Disable &nbsp; &nbsp; &nbsp; Settings &#8722;> Less common settings &#8722;> Advanced Calibration &#8722;> Automatic Calibration  
+* Disable &nbsp; &nbsp; &nbsp; `Settings` &#8722;> `Less common settings` &#8722;> `Advanced Calibration` &#8722;> `Automatic Calibration`  
   
 <br/>    
 
