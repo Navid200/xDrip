@@ -33,7 +33,6 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1503](https://github.com/NightscoutFoundation/xDrip/issues/1503) | Android 11 notification channel settings missing | 2020.11.11 |  
 | [1521](https://github.com/NightscoutFoundation/xDrip/issues/1521) | GlucoMen Day support | 2020.11.23 |  
 | [1597](https://github.com/NightscoutFoundation/xDrip/issues/1597) | Libre 2 raw data sync | 2021.01.08 |  
-| [1611](https://github.com/NightscoutFoundation/xDrip/issues/1611) | Wear OS collector to upload to Nightscout | 2021.01.17 |  
 | [1617](https://github.com/NightscoutFoundation/xDrip/issues/1617) | Graph disappearing for L2 | 2021.01.19 |  
 | [1643](https://github.com/NightscoutFoundation/xDrip/issues/1643) | Allow linking more than one Bluetooth meter at a time | 2021.02.15 |  
 | [1661](https://github.com/NightscoutFoundation/xDrip/issues/1661) | Automated settings backup | 2021.02.28 |  
