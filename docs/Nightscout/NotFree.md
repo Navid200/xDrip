@@ -6,7 +6,7 @@ layout: GCNS
 [Google Cloud Nightscout](./GoogleCloud.md) >> Free Tier cost  
 
 #### **Google Cloud Nightscout cost**  
-The cost is quite low.  Theoretically, if you don't reside in China or Australia, it will be free.  See limitations and requirements of a free tier machine below.  
+Theoretically, if you don't reside in China or Australia, it will be free.  See limitations and requirements of a free tier machine below.  
 However, due to unwanted traffic to China caused by crawlers in China, there is a cost of about $0.01 per month.  
 
 The following image shows a summary of my costs over the past 11 months.  
