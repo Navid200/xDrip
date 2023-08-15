@@ -9,9 +9,12 @@ When you first sign up for Google Cloud, you can enable a free trial program, an
 Therefore, if you live in China or Australia, you can clearly see what your cost will be, using this method, without having to pay anything.  If you find out that the cost will be unreasonable, you can delete the virtual machine, before your free trial period ends, and never have to pay for it.  
   
 You will need a credit card to set up billing.  
+<br/>  
   
-Next, We will understand the limitations and requirements of a free tier machine.  
+---  
   
+#### Limitations and requirements of a free tier machine  
+When you follow the guide to install, you can clearly see, on the status page, if you have made any mistakes that violate the Free Tier requirements.  
 You can have a look at the details under the "Free Tier" heading [here](https://cloud.google.com/free/docs/free-cloud-features#free-tier).  
 When you create your virtual machine, you will need to carefully select settings that qualify for the free tier category.  
   
@@ -30,7 +33,8 @@ You can use the [calculator](https://cloud.google.com/products/calculator) to co
 <br/>  
   
 ---  
-  
+
+#### Traffic to China or Australia    
 If you have a follower who is in Australia or China, the data traffic from your server to them will not be free.  
 The estimated cost of traffic to Australia or China is less than $0.50 per GB per month.  
   
