@@ -58,7 +58,7 @@ Any outgoing traffic to crawlers in China or Australia will also not be free.  T
 
 ---  
 
-#### **How could crawlers cause outgoing traffic when they don't have my password?**  
+#### **How could crawlers cause outgoing traffic without my API_SECRET?**  
 There are crawlers everywhere scanning all IP addresses looking for vulnerabilities.  
 When a crawler contacts your site, your Nightscout asks for either a read token or the API_SECRET. That request for a token or the API_SECRET is an outgoing traffic.  
 Any such traffic to either China or Australia will result in a cost while traffic to all other geographic locations will only trigger a cost if the total traffic is greater than 1GB per month.  
