@@ -7,7 +7,7 @@ layout: GCNS
 
 #### **Google Cloud Nightscout fee**  
 The cost is quite low.  Theoretically, if you don't reside in China or Australia, it will be free.  See limitations and requirements of a free tier machine below.  
-However, due to unwanted traffic to China caused by crawlers in China, there is a cost of about $0.02 per month.  
+However, due to unwanted traffic to China caused by crawlers in China, there is a cost of about $0.01 per month.  
 
 The following image shows a summary of my costs over the past 11 months.  
 ![](./images/CostHistory.png)  
@@ -63,5 +63,5 @@ Any outgoing traffic to crawlers in China or Australia will also not be free.  T
 We can block traffic to China in order to reduce the regular cost for those who don't live in China.  
 However, this will complicate the installation scripts significantly resulting in higher verification times in maintenance.  
 
-Therefore, it seems to be best to just put up with a cost of $0.02 per month.  
+Therefore, it seems to be best to just put up with a cost of $0.01 per month.  
   
