@@ -4,7 +4,17 @@ layout: GCNS
 
 ## Google Cloud cost  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Free Tier cost  
+
+#### **Google Cloud Nightscout fee**  
+The cost is quite low.  Theoretically, if you don't reside in China or Australia, it will be free.  See limitations and requirements of a free tier machine below.  
+However, due to unwanted traffic to China caused by crawlers in China, there is a cost of about $0.02 per month.  
+
+The following image shows a summary of my costs over the past 11 months.  
+![](./images/CostHistory.png)  
   
+---  
+  
+#### **Free Trial**
 When you first sign up for Google Cloud, you can enable a free trial program, and you should.  It gives you $300 for a 3-month period.  In that period, any cost will be charged against that credit.  However, you can see in your billing what the cost is.  
 Therefore, if you live in China or Australia, you can clearly see what your cost will be, using this method, without having to pay anything.  If you find out that the cost will be unreasonable, you can delete the virtual machine, before your free trial period ends, and never have to pay for it.  
   
