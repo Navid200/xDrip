@@ -11,6 +11,8 @@ However, due to unwanted traffic to China caused by crawlers in China, there is 
 
 The following image shows a summary of my costs over the past 11 months.  
 ![](./images/CostHistory.png)  
+
+In February, I intentionally generated outgoing traffic as a test to see how much the cost will increase.  I copies the database to another Nightscout over and over again in order to create extra outgoing traffic.  
 <br/>  
   
 ---  
@@ -52,4 +54,14 @@ If you have a follower who is in Australia or China, the data traffic from your 
 The estimated cost of traffic to Australia or China is less than $0.50 per GB per month.  
   
 Any outgoing traffic to crawlers in China or Australia will also not be free.  This could result in a cost of about $0.02 per month for those not living in Australia or China.  
+<br/>  
+
+---  
+
+#### **Blocking traffic to China and Australia**  
+
+We can block traffic to China in order to reduce the regular cost for those who don't live in China.  
+However, this will complicate the installation scripts significantly resulting in higher verification times in maintenance.  
+
+Therefore, it seems to be best to just put up with a cost of $0.02 per month.  
   
