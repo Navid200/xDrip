@@ -11,6 +11,7 @@ However, due to unwanted traffic to China caused by crawlers in China, there is 
 
 The following image shows a summary of my costs over the past 11 months.  
 ![](./images/CostHistory.png)  
+<br/>  
   
 ---  
   
