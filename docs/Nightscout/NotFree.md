@@ -70,7 +70,7 @@ Any such traffic to either China or Australia will result in a cost while traffi
 #### **Blocking traffic to China and Australia**  
 
 We can block traffic to China in order to reduce the regular cost for those who don't live in China.  
-However, this will complicate the installation scripts significantly resulting in higher verification times in maintenance.  
-
+However, this will complicate the installation scripts significantly.  
+  
 Therefore, it seems to be best to just put up with a cost of $0.01 per month.  
   
