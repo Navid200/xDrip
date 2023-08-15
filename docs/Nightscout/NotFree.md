@@ -12,7 +12,7 @@ However, due to unwanted traffic to China caused by crawlers in China, there is 
 The following image shows a summary of my costs over the past 11 months.  
 ![](./images/CostHistory.png)  
 
-In February, I intentionally generated outgoing traffic as a test to see how much the cost will increase.  I copies the database to another Nightscout over and over again in order to create extra outgoing traffic.  
+In February, I intentionally generated outgoing traffic as a test to see how much the cost will increase.  I copied the database to another Nightscout over and over again in order to create extra outgoing traffic.  
 <br/>  
   
 ---  
