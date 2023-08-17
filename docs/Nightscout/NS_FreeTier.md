@@ -52,16 +52,15 @@ You can use the [calculator](https://cloud.google.com/products/calculator) to co
 
 If you have a follower who is in Australia or China, the data traffic from your server to them will not be free.  
 The estimated cost of traffic to Australia or China is less than $0.50 per GB per month.  
-  
-Any outgoing traffic to crawlers in China or Australia will also not be free.  This could result in a cost of about $0.01 per month for those not living in Australia or China.  
+    
 <br/>  
 
 ---  
 
-#### **How could crawlers cause outgoing traffic without my API_SECRET?**  
+#### **How could crawlers cause outgoing traffic?**  
 There are crawlers everywhere scanning all IP addresses looking for vulnerabilities.  
-When a crawler contacts your site, your Nightscout asks for either a read token or the API_SECRET. That request for a token or the API_SECRET is an outgoing traffic.  
-Any such traffic to either China or Australia will result in a cost while traffic to all other geographic locations will only trigger a cost if the total traffic is greater than 1GB per month.  
+When a crawler contacts your site, your Nightscout asks for either a read token or the API_SECRET.  Since the crawler does not have either, a connection will never be granted.  But, that request for a token or the API_SECRET is an outgoing traffic.  
+Any such traffic to either China or Australia is not free.  If enough crawlers scan your site, the total traffic may cross the reounding boundary to $0.01 resulting in a charge in your bill at the end of the month.  
   
 <br/>  
   
@@ -72,5 +71,5 @@ Any such traffic to either China or Australia will result in a cost while traffi
 We can block traffic to China in order to reduce the regular cost for those who don't live in China.  
 However, this will complicate the installation scripts significantly.  
   
-Therefore, it seems to be best to just put up with a cost of $0.01 per month.  
+Therefore, it may be best to just put up with a cost of up to $0.02 per month.  
   
