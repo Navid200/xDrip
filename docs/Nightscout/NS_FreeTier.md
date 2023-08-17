@@ -60,7 +60,6 @@ The estimated cost of traffic to Australia or China is less than $0.50 per GB pe
 #### **How could crawlers cause outgoing traffic?**  
 There are crawlers everywhere scanning all IP addresses looking for vulnerabilities.  
 When a crawler scans your site, your Nightscout asks for either a read token or the API_SECRET.  Since the crawler does not have either, a connection will never be granted.  
-  
 But, that request for a token or the API_SECRET is an outgoing traffic.  
 Any such traffic to either China or Australia is not free.  If enough crawlers scan your site, the total traffic may cross the rounding boundary to $0.01 resulting in a charge in your bill at the end of the month.  
   
@@ -72,6 +71,5 @@ Any such traffic to either China or Australia is not free.  If enough crawlers s
 
 We can block traffic to China in order to reduce the regular cost for those who don't live in China.  
 However, this will complicate the installation scripts significantly.  
-  
 Therefore, it may be best to just put up with a cost of up to $0.02 per month.  
   
