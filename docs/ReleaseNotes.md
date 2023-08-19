@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.08.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.19) | CareLink fix |  
 | [2023.08.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.18b) | Companion app mode improvements |  
 | [2023.08.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.10) | Option to send emergency message only for the lowest alert |  
 | [2023.07.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.16) | **<span style="color:orange">Stable</span>** <br/> Dex OB1 is permanently enabled, and setting is retired |  
