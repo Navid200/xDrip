@@ -8,7 +8,11 @@ permalink: "/docs/Nightscout/FreeDNS.html"
 
 Follow these instructions in order to use FreeDNS, which you will need in order to set up Google Cloud Nightscout.  
 After everything is set up and working, you will need to log into your FreeDNS account at least once every 6 months, or when you receive a reminder email from them, as explained [here](./FreeDNS_Min_Login.md).  
+<br/>  
   
+---  
+
+#### **Creating an account**  
 Go to FreeDNS site: [https://freedns.afraid.org/](https://freedns.afraid.org/)  
 Click on Sign up Free, and sign up.  Make sure to choose a user ID excluding capital letters.  
 If you include capital letters in your user ID, FreeDNS will convert them all to lowercase.  
