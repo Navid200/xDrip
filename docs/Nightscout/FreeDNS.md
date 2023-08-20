@@ -27,7 +27,7 @@ To log in, click on "Main Menu" under "For Members".
 After logging in, you can see your user ID at the top right corner.  
 ![](./images/FD_userID.png)  
   
-You will need your user ID and password later to use the FreeDNS Setup utility.  Please remember your user ID.  
+You will need your user ID and password later to use the FreeDNS Setup utility.  Please remember your user password.  
 <br/>  
 
 ---  
