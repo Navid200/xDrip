@@ -32,7 +32,7 @@ You will need your user ID and password later to use the FreeDNS Setup utility. 
 
 ---  
 
-#### **Choosing a domain and creating a subdomain**    
+#### **Choosing a domain**    
 Go to [Subdomains](https://freedns.afraid.org/subdomain/).  
 Add.  
   
