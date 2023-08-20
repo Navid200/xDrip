@@ -36,7 +36,9 @@ You will need your user ID and password later to use the FreeDNS Setup utility. 
 Go to [Subdomains](https://freedns.afraid.org/subdomain/).  
 Add.  
   
-You can see that under "Domain", you have only 7 options.  Instead of using one of those, it is best to do what is suggested [here](./FD_Domains.md).  
+Under "Domain", you have 7 options.  Instead of using one of those, it may be best to do what is suggested [here](./FD_Domains.md) if you experience problems reaching your subdomain at work or school.  
+If you don't experience any issues at work or school, using one of the 7 main domains may be better to avoid the possibility of the domain going down at some point in the future.  In that case, you can resolve the problem by creating a new subdomain and [switching to it](./ChangeHostname.md).  
+  
 After having selected a public domain, please proceed with the following.  
   
 Enter a subdomain name.  Under the image, enter text (capital) to capture the image you see.  You can change the image if it's not clear.  
