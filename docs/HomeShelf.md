@@ -1,8 +1,7 @@
 ## Home shelf
 [xDrip](../README.md) >> Home shelf  
   
-Some settings can only be accessed on the home shelf.  
-Those are:  
+Some settings can only be accessed on the home shelf.  Those are:  
 . Source wizard  
 . Time buttons  
 . Time period lock  
