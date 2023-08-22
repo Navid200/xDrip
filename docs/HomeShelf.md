@@ -10,7 +10,7 @@ Some settings can only be accessed on the home shelf.  Those are:
 . Sensor expiry  
 . Graphical trend arrow  
 
-To access the home shelf, long press the xDrip icon (blood drop) on the main screen.  
+To access the home shelf, long press the xDrip icon on the main screen.  
 ![](./images/HomeShelfAccess.png)  
 <br/>  
 
