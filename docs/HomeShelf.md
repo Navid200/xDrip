@@ -12,6 +12,8 @@ Some settings can only be accessed on the home shelf.  Those are:
 
 To access the home shelf, long press the xDrip icon (blood drop) on the main screen.  
 ![](./images/HomeShelfAccess.png)  
-  
+<br/>  
+
+Home shelf    
 ![](./images/HomeShelf.png)  
   
