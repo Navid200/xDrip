@@ -12,6 +12,8 @@ If you want to use xDrip as your collector, the app that receives readings from 
 ![](./images/LocationRequirement.png)  
 <br/>  
 
+---  
+  
 #### **How to enable the location service**  
   
 Go to Android Settings.  
