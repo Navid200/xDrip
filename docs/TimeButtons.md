@@ -1,8 +1,7 @@
 ## xDrip Time Buttons  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> Time Range  
   
-Long press the xDrip icon on the main screen to bring up the home shelf menu.  
-![](./images/home_shelf.png)  
+Bring up the [home shelf](./HomeShelf.md).   
   
 On it, enable `Show Time Buttons`.  Now, you will see something like this:  
 ![](./images/ShowTimeButtons.png)  
