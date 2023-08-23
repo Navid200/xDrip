@@ -2,6 +2,7 @@
 [xDrip](../README.md) >> [Download & Installation](./Installation_page.md) >> xDrip Location access  
   
 If you want to use xDrip as your collector, the app that receives readings from the sensor, you need to enable the Android Location service on your phone.  
+If you use xDrip as a follower, you will not need to enable the location service.  
 <br/>  
 
 ---  
