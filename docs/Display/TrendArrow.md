@@ -10,3 +10,5 @@ Tap on the wrench symbol itself.
 Now, you can use the drop down menu that appears below to select several options for the trend arrow.  For color arrows, you can also adjust the color using a slider.  
 ![](./images/TrendArrowGraphOptions.png)  
   
+
+  
