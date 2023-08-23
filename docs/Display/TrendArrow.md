@@ -7,8 +7,9 @@ You can customize the trend arrow.
 To customize the trend arrow, bring up the [home shelf](../HomeShelf.md).  
 Tap on the wrench symbol itself.  
   
-Now, you can use the drop down menu that appears below to select several options for the trend arrow.  For color arrows, you can also adjust the color using a slider.  
+Now, you can use the drop down menu that appears below to select several options for the trend arrow.  
 ![](./images/TrendArrowGraphOptions.png)  
   
-
+For color arrows, you can also adjust the color using a slider.  
+![](./images/TrendArrowColor.png)  
   
