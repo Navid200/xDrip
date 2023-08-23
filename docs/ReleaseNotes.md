@@ -12,7 +12,7 @@ How to [download and install](./Installation_page.md).
 | [2023.08.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.18b) | Companion app mode improvements |  
 | [2023.08.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.10) | Option to send emergency message only for the lowest alert |  
 | [2023.07.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.16) | **<span style="color:orange">Stable</span>** <br/> Dex OB1 is permanently enabled, and setting is retired |  
-| [2023.07.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.13) | Carelink more countries - IoB from Omnipod |  
+| [2023.07.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.13) | CareLink more countries - IoB from Omnipod |  
 | [2023.07.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.08) | Fake data source pre cal - Web service fix |  
 | [2023.07.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.06) | G6/Dex1/G7 cleanup |  
 | [2023.07.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.02) | Samsung G6 or Dex1 connectivity |  
@@ -31,7 +31,7 @@ How to [download and install](./Installation_page.md).
 | [2023.05.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.03) | **Previous Stable release** <br/> G7 32.192.104.82 |  
 | [2023.05.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.05.02) | Falling and rising fast alert names and units updated to represent rates |  
 | [2023.04.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.24) | No more Dex G4 - Scan for glucose meter fix |  
-| [2023.04.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.13) | Keks update - QR code export - 4-digt txid - G7 - Advice: disable avoid scannning |  
+| [2023.04.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.13) | Keks update - QR code export - 4-digt txid - G7 - Advice: disable avoid scanning |  
 | [2023.04.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.11) | Don't start G6 (Dex1) before connection - Lispro |  
 | [2023.04.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.10) | Medtrum prediction - power efficiency |  
 | [2023.04.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.04.08) | Linear ascending volume - selective wake workaround |  
@@ -76,7 +76,7 @@ How to [download and install](./Installation_page.md).
 | [2022.09.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.08b) | Backup to Google Drive |  
 | [2022.09.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.06) | Unsmoothed graph view does no longer need engineering mode. |  
 | [2022.09.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.02) | Companion hardware data source upper limit raised to 405 mg/dL. |  
-| [2022.09.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.01) | Custom sound selction fix for alerts |  
+| [2022.09.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.09.01) | Custom sound selection fix for alerts |  
 | [2022.08.31](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.31) | Libre trend graph now uses absolute values |  
 | [2022.08.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.25) | Companion data source handling of too low and too high readings from CamAPS |  
 | [2022.08.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2022.08.24) | Reminders custom sound file fix |  
