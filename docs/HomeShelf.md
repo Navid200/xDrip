@@ -16,4 +16,7 @@ To access the home shelf, long press the xDrip icon on the main screen.
 
 Home shelf    
 ![](./images/HomeShelf.png)  
+
+To exit, just tap on the main screen outside the home shelf.  
+
   
