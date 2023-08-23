@@ -17,5 +17,11 @@ On Android 11 and newer, tap on "Location".  You will see this:
 ![](./images/LocationAndroid11.png)  
   
 Enable "Allow all the time".  
+<br/>  
   
+---  
+
+#### **Why does xDrip collector need location service?**  
+![](./images/LocationRequirement.png)  
+
   
