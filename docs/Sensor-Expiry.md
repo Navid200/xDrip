@@ -5,8 +5,7 @@
   
 #### **Show on main screen**    
 You can have xDrip show when the sensor expires at the bottom of the main screen.  
-To do that, long press the xDrip icon on the main screen.  You will see something like this:  
-![](./images/home_shelf.png)  
+To do that, bring up the [home shelf](./HomeShelf.md).  
   
 Enable "Show Sensor Expiry".  
   
