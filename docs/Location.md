@@ -21,8 +21,9 @@ Enable "Allow all the time".
   
 ---  
 
-#### **Why does xDrip collector require location service?**  
-  
+#### **Why is location service required?**  
+<br/>  
+
 ![](./images/LocationRequirement.png)  
 
   
