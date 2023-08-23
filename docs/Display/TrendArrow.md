@@ -5,7 +5,8 @@ The xDrip trend arrow is shown on the main screen on the right beside the curren
 You can customize the trend arrow.  
   
 To customize the trend arrow, bring up the [home shelf](../HomeShelf.md).  
-Tap on the wrench symbol.  
+Tap on the wrench symbol itself.  
   
 Now, you can use the drop down menu that appears below to select several options for the trend arrow.  For color arrows, you can also adjust the color using a slider.  
+![](./images/TrendArrowGraphOptions.png)  
   
