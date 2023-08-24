@@ -28,7 +28,7 @@ Enter a note to identify the device and refer to it when you inform us that you 
 ---  
 
 #### **Disable**  
-To disable this, go to `Settings` &#8722;> `Less common settings` &#8722;> `Extra Logging Settings` &#8722;> `Extra tags for logging`.  
+To disable detailed logs, go to `Settings` &#8722;> `Less common settings` &#8722;> `Extra Logging Settings` &#8722;> `Extra tags for logging`.  
 Delete the content and click on `OK`.  
   
   
