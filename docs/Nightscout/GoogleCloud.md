@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/GoogleCloud.html"
 ---
 
 ## Google Cloud Nightscout  
@@ -58,6 +57,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Log into FreeDNS](./FreeDNS_Login.md)
 #### [Switch branches](./Branches.md)
 #### [Reinstall](./Reinstall.md)
+#### [Stop virtual machine](./StopVM.md)
 #### [Delete virtual machine](./DeleteVM.md)
 #### [Access from a Mobile](./Mobile.md)
 #### [Update Nightscout](./update_nightscout.md)
