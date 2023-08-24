@@ -23,7 +23,7 @@ On a menu with only yes and no options, you need to type no to select no.
   
 ---  
 **Google Cloud app**  
-The main disadvantage of the above method is that since you will not be able to press the ctrl key, you will not be able to edit the Nightscout variables.  
+The main disadvantage of the above method is that since you will not be able to press the ctrl key, you will not be able to edit the Nightscout variables using a text editor.  
 But, there is an alternative way using the Google Cloud app (explained below) that is much more graceful.  
 Thanks to Bjørn Ole Haugsgjerd (facebook group) for the tip.     
   
