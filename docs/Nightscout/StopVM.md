@@ -13,4 +13,5 @@ So, you may not be able to bring up Nightscout in a browser or follow with your 
 To stop a virtual machine, go to the [compute engine](./ComputeEngine.md).  
 
 Choose “Stop” from the 3-dot menu.  
+![](./images/StopVirtualMachine.png)  
   
