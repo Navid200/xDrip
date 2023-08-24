@@ -1,7 +1,7 @@
 ## OB1 collector debugging
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> OB1 debugging  
   
-Reference: [https://github.com/NightscoutFoundation/xDrip/wiki/Enabling-Debugging-for-OB1-collector](https://github.com/NightscoutFoundation/xDrip/wiki/Enabling-Debugging-for-OB1-collector)  
+[Reference](https://github.com/NightscoutFoundation/xDrip/wiki/Enabling-Debugging-for-OB1-collector)  
   
 Enabling this will expand the type of logs generated.  This can help the developers troubleshoot your setup.  
   
