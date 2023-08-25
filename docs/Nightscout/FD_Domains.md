@@ -25,7 +25,7 @@ You can also try [https://www.virustotal.com/gui/home/url](https://www.virustota
 On the registry page of FreeDNS, scroll down to the bottom of the page.  There are more than 400 pages!  
 ![](./images/FD_DomainsPages.png)  
   
-Go through the pages and find a public domain that is categorized as low risk when you test using the links provided above.  Also take into account the number of users and the domain age.  You may be better off if you choose a domain that doesn't have tens of thousands of users.  On the other hand, if it only has a few users, it may go down unexpectedly some time in the future.  So, there is a trade-off.  
+Go through the pages and find a public domain that is categorized as low risk when you test using the links provided above.  Also take into account the number of users and the domain age.  You may be better off if you choose a domain that doesn't have tens of thousands of users.  
   
 After selecting a domain, click on it in the left column.  Doing that takes you back to the subdomain page with the domain selected.  Now, enter a subdomain and proceed to activate it and create a hostname as explained [here](./FreeDNS.md).  
   
