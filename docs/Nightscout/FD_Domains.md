@@ -6,7 +6,8 @@ permalink: "/docs/Nightscout/FD_Domains.html"
 ## FreeDNS blocked domains
 [Google Cloud Nightscout](./GoogleCloud.md) >> FreeDNS blocked domains  
   
-It has been reported that some hostnames are blocked by some schools or work networks.  It may be best to choose a domain that is not too popular.  You can have a total of 5 different FreeDNS hostnames for free.  
+It has been reported that some hostnames are blocked by some schools or work networks.  If you experience this, please [inform us](./GCNS_Support.md).  
+It may be best to choose a domain that is not too popular.  You can have a total of 5 different FreeDNS hostnames for free.  
   
 Please log into [FreeDNS](https://freedns.afraid.org/menu/).  Go to [subdomains](https://freedns.afraid.org/subdomain/).  Click on Add.  You will see the following from the domain pulldown menu.  
 ![](./images/FD_Domains.png)  
