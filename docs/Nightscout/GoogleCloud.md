@@ -14,7 +14,9 @@ Thanks to tzachi-dar, senior xDrip developer, for ideas, development of critical
 ---  
   
 ####          **Introduction**  
-You will need a credit card to set up billing.  However, it will be free if you meet the [requirements](./NS_FreeTier.md).  
+You will need a credit card to set up billing.  It will [cost](./NS_FreeTier.md) $0.02 per month or less.  In Australia and China, it will cost a bit more.  
+  
+We provide information about Google Cloud Nightscout here.  There are other options.  It is only you who can decide if this is the right option for you or not.  Your objective should be to choose the best option for controlling your, or your loved one's, diabetes under the supervision of a medical professional.  And you should not accept pressure from anyone who may want to convince you to use their product.  We have no financial incentive tied to the use of this software.  
   
 To complete installation, you will need to go through the first 5 items on the list below.  You will need to use menus.  [This](./HowToMenu.md) explains what to expect when using the menus.  If you have followers, you will also need to complete item 6 after.  
 It will take a while (about 90 minutes) to complete the entire setup.  
