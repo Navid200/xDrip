@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/FD_Domains.html"
 ---
 
 ## FreeDNS blocked domains
