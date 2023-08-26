@@ -17,8 +17,12 @@ Alternatively, you can go to `Release notes` on this site, using the link at the
 ---  
   
 #### **Nightly Releases**  
-You can access the nightly builds (least tested but more recent) from "releases" on the same page.  
+You can access the nightly builds (least tested but more recent) from `Rreleases` on the same [GitHub repository](https://github.com/NightscoutFoundation/xDrip) page.  
+<br/>  
+
+---  
   
+#### **What to download**
 After accessing the release you want, you will see something like this after expanding "Assets":  
 ![](./images/apk.png)  
     
