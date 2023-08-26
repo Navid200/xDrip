@@ -21,13 +21,21 @@ Generally, you should not use a release older than the current stable release.
 
 ---  
   
-#### **Releases**  
-The Releases section of the repository page on a mobile and a desktop is shown below.  
-![](./images/Releases_mobile.png)  
-![](./images/Releases.png)  
+#### **[How to download](./Download-xDrip.md)**  
 <br/>  
-  
+
 ---  
+
+#### **[How to install](./Install.md)**  
+<br/>  
+
+---  
+  
+#### **Confirm successful update**  
+To confirm that the update succeeded, view classic status page and check the first line, which shows the date of the release you have installed.  
+<br/>  
+
+---    
   
 #### **Update channels**  
 Like any other software, an update could cause unintended behavior.  It is practically impossible to fully and adequately test a piece of software.  Some bugs will be found by users after release.  That's why releases are made in stages.  
@@ -48,22 +56,6 @@ You can download the latest stable version from "Latest" under the "Releases" he
 | Alpha          | Less up-to-date but more tested than Nightly | 
 | Beta           | Less up-to-date but more tested than Alpha  |  
 | Stable         | Stable and Beta are the same for xDrip |  
-<br/>  
-
----  
-
-#### **[How to download](./Download-xDrip.md)**  
-<br/>  
-
----  
-  
-#### **[How to install](./Install.md)**  
-<br/>  
-
----  
-  
-#### **Confirm successful update**  
-To confirm that the update succeeded, view classic status page and check the first line, which shows the date of the release you have installed.  
 <br/>  
 
 ---  
