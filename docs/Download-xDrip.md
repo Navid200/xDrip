@@ -10,8 +10,9 @@ On a mobile, you will need to scroll almost all the way down to reach `Latest`.
 ![](./images/Latest_mobile.png)  
 <br/>  
 
-Alternatively, you can go to `Release notes` on this site, using the link at the top left in the header, and click the link in the left column associated with the release marked `Stable`.  
+Alternatively, you can go to `Release notes` on this site, using the link at the top left in the header, and tap the link in the left column associated with the release marked `Stable`.  
 ![](./images/StableReleaseNotes.png)  
+<br/>  
 <br/>  
   
 ---  
@@ -19,8 +20,15 @@ Alternatively, you can go to `Release notes` on this site, using the link at the
 #### **Nightly Releases**  
 You can access the nightly builds (least tested but more recent) from `Rreleases` on the same [GitHub repository](https://github.com/NightscoutFoundation/xDrip) page.  
 ![](./images/Releases_mobile.png)  
+That will take you to a page where you can scroll through all the releases and tap on the release you are interested in.  
+![](./images/AllReleasesGitHub.png)  
 <br/>  
 
+Alternatively, you can go to `Release notes` on this site, using the link at the top left in the header, and tap the link in the left column associated with the release you are interested in.  
+![](./images/NightlyReleaseNotes.png)  
+<br/>  
+<br/>  
+  
 ---  
   
 #### **What to download**
