@@ -5,7 +5,7 @@
 ---  
   
 #### **Stable Release**  
-You can download the latest stable version under "Latest" from the [GitHub repository]  
+You can download the latest stable version under `Latest` from the [GitHub repository]  
 On a mobile, you will need to scroll almost all the way down to reach `Latest`.  
 ![](./images/Latest_mobile.png)  
 <br/>  
