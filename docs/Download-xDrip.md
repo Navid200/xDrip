@@ -18,6 +18,7 @@ Alternatively, you can go to `Release notes` on this site, using the link at the
   
 #### **Nightly Releases**  
 You can access the nightly builds (least tested but more recent) from `Rreleases` on the same [GitHub repository](https://github.com/NightscoutFoundation/xDrip) page.  
+![](./images/Releases_mobile.png)  
 <br/>  
 
 ---  
