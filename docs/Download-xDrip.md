@@ -32,10 +32,10 @@ Alternatively, you can go to `Release notes` on this site, using the link at the
 ---  
   
 #### **What to download**
-After accessing the release you want, you will see something like this after expanding "Assets":  
+After accessing the release you want, you will see something like this after expanding `Assets`:  
 ![](./images/apk.png)  
     
-Download the file with .apk at the end.  If there are multiple files with .apk at the end, download the one without "[variant](./Variants.md)" included in the name.  
+Download the file with .apk at the end.  If there are multiple files with .apk at the end, download the one without `[variant](./Variants.md)` included in the name.  
 <br/>  
   
 ---  
