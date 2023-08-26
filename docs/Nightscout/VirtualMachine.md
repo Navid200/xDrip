@@ -1,9 +1,8 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/VirtualMachine.html"
 ---
 
-## Virtual Machine  
+## Google Cloud Virtual Machine  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Virtual Machine  
   
 Here, we will create a free virtual machine in our [Google project](./NS_GCProject.md).   
