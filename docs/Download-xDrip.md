@@ -14,6 +14,7 @@ On a mobile, you will need to scroll almost all the way down to reach Releases a
 
 Alternatively, you can go to `Release notes` on this site, using the link at the top left in the header, and click the link in the left column associated with the release marked `Stable`.  
 ![](./images/StableReleaseNotes.png)  
+<br/>  
   
 ---  
   
