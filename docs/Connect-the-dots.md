@@ -1,5 +1,5 @@
-##   
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> Connect the dots  
+## Disconnect the dots!  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> Disonnect the dots  
   
 Do you not like to see the xDrip reading dots in the graph connected together with a line?  
 ![](./images/ConnectDots.png)  
