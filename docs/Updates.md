@@ -6,8 +6,7 @@ You don't need to uninstall xDrip.  You can just install a different version ove
 If you uninstall, you will lose all your old readings.  
   
 You will need to update xDrip manually.  There is an automatic check for updates that is explained below, which informs you that an update is available.  But, there is no automatic update.  How you can verify a successful update is also explained below.  
-You should at least update xDrip to the latest stable release.  
-
+  
 **Which release should I update to?**  
 Generally, you should not use a release older than the current stable release.  
 
