@@ -50,14 +50,15 @@ A beta release has been tested in the alpha channel by some users as well as in 
 A stable release has been tested in all the previously mentioned channels. There is about one stable release once every 6 months.  
 You can download the latest stable version from "Latest" under the "Releases" heading on the [GitHub repository page](https://github.com/NightscoutFoundation/xDrip/).  
   
-| Channel | Description | 
+| Channel | Description |  
 |:--------------:|:-----------:|  
 | Nightly        | Most up-to-date but least tested |  
-| Alpha          | Less up-to-date but more tested than Nightly | 
+| Alpha          | Less up-to-date but more tested than Nightly |  
 | Beta           | Less up-to-date but more tested than Alpha  |  
 | Stable         | Stable and Beta are the same for xDrip |  
+  
 <br/>  
-
+  
 ---  
   
 #### **Select an update channel & automatic check**  
