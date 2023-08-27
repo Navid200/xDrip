@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.08.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.27) | Companion app mode filter improvement |  
 | [2023.08.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.26) | Companion app non changing value handling improvement |  
 | [2023.08.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.23) | Companion app mode improvements |  
 | [2023.08.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.19) | CareLink fix |  
