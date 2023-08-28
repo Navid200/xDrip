@@ -8,7 +8,7 @@ layout: GCNS
 ![](./images/UnexpectedError.png)  
 
 If you encounter this error while running install Nightscout phase 2, it means that installation cannot be completed for the domain you have attempted to use.  
-But, this is only temporary.  
+But, this is temporary.  
 
 You can create a subdomain on another domain without deleting the one that failed.  You can have a total of 5 different subdomains in your FreeDNS account for free.  
 
