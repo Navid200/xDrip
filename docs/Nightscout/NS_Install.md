@@ -5,7 +5,7 @@ layout: GCNS
 ## Linux/Nightscout install  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Linux/Nightscout install  
   
-Now, we will update Linux on our [virtual machine](./NS_FreeTier.md), and install Nightscout on it.  You must have [FreeDNS](./FreeDNS.md) and [Google Project](./NS_GCProject.md) set up already to proceed.  
+Now, we will update Linux on our [virtual machine](./NS_FreeTier.md), and install Nightscout on it.  You must have [FreeDNS](./FreeDNS.md) and [Google Project](./NS_GCProject.md) set up already to proceed.  There are also video clips (silent) on this page that may be helpful if the instructions are not clear.  
 <br/>  
   
 ---  
