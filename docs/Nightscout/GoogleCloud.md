@@ -97,6 +97,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 ---  
   
 ####          **Troubleshooting**
+#### [Unexpected error - Too many requests of a given type](./TooManyCertificates.md)
 #### [Google Cloud Nightscout stopped working](./Troubleshooting.md)
 #### [Status page helps you troubleshoot](./StatusKey.md)
 #### [Connection Failed](./ConnectionFailed.md)
