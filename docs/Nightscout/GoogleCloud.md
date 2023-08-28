@@ -38,7 +38,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 ---  
   
 ####          **Utilities**
-#### [Backup](./DatabaseBackup.md) before deleting the virtual machine.
+#### [Backup](./DatabaseBackup.md)
 #### [Restore](./DatabaseRestore.md)
 #### [Status page](./Status.md)
 #### [Logs](./GCNS_Logs.md)
