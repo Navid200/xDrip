@@ -9,7 +9,7 @@ You can customize what xDrip shows.
 #### [Glucose range](./GlucoseRange.md)
 #### [Sensor expiry](../Sensor-Expiry.md)
 #### [Number icon in notification area](./NumIconNotifArea.md)
-#### [Connect the dots!](../Connect-the-dots.md)
+#### [Disconnect the dots!](../Connect-the-dots.md)
 #### [Extra Status Line](../Extra-status-line.md)
 #### [Graph smoothing](../Display/GraphSmoothing.md)
 #### [Screensaver](../Screensaver.md)
