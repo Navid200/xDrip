@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/NS_SyncExecutables.html"
 ---
 
 ## Update Google Cloud Nightscout platform
