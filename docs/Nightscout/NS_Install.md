@@ -42,6 +42,8 @@ If you did not get a notification to recreate the machine, because of a wrong Ub
   
 <video width="400" controlsList="nodownload" src="./video/Install1.mp4" controls>  
 </video>  
+
+If you need a break, this is a good time.    
 <br/>  
 <br/>  
   
@@ -55,6 +57,8 @@ You will see a few error messages.  Those are expected and can be ignored.  Plea
   
 <video width="400" controlsList="nodownload" src="./video/Install2.mp4" controls>  
 </video>  
+
+If you need a break, this is a good time.    
 <br/>  
 <br/>  
   
@@ -90,5 +94,7 @@ Wait 30 seconds, and Nightscout will be running.
  
 <video width="400" controlsList="nodownload" src="./video/Install4.mp4" controls>  
 </video>  
+
+If you need a break, this is a good time.    
 <br/>  
 <br/> 
