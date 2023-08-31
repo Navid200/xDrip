@@ -73,7 +73,7 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ####          **Tips**
 #### [Terminal](./Terminal.md)
-#### [Main menu](./Menu.md)
+#### [Menus](./Menu.md)
 #### [Heroku variables](./HerokuVars.md)
 #### [Release notes](./GC_ReleaseNotes.md)
 #### [Security](./Security.md)
