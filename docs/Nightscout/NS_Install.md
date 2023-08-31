@@ -73,7 +73,7 @@ You will be asked to choose API_SECRET.  You will need your API_SECRET to access
 [This](./HowToMenu.md) explains how to use the menus without a mouse.  
 Enter a password, excluding the following characters, and take note.  Or, choose cancel to keep it as is.  
   
-$ &nbsp; &nbsp; \" &nbsp; &nbsp; \' &nbsp; &nbsp; \\ &nbsp; &nbsp; SPACE &nbsp; &nbsp; @  
+$ &nbsp; &nbsp; \" &nbsp; &nbsp; \' &nbsp; &nbsp; \\ &nbsp; &nbsp; SPACE &nbsp; &nbsp; @ &nbsp; &nbsp; /
   
 <br/>  
   
