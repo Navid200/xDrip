@@ -68,7 +68,8 @@ You will be asked to choose API_SECRET.
 Enter a password, excluding the following characters, and take note.  Or, choose cancel to keep it as is.  
 $ &nbsp; \" &nbsp; \' &nbsp; \\ &nbsp; SPACE &nbsp; @  
 
-You will need API_SECRET to access Nightscout.  
+You will need your API_SECRET to access Nightscout.  
+<br/>  
   
 You will be asked to enter your FreeDNS user ID and password.  
 ![](./images/FreeDNS_IDPass.png)  
