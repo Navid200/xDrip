@@ -69,13 +69,12 @@ If you need a break, this is a good time.
 **Phase 2**  
 To complete the installation, go to the Google Cloud setup submenu and select item 2 on the menu "Install Nightscout Phase 2" and enter.    
   
-You will be asked to choose API_SECRET.  
+You will be asked to choose API_SECRET.  You will need your API_SECRET to access Nightscout.  
 [This](./HowToMenu.md) explains how to use the menus without a mouse.  
 Enter a password, excluding the following characters, and take note.  Or, choose cancel to keep it as is.  
   
 $ &nbsp; &nbsp; \" &nbsp; &nbsp; \' &nbsp; &nbsp; \\ &nbsp; &nbsp; SPACE &nbsp; &nbsp; @  
-
-You will need your API_SECRET to access Nightscout.  
+  
 <br/>  
   
 You will be asked to enter your FreeDNS user ID and password.  
