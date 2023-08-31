@@ -96,8 +96,6 @@ Wait 30 seconds, and Nightscout will be running.
  
 <video width="400" controlsList="nodownload" src="./video/Install4.mp4" controls>  
 </video>  
-<br/>  
   
-If you need a break, this is a good time.    
 <br/>  
 <br/> 
