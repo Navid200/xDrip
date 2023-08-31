@@ -65,7 +65,10 @@ To complete the installation, go to the Google Cloud setup submenu and select it
   
 You will be asked to choose API_SECRET.  
 [This](./HowToMenu.md) explains how to use the menus without a mouse.  
-Enter a password and take note.  You will need it to access Nightscout.  Or, choose cancel to keep it as is.  
+Enter a password, excluding the following characters, and take note.  Or, choose cancel to keep it as is.  
+$ &nbsp; \" &nbsp; \' &nbsp; \\ &nbsp; SPACE &nbsp; @  
+
+You will need API_SECRET to access Nightscout.  
   
 You will be asked to enter your FreeDNS user ID and password.  
 ![](./images/FreeDNS_IDPass.png)  
