@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/NS_Variables.html"
 ---
 
 ## Nightscout variables  
