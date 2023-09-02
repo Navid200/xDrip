@@ -30,7 +30,7 @@ Give a name (all lower case) to the snapshot so that you can easily identify it 
 Click on "Create" at the bottom of the page.  
 Depending on how much data you have on the disk, this could take a different amount of time to complete.  For a fresh install with no database imported yet, it take about a minute.  
   
-![Snapshot cost](https://cloud.google.com/compute/pricing-announce#storage_pd_snapshot_skus)  
+[Snapshot cost](https://cloud.google.com/compute/pricing-announce#storage_pd_snapshot_skus)  
 <br/>  
   
 ---  
