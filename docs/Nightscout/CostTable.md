@@ -43,8 +43,10 @@ Put a check mark beside project name.  Then, click on "Download CSV".
 #### **How to use the cost table**  
 Open the csv file you downloaded.  If you don't have Excel, you can use Open Office (free).  
 ![](./images/CostTable.png)  
-For many of the costs (postive) listed at the top, you will see corresponding credits (negative) due to free tier at the bottom.  Ignoring those, what remains will be what you are charged for.  
-
+  
+For many of the costs (pink in the table above) listed at the top, you will see corresponding credits (green in the table above) due to free tier at the bottom.  Ignoring those, what remains will be what you are charged for.  
+In case of the cost table shown above, that is the $0.27 cost due to snapshots.  
+  
 See what the SKU description is for each.  If it is unexpected, please [contact us](./GCNS_Support.md).  
 
 Any credit listed as "free tier" is independent of your free trial.  Even after your free trial period ends, all free tier credits remain and stay in effect.  
