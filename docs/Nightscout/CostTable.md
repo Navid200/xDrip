@@ -36,13 +36,13 @@ Choose an invoice.  Keep in mind that an invoice may only become complete on the
 Put a check mark beside project name.  Then, click on "Download CSV".  
 ![](./images/DL_Invoice.png)  
   
+<br/>  
+  
+---  
+  
+#### **How to use the cost table**  
 Open the csv file you downloaded.  If you don't have Excel, you can use Open Office (free).  
 ![](./images/CostTable.png)  
-<br/>  
-
----  
-
-#### **How to use the cost table**  
 For many of the costs (postive) listed at the top, you will see corresponding credits (negative) due to free tier at the bottom.  Ignoring those, what remains will be what you are charged for.  
 
 See what the SKU description is for each.  If it is unexpected, please [contact us](./GCNS_Support.md).  
