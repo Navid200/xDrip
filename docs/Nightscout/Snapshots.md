@@ -1,12 +1,11 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/Snapshots.html"
 ---
 
 ## Google Cloud snapshots
 [Google Cloud Nightscout](./GoogleCloud.md) >> Snapshots  
   
-You can create a snapshot of the virtual machine disk.  Then, if you experiment and run into trouble, you can always restore the snapshot to return the disk to the way it was when you created the snapshot.
+You can create a snapshot of the virtual machine disk (not free).  Then, if you experiment and run into trouble, you can always restore the snapshot to return the disk to the way it was when you created the snapshot.
 Of course this means any data added to the database since the snapshot was created will be lost also.  So, you should use this utility taking into account that consequence.  
 <br/>  
   
@@ -28,17 +27,10 @@ If you have just completed an install phase, you may see nothing under the pull-
 Give a name (all lower case) to the snapshot so that you can easily identify it later.  
 ![](./images/SnapshotTitle.png)  
   
-Make sure to select Regional under Location.  By default, Multi-regional is selected.  Otherwise, there may be a cost.  
-![](./images/SnapshotRegion.png)  
-  
 Click on "Create" at the bottom of the page.  
 Depending on how much data you have on the disk, this could take a different amount of time to complete.  For a fresh install with no database imported yet, it take about a minute.  
   
-Pay attention to the total size of your snapshots.  If you go over a limit (5GB), it will not be free.  
-![](./images/Snapshots3.png)  
-  
-The following screenshot shows the free tier limits.  
-![](./images/FreeTierSnapshot.png)  
+![Snapshot cost](https://cloud.google.com/compute/pricing-announce#storage_pd_snapshot_skus)  
 <br/>  
   
 ---  
