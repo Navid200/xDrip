@@ -78,4 +78,15 @@ Any such traffic to either China or Australia is not free.  If enough crawlers s
 We can block traffic to China in order to reduce the regular cost for those who don't live in China.  
 However, this will complicate the installation scripts significantly.  
 Therefore, it may be best to just put up with a cost of up to $0.02 per month.  
+<br/>  
+
+---  
+
+#### **[Storage PD Snapshot](./SnapshotCost.md)**  
+<br/>  
+
+---  
+
+#### **[Storage PD Capacity](./StoragePDCap.md)**  
+
   
