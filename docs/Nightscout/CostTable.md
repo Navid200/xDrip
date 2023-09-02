@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/CostTable.html"
 ---
 
 ## Google Cloud Nightscout Cost Table
