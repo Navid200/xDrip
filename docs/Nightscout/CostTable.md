@@ -7,7 +7,11 @@ permalink: "/docs/Nightscout/CostTable.html"
 [Google Cloud Nightscout](./GoogleCloud) >> Cost Table  
   
 You can get a categorized list of costs from Google Cloud even before your free trial period ends.  You must have [created a Google Project and activated billing](./NS_GCProject.md) for this to work.  
-  
+<br/>  
+
+---  
+
+#### **How to create a cost table**  
 Go to [Billing](./Billing.md).  
   
 Click on "Cost table" in the left pane.  Click on "Column display options".  
@@ -27,7 +31,7 @@ Unrounded Cost ($)
   
 Click on OK.  
   
-Choose an invoice.  Keep in mind that an invoice will only become complete on the third day of the month.  So, the invoice for December, will not yet be valid on January 2.  
+Choose an invoice.  Keep in mind that an invoice may only become complete on the second or third day of the month.  So, the invoice for December, will not yet be valid on January 1.  
 ![](./images/ChooseInvoice.png)  
   
 Put a check mark beside project name.  Then, click on "Download CSV".  
@@ -35,7 +39,15 @@ Put a check mark beside project name.  Then, click on "Download CSV".
   
 Open the csv file you downloaded.  If you don't have Excel, you can use Open Office (free).  
 ![](./images/CostTable.png)  
-  
+<br/>  
+
+---  
+
+#### **How to use the cost table**  
+For many of the costs (postive) listed at the top, you will see corresponding credits (negative) due to free tier at the bottom.  Ignoring those, what remains will be what you are charged for.  
+
+See what the SKU description is for each.  If it is unexpected, please [contact us](./GCNS_Support.md).  
+
 Any credit listed as "free tier" is independent of your free trial.  Even after your free trial period ends, all free tier credits remain and stay in effect.  
   
   
