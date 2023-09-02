@@ -5,16 +5,22 @@ layout: GCNS
 ## Google Cloud cost  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Free Tier cost  
 
-#### **Google Cloud Nightscout cost**  
+#### **Expected cost**  
 Theoretically, if you don't reside in China or Australia, it will be free.  See Free tier limitations and requirements below.  
-However, due to unwanted traffic to China caused by crawlers in China, there is a cost of about $0.01 per month.  
+However, due to unwanted traffic to China caused by crawlers in China, there is a cost of $0.02 or less per month.  
 
-The following image shows a summary of my costs (living in Canada) over the past 11 months.  
+The following image shows a summary of my costs (living in Canada) over 11 months.  
 ![](./images/CostHistory.png)  
 
 In February, I intentionally generated outgoing traffic as a test to see how much the cost will increase.  I copied the database to another Nightscout over and over again in order to create extra outgoing traffic.  
 <br/>  
   
+---  
+
+#### **Why have I been charged more?**  
+The only way to establish why you have been charged is to create a [cost table](./CostTable.md).  
+<br/>  
+
 ---  
   
 #### **Free Trial**
@@ -75,8 +81,4 @@ Therefore, it may be best to just put up with a cost of up to $0.02 per month.
 <br/>  
 
 ---  
-  
-#### **How can I figure out why I have been charged?**  
-Create a [cost table](./CostTable.md).  
-
   
