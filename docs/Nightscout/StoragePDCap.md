@@ -10,5 +10,5 @@ If you have more than 30GB of disk space, you will be charged for it.
 If you have 30GB in your virtual machine and create a second machine, you will be charged not only for the CPU but also for storage.  
   
 Delete your temporary machines as soon as you don't need them any longer to minimize cost.  
-
+The only way to establish why you have been charged is to create a [cost table](./CostTable.md).  
   
