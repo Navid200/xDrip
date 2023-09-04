@@ -88,6 +88,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Will this be free?](./NS_FreeTier.md)
 #### [Will this work in Australia or China?](./AustraliaChina.md)
 #### [Why have I been charged?](./NS_FreeTier.md)
+#### [How to respond to existing certificate?](./ExistingCertificate.md)
 #### [What is Storage PD Snapshot?](./SnapshotCost.md)
 #### [What is Storage PD Capacity?](./StoragePDCap.md)
 #### [What is my hostname?](./Hostname.md)
