@@ -9,5 +9,5 @@ To save or copy settings use `Show Settings QR codes` or `Load/Save settings` un
 If what you want is to transfer all the history of your readings, you will need to [transnfer the database](./New-Phone.md).  
   
 If you experience any problems transferring the settings using the QR code, please [report it](./Contact.md).  
-
+  
   
