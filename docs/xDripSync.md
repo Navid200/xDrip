@@ -5,7 +5,8 @@ This page explains how to set up xDrip Sync.  You will need both the master and 
 This is easy to set up. It relies on Google.  It will need Google Play services to be on your phone.  
   
 On master, go to `Settings` &#8722;> `xDrip+ Sync settings`, and tap on `Be master for followers`.  
-**<span style="color:red">Disable "Allow follower actions". Otherwise, the follower will be able to stop the sensor.</span>**  
+By default, the follower can upload treatments to the master.  Disable `Allow follower actions` to remove that possibility.  
+  
 Tap on `Settings` &#8722;> `Show Settings QR codes`.  
 ![](./images/ShowSettingsQR.png)  
   
