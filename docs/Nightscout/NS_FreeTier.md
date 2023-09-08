@@ -18,14 +18,14 @@ In February, I intentionally generated outgoing traffic as a test to see how muc
 ---  
 
 #### **Why have I been charged more?**  
-The only way to establish why you have been charged is to create a [cost table](./CostTable.md).  
+The only way to know exactly why you have been charged is to create a [cost table](./CostTable.md).  
 <br/>  
 
 ---  
   
 #### **Free Trial**
 When you first sign up for Google Cloud, you can enable a free trial program, and you should.  It gives you $300 for a 3-month period.  In that period, any cost will be charged against that credit.  However, you can see in your billing what the cost is.  
-Therefore, if you live in China or Australia, you can clearly see what your cost will be, using this method, without having to pay anything.  If you find out that the cost will be unreasonable, you can delete the virtual machine, before your free trial period ends, and never have to pay for it.  
+Therefore, if you live in China or Australia, you can clearly see what your cost will be, using this method, without having to pay anything.  If you find out that the cost will be unreasonable, you can stop the virtual machine, before your free trial period ends, and never have to pay for it.  
   
 You will need a credit card to set up billing.  
 <br/>  
@@ -34,9 +34,8 @@ You will need a credit card to set up billing.
   
 #### **Free tier Limitations and requirements**  
   
-When you follow the guide to install, you can clearly see, on the status page, if you have made any mistakes that violate the Free Tier requirements.  
+When you follow the guide to install, you can see, on the status page, if you have made any mistakes that violate the Free Tier requirements.  They would be highlighted by red notes above the horizontal line on the status page.  
 You can have a look at the details under the "Free Tier" heading [here](https://cloud.google.com/free/docs/free-cloud-features#free-tier).  
-When you create your virtual machine, you will need to carefully select settings that qualify for the free tier category.  
   
 The following snapshots show the current (November 11, 2022) limitations.  
   
