@@ -65,7 +65,6 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Update Nightscout](./update_nightscout.md)
 #### [Install Nightscout dev branch](./NightscoutDevBranch.md)
 #### [Create a cost table](./CostTable.md)
-#### [Increase disk size to 30GB](./FullDisk.md)
 #### [Import MongoDB from Atlas](./HerokuGone.md)
 <br/>  
   
@@ -113,4 +112,5 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Development branch of Nightscout fails](./NightscoutDevBranch.md)
 #### [Cannot connect - full disk](./FullDisk.md)
 #### [FreeDNS IP mismatch & failed certificate](./FreeDNS_Min_Login.md)
+#### [10GB disk size (advanced)](./FullDisk.md)
   
