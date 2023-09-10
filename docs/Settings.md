@@ -20,5 +20,14 @@ Some controls are under the 3-dot menu.
 ![](./images/3dotMenu.png)  
 
 ![](./images/3dotMenu2.png)  
+<br/>  
   
+---  
+
+#### **Home shelf**  
+Some settings are accessible under the [Home shelf](./HomeShelf.md)  
+<br/>  
+
+---  
+
   
