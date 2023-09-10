@@ -1,6 +1,7 @@
 # Features  
 [xDrip](../README.md) >> xDrip Features  
   
+### [Settings](./Settings.md)
 ### [Alerts](./Alerts_page.md)
 ### [Statistics](./Statistics.md)
 ### [Display](./Display/Display.md)
