@@ -25,15 +25,15 @@ Some controls are under the 3-dot menu.
 ---  
 
 #### **Home shelf**  
-Some settings are accessible under the [Home shelf](./HomeShelf.md)  
+Some settings are accessible under the [Home shelf](./HomeShelf.md).  
 <br/>  
-
+  
 ---  
   
 #### **Voice commands (Advanced)**  
 There are some commands that can only be accessed as voice commands.  
 A voice command is not meant to be easy to enter.  Commands that are accessible as voice commands are commands that are not supposed to be needed under normal operation conditions.  An example is enabling engineering mode.  You shouldn't really need to enable it if you are an xDrip user and not a developer.  
-Clearing the Dexcom queue is anotehr example.  If you follow the guidelines for using xDrip as a Dexcom collector, you will never need to clear the queue.  
+Clearing the Dexcom queue is another example.  If you follow the guidelines for using xDrip as a Dexcom collector, you will never need to clear the queue.  
   
 
   
