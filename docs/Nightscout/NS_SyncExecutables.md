@@ -8,7 +8,7 @@ layout: GCNS
 We update the Google Cloud Nightscout platform in order to add functionality and fix issues.  This is how you can update the menus, commands and packages of your virtual machine to the latest.  This is not about updating Nightscout.  If you want to update Nightscout, please have a look at [this](./update_nightscout.md).  
 If you have not completed the [installation](./GoogleCloud.md), please complete it first.  
   
-Open a [terminal](./Terminal.md).  A [menu](./Menu.md) should come up automatically.  Select "Update platform" from the Google Cloud setup submenu.  You can then check the status page to confirm that your setup has been [updated](./GC_ReleaseNotes.md).  
+Open a [terminal](./Terminal.md).  A [menu](./Menu.md) should come up automatically.  Select `Update platform` from the Google Cloud setup submenu.  You can then check the status page to confirm that your setup has been [updated](./GC_ReleaseNotes.md).  
   
 If you created your setup a long time ago and never updated it, you may need to go through a few more steps, explained in the following sections, to complete the update.  
 <br/>  
@@ -25,7 +25,7 @@ If a menu does not open when you open a terminal, please skip to the section tit
   
 If a menu opens when you open a terminal, from the menu, or Google Cloud setup submenu, select "Update scripts" or "Update platform".  After completion and closing the terminal and opening a new one, if a menu does not automatically open up, please skip to the section titled "Bootstrap" below.  
   
-View the Status page by selecting "Status".  If it looks like [this](./images/Status.png), the platform has updated to the latest.  If not, please update platform from the Google Cloud setup submenu again.  
+View the Status page by selecting `Status`.  If it looks like [this](./images/Status.png), the platform has updated to the latest.  If not, please update platform from the Google Cloud setup submenu again.  
   
 If the status page still looks different, for example, if the username, repository name and branch name are blank, as shown below, please proceed to the section titled "Bootstrap" below.  
 ![](./images/NoRepoStat.png)  
@@ -34,7 +34,7 @@ If the status page still looks different, for example, if the username, reposito
 ---  
   
 #### **Bootstrap**  
-Open a [terminal](./Terminal.md).  If a menu opens, select "Bootstrap" from the Google Cloud submenu.  
+Open a [terminal](./Terminal.md).  If a menu opens, select `Bootstrap` from the Google Cloud submenu.  
   
 If no menu opens after opening a terminal, copy the entire highlighted text below and paste into the terminal.  Press enter.  
   
@@ -53,21 +53,21 @@ Please proceed to the following sections.
 ---  
   
 #### **Missing packages**
-If you see "Missing packages" on the status page as shown below, please run "Update platform" from the Google Cloud setup submenu again.  
+If you see `Missing packages` on the status page as shown below, please run `Update platform` from the Google Cloud setup submenu again.  
 ![](./images/MissingPackages.png)  
 <br/>  
   
 ---  
   
 #### **Missing node_modules**
-If you see "Missing node_modules" on the status page as shown below, please run "Install Nightscout phase 1" from the Google Cloud setup submenu.  
+If you see "Missing node_modules" on the status page as shown below, please run `Install Nightscout phase 1` from the Google Cloud setup submenu.  
 ![](./images/MissNodeModules.png)  
 <br/>  
   
 ---  
   
 #### **No Hostname**
-If you are still using noip.com, after you run bootstrap and run "Install Nightscout phase 1", you will see "No hostname" on the status page as shown below.  
+If you are still using noip.com, after you run bootstrap and run `Install Nightscout phase 1`, you will see "No hostname" on the status page as shown below.  
 ![](./images/NoHostname.png)  
   
 To switch to FreeDNS, please follow the instructions [here](./FreeDNS.md) to create a FreeDNS account and create a new hostname.  
@@ -75,9 +75,16 @@ Then, please run "Install Nightscout phase 2" from the Google Cloud setup submen
 <br/>  
   
 ---  
+
+#### **Old Ubuntu**  
+If you see the Ubuntu version in red on the status page as shown below, please run `Update platform` from the Google Cloud setup submenu again.  
+![](./images/Ubuntu20_04_05.png)  
+<br/>  
+
+---  
   
 #### **Startup dependence on FreeDNS site**
-If you see "Startup Dependence on FreeDNS" on the status page as shown below, please run "Install Nightscout phase 2".  
+If you see "Startup Dependence on FreeDNS" on the status page as shown below, please run `Install Nightscout phase 2`.  
 ![](./images/StartFreeDNS_dependence.png)  
   
 You will be asked if you want to change API_SECRET.  Just press Escape unless you want to change it.  
