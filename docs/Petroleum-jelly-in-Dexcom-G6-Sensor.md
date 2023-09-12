@@ -10,4 +10,11 @@ After cleaning the transmitter contacts (not the sensor) snap in the transmitter
 
 In order to [restart](./Restart-G6-sensor.md) a G6 sensor, we remove the transmitter and later snap it back in. When doing that, don't wipe away the substance from the transmitter contacts. While the transmitter is out, cover the transmitter and sensor to protect the substance from contaminants like dust or being accidentally wiped away by your clothes.  
 
-![](./images/dielec-grease-g6.png)  
+![](./images/PetroleumJelly.png)  
+<br/>  
+
+![](./images/PetroleumJelly2.png)  
+
+![](./images/PetroleumJelly3.png)  
+
+  
