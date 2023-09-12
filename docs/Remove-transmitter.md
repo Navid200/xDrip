@@ -38,3 +38,5 @@ Then, do the same on the other side.
 
 <video width="400" controlsList="nodownload" src="./videos/Remove-G6-TX.mp4" controls>  
 </video>  
+
+If you need to remove the transmitter, don't touch the contacts on the transmitter or sensor and avoid wearing tight clothing over the sensor so that [Petroleum jelly](./Petroleum-jelly-in-Dexcom-G6-Sensor.md) is not accidentally wiped away.     
