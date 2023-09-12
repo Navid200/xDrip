@@ -1,8 +1,10 @@
 ## Removing a G6 transmitter without damaging the sensor
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Remove G6 transmitter  
   
-Under normal circumstances, after you peel off the sensor with the transmitter inside, you can open the sensor, remove the transmitter and throw away the sensor.  
+Under normal circumstances, after you peel off the sensor with the transmitter inside, you can open the sensor, remove the transmitter and throw away the sensor.  You will not be able to continue to use the sensor then.  
 This guide explains how you can remove the transmitter leaving the sensor intact and still attached to you.  
+
+If you need to do that, don't touch the contacts on the transmitter or sensor and avoid wearing tight clothing over the sensor, while you keep the transmitter out, so that [Petroleum jelly](./Petroleum-jelly-in-Dexcom-G6-Sensor.md) is not accidentally wiped away.  
   
 A G6 transmitter is shown in the following figure, in which the sensor prong latch is marked.  
 ![](./images/g6-tx-side-2.png)  
@@ -40,4 +42,4 @@ Then, do the same on the other side.
 </video>  
 <br/>  
   
-If you need to remove the transmitter, don't touch the contacts on the transmitter or sensor and avoid wearing tight clothing over the sensor so that [Petroleum jelly](./Petroleum-jelly-in-Dexcom-G6-Sensor.md) is not accidentally wiped away.     
+   
