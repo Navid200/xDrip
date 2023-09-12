@@ -10,7 +10,7 @@ include the following in the first post.
 - A screenshot of the [Hardware Data Source page](./HardwareDataSource.md)  
 
 Include a short description of what is wrong. For example "No readings", or "Sensor Stopped".  
-Also, state if there is something that has changed. For example, is this a new phone, did you recently receive an Android patch, if the problem only occurs with a particular release of xDrip, if you are new to xDrip, or if a new sensor started the issue.  
+Also, state if there is something that has changed. For example, is this a new phone, did you recently receive an Android patch, if the problem only occurs with a particular release of xDrip, or if a new sensor started the issue.  
 
 - Please don't respond by replying to an email from GitHub.  Doing that will quote previous messages cluttering the thread.  
   
