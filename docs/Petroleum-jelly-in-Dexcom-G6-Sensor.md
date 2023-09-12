@@ -17,5 +17,4 @@ When [removing the transmitter for restart](./Remove-transmitter.md), don't wipe
 ![](./images/PetroleumJelly2.png)  
 
 ![](./images/PetroleumJelly3.png)  
-
   
