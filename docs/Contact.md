@@ -24,7 +24,7 @@ On the other hand, the xDrip version you are using or the firmware version of th
   
   
 ### **Suggestions** 
-To reach out to developers, post in the [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  
+To reach out to developers, post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  
 xDrip is constantly being improved and your suggestions are welcome.  But, please note that there is a price to pay for every new feature.  xDrip needs to be maintained and documented.  That means xDrip bugs need to be fixed.  The more features there are, the more complicated the bugs will become.  
 Please post your suggestions.  But, please be patient.  
   
