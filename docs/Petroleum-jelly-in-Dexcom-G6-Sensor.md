@@ -23,6 +23,7 @@ When [removing the transmitter for restart](./Remove-transmitter.md), don't wipe
 
 #### **Dexcom Patent**  
 The following snapshot is from a Dexcom patent.  It explains the problem and suggestd petroleum jelly as an optional solution.  
+  
 ![](./Dexcom/images/PetroleumJellyPatent.png)  
 
   
