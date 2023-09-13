@@ -1,7 +1,7 @@
 ## How to stop or start a G6 or Dexcom One sensor
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Stop or start G6/Dex1 Sensor  
   
-If you are starting a new transmitter, please follow the instructions [here](./Starting-G6.md).  
+If you are starting a new transmitter, please follow the instructions [here](../Starting-G6.md).  
 But, if the transmitter has been used before and you are only starting a sensor on it, this guide is for you.  
 <br/>  
 
