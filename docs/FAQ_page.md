@@ -15,7 +15,8 @@
 #### [Why nothing happens when I check for updates?](./NoUpdate.md)
 #### [Why do I get xDrip imported AAPS profile pop-up?](./AAPS_ProfileImportNotification.md)
 #### [Why do I get Treatment Reminders?](./Alerts/TreatmentReminders.md)
- [Unsafe app blocked](./FAQ/UnsafeAppBlocked.md)  
+#### [Unsafe app blocked](./FAQ/UnsafeAppBlocked.md)  
+ [Why a compressed graph](./Display/CompressedScreen.md)
   
 #### **Where**
 #### [Where are the Logs?](./Logs.md)
