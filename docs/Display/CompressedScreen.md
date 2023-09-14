@@ -1,4 +1,4 @@
-## Exclude a reading
+## Compressed graph
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Compressed screen  
   
 Do you have a screen with the vertical (y) axis expanded as shown below?  
