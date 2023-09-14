@@ -25,8 +25,8 @@ If you start a new sensor before the current session has successfully stopped, i
 
 #### **Keep the transmitter out for 10 minutes**  
 The transmitter has an anti-restart mechanism.  The transmitter can detect that it is not attached to an inserted sensor.  After you stop a session, if the transmitter detects that it is not connected for two consecutive readings, it concludes that you will be using a new sensor next.   
-But, if after the session is stopped, the transmitter detects that it is disconnected for only one reading or not at all, it will conclude that a restart is being attempted and the following start attempt will fail even if you are using a brand new sensor.  
-Therefore, to avoid triggering a restart attempt, always keep the transmitter out for at least 10 minutes (2 read cycles) after stopping a session.  
+But, if after the session is stopped, the transmitter detects that it is disconnected for only one reading or not at all, it will conclude that a restart is being attempted if it receives a start command, and the start attempt will fail even if you are using a brand new sensor.  
+Therefore, to avoid triggering a false restart attempt, always keep the transmitter out for at least 10 minutes (2 read cycles) after a successful stop.  
 <br/>  
 
 ---  
