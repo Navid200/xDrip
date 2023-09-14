@@ -17,4 +17,5 @@ You can customize what xDrip shows.
 #### [Always-on Display](./AOD.md)
 #### [Trend Arrow](./TrendArrow.md)
 #### [Exclude a reading](./ExcludeReading.md)
+#### [Compressed graph](./CompressedScreen.md)
   
