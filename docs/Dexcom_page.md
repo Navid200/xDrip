@@ -23,7 +23,8 @@ If you use xDrip with a Dexcom G5, G6, G7 or Dexcom ONE transmitter, this page c
  [Transmitter Lifetime](./Transmitter-lifetime.md)  
   
 #### **How to**
-#### [Start G6 (or Dex1)](./Starting-G6.md)
+#### [Start G6 (or Dex1) transmitter](./Starting-G6.md)
+#### [Stop and start a G6 or Dex1 sensor](./Dexcom/StartG6Sensor.md)
 #### [Use Dexcom One](./Dexcom-One.md)
 #### [Calibrate G6, or Dex1](./Calibrate-G6.md)
 #### [Please report unknown firmware!](./Report-firmware.md)
