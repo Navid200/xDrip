@@ -11,6 +11,8 @@ But, if the transmitter has been used before and you are only starting a sensor 
 You should never stop or start a sensor if there is a transmitter connectivity issue.  If there is a [connectivity issue](../Proper-connectivity.md), you need to [resolve](../Connectivity-troubleshoot.md) it before proceeding.  
 <br/>  
   
+---  
+  
 #### **Stop the previous sensor**    
 Before starting a sensor, you need to stop the previous one.  
 When you stop a sensor, you are stoping the session that is in progress on the transmitter.  The transmitter and xDrip only communicate for a few seconds once every 5 minutes.  In the meantime, the stop command stays in the queue and can be seen on the status page.  
