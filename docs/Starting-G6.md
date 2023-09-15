@@ -3,10 +3,38 @@
   
 Please be patient and do not rush to tap on "Start Sensor" even if xDrip encourages you to.  Please follow the steps exactly as stated below, in the specified sequence, to avoid common issues.  
 If you see references here to functions you don't recognize, please have a look at [this](./Dexcom-Basics.md).  
+
+To start, you will need a transmitter, a sensor, and an Android phone.  Currently, xDrip supports Android 6 and newer.   
+<br/>  
+
+---  
+
+#### **Transmitter**  
+If you are using a brand new transmitter, you will need to activate it.  It will be activated when you snap it into the sensor.  Or, you can activate it as explained [here](./Dexcom/NewG6TX_Activation.md).  
+You will need the serial number of the trasnmitter, whcih is shown on the bottom of the transmitter and on the transmitter box as shown in the following image.  
+![](./Dexcom/images/G6TXandBox.png)  
+The serial number of the transmitter shown above is 8QMMM9.  
+Take a note of your transmitter serial number.  You will need it possibly for the next 110 days.  
   
-If you have been using the Dexcom app, you need to disable it.  You cannot have two mobile apps collecting from the same transmitter at the same time.  
+<br/>  
+
+---  
   
-1.  If you are using an old version of xDrip, [update](./Updates.md) to the current stable release.  
+#### **Sensor**  
+Don't open the sensor container until you are ready to insert it.  
+Pay attention to the 4-digit calibration code on the sensor as shown in the following image.  You will need that code to start.  
+![](./images/CalCode.png)  
+Every sensor has a calibration code.  You should use the calibration code printed on the sensor when you start that sensor.  
+<br/>  
+
+---  
+
+#### **xDrip**  
+xDrip supports Android 6 and newer versions of Android.  
+You cannot use xDrip and Dexcom app both as collectors.  So, you should uninstall Dexcom app.  
+  
+1. Unless otherwise advised by an xDrip developer, [download](./Download-xDrip.md) and [install](./Install.md) the current stable release of xDrip.  
+If you already have xDrip installed and are using an older version, you can [update](./Updates.md).  
   
 2.  Set `G5/G6/G7/1 Transmitter` under &nbsp; `Settings` &#8722;> [`Hardware Data Source`](./HardwareDataSource.md).  
   
@@ -40,7 +68,5 @@ If you are coming from G5, or another CGM, you need to get used to factory calib
 A common mistake is to replace an old transmitter with a new one, stop sensor, change transmitter ID, and start sensor right away. This could result in the new transmitter never receiving the start command at the right time. The outcome is no readings after the 2-hour warm-up.  
   
 Never soak (insert sensor a while before starting it) a G6 sensor. The main advantage of G6 over G5 is factory calibration. You will be interfering with factory calibration (accuracy) the longer it takes from the moment you insert the sensor to the moment you start the sensor in xDrip.  
-  
-The calibration code for each sensor is printed on the adhesive cover you have to peel off before you insert the sensor.  Don't throw it away.  
-![](./images/CalCode.png)  
+   
   
