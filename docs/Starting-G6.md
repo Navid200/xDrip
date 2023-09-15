@@ -4,7 +4,7 @@
 Please be patient and do not rush to tap on "Start Sensor" even if xDrip encourages you to.  Please follow the steps exactly as stated below, in the specified sequence, to avoid common issues.  
 If you see references here to functions you don't recognize, please have a look at [this](./Dexcom-Basics.md).  
 
-To start, you will need a transmitter, a sensor, and an Android phone.  Currently, xDrip supports Android 6 and newer.   
+To start, you will need a transmitter, a sensor, and an Android phone.  
 <br/>  
 
 ---  
