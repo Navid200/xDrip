@@ -32,4 +32,4 @@ Therefore, to avoid triggering a false restart attempt, always keep the transmit
 ---  
 
 #### **Start the new sensor**  
-Only after the previous session has stopped and you have confirmation by a clear transmitter queue on the status page, should you proceed with starting a new sensor.  
+Only after the previous session has stopped, and you have confirmation by a clear transmitter queue on the status page, and after having kept the transmitter detached from your body for 10 minutes should you proceed with snapping in the transmitter and starting sensor.  
