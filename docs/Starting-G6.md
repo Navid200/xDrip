@@ -5,6 +5,7 @@ Please be patient and do not rush to tap on "Start Sensor" even if xDrip encoura
 If you see references here to functions you don't recognize, please have a look at [this](./Dexcom-Basics.md).  
 
 To start, you will need a transmitter, a sensor, and an Android phone.  
+If you have already read this page and have started a sensor, and need information on how to stop it and start the next sensor, please read [this](./Dexcom/StartG6Sensor.md).  
 <br/>  
 
 ---  
