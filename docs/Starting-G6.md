@@ -12,7 +12,7 @@ If you have already read this page and have started a sensor, and need informati
 
 #### **Transmitter**  
 If you are using a brand new transmitter, you will need to activate it.  It will be activated when you snap it into the sensor.  Or, you can activate it as explained [here](./Dexcom/NewG6TX_Activation.md).  
-You will need the serial number of the trasnmitter, whcih is shown on the bottom of the transmitter and on the transmitter box as shown in the following image.  
+You will need the serial number of the transmitter, which is shown on the bottom of the transmitter and on the transmitter box as shown in the following image.  
 ![](./Dexcom/images/G6TXandBox.png)  
 The serial number of the transmitter shown above is 8QMMM9.  
 Take a note of your transmitter serial number.  You will need it possibly for the next 110 days.  
