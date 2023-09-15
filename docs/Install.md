@@ -1,7 +1,7 @@
 ## Install xDrip  
 [xDrip](../README.md) >> [Download & Installation](./Installation_page.md) >> Install xDrip  
   
-After having [downloaded](./Download-xDrip) the .apk file, you can install by tapping on it.  
+After having [downloaded](./Download-xDrip.md) the .apk file, you can install by tapping on it.  
   
 If you already have another xDrip release installed, you don't have to uninstall first.  You can just install over your existing installation.  If you uninstall, you will lose all your old readings.  
   
