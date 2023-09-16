@@ -42,6 +42,7 @@
  [Missed Reading Alert not repeating](./MissedSignalAlert.md)  
   
 #### **Dexcom**
+#### [Sensor failed start](./Dexcom/StartG6Sensor.md)
 #### [How to trigger a pair request](./MissedPairRequest.md)
 #### [How to Start a G6](./Starting-G6.md)
 #### [What is Native algorithm - mode?](./Native-Algorithm.md)
