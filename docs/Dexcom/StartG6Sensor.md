@@ -32,25 +32,6 @@ Therefore, to avoid triggering a false restart attempt, always keep the transmit
 ---  
 
 #### **Start the new sensor**  
-Only after the previous session has stopped, and you have confirmation by a clear transmitter queue on the status page, and after having kept the transmitter detached from your body for 10 minutes should you proceed with snapping in the transmitter and starting sensor.  
-<br/>  
-
----  
-
-#### **Sensor failed start**  
-If you start sensor without keeping the transmitter detached for at least 10 minutes, the session you start will stop in about half an hour.  
-You will then see the following on the status page and in the logs.  
-![](./images/SensFailStrt.png)  
-
-![](./images/SensFailStrtLogs.png)  
-<br/>  
-
----  
-
-#### **Sensor failed start - What now?**  
-So, you know what to do next time.  But, what to do now?  
-
-Ensure there is no [connectivity problem](../Proper-connectivity.md).  
-Perform a [restart](../Restart-G6-sensor.md).  
+Only after the previous session has stopped, and you have confirmation by a clear transmitter queue on the status page, and after having kept the transmitter detached from your body for 10 minutes should you proceed with snapping in the transmitter and starting sensor.    
   
   
