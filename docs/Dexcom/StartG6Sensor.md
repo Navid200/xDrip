@@ -43,4 +43,14 @@ You will then see the following on the status page and in the logs.
 ![](./images/SensFailStrt.png)  
 
 ![](./images/SensFailStrtLogs.png)  
+<br/>  
+
+---  
+
+#### **Sensor failed start - What now?**  
+So, you know what to do next time.  But, what to do now?  
+
+Ensure there is no [connectivity problem](../Proper-connectivity.md).  
+Perform a [restart](../Restart-G6-sensor.md).  
+  
   
