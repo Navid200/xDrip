@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/StatusKey.html"
 ---
 
 ## Status page keywords
