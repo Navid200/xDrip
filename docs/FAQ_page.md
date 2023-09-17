@@ -21,7 +21,8 @@
 #### **Where**
 #### [Where are the Logs?](./Logs.md)
 #### [Where are the settings](./Settings.md)
- [Which xDrip version do I have?](./xDrip-Version.md)  
+#### [Which xDrip version do I have?](./xDrip-Version.md)  
+[Where is Auto configure?](./FAQ/AutoConfig.md) 
   
 #### **How**
 #### [How to follow](./Follow_page.md)
