@@ -9,7 +9,7 @@ Enabling this will expand the type of logs generated.  This can help the develop
 ---  
 
 #### **Enable**  
-To enable, use xDrip auto configure to scan this QR code:  
+To enable, use xDrip [auto configure](../FAQ/AutoConfig.md) to scan this QR code:  
 ![](./images/OB1Debug.png)  
   
 After that, if you view the [logs](../Logs.md), you will see a lot more logs generated per minute.  
