@@ -30,7 +30,7 @@ In rare occasions, a Nightly release may malfunction.  In that case, you can und
 ---  
   
 #### **Update channels**  
-Releases are made in stages.  
+Releases are made in stages, Nightly (pre-release), Alpha and Beta (or stable).  
   
 A pre-release is a release that has only been tested by the developers.  We call it a Nightly release.  
 On average, there is a Nightly release once a week.  
