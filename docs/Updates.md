@@ -15,7 +15,7 @@ But, if you experience problems, it's best to at least update to the current sta
 
 ---  
 
-#### **How to update?**  
+#### **How to update**  
 From the 3-dot menu button at the top right corner of the main screen, tap on `Check for updated version`.  
 If there has been an update, in the update channel you are using, more up-to-date than the version you are currently using, it will be downloaded and you will have the option to install it.    
 <br/>  
@@ -23,10 +23,10 @@ If there has been an update, in the update channel you are using, more up-to-dat
 ---  
 
 #### **Can I undo an update?**  
-You can install an older version of xDrip over the version you currently have installed.  
-Therefore, you can undo an update by installing the version you had previously.  
+You can install an older version of xDrip over the version you currently have installed.  Therefore, you can undo an update by installing the version you had previously.  
+In rare occasions, a Nightly release may malfunction.  In that case, you can undo your update until a new version is released.  If you detect a problem, please [report](./Contact.md) it.  
 <br/>  
-
+  
 ---  
   
 #### **Update channels**  
