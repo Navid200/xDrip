@@ -18,7 +18,7 @@ But, if you experience problems, it's best to at least update to the current sta
 #### **How to update**  
 From the 3-dot menu button at the top right corner of the main screen, tap on `Check for updated version`.  
   
-![](./images/MainMenu.png)  
+![](./images/3dotMenu.png)  
 
 ![](./images/CheckForUpdate.png)  
   
