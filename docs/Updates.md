@@ -30,13 +30,16 @@ Therefore, you can undo an update by installing the version you had previously.
 ---  
   
 #### **Update channels**  
-An update could cause unintended behavior.  It is practically impossible to fully test a piece of software.  Some bugs will be found by users after release.  That's why releases are made in stages.  
+Releases are made in stages.  
+  
 A pre-release is a release that has only been tested by the developers.  We call it a Nightly release.  
 On average, there is a Nightly release once a week.  
   
 An alpha release has been tested by a few users in the Nightly channel for a while after having been tested by developers.  
   
 A beta release, which is the stable release for xDrip, has been tested in the alpha channel by some users as well as in the Nightly channel by a few users as well as by the developers.  There is about one stable release once every 6 months.  
+
+When you choose an update channel, you will be informed only when there is an update in that channel when you check for updates or if you enable `Automatic update check`.  
   
 | Channel | Description |  
 |:--------------:|:-----------:|  
