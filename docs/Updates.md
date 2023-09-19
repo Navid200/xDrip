@@ -41,11 +41,11 @@ A beta release, which is the stable release for xDrip, has been tested in the al
 
 When you choose an update channel, you will be informed only when there is an update in that channel when you check for updates or if you enable `Automatic update check`.  
   
-| Channel | Description | Notes |  
-|:--------------:|:-----------:| :--: |  
-| Nightly        | Most up-to-date but least tested | |  
-| Alpha          | Less up-to-date but more tested than Nightly | |  
-| Beta / Stable  | Less up-to-date but more tested than Alpha | Default |  
+| Channel | Description |  
+|:--------------:|:-----------: |  
+| Nightly        | Most up-to-date but least tested |  
+| Alpha          | Less up-to-date / more tested than Nightly |  
+| Beta / Stable  | Most tested (default) |  
   
 <br/>  
   
