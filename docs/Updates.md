@@ -68,8 +68,8 @@ Just find the release you want looking at the release notes.  Tap on the link.  
 
 ---  
   
-#### **[Release notes](./ReleaseNotes.md)** 
-Release notes provide a basic description for each release.  
+#### **Release notes** 
+[Release notes](./ReleaseNotes.md) provide a basic description for, and a link to, each release.  
 <br/>  
 
 ---  
