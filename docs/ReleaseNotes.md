@@ -1,7 +1,7 @@
 ## xDrip Release Notes  
 [xDrip](../README.md) >> xDrip Release Notes  
   
-Major xDrip releases are identified here with brief descriptions.  
+Major xDrip releases are identified here with brief descriptions.  Tap on the release to go to a page where you can download it.  
 How to [update](./Updates.md).  
 How to [download and install](./Installation_page.md).  
   
