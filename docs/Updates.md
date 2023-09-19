@@ -63,7 +63,7 @@ You may need to restart.  Now, you will be notified when there is a new release 
 
 #### **Install a Nightly while on the Beta channel**  
 If you want to install a Nightly release, you don't have to select the Nightly channel.  
-Just find the release you want looking at the release notes.  Tap on the link.  [Download](./Download-xDrip.md) and [install](./Install.md).  
+Just find the release you want looking at the release notes.  Tap on the corresponding link, [download](./Download-xDrip.md), and [install](./Install.md).  
 <br/>  
 
 ---  
