@@ -5,7 +5,7 @@ layout: GCNS
 ## Malfunctioning Nightscout applications
 [Google Cloud Nightscout](./GoogleCloud.md) >> Malfunctioning applications  
   
-There is a Nightscout variable titled AUTH_DEFAULT_ROLES.  We have set this variable to "denied" be default.  See [why](./Why_Denied_Auth.md).  
+There is a Nightscout variable titled AUTH_DEFAULT_ROLES.  We have set this variable to "denied" by default.  See [why](./Why_Denied_Auth.md).  
   
 #### **Malfunctioning apps**
 There are apps that will not function with the permission set to denied.  An example is AutotuneWeb.  
