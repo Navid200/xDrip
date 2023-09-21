@@ -94,6 +94,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [What is my API_SECRET?](./Hostname.md)
 #### [What is my FreeDNS user ID?](./FreeDNS_userID.md)
 #### [Where to ask for help?](./GCNS_Support.md)
+#### [Why is AUTH_DEFAULT_ROLES set to denied?](./Why_Denied_Auth.md)
 <br/>  
   
 ---  
