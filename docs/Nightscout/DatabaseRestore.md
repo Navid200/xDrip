@@ -22,3 +22,6 @@ If the backup contains both Mongo database and variables, you can choose, using 
 
 If you choose to restore the Mongo database, the backup content will be added to the database.  
   
+[Backuo](./DatabaseBackup.md)  
+
+  
