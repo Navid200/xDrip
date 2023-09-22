@@ -24,4 +24,7 @@ With the full path entered, click on "Download" to download the backup file to t
   
 It is possible that the terminal will disconnect when you attempt a download and shows a [disconnect](./images/Disconnect.png) error.  Just wait a minute and click on retry to reconnect.  Try again and this time, it will download.  
   
-You should safekeep the backup.    
+You should safekeep the backup.  
+
+[Restore](./DatabaseRestore.md)  
+  
