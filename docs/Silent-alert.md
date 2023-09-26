@@ -20,7 +20,7 @@ Some Android settings may not be located exactly as shown on all phone brands.
 6- The phone is in `Do Not Disturb` mode and the `override silent mode` and `Force speaker` settings are not enabled for the alert.  The missed reading alert inherits its sound file and override silent mode from the `Other Alerts` (`Settings` &#8722;> `Alarms and Alerts` &#8722;> `Other Alerts`).  
 ![](./Alerts/images/OverrideAndForce.png)  
 
-7- The phone is in `Do Not Disturb` mode, and Android is not set to allow xDrip to overside DND.  To remedy this, change the setting at `Android Settings` &#8722;> `Apps` &#8722;> `xDrip+` &#8722;> `Notifications` &#8722;> `Override Do Not Disturb`.  
+7- The phone is in `Do Not Disturb` mode, and Android is not set to allow xDrip to override DND.  To remedy this, change the setting at `Android Settings` &#8722;> `Apps` &#8722;> `xDrip+` &#8722;> `Notifications` &#8722;> `Override Do Not Disturb`.  
 ![](./Alerts/images/AndrdxDripDND.png)  
   
 <br/>  
