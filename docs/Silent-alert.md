@@ -29,3 +29,5 @@ Some Android settings may not be located exactly as shown on all phone brands.
   
 When an alert triggers, a log is created including the alert title and the time it triggered.  If the alert triggers and you can see the log but cannot hear it, and the above list does not explain the behavior, take a screenhot of the log to include with your request for help.  
   
+
+  
