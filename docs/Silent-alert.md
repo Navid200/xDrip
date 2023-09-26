@@ -2,7 +2,7 @@
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [Alerts](./Alerts_page.md) >> xDrip Alert makes no sound  
   
 Different factors could result in an xDrip alert not making any sound.  The following is a list of such combinations.  
-Some Android settings may not be located exactly as shown on all brand phones.  
+Some Android settings may not be located exactly as shown on all phone brands.  
   
 1- The alert is on the [Glucose Level Alerts List](./Glucose-level-alerts.md) and you have chosen the silent [volume profile](./Volume-profiles.md).  
   
