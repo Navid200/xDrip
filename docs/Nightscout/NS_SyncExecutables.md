@@ -2,8 +2,8 @@
 layout: GCNS
 ---
 
-## Update Google Cloud Nightscout platform
-[Google Cloud Nightscout](./GoogleCloud.md) >> Update to latest release   
+## Update Google Cloud Nightscout
+[Google Cloud Nightscout](./GoogleCloud.md) >> Update to latest release  
   
 We update the Google Cloud Nightscout platform in order to add functionality and fix issues.  This is how you can update the menus, commands and packages of your virtual machine to the latest.  This is not about updating Nightscout.  If you want to update Nightscout, please have a look at [this](./update_nightscout.md).  
 If you have not completed the [installation](./GoogleCloud.md), please complete it first.  
