@@ -7,7 +7,7 @@ layout: GCNS
 
 #### **Expected cost**  
 Theoretically, if you don't reside in China or Australia, it will be free.  See Free tier limitations and requirements below.  
-However, due to unwanted traffic to China caused by crawlers in China, there is a cost of $0.02 or less per month.  
+However, due to unwanted traffic to China caused by crawlers in China, there is a cost of $0.03 or less per month.  
 
 The following image shows a summary of my costs (living in Canada) over 11 months.  
 ![](./images/CostHistory.png)  
