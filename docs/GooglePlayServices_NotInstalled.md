@@ -4,6 +4,9 @@ xDrip without Google Play Services
   
 Do you see this message in xDrip?  
 ![](./images/GoogPlySrvcs_Not_Installed.png)  
+
+Or, do you get this Android notification?  
+![](./images/NotWithoutGooglePlay.png)  
   
 If you don't want to, or cannot, install Google Play Services, enable (put a check mark beside) the following setting in xDrip.  
   
