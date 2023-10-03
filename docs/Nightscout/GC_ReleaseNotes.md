@@ -9,7 +9,8 @@ The development and stable branches are explained [here](./Branches.md).
   
 | Release | Notes | Status page |  
 |---------|-------| ----------- |  
-| 2023.09.08 | **<span style="color:orange">Stable release</span>** <br/> API_SECRET character verification | |  
+| 2023.09.21 | **<span style="color:orange">Stable release</span>** <br/> Status page cleanup | |  
+| 2023.09.08 | API_SECRET character verification | |  
 | 2023.07.22 | FreeDNS ID/pass status page marker fix | |  
 | 2023.07.21 | FreeDNS user ID and password fix | ![](./images/July212023StatusP.png) |  
 | 2023.07.17 | FreeDNS user ID and password on the status page | |  
