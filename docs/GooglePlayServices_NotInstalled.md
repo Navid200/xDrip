@@ -9,7 +9,7 @@ Or, do you get this Android notification?
 ![](./images/NotWithoutGooglePlay.png)  
 <br/>  
   
-If you don't want to, or cannot, install Google Play Services, enable (put a check mark beside) the following setting in xDrip.  
+If you don't want to, or cannot, install Google Play services, enable (put a check mark beside) the following setting in xDrip.  
   
 `Settings` &#8722;> `xDrip+ Sync settings` &#8722;> `Disable all sync features`  
 ![](./images/DisableAllSyncFeatures.png)  
