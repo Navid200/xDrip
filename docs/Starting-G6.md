@@ -23,7 +23,7 @@ Take a note of your transmitter serial number.  You will need it possibly for th
   
 #### **Sensor**  
 Don't open the sensor container until you are ready to insert it.  
-Every sensor has a 4-digit calibration code as shown in the following image.  You will need that code to start.  
+Every sensor has a 4-digit calibration code as shown in the following image.  You will need that code, from your sensor, to start.  
 ![](./images/CalCode.png)    
 <br/>  
 
