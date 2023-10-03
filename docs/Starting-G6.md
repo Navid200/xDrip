@@ -18,15 +18,16 @@ The serial number of the transmitter shown above is 8QMMM9.
 Take a note of your transmitter serial number.  You will need it possibly for the next 110 days.  
   
 <br/>  
-
+  
 ---  
   
 #### **Sensor**  
 Don't open the sensor container until you are ready to insert it.  
 Every sensor has a 4-digit calibration code as shown in the following image.  You will need that code, from your sensor, to start.  
-![](./images/CalCode.png)    
+![](./images/CalCode.png)  
+  
 <br/>  
-
+  
 ---  
 
 #### **xDrip**  
