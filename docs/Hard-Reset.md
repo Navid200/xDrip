@@ -5,9 +5,9 @@ There is no way to undo this.  Therefore, please make sure you need to do it bef
 Please disable [engineering mode](./Engineering-Mode.md).  There is no need to enable engineering mode in order to perform a hard reset.  
   
 You can hard reset a G5 using xDrip.   
-You can also hard reset a G6, using xDrip, if the Firmware version is 1.6.5.25 or prior to that.  
-At this point, there is no way to hard reset any other one of G6 transmitters.  
-
+You can also hard reset a G6, using xDrip, if the Firmware version is 1.6.5.25 or prior to that.    
+There is no way to hard reset any other one of G6 transmitters unless modified.  
+  
 If you hard reset a transmitter, the number of transmitter days, as shown on the system status page, will be reset to 0. This is only required if you want to use the Native mode, or if you want to use the Dexcom app or receiver. If you are using the xDrip non-native mode, you don't need to hard reset.  
 
 If the battery voltage is low, you will need to replace the battery. Hard resetting the transmitter will not change the battery voltage.  
