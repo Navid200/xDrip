@@ -22,9 +22,12 @@ Tap on the treatment (dropper) symbol on the main screen.
 This opens a form mainly showing a numeric pad. At the bottom right corner, long press on the microphone symbol.  
 ![](./images/treatment-menu.png)
   
-A keyboard will appear. Type "Hard Reset Transmitter" without the quotes.  You will see a message confirming the attempt will be made.  
+A keyboard will appear. Type and enter `Hard Reset Transmitter`.  You will see a message confirming the attempt will be made.  Do not exit xDrip.  The command still needs to be sent to the transmitter.  
   
-Monitor the system status page. It will take several read cycles (5 minutes each) for the messages in the queue to clear.  
-You may see a message warning that hard reset may have failed.  
-Restart the phone.  
+Monitor the system status page. It will take a read cycle ( up to 5 minutes) for the command to be submitted to the transmitter.  
+You will see a warning that hard reset may have failed.  
+Either restart the phone, or force stop xDrip and then, start it again.  
+Delete the transmitter from the list of previously connected Bluetooth devices from your Android settings.  
+  
+If/when you intend to use the transmitter, after a reset, you will need to activate it again as if you were using a brand new transmitter for the very first time.  
   
