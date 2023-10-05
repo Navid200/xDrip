@@ -1,6 +1,6 @@
 ## Hard Reset (Advanced)  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Hard Reset  
-There is no way to undo this.  Therefore, please make sure you need to do this before you start.  
+There is no way to undo this.  Therefore, please make sure you need to do it before you start.  
   
 Please disable [engineering mode](./Engineering-Mode.md).  There is no need to enable engineering mode in order to perform a hard reset.  
   
