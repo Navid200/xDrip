@@ -24,7 +24,7 @@ This opens a form mainly showing a numeric pad. At the bottom right corner, long
   
 A keyboard will appear. Type and enter `Hard Reset Transmitter`.  You will see a message confirming the attempt will be made.  Do not exit xDrip.  The command still needs to be sent to the transmitter.  
   
-Monitor the system status page. It will take a read cycle ( up to 5 minutes) for the command to be submitted to the transmitter.  
+Monitor the system status page. It will take a read cycle (up to 5 minutes) for the command to be submitted to the transmitter.  
 You will see a warning that hard reset may have failed.  
 Either restart the phone, or force stop xDrip and then, start it again.  
 Delete the transmitter from the list of previously connected Bluetooth devices from your Android settings.  
