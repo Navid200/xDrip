@@ -8,7 +8,7 @@ Let's say you expect a high after meals.  But, you expect them to last only a sh
 But, if they last longer, you may need to know.  That's what the persistent high alert is for.  
 It alerts you if your glucose has been greater than a threshold longer than a specified amount of time.  
   
-The Persistent High alert considers your current level as well as your previous levels to calculate how long you have been persistently high and alert you if needed.  
+The Persistent High alert considers your current level as well as your previous levels to calculate how long you have been persistently high and alerts you if needed.  
   
 The following image shows the Extra Alerts page, where you can control the Persistent High alert, at `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Extra Alerts`.  
 ![](./images/PersistentHigh.png)  
