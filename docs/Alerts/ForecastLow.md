@@ -1,0 +1,10 @@
+## Forecast Low alert
+[xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Forecast Low alert  
+  
+Glucose level alerts, the main alerts, alert you when your glucose is low or high.  
+But, it may not be just your current value that matters, but also the trend.  
+The Forecast Low alert considers your current level as well as the trend to extrapolate and predict how low you may be in a certain amount time and alert you if the prediction is below a threshold.  
+
+The following image shows the Extra Alerts page, where you can control the Forecast Low alert, at `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Extra Alerts`.  
+![](./Alerts/images/ForecastLow.png)  
+  
