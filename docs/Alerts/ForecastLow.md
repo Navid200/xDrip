@@ -9,5 +9,7 @@ The following image shows the Extra Alerts page, where you can control the Forec
 ![](./images/ForecastLow.png)  
   
 The alert will trigger if the extrapolated value drops below your low value in  less then the time (in minutes) specified under `Alarm at forecasted low mins`.  
-
+  
+The forecast low alert does not take into account insulin or carbs or exercise etc.  
+It takes into account the current glucose value and a few of the recent readings to calculate the trend and predict the next few readings.  
   
