@@ -8,7 +8,7 @@ The Forecast Low alert considers your current level as well as the trend to extr
 The following image shows the Extra Alerts page, where you can control the Forecast Low alert, at `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Extra Alerts`.  
 ![](./images/ForecastLow.png)  
   
-The alert will trigger if the extrapolated value drops below your low value in  less then the time (in minutes) specified under `Alarm at forecasted low mins`.  
+The alert will trigger if the extrapolated value drops below your low value in  less than the time (in minutes) specified under `Alarm at forecasted low mins`.  
   
 The forecast low alert does not take into account insulin or carbs or exercise etc.  
 It takes into account the current glucose value and a few of the recent readings to calculate the trend and predict the next few readings.  
