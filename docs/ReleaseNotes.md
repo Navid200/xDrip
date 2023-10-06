@@ -7,7 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
-| [2023.10.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.06) | Hard reset offer in case of timing issues |  
+| [2023.10.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.06) | Hard reset offer in case of timing issues - Prefview default true support |  
 | [2023.09.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.09.24) | Retired "Unbond G5 before each read" - "No update" toast |  
 | [2023.09.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.09.23) | UI flag for update added - Tidepool new auth setting - v2 databinding |  
 | [2023.09.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.09.08) | Aidex + Watchdrip - Fallback to xDrip is removed |  
