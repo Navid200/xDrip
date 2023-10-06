@@ -8,3 +8,6 @@ The Forecast Low alert considers your current level as well as the trend to extr
 The following image shows the Extra Alerts page, where you can control the Forecast Low alert, at `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Extra Alerts`.  
 ![](./images/ForecastLow.png)  
   
+The alert will trigger if the extrapolated value drops below your low value in  less then the time (in minutes) specified under `Alarm at forecasted low mins`.  
+
+  
