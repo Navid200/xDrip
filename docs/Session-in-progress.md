@@ -2,6 +2,7 @@
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Session in progress  
   
 If you have a G5, G6 (or Dexcom One), or G7 session running already that was started using another phone or another app or another device, and you like to access, and control it, using xDrip, you can do that easily.  You don't need to start a new or the existing sensor for that.  
+<br/>  
   
 1. If there is another mobile or app that is currently controlling the transmitter, you either need to disable it or be outside its range. This does not include the Dexcom receiver or a t:slim pump. Those are fine to exist.  If you have another phone with xDrip controlling the transmitter, you need to [disable collection](./Stop-xDrip.md).
    
