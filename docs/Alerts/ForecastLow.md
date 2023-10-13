@@ -24,3 +24,4 @@ If the trend is linear, it just extends the line to see when it crosses the thre
   
 If the trend is a curve, it will do a polynomial extrapolation to extend the curve to see when it will cross the threshold.  
   
+  
