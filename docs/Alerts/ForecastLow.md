@@ -17,5 +17,10 @@ The following image shows the Extra Alerts page, where you can control the Forec
 The alert will trigger if the extrapolated value drops below your low value in less than the time (in minutes) specified under `Alarm at forecasted low mins`.  
   
 The forecast low alert does not take into account insulin or carbs or exercise etc.  
-It takes into account the current glucose value and a few of the recent readings to calculate the trend and predict the next few readings.  If the trend is linear, it just extends the line to see when it crosses the threshold.  If the trend is a curve, it will do a polynomial extrapolation to extend the curve to see when it will cross the threshold.  
+It takes into account the current glucose value and a few of the recent readings to calculate the trend and predict the next few readings.  
+  
+If the trend is linear, it just extends the line to see when it crosses the threshold.  
+![](./images/ExtrapolateLinear.png)  
+  
+If the trend is a curve, it will do a polynomial extrapolation to extend the curve to see when it will cross the threshold.  
   
