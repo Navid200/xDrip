@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.10.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.17) | Oppo wake workaround - G6 reset start lock resolved |  
 | [2023.10.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.08) | CareLink update |  
 | [2023.10.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.06) | Hard reset offer in case of timing issues - Prefview default true support |  
 | [2023.09.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.09.24) | Retired "Unbond G5 before each read" - "No update" toast |  
