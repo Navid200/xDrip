@@ -14,7 +14,7 @@ Thanks to tzachi-dar, senior xDrip developer, for ideas, development of critical
 ---  
   
 ####          **Introduction**  
-You will need a credit card to set up billing.  It will [cost](./NS_FreeTier.md) $0.02 per month or less.  In Australia and China, it will cost more.  
+You will need a credit card to set up billing.  It will [cost](./NS_FreeTier.md) $0.03 per month or less.  In Australia and China, it will cost more.  
   
 We provide information about Google Cloud Nightscout here.  There are other options.  It is only you who can decide if this is the right option for you or not.  Your objective should be to choose the best option for controlling your, or your loved one's, diabetes under the supervision of a medical professional.  And you should not accept pressure from anyone who may want to convince you to use their product.  We have no financial incentive tied to the use of this software.  
   
