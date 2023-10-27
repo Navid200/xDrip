@@ -26,7 +26,7 @@ The rest of the items you see on this page are optional items on the menu or iss
   
 ---  
   
-####          **Installation** (14.2.6) ([Dev: 15.0.2](./Branches.md))
+####          **Installation** (14.2.6 - [Dev: 15.0.2](./Branches.md))
 #### 1- [FreeDNS sign up](./FreeDNS.md)
 #### 2- [Google Cloud project](./NS_GCProject.md)
 #### 3- [Virtual Machine](./VirtualMachine.md)
