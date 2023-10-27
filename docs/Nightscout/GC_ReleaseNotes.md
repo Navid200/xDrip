@@ -9,6 +9,7 @@ The development and stable branches are explained [here](./Branches.md).
   
 | Release | Notes | Status page |  
 |---------|-------| ----------- |  
+| 2023.10.27 | **<span style="color:orange">Dev release</span>** <br/> Update to Nightscout 15.0.2 | |  
 | 2023.09.21 | **<span style="color:orange">Stable release</span>** <br/> Status page cleanup | |  
 | 2023.09.08 | API_SECRET character verification | |  
 | 2023.07.22 | FreeDNS ID/pass status page marker fix | |  
