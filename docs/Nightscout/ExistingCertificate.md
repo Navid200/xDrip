@@ -3,7 +3,7 @@ layout: GCNS
 ---
 
 ## Existing Certificate
-[Google Cloud Nightscout](./GoogleCloud.md) >>  You have an existing certificate that has exactly the same domains  
+[Google Cloud Nightscout](./GoogleCloud.md) >>  You have an existing certificate that has exactly the same domain  
   
 If you run "install Nightscout phase 2" again shortly after having run it before, you may get a note claiming that there is an existing certificate.  
 ![](./images/ExistingCertificate.png)  
