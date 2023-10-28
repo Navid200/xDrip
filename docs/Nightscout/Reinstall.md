@@ -1,32 +1,38 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/Reinstall.html"
 ---
-
+  
 ## Google Cloud Nightscout reinstall
 [Google Cloud Nightscout](./GoogleCloud.md) >> How to reinstall   
   
-If you have made a mistake when you created the virtual machine and need to recreate it, you should backup first to avoid losing everything when you delete the machine.  
-You don't have to do that if you have just created the machine.  But, if you have used the machine for a while, or, if you have made progress in installation, you may have files on the machine that you may want to backup.  
-If you delete the virtual machine, all the files on it will be deleted and you will have no way of recovering them.  This includes your MongoDB database.  
+To reinstall, you need to run bootstrap followed by phase 1 (installation).  Both are explained [here](./NS_Install.md).  
+After that, [Restart](./Restart.md) the server.  
   
-Follow the instructions [here](./DatabaseBackup.md) to backup the database and download it from the machine to your computer.  
-Download the following file as well: /etc/nsconfig
-
-If you have any other files on the virtual machine that you like to keep, download those as well.  
-If you are certain you have all the files you need, only then, should you [delete the machine](./DeleteVM.md).  
-  
-Carefully follow [this guide](./GoogleCloud.md) to create a new machine, and install Nightscout.  Set up Nightscout and xDrip to upload.  
-
-Follow [these](./DatabaseRestore.md) instructions to restore the MongoDB backup.    
-Upload the nsconfig file the same way.  Restore nsconfig by entering the following in the terminal.  
-  
-```  
-sudo mv -f nsconfig /etc/nsconfig
-```  
 <br/>  
   
-[Restart](./Restart.md) the server.  
-After restart, your Nightscout must be running with your data in it.  
+---  
   
-What will be missing is anything that xDrip collected while you were working on the reinstall.  To upload those as well, use Back-fill data from xDrip Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API) &#8722;> Extras Options.  
+#### **Backup**  
+Follow the instructions [here](./DatabaseBackup.md) to backup the database and download it from the machine to your computer.  
+If you have any other files on the virtual machine that you like to keep, download those as well.  
+<br/>  
+  
+---  
+
+#### **Restore**
+Follow [these](./DatabaseRestore.md) instructions to restore the MongoDB and your variables.  
+<br/>  
+  
+---  
+  
+#### **Deleting the machine**  
+Deleting the virtual machine is hardly ever necessary.  You shouldn't do it.  It is only a last resort.  
+
+If you delete the virtual machine, all the files on it will be deleted and you will have no way of recovering them.  This includes your MongoDB database.  
+Therefore, if you are certain you need to delete it, follow the backup instructions above to backup everything including your database.  
+  
+If you are certain you have backed up everything and have all the files you need, only then, should you [delete the machine](./DeleteVM.md) only if there is no way to restore it.  
+
+Now, you can follow the [guide](./GoogleCloud.md) to recreate a new machine.  Then, you can restore your backup on the new machine.  
+<br/>  
+  
