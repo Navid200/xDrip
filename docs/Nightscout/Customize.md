@@ -33,6 +33,6 @@ Wait 30 seconds, and click on retry to reconnect.  View the logs by selecting "L
   
 ---  
 
-#### **Undoing the customizations**  
-To switch back to the official version of Nightscout, with no customizations, run bootstrap, Phase 1 and Phase 2 as described on the [installation page](./NS_Install.md).  
+#### **Undoing the customization**  
+To switch back to the official version of Nightscout, with no customization, run bootstrap, Phase 1 and Phase 2 as described on the [installation page](./NS_Install.md).  
   
