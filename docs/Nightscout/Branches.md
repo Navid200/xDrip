@@ -31,23 +31,7 @@ You can then restart the server to ensure that everything is working as expected
 <br/>  
   
 ---  
-  
-#### **Stable branch bootstrap**  
-````
-curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash
-````  
-<br/>  
-  
----  
-  
-#### **Development branch bootstrap**   
-````
-curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-dev/bootstrap.sh | bash
-````  
-<br/>  
-  
----  
-  
+   
 #### **Which branch am I using?**  
 Go to the status page.  The full GitHub path is shown on the status page.  The last section on the line is vps-1 or vps-dev for the stable or development branches respectively.  
 ![](./images/BranchFlag.png)  
