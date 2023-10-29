@@ -1,10 +1,9 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/Restart.html"
 ---
 
 ## Restart Nightscout
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nighsctout](../Nightscout_page.md) >> [Google Cloud](./GoogleCloud.md) >> Restart Nightscout   
+[Google Cloud Nightscout](./GoogleCloud.md) >> Restart Nightscout   
   
 To restart Nightscout, you can reboot the virtual machine.  
 To do that, open a [terminal](./Terminal).  From the [menu](./Menu.md), select "Reboot server" and enter.  
