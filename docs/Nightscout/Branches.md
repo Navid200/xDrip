@@ -26,7 +26,7 @@ To see the differences between the two branches, you can view the [release notes
 ---  
     
 #### **Switch**  
-If you are already using Google Cloud Nightscout and want to switch to the other branch, all you need to do is to run "Bootstrap" associated with the branch you want to switch to followed by "Install Nightscout phase 1" both from the Google [Cloud setup submenu](./Menu.md).  
+If you are already using Google Cloud Nightscout and want to switch to the other branch, all you need to do is to run "Bootstrap" associated with the branch you want to switch to followed by "Install Nightscout phase 1" both from the [Google Cloud setup submenu](./Menu.md).  
 You can then restart the server to ensure that everything is working as expected.  
 <br/>  
   
