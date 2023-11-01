@@ -7,8 +7,8 @@ layout: GCNS
   
 Google Cloud Nightscout has two branches.  You can use either.  
 This is not about Nightscout itself.  This is about the Google Cloud platform we use for running Nightscout.  
-The development branch, vps-dev, is updated more frequently and as a result, less tested.  You can access the latest updates the fastest using this branch.  
-The stable branch, vps-1, is updated less often.  It is updated by promoting a development branch release.  Therefore, it is more stable.  
+The development branch, vps-dev, is updated first and as a result, less tested.  You can access the latest updates sooner using this branch.  
+The stable branch, vps-1, is updated after a new feature has been tested on the dev branch for a while.  It is updated by promoting a development branch release.  Therefore, it is more stable.  
 <br/>  
   
 ---  
