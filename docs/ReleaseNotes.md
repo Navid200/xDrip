@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.11.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.04) | NSEmulator - Afrezza, Apidra, Levemir, Basaglar & Tresiba |  
 | [2023.10.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.24) | Google Drive daily backup WiFi option - Companion app improvements |  
 | [2023.10.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.17) | Oppo wake workaround - G6 reset start lock resolved |  
 | [2023.10.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.08) | CareLink update |  
