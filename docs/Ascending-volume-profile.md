@@ -19,7 +19,7 @@ The following graph shows the ascending volume versus time for an alert that has
 ![](./Alerts/images/AscendingVolume.png)  
   
 The vibration is independent of the delay ascending setting.  You can enable vibration for each one of your Glucose Level alerts separately on the corresponding "Edit alert" page as shown below.  
-![](../Alerts/images/VibrateOnAlert.png)  
+![](./Alerts/images/VibrateOnAlert.png)  
   
 The medium and high volumes correspond to the values of 0.7 and 1 in the graph.  
 As soon as the alert is snoozed, both sound and vibration terminate.   
