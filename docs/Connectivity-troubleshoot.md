@@ -6,7 +6,7 @@ Disable [engineering mode](./Engineering-Mode.md).
   
 When making changes to meet the following recommendations, be patient and allow a new reading to complete.  Communication with the transmitter happens only once every 5 minutes.  After you make a change, you are not going to see an impact, on the status page, until the next read cycle completes.  Please keep that in mind every time you make a change to the settings.  
   
-If you are using G5 or G6 (or Dexcom One, or G7), please ensure your settings match the recommended [G5 settings](./G5-Recommended-Settings.md) or [G6 (or Dex1) settings](./G6-Recommended-Settings.md) respectively.  
+If you are using G5 or G6 (or Dexcom One, or G7), please ensure your settings match the recommended [G5 settings](./G5-Recommended-Settings.md) or [G6 (or Dex1 or G7) settings](./G6-Recommended-Settings.md) respectively.  
 
 If it is a G6 or Dexcom One, have you [activated the transmitter](./Dexcom/NewG6TX_Activation.md)?  
 If it is a G7, have you inserted the device?  
