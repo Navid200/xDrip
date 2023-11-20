@@ -91,12 +91,5 @@ Therefore, it may be best to just put up with a cost of up to $0.03 per month.
   
 ---  
 
-#### **Multiple Nightscout accounts**  
-In order to qualify for free tier, you need to have each one of your Nightscout accounts set up in a dedicated Google account.  
-There is nothing wrong with having multiple Google accounts.  
-And you can use the same credit card for all of them.  
-  
-If you have multiple virtual machines in the same Google account and are being charged, choose one of them to move, create a backup from it, create a new Google account, create a virtual machine in it, install Google Cloud Nightsout in it, transfer your backup to it, import the backup, update your uploder to upload to the new machine, and finally delete the original machine.  
-If you do that for every additional Nightscout account you have and move them to dedicated Google accounts, all of your Nightscout accounts will then qualify for free tier.  
-
+#### **[Multiple Nightscout accounts](./MultipleAccounts.md)**  
   
