@@ -90,6 +90,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [How to respond to existing certificate?](./ExistingCertificate.md)
 #### [What is Storage PD Snapshot?](./SnapshotCost.md)
 #### [What is Storage PD Capacity?](./StoragePDCap.md)
+#### [Can I have multiple accounts?](./MultipleAccounts.md)
 #### [What is my hostname?](./Hostname.md)
 #### [What is my API_SECRET?](./Hostname.md)
 #### [What is my FreeDNS user ID?](./FreeDNS_userID.md)
