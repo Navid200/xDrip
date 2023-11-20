@@ -18,6 +18,9 @@ In February, I intentionally generated outgoing traffic as a test to see how muc
 ---  
 
 #### **Why have I been charged more?**  
+To satisfy the free tier requirements, you need to have only one virtual machine.  
+What if you need more than one Nightscout account?  See multiple Nightscout accounts below.  
+  
 The only way to know exactly why you have been charged is to create a [cost table](./CostTable.md).  
 <br/>  
 
@@ -33,7 +36,6 @@ You will need a credit card to set up billing.
 ---  
   
 #### **Free tier Limitations and requirements**  
-  
 When you follow the guide to install, you can see, on the status page, if you have made any mistakes that violate the Free Tier requirements.  They would be highlighted by red notes above the horizontal line on the status page.  
 You can have a look at the details under the "Free Tier" heading [here](https://cloud.google.com/free/docs/free-cloud-features#free-tier).  
   
@@ -54,7 +56,6 @@ You can use the [calculator](https://cloud.google.com/products/calculator) to co
 ---  
 
 #### **Traffic to China or Australia**  
-
 If you have a follower who is in Australia or China, the data traffic from your server to them will not be free.  
 The estimated cost of traffic to Australia or China is less than $0.50 per GB per month.  
     
@@ -73,7 +74,6 @@ Any such traffic to either China or Australia is not free.  If enough crawlers s
 ---  
   
 #### **Blocking traffic to China and Australia**  
-
 We can block traffic to China in order to reduce the regular cost for those who don't live in China.  
 However, this will complicate the installation scripts significantly.  
 Therefore, it may be best to just put up with a cost of up to $0.03 per month.  
@@ -87,5 +87,16 @@ Therefore, it may be best to just put up with a cost of up to $0.03 per month.
 ---  
 
 #### **[Storage PD Capacity](./StoragePDCap.md)**  
+<br?  
+  
+---  
+
+#### **Multiple Nightscout accounts**  
+In order to qualify for free tier, you need to have each one of your Nightscout accounts set up in a dedicated Google account.  
+There is nothing wrong with having multiple Google accounts.  
+And you can use the same credit card for all of them.  
+  
+If you have multiple virtual machines in the same Google account and are being charged, choose one of them to move, create a backup from it, create a new Google account, create a virtual machine in it, install Google Cloud Nightsout in it, transfer your backup to it, import the backup, update your uploder to upload to the new machine, and finally delete the original machine.  
+If you do that for every additional Nightscout account you have and move them to dedicated Google accounts, all of your Nightscout accounts will then qualify for free tier.  
 
   
