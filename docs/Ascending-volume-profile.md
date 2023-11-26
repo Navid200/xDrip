@@ -22,9 +22,14 @@ The vibration is independent of the delay ascending setting.  You can enable vib
 ![](./Alerts/images/VibrateOnAlert.png)  
   
 The medium and high volumes correspond to the values of 0.7 and 1 in the graph.  
-As soon as the alert is snoozed, both sound and vibration terminate.   
-  
+As soon as the alert is snoozed, both sound and vibration terminate.  
+<br/>  
+
+---  
+
+#### **Delay Ascending Volume**    
 You can reach the `Delay Ascending Volume` setting at:  
 `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Glucose Alerts Settings`  
+![](./Alerts/images/DelayAscendingVolume.png)  
   
   
