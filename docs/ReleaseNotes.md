@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.11.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.28) | CareLink update - No G7 initial cal |  
 | [2023.11.21](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.21) | Nightscout follower wake delay |  
 | [2023.11.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.14) | **<span style="color:orange">Alpha</span>** <br/> Health Connect Android 14 |  
 | [2023.11.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.07) | New G7 firmware |  
