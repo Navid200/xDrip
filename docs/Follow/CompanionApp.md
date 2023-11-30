@@ -21,7 +21,7 @@ Go to Android settings on your phone.  Perform a search and search for notificat
   
 ---  
   
-#### **Back-fill**  
+#### **Backfill**  
 When using companion app mode, if you walk away from your phone for more than 5 minutes, when you return, you will see missing readings in xDrip even though the companion app may have no missed readings.  
   
 Enable the following setting.  If then, you walk away from the phone for more than 5 minutes and on your return, you see no missed readings in xDrip, perfect.  
