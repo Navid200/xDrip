@@ -65,9 +65,7 @@ If you are starting a new transmitter, be patient and wait for the battery volta
   
 To see all the guides and notes about using xDrip for Dexcom, please see [this](./Dexcom_page.md) page.  If you have a question that is not covered, please [tell](./Contact.md) us.  
   
-If you are coming from G5, or another CGM, you need to get used to factory calibration.  Give it a chance.  Most people don't need to calibrate G6 as long as the calibration code is entered properly.  
-  
-A common mistake is to replace an old transmitter with a new one, stop sensor, change transmitter ID, and start sensor right away. This could result in the new transmitter never receiving the start command at the right time. The outcome is no readings after the 2-hour warm-up.  
+If you are coming from G5, or another CGM, you need to get used to factory calibration.  Give it a chance.  Most people don't need to calibrate G6 as long as the calibration code is entered properly.    
   
 Never soak (insert sensor a while before starting it) a G6 sensor. The main advantage of G6 over G5 is factory calibration. You will be interfering with factory calibration (accuracy) the longer it takes from the moment you insert the sensor to the moment you start the sensor in xDrip.  
    
