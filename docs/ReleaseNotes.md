@@ -11,7 +11,7 @@ How to [download and install](./Installation_page.md).
 | [2023.11.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.28) | CareLink update - No G7 initial cal |  
 | [2023.11.21](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.21) | Nightscout follower wake delay |  
 | [2023.11.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.14) | **<span style="color:orange">Alpha</span>** <br/> Health Connect Android 14 |  
-| [2023.11.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.07) | New G7 firmware &#8195; ![](./Dexcom/images/G7Icon.png) |  
+| [2023.11.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.07) | New G7 firmware  |  
 | [2023.11.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.04) | NSEmulator - Afrezza, Apidra, Levemir, Basaglar & Tresiba |  
 | [2023.10.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.24) | Google Drive daily backup WiFi option - Companion app improvements |  
 | [2023.10.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.17) | Oppo wake workaround - G6 reset start lock resolved |  
