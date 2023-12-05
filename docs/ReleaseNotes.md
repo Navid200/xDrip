@@ -7,7 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
-| [2023.12.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.05) | Carelink improvements - Sensor start time in local boroadcast |  
+| [2023.12.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.05) | Carelink improvements - Sensor start time in local boroadcast - Notification channels fix |  
 | [2023.11.29](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.29) | 24-hour G7 backfill - G7 warmup time update - History cap increased |  
 | [2023.11.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.28) | CareLink update - No G7 initial cal |  
 | [2023.11.21](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.21) | Nightscout follower wake delay |  
