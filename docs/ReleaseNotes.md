@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.12.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.11) | Retired "Authenticate before each read" |  
 | [2023.12.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.07) | AndroidX |  
 | [2023.12.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.05) | Carelink improvements - Sensor start time in local boroadcast - Notification channels fix |  
 | [2023.11.29](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.29) | 24-hour G7 backfill - G7 warmup time update - History cap increased |  
