@@ -11,9 +11,9 @@ The default snooze time for every Glucose level alert can be set on its edit ale
 ![](./Alerts/images/GLA_DefaultSnooze.png)  
   
 If you want to be able to snooze an alert the same way with the screen locked, go to Android `Settings` &#8722;> `Apps & notifications` &#8722;> `Notifications` &#8722;> `Notifications on lock screen`.  You will see 3 options.  They will have different wordings depending on the manufacturer.  The following image shows an example:  
-![](./images/NotifOnLockScreen.png)  
+![](./Alerts/images/NotifOnLockScreen.png)  
   
-Choose the least restrictive option.  
+Choose the option that allows notifications to be shown.  
   
 Also, in xDrip, enable `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Public Notifications`.  
   
