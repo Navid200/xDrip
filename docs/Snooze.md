@@ -14,8 +14,10 @@ If you want to be able to snooze an alert the same way with the screen locked, g
 ![](./Alerts/images/NotifOnLockScreen.png)  
   
 Choose the option that allows notifications to be shown.  
+<br/>  
   
-Also, in xDrip, enable `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Public Notifications`.  
+This should be all you need.  
+But, if it doesn't work, in xDrip, enable `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Public Notifications`.  In that case, please [let me know](./Contact.md).  
   
 Now, the notification can also be swiped right on the lock screen to snooze the alert.  
   
