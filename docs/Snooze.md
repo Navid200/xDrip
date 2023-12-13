@@ -9,6 +9,8 @@ If the cause of the alert is addressed before the snooze period ends, the alert 
 But, there is a much easier way to snooze an alert by just swiping right the associated notification.  Snoozing an alert this way, snoozes it for default snooze time.  
 The default snooze time for every Glucose level alert can be set on its edit alert page.  
 ![](./Alerts/images/GLA_DefaultSnooze.png)  
+
+There is no need to open xDrip and access the `Snooze Alert` item from the menu unless you need to choose a snooze period different from the default.    
 <br/>  
 
 ---  
@@ -25,6 +27,5 @@ But, if it doesn't work, in xDrip, enable `Settings` &#8722;> `xDrip+ Display Se
 Now, the notification can also be swiped right on the lock screen to snooze the alert.  
   
 If you want the lock screen to automatically show when an alert triggers, without having to press on the power button, enable `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Glucose Alerts Settings` &#8722;> `Wake Screen`.  
-  
-There is no need to open xDrip and access the `Snooze Alert` item from the menu unless you need to choose a snooze period different from the default.  
+   
   
