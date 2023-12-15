@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2023.12.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.15) | Sensor expiry alert at 12 hours to - Insulin list fix |  
 | [2023.12.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.11) | Retired "Authenticate before each read" |  
 | [2023.12.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.07) | AndroidX |  
 | [2023.12.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.05) | Carelink improvements - Sensor start time in local boroadcast - Notification channels fix |  
