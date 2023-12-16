@@ -22,9 +22,12 @@ You are welcome to use it.  But, please consult with a medical professional (End
 #### [Native algorithm - mode](./Native-Algorithm.md)
 #### [Preemptive Restart](./Preemptive-Restart.md)
 #### [Transmitter Queue](./Transmitter-Queue.md)
- [Transmitter Lifetime](./Transmitter-lifetime.md)  
+ [G5/G6 Transmitter Lifetime](./Transmitter-lifetime.md)  
   
 #### **How to**
+#### [Start G7](./Dexcom/G7.md)
+#### [Use G7 grace period](./Dexcom/G7_Grace.md)
+  
 #### [Start G6 (or Dex1) transmitter](./Starting-G6.md)
 #### [Stop and start a G6 or Dex1 sensor](./Dexcom/StartG6Sensor.md)
 #### [Use Dexcom One](./Dexcom-One.md)
@@ -36,8 +39,7 @@ You are welcome to use it.  But, please consult with a medical professional (End
 #### [Restart G5](./Restart-G5-sensor.md)
 #### [Change G6, or Dex1, Slot Number (advanced)](./G6_slot.md)
 #### [Hard reset](./Hard-Reset.md)
-#### [What not to do!](./What-not-to-do.md)
- [Use G7](./Dexcom/G7.md)  
+ [What not to do!](./What-not-to-do.md)
   
 #### **Troubleshooting**
 #### [Connectivity Troubleshooting](./Connectivity-troubleshoot.md)
