@@ -23,7 +23,9 @@ You must complete all the steps listed below in sequence.
   
 2- From the Google Cloud setup submenu, select "Install Nightscout phase 1" and enter.  
 
-3- After completion, reboot the server.  Nightscout is now updated.  
+3- After completion, reboot the server.  
+  
+Nightscout is now updated.  
 <br/>  
 
 ---  
