@@ -27,7 +27,6 @@ You are welcome to use it.  But, please consult with a medical professional (End
 #### **How to**
 #### [Start G7](./Dexcom/G7.md)
 #### [Use G7 grace period](./Dexcom/G7_Grace.md)
-  
 #### [Start G6 (or Dex1) transmitter](./Starting-G6.md)
 #### [Stop and start a G6 or Dex1 sensor](./Dexcom/StartG6Sensor.md)
 #### [Use Dexcom One](./Dexcom-One.md)
