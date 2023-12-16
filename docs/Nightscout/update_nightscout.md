@@ -37,5 +37,5 @@ Only after everything is tested, will we release an updated installation routine
   
 Therefore, there will be times (right after a new Nightscout version is released) when you will not be able to use the method mentioned above to update.  
 In that case, the best course of action is to be patient, for a few days, until we complete our verification and release.  
-You can [inform us](./GCNS_Support..md) just in case.  
+You can [inform us](./GCNS_Support.md) just in case.  
   
