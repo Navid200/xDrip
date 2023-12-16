@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/update_nightscout.html"
 ---
 
 ## Update Google Cloud Nightscout
