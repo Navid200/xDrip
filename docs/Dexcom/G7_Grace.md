@@ -1,7 +1,7 @@
 ## G7 Grace period
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Dexcom G7 grace perriod  
   
-[This](./G7.md) explains how to use G7 in general.  
+[This](./G7.md) explains how to set up xDrip to use G7.  
   
 A G7 device runs for 10.5 days.  Dexcom refers to the extra 12 hours over a 10-day period as the grace period.  
   
