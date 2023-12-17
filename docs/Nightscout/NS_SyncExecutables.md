@@ -2,10 +2,11 @@
 layout: GCNS
 ---
 
-## Update Google Cloud Nightscout
+## Update Google Cloud Platform
 [Google Cloud Nightscout](./GoogleCloud.md) >> Update to latest release  
   
-We update the Google Cloud Nightscout platform in order to add functionality and fix issues.  This is how you can update the menus, commands and packages of your virtual machine to the latest.  This is not about updating Nightscout.  If you want to update Nightscout, please have a look at [this](./update_nightscout.md).  
+We update the Google Cloud Nightscout platform in order to add functionality and fix issues.  This is how you can update your platform to access 
+ those improvements.  This is not about updating Nightscout.  If you want to update Nightscout, please follow [this](./update_nightscout.md).  
 If you have not completed the [installation](./GoogleCloud.md), please complete it first.  
   
 Open a [terminal](./Terminal.md).  A [menu](./Menu.md) should come up automatically.  Select `Update platform` from the Google Cloud setup submenu.  You can then check the status page to confirm that your setup has been [updated](./GC_ReleaseNotes.md).  
@@ -90,3 +91,12 @@ If you see "Startup Dependence on FreeDNS" on the status page as shown below, pl
 You will be asked if you want to change API_SECRET.  Just press Escape unless you want to change it.  
 You will be asked for your FreeDNS user ID and password.  See [this](FreeDNS_userID.md) if you don't remember your user ID.  Enter those.  
 You will be asked to identify the subdomain to use.  Enter the first few characters of the same subdomain you have been using unless you want to change it.  
+<br/>  
+
+---  
+
+#### **502 Bad Gateway**  
+If after you have gone through all the required steps to update your platform, and Nightscout is not running and you get a "502 bad gateway" error when you attempt to access your Nightscout in a browser, proceed with the following.  
+From the Google Cloud setup submenu, select "Install Nightscout phase 1" and enter.  Wait for it to complete.  
+Then, [restart](./Restart.md) Nightscout.  
+  
