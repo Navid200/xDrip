@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/Status.html"
 ---
 
 ## Google Cloud Nightscout Status
@@ -9,4 +8,7 @@ permalink: "/docs/Nightscout/Status.html"
 Choose Status from the [menu](./Menu.md).  You will see a page showing details about your machine and what's on it.  
 ![](./images/Status.png)  
 The content can be useful when troubleshooting your Nightscout.  
+<br/>  
+
+If your status page contains red items, use [this](./StatusKey.md) to see what they mean and how to address them.  
   
