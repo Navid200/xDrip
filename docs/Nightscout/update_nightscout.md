@@ -16,16 +16,9 @@ You need to have completed the Nightscout [installation](./NS_Install.md) steps 
 ---  
 
 #### **How to update**  
-
-You must complete all the steps listed below in sequence.  
+Follow these [instructions](./NS_SyncExecutables.md) to update your virtual machine platform to the latest.  
   
-1- Follow these [instructions](./NS_SyncExecutables.md) to update your virtual machine setup to the latest.  
-  
-2- From the Google Cloud setup submenu, select "Install Nightscout phase 1" and enter.  
-
-3- After completion, reboot the server.  
-  
-Nightscout is now updated.  
+Nightscout is now updated.  If this does not update your Nightscout, it means that we have not updated the platform and are still testing.  Please see the following section.  
 <br/>  
 
 ---  
