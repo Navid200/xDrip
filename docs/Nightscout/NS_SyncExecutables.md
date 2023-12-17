@@ -9,16 +9,24 @@ We update the Google Cloud Nightscout platform in order to add functionality and
  those improvements.  This is not about updating Nightscout.  If you want to update Nightscout, please follow [this](./update_nightscout.md).  
 If you have not completed the [installation](./GoogleCloud.md), please complete it first.  
   
-Open a [terminal](./Terminal.md).  A [menu](./Menu.md) should come up automatically.  Select `Update platform` from the Google Cloud setup submenu.  You can then check the status page to confirm that your setup has been [updated](./GC_ReleaseNotes.md).  
+Open a [terminal](./Terminal.md).  A [menu](./Menu.md) should come up automatically.  Select `Update platform` from the Google Cloud setup submenu.  You can then check the status page to confirm that your setup has been updated by comparing it to [this](./Status.md).  
   
-If you created your setup a long time ago and never updated it, you may need to go through a few more steps, explained in the following sections, to complete the update.  
+If you created your setup prior to January 2023 and never updated it, you may need to go through a few more steps, explained in a corresponding section below, to complete the update.  
 <br/>  
 <br/>  
   
 ---  
+
+#### **502 Bad Gateway**  
+If after you update your platform, Nightscout is not running and you get a "502 bad gateway" error when you attempt to access your Nightscout in a browser, even after a [restart](./Restart.md), proceed with the following.  
+From the Google Cloud setup submenu, select "Install Nightscout phase 1" and enter.  Wait for it to complete.  
+Then, [restart](./Restart.md) Nightscout.
+<br/>  
+
+---  
   
-#### **If you created your setup a long time ago**  
-Our platform has evolved significantly since it was first released.  You don't need to start from scratch.  But, you may need to go through a few steps in order to update depending on how long ago you created your setup.  After you update, there will be no difference between your setup and one that has just been created.  
+#### **If you created your setup before January 2023 and never updated**  
+Our platform has evolved significantly since it was first released.  You don't need to start from scratch.  But, you may need to go through a few more steps in order to update.  After you update, there will be no difference between your setup and one that has just been created.  
 
 If you are still using noip.com, you will be asked, below, to create a FreeDNS account and a new hostname in order to switch from noip.com to FreeDNS.  
   
@@ -37,7 +45,7 @@ If the status page still looks different, for example, if the username, reposito
 #### **Bootstrap**  
 Open a [terminal](./Terminal.md).  If a menu opens, select `Bootstrap` from the Google Cloud submenu.  
   
-If no menu opens after opening a terminal, copy the entire highlighted text below and paste into the terminal.  Press enter.  
+If no menu opens after opening a terminal, copy the highlighted text below and paste into the terminal.  Press enter.  
   
 <input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash" readonly id="myInputText" style="border:none; color:#101010; background-color:#ededed; width:100%; font-size:15px">  
 <button onclick="FunctionCopyText()" style="border: 1px solid #0066ff; color:#f0f0f0; background: linear-gradient(#0066ff, #0066ff); font-size:14px; background-color:#0066ff; font-weight:400; border-radius: 2px; margin-left:70px; margin-top:8px; padding:4px 12px; display:inline-block; box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 5px rgba(0,0,0,.7); :hover ">Copy</button>  
@@ -51,21 +59,7 @@ You must now run `Install Nightscout phase 1` from the Google Cloud setup submen
 Please proceed to the following sections.  
 <br/>  
   
----  
-  
-#### **Missing packages**
-If you see `Missing packages` on the status page as shown below, please run `Update platform` from the Google Cloud setup submenu again.  
-![](./images/MissingPackages.png)  
-<br/>  
-  
----  
-  
-#### **Missing node_modules**
-If you see "Missing node_modules" on the status page as shown below, please run `Install Nightscout phase 1` from the Google Cloud setup submenu.  
-![](./images/MissNodeModules.png)  
-<br/>  
-  
----  
+---    
   
 #### **No Hostname**
 If you are still using noip.com, after you run bootstrap and run `Install Nightscout phase 1`, you will see "No hostname" on the status page as shown below.  
@@ -73,30 +67,5 @@ If you are still using noip.com, after you run bootstrap and run `Install Nights
   
 To switch to FreeDNS, please follow the instructions [here](./FreeDNS.md) to create a FreeDNS account and create a new hostname.  
 Then, please run "Install Nightscout phase 2" from the Google Cloud setup submenu.  
-<br/>  
-  
----  
-
-#### **Old Ubuntu**  
-If you see the Ubuntu version in red on the status page as shown below, please run `Update platform` from the Google Cloud setup submenu again.  
-![](./images/Ubuntu20_04_05.png)  
-<br/>  
-
----  
-  
-#### **Startup dependence on FreeDNS site**
-If you see "Startup Dependence on FreeDNS" on the status page as shown below, please run `Install Nightscout phase 2`.  
-![](./images/StartFreeDNS_dependence.png)  
-  
-You will be asked if you want to change API_SECRET.  Just press Escape unless you want to change it.  
-You will be asked for your FreeDNS user ID and password.  See [this](FreeDNS_userID.md) if you don't remember your user ID.  Enter those.  
-You will be asked to identify the subdomain to use.  Enter the first few characters of the same subdomain you have been using unless you want to change it.  
-<br/>  
-
----  
-
-#### **502 Bad Gateway**  
-If after you have gone through all the required steps to update your platform, and Nightscout is not running and you get a "502 bad gateway" error when you attempt to access your Nightscout in a browser, proceed with the following.  
-From the Google Cloud setup submenu, select "Install Nightscout phase 1" and enter.  Wait for it to complete.  
-Then, [restart](./Restart.md) Nightscout.  
+<br/>    
   
