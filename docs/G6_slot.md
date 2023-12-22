@@ -1,5 +1,12 @@
 ## G6 Bluetooth Slots
 [xDrip](../README.md) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> G6 Bluetooth Slots  
+
+**<span style="color:red">WARNING</span>**  
+This feature was added and placed behind engineering mode for verification before being offered as a feature.  
+Unfortunately, tests have shown unexpected results.  Some transmitters have even been permanently disabled as a results.  
+That's why it has not been removed from engineering mode.  
+Therefore, for now, the use of this feature is not recommended.  
+<br/>  
   
 A G6 transmitter has 2 communication slots.  That's why you can use a t:slim pump and also see your readings in xDrip.  Or, you can use both the Dexcom receiver and xDrip at the same time.  
 By default, xDrip is on slot 2.  t:slim pump is  on slot 1.  The Dexcom receiver is also on slot 1.  
