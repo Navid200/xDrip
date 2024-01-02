@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2024.01.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.02) | IPv6 link local - No reset cal for Firefly or G7 |  
 | [2023.12.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.15) | Sensor expiry alert at 12 hours to - Insulin list fix |  
 | [2023.12.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.11) | Retired "Authenticate before each read" |  
 | [2023.12.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.12.07) | AndroidX |  
