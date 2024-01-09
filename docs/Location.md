@@ -24,6 +24,7 @@ On Android 11 and newer, tap on "Location".  You will see this:
   
 Enable "Allow all the time".  
 <br/>  
+<br/>  
 
 ---  
   
