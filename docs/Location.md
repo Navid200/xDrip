@@ -7,14 +7,6 @@ If you use xDrip as a follower, you will not need to enable the location service
 
 ---  
   
-#### **Why is location service required?**  
-<br/>  
-
-![](./images/LocationRequirement.png)  
-<br/>  
-
----  
-  
 #### **How to enable the location service**  
   
 Go to Android Settings.  
@@ -31,4 +23,11 @@ On Android 11 and newer, tap on "Location".  You will see this:
 ![](./images/LocationAndroid11.png)  
   
 Enable "Allow all the time".  
+<br/>  
+
+---  
   
+#### **Why is location service required?**  
+<br/>  
+
+![](./images/LocationRequirement.png)    
