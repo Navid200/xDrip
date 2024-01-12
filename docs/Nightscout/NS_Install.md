@@ -10,7 +10,9 @@ Now, we will update Linux on our [virtual machine](./NS_FreeTier.md), and instal
   
 ---  
   
-**Bootstrap**    
+**Bootstrap**  
+You will need 5-10 minutes to complete this.  
+  
 Open a [terminal](./Terminal.md).  
   
 Copy and paste the following highlighted line into the terminal of your Nighscout virtual machine and enter.  
@@ -51,6 +53,8 @@ If you need a break, this is a good time.
 ---  
   
 **Phase 1**  
+You will need 15-20 minutes to complete this.  
+  
 To continue the installation, go to the Google Cloud setup submenu and select item 1 "Install Nightscout Phase 1" and enter.  
 It will take about 15 minutes for this step to complete.  
 If SSH disconnects and you see a disconnect message, please reconnect and run Install Nightscout Phase 1 again.  
@@ -68,6 +72,8 @@ If you need a break, this is a good time.
   
 **Phase 2**  
 You will be asked to provide an email address in this stage.  Please see [this page](./GC_WhyEmail.md) if you are wondering why.  
+You will need 10-15 minutes to complete this.  
+  
 To complete the installation, go to the Google Cloud setup submenu and select item 2 on the menu "Install Nightscout Phase 2" and enter.    
   
 You will be asked to choose API_SECRET.  You will need your API_SECRET to access Nightscout.  
