@@ -1,12 +1,13 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/FreeDNS.html"
 ---
 
 ## Free DNS
 [Google Cloud Nightscout](./GoogleCloud.md) >> FreeDNS  
 
 Follow these instructions in order to use FreeDNS, which you will need in order to set up Google Cloud Nightscout.  
+You will need 5-10 minutes to complete this.  
+
 After everything is set up and working, you will need to log into your FreeDNS account at least once every 6 months, or when you receive a reminder email from them, as explained [here](./FreeDNS_Min_Login.md).  
 <br/>  
   
