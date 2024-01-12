@@ -8,7 +8,7 @@ layout: GCNS
 During installation, in phase 2, you will be asked to enter an email address.
 We are not collecting email addresses.  We don't keep a record of your email address.
 
-We use letsencrypt [Let's encrypt](https://letsencrypt.org/) to create a certificate to allow you to have a web address starting with https for your Nightscout site.  
+We use [Let's encrypt](https://letsencrypt.org/) to create a certificate to allow you to have a web address starting with https for your Nightscout site.  
 We also include an auto renewal.  So, the certificate does not expire after 90 days as long as you use your setup.  
 
 But, if you stop using your hostname, you will receive an email reminder that your certificate is about to expire.  
