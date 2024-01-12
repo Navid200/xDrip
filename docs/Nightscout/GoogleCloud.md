@@ -27,12 +27,12 @@ The rest of the items you see on this page are optional items on the menu or iss
 ---  
   
 ####          **Installation** (15.0.2)
-#### 1- [FreeDNS sign up](./FreeDNS.md)
-#### 2- [Google Cloud project](./NS_GCProject.md)
-#### 3- [Virtual Machine](./VirtualMachine.md)
-#### 4- [Linux/Nightscout install](./NS_Install.md)
-#### 5- [Setting up Nightscout](./NS_setup.md)
-#### 6- [Setting up followers](./NS_Followers.md)  
+#### 1- [FreeDNS sign up](./FreeDNS.md) (5-10 minutes to complete)
+#### 2- [Google Cloud project](./NS_GCProject.md) (5-15 minutes to complete)
+#### 3- [Virtual Machine](./VirtualMachine.md) (10-20 minutes to complete)
+#### 4- [Linux/Nightscout install](./NS_Install.md) (5 minutes to complete bootstrap, 15-20 minutes to complete phase 1, and 10-15 minutes to complete phase 2)
+#### 5- [Setting up Nightscout](./NS_setup.md) (5-15 minutes to complete)
+#### 6- [Setting up followers](./NS_Followers.md) (5-15 minutes to complete)  
 <br/>  
   
 ---  
