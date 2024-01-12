@@ -74,7 +74,7 @@ If you need a break, this is a good time.
 You will be asked to provide an email address in this stage.  Please see [this page](./GC_WhyEmail.md) if you are wondering why.  
 You will need 10-15 minutes to complete this.  
   
-To complete the installation, go to the Google Cloud setup submenu and select item 2 on the menu "Install Nightscout Phase 2" and enter.    
+Go to the Google Cloud setup submenu, select item 2 "Install Nightscout Phase 2", and enter.    
   
 You will be asked to choose API_SECRET.  You will need your API_SECRET to access Nightscout.  
 [This](./HowToMenu.md) explains how to use the menus without a mouse.  
