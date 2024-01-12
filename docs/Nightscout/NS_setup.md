@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/NS_setup.html"
 ---
 
 ## Setting up Google Cloud Nightscout
