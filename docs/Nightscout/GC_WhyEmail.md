@@ -14,8 +14,10 @@ We also include an auto renewal.  So, the certificate does not expire after 90 d
 But, if you stop using your hostname, you will receive an email reminder that your certificate is about to expire.  
 Your email address is given to letsencrypt.  And that's what they use it for.  
 The following shows a sample email:  
+<br/>  
   
 ![](./images/Letsencryptemail.png)  
+<br/>  
   
 If you are not going to use the hostname any longer, you can ignore the email.  
 
