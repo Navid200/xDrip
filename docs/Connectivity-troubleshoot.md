@@ -11,7 +11,7 @@ If you are using G5 or G6 (or Dexcom One, or G7), please ensure your settings ma
 If it is a G6 or Dexcom One, have you [activated the transmitter](./Dexcom/NewG6TX_Activation.md)?  
 If it is a G7, have you inserted the device?  
   
-Enable all xDrip notifications under `Android Settings` &#8722;> `Apps & notifications` &#8722;> `Notifications` &#8722;> `xDrip+`.  Otherwise, you may not get a pair request notification, which you will need to approve.  
+Enable all xDrip notifications under `Android Settings` &#8722;> `Apps & notifications` &#8722;> `Notifications` &#8722;> `xDrip+`.  Otherwise, you may not get a pair request notification, which you will need to approve if you have Android 10 or newer.  
 
 If you are new to xDrip or Dexcom, have a look at the [general information](./Dexcom-Basics.md) to familiarize yourself with the interface and requirements and limitations.  
 
