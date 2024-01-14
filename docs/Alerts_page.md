@@ -17,7 +17,7 @@ To access the alerts page, tap on the top left menu button from the main screen 
 | Sensor Expiry 📍 | No sound | No sound | No sound |  
   
  \* Uses the same setting selected for `Other Alerts`.  
- The sensor expiry notification triggers 24 hours, 9 hours and 2 hours prior to expiry.  
+ The sensor expiry notification triggers 24 hours, 12 hours, 6 hours and 2 hours prior to expiry.  
  <br/>  
   
 #### [Glucose Level Alert List](./Glucose-level-alerts.md)
