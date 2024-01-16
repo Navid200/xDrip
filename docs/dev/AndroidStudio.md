@@ -1,7 +1,7 @@
-## Development
+## Android Studio  
 [xDrip](../../README.md) >> [Development](./dev.md) >> Android Studio  
   
-[Referemce](https://github.com/NightscoutFoundation/xDrip/blob/master/Documentation/Quick_Start.md)  
+[Reference](https://github.com/NightscoutFoundation/xDrip/blob/master/Documentation/Quick_Start.md)  
   
 We are currently using Android Studio Giraffe.  
 Go to [archives](https://developer.android.com/studio/archive)  
