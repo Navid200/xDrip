@@ -11,7 +11,7 @@ If you have not completed the [installation](./GoogleCloud.md), please complete 
   
 Open a [terminal](./Terminal.md).  A [menu](./Menu.md) should come up automatically.  Select `Update platform` from the Google Cloud setup submenu.  You can then check the status page to confirm that your setup has been updated by comparing it to [this](./Status.md).  
   
-If you created your setup prior to January 2023 and never updated it, you may need to go through a few more steps, explained in a corresponding section below, to complete the update.  
+If you created your setup prior to January 2023 and never updated it, you may need to go through a few other steps first, explained in a corresponding section below, to complete the update.  
 <br/>  
 <br/>  
   
