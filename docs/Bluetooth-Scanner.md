@@ -9,7 +9,7 @@ Sometimes, it may be necessary to verify that the transmitter is functioning.  Y
 Install the app, on any Android phone.  It doesn't have to be the same phone that has xDrip on it.  Be careful with the on-screen ads.  
 Run the app and give permission when requested.  Have the transmitter in the same room as the scanner.  
 It will start scanning for available Bluetooth devices it can find.  It will create a list.  You can scroll up and down to see all on the list.  
-Look for a device named Dexcom**, where ** are the last two characters of the transmitter serial number.  Beside it, you will see a negative number.  Write that down.  
+For a G5, G6 or Dexcom One, look for a device named Dexcom**, where ** are the last two characters of the transmitter serial number.  For a G7, Look for a device named DXCM**.  The last two characters are random and are not related to the pairing code.  Beside it, you will see a negative number.  Write that down.  
 You may need to wait up to 5 minutes to see the listing.  If the listing is not clear and bold, you need to wait again for the next reading cycle.  Write down the value when it is bold.  
 ![](./images/ble_scanner.png)  
 
