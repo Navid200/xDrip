@@ -18,4 +18,5 @@ You can customize what xDrip shows.
 #### [Trend Arrow](./TrendArrow.md)
 #### [Exclude a reading](./ExcludeReading.md)
 #### [Compressed graph](./CompressedScreen.md)
+#### [Show backfilled data](./ShowBackfilled.md)
   
