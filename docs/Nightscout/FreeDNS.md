@@ -37,8 +37,12 @@ You will need your user ID and password later to use the FreeDNS Setup utility. 
 Go to [Subdomains](https://freedns.afraid.org/subdomain/).  
 Add.  
   
-Under "Domain", you have 7 options.  Instead of using one of those, it may be better to do what is suggested [here](./FD_Domains.md) if you cannot reach your site at work or school.  
-If you don't experience any issues at work or school, using one of the 7 main domains may be better to avoid the possibility of the domain going down at some point in the future.  In that case, you can resolve the problem by creating a new subdomain and [switching to it](./ChangeHostname.md).  
+Under "Domain", you have 7 options.  Those 7 domains are less likely to be disabled some time in the future.  However, some schools or work places may block those domains.  
+
+If your school or work place blocks your domain, try what is suggested [here](./FD_Domains.md).  
+If you don't experience any issues at work or school, using one of the 7 main domains may be better to avoid the possibility of the domain going down at some point in the future.  
+  
+If the domain you are using is disabled, you can resolve the problem by creating a new subdomain and [switching to it](./ChangeHostname.md).  
   
 After having selected a public domain, please proceed with creating a subdomain.  
 <br/>  
