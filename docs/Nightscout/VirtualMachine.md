@@ -5,13 +5,13 @@ layout: GCNS
 ## Google Cloud Virtual Machine  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Virtual Machine  
   
-Here, we will create a free virtual machine in our [Google project](./NS_GCProject.md).  There is also a (silent) video clip on this page that may be helpful if the instructions are not clear.  
-You will need 10-20 minutes to complete this.  
-
-## WARNING!  
+### WARNING!  
 The virtual machine you create here is only meant to be used for hosting your Nightscout.  
 You should not use it for banking, trading, development, writing, shopping, web browsing or any other activity you may use your physical computer for.  
 <br/>  
+
+Here, we will create a free virtual machine in our [Google project](./NS_GCProject.md).  There is also a (silent) video clip on this page that may be helpful if the instructions are not clear.  
+You will need 10-20 minutes to complete this.  
   
 Go to dashboard.  Select "Compute Engine".  Select the "VM instances" tab in the left pane if it's not already selected.  
   
