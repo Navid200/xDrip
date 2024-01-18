@@ -58,7 +58,7 @@ You will need 15-20 minutes to complete this.
 To continue the installation, go to the Google Cloud setup submenu and select item 1 "Install Nightscout Phase 1" and enter.  
 It will take about 15 minutes for this step to complete.  
 If SSH disconnects and you see a disconnect message, please reconnect and run Install Nightscout Phase 1 again.  
-You will see a few error messages.  Those are expected and can be ignored.  Please be patient allowing the process to complete.  
+You will see a few error messages and a [deprecation warning](./GC_DeprecationWarning.md).  Those are expected and can be ignored.  Please be patient allowing the process to complete.  
   
 <video width="400" controlsList="nodownload" src="./video/Install2.mp4" controls>  
 </video>  
