@@ -1,6 +1,5 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/ChangeHostname.html"
 ---
 
 ## How can I change the hostname?
