@@ -116,6 +116,7 @@ The rest of the items you see on this page are optional items on the menu or iss
 #### [Free Trial has ended!](./FreeTrialEnd.md)
 #### [Malfunctioning applications](./Auth_Default_Roles.md)
 #### [Development branch of Nightscout fails](./NightscoutDevBranch.md)
+#### [IP address change](./StopVM.md)
 #### [Cannot connect - full disk](./FullDisk.md)
 #### [FreeDNS IP mismatch & failed certificate](./FreeDNS_Min_Login.md)
 #### [10GB disk size (advanced)](./FullDisk.md)
