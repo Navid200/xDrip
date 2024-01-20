@@ -11,6 +11,8 @@ To stop a virtual machine, go to the [compute engine](./ComputeEngine.md).
 
 Choose “Stop” from the 3-dot menu.  
 ![](./images/StopVirtualMachine.png)  
+
+If the virtual machine is stopped, you can start it from the same menu.    
 <br/>  
   
 ---  
