@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Stop and start virtual machine  
+## Stopping or starting the virtual machine  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Stop and start virtual machine  
   
 You may need to stop a virtual machine.  You cannot meet the free tier requirements if you have more than one virtual machine running.  If you stop a virtual machine you are running Nightscout on, its IP address will change when you start it again.    
