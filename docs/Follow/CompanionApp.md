@@ -30,5 +30,13 @@ Please note there is no guarantee this will work on all phones or Android versio
   
 `Settings` &#8722;> `Less common settings` &#8722;> `Bluetooth Settings` &#8722;> `Companion Bluetooth`  
 ![](./images/CompanionBluetoothSetting.png)  
+<br/>  
   
+---  
+
+#### **Multiple Companion apps**  
+The companion app feature is meant to be used with one companion app only.  
+If you have two different apps that xDrip can work with as companion apps, xDrip has no way of being set to only collect from one.  
+You are not supposed to use such a setup.  
+If there is a requirement to use two different apps at the same time and xDrip can collect from both in companion app mode, you should disable notifications in one of the two apps.  
   
