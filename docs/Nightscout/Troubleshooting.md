@@ -1,12 +1,12 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/Troubleshooting.html"
 ---
 
 ## Google Cloud Nightscout Troubleshooting
 [Google Cloud Nightscout](./GoogleCloud.md) >> Troubleshooting  
   
 Let's start from scratch and go over everything that could have gone wrong.  
+If you cannot log into your virtual machine, it is possible that it has stopped.  See the following section.  
 <br/>  
   
 ---  
