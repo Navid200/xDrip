@@ -34,6 +34,13 @@ If you see that, please click on the 3-dot drop-down menu and select "Start".
 <br/>  
   
 ---  
+
+#### **Restart the server**  
+There are actions that require a restart after.  For example, any update that changes the startup routine needs a restart to complete.  If you have forgotten to restart when you should have, it could be the cause of the problem.  
+If you can log into your virtual machine, but Nightscout is not running, [restart](./Restart.md) now.  
+<br/>  
+
+---  
   
 #### **10GB disk**  
 If you created your virtual machine a long time ago and never updated, you may still have a 10GB disk.  Please follow [these instructions](./FullDisk.md) to address that.  
