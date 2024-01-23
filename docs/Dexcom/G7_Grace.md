@@ -10,8 +10,7 @@ A G7 device runs for 10.5 days.  Dexcom refers to the extra 12 hours over a 10-d
 If you use every sensor for 10 days, the extra 12 hours can give you flexibility.  For example if an unexpected errand comes up exactly at the 10-day schedule and you cannot start the new sensor as expected, you will have 12 hours to complete the errand and start the new sensor while your old sensor remains functional.  
 
 2- Extra run time  
-You can choose to use each sensor for 10.5 days instead of 10.  The requirement for this is if you start a sensor at 7:00 am, you will have to start the next one at 7:00 pm.  
-You will need to switch back and forth between starting the sensor in the morning and evening.  
+You can choose to use each sensor for 10.5 days instead of 10.  The requirement for this is if you start a sensor at 7:00 am, you will have to start the next one at 7:00 pm.  You will need to switch back and forth between starting the sensor in the morning and evening.  
 If you use each sensor for 10.5 days, 9 sensors will last you 94.5 days.  
   
 3- Presoak  
