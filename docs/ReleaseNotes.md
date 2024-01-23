@@ -7,7 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
-| [2024.01.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.16) | Dex stop warnings update - Companion app update - Broadcast update |  
+| [2024.01.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.16) | **<span style="color:orange">Alpha</span>** <br/> Dex stop warnings update - Companion app update - Broadcast update |  
 | [2024.01.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.13) | Eversense companion - G7 collector broadcast - plugin intercept fix |  
 | [2024.01.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.10) | G7 voltage warning adjustment |  
 | [2024.01.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.05) | Enable Bluetooth even in airplane mode - G7 in data table, status page and broadcast |  
@@ -19,7 +19,7 @@ How to [download and install](./Installation_page.md).
 | [2023.11.29](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.29) | 24-hour G7 backfill - G7 warmup time update - History cap increased |  
 | [2023.11.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.28) | CareLink update - No G7 initial cal |  
 | [2023.11.21](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.21) | Nightscout follower wake delay |  
-| [2023.11.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.14) | **<span style="color:orange">Alpha</span>** <br/> Health Connect Android 14 |  
+| [2023.11.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.14) | **<span style="color:orange">Stable</span>** <br/> Health Connect Android 14 |  
 | [2023.11.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.07) | New G7 firmware  |  
 | [2023.11.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.04) | NSEmulator - Afrezza, Apidra, Levemir, Basaglar & Tresiba |  
 | [2023.10.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.24) | Google Drive daily backup WiFi option - Companion app improvements |  
@@ -35,7 +35,7 @@ How to [download and install](./Installation_page.md).
 | [2023.08.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.19) | CareLink fix |  
 | [2023.08.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.18b) | Companion app mode improvements |  
 | [2023.08.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.08.10) | Option to send emergency message only for the lowest alert |  
-| [2023.07.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.16) | **<span style="color:orange">Stable</span>** <br/> Dex OB1 is permanently enabled, and setting is retired |  
+| [2023.07.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.16) | **Previous Stable release** <br/> Dex OB1 is permanently enabled, and setting is retired |  
 | [2023.07.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.13) | CareLink more countries - IoB from Omnipod |  
 | [2023.07.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.08) | Fake data source pre cal - Web service fix |  
 | [2023.07.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.07.06) | G6/Dex1/G7 cleanup |  
