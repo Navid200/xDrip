@@ -24,5 +24,5 @@ If the virtual machine is stopped, after you restart it, its IP address will be 
 #### **Note**  
 You run Nightscout on a Google Cloud virtual machine that you created as a part of the original installation.  If you look under installation on the Google Cloud Nightscout [main page](./GoogleCloud.md), you will see the "Virtual Machine" heading link you must have followed during installation.  
   
-Therefore, restarting the virtual machine will restart the server.  
+Therefore, restarting the virtual machine means restarting the server.  
   
