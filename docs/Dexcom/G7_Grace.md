@@ -3,7 +3,8 @@
   
 [This](./G7.md) explains how to set up xDrip to use G7.  
   
-A G7 device runs for 10.5 days.  Dexcom refers to the extra 12 hours over a 10-day period as the grace period.  
+A G7 device runs for 10.5 days.  Dexcom refers to the extra 12 hours over a 10-day period as the grace period.  You have several options explained below for how you can take advantage of the grace period.  You can also use a combination of those.  
+<br/>  
   
 1- Flexibility  
 If you use every sensor for 10 days, the extra 12 hours can give you flexibility.  For example if an unexpected errand comes up exactly at the 10-day schedule and you cannot start the new sensor as expected, you will have 12 hours to complete the errand and start the new sensor while your old sensor remains functional.  
@@ -17,6 +18,7 @@ If you use each sensor for 10.5 days, 9 sensors will last you 94.5 days.
 You can insert your new sensor while your old sensor is still operational.  As an example, you can always insert your new sensor at 7:00 am but leave your old sensor active until 7:00 pm.  
 The result is that when your old sensor stops working, your new sensor has already warmed up and worked for hours already.  
 Readings from a new sensor are unstable for a while.  Using your old sensor while your new sensor runs for 12 hours let's you avoid the unstable readings.  
+<br/>  
 
 How you use the extra 12 hours is your choice.  
 <br/>  
