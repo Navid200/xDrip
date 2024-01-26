@@ -18,7 +18,11 @@ The QR code will now display on the master phone.
 On the follower phone, tap on `Settings` &#8722;> `Auto configure`.  
 ![](./images/AutoConfigureTap.png)  
   
-Scan the QR code shown on the master screen. This will change all the required settings, on the follower, to follow the master.  
+Scan the QR code shown on the master screen.  
+Approve the import.  
+![](./Follow/images/ConfirmxSyncKeyImport.png)  
+  
+This will change all the required settings, on the follower, to follow the master.  
   
 All that is shown in a clip [here](https://youtu.be/LcgjfbYcWkE).  
   
