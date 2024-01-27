@@ -14,7 +14,7 @@ Do you get this error when you attempt to access your Nightscout in a browser?
 
 ---  
   
-It's not unusual to get this error.  It could happen if you have just imported a database.  Nightscout needs some time to come back up.  
+It's not unusual to get this error.  It could happen if you have just imported a database.  
 It could also happen if your virtual machine had stopped and you have just restarted it.  
 Please be patient.  Please give it a minute.  
 <br/>  
