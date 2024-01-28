@@ -24,7 +24,7 @@ The following table lists the different keywords that may be shown on the status
 | ![](./images/NoHostname_Key.png) | Did installation phase 2 fail? | You can try again.  Or, see if [this](./TooManyCertificates.md) is relevant. | 1 |  
 | ![](./images/StartFreeDNS_dependence_Key.png) | You cannot restart the server if the FreeDNS site is down. | Install Nightscout Phase 2 from the Google Cloud setup submenu. | 1,&nbsp;2 |  
 | ![](./images/Star.png) | API_SECRET inadvisable characters | More on this [here](./API_SECRET_Inadvisable.md) | |  
-| ![](./images/FreeDNS_IDPass.png) | FreeDNS auto login fail | | |  
+| ![](./images/FreeDNS_IDPass.png) | FreeDNS auto login fail | | 1 |  
   
 1 - During installation, you can ignore these markers.  But, they must be fixed if you see them after all installation phases have been completed.  
 2 - You don't have to choose a different API_SECRET.  If you are happy with your existing API_SECRET, choose cancel when you are asked to change it.   
