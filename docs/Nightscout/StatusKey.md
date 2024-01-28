@@ -26,6 +26,6 @@ The following table lists the different keywords that may be shown on the status
 | ![](./images/Star.png) | API_SECRET inadvisable characters | More on this [here](./API_SECRET_Inadvisable.md) | |  
 | ![](./images/FreeDNS_IDPass.png) | FreeDNS auto login fail | | |  
   
-1 - During the installation phase, you can ignore these markers.  But, they must be fixed if you see them after.  
+1 - During installation, you can ignore these markers.  But, they must be fixed if you see them after all installation phases have been completed.  
 2 - You don't have to choose a different API_SECRET.  If you are happy with your existing API_SECRET, choose cancel when you are asked to change it.   
   
