@@ -5,11 +5,11 @@ layout: GCNS
 ## Status page keywords
 [Google Cloud Nightscout](./GoogleCloud.md) >> Google cloud Nightscout status page keywords  
   
-The [status page](./Status.md) shows very important information that can help figure out what could be wrong when there is a malfunction.  
+After all installation phases have been completed, the [status page](./Status.md) shows very important information that can help figure out what could be wrong when there is a malfunction.  
 It is a good idea to [restart the server](./Restart.md) if you experience any problems.  Some problems will be resolved by a restart.   
 If you need help, please include a screenshot of the status page.  
   
-The following table lists the different keywords that may be shown on the status page with their descriptions.  
+The following table lists the different keywords that may be shown on the status page with their descriptions.  You need to complete all installation phases before coming to this page.  
   
 | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Marker&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Meaning  | Solution | Notes |  
 | ------ | ------- | -------- | ------ |  
