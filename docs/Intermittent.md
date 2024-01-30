@@ -1,7 +1,8 @@
 ## xDrip Dexcom Intermittent Connectivity
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> xDrip intermittent Connectivity  
   
-If you have already gone through the xDrip [transmitter connectivity troubleshooting](./Connectivity-troubleshoot.md) steps, and you occasionally experience a disconnect, this page may help.  
+If you have no connectivity at all, [transmitter connectivity troubleshooting](./Connectivity-troubleshoot.md) may help.  
+If you have connectivity and readings.  But, occasionally experience a disconnect, this page may help.  
   
 xDrip needs to wake up and scan once every 5 minutes in order to maintain connectivity and provide consistent readings.  
 New versions of Android have features to extend the phone battery run time.  This is done by minimizing background activity.  
