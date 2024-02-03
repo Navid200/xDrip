@@ -20,5 +20,4 @@ The following sections provide more detail.  If you have any questions that are 
 #### [Reinstall xDrip](./Reinstall.md)
 #### [Multiple instances (variants)](./Variants.md)
 #### [xDrip is not in Google Play Store ...](./App-store.md)
-#### [Start Dexcom G6](./Starting-G6.md)
   
