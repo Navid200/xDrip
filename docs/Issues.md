@@ -8,7 +8,7 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [464](https://github.com/NightscoutFoundation/xDrip/issues/464) - [569](https://github.com/NightscoutFoundation/xDrip/issues/569) - [833](https://github.com/NightscoutFoundation/xDrip/issues/833) - [1259](https://github.com/NightscoutFoundation/xDrip/issues/1259) - [1479](https://github.com/NightscoutFoundation/xDrip/issues/1479) | Simulator-related | 2017.03.23 |  
 | [127](https://github.com/NightscoutFoundation/xDrip/issues/127) | Follower scheme using SMS | 2017.06.02 |  
 | [131](https://github.com/NightscoutFoundation/xDrip/issues/131) | Medtronic Guardian Connect | 2017.07.15 |  
-| [1654](https://github.com/NightscoutFoundation/xDrip/issues/1654) - [1799](https://github.com/NightscoutFoundation/xDrip/issues/1799) | Watch-related | 2017.09.20 |  
+| [1654](https://github.com/NightscoutFoundation/xDrip/issues/1654) | Watch-related | 2017.09.20 |  
 | [266](https://github.com/NightscoutFoundation/xDrip/issues/266) | Upload to muiltiple Nightscout sites | 2018.01.12 |  
 | [296](https://github.com/NightscoutFoundation/xDrip/issues/296) | Calibration issues with Bluetooth glucose meters |2018.02.08 |  
 | [400](https://github.com/NightscoutFoundation/xDrip/issues/400) | mDNS support | 2018.04.18 |  
@@ -16,12 +16,10 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [520](https://github.com/NightscoutFoundation/xDrip/issues/520) | Android Auto | 2018.07.24 |  
 | [555](https://github.com/NightscoutFoundation/xDrip/issues/555) | Unique sound for missed readings alert | 2018.08.20 |  
 | [565](https://github.com/NightscoutFoundation/xDrip/issues/565) | Three decimal points resulting in incorrect treatment entry | 2018.08.27 |  
-| [616](https://github.com/NightscoutFoundation/xDrip/issues/616) | Eversense integration | 2018.10.08 |  
 | [642](https://github.com/NightscoutFoundation/xDrip/issues/642) | Max sync queue size exceeded | 2018.10.26 |  
 | [650](https://github.com/NightscoutFoundation/xDrip/issues/650) | More than 24 hours on-screen coverage option | 2018.10.29 |  
 | [682](https://github.com/NightscoutFoundation/xDrip/issues/682) | Red on black is hard to see. | 2018.11.12 |  
 | [735](https://github.com/NightscoutFoundation/xDrip/issues/735) - [1196](https://github.com/NightscoutFoundation/xDrip/issues/1196) | Nightscout sync issue | 2019.01.07 |  
-| [929](https://github.com/NightscoutFoundation/xDrip/issues/929) | Nightscout follower delay | 2019.06.23 |  
 | [1166](https://github.com/NightscoutFoundation/xDrip/issues/1166) | Make SMB microbolus threshold configurable | 2020.01.10 |  
 | [1229](https://github.com/NightscoutFoundation/xDrip/issues/1229) | Datricsae reading mismatch with xDrip graph | 2020.02.06 |  
 | [1269](https://github.com/NightscoutFoundation/xDrip/issues/1269) | Android 10 landscape malfunction | 2020.03.11 |  
