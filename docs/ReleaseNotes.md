@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2024.02.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.07) | Always on display widget location option |  
 | [2024.01.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.16) | **<span style="color:orange">Alpha</span>** <br/> Dex stop warnings update - Companion app update - Broadcast update |  
 | [2024.01.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.13) | Eversense companion - G7 collector broadcast - plugin intercept fix |  
 | [2024.01.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.01.10) | G7 voltage warning adjustment |  
