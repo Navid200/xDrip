@@ -6,7 +6,7 @@ This is easy to set up. It relies on Google.  It will need Google Play services 
   
 On master, go to `Settings` &#8722;> `xDrip+ Sync settings`, and tap on `Be master for followers`.  
   
-By default, the follower can upload treatments to the master, calibrate it, and even stop sensor on it.  Disable `Allow follower actions` to remove that possibility.  
+By default<sup>*</sup>, the follower can upload treatments to the master, calibrate it, and even stop sensor on it.  Disable `Allow follower actions` to remove that possibility.  
 ![](./Follow/images/AcceptFollowerActions.png)  
   
 Tap on `Settings` &#8722;> `Show Settings QR codes`.  
@@ -39,3 +39,8 @@ On both master and follower, ensure that `Settings` &#8722;> `xDrip+ Sync Settin
 This is allowed so that a parent can have control over a child's master if the child is too young to perform functions like calibration.  
 
 If you are the one calibrating or stopping sensors and don't need the follower to accidentally interfere, you need to disable the following setting.  
+<br/>  
+
+\* The default addresses a parent's need to control the child's master remotely.  
+If you don't want your follower to have extra controls over your master xDrip, you need to disable the setting.  
+  
