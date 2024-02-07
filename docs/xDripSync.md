@@ -41,6 +41,8 @@ This is allowed so that a parent can have control over a child's master if the c
 If you are the one calibrating or stopping sensors and don't need the follower to accidentally interfere, you need to disable the following setting.  
 <br/>  
 
+---  
+  
 \* The default addresses a parent's need to control the child's master remotely.  
 If you don't want your follower to have extra controls over your master xDrip, you need to disable the setting.  
   
