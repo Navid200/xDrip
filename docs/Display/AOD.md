@@ -17,7 +17,7 @@ Approve the confirmation request.
 
 Now, repeat the process.  This time, you will be able to choose xDrip to be used for AOD on the accessibility page.  
   
-By default, the widget will move all over the display.  You can limit it to sections of the display at `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Amways On Display Settings`.  
+By default, the widget will move all over the display.  You can limit it to sections of the display at `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Always On Display Settings`.  
 ![](./images/AOD_Limit_Regions.png)  
 
 The widget will only move in selected regions.  
