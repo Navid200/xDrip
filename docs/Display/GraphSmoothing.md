@@ -18,11 +18,17 @@ This setting effectively rewrites history on your screen, not the broadcast data
 The following images show a sequence of snapshots of the main screen with the graph smoothing setting enabled and the unsmoothed points shown as well.  
 
 ![](./images/GraphSmoothingImages1/1.png)  
+
 ![](./images/GraphSmoothingImages1/2.png)  
+
 ![](./images/GraphSmoothingImages1/3.png)  
+
 ![](./images/GraphSmoothingImages1/4.png)  
+
 ![](./images/GraphSmoothingImages1/5.png)  
+
 ![](./images/GraphSmoothingImages1/6.png)  
+
 ![](./images/GraphSmoothingImages1/7.png)  
 
 If you focus on the reading at 9:15, you can see that the reading deviates from the original, unsmoothed, value more and more at every sequence.  
