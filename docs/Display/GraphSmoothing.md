@@ -13,7 +13,7 @@ After you enable graph smoothing, you can also see the unfiltered readings if yo
 
 ---  
 
-#### **Rewriting history**  
+#### **What it does**  
 This setting effectively rewrites history on your screen, not the broadcast data.  
 The following images show a sequence of snapshots of the main screen with the graph smoothing setting enabled and the unsmoothed points shown as well.  
 
