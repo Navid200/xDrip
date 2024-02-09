@@ -2,8 +2,8 @@
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> xDrip and G6 Receiver  
   
 If you have a t:slim pump, you can start your sensors on the pump, not on xDrip.  
-There is no need to start the same sensor also on xDrip (or to enter a G6 or Dex1 calibration code) in xDrip.  
-The only item that needs the G6 or Dex1 calibration code is the transmitter.  
+There is no need to start the same sensor also on xDrip.  
+In case of G6 or Dexcom One, there is no need to enter the calibration code in xDrip as well.  The only item that needs the G6 or Dex1 calibration code is the transmitter.  
 After the warm-up period has completed, xDrip will pick up the session.  If it doesn't, tap on restart collector on the classic status page.    
   
 Don't stop sensor on xDrip thinking that it would only stop xDrip.  It will stop the sensor session on the transmitter.    
