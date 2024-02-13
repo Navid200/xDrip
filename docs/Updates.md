@@ -35,14 +35,14 @@ In rare occasions, a Nightly release may malfunction.  In that case, you can und
 ---  
   
 #### **Update channels**  
-Releases are made in stages, Nightly (pre-release), Alpha and Beta (or stable).  
+You can choose one of four update channels, Nightly (pre-release), Alpha, Beta and Stable.  
   
 A pre-release is a release that has only been tested by the developers.  We call it a Nightly release.  
-On average, there is a Nightly release once a week.  
+On average, there is a Nightly release once a week.  All new releases are released as a Nightly.  
   
-An alpha release has been tested by a few users in the Nightly channel for a while after having been tested by developers.  
+An alpha release has been tested by a few users in the Nightly channel for a while after having been tested by developers.  Then, it has been tagged as an alpha.  The content does not change.  In other words, an alpha is a Nightly before it becomes an alpha.  
   
-A beta release, which is the stable release for xDrip, has been tested in the alpha channel by some users as well as in the Nightly channel by a few users as well as by the developers.  There is about one stable release once every 6 months.  
+A beta release, which is the stable release for xDrip, has been tested in the alpha channel by some users as well as in the Nightly channel by a few users as well as by the developers.  Then, it is tagged as a beta.  A beta (stable) release is a Nightly first before it becomes an alpha or a beta.  There is about one stable release once every 6 months.  
 
 When you choose an update channel, you will be informed only when there is an update in that channel when you check for updates or if you enable `Automatic update check`.  
   
@@ -66,9 +66,13 @@ You may need to restart.  Now, you will be notified when there is a new release 
   
 ---  
 
-#### **Install a Nightly while on the Beta channel**  
-If you want to install a Nightly release, you don't have to select the Nightly channel.  
-Just find the release you want looking at the release notes.  Then, tap on the corresponding link, [download](./Download-xDrip.md), and [install](./Install.md).  
+#### **What if I want a feature that has just been released as a Nightly?**  
+You have two options.  
+  
+1- You can switch to the Nightly channel.  Then, you will get the latest release when you tap on check for updates.  But, later on, every time you check for updates, you will see the latest Nightly.  So, this may not be what you like.  
+  
+2- You can just install the latest Nightly release without changing your update channel.  
+Just find the release you want looking at the [release notes](./ReleaseNotes.md).  Then, tap on the corresponding link, [download](./Download-xDrip.md), and [install](./Install.md).  Now, you will have the latest Nightly installed.  Later on, when you tap on check for updates, you will only get an update when there is an update in your chosen update channel.  
 <br/>  
 
 ---  
