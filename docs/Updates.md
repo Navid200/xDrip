@@ -66,13 +66,13 @@ You may need to restart.  Now, you will be notified when there is a new release 
   
 ---  
 
-#### **What if I want a feature that has just been released as a Nightly?**  
+#### **What if I want a feature that has just been released in a Nightly?**  
 You have two options.  
   
-1- You can switch to the Nightly channel.  Then, you will get the latest release when you tap on check for updates.  But, later on, every time you check for updates, you will see the latest Nightly.  So, this may not be what you like.  
+1- You can switch to the Nightly channel.  Then, tap on check for updates to get the latest Nightly release.  Later on, every time you check for updates, you will be checking the Nightly channel.  
   
-2- You can just install the latest Nightly release without changing your update channel.  
-Just find the release you want looking at the [release notes](./ReleaseNotes.md).  Then, tap on the corresponding link, [download](./Download-xDrip.md), and [install](./Install.md).  Now, you will have the latest Nightly installed.  Later on, when you tap on check for updates, you will only get an update when there is an update in your chosen update channel.  
+2- You can install the latest Nightly release without changing your update channel.  
+Find the release you want looking at the [release notes](./ReleaseNotes.md).  Then, tap on the corresponding link, [download](./Download-xDrip.md), and [install](./Install.md).  Now, you will have the latest Nightly installed.  Later on, when you tap on check for updates, you will only get an update when there is an update in your chosen update channel.  
 <br/>  
 
 ---  
