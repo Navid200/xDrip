@@ -72,7 +72,7 @@ You have two options.
 1- You can switch to the Nightly channel.  Then, tap on check for updates to get the latest Nightly release.  Later on, every time you check for updates, you will be checking the Nightly channel.  
   
 2- You can install the latest Nightly release without changing your update channel.  
-Find the release you want looking at the [release notes](./ReleaseNotes.md).  Then, tap on the corresponding link, [download](./Download-xDrip.md), and [install](./Install.md).  Now, you will have the latest Nightly installed.  Later on, when you tap on check for updates, you will only get an update when there is an update in your chosen update channel.  
+Find the release you want looking at the [release notes](./ReleaseNotes.md).  Then, tap on the corresponding link, [download](./Download-xDrip.md), and [install](./Install.md).  Now, you have the latest Nightly installed.  Later on, when you tap on check for updates, you will only get an update when there is an update in your chosen update channel.  
 <br/>  
 
 ---  
