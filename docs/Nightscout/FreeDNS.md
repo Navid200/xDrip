@@ -21,7 +21,7 @@ Don't include any of the following characters in your password.
 
 $ &nbsp; &nbsp; \" &nbsp; &nbsp; \' &nbsp; &nbsp; \\  &nbsp; &nbsp; SPACE &nbsp; &nbsp; @ &nbsp; &nbsp; /  
   
-Please remember your password.  
+Please remember your user ID and password.  
   
 Send activation email.  
 ![](./images/FreeDNS1.png)  
@@ -32,7 +32,6 @@ To log in, click on "Main Menu" under "For Members".
 After logging in, you can see your user ID at the top right corner.  
 ![](./images/FD_userID.png)  
   
-You will need your user ID and password later to use the FreeDNS Setup utility.  Please take note.  
 <br/>  
 
 ---  
