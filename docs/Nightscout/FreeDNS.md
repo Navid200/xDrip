@@ -17,6 +17,10 @@ After everything is set up and working, you will need to log into your FreeDNS a
 Go to FreeDNS site: [https://freedns.afraid.org/](https://freedns.afraid.org/)  
 Click on Sign up Free, and sign up.  Make sure to choose a user ID excluding capital letters.  
 If you include capital letters in your user ID, FreeDNS will convert them all to lowercase.  
+Don't include any of the following characters in your password.  
+
+$ &nbsp; &nbsp; \" &nbsp; &nbsp; \' &nbsp; &nbsp; \\  &nbsp; &nbsp; SPACE &nbsp; &nbsp; @ &nbsp; &nbsp; /  
+  
 Please remember your password.  
   
 Send activation email.  
