@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2024.02.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.17) | No stop option for G7 |  
 | [2024.02.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.15) | Security exception, Android 14 |  
 | [2024.02.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.14) | One+ |  
 | [2024.02.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.07) | Always on display widget location option |  
