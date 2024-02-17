@@ -25,6 +25,12 @@ If you have already taken insulin to treat a high or if you have already eaten s
 In that case, you can snooze low or high alerts before they even trigger.  
 To do that, choose the Snooze menu from the main xDrip menu at the top left corner of the main screen.  
 ![](./Alerts/images/SnoozeNoActive.png)  
+
+Tap on one of the three disable alert options.  In the menu that comes up, choose the length of time to snooze the alerts for and tap on Set.  
+![](./Alerts/images/PreemptiveSnoozeTime.png)  
+  
+Now, alerts will not trigger until that set time passes.  
+  
 <br/>  
   
 ---  
