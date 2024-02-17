@@ -4,6 +4,8 @@
 When you snooze an alert, you silence it for a period of time.    
 If the cause of the alert is addressed before the snooze period ends, the alert will not continue after the snooze period ends.  
 
+
+---  
   
 #### **Snooze a triggered alert**  
 You can use the snooze option from the xDrip main menu (top left) for anoozing an alert.  
