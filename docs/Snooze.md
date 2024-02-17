@@ -22,7 +22,7 @@ The default snooze time for every Glucose level alert can be set on its edit ale
 
 #### **Preemptive snooze**  
 If you have already taken insulin to treat a high or if you have already eaten something to treat a low, you may want to snooze the corresponding alerts before they even trigger for a short while.  
-In that case, you can snooze low or high alerts before they even trigger.  
+In that case, you can snooze low or high (or all) alerts before they even trigger.  
 To do that, choose the Snooze menu from the main xDrip menu at the top left corner of the main screen.  
 ![](./Alerts/images/SnoozeNoActive.png)  
 
