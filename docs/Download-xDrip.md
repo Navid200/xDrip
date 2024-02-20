@@ -36,6 +36,7 @@ After accessing the release you want, you will see something like this after exp
 ![](./images/apk.png)  
     
 Download the file with .apk at the end.  If there are multiple files with .apk at the end, download the one without [`variant`](./Variants.md) included in the name.  
+The file will be downloaded to the "Download" folder on your phone.  
 <br/>  
   
 ---  
