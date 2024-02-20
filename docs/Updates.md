@@ -66,7 +66,7 @@ You may need to restart.  Now, you will be notified when there is a new release 
   
 ---  
 
-#### **What if I want a feature that has just been released in a Nightly?**  
+#### **What if I am on the alpha or beta channel, but want a feature that has been released in a Nightly?**  
 You have two options.  
   
 1- You can switch to the Nightly channel.  Then, tap on check for updates to get the latest Nightly release.  Later on, every time you check for updates, you will be checking the Nightly channel.  
