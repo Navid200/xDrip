@@ -19,4 +19,8 @@ You can customize what xDrip shows.
 #### [Exclude a reading](./ExcludeReading.md)
 #### [Compressed graph](./CompressedScreen.md)
 #### [Show backfilled data](./ShowBackfilled.md)
-  
+<br/>  
+
+---  
+
+[Why a compressed graph?](./CompressedScreen.md)  
