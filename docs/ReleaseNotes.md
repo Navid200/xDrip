@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2024.02.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.24) | G7 cleanup - Nightscout master/follower treatment sync |  
 | [2024.02.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.20) | Norwegian change - Dex native mode logs |  
 | [2024.02.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.17) | No stop option for G7 |  
 | [2024.02.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.15) | Security exception, Android 14 |  
