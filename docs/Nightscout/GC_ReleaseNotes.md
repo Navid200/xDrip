@@ -9,7 +9,8 @@ The development and stable branches are explained [here](./Branches.md).
   
 | Release | Notes | Status page |  
 |---------|-------| ----------- |  
-| 2024.01.29 | **<span style="color:orange">Stable release</span>** <br/> Logs fix |  
+| 2024.02.24 | **<span style="color:orange">Stable release</span>** <br/> Update to 11ubuntu5.8 | |  
+| 2024.01.29 | Logs fix | |  
 | 2023.11.14 | Auto Ubuntu security update status flag | ![](./images/Nov142023StatusP.png) |  
 | 2023.10.27 | Update to Nightscout 15.0.2 | |  
 | 2023.09.21 | Status page cleanup | |  
