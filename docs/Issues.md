@@ -15,7 +15,6 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [555](https://github.com/NightscoutFoundation/xDrip/issues/555) | Unique sound for missed readings alert | 2018.08.20 |  
 | [565](https://github.com/NightscoutFoundation/xDrip/issues/565) | Three decimal points resulting in incorrect treatment entry | 2018.08.27 |  
 | [642](https://github.com/NightscoutFoundation/xDrip/issues/642) | Max sync queue size exceeded | 2018.10.26 |  
-| [650](https://github.com/NightscoutFoundation/xDrip/issues/650) | More than 24 hours on-screen coverage option | 2018.10.29 |  
 | [682](https://github.com/NightscoutFoundation/xDrip/issues/682) | Red on black is hard to see. | 2018.11.12 |  
 | [735](https://github.com/NightscoutFoundation/xDrip/issues/735) - [1196](https://github.com/NightscoutFoundation/xDrip/issues/1196) | Nightscout sync issue | 2019.01.07 |  
 | [1166](https://github.com/NightscoutFoundation/xDrip/issues/1166) | Make SMB microbolus threshold configurable | 2020.01.10 |  
