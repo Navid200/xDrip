@@ -7,7 +7,6 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 |---|---------|----------|  
 | [464](https://github.com/NightscoutFoundation/xDrip/issues/464) - [569](https://github.com/NightscoutFoundation/xDrip/issues/569) - [833](https://github.com/NightscoutFoundation/xDrip/issues/833) - [1259](https://github.com/NightscoutFoundation/xDrip/issues/1259) - [1479](https://github.com/NightscoutFoundation/xDrip/issues/1479) | Simulator-related | 2017.03.23 |  
 | [127](https://github.com/NightscoutFoundation/xDrip/issues/127) | Follower scheme using SMS | 2017.06.02 |  
-| [131](https://github.com/NightscoutFoundation/xDrip/issues/131) | Medtronic Guardian Connect | 2017.07.15 |  
 | [1654](https://github.com/NightscoutFoundation/xDrip/issues/1654) | Watch-related | 2017.09.20 |  
 | [266](https://github.com/NightscoutFoundation/xDrip/issues/266) | Upload to muiltiple Nightscout sites | 2018.01.12 |  
 | [296](https://github.com/NightscoutFoundation/xDrip/issues/296) | Calibration issues with Bluetooth glucose meters |2018.02.08 |  
