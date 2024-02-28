@@ -9,7 +9,6 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [127](https://github.com/NightscoutFoundation/xDrip/issues/127) | Follower scheme using SMS | 2017.06.02 |  
 | [1654](https://github.com/NightscoutFoundation/xDrip/issues/1654) | Watch-related | 2017.09.20 |  
 | [266](https://github.com/NightscoutFoundation/xDrip/issues/266) | Upload to muiltiple Nightscout sites | 2018.01.12 |  
-| [296](https://github.com/NightscoutFoundation/xDrip/issues/296) | Calibration issues with Bluetooth glucose meters |2018.02.08 |  
 | [400](https://github.com/NightscoutFoundation/xDrip/issues/400) | mDNS support | 2018.04.18 |  
 | [414](https://github.com/NightscoutFoundation/xDrip/issues/414) - [691](https://github.com/NightscoutFoundation/xDrip/issues/691) - [800](https://github.com/NightscoutFoundation/xDrip/issues/800) | Delta inconsistency | 2018.05.02 |  
 | [520](https://github.com/NightscoutFoundation/xDrip/issues/520) | Android Auto | 2018.07.24 |  
