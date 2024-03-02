@@ -25,6 +25,7 @@
 [Where is Auto configure?](./FAQ/AutoConfig.md) 
   
 #### **How**
+#### [To receive an alert if I have no readings](./Alerts/MissedReading)
 #### [How to follow](./Follow_page.md)
 #### [Show when the sensor expires](./Sensor-Expiry.md)
 #### [Can I create a simple report for my doctor](./Report.md)
