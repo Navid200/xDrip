@@ -21,6 +21,7 @@ To access the alerts page, tap on the top left menu button from the main screen 
  <br/>  
   
 #### [Glucose Level Alert List](./Glucose-level-alerts.md)
+#### [Missed Readings Alert](./Alerts/MissedReading.md)
 #### [Persistent High alert](./Alerts/PersistentHigh.md)
 #### [Forecast Low alert](./Alerts/ForecastLow.md)
 #### [Volume Profiles](./Volume-profiles.md)  
