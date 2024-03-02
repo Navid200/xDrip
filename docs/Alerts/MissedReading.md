@@ -1,5 +1,5 @@
-## Missed Readings Alert
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Missed Readings alert  
+## Missed Reading Alert
+[xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Missed Reading alert  
   
 xDrip can alert you if you have had no readings for a certain amount of time.  It is called the missed reading alert.  
 ![](./images/MissedReadingsAlert.png)  
