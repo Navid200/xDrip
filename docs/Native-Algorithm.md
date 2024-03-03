@@ -19,8 +19,7 @@ The two modes are compared in the following table.
   
 \* The last day you can start a sensor in native mode is when transmitter days shows 99 \(104 for G5\).  
   
-\*\*   If the G6 transmitter firmware version is 1.6.5.25 or prior to that, it transmits raw values as well.  Therefore, it can be used in non-native mode.  All G5 transmitters can be used in either native or non-native mode.  
-Native mode is automatically enabled for a G6 except in [engineering mode](./Engineering-Mode.md).  
+\*\*   If the G6 transmitter firmware version is 1.6.5.25 or prior to that, it transmits raw values as well.  But, non-native mode is not recommended, and xDrip will automatically switch to native mode in that case.  All G5 transmitters can be used in either native or non-native mode.  
   
 \*\*\*  In native mode, calibration is done by the transmitter.  If you see a calibration graph, it is because the transmitter sends raw values also.  But, the graph does not represent the calibration formula.  Clearing calibrations in native mode will have no impact on the effective calibration formula.
   
