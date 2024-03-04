@@ -2,6 +2,7 @@
 [xDrip](../README.md) >> xDrip Frequently Asked Questions  
   
 #### **What**
+#### [What can I do to avoid database corruption?](./Issues/DatabaseCorruption.md)
 #### [What is Noise?](./Noise.md)
 #### [What is Nightscout?](./Nightscout_page.md)
 #### [What is Engineering mode?](./Engineering-Mode.md)
