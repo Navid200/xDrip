@@ -37,6 +37,7 @@ If you see that, please click on the 3-dot drop-down menu and select "Start".
 #### **Restart the server**  
 There are actions that require a restart after.  For example, any update that changes the startup routine needs a restart to complete.  If you have forgotten to restart when you should have, it could be the cause of the problem.  
 If you can log into your virtual machine, but Nightscout is not running, [restart](./Restart.md) now.  
+Restarting the server is harmless and can resolve many issues.  So, it should be the first step in troubleshooting.  
 <br/>  
 <br/>  
   
