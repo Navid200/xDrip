@@ -43,8 +43,16 @@ Restarting the server is harmless and can resolve many issues.  So, it should be
   
 ---  
   
-#### **Status page flags**  
+#### **Status page**  
 After you restart the server, Nightscout will not be running immediately.  It may need a minute to start operation.  
-If it's still not running after you wait a minute, look at the [status page flags](./StatusKey.md) and follow the instructions.  
+If it's still not running after you wait a minute, look at the [status page](./Status.md).  
+If there is nothing in red on the status page, install Nightscout phase 1 from the Google Cloud setup submenu.  
+Then, [restart](./Restart.md).  
+<br/>  
+
+---  
+  
+#### **Status page flags**  
+If you see items in red on the status page, look at the [status page flags](./StatusKey.md) and follow the instructions.  
   
   
