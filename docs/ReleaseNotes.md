@@ -7,7 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
-| [2024.03.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.10) | Backfill fix - G7 no battery level edit |  
+| [2024.03.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.10) | Backfill fix - No G7 battery level edit |  
 | [2024.03.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.06) | Simplera comapnion app - Nightscout treatment download fix |  
 | [2024.03.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.05) | G7 reported warmup time correction - Crash reporter cleanup|  
 | [2024.02.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.02.24) | G7 cleanup - Nightscout master/follower treatment sync |  
