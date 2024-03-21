@@ -14,7 +14,7 @@ Set up WiFi on the follower to access the hotspot WiFi of the master.  You will 
 In the following image, you can see my follower that has no sim card or WiFi access, but is connected to the master.  It also shows that the master itself has no internet access.  
 ![](./images/DesertSyncFollower.png)  
   
-On the master phone, go to the sync settings page and the `Desert Sync` page from there.  
+On the master phone, go to the sync settings page and enable `Be master for follower`.  To access settings, tap on `Desert Sync`.  
 ![](./images/DesertSyncPage.png)  
   
 Enable `Desert Sync`.  Then, tap on `Show QR code`.  
