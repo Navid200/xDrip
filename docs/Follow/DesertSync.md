@@ -19,4 +19,8 @@ On the master phone, go to the sync settings page and the `Desert Sync` page fro
   
 Enable `Desert Sync`.  Then, tap on `Show QR code`.  
 ![](./images/DesertSyncEnable.png)  
+
+In the follower xDrip, tap on `Auto configure` under `Settings` and scan the QR code shown on the mater.  
+You will be asked to approve importing settings.  Approve it.  
+![](./images/DesertSyncImportSettings.png)  
   
