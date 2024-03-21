@@ -3,7 +3,7 @@
   
 You can use xDrip to follow even if there is no access to the internet (internet desert).  You however need to be close enough to each other so that the follower can use the WiFi hotspot of the master.  
 But, the master does not need to have access to the internet itself.  
-Let's say you are on a motorcycle ride together away from any cell service or WiFi.  
+For example, you could be camping, or on a motorcycle ride together, away from any cell service or WiFi.  
 <br/>  
 
 ---  
