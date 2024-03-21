@@ -24,4 +24,10 @@ Enable `Desert Sync`.  Then, tap on `Show QR code`.
 In the follower xDrip, tap on `Auto configure` under `Settings` and scan the QR code shown on the mater.  
 You will be asked to approve importing settings.  Approve it.  
 ![](./images/DesertSyncImportSettings.png)  
+<br/>  
+
+---  
+
+#### **Reference**  
+[xDrip issue](https://github.com/NightscoutFoundation/xDrip/issues/558#issuecomment-416405666)  
   
