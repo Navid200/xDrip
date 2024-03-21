@@ -22,4 +22,11 @@ By default, the widget will move all over the display.  You can limit it to sect
 
 The widget will only move in selected regions.  
 If all or none is selected, xDrip will move the widget all over the screen, which is the default setting.  
+<br/>  
+
+---  
+
+#### **Reference**  
+[xDrip issue](https://github.com/NightscoutFoundation/xDrip/issues/1625#issuecomment-770098141)  
+
   
