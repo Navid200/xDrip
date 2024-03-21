@@ -7,7 +7,7 @@ layout: GCNS
   
 After [setting up Nightscout](./NS_setup.md), you can edit your Nightscout variables if needed.  <span style="color:red">For any change to the variables to take effect, you will need to [reboot the server](./Restart.md).</span>  
   
-If anything breaks, you can edit the file again and change it back.  Or, you can rerun installation.  You can see the default values in the corresponding section below.  
+If anything breaks, you can edit the file again and change it back.  Or, you can rerun install Nightscout phase 2 from the Google Cloud setup submenu.  You can see the default values in the corresponding section below.  
 To edit your Nightscout variables, open a [terminal](./Terminal.md).  
   
 ---  
