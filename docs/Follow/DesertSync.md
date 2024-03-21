@@ -1,0 +1,16 @@
+## Desert Sync
+[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Follow](../Follow_page.md) >> Follow with no internet access  
+  
+You can use xDrip to follow even if there is no access to the internet (internet desert).  You however need to be close enough to each other so that the follower can use the WiFi hotspot of the master.  
+But, the master does not need to have access to the internet itself.  
+Let's say you are on a motorcycle ride together away from any cell service or WiFi.  
+<br/>  
+
+---  
+
+#### **How to set up**  
+Enable WiFi hotspot on the master.  
+Set up WiFi on the follower to access the hotspot WiFi of the master.  You will need the WiFi hotspot password from the master phone.  
+In the following image, you can see my follower that has no sim card or WiFi access, but is connected to the master.  It also shows that the master itself has no internet access.  
+![](./images/DesertSyncFollower.png)  
+  
