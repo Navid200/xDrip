@@ -8,6 +8,7 @@ There are several options for using xDrip as a follower, to see your or someone 
 #### [Companion App](./Follow/CompanionApp.md)
 #### [Web Follower for Libre 3](./Libre3_Follow.md)
 #### [BYODA](./DexcomAppxDrip.md)
+#### [Follow without access to the internet](./Follow/DesertSync.html)
 <br/>  
   
 #### [Comparison of follow schemes](./How-to-follow.md)
