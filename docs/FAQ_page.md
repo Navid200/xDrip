@@ -10,6 +10,7 @@
  [What is Calibration and when should I calibrate?](./Calibration.md)  
   
 #### **Why**
+#### [Why my alert makes no sound?](./Silent-alert.md)
 #### [Why is xDrip not in Google Play Store?](./App-store.md)
 #### [Why is location service required?](./Location.md)
 #### [Why do I get a notification for each reading?](./Frequent_notifications.md)
