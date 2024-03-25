@@ -10,7 +10,7 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1654](https://github.com/NightscoutFoundation/xDrip/issues/1654) | Watch-related | 2017.09.20 |  
 | [266](https://github.com/NightscoutFoundation/xDrip/issues/266) | Upload to muiltiple Nightscout sites | 2018.01.12 |  
 | [400](https://github.com/NightscoutFoundation/xDrip/issues/400) | mDNS support | 2018.04.18 |  
-| [414](https://github.com/NightscoutFoundation/xDrip/issues/414) - [691](https://github.com/NightscoutFoundation/xDrip/issues/691) - [800](https://github.com/NightscoutFoundation/xDrip/issues/800) | Delta inconsistency | 2018.05.02 |  
+| [414](https://github.com/NightscoutFoundation/xDrip/issues/414) - [691](https://github.com/NightscoutFoundation/xDrip/issues/691) | Delta inconsistency | 2018.05.02 |  
 | [520](https://github.com/NightscoutFoundation/xDrip/issues/520) | Android Auto | 2018.07.24 |  
 | [555](https://github.com/NightscoutFoundation/xDrip/issues/555) | Unique sound for missed readings alert | 2018.08.20 |  
 | [565](https://github.com/NightscoutFoundation/xDrip/issues/565) | Three decimal points resulting in incorrect treatment entry | 2018.08.27 |  
