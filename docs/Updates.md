@@ -22,7 +22,7 @@ From the 3-dot menu button at the top right corner of the main screen, tap on `C
   
 ![](./images/CheckForUpdate.png)  
   
-If there has been an update, in the update channel you are using, more up-to-date than the version you are currently using, it will be downloaded, into your Download folder, and you can install it by tapping on it.    
+If there has been an update in your update channel, it will be downloaded into your Download folder, and you can install it by tapping on it.    
 <br/>  
   
 ---  
