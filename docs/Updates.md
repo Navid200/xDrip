@@ -28,8 +28,7 @@ If there has been an update in your update channel, it will be downloaded into y
 ---  
   
 #### **Can I undo an update?**  
-You can install an older version of xDrip over the version you currently have installed.  Therefore, you can undo an update by installing the version you had previously.  
-In rare occasions, a Nightly release may malfunction.  In that case, you can undo your update until a new version is released.  If you detect a problem, please [report](./Contact.md) it.  
+You can install an older version of xDrip over the version you currently have installed.  Therefore, you can undo an update by installing the version you had previously.    
 <br/>  
   
 ---  
