@@ -9,7 +9,7 @@ If you uninstall, you will lose all your old readings.  Fortunately, you don't n
 
 #### **Do I need to update?**  
 If everything is working fine, you don't have to update.  
-But, if you experience problems, it's best to at least update to the current stable release.  
+But, it's best to at least update to the current stable release.  
 <br/>  
 
 ---  
