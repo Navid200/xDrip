@@ -2,8 +2,7 @@
 [xDrip](../README.md) >> [Features](./Features_page.md) >> Update xDrip    
   
 **<span style="color:red">Do not uninstall</span>**  
-You don't need to uninstall xDrip to install another version.  You can install a different version over your existing installation.  
-If you uninstall, you will lose all your old readings.  
+If you uninstall, you will lose all your old readings.  Fortunately, you don't need to uninstall xDrip to install another version, which is the only way to update.  You can install a different version over your existing installation.  
 <br/>  
 
 ---  
