@@ -1,4 +1,4 @@
-## Nightscout Settings
+## Nightscout Uploader Settings
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [Nightscout](Nightscout_page.md) >> Nightscout master
   
 To enable Nightscout uploader (master), go to the following page.  
@@ -16,7 +16,15 @@ https<nolink>://password@hostname/api/v1/
 <br/>  
   
 ---  
+
+#### **Disable a follower**  
+To disable a follower from following you, you will need to remove the token corresponding to the follower.  
+If the follower uses the same token used by other followers, you will have to change the token and inform the followers that you want to continue to follow you.  
+If you have given your API_SECRET to the follower, you will need to change your API_SECRET.  
+<br/>  
+
+---  
   
-**Upload to multiple Nightscout sites**  
+#### **Upload to multiple Nightscout sites**  
 Enter the URLs in the same field, separated by space.  
   
