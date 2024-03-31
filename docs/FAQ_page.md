@@ -30,6 +30,7 @@
 #### [To receive an alert if I have no readings](./Alerts/MissedReading)
 #### [How to follow](./Follow_page.md)
 #### [Show when the sensor expires](./Sensor-Expiry.md)
+#### [To remove an xDrip sync follower](./Follow/RemoveFollower.md)
 #### [Can I create a simple report for my doctor](./Report.md)
 #### [Show readings on a screen all the time](./Screensaver.md)
 #### [How to delete a reminder](./Delete-Reminder.md)
