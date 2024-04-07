@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2024.04.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.07) | Smart snooze and smart alert thresholds reduced for high alerts |  
 | [2024.03.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.27) | No forget device for G7 |  
 | [2024.03.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.10) | Backfill fix - No G7 battery level edit |  
 | [2024.03.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.06) | Simplera comapnion app - Nightscout treatment download fix |  
