@@ -6,3 +6,4 @@ You should only use the instructions on this page if you cannot use xDrip auto c
   
 ---  
   
+Download [this file](./files/G7_keks_Settings.txt), which contains the required settings.  
