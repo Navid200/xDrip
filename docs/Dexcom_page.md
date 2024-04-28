@@ -50,6 +50,7 @@ You are welcome to use it.  But, please consult with a medical professional (End
 #### [G6 Transmitter Warranty](./G6_Warranty.md)
 #### [How strong is the transmitter signal?](./Bluetooth-Scanner.md)
 #### [How good is the battery?](./Battery-condition.md)
+#### [How good is the battery according to the logs?](./Dexcom/BatteryVoltageLogs.md)
  [OB1 Debugging logs](./Dexcom/OB1Debug.md)  
   
 #### [Petroleum jelly on the transmitter contacts](./Petroleum-jelly-in-Dexcom-G6-Sensor.md)
