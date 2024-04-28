@@ -5,7 +5,7 @@ If you use xDrip as a collector, the battery voltages are saved, and kept for 9 
 That only shows the battery voltage logs.  An example is shown here:  
 ![](./images/BatteryLogs.png)  
   
-Pay attentions to the dates and times on the left.  The items at the top are more recent.  
+Pay attention to the dates and times on the left.  The items at the top are more recent.  
 
 Voltage B is what matters.  If the value has been decreasing rapidly, it could be that the battery is the cause of connectivity issues you may be experiencing.   
   
