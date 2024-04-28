@@ -1,4 +1,4 @@
-## G7 or One+  
+## Battery voltage logs  
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Battery voltage logs  
   
 If you use xDrip as a collector, the battery voltages are saved, and kept for 9 days, in the [logs](./Logs.md).  To see those, while viewing the logs, you can tap on the magnifying glass symbol to search and search for volt.  
