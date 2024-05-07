@@ -6,5 +6,5 @@ When you first receive a new G6 or Dexcom One transmitter, it needs to be activa
 However, you should only activate a transmitter when you intend to use it.  After you do, you will not be able to deactivate it.  
   
 Snapping the transmitter into an inserted sensor will activate it.  
-Alternatively, you can hold a new transmitter in your hand with your thumb pressed against the contacts for a minute or two to activate it.  
+Alternatively, you can hold a new transmitter in your hand with your thumb pressed against the contacts for a minute to activate it.  
   
