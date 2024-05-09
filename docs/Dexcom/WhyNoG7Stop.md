@@ -10,6 +10,6 @@ There is never a reason to stop a G7.
 But, you could accidentally stop a G7 and then feel sorry you did.  To avoid that possibility, we have removed the ability to stop a G7.  
 You will never ever need to stop a G7.  So, why have it?  
   
-Currently, you can still access the stop command when using a G7 if you enable engineering mode in xDrip.  Bt, this will eventually be removed.  
+Currently, you can still access the stop command when using a G7 if you enable engineering mode in xDrip.  But, this will eventually be removed.  
 Please don't stop a G7.  If you feel that you need to stop a G7, please [contact me](https://github.com/NightscoutFoundation/xDrip/discussions) and tell me why.  
 
