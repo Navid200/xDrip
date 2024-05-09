@@ -1,4 +1,4 @@
-## G7 or One+  
+## Why no G7 Stop!  
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Why no stop sensor for G7!  
   
 When you use G6, and want to start a new sensor, you need to stop the previous one.  Then, you need to make sure the transmitter is outside the sensor for at least 10 minutes before starting the new session.  If you don't the transmitter may stop the session because of a false restart attempt detection.  
