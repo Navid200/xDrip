@@ -10,9 +10,11 @@ These are the recommended G6, Dexcom ONE or G7 settings when using xDrip as a co
 * `Settings` &#8722;> [`G5/G6/Dex1 Debug Settings`](./images/g6-recommended-settings.png)  
 Enable all recommended settings (settings in the diagram with checkmarks) even if you see "G5" in the description.  
 
-* `Settings` &#8722;> `Less common settings` &#8722;> [`Other misc options`](./images/other-misc-recommended.png)    
+* `Settings` &#8722;> `Less common settings` &#8722;> [`Other misc options`](./images/other-misc-recommended.png)  
 
 * `Settings` &#8722;> `Less common settings` &#8722;> [`Bluetooth Settings`](./images/ble-recommended-stngs.png)  
+
+* Enable &nbsp; &nbsp; &nbsp; `Settings` &#8722;> `Less common settings` &#8722;> `Aggressive service restarts`  
 
 * Disable &nbsp; &nbsp; &nbsp; `Settings` &#8722;> `Less common settings` &#8722;> `Advanced Calibration` &#8722;> `Automatic Calibration`  
   
