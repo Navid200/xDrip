@@ -11,7 +11,9 @@ Enable [Native Algorithm](./Native-Algorithm.md) only if you have to.  If you do
 
 * `Settings` &#8722;> `Less common settings` &#8722;> [`Other misc options`](./images/other-misc-recommended.png)  
 
-* `Settings` &#8722;> `Less common settings` &#8722;> [`Bluetooth Settings`](./images/ble-recommended-stngs.png)  
+* `Settings` &#8722;> `Less common settings` &#8722;> [`Bluetooth Settings`](./images/ble-recommended-stngs.png)
+
+* Enable &nbsp; &nbsp; &nbsp; `Settings` &#8722;> `Less common settings` &#8722;> `Aggressive service restarts`  
   
 <br/>  
   
