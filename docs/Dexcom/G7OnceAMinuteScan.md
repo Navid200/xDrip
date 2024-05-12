@@ -12,7 +12,7 @@ Then, G7 went into a more frequent scan mode where it transmitted once every min
   
 I then removed my main phone from the microwave.  It established connectivity to G7 and backfilled all the readings.  G7 went back to transmitting once every 5 minutes again in sync with the original cycle.  
   
-This tells me that G7 behaves differently when the paired device fails to maintain a link and goes into a more rapid transmission mode.  Upon recovery, it returns to the original once a minute cycle.  
+This tells me that G7 behaves differently when the paired device fails to maintain a link and goes into a more rapid transmission mode.  Upon recovery, it returns to the original once every 5 minutes cycle.  
 
 If you have disconnects, some of your readings will not to be on the once every 5 minute time grid.  They will move forward in time (earlier) by 1 to 4 minutes.  But, the time interval after will be longer.  The total number of readings remain the same as before, equal to one every 5 minutes.  
   
