@@ -14,6 +14,5 @@ I then removed my main phone from the microwave.  It established connectivity to
   
 This tells me that G7 behaves differently when the paired device fails to maintain a link and goes into a more rapid transmission mode.  Upon recovery, it returns to the original once a minute cycle.  
 
-The total number of readings remain equal to once every 5 minutes.  If you have frequent disconnects, some of your readings are not going to be on the once every 5 minute time grid.  They will move forward in time by 1 to 4 minutes.  But, the time interval after will be longer.  The total number of readings remain the same as before, equal to one every 5 minutes.  
-
+If you have disconnects, some of your readings will not to be on the once every 5 minute time grid.  They will move forward in time (earlier) by 1 to 4 minutes.  But, the time interval after will be longer.  The total number of readings remain the same as before, equal to one every 5 minutes.  
   
