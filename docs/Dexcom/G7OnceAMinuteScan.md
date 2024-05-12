@@ -1,4 +1,4 @@
-## G7 or One+  
+## G7 Once a minute scan mode  
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Dexcom G7 once a minute scan  
   
 After it was reported that G7 readings appeared at intervals other than once every 5 minutes upon a disconnect, I performed a test.  
