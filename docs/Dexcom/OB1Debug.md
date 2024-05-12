@@ -22,7 +22,7 @@ It will be pointless to upload the logs as soon as you have enabled the OB1 coll
 To do that, tap on `UPLOAD LOGS` at the bottom of the logs screen.  
 ![](./images/UploadLogs.png)  
 
-Enter a note to identify the device and refer to it when you inform us that you have uploaded the logs.  
+Enter a note to identify the device and refer to it when you [inform us](https://github.com/NightscoutFoundation/xDrip/discussions) that you have uploaded the logs.  
 <br/>  
 
 ---  
