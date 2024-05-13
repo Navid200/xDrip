@@ -7,7 +7,7 @@ I installed a [Bluetooth scanner](https://navid200.github.io/xDrip/docs/Bluetoot
 Once every 5 minutes, the scanner showed the transmitter to transmit for about 15 seconds.  This is exactly how a G6 behaves.  
 
 I then placed my main phone inside a microwave.  This stopped it from maintaining a Bluetooth handshake with the G7 device.  
-The scanner showed that G7 continued to transmit once every 5 minutes for 2 or 3 more cycles.  
+The scanner showed that G7 continued to transmit once every 5 minutes for the next 3 cycles.  
 Then, G7 went into a more frequent scan mode where it transmitted once every minute for the same period of 15 seconds each.  
   
 I then removed my main phone from the microwave.  It established connectivity to G7 and backfilled all the readings.  G7 went back to transmitting once every 5 minutes again in sync with the original cycle.  
