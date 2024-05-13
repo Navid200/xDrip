@@ -7,7 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
-| [2024.05.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.12) | Android 14 vehicle mode fix - correect G6 start time broadcast - delete alert confirmation - G6/G7 log cleanup - graph smoothing settings cleanup |  
+| [2024.05.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.12) | Android 14 vehicle mode fix - correct G6 start time broadcast - delete alert confirmation - G6/G7 log cleanup - graph smoothing settings cleanup |  
 | [2024.04.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.19) | **<span style="color:orange">Alpha</span>** <br/> Correct G7 start time broadcast |  
 | [2024.04.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.09) | One+ companion app |  
 | [2024.04.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.07) | Smart snooze and smart alert thresholds reduced for high alerts |  
