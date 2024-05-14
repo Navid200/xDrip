@@ -38,13 +38,6 @@ You can install an older version of xDrip over the version you currently have in
 #### **Update channels**  
 You can choose one of four update channels, Nightly (pre-release), Alpha, Beta and Stable.  
   
-A pre-release (Nightly) is a release that has only been tested by the developers.  
-On average, there is a Nightly release once a week.  
-  
-An alpha release has been tested by a few users in the Nightly channel for a while after having been tested by developers.  Then, it has been tagged as an alpha.  An alpha is a Nightly before it becomes an alpha.  
-  
-A beta release, which is the stable release for xDrip, has been tested in the alpha channel by some users as well as in the Nightly channel by a few users as well as by the developers.  Then, it is tagged as a beta.  A beta (stable) release is a Nightly first before it becomes an alpha or a beta.  There is about one stable release once every 6 months.  
-
 When you choose an update channel, you will be informed only when there is an update in that channel when you check for updates or if you enable `Automatic update check`.  
   
 | Channel | Description |  
