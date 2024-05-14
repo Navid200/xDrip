@@ -14,14 +14,17 @@ But, it's best to at least update to the current stable release.
 
 ---  
 
-#### **How to update**  
+#### **Your chosen update channel**  
 From the 3-dot menu button at the top right corner of the main screen, tap on `Check for updated version`.  
   
 ![](./images/3dotMenu.png)  
   
 ![](./images/CheckForUpdate.png)  
   
-If there has been an update in your update channel, it will be downloaded into your Download folder, and you can install it by tapping on it.    
+If there has been an update in your update channel, it will be downloaded into your Download folder, and you can install it by tapping on it.  
+
+To update to a release that is not in your update channel, please continue to read.  
+  
 <br/>  
   
 ---  
