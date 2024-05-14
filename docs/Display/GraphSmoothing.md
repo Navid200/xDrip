@@ -34,7 +34,6 @@ The following images show a sequence of snapshots of the main screen with the gr
 If you focus on the reading at 9:15, you can see that the reading deviates from the original, unsmoothed, value more and more at every sequence.  
 
 The following image shows the same results exactly at the same time as the last image, but with graph smoothing disabled.    
-![](./images/GraphSmoothingImages1/8.png)  
-You can see the original readings before being made pretty.  
-Enable the setting if you want the graph on your screen to look pretty.  
+![](./images/GraphSmoothingImages1/8.png)    
+Enable the setting if you want the graph on your screen to look smooth.  
   
