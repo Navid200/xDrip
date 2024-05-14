@@ -53,9 +53,9 @@ When you choose an update channel, you will be informed only when there is an up
 #### **Select update channel or automatic check**  
 To select an update channel, access [Main Settings](./Settings.md) &#8722;> `xDrip+ Update Settings`.  
 ![](./images/auto_update.png)  
-You need to choose alpha in order for the nightly option to become visible.  
+You need to choose alpha in order for the nightly option to become visible.  After selecting the alpha channel, return to the main screen.  Then, go back to the Update Settings page and you will see the Nightly as an option now.  
 To use the auto update check, enable Automatic update check.  
-You may need to restart.  Now, you will be notified when there is a new release in your selected channel.  
+Now, you will be notified when there is a new release in your selected channel.  
 <br/>  
   
 ---  
