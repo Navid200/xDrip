@@ -27,9 +27,9 @@ As soon as the alert is snoozed, both sound and vibration terminate.
 
 ---  
 
-#### **Delay Ascending Volume**    
-You can reach the `Delay Ascending Volume` setting at:  
-`Settings` &#8722;> `Alarms and Alerts` &#8722;> `Glucose Alerts Settings`  
+#### **Delay Ascending Volume & Ascend to Medium**    
+You can reach the `Delay Ascending Volume` and `Ascend to medium` settings at:  
+`Settings` &#8722;> `Alarms and Alerts` &#8722;> `Glucose Alerts Settings` &#8722;> `Ascending Volume settings`  
 ![](./Alerts/images/DelayAscendingVolume.png)  
   
   
