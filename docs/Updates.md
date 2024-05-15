@@ -14,7 +14,7 @@ But, it's best to at least update to the current stable release.
 
 ---  
 
-#### **Your chosen update channel**  
+#### **How to only update in your chosen channel**  
 From the 3-dot menu button at the top right corner of the main screen, tap on `Check for updated version`.  
   
 ![](./images/3dotMenu.png)  
