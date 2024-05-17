@@ -2,11 +2,14 @@
 [xDrip](../README.md) >> [Features](./Features_page.md) >> Update xDrip    
   
 **<span style="color:red">Do not uninstall</span>**  
-If you uninstall, you will lose all your old readings.  Fortunately, you don't need to uninstall xDrip to install another version, which is the only way to update.  You can install a different version over your existing installation.  
+If you uninstall, you will lose all your old readings.  Fortunately, you don't need to uninstall xDrip to install an update, which is the only way to update.  You can install a different version over your existing installation.  
+  
+You cannot install a release from one repository over an installation of xDrip from a different repository.  
+Therefore, if you are using xDrip from a repository other than the [main repository](https://github.com/NightscoutFoundation/xDrip), and you want to come back, you will need to uninstall first.  [Backup the database](./Backup.md) before uninstall so that you can restore the old readings and settings after you switch.  
 <br/>  
-
+  
 ---  
-
+  
 #### **Do I need to update?**  
 If everything is working fine, you don't have to update.  
 But, it's best to at least update to the current stable release.  
