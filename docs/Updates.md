@@ -24,15 +24,15 @@ From the 3-dot menu button at the top right corner of the main screen, tap on `C
 If there has been an update in your update channel, it will be downloaded into your Download folder, and you can install it by tapping on it.  
 
 To update to a release that is not in your update channel, please continue to read.  
-  
-<br/>  
+<br/>   
   
 ---  
-  
-#### **Can I undo an update?**  
-You can install an older version of xDrip over the version you currently have installed.  Therefore, you can undo an update by installing the version you had previously.    
+
+#### **How to update regardless of your chosen channel**  
+You can install any release without changing your update channel.  
+Find the release you want looking at the [release notes](./ReleaseNotes.md).  Then, tap on the corresponding link, [download](./Download-xDrip.md), and [install](./Install.md).  Later on, when you tap on check for updates, you will only get an update when there is an update in your chosen update channel.  
 <br/>  
-  
+
 ---  
   
 #### **Update channels**  
@@ -58,17 +58,6 @@ To use the auto update check, enable Automatic update check.
 Now, you will be notified when there is a new release in your selected channel.  
 <br/>  
   
----  
-
-#### **What if I am on the alpha or beta channel, but want a feature that has been released in a Nightly?**  
-You have two options.  
-  
-1- You can switch to the Nightly channel.  Then, tap on check for updates to get the latest Nightly release.  Later on, every time you check for updates, you will be checking the Nightly channel.  
-  
-2- You can install any release without changing your update channel.  
-Find the release you want looking at the [release notes](./ReleaseNotes.md).  Then, tap on the corresponding link, [download](./Download-xDrip.md), and [install](./Install.md).  Later on, when you tap on check for updates, you will only get an update when there is an update in your chosen update channel.  
-<br/>  
-
 ---  
   
 #### **Release notes** 
