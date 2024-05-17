@@ -5,6 +5,7 @@ To access the Google Drive functions, tap on `Import /Export features` from the 
 ![](./images/GCloudBackup.png)  
 
 Google Drive backup may not work if you are using xDrip from a repository other than [the main](https://github.com/NightscoutFoundation/xDrip).  
+In that case, you are limited to using the [legacy backup](./Backup-Database).  
   
 You need to select the backup location and sign in to your Google account.  
 Then, you have the choice of enabling automatic backups or manually making backups.  
