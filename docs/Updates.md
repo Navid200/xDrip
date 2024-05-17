@@ -38,7 +38,7 @@ Find the release you want looking at the [release notes](./ReleaseNotes.md).  Th
 #### **Update channels**  
 You can choose one of four update channels, Nightly (pre-release), Alpha, Beta and Stable.  
   
-When you choose an update channel, you will be informed only when there is an update in that channel when you check for updates or if you enable `Automatic update check`.  
+You will be informed only when there is an update in your selected channel when you check for updates or if you enable `Automatic update check`.  
   
 | Channel | Description |  
 |:--------------:|:-----------: |  
