@@ -9,7 +9,7 @@ How to [download and install](./Installation_page.md).
 |---------|-------|  
 | [2024.05.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.15) | Ascend to Medium option for ascending volume profile |  
 | [2024.05.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.12) | Android 14 vehicle mode fix - correct G6 start time broadcast - delete alert confirmation - G6/G7 log cleanup - graph smoothing settings cleanup |  
-| [2024.04.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.19) | **<span style="color:orange">Alpha</span>** <br/> Correct G7 start time broadcast |  
+| [2024.04.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.19) | **<span style="color:orange">Stable</span>** <br/> Correct G7 start time broadcast |  
 | [2024.04.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.09) | One+ companion app |  
 | [2024.04.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.07) | Smart snooze and smart alert thresholds reduced for high alerts |  
 | [2024.03.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.27) | No forget device for G7 |  
@@ -35,7 +35,7 @@ How to [download and install](./Installation_page.md).
 | [2023.11.29](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.29) | 24-hour G7 backfill - G7 warmup time update - History cap increased |  
 | [2023.11.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.28) | CareLink update - No G7 initial cal |  
 | [2023.11.21](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.21) | Nightscout follower wake delay |  
-| [2023.11.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.14) | **<span style="color:orange">Stable</span>** <br/> Health Connect Android 14 |  
+| [2023.11.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.14) | **Previous Stable release** <br/> Health Connect Android 14 |  
 | [2023.11.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.07) | New G7 firmware  |  
 | [2023.11.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.11.04) | NSEmulator - Afrezza, Apidra, Levemir, Basaglar & Tresiba |  
 | [2023.10.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2023.10.24) | Google Drive daily backup WiFi option - Companion app improvements |  
