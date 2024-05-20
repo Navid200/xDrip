@@ -3,7 +3,9 @@
   
 After having [downloaded](./Download-xDrip.md) the .apk file, you can install by tapping on it.  
   
-If you already have another xDrip release installed, you don't have to uninstall first.  You can just install over your existing installation.  If you uninstall, you will lose all your old readings.  
+If you already have another xDrip release installed, as long as it is from the [Nightscout foundation xDrip](https://github.com/NightscoutFoundation/xDrip), you don't have to uninstall first.  You can just install over your existing installation.  
+
+But, if you have installed xDrip from another repository, you will not be able to install over it.  In that case, you should [backup](./Backup.md) first.  After you install, you will be able to restore your backup to restore your old readings and or your old settings if you want to.  
   
 If you have never installed xDrip, you may see the following note:  
 ![](./images/InstallNotAllowed.png)  
