@@ -6,9 +6,8 @@ In short, because you don't need to!  If you want the long answer, please read o
 A G7 (or One+) session starts automatically on the device as soon as you use the applicator to insert the device.  
 There is nothing to start.  
   
-You could use a G6 transmitter for 110 days. That means you could use 11 sensors in sequence on a single G6 transmitter.  When you use G6 and want to start a new sensor, you need to stop the previous one.  Then, you need to make sure the transmitter is outside the sensor for at least 10 minutes before starting the new session.  If you don't, the transmitter may stop the session because of a false restart attempt detection by the transmitter.  
-Keeping the transmitter out for at least 10 minutes guarantees that a false restart attempt will not trigger.  
-But, this is why we need to be able to stop a sensor when using G6.  
+You could use a G6 transmitter for 110 days. That means you could use 11 sensors in sequence on a single G6 transmitter.  When want to start a new G6 sensor, you need to stop the previous one.  Then, you need to make sure the transmitter is outside the sensor for at least 10 minutes before starting the new session.  Otherwise, the transmitter may stop the session because of a false restart attempt detection by the transmitter.  
+This is why we need to be able to stop a G6 sensor.  
   
 With G7, you only have one device, sensor and transmitter.  When you are done using it, you cannot use it again.  There will never be a restart attempt detected.  A G7 session starts automatically as soon as you use the applicator and insert a G7 device.  
 There is never a reason to stop a G7.  
