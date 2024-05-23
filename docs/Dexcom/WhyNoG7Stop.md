@@ -1,5 +1,5 @@
-## Why no G7 Start or Stop!  
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Why no start or stop sensor for G7!  
+## Why can I not start or stop G7?  
+[xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Why no start or stop for G7!  
   
 In short, because you don't need to!  If you want the long answer, please read on.  
 
