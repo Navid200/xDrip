@@ -8,9 +8,9 @@ To enable it, go to
 `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Glucose Alert Settings` &#8722;> `Alert Volume Profile`,  
 and choose `Ascending Volume Profile`.  
 
-If you cannot hear your alarm when you are in a noisy environment, this can solve the problem because it will eventually play the alarm at the very high volume.  
+If you cannot hear your alarm when you are in a noisy environment, this can solve the problem because it will eventually play the alarm at a higher volume.  
 
-If your alarm wakes up or annoys others around you, this can solve the problem because it starts playing at a very low volume and you can snooze it before the volume increases.  You will have several minutes before the volume is raised to maximum.  
+If your alarm wakes up or annoys others around you, this can solve the problem because it starts playing at a very low volume and you can snooze it before the volume increases.  You will have several minutes before the volume is raised to its target.  
 
 <br/>  
 
