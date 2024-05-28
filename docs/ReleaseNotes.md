@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2024.05.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.28) | G7 firmware - G7 auto start - G7 Bluetooth scan fix |  
 | [2024.05.22](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.22) | Forecast x axis fix - future treatment 3-min threshold - Huawei wake - G7 timestamp fix |  
 | [2024.05.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.15) | Ascend to Medium option for ascending volume profile |  
 | [2024.05.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.12) | Android 14 vehicle mode fix - correct G6 start time broadcast - delete alert confirmation - G6/G7 log cleanup - graph smoothing settings cleanup |  
