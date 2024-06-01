@@ -44,6 +44,7 @@ You are welcome to use it.  But, please consult with a medical professional (End
   
 #### **Troubleshooting**
 #### [Connectivity Troubleshooting](./Connectivity-troubleshoot.md)
+#### [G7 applicator failures](./Dexcom/Applicator failures.md)
 #### [New G6 or Dexcom One transmitter does not connect](./Dexcom/NewG6TX_Activation.md)
 #### [Intermittent Connectivity](./Intermittent.md)
 #### [Sensor failed start](./Dexcom/SensorFailedStart.md)
