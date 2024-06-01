@@ -7,6 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
+| [2024.06.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.01) | Snooze menu fix - Dex menu cleanup |  
 | [2024.05.29](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.29) | Android 6 is retired |  
 | [2024.05.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.28) | G7 firmware - G7 auto start - G7 Bluetooth scan fix |  
 | [2024.05.22](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.22) | Forecast x axis fix - future treatment 3-min threshold - Huawei wake - G7 timestamp fix &nbsp; &nbsp; ❌ |  
