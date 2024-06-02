@@ -1,12 +1,10 @@
 ## Why can I not start or stop G7?  
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Why no start or stop for G7!  
   
-In short, because you don't need to!  If you want the long answer, please read on.  
-
 A G7 (or One+) session starts automatically on the device as soon as you use the applicator to insert the device.  
 There is nothing to start.  
   
-You could use a G6 transmitter for 110 days. That means you could use 11 sensors in sequence on a single G6 transmitter.  When want to start a new G6 sensor, you need to stop the previous one.  Then, you need to make sure the transmitter is outside the sensor for at least 10 minutes before starting the new session.  Otherwise, the transmitter may stop the session because of a false restart attempt detection by the transmitter.  
+You could use a G6 transmitter for 110 days. That means you could use 11 sensors in sequence on a single G6 transmitter.  When you want to start a new G6 sensor, you need to stop the previous one.  Then, you need to make sure the transmitter is outside the sensor for at least 10 minutes before starting the new session.  Otherwise, the transmitter may stop the session because of a false restart attempt detection by the transmitter.  
 This is why we need to be able to stop a G6 sensor.  
   
 With G7, you only have one device, sensor and transmitter.  When you are done using it, you cannot use it again.  There will never be a restart attempt detected.  A G7 session starts automatically as soon as you use the applicator and insert a G7 device.  
