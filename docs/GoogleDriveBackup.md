@@ -17,5 +17,5 @@ Settings and database are backed up in a single compressed encrypted file.
 You can enable the optional automatic daily backup.  
   
 The following image shows an example what you may see on the Google Drive backup page.  
-![](./images/GC_backupMenu.png)  
+![](./Backup/images/GC_backupMenu.png)  
   
