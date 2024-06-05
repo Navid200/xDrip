@@ -1,9 +1,12 @@
 ## Google Drive Backup
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [Backup](./Backup.md) >> Google Drive Backup  
   
-To access the Google Drive functions, tap on `Import /Export features` from the top right (3-dot) menu button on the main screen.  Then, tap on `Cloud Backup` from the sub-menu.  
-![](./images/GCloudBackup.png)  
-
+To access the Google Drive functions, tap on `Import /Export features` from the top right (3-dot) menu button on the main screen.  
+![](./Backup/images/ImportExport.png)  
+  
+Then, tap on `Cloud Backup` from the sub-menu.  
+![](./Backup/images/CloudBackup.png)  
+  
 Google Drive backup may not work if you are using xDrip from a repository other than [the main](https://github.com/NightscoutFoundation/xDrip).  
 In that case, you are limited to using the [legacy backup](./Backup-Database).  
   
