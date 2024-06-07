@@ -4,7 +4,7 @@
 xDrip cannot upload to Clarity.  
 <br/>  
   
---  
+---  
   
 #### **Reports**  
 Clarity is not the only way to create a report for your doctor.  
