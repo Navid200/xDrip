@@ -49,9 +49,12 @@ You can run Dexcom app on your phone and use the [Companion app](../Follow/Compa
 ---  
 
 ### **Summary**  
+  
 |                 | Advantage | Disadvantage |  
 | --------------- | --------- | ------------ |  
 | xDrip collector | Easy | No Clarity |  
 | Receiver | Easy xDrip setup | Needs a receiver |  
 | BYODA |  | Two points of failure, xDrip and BYODA |  
 | Companion app |  | Two points of failure, xDrip and companion app |  
+
+  
