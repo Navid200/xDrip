@@ -41,5 +41,7 @@ If you use G7, or One+, you only need to turn on the receiver once a day as G7 b
 #### **BYODA**  
 You can try [BYODA](../DexcomAppxDrip.md).  
 If it has an option for the Dexcom sensor you use and if it has the option to broadcast to xDrip, you will be able to get readings in xDrip.  
-
+  
+#### **Companion app**  
+You can run Dexcom app on your phone and use the [Companion app](../Follow/CompanionApp.md) mode in xDrip to pass the readings to xDrip.  
   
