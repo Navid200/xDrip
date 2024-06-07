@@ -19,14 +19,8 @@ You can use Nightscout, or even xDrip, and a simple word processor to create a r
 Your doctor is an important member of your team and you need to work with them.  
 So, you should not disagree with your doctor.  But, you can ask questions.  You can show your dcotor a report and ask if he/she may find it acceptable even though it is not Clarity.  
 That's what I did and when my doctor saw my report, she was happy with it and never asked for Clarity anymore.  
-<br/>  
-
----  
+<br/>   
   
-### **What's wrong with Clarity?**  
-There is nothing wrong with Clarity itself.  But, since xDrip cannot upload to it, you will have to use a different app that can upload to clarity and have it pass the readings to xDrip.  Then, if either xDrip or that app goes down, you will have no readings in xDrip.  
-<br/>  
-
 ---  
   
 ### **If Clarity is a requirement**  
@@ -54,7 +48,9 @@ You can run Dexcom app on your phone and use the [Companion app](../Follow/Compa
 | --------------- | --------- | ------------ |  
 | xDrip collector | Easy | No Clarity |  
 | Receiver | Easy xDrip setup | Needs a receiver |  
-| BYODA |  | Two points of failure, xDrip and BYODA |  
-| Companion app |  | Two points of failure, xDrip and companion app |  
+| BYODA |  | Two points of failure \*, xDrip and BYODA |  
+| Companion app |  | Two points of failure \*, xDrip and companion app |  
+
+\* If either xDrip or the other app goes down, you will have no readings in xDrip.  
 
   
