@@ -6,7 +6,7 @@ xDrip cannot upload to Clarity.
   
 ---  
   
-### Reports  
+### **Reports**  
 Clarity is not the only way to create a report for your doctor.  
 xDrip can upload to Tidepool and you can use Tidepool to create reports.  
 
@@ -15,7 +15,7 @@ You can use Nightscout, or even xDrip, and a simple word processor to create a r
 
 ---  
   
-### Doctor suggests Clarity  
+### **Doctor suggests Clarity**  
 Your doctor is an important member of your team and you need to work with them.  
 So, you should not disagree with your doctor.  But, you can ask questions.  You can show your dcotor a report and ask if he/she may find it acceptable even though it is not Clarity.  
 That's what I did and when my doctor saw my report, she was happy with it and never asked for Clarity anymore.  
@@ -23,13 +23,13 @@ That's what I did and when my doctor saw my report, she was happy with it and ne
 
 ---  
   
-### What's wrong with Clarity?  
+### **What's wrong with Clarity?**  
 There is nothing wrong with Clarity itself.  But, since xDrip cannot upload to it, you will have to use a different app that can upload to clarity and have it pass the readings to xDrip.  Then, if either xDrip or that app goes down, you will have no readings in xDrip.  
 <br/>  
 
 ---  
   
-### If Clarity is a requirement  
+### **If Clarity is a requirement**  
 If your doctor does not accept your suggestion to use an alternative report or your insurance requires that you use Clarity, you will have to use Clarity.  
 
 #### **Dexcom receiver**  
