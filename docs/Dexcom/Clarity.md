@@ -44,4 +44,14 @@ If it has an option for the Dexcom sensor you use and if it has the option to br
   
 #### **Companion app**  
 You can run Dexcom app on your phone and use the [Companion app](../Follow/CompanionApp.md) mode in xDrip to pass the readings to xDrip.  
-  
+<br/>  
+
+---  
+
+### **Summary**  
+|                 | Advantage | Disadvantage |  
+| --------------- | --------- | ------------ |  
+| xDrip collector | Easy | No Clarity |  
+| Receiver | Easy xDrip setup | Needs a receiver |  
+| BYODA |  | Two points of failure, xDrip and BYODA |  
+| Companion app |  | Two points of failure, xDrip and companion app |  
