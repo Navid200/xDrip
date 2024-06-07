@@ -31,3 +31,15 @@ There is nothing wrong with Clarity itself.  But, since xDrip cannot upload to i
   
 #### **If Clarity is a requirement**  
 If your doctor does not accept your suggestion to use an alternative report or your insurance requires that you use Clarity, you will have to use Clarity.  
+
+#### **Dexcom receiver**  
+Dexcom recceiver can upload to Clarity.  If you get a Dexcom receiver, you can carry it with you and it can coexist with an app like xDrip collecting from the same Dexcom device.  
+Once a month, you can connect the receiver using a USB cable to your computer to upload to Clarity.  
+
+If you use G7, or One+, you only need to turn on the receiver once a day as G7 backfills 24 hours.  
+
+#### **BYODA**  
+You can try [BYODA](../DexcomAppxDrip.md).  
+If it has an option for the Dexcom sensor you use and if it has the option to broadcast to xDrip, you will be able to get readings in xDrip.  
+
+  
