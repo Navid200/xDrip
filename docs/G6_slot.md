@@ -3,7 +3,7 @@
 
 **<span style="color:red">WARNING</span>**  
 This feature was added and placed behind engineering mode for verification before being offered as a feature.  
-Unfortunately, tests have shown unexpected results.  Some transmitters have even been permanently disabled as a results.  
+Unfortunately, tests have shown unexpected results.  Some transmitters have even been permanently disabled as a result.  
 That's why it has not been removed from engineering mode.  
 Therefore, for now, the use of this feature is not recommended.  
 <br/>  
