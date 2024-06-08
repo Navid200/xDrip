@@ -26,10 +26,10 @@ You are welcome to use it.  But, please consult with a medical professional (End
  [G5/G6 Transmitter Lifetime](./Transmitter-lifetime.md)  
   
 #### **How to**
-#### [Start G7](./Dexcom/G7.md)
-#### [Use G7 grace period](./Dexcom/G7_Grace.md)
+#### [Start G7 or One+](./Dexcom/G7.md)
+#### [Use G7, or One+, grace period](./Dexcom/G7_Grace.md)
 #### [Start a subsequent G7 or One+](./Dexcom/SubsequentG7.md)
-#### [Stop a G7](./Dexcom/WhyNoG7Stop.md)
+#### [Stop a G7 or One+](./Dexcom/WhyNoG7Stop.md)
 #### [Start G6 (or Dex1) transmitter](./Starting-G6.md)
 #### [Stop and start a G6 or Dex1 sensor](./Dexcom/StartG6Sensor.md)
 #### [Use Dexcom One](./Dexcom-One.md)
