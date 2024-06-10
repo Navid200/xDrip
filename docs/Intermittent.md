@@ -12,10 +12,10 @@ This behavior interferes with proper operation of xDrip.  As a result, when you 
 It is hard to provide instructions for all available brands and models of handsets.  Please use what follows as a method for tweaking your device to find the best settings.  The following link is an example of tips for one particular brand of phone.  Search for something similar for your phone brand.  
 [https://dontkillmyapp.com/xiaomi](https://dontkillmyapp.com/xiaomi)
   
-#### 1. If you are using an xDrip release older than the current stable release, please [update](./Updates.md).
+#### 1. If you are using an xDrip release older than the current stable release, please [update](./Updates.md).  For G7, [see this](./Dexcom/G7.md).  
 #### 2. Start from the recommended settings:
 #### [G5](./G5-Recommended-Settings.md)
-#### [G6/Dex1 or G7](./G6-Recommended-Settings.md)
+#### [G6/Dex1 or G7/1+](./G6-Recommended-Settings.md)
 #### 3. Disable any battery optimization/adaptation settings you can find under Android Settings &#8722;> Battery.  
 For example, for Samsung, go to Settings &#8722;> Device care &#8722;> Battery, and disable "Power saving".  Then, tap on "Background usage limits", and disable "Put unused apps to sleep".  
 #### 4. Look at Bluetooth Battery Optimization [here](./Dexcom-Basics.md).  Set it to not optimized or unrestricted.
