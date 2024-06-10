@@ -25,7 +25,8 @@ For example, for Samsung, go to Settings &#8722;> Device care &#8722;> Battery, 
 
 If it keeps disconnecting, please use what follows as a method for tweaking your device to find the best settings.  
   
-#### A. Enable "Special Pairing Workaround" even if you are not using a Samsung.
+#### A. Enable "Special Pairing Workaround" even if you are not using a Samsung.  
+  
 #### B. If you still get a disconnect more than once a week, try enabling "Avoid Scanning".  
   
 If the problem persists, please [open a discussion](https://github.com/NightscoutFoundation/xDrip/discussions).  
