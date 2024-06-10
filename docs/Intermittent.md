@@ -4,7 +4,7 @@
 If you have no connectivity at all, [transmitter connectivity troubleshooting](./Connectivity-troubleshoot.md) may help.  
 If you have connectivity and readings, but occasionally experience a disconnect, this page may help.  
   
-xDrip needs to wake up and scan once every 5 minutes in order to maintain connectivity and provide consistent readings.  The rest of the time, xDrip is sleep, running in the background, to avoid draining the battety.  
+xDrip needs to wake up and scan once every 5 minutes in order to maintain connectivity and provide consistent readings.  The rest of the time, xDrip is sleep, running in the background, to avoid draining the battery.  
 New versions of Android have features to extend the phone battery run time by minimizing background activity.  
 The phone manufacturers also include their methods for accomplishing the same.  
 This behavior interferes with proper operation of xDrip.  As a result, when you first install xDrip on Android 10 or newer releases of Android, it is almost guaranteed it will have connectivity issues.  
