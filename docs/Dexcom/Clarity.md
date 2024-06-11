@@ -1,4 +1,4 @@
-## Clarity
+## xDrip and Clarity
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Clarity  
   
 xDrip can directly collect from [G6/Dexcom One](../Starting-G6.md), or [G7/One+](./G7.md).  
