@@ -1,6 +1,7 @@
 ## Clarity
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Clarity  
   
+xDrip can directly collect from [G6/Dexcom One](../Starting-G6.md), or [G7/One+](./G7.md).  
 xDrip cannot upload to Clarity.  
 <br/>  
   
@@ -52,5 +53,7 @@ You can run Dexcom app on your phone and use the [Companion app](../Follow/Compa
 | Companion app |  | Two points of failure \*, xDrip and companion app |  
 
 \* If either xDrip or the other app goes down, you will have no readings in xDrip.  
+<br/>  
+
 
   
