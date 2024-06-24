@@ -16,6 +16,11 @@ If you use a G5 in non-[native](./Native-Algorithm) mode, or if you use a G5 (or
 ---  
   
 #### **Notifications**  
-You can enable sensor expiry notifications under [Alerts](./Alerts_page.md).  
-When enabled, you will receive notifications 24 hours, 9 hours and 2 hours before expiry.  
+You can enable sensor expiry notifications at `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Extra Alerts` &#8722;> `Sensor expiry`.  
+When enabled, you will receive notifications 24 hours, 12 hours, 9 hours and 2 hours before expiry.  
+<br/>  
+
+---  
+
+#### [Alerts](./Alerts_page.md)  
   
