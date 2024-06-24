@@ -16,8 +16,11 @@ If you use a G5 in non-[native](./Native-Algorithm) mode, or if you use a G5 (or
   
 #### **Non-intrusive Notifications**  
 You can enable sensor expiry notifications at `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Extra Alerts` &#8722;> `Sensor expiry`.  
-When enabled, you will receive notifications 24 hours, 12 hours, 9 hours and 2 hours before expiry, when the phone charger is connected ot disconnected or when you unlock the screen.  
-Therefore, you will not get a notification if you are sleeping.  
+When enabled, you will receive notifications 24 hours, 12 hours, 9 hours and 2 hours before expiry, when you connect or disconnect the phone charger or when you unlock the screen.  
+Therefore, you will not get a notification when sleeping.  
+
+If you want a notification even when sleeping, you will need to set up a reminder/alarm.  For example, you can use Google clock to set an alarm.  
+  
 <br/>  
 
 ---  
