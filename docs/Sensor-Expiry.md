@@ -11,7 +11,6 @@ Enable "Show Sensor Expiry".
   
 If you use a G5 in non-[native](./Native-Algorithm) mode, or if you use a G5 (or an old G6) and have enabled [preemptive restart](./Preemptive-Restart), your sensor will not stop.  But, if you enable this setting, it will show on the main screen that it will.  So, you should disable this setting in those cases.  
 <br/>  
-<br/>  
   
 ---  
   
