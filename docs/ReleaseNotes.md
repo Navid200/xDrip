@@ -7,7 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
-| [2024.06.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.25) | Dex cleanup - LinX companion - Compiler cleanup - Dex share follow server |  
+| [2024.06.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.25) | Dex cleanup - LinX companion - Compiler cleanup - Dex share follow server - G7 stop gone 4 good |  
 | [2024.06.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.11) | Libre new serial # - G7 expiry notification |  
 | [2024.06.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.01) | Snooze menu fix - Dex menu cleanup |  
 | [2024.05.29](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.29) | Android 6 is retired |  
