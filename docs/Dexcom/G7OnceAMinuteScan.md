@@ -3,7 +3,7 @@
   
 A G7 (or One+) device transmits once every 5 minutes.  
 The communication between a G7 and an app is a two-way communication.  There is an acknowledgement mechanism involved.  
-If a G7 misses three consecutive acknowledgements (15 minutes), it switches to once a minute transmissions in order to help to reconnect faster, and this will continue for 12 hours or until the app successfully reconnects.  
+If a G7 misses three consecutive acknowledgements (15 minutes), it switches to once a minute transmission (rapid reconnect) in order to help to reconnect faster, and this will continue for 12 hours or until the app successfully reconnects.  
   
 xDrip scans once every 5 minutes on a regular basis.  However, when there is a disconnect, xDrip scans more frequently if `Settings` &#8722;> `Less common settings` &#8722;> `Aggressive service restarts` is enabled.  This has existed in xDrip since 2016 and is enabled by default.  You should never disable it.  
   
