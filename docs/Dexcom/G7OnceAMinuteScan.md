@@ -16,6 +16,7 @@ If you like to verify this for yourself, you can install this [scanner](https://
 
 Look at the list of connected or previously connected devices on your phone.  Identify the one starting with DXCM or DX02.  
 Monitor the scanner until you see the same device name.  It may take up to 5 minutes.  It will become highlighted once every 5 minutes for a few seconds.  This is when the transmitter is transmitting.  Pay attention and take a note of the exact time it becomes highlighted next time.  
+  
 Now, put your phone in the microwave.  
 Continue to monitor the scanner.  You will see that the transmitter continues to transmit once every 5 minutes for 3 more times.  After that, it will transmit every minute.  
 When that happens, remove your phone from the microwave.  You will see that xDrip reconnects and shows readings the next time the transmitter transmits even if it is not on the original once-every-5-minute grid.  
