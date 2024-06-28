@@ -21,6 +21,7 @@ You are welcome to use it.  But, please consult with a medical professional (End
 #### [Session in progress](./Session-in-progress.md)
 #### [Proper Connectivity](./Proper-connectivity.md)
 #### [Native algorithm - mode](./Native-Algorithm.md)
+#### [G7 rapid reconnect](./Dexcom/G7OnceAMinuteScan.md)
 #### [Preemptive Restart](./Preemptive-Restart.md)
 #### [Transmitter Queue](./Transmitter-Queue.md)
  [G5/G6 Transmitter Lifetime](./Transmitter-lifetime.md)  
