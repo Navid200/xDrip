@@ -1,4 +1,4 @@
-## G7 Once a minute scan mode  
+## G7 rapid reconnect  
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Dexcom G7 once a minute scan  
   
 A G7 (or One+) device transmits once every 5 minutes.  
