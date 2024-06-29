@@ -1,5 +1,5 @@
 ## G6, Dex1, G7 or One+ xDrip Recommended Settings  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> G6 or G7 recommended settings  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Dexcom collector recommended settings  
   
 xDrip Dexcom G6, Dexcom One, G7 or One+ recommended settings  
   
