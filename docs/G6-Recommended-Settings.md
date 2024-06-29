@@ -8,7 +8,6 @@ These are the recommended G6, Dexcom ONE or G7 settings when using xDrip as a co
 * You should use an xDrip [version](./xDrip-Version.md) not older than the current stable release.  Please [update](./Updates.md) accordingly.   
   
 * `Settings` &#8722;> [`G5/G6/Dex1 Debug Settings`](./images/g6-recommended-settings.png)  
-Enable all recommended settings (settings in the diagram with checkmarks) even if you see "G5" in the description.  
 
 * `Settings` &#8722;> `Less common settings` &#8722;> [`Other misc options`](./images/other-misc-recommended.png)  
 
@@ -29,3 +28,6 @@ Enable all recommended settings (settings in the diagram with checkmarks) even i
 * For Android 11 or newer, enable background location access as explained [here](./Location.md).  
 
 * Restart the phone.  
+
+* If it disconnects, see [this](./Connectivity-troubleshoot.md).  
+  
