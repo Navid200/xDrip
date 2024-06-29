@@ -7,7 +7,7 @@ Click/tap on the hyperlinks to see the details.  After a fresh install of xDrip,
 
 * You should use an xDrip [version](./xDrip-Version.md) not older than the current stable release.  Please [update](./Updates.md) accordingly.   
   
-* `Settings` &#8722;> [`G5/G6/Dex1 Debug Settings`](./images/g6-recommended-settings.png)  
+* `Settings` &#8722;> [`Dex Debug Settings`](./images/g6-recommended-settings.png)  
 
 * `Settings` &#8722;> `Less common settings` &#8722;> [`Other misc options`](./images/other-misc-recommended.png)  
 
