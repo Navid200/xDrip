@@ -3,7 +3,7 @@
   
 xDrip Dexcom G6, Dexcom One, G7 or One+ recommended settings  
   
-These are the recommended G6, Dexcom ONE or G7 settings when using xDrip as a collector.  Click/tap on the hyperlinks to see the details.  After a fresh install of xDrip, running the source wizard will result in these same settings.  If you see a discrepancy, please let me know.  
+Click/tap on the hyperlinks to see the details.  After a fresh install of xDrip, running the source wizard will result in these same settings.  If you see a discrepancy, please let me know.  
 
 * You should use an xDrip [version](./xDrip-Version.md) not older than the current stable release.  Please [update](./Updates.md) accordingly.   
   
