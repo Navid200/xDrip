@@ -2,12 +2,12 @@
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [Nightscout](Nightscout_page.md) >> Nightscout master
   
 To enable Nightscout uploader (master), go to the following page.  
-Settings &#8722;> Cloud Upload &#8722;> Nightscout Sync (REST-API)  
+`Settings` &#8722;> `Cloud Upload` &#8722;> `Nightscout Sync (REST-API)`  
   
 ![](./images/NightscoutPage.png)  
 
 At the top of the page, enable the function.  
-Tap on Base URL.  Enter the following:  
+Tap on `Base URL`.  Enter the following:  
 https<nolink>://password@hostname/api/v1/  
 
 "password" is the "API_SECRET" you can find in your Nightscout variables.  
@@ -17,6 +17,11 @@ https<nolink>://password@hostname/api/v1/
   
 ---  
 
+#### **[Nightscout](./Nightscout_page.md)**  
+<br/>  
+  
+---  
+  
 #### **Disable a follower**  
 To disable a follower from following you, you will need to remove the token corresponding to the follower.  
 If the follower uses the same token used by other followers, you will have to change the token and inform the followers that you want to continue to follow you.  
