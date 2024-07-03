@@ -10,3 +10,7 @@ If there is an item in the queue, you can see the queue on the G5/G6 status page
 As long as you can see an item in the queue, the transmitter has not received the corresponding command.  Therefore, you should not issue another command.  
 But, more importantly, you should not issue a command if there is no [proper connectivity](./Proper-connectivity) with the transmitter.  
   
+If you do, you could end up in a locked situation where you will not be able to establish connectivity.  
+If you can see a command in the queue longer than 5 minutes and you cannot establish connectivity, you should [clear the queue](./Clear-queue.md).  
+
+  
