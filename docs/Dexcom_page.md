@@ -24,6 +24,7 @@ You are welcome to use it.  But, please consult with a medical professional (End
 #### [G7 rapid reconnect](./Dexcom/G7OnceAMinuteScan.md)
 #### [Preemptive Restart](./Preemptive-Restart.md)
 #### [Transmitter Queue](./Transmitter-Queue.md)
+#### [The differences between G6 and Dexcom One](./Dexcom/G6vsOne.md)
 #### [The differences between G7 and One+](./Dexcom/G7vsOneP.md)
  [G5/G6 Transmitter Lifetime](./Transmitter-lifetime.md)  
   
