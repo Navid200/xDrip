@@ -1,4 +1,4 @@
-## A comparison between G6 and One  
+## A comparison between G6 and Dexcom One  
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> G6 versus One   
   
 This is from the Dexcom UK site:  
