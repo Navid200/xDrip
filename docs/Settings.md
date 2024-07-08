@@ -38,3 +38,9 @@ Clearing the Dexcom queue is another example.  If you follow the guidelines for 
 Tap on the dropper symbol on the main screen.  
 ![](./images/syringe-symbol.png)  
   
+Long press on the microphone symbol. A form will open up.  
+![](./images/treatment-menu.png)  
+  
+Type and enter the voice command in it.  
+
+  
