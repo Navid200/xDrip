@@ -49,8 +49,8 @@ You can run Dexcom app on your phone and use the [Companion app](../Follow/Compa
 | --------------- | --------- | ------------ |  
 | xDrip collector | Easy | No Clarity |  
 | Receiver | Easy xDrip setup | Needs a receiver |  
-| BYODA |  | Two points of failure \*, xDrip and BYODA |  
-| Companion app |  | Two points of failure \*, xDrip and companion app |  
+| BYODA | Clarity | Not every sensor BYODA can broadcast to xDrip - Two points of failure \*, xDrip and BYODA |  
+| Companion app | Clarity | Two points of failure \*, xDrip and companion app |  
 
 \* If either xDrip or the other app goes down, you will have no readings in xDrip.  
 <br/>  
