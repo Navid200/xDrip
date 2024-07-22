@@ -31,7 +31,6 @@ Every sensor has a 4-digit calibration code as shown in the following image.  Yo
 ---  
 
 #### **xDrip**  
-xDrip supports Android 6 and newer versions of Android.  
 You cannot use xDrip and Dexcom app both as collectors.  So, you should uninstall Dexcom app.  
   
 1. Unless otherwise advised by an xDrip developer, [download](./Download-xDrip.md) and [install](./Install.md) the current stable release of xDrip.  
