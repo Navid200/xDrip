@@ -3,7 +3,8 @@ layout: GCNS
 ---
 
 ## Utilities  
-[Google Cloud Nightscout](../GoogleCloud.md) >> Utilities  
+[Google Cloud Nightscout](../GoogleCloud.md) >> Google Cloud Nightscout Utilities  
+<br/>  
   
 #### [Backup](../DatabaseBackup.md)
 #### [Restore](../DatabaseRestore.md)
