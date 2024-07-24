@@ -7,7 +7,6 @@ layout: GCNS
 <br/>     
   
 #### [Introduction](./GCNS/GCNS_Introduction.md)  
-<br/>  
   
 ---  
   
