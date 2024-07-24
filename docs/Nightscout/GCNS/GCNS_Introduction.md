@@ -2,8 +2,8 @@
 layout: GCNS
 ---
 
-## Google Cloud Nightscout Introduction  
-[xDrip](../../../README.md) >> [Features](../../Features_page.md) >> [Nightscout](../../Nightscout_page.md) >> Google Cloud Nightscout Introduction  
+## Introduction  
+[Google Cloud Nightscout](../GoogleCloud.md) >> Google Cloud Nightscout Introduction  
   
 ####          **Credits**  
 Thanks to JamOrHam, the current xDrip lead developer, for the idea, putting it together, implementing the installer, testing everything, and providing instructions.  
