@@ -2,8 +2,8 @@
 layout: GCNS
 ---
 
-## How to  
-[Google Cloud Nightscout](../GoogleCloud.md) >> Google Cloud Nightscout How to  
+## Tips  
+[Google Cloud Nightscout](../GoogleCloud.md) >> Google Cloud Nightscout Tips  
 <br/>  
   
 #### [Use menus](../HowToMenu.md)
@@ -19,6 +19,12 @@ layout: GCNS
 #### [Update Nightscout](../update_nightscout.md)
 #### [Install Nightscout dev branch](../NightscoutDevBranch.md)
 #### [Create a cost table](../CostTable.md)
-#### [Import MongoDB from Atlas](../HerokuGone.md)  
+#### [Import MongoDB from Atlas](../HerokuGone.md)
+#### [Terminal](../Terminal.md)
+#### [Menus](../Menu.md)
+#### [Heroku variables](../HerokuVars.md)
+#### [Release notes](../GC_ReleaseNotes.md)
+#### [Security](../Security.md)
+#### [Snapshots](../Snapshots.md) (Advanced)
   
   
