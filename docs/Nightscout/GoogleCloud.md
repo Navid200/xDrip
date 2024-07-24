@@ -10,6 +10,8 @@ layout: GCNS
 #### [Introduction](./GCNS/GCNS_Introduction.md)  
   
 ---  
+
+<br/>  
   
 ####          **Installation** (15.0.2)
 #### 1- [FreeDNS sign up](./FreeDNS.md)
@@ -18,7 +20,6 @@ layout: GCNS
 #### 4- [Linux/Nightscout install](./NS_Install.md)
 #### 5- [Setting up Nightscout](./NS_setup.md)
 #### 6- [Setting up followers](./NS_Followers.md)  
-<br/>  
 <br/>  
   
 ---  
