@@ -6,7 +6,7 @@ layout: GCNS
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> Google Cloud Nightscout  
 <br/>     
   
-#### [Introduction](./GCNS_Introduction.md)  
+#### [Introduction](./GCNS/GCNS_Introduction.md)  
 <br/>  
   
 ---  
