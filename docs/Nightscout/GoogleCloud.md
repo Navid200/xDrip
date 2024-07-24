@@ -4,7 +4,8 @@ layout: GCNS
 
 ## Google Cloud Nightscout  
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> Google Cloud Nightscout  
-<br/>     
+<br/>  
+<br/>  
   
 #### [Introduction](./GCNS/GCNS_Introduction.md)  
   
@@ -17,6 +18,7 @@ layout: GCNS
 #### 4- [Linux/Nightscout install](./NS_Install.md)
 #### 5- [Setting up Nightscout](./NS_setup.md)
 #### 6- [Setting up followers](./NS_Followers.md)  
+<br/>  
 <br/>  
   
 ---  
