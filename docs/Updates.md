@@ -17,7 +17,7 @@ But, it's best to at least update to the current stable release.
 
 ---  
 
-#### **How to only update in your chosen channel**  
+#### **How to update in your chosen channel**  
 From the 3-dot menu button at the top right corner of the main screen, tap on `Check for updated version`.  
   
 ![](./images/3dotMenu.png)  
@@ -25,8 +25,6 @@ From the 3-dot menu button at the top right corner of the main screen, tap on `C
 ![](./images/CheckForUpdate.png)  
   
 If there has been an update in your update channel, it will be downloaded into your Download folder, and you can install it by tapping on it.  
-
-To update to a release that is not in your update channel, please continue to read.  
 <br/>   
   
 ---  
@@ -45,7 +43,7 @@ You will be informed only when there is an update in your selected channel when 
   
 | Channel | Description | Average Frequency |  
 |:--------------:|:-----------: | :--------: |   
-| Nightly        | Most up-to-date but least tested | Twice a month |  
+| Nightly        | Most up-to-date but least tested | Once a week |  
 | Alpha          | Earlier release than beta | Twice a year |  
 | Beta / Stable  | Most tested (default) | Twice a year |  
   
@@ -54,11 +52,10 @@ You will be informed only when there is an update in your selected channel when 
 ---  
   
 #### **Select update channel or automatic check**  
-To select an update channel, access [Main Settings](./Settings.md) &#8722;> `xDrip+ Update Settings`.  
+Access [Main Settings](./Settings.md) &#8722;> `xDrip+ Update Settings`.  
 ![](./images/auto_update.png)  
-You need to choose alpha in order for the nightly option to become visible.  After selecting the alpha channel, return to the main screen.  Then, go back to the Update Settings page and you will see the Nightly as an option now.  
-To use the auto update check, enable Automatic update check.  
-Now, you will be notified when there is a new release in your selected channel.  
+You need to choose alpha in order for the nightly option to become visible.  After selecting the alpha channel, return to the main screen.  Then, go back to the Update Settings page and you will see the Nightly as an option.  
+To use the auto update check, enable Automatic update check, which will notify you when there is a new release in your selected channel.  
 <br/>  
   
 ---  
