@@ -43,11 +43,11 @@ You can choose one of four update channels, Nightly (pre-release), Alpha, Beta a
   
 You will be informed only when there is an update in your selected channel when you check for updates or if you enable `Automatic update check`.  
   
-| Channel | Description |  
-|:--------------:|:-----------: |  
-| Nightly        | Most up-to-date but least tested |  
-| Alpha          | Less up-to-date / more tested than Nightly |  
-| Beta / Stable  | Most tested (default) |  
+| Channel | Description | Average Frequency |  
+|:--------------:|:-----------: | :--------: |   
+| Nightly        | Most up-to-date but least tested | Twice a month |  
+| Alpha          | Earlier release than beta | Twice a year |  
+| Beta / Stable  | Most tested (default) | Twice a year |  
   
 <br/>  
   
