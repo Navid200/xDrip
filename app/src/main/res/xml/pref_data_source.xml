@@ -192,11 +192,21 @@
             android:singleLine="true"
             android:summary="@string/summary_nsfollow_url"
             android:title="@string/title_nsfollow_url" />
-        <CheckBoxPreference
-            android:defaultValue="false"
-            android:key="nsfollow_download_treatments"
-            android:summary="@string/summary_nsfollow_download_treatments"
-            android:title="@string/title_nsfollow_download_treatments" />
+        <PreferenceScreen
+            android:key="nsfollow_download_treatments_screen"
+            android:title="@string/title_nsfollow_download_treatments">
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:key="nsfollow_download_treatments"
+                android:summary="@string/summary_nsfollow_download_treatments"
+                android:title="@string/title_nsfollow_download_treatments" />
+            <SwitchPreference
+                android:defaultValue="true"
+                android:dependency="nsfollow_download_treatments"
+                android:key="cloud_storage_api_skip_download_from_xdrip"
+                android:summary="@string/summary_cloud_storage_api_download_from_xdrip"
+                android:title="@string/title_cloud_storage_api_download_from_xdrip" />
+        </PreferenceScreen>
         <ListPreference
             android:defaultValue="0"
             android:key="nsfollow_lag"
@@ -222,6 +232,11 @@
             android:singleLine="true"
             android:summary="Login password for Dex Share Following"
             android:title="Share Password" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="dex_share_us_acct"
+            android:summary="Your account and follower app are from the USA"
+            android:title="US Servers" />
 
         <ListPreference
             android:defaultValue="gb"
@@ -399,20 +414,6 @@
                     android:key="dex_specified_slot"
                     android:summary="@string/summary_dex_specified_slot"
                     android:title="@string/title_dex_specified_slot" />
-            </PreferenceCategory>
-            <PreferenceCategory
-                android:key="old_g5_options"
-                android:title="@string/title_old_g5_options">
-                <CheckBoxPreference
-                    android:defaultValue="false"
-                    android:key="run_ble_scan_constantly"
-                    android:summary="@string/g5_scan_constantly"
-                    android:title="@string/scan_for_g5_constantly" />
-                <CheckBoxPreference
-                    android:defaultValue="false"
-                    android:key="run_G5_ble_tasks_on_uithread"
-                    android:summary="@string/g5_force_ui_thread"
-                    android:title="@string/force_g5_ui_thread" />
             </PreferenceCategory>
             <PreferenceCategory
                 android:key="dex_battery_category"

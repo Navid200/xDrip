@@ -1707,6 +1707,7 @@
     <string name="reduce_battery_and_network_overhead">Sumažinkite akumuliatoriaus ir tinklo sąnaudas naudodami paketinį apdorojimą ir neįtraukdami nereikalingų duomenų</string>
     <string name="simplify_graphs_by_smoothing_out_irregularities">Supaprastinti grafikus glodinant nelygumus</string>
     <string name="graph_smoothing">Grafiko glodinimas</string>
+    <string name="enable_graph_smoothing">Įjungti</string>
     <string name="last_reading">Paskutinis rodmuo</string>
     <string name="select_file_for_alert">Pasirinkite aliarmo toną</string>
     <string name="cannot_choose_file_without_permission">Negalima pasirinkti failo, nes nėra saugyklos leidimo</string>
@@ -1786,4 +1787,5 @@
     <string name="summary_Lib2_show_sense_on_status">Įjungti papildomos Libre 2 sensoriaus informacijos rodymą statuse</string>
     <string name="import_qr_code_warning">Importuokite nustatymus tik iš tų šaltinių, kuriais pasitikite!\n\nPatvirtinkite šių nustatymų importą:\n\n</string>
     <string name="scan_to_load_xdrip_settings">Skenuokite xDrip nustatymams įkelti</string>
+    <string name="reraise_alerts_before_snooze_time">Aktyvuoti aliarmą nepasibaigus nutildymo laikui</string>
 </resources>

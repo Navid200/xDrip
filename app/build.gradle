@@ -89,10 +89,10 @@ android {
 
     defaultConfig {
         applicationId "com.eveningoutpost.dexdrip"
-        minSdkVersion 23
+        minSdkVersion 24
         // increasing target SDK version can cause compatibility issues with Android 7+
         //noinspection ExpiredTargetSdkVersion
-        targetSdkVersion 23
+        targetSdkVersion 24
         // change versionCode only when downgrade should be prevented
         // eg, when data structures are incompatible
         versionCode 1603091400
@@ -216,7 +216,7 @@ android {
             // set minSdkVersion to 21 or higher. When using Android Studio 2.3 or higher,
             // the build automatically avoids legacy multidex when deploying to a device running
             // API level 21 or higher—regardless of what you set as your minSdkVersion.
-            minSdkVersion 23
+            minSdkVersion 24
             versionNameSuffix "-dev"
             buildConfigField "int", "buildVersion", "2021010100"
             buildConfigField "String", "buildUUID", "\"0f79a60a-5616-99be-8eb1-a430edcfd9fd\""
@@ -340,6 +340,11 @@ dependencies {
     annotationProcessor 'com.google.dagger:dagger-compiler:2.25.4'
     implementation 'net.danlew:android.joda:2.10.6.1'
     implementation 'org.bouncycastle:bcpkix-jdk15to18:1.68'
+
+    def appCenterSdkVersion = '4.4.5'
+    implementation "com.microsoft.appcenter:appcenter-analytics:${appCenterSdkVersion}"
+    implementation "com.microsoft.appcenter:appcenter-crashes:${appCenterSdkVersion}"
+
     testImplementation 'joda-time:joda-time:2.10.7'
 
     testImplementation 'junit:junit:4.13.2'
@@ -364,9 +369,12 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.0', {
         exclude group: 'com.android.support', module: 'support-annotations'
     }
-    androidTestImplementation 'androidx.test.ext:junit:1.1.1', {
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5', {
         exclude group: 'com.android.support', module: 'support-annotations'
     }
+    androidTestImplementation 'androidx.test:rules:1.2.0'
+    androidTestImplementation 'androidx.test.uiautomator:uiautomator:2.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-contrib:3.1.0'
     androidTestImplementation 'androidx.test.espresso:espresso-idling-resource:3.1.0'
     // add this for intent mocking support
     //androidTestImplementation 'com.android.support.test.espresso:espresso-intents:3.0.1'

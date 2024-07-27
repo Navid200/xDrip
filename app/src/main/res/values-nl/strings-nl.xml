@@ -1666,6 +1666,7 @@
     <string name="please_wait_seconds_before_trying_to_start_sensor">Wacht %d seconden voordat u de sensor probeert te starten</string>
     <string name="please_update_OOP2_or_move_to_calibrate_based_on_raw_mode">Update OOP2 of gebruik kalibreren op basis van ruwe modus</string>
     <string name="special_pairing_workaround">Workaround voor speciale koppeling</string>
+    <string name="enable_graph_smoothing">Inschakelen</string>
     <string name="select_file_for_alert">Selecteer bestand voor alert</string>
     <string name="cannot_choose_file_without_permission">Kan geen bestand kiezen zonder opslagmachtiging</string>
     <string name="select_time">Selecteer tijd</string>
@@ -1678,4 +1679,5 @@
     <string name="summary_Lib2_show_raw_values">Inschakelen om ruwe waarden in grafiek weer te geven.</string>
     <string name="title_Lib2_show_sense_on_status">Toon sensorinfo in Status</string>
     <string name="summary_Lib2_show_sense_on_status">Inschakelen om extra informatie in Status voor Libre 2-sensor weer te geven.</string>
+    <string name="reraise_alerts_before_snooze_time">Verhoog waarschuwingen vóór de sluimertijd</string>
 </resources>

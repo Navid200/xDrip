@@ -82,6 +82,8 @@ import static com.eveningoutpost.dexdrip.services.Ob1G5CollectionService.STATE.G
 import static com.eveningoutpost.dexdrip.services.Ob1G5CollectionService.STATE.SCAN;
 import static com.eveningoutpost.dexdrip.services.Ob1G5CollectionService.android_wear;
 import static com.eveningoutpost.dexdrip.services.Ob1G5CollectionService.getTransmitterID;
+import static com.eveningoutpost.dexdrip.services.Ob1G5CollectionService.ignoreBonding;
+import static com.eveningoutpost.dexdrip.services.Ob1G5CollectionService.immediateBonding;
 import static com.eveningoutpost.dexdrip.services.Ob1G5CollectionService.onlyUsingNativeMode;
 import static com.eveningoutpost.dexdrip.services.Ob1G5CollectionService.resetSomeInternalState;
 import static com.eveningoutpost.dexdrip.services.Ob1G5CollectionService.wear_broadcast;
@@ -90,6 +92,7 @@ import static com.eveningoutpost.dexdrip.utilitymodels.Constants.DAY_IN_MS;
 import static com.eveningoutpost.dexdrip.utilitymodels.Constants.HOUR_IN_MS;
 import static com.eveningoutpost.dexdrip.utilitymodels.Constants.MINUTE_IN_MS;
 import static com.eveningoutpost.dexdrip.utilitymodels.Constants.SECOND_IN_MS;
+import static com.eveningoutpost.dexdrip.utils.DexCollectionType.getBestCollectorHardwareName;
 import static com.eveningoutpost.dexdrip.utils.bt.Helper.getStatusName;
 
 
@@ -131,8 +134,10 @@ public class Ob1G5StateMachine {
     private static volatile AuthRequestTxMessage lastAuthPacket;
     private static volatile boolean backup_loaded = false;
     private static final int OLDEST_RAW = 300 * 24 * 60 * 60; // 300 days
+    private static long relAutoSessionStartTime = HOUR_IN_MS * 3;
 
     public static long maxBackfillPeriod_MS = 0;
+
     public static long maxBackfillPeriod_MS() {
         maxBackfillPeriod_MS = MAX_BACKFILL_PERIOD_MS;
         if (shortTxId()) { // If using G7
@@ -140,6 +145,7 @@ public class Ob1G5StateMachine {
         }
         return maxBackfillPeriod_MS;
     }
+
     public static int backfillCheckLarge() {
         return (int) (maxBackfillPeriod_MS() / DEXCOM_PERIOD);
     }
@@ -272,7 +278,7 @@ public class Ob1G5StateMachine {
         connection.setupNotification(ExtraData)
                 .timeout(15, TimeUnit.SECONDS) // WARN
                 .doOnNext(notificationObservable -> {
-                    UserError.Log.d(TAG,"Extra data notifications enabled");
+                    UserError.Log.d(TAG, "Extra data notifications enabled");
                     connection.setupIndication(Authentication)
                             .timeout(15, TimeUnit.SECONDS) // WARN
                             .doOnNext(notificationObservable2 -> doNext(parent, connection))
@@ -289,14 +295,14 @@ public class Ob1G5StateMachine {
                                         doNext(parent, connection);
                                     }
                                 } catch (Exception e) {
-                                    UserError.Log.e(TAG,"Got exception in plugin: " + e);
+                                    UserError.Log.e(TAG, "Got exception in plugin: " + e);
                                     parent.lastSensorStatus = e.getMessage();
                                     if (e instanceof InvalidParameterException) {
                                         parent.resetSomeInternalState();
                                     } else if (e instanceof SecurityException) {
-                                         parent.logFailure();
-                                         parent.clearPersistStore();
-                                         parent.changeState(SCAN);
+                                        parent.logFailure();
+                                        parent.clearPersistStore();
+                                        parent.changeState(SCAN);
                                     } else {
                                         e.printStackTrace();
                                     }
@@ -323,7 +329,7 @@ public class Ob1G5StateMachine {
     private static void handleAuthenticationWrite(final Ob1G5CollectionService parent, final RxBleConnection connection) {
         final int specifiedSlot = Pref.getBooleanDefaultFalse("engineering_mode") ? Pref.getStringToInt("dex_specified_slot", -1) : -1;
         final AuthRequestTxMessage authRequest = (specifiedSlot == -1) ? new AuthRequestTxMessage(getTokenSize(), usingAlt())
-        : new AuthRequestTxMessage(getTokenSize(), specifiedSlot);
+                : new AuthRequestTxMessage(getTokenSize(), specifiedSlot);
         lastAuthPacket = authRequest;
         UserError.Log.i(TAG, "AuthRequestTX: " + bytesToHex(authRequest.byteSequence));
 
@@ -365,7 +371,7 @@ public class Ob1G5StateMachine {
                 // parent.reset_bond(true);
                 // parent.unBond(); // WARN
             } else {
-                UserError.Log.e(TAG, "authentication notification  throwable: (" + parent.getState() + ") " + throwable + " " + JoH.dateTimeText(tsl()));
+                UserError.Log.d(TAG, "authentication notification  throwable: (" + parent.getState() + ") " + throwable + " " + JoH.dateTimeText(tsl()));
                 parent.incrementErrors();
                 if (throwable instanceof BleCannotSetCharacteristicNotificationException
                         || throwable instanceof BleGattCharacteristicException) {
@@ -419,7 +425,7 @@ public class Ob1G5StateMachine {
                                                                 if (throwable instanceof OperationSuccess) {
                                                                     UserError.Log.d(TAG, "Stopping auth challenge listener due to success");
                                                                 } else {
-                                                                    UserError.Log.e(TAG, "Could not read reply to auth challenge: " + throwable);
+                                                                    UserError.Log.d(TAG, "Could not read reply to auth challenge: " + throwable);
                                                                     parent.incrementErrors();
                                                                     speakSlowly = true;
                                                                 }
@@ -882,7 +888,7 @@ public class Ob1G5StateMachine {
                             } else {
                                 parent.msg("Invalid Glucose");
                             }
-                        break;
+                            break;
 
 
                         case CalibrateRxMessage:
@@ -953,7 +959,7 @@ public class Ob1G5StateMachine {
 
                             switch (hex) {
                                 case "2E01":
-                                    UserError.Log.e(TAG, "Invalid settings, attempting to restore defaults");
+                                    UserError.Log.e(TAG, "Invalid settings, attempting to restore Dex defaults, Native mode, no plugin");
                                     setG6Defaults();
                                     break;
                             }
@@ -1096,8 +1102,10 @@ public class Ob1G5StateMachine {
         if (ask_for_backfill) {
             nextBackFillCheckSize = backfillCheckLarge();
             monitorBackFill(parent, connection);
-            final long startTime = Math.max(earliest_timestamp - (Constants.MINUTE_IN_MS * 5), sensor.started_at);
-            final long endTime = latest_timestamp + (Constants.MINUTE_IN_MS * 5);
+
+            final long txStartTime = DexTimeKeeper.getTxStartTimestamp(getTransmitterID()); // the time the transmitter reports as starting or 0 if we don't know
+            final long startTime = Math.max(earliest_timestamp - DEXCOM_PERIOD, Math.max(txStartTime + DEXCOM_PERIOD, sensor.started_at));
+            final long endTime = latest_timestamp + DEXCOM_PERIOD;
 
             if (startTime >= endTime) {
                 UserError.Log.e(TAG, "Cannot process backfill request where start time would be after end time");
@@ -1106,15 +1114,15 @@ public class Ob1G5StateMachine {
 
             UserError.Log.d(TAG, "Requesting backfill between: " + JoH.dateTimeText(startTime) + " " + JoH.dateTimeText(endTime));
 
-           if (!shortTxId()) {
-               enqueueUniqueCommand(
-                       BackFillTxMessage.get(getTransmitterID(), startTime, endTime),
-                       "Get backfill since: " + JoH.hourMinuteString(startTime));
-           } else {
-               enqueueUniqueCommand(
-                       BackFillTxMessage2.get(getTransmitterID(), startTime, endTime),
-                       "Get backfill2 since: " + JoH.hourMinuteString(startTime));
-           }
+            if (!shortTxId()) {
+                enqueueUniqueCommand(
+                        BackFillTxMessage.get(getTransmitterID(), startTime, endTime),
+                        "Get backfill since: " + JoH.hourMinuteString(startTime));
+            } else {
+                enqueueUniqueCommand(
+                        BackFillTxMessage2.get(getTransmitterID(), startTime, endTime),
+                        "Get backfill2 since: " + JoH.hourMinuteString(startTime));
+            }
         } else {
             nextBackFillCheckSize = BACKFILL_CHECK_SMALL;
         }
@@ -1123,6 +1131,7 @@ public class Ob1G5StateMachine {
     public static boolean shortTxId() {
         return getTransmitterID().length() < 6;
     }
+
 
     private static Ob1Work enqueueCommand(BaseMessage tm, String msg) {
         if (tm != null) {
@@ -1543,14 +1552,19 @@ public class Ob1G5StateMachine {
     }
 
     private static void checkAndActivateSensor() {
-        // automagically start an xDrip sensor session if  transmitter already has active sensor
-        if (!Sensor.isActive() && Ob1G5CollectionService.isG5SensorStarted() && !Sensor.stoppedRecently()) {
+        // automagically start an xDrip sensor session if transmitter already has active sensor
+        if (!Sensor.isActive() && Ob1G5CollectionService.isG5SensorStarted() && (!Sensor.stoppedRecently() || shortTxId())) {
             JoH.static_toast_long(xdrip.gs(R.string.auto_starting_sensor));
-            // TODO possibly here we want to look at last sensor stop time and not backtrack before that
-            Sensor.create(tsl() - HOUR_IN_MS * 3);
-            if (shortTxId()) { // If we are using G7
-                Sensor.create(tsl() - HOUR_IN_MS * 24);
+            if (shortTxId()) relAutoSessionStartTime = HOUR_IN_MS * 24; // If we are using a G7
+            final List<BgReading> last = BgReading.latest(1); // Last reading
+            if ((last != null) && (last.size() > 0)) { // Have we had a reading?
+                final long now = JoH.tsl();
+                final long since = now - last.get(0).timestamp; // Time since last reading
+                if (since < relAutoSessionStartTime) { // If the last reading was less than 3 hours ago, or if we are using G7 and the last reading was less than 24 hours ago
+                    relAutoSessionStartTime = since; // We will start the new session starting from the last reading.
+                }
             }
+            Sensor.create(tsl() - relAutoSessionStartTime);
         }
     }
 
@@ -1558,10 +1572,14 @@ public class Ob1G5StateMachine {
         if (glucose == null) return;
         lastGlucosePacket = tsl();
         DexTimeKeeper.updateAge(getTransmitterID(), glucose.timestamp);
+        if (glucose.calibrationState().warmingUp()) {
+            checkAndActivateSensor();
+        }
         if (glucose.usable() || (glucose.insufficient() && Pref.getBoolean("ob1_g5_use_insufficiently_calibrated", true))) {
             UserError.Log.d(TAG, "Got usable glucose data from transmitter!!");
-            final long rxtimestamp = tsl();
+            final long rxtimestamp = glucose.getRealTimestamp();
             checkAndActivateSensor();
+            DexSyncKeeper.store(getTransmitterID(), rxtimestamp, parent.static_last_connected, lastGlucosePacket);
             final BgReading bgReading = BgReading.bgReadingInsertFromG5(glucose.glucose, rxtimestamp);
             if (bgReading != null) {
                 try {
@@ -1587,7 +1605,7 @@ public class Ob1G5StateMachine {
             if (glucose.getPredictedGlucose() != null) {
                 // not really supported on wear yet
                 if (!android_wear) {
-                    Prediction.create(tsl(), glucose.getPredictedGlucose(), "EGlucoseRx").save();
+                    Prediction.create(rxtimestamp, glucose.getPredictedGlucose(), "EGlucoseRx").save();
                 }
             }
 
@@ -1707,11 +1725,12 @@ public class Ob1G5StateMachine {
             if (FirmwareCapability.isTransmitterG6(getTransmitterID())) {
                 if (!usingG6()) {
                     setG6Defaults();
-                    JoH.showNotification("Enabled G6", "G6 Features and default settings automatically enabled", null, Constants.G6_DEFAULTS_MESSAGE, false, true, false);
+                    JoH.showNotification("Enabled defaults", "Default settings automatically enabled", null, Constants.G6_DEFAULTS_MESSAGE, false, true, false);
                 } else if (!onlyUsingNativeMode() && !Home.get_engineering_mode()) {
                     // TODO revisit this now that there is scaling
                     setG6Defaults();
-                    JoH.showNotification("Enabled G6", "G6 Native mode enabled", null, Constants.G6_DEFAULTS_MESSAGE, false, true, false);
+                    UserError.Log.uel(TAG, "Dex Native mode enabled.  For your device, non-native mode is either not possible or not recommended.");
+                    JoH.showNotification("Enabled Native", "Native mode enabled", null, Constants.G6_DEFAULTS_MESSAGE, false, true, false);
                 }
             }
         }
@@ -1977,7 +1996,8 @@ public class Ob1G5StateMachine {
             @SuppressLint("GetInstance") final Cipher aesCipher = Cipher.getInstance("AES/ECB/PKCS7Padding");
             aesCipher.init(Cipher.ENCRYPT_MODE, secretKeySpec);
             return Arrays.copyOfRange(aesCipher.doFinal(plainText, 0, plainText.length), 0, 8);
-        } catch (NoSuchAlgorithmException | NoSuchPaddingException | IllegalBlockSizeException | BadPaddingException | InvalidKeyException e) {
+        } catch (NoSuchAlgorithmException | NoSuchPaddingException | IllegalBlockSizeException |
+                 BadPaddingException | InvalidKeyException e) {
             UserError.Log.wtf(TAG, "System Encryption problem: " + e);
             return null;
         }
@@ -2102,7 +2122,7 @@ public class Ob1G5StateMachine {
 
     public static boolean usingAlt() {
         return (android_wear && !Pref.getBooleanDefaultFalse("only_ever_use_wear_collector"))
-                || WholeHouse.isLive();
+                || (immediateBonding() && !ignoreBonding()) || WholeHouse.isLive();
     }
 
     private static class OperationSuccess extends RuntimeException {

@@ -950,10 +950,10 @@
             <SwitchPreference
                 android:defaultValue="true"
                 android:key="accept_nsclient_sgv"
-                android:title="Accept Glucose"
+                android:title="@string/accept_glucose"
                 android:switchTextOff="@string/short_off_text_for_switches"
                 android:switchTextOn="@string/short_on_text_for_switches"
-                android:summary="Process glucose data received from NSClient app" />
+                android:summary="@string/process_glucose_data_received" />
             <SwitchPreference
                 android:defaultValue="true"
                 android:key="accept_nsclient_treatments"
@@ -1022,7 +1022,7 @@
 
                 <SwitchPreference
                     android:key="health_connect_enable"
-                    android:title="Use Health Connect"
+                    android:title="@string/use_health_connect"
                     android:summary="@string/requires_android_8_and_google_companion_application_or_android_14"
                     />
                 <SwitchPreference
@@ -1494,8 +1494,7 @@
                 <CheckBoxPreference
                     android:defaultValue="false"
                     android:key="requested_ignore_battery_optimizations_new"
-                    android:summaryOff="@string/battery_optimization_off"
-                    android:summaryOn="@string/battery_optimization_on"
+                    android:summary="@string/battery_optimization_on"
                     android:title="@string/battery_optimization_prompt" />
                 <CheckBoxPreference
                     android:defaultValue="true"
@@ -1513,11 +1512,6 @@
                     android:key="predictive_bg"
                     android:summary="@string/predictive_readings_old"
                     android:title="@string/display_predictive_values" />
-                <CheckBoxPreference
-                    android:defaultValue="false"
-                    android:key="show-unsmoothed-values-as-plugin"
-                    android:summary="@string/show_unsmoothed_summary"
-                    android:title="@string/show_unsmoothed" />
                 <CheckBoxPreference
                     android:defaultValue="true"
                     android:dependency="engineering_mode"

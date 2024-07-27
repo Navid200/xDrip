@@ -483,6 +483,8 @@
     <string name="i_agree">ΣΥΜΦΩΝΩ</string>
     <string name="libre">Libre</string>
     <string name="sensor_stop_confirm">Θέλετε να σταματήσετε το σένσορα;</string>
+    <string name="sensor_stop_confirm_norestart">Δεν θα μπορείτε απλά να επανεκκινήσετε τον αισθητήρα.</string>
+    <string name="sensor_stop_confirm_really_norestart">ΚΙΝΔΥΝΟΣ! Δεν θα μπορείτε να επανεκκινήσετε τη συσκευή.</string>
     <string name="deleted">Η διαγραφή ολοκληρώθηκε!</string>
     <string name="confirm_delete">Επιβεβαίωση Διαγραφής</string>
     <string name="could_not_export_csv_">Αδυναμία εξαγωγής του αρχείου CSV</string>
@@ -504,5 +506,6 @@
     <string name="title_multiple_insulin_types">Πολλαπλοί τυποι ινσουλίνης</string>
     <string name="show_action_buttons_within_alerts">Εμφάνιση κουμπιών ενεργειών (όπως Αναβολή) μέσα στις ειδοποιήσεις συναγερμού</string>
     <string name="alert_buttons">Κουμπιά συναγερμού</string>
+    <string name="enable_graph_smoothing">Ενεργό</string>
     <string name="titleInside_yRange">Ενεργό</string>
 </resources>

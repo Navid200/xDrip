@@ -1364,6 +1364,17 @@
     <string name="title_use_number_icon_large">Nagyméretű szám mutatása</string>
     <string name="summary_number_icon_large_arrow">Trend nyíl mutatása nagyméret esetén</string>
     <string name="title_number_icon_large_arrow">Trend nyíl mutatása</string>
+    <string name="title_xdrip_plus_accessibility">Always On Display beállítások</string>
+    <string name="summary_aod_use_top">AOD Widget-et a képernyő első ötödén mutassa</string>
+    <string name="title_aod_use_top">Felül legyen</string>
+    <string name="summary_aod_use_top_center">AOD Widget-et a képernyő második ötödén mutassa</string>
+    <string name="title_aod_use_top_center">Középen felül legyen</string>
+    <string name="summary_aod_use_center">AOD Widget-et a képernyő harmadik ötödén mutassa</string>
+    <string name="title_aod_use_center">Középen legyen</string>
+    <string name="summary_aod_use_center_bottom">AOD Widget-et a képernyő negyedik ötödén mutassa</string>
+    <string name="title_aod_use_center_bottom">Középen alul legyen</string>
+    <string name="summary_aod_use_bottom">AOD Widget-et a képernyő utolsó ötödén mutassa</string>
+    <string name="title_aod_use_bottom">Alul legyen</string>
     <string name="summary_show_home_on_boot">xDrip kezdőképernyő mutatása bootolás után automatikusan</string>
     <string name="title_show_home_on_boot">xDrip mutatása bootolás után</string>
     <string name="eula">Végfelhasználói licencszerződés</string>
@@ -1409,7 +1420,10 @@
     <string name="summary_notification_channels_grouping">Nem használható egyszerre a \"Tételek száma az értesítési sávban\" funkcióval</string>
     <string name="title_notification_channels_grouping">Értesítések csoportosítása</string>
     <string name="summary_delay_ascending_3min">Növekvő hangerő esetén késlelteti a riasztási hangjelzés kezdetét 3 perccel. A rezgés (ha engedélyezve van) ettől a beállítástól függetlenül a riasztással elindul.</string>
+    <string name="title_ascending_volume">Emelkedő hangerő beállítások</string>
     <string name="title_delay_ascending_3min">Növekvő hangerő késleltetése</string>
+    <string name="summary_ascending_volume_to_medium">Ha bekapcsolja, a hangerő a maximális hangerő helyett a közepes hangerőig emelkedik</string>
+    <string name="title_ascending_volume_to_medium">Közepesig emelkedjen</string>
     <string name="summary_play_sound_for_initial_calibration">Hangjelzés figyelmeztessen az indító kalibrációra</string>
     <string name="title_play_sound_for_initial_calibration">Indító kalibráció</string>
     <string name="category_noisy_readings">Zajos értékek</string>
@@ -1474,6 +1488,8 @@
     <string name="change_settings">Beállítások módosítása</string>
     <string name="do_you_want_to_delete_and_reset_the_calibrations_for_this_sensor">Törölni és visszaállítani akarja ennek a szenzornak a kalibrációit?</string>
     <string name="sensor_stop_confirm">Leállítja a szenzort?</string>
+    <string name="sensor_stop_confirm_norestart">Nem fogja tudni újraindítani a szenzort.</string>
+    <string name="sensor_stop_confirm_really_norestart">FIGYELEM!\n\nNem fogja tudni újraindítani a készüléket.</string>
     <string name="you_have_an_old_experimental_glucose_prediction_setting_enabled__this_is_not_recommended_and_could_mess_things_up_badly__shall_i_disable_this_for_you">Egy egy régi kísérleti VC-érték előrejelzési beállítást aktivált.\n\nEz NEM AJÁNLOTT, és összezavarhatja a dolgokat.\n\nTiltsam le inkább Önnek?</string>
     <string name="settings_issue">Gond van a beállításokkal!</string>
     <string name="do_you_want_to_use_this_synced_fingerstick_blood_glucose_result_to_calibrate_with__you_can_change_when_this_dialog_is_displayed_in_settings">Szeretné használni ezt a szinkronizált ujjbegyes VC-értéket a kalibráláshoz?\n\n(Ezt megváltoztathatja, amikor ez a párbeszédpanel megjelenik a beállítások között)</string>
@@ -1666,6 +1682,7 @@
     <string name="reduce_battery_and_network_overhead">Az akkumulátor- és hálózati terhelés csökkentése batch programozással és a felesleges adatok kizárásával</string>
     <string name="simplify_graphs_by_smoothing_out_irregularities">A grafikon egyszerűsítése a kiugró értékek elsimításával</string>
     <string name="graph_smoothing">Grafikon simítása</string>
+    <string name="enable_graph_smoothing">Bekapcsol</string>
     <string name="last_reading">Utolsó leolvasás</string>
     <string name="select_file_for_alert">Válassza ki a riasztás fájlját</string>
     <string name="cannot_choose_file_without_permission">Tárhelyengedély nélkül nem nyithat meg fájlokat</string>
@@ -1716,6 +1733,7 @@
     <string name="drive_permission_blurb">Az automatikus biztonsági mentéshez az xDrip-nek engedélyre van szüksége a Google Drive használatához.\n\nAz xDrip fejlesztői nem férhetnek hozzá a fájljaihoz, és nem láthatják a személyes adatait.</string>
     <string name="cloud_backup">Biztonsági mentés felhőbe</string>
     <string name="restoring_backup_will_erase_warning">A visszaállítás lecseréli a készüléken levő beállításokat a mentettekre.\n\nBiztos, hogy ezt szeretné?</string>
+    <string name="you_cannot_undo_delete_alert">A döntés nem visszafordítható!\n\nBiztos, hogy törölni akarja a riasztást?</string>
     <string name="this_backup_looks_like_came_from_different_format_string">Ez a mentés egy másik készülékről való:\n%s\nBiztos, hogy a visszaállítását választja?</string>
     <string name="megabyte_format_string">%.1f MB</string>
     <string name="manual_selection_google_drive_file_warning">Kiválasztott egy fájlt a Google Drive-ról, de ezt nem kezeli automatikusan az xDrip, így csak manuális biztonsági mentéshez és visszaállításhoz használható.\n\nNem történik automatikus biztonsági mentés ezzel a fájllal.\n\nFolytatja?</string>
@@ -1764,4 +1782,6 @@
     <string name="carelink_credential_status_access_expired">Hozzáférés lejárt! Meg fogja újítani!</string>
     <string name="carelink_credential_status_refresh_expired">Belépés lejárt! Jelentkezzen be!</string>
     <string name="data_source">Adatforrás:</string>
+    <string name="reraise_alerts_before_snooze_time">Riasztás ismétlése szundi alatt</string>
+    <string name="g7_should_start_automatically">G7 automatikusan indul</string>
 </resources>

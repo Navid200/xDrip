@@ -25,6 +25,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static com.eveningoutpost.dexdrip.services.Ob1G5CollectionService.getTransmitterID;
+import static com.eveningoutpost.dexdrip.utils.DexCollectionType.getBestCollectorHardwareName;
 
 /**
  * Created by Emma Black on 11/5/14.
@@ -101,8 +102,10 @@ public class NavDrawerBuilder {
                         }
                     }
                 }
-                this.nav_drawer_options.add(context.getString(R.string.stop_sensor));
-                this.nav_drawer_intents.add(new Intent(context, StopSensor.class));
+                if (!getBestCollectorHardwareName().equals("G7")) { // If we are using G7, there will be no stop sensor option in the menu.
+                    this.nav_drawer_options.add(context.getString(R.string.stop_sensor));
+                    this.nav_drawer_intents.add(new Intent(context, StopSensor.class));
+                }
             } else {
                 this.nav_drawer_options.add(context.getString(R.string.start_sensor));
                 this.nav_drawer_intents.add(new Intent(context, StartNewSensor.class));

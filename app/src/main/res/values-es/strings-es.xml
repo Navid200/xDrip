@@ -593,7 +593,7 @@
     <string name="short_speak_readings_shortcut">Mostrar acceso directo en el menú ☰ para conmutar Lecturas Habladas</string>
     <string name="speak_readings_shortcut">Acceso directo Lecturas Habladas</string>
     <string name="battery_optimization_off">En Android 6+ garantiza que la optimización de la batería está apagada. Recomendado</string>
-    <string name="battery_optimization_on">No sigas preguntando por la optimización de la batería (no recomendable)</string>
+    <string name="battery_optimization_on">No insistir sobre la optimización de batería. No recomendado.</string>
     <string name="battery_optimization_prompt">Aviso de optimización de Batería</string>
     <string name="advanced_bluetooth_settings">Ajustes Bluetooth Avanzados</string>
     <string name="bluetooth_settings">Ajustes Bluetooth</string>
@@ -601,7 +601,7 @@
     <string name="turn_bluetooth_on">Encender Bluetooth</string>
     <string name="reset_bluetooth">Resetear Bluetooth apagándolo y encendiéndolo si no hay comunicación en 20 minutos</string>
     <string name="bluetooth_watchdog">Vigilante Bluetooth</string>
-    <string name="reset_bluetooth_g5">Resetear Bluetooth apagándolo y encendiéndolo para intentar que G5 siga funcionando. Sin esto el colector de G5 puede fallar.</string>
+    <string name="reset_bluetooth_g5">Reinicializar Bluetooth apagándolo y encendiéndolo para intentar que G5 siga funcionando. Sin esto, el colector de G5 puede fallar.</string>
     <string name="g5_bluetooth_watchdog">Vigilante Dex Bluetooth</string>
     <string name="close_gatt">Si el vigilante del Bluetooth se activa frecuentemente puede intentar desactivar esta opción para ver si ayuda</string>
     <string name="older_bluetooth_wakelocks">Wakelocks Bluetooth más antiguos que pueden consumir más batería pero que pueden ser necesarios para la recepción Bluetooth</string>
@@ -1170,6 +1170,8 @@
     <string name="use_mobile_data">Usar datos móviles</string>
     <string name="summary_cloud_storage_api_download_enable">También intentar descargar datos de Nightscout</string>
     <string name="title_cloud_storage_api_download_enable">Descargar tratamientos</string>
+    <string name="title_cloud_storage_api_download_from_xdrip">Saltar elementos de xDrip</string>
+    <string name="summary_cloud_storage_api_download_from_xdrip">Evitar descargar elementos subidos por xDrip</string>
     <string name="summary_bluetooth_meter_for_calibrations_auto">Calibrar usando nuevas lecturas de glucosa si las condiciones parecen adecuadas sin pedir confirmación (experimental)</string>
     <string name="title_bluetooth_meter_for_calibrations_auto">Calibración Automática</string>
     <string name="title_rest_api_extra_options">Opciones Extras</string>
@@ -1384,6 +1386,9 @@
     <string name="title_use_number_icon_large">Usar icono numérico grande</string>
     <string name="summary_number_icon_large_arrow">Muestra la flecha de tendencia en el icono grande</string>
     <string name="title_number_icon_large_arrow">Mostrar Flecha en Icono Grande</string>
+    <string name="summary_aod_use_top">Usar el primer quinto de la pantalla para el widget AOD</string>
+    <string name="title_aod_use_top_center">Usar centro superior</string>
+    <string name="summary_aod_use_center">Usar el tercer quinto de la pantalla para el Widget AOD</string>
     <string name="summary_show_home_on_boot">Mostrar la pantalla xDrip automáticamente después de que se inicie el dispositivo</string>
     <string name="title_show_home_on_boot">Mostrar xDrip al arrancar</string>
     <string name="eula">CLUF</string>
@@ -1429,7 +1434,10 @@
     <string name="summary_notification_channels_grouping">Si las notificaciones deben agruparse. Incompatible con la opción \'Icono numérico en área de notificación\'</string>
     <string name="title_notification_channels_grouping">Agrupar notificaciones</string>
     <string name="summary_delay_ascending_3min">Para el perfil de volumen ascendente, retrasa 3 minutos el inicio del sonido de la alerta. La vibración (si está activada) se inicia tan pronto como la alerta se active, independientemente de esta configuración.</string>
+    <string name="title_ascending_volume">Ajustes de volumen ascendente</string>
     <string name="title_delay_ascending_3min">Retrasar el volumen ascendente</string>
+    <string name="summary_ascending_volume_to_medium">Cuando está activado, el perfil de volumen ascendente ascenderá a volumen medio en lugar de máximo</string>
+    <string name="title_ascending_volume_to_medium">Ascender a medio</string>
     <string name="summary_play_sound_for_initial_calibration">Reproducir sonido cuando se solicite la calibración inicial</string>
     <string name="title_play_sound_for_initial_calibration">Alerta Inicial</string>
     <string name="category_noisy_readings">Lecturas Ruidosas</string>
@@ -1499,6 +1507,8 @@
     <string name="change_settings">Cambiar ajustes</string>
     <string name="do_you_want_to_delete_and_reset_the_calibrations_for_this_sensor">¿Quiere borrar o reinicializar las calibraciones para este sensor?</string>
     <string name="sensor_stop_confirm">¿Desea detener el sensor?</string>
+    <string name="sensor_stop_confirm_norestart">No podrás simplemente reactivar el sensor.</string>
+    <string name="sensor_stop_confirm_really_norestart">¡ADVERTENCIA!\n\nNo podrás reiniciar el dispositivo.</string>
     <string name="you_have_an_old_experimental_glucose_prediction_setting_enabled__this_is_not_recommended_and_could_mess_things_up_badly__shall_i_disable_this_for_you">Tiene habilitado ajustes antiguos experimentales de predicción de glucemia.\n\nNO SE RECOMIENDA pues podría dañar muchos elementos.\n\n¿Deshabilitarlo?</string>
     <string name="settings_issue">¡Error en los ajustes!</string>
     <string name="do_you_want_to_use_this_synced_fingerstick_blood_glucose_result_to_calibrate_with__you_can_change_when_this_dialog_is_displayed_in_settings">¿Desea calibrar con este resultado de glucemia mediante punción digital sincronizado?\n\n(puede cambiarlo cuando se muestre este diálogo en Ajustes)</string>
@@ -1708,6 +1718,7 @@
     <string name="reduce_battery_and_network_overhead">Reducir la sobrecarga de la batería y red mediante el procesamiento por lotes y la exclusión de datos innecesarios</string>
     <string name="simplify_graphs_by_smoothing_out_irregularities">Simplificar los gráficos suavizando las irregularidades</string>
     <string name="graph_smoothing">Suavizar gráficos</string>
+    <string name="enable_graph_smoothing">Activar</string>
     <string name="last_reading">Última lectura</string>
     <string name="select_file_for_alert">Seleccione archivo para alerta</string>
     <string name="cannot_choose_file_without_permission">No se puede elegir el archivo sin permiso de almacenamiento</string>
@@ -1761,6 +1772,7 @@
     <string name="cloud_backup">Copia de seguridad en la nube</string>
     <string name="select_automatic_or_select_alternate">Selecciona Automático para que xDrip+ gestione los archivos de Google Drive, o selecciona un archivo específico alternativo para utilizarlo si necesitas restaurar desde otro lugar.</string>
     <string name="restoring_backup_will_erase_warning">La restauración de una copia de seguridad borrará la configuración y los datos actuales con los de la copia de seguridad.\n\n¿Estás absolutamente seguro de que deseas hacer esto?</string>
+    <string name="you_cannot_undo_delete_alert">¡No podrás deshacer esto!\n\n¿Seguro que quieres eliminar esta alerta?</string>
     <string name="this_backup_looks_like_came_from_different_format_string">Esta copia de seguridad parece provenir de un dispositivo diferente:\n%s\n¿Seguro que desea restaurar desde esta copia de seguridad?</string>
     <string name="megabyte_format_string">%.1f MB</string>
     <string name="manual_selection_google_drive_file_warning">Has seleccionado un archivo de Google Drive, pero este no es gestionado automáticamente por xDrip+, por lo que solo puede ser utilizado para copias de seguridad y restauraciones manuales.\nNo se realizará ninguna copia de seguridad automática con este archivo.\n¿Continuar?</string>
@@ -1809,4 +1821,26 @@
     <string name="carelink_credential_status_access_expired">¡Acceso expirado! ¡Se actualizará!</string>
     <string name="carelink_credential_status_refresh_expired">¡Inicio de sesión expirado! ¡Inicie sesión!</string>
     <string name="data_source">Fuente de datos:</string>
+    <string name="disable_collection">Desactivar colección</string>
+    <string name="insulin_pens">Pluma de insulina</string>
+    <string name="editing">Editando</string>
+    <string name="enable_missed_reading_alert">Activar alerta de lectura perdida</string>
+    <string name="alert_if_no_data_received_in_colon">Alertar si no se recibe ningún dato en:</string>
+    <string name="wait_before_raising_the_same_alert_after_snooze_colon">Espere antes de lanzar la misma alerta después de posponer:</string>
+    <string name="reraise_alerts_before_snooze_time">Regenerar alertas antes de su tiempo de diferido</string>
+    <string name="alert_reraise_time_colon">Tiempo de redisparo alarma:</string>
+    <string name="select_start_time">Seleccionar hora de inicio</string>
+    <string name="select_end_time">Seleccionar hora de finalización</string>
+    <string name="accept_glucose">Aceptar glucosa</string>
+    <string name="process_glucose_data_received">Procesar datos de glucosa recibidos de la aplicación NSClient</string>
+    <string name="use_health_connect">Usar Health Connect</string>
+    <string name="audio_focus">Foco de audio</string>
+    <string name="audio_focus_summary">Elegir qué hacer con otras aplicaciones mientras se reproducen alertas y se ajustan los niveles de volumen del sistema</string>
+    <string name="audio_focus_dont_adjust_other_app_sounds">No ajustar sonidos de otras aplicaciones</string>
+    <string name="audio_focus_lower_volume_of_other_apps">Bajar volumen de otras aplicaciones</string>
+    <string name="audio_focus_pause_other_apps_playing_audio">Pausar otras aplicaciones reproduciendo audio</string>
+    <string name="audio_focus_pause_all_other_sounds">Pausar todos los demás sonidos</string>
+    <string name="use_camera_light">Usar luz de cámara</string>
+    <string name="use_camera_light_summary">Flashear luz de la cámara durante alertas al conectar a un cargador</string>
+    <string name="g7_should_start_automatically">G7 debe iniciarse automáticamente</string>
 </resources>
