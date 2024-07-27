@@ -11,7 +11,7 @@ In addition, you can also use Nightscout as a server for your followers.
 To set up Nightscout, you need to do a little bit of work.  There are different options.  Find instructions for the server you want to use and follow.  
 Give yourself some time to complete everything.  It's not something you can do in just 5 minutes.  
 
-These are instructions and tips for setting up [Google Cloud Nightscout](./Nightscout/GoogleCloud.md).  
+There is also the option of subscribing to a service provider.  Then, you won't have to do the work.  
   
 If you have Nightscout already set up, how to set up xDrip as an uploader (master) is explained [here](./Nightscout-Settings.md).  
 How to use xDrip to follow an existing Nightscout site is explained [here](./Follow/FollowNightscout.md).  
