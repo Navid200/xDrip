@@ -7,7 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
-| [2024.07.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) | xDrip sync fix |  
+| [2024.07.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) | xDrip sync switched to BlueJay |  
 | [2024.07.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.17) | G6 new transmitter start cleanup - G6/G7 backfill overlap fix |  
 | [2024.06.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.28) | WearOS complication null null G7 |  
 | [2024.06.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.25) | Dex cleanup - LinX companion - Compiler cleanup - Dex share follow server - G7 stop gone 4 good |  
