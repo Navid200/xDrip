@@ -14,7 +14,7 @@ layout: GCNS
 #### [Blocked at work or in school](../FD_Domains.md)
 #### [You have an existing certificate that ...](../ExistingCertificate.md)
 #### [Dormant FreeDNS account](../FreeDNS_Min_Login.md)
-#### [Edit variables using a browser does not work!](./UpdateScripts_22.md)
+#### [Edit variables using a browser does not work!](../UpdateScripts_22.md)
 #### [502 Bad Gateway](../502BadGateway.md)
 #### [Free Trial has ended!](../FreeTrialEnd.md)
 #### [Malfunctioning applications](../Auth_Default_Roles.md)
