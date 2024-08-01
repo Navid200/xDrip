@@ -8,7 +8,7 @@ layout: GCNS
   
 #### [Backup](../DatabaseBackup.md)
 #### [Restore](../DatabaseRestore.md)
-#### [Status page](./Status.md)
+#### [Status page](../Status.md)
 #### [Logs](../GCNS_Logs.md)
 #### [Nightscout variables](../NS_Variables.md)
 #### [Customize Nightscout](../Customize.md) (Advanced)
