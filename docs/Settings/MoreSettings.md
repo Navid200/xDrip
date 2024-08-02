@@ -6,5 +6,7 @@ Some controls are under the vertical ellipsis menu.
 ![](../images/3dotMenu.png)  
 
 ![](../images/3dotMenu2.png)  
+<br/>  
   
+The contents of the vertical ellipsis menu can be different depending on what page you are on.  
   
