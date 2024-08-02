@@ -7,7 +7,7 @@ How to [download and install](./Installation_page.md).
   
 | Release | Notes |  
 |---------|-------|  
-| [2024.08.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02) | Save Logs feature - Scan QR code from file option |   
+| [2024.08.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02) | Save Logs feature - Option to Scan QR code from file |   
 | [2024.07.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) | xDrip sync switched to BlueJay |  
 | [2024.07.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.17) | G6 new transmitter start cleanup - G6/G7 backfill overlap fix |  
 | [2024.06.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.28) | WearOS complication null null G7 |  
