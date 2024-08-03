@@ -1,5 +1,5 @@
 ## Home shelf
-[xDrip](../README.md) >> Home shelf  
+[xDrip](../README.md) >> [Settings](./Settings.md) >> Home shelf  
   
 Some settings can only be accessed on the home shelf.  Those are:  
 . Source wizard  
