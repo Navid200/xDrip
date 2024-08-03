@@ -2,18 +2,18 @@
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Why no start or stop for G7!  
   
 A G7 (or One+) session starts automatically on the device as soon as you use the applicator to insert the device.  
-There is nothing to start.  
+There is no need to manually start the session.  
   
-You could use a G6 transmitter for 110 days. That means you could use 11 sensors in sequence on a single G6 transmitter.  When you want to start a new G6 sensor, you need to stop the previous one.  Then, you need to make sure the transmitter is outside the sensor for at least 10 minutes before starting the new session.  Otherwise, the transmitter may stop the session because of a false restart attempt detection by the transmitter.  
-This is why we need to be able to stop a G6 sensor.  
+With the G6 transmitter, you could use it for up to 110 days, meaning you could use up to 11 sensors in sequence on a single G6 transmitter.  When you start a new G6 sensor, you must first stop the previous sensor;  ensure that the transmitter is outside the sensor for at least 10 minutes before starting the new session.  Failure to do so may cause the transmitter to detect a false restart attempt and stop the session.  
+This is why it's necessary to be able to stop a G6 sensor.  
   
-With G7, you only have one device, sensor and transmitter.  When you are done using it, you cannot use it again.  There will never be a restart attempt detected.  A G7 session starts automatically as soon as you use the applicator and insert a G7 device.  
-There is never a reason to stop a G7.  
-But, you could accidentally stop a G7 and then feel sorry you did.  To avoid that possibility, we have removed the ability to stop a G7.  
-You will never ever need to stop a G7.  So, why have it?  
+In contrast, G7 integrates both the sensor and transmitter into a single device.  Once you are done using it, you cannot reuse it.  There will be no restart attempt detection with the G7 because the session starts automatically as soon as you use the applicator and insert the device.    
+Therefore, there is no need to stop a G7.  
   
-You may think that if you stop a G7 when you are done with it, it will stop transmitting and less chance of it interfering with your next G7.  
-You would be wrong to think that.  A G7 device continues to send a Bluetooth transmission once every 5 minutes as long as it has battery, which takes more than 100 days.  Stopping it  will make no difference.  
+You might hope that if you stop a G7, it could prevent interference with your next G7.  
+A G7 device continues to send Bluetooth transmissions every 5 minutes as long as it has battery, which lasts more than 100 days. Stopping the device will not affect its transmission.  
+  
+To avoid accidental stoppage, the ability to stop a G7 has been removed. There is no need to stop a G7, and removing this option ensures you won’t unintentionally disrupt its function.  
 <br/>  
   
 ---  
