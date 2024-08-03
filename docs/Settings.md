@@ -14,7 +14,7 @@ This page describes all the settings in xDrip.  The settings have been organized
 #### [Home shelf](./HomeShelf.md) &nbsp; ![](./Settings/images/xDripDrop.png)  
 <br/>  
 
-#### [Voice commands (Advanced)](./Settings/VoiceCommands.md)  
+#### [Voice commands (Advanced)](./Settings/VoiceCommands.md) &nbsp; ![](./Settings/images/DropperImage.png)  
   
 <br/>  
   
