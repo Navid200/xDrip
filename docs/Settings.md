@@ -11,7 +11,7 @@ This page describes all the settings in xDrip.  The settings have been organized
 #### [Ellipsis menu](./Settings/MoreSettings.md) &nbsp; ![](./Settings/images/Ellipsis.png)  
 <br/>  
 
-#### [Home shelf](./HomeShelf.md)  
+#### [Home shelf](./HomeShelf.md) &nbsp; ![](./Settings/images/xDripDrop.png)  
 <br/>  
 
 #### [Voice commands (Advanced)](./Settings/VoiceCommands.md)  
