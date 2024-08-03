@@ -20,7 +20,7 @@ This page describes all the settings in xDrip.  The settings have been organized
   
 ---  
   
-#### [Copy](./CopySettings.md)
+#### [Transfer settings](./CopySettings.md)
 #### [Scan QR code](./Settings/Scan_QR_Code.md)
 
   
