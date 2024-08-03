@@ -1,5 +1,5 @@
 ## Copying settings  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> Copying settings    
+[xDrip](../README.md) >> [Settings](./Setting.md) >> Copying settings  
   
 To save or copy settings use `Show Settings QR codes` or `Load/Save settings` under xDrip `Settings` from the main menu.  
 ![](./images/Settings.png)  
