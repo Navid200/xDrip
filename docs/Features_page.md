@@ -18,7 +18,6 @@
   
 #### [Hardware Data Source](./HardwareDataSource.md)
 #### [Logs](./Logs.md)
-#### [Transfer settings](./CopySettings.md)
 #### [Screen saver (lock screen) while being charged](./Screensaver.md)
 #### [Lock Screen](./Lock-screen.md)
 #### [Stop xDrip - disable collection](./Stop-xDrip.md)
