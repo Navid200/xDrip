@@ -1,5 +1,5 @@
 ## Scan QR Code
-[xDrip](../README.md) >> [Settings](./Settings.md) >> Scan QR Code  
+[xDrip](../../README.md) >> [Settings](../Settings.md) >> Scan QR Code  
   
 xDrip can scan a QR code containing xDrip settings to import them.  
 To do that, go to `Settings` &#8722;> `Auto Configure`.  
