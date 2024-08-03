@@ -16,7 +16,8 @@ After xDrip scans, it will show you the settings that are included in the QR cod
 #### **If camera is not an option**  
 Your device may not have a camera.  Or, the camera may be broken.  Or, the only way to access the QR code may be to bring it up on the same device that is running xDrip.  
 In those cases, you can use an alternative method for scanning the QR code as explained here.  
-First, you need to save the QR code as an image file on your device.  To do that, use a browser on your device and access the QR code.  Long press on the QR code image.  The browser must give you the option to save the image.  Do that.  By default, the image will be saved in your Downloads folder.  
+  
+First, you need to save the QR code as an image file on your device.  To do that, use a browser on your device and access the QR code.  Long press on the QR code image.  The browser must give you the option to save the image.  Do that.  By default, the image will be saved in your Download folder.  
 
 After having saved the QR code image file on your phone, use the button at the bottom, `Settings` &#8722;> `Auto Configure` &#8722;> `Image file`.  
 Find the image file that you saved and select it.  
