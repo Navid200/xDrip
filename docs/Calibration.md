@@ -1,12 +1,12 @@
 ## Calibration  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> xDrip Calibration  
   
-### What is Calibration  
+### **What is Calibration**  
 Current continuous glucose monitoring (CGM) technology measures glucose in interstitial fluid, which differs from blood glucose levels but is correlated. A formula translates interstitial fluid glucose to estimated blood glucose.
 
 Calibration involves providing your CGM with your blood glucose readings, measured with a glucose meter, to help it establish this correlation. Ideally, more calibrations improve accuracy.  
   
-### Factors Affecting Accuracy  
+### **Factors Affecting Accuracy**  
 * **Accuracy of your blood glucose meter**: Ensure your meter is accurate and properly calibrated.  
 * **Sensor Accuracy and Sensitivity**: The sensor’s performance affects readings.  
 * **Formula Accuracy**:  The formula used to correlate interstitial fluid glucose with blood glucose impacts results.  
@@ -18,7 +18,7 @@ Calibration involves providing your CGM with your blood glucose readings, measur
   
 Calibrating during rapid glucose changes can degrade accuracy.  
   
-### Factory-calibrated CGMs  
+### **Factory-calibrated CGMs**  
 The G6 sensor offers factory calibration, eliminating the need for regular calibrations after entering a 4-digit code at startup.  This is based on average error studies, but individual variations may occur.   If discrepancies arise, you can still calibrate.  
 Always test with a glucose meter if symptoms do not match CGM readings.  
 <br/>  
