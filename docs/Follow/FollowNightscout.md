@@ -24,19 +24,16 @@ As Nightscout Follower, xDrip will attempt to read from Nightscout a maximum of 
 However, if there is a delay in the master uploading data to Nightscout, that may be the reason for the failure.  
 You can set a delay for xDrip to wait before reading from Nightscout to account for this potential upload delay. This can help ensure that xDrip reads the latest data from Nightscout rather than going to sleep with outdated information.  
 ![](./images/NS_Follow_Delay.png)  
-
-![](./images/NS_Follow_Delay2.png)    
-
-If you delay the Nightscout follower this way such that when it attempts to read from Nightscout, the master has already uploaded, your follower will succeed to read instead of going to sleep and getting the same reading with a few minutes of delay.  
-
-**Do I need this?**   
-If you are happy with how Nightscout follower works for you, no, you can keep everything as is.  
-
-**What is the benefit?**  
-It can decrease the delay from the time the person you are following has a new reading until you can see it on your follower.  
-If you look at the Nightscout follow status page and see a delay in red as shown below, it means that you may benefit from this.  
+  
+![](./images/NS_Follow_Delay2.png)  
+  
+**Do You Need This Setting?**   
+If you are satisfied with how the Nightscout follower currently works, no changes are necessary.    
+  
+**Benefits of Adjusting Delay**  
+Adjusting the delay can reduce the time it takes for new readings from the person you are following to appear on your follower. If you see a red delay indicator on the Nightscout follow status page, adjusting the delay setting may help.  
 ![](./images/NS_Delay.png)  
-
+  
 **What if I don't change anything?**  
 If your master experiences a delay and you don't adjust the follower delay, your follower will still receive all readings.  It will just receiver every reading with some delay.  The delay could be a few up to 5 minutes.  
 
