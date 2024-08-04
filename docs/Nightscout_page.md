@@ -1,18 +1,14 @@
 # xDrip and Nightscout  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> xDrip and Nightscout  
   
-Nightscout can be a repository of all your xDrip readings.  
-Your readings are important because you need them to create a report for your endocrinologist.  
-You may like to create reports for different time periods in order to examine how your control has changed over long periods of time.  
-Without a repository, all your readings will be on your phone.  What happens if you lose your phone or if your phone is broken?  
+Nightscout can serve as a repository for all your xDrip readings. This is crucial for creating comprehensive reports for your endocrinologist and for tracking how your glucose control changes over time. Without a repository, your readings are only stored on your phone, posing a risk if you lose or damage your device.    
   
-In addition, you can also use Nightscout as a server for your followers.  
+Additionally, Nightscout can be used as a server for sharing data with your followers.  
   
-To set up Nightscout, you need to do a little bit of work.  There are different options.  Find instructions for the server you want to use and follow.  
-Give yourself some time to complete everything.  It's not something you can do in just 5 minutes.  
-
-There is also the option of subscribing to a service provider.  Then, you won't have to do the work.  
+Setting up Nightscout requires some effort and is not something you can complete in just 5 minutes. There are various setup options available, so you’ll need to find and follow the instructions specific to the server you choose.  
   
-If you have Nightscout already set up, how to set up xDrip as an uploader (master) is explained [here](./Nightscout-Settings.md).  
-How to use xDrip to follow an existing Nightscout site is explained [here](./Follow/FollowNightscout.md).  
+Alternatively, you can subscribe to a service provider to handle the setup for you.  
+  
+If you already have Nightscout set up, instructions for configuring xDrip as an uploader (master) can be found [here](./Nightscout-Settings.md). How to use xDrip to follow an existing Nightscout site is explained [here](./Follow/FollowNightscout.md).  
+    
   
