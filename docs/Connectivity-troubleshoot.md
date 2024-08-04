@@ -1,4 +1,4 @@
-## Transmitter connectivity troubleshooting
+## Connectivity troubleshooting
 [xDrip](../README.md) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Connectivity troubleshooting  
   
 Don't tweak the xDrip settings hoping to get it going.  
@@ -6,8 +6,8 @@ Disable [engineering mode](./Engineering-Mode.md).
   
 When making changes to meet the following recommendations, be patient and allow a new reading to complete.  Communication with the transmitter happens only once every 5 minutes.  After you make a change, you are not going to see an impact, on the status page, until the next read cycle completes.  Please keep that in mind every time you make a change to the settings.  
   
-If you are using G5 or G6 (or Dexcom One, or G7), please ensure your settings match the recommended [G5 settings](./G5-Recommended-Settings.md) or [G6 (or Dex1 or G7) settings](./G6-Recommended-Settings.md) respectively.  
-
+Ensure your settings match the [recommended settings](./G6-Recommended-Settings.md).  
+  
 If it is a G6 or Dexcom One, have you [activated the transmitter](./Dexcom/NewG6TX_Activation.md)?  
 If it is a G7, have you inserted the device?  
   
@@ -15,11 +15,11 @@ Enable all xDrip notifications under `Android Settings` &#8722;> `Apps & notific
 
 If you are new to xDrip or Dexcom, have a look at the [general information](./Dexcom-Basics.md) to familiarize yourself with the interface and requirements and limitations.  
 
-If there is another mobile device set to collect from the same transmitter (not a follower, but a master), you need to disconnect it.  
+If there is another mobile device set to collect from the same Dexcom device (not a follower, but a master), you need to disconnect it.  
 
-The G5/G6/G7 status page gives you most of the information you need about how your system (xDrip, Dexcom transmitter and sensor) is doing.  
+The Dex status page gives you most of the information you need about how your system is doing.  
 ![](./images/system-status-pg.png)  
-
+  
 Is there a [disconnect](./Proper-connectivity.md)?  If yes, you need to resolve it before anything else.  Don't waste your time starting a sensor before you have connectivity.  
   
 If there is a command in the queue on the status page, it should clear on the next read cycle (once every 5 minutes).  If it does not clear on the next read cycle, you have a command stuck in the queue.  In that case, [clear](./Clear-queue.md) the queue.  
