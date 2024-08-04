@@ -27,17 +27,16 @@ You can set a delay for xDrip to wait before reading from Nightscout to account 
   
 ![](./images/NS_Follow_Delay2.png)  
   
-**Do You Need This Setting?**   
+**Do you need this setting?**   
 If you are satisfied with how the Nightscout follower currently works, no changes are necessary.    
   
-**Benefits of Adjusting Delay**  
+**Benefits of adjusting delay**  
 Adjusting the delay can reduce the time it takes for new readings from the person you are following to appear on your follower. If you see a red delay indicator on the Nightscout follow status page, adjusting the delay setting may help.  
 ![](./images/NS_Delay.png)  
   
-**What if I don't change anything?**  
-If your master experiences a delay and you don't adjust the follower delay, your follower will still receive all readings.  It will just receiver every reading with some delay.  The delay could be a few up to 5 minutes.  
-
-**What is the best setting?**  
-The majority can leave this at the default 0 setting.  
-However, if you see a delay on the Nightscout follow status page, try different values.  Choose the shortest delay that removes the red delay note from the status page.  
+**What if you don’t change anything?**  
+If you don’t adjust the follower delay, your follower will still receive all readings, but there might be a delay of up to 5 minutes depending on the master’s upload time.  
+  
+**Best setting for delay**  
+Most users can leave the setting at the default value of 0. If you notice a delay on the Nightscout follow status page, experiment with different delay values to find the shortest delay that eliminates the red delay indicator.  
   
