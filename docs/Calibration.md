@@ -26,19 +26,18 @@ Always test with a glucose meter if symptoms do not match CGM readings.
 <br/>  
 <br/>  
   
----  
-  
-### When to test your blood glucose  
-Just because you test your blood glucose with your meter doesn't mean you have to calibrate.  You should test whenever your symptoms disagree with what the CGM shows.  
+### **When to Test and Calibrate**  
+* Testing: Test your blood glucose with your meter if symptoms don’t match CGM readings. Calibration is not always necessary with every test.    
 
-### When to calibrate  
+* Calibration:
+For G6 users, calibration is not required but can be done if readings are inaccurate.
+Avoid calibrating during rapid glucose changes. Ideally, calibrate when glucose levels are stable. For G5 users or those using no-code mode on G6, initial calibrations are performed without readings. In such cases, use your AGP graph to find times with less fluctuation and start the sensor accordingly if possible.  
+  
 If you use a G5, you should calibrate twice a day.  
 If you use a G6, you don't have to calibrate.  But, if you find the readings to be incorrect, you can calibrate.  
-
-Avoid calibrating when the glucose is changing rapidly.  Ideally, you should only calibrate when the trend is flat.  If you are using G5 or if you use the no-code mode for a G6, you will need to enter initial calibrations.  You don't have readings when you need to enter initial calibrations.  So, how would you know if your trend is flat?  You can ignore this requirement in this case only.  You can use your statistics AGP graph to see what time of day you have less rapid variations and start your sensor such that 2 hours after coincides with it.  This may not always be possible.  But, if it is, it helps accuracy.
   
-### How to calibrate  
-You can calibrate by selecting "Add Calibration" from the top left menu.  
+### **How to calibrate**  
+To calibrate, select `Add Calibration` from the top left menu.  
 ![](./images/HowtoCalibrate.png)  
   
 ---  
