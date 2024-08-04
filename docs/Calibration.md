@@ -34,6 +34,7 @@ Avoid calibrating during rapid glucose changes. Ideally, calibrate when glucose 
   
 If you use a G5, you should calibrate twice a day.  
 If you use a G6, you don't have to calibrate.  But, if you find the readings to be incorrect, you can calibrate.  
+<br/>  
   
 ### **How to calibrate**  
 To calibrate, select `Add Calibration` from the top left menu.  
