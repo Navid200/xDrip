@@ -24,7 +24,6 @@ Calibrating during rapid glucose changes can degrade accuracy.
 The G6 sensor offers factory calibration, eliminating the need for regular calibrations after entering a 4-digit code at startup.  This is based on average error studies, but individual variations may occur.   If discrepancies arise, you can still calibrate.  
 Always test with a glucose meter if symptoms do not match CGM readings.  
 <br/>  
-<br/>  
   
 ### **When to Test and Calibrate**  
 * Testing: Test your blood glucose with your meter if symptoms don’t match CGM readings. Calibration is not always necessary with every test.    
