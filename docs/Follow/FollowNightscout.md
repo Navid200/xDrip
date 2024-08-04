@@ -19,13 +19,10 @@ Go to `Settings` &#8722;> `Nightscout Follow URL` and enter the Nightscout Follo
   
 ---  
 
-#### **Wake delay**  
-When Nightscout follower is chosen as the xDrip hardware data source, xDrip performs a maximum of 2 attempts to read from Nightscout.  
-If after two attempts, xDrip fails to get a new reading, it assumes that the master may be disconnected from the internet, and goes back to sleep.  There is no way for the follower to confirm if the master is disconnected.  Therefore, it is the only reasonable course of action to avoid wasting battery and data.  
-
-However, it is possible that the master experiences a delay in uploading to Nightscout.  It is possible that when the follower attempts to read from Nightscout, the master still has not uploaded to Nightscout.  
-
-There is a setting you can use to manually delay when xDrip reads from Nightscout, as a Nightscout follower, to remedy this situation.  
+#### **Configure Wake Delay**  
+As Nightscout Follower, xDrip will attempt to read from Nightscout a maximum of two times. If it fails to get a new reading after two attempts, it will assume the master is disconnected and go back to sleep to conserve battery and data.  
+However, if there is a delay in the master uploading data to Nightscout, that may be the reason for the failure.  
+You can set a delay for xDrip to wait before reading from Nightscout to account for this potential upload delay. This can help ensure that xDrip reads the latest data from Nightscout rather than going to sleep with outdated information.  
 ![](./images/NS_Follow_Delay.png)  
 
 ![](./images/NS_Follow_Delay2.png)    
