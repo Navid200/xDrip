@@ -1,9 +1,12 @@
 # xDrip and Dexcom  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> xDrip & Dexcom  
   
-If you use xDrip with a Dexcom G5, G6, G7 or Dexcom ONE transmitter, this page contains information that may help you.  
-xDrip is not supported by Dexcom.  It is supported by volunteers who need it for their own use.  
-You are welcome to use it.  But, please consult with a medical professional (Endocrinologist) for any decisions for controlling your diabetes.  
+If you use xDrip with a Dexcom device, this page provides information that may be helpful.  
+  
+Please note that xDrip is not officially supported by Dexcom. It is maintained by volunteers who use it for their own needs.  
+  
+You are welcome to use xDrip, but always consult with a medical professional (such as an endocrinologist) for any decisions related to diabetes management.  
+   
 <br/>  
   
 ---  
