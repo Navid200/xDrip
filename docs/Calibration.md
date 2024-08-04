@@ -2,29 +2,20 @@
 [xDrip](../README.md) >> [Features](./Features_page.md) >> xDrip Calibration  
   
 ### What is Calibration  
-The current continuous glucose monitoring (CGM) technology is limited to measuring glucose in interstitial fluid.  But, the glucose level in blood is not the same as the glucose level in interstitial fluid.  Fortunately, they are correlated.  A formula is used to calculate blood glucose from the measured interstitial fluid glucose.  
-  
-The CGM measures the interstitial fluid glucose.  We calibrate, by telling the CGM what our blood glucose is, after measuring it using our blood glucose meter.    The CGM uses these two figures to formulate the relationship.  
-  
-If everything was perfect, the more calibrations we performed, the more accurate the calibrated readings would become.  
-  
-### What could affect the accuracy of the readings  
-* The accuracy of your blood glucose meter  
-* The accuracy and sensitivity of the sensor  
-* The accuracy of the formula  
- 
+Current continuous glucose monitoring (CGM) technology measures glucose in interstitial fluid, which differs from blood glucose levels but is correlated. A formula translates interstitial fluid glucose to estimated blood glucose.
 
-### Delay  
-The blood glucose is the cause.  The interstitial fluid glucose is the effect.  The blood glucose is not always constant.  There is a delay (about 15 minutes) from when the blood glucose changes until the interstitial fluid glucose changes accordingly. This delay complicates the matter.  You can see a good description [here](https://www.youtube.com/watch?v=vylZB-m22Sc).  
-If your blood glucose is rapidly increasing, or decreasing, what your CGM shows will be very different than what your blood glucose is at the time.  
-Therefore, you should never calibrate when the glucose is changing rapidly.  If you do, you could actually degrade accuracy instead of improving it.  
-
-### Factory-calibrated CGM  
-G6 offers factory calibration, which means the user does not need to perform calibrations anymore after entering a 4-digit calibration code when starting the sensor.  However, this is based on studies that have minimized the average error.  Some individuals may be farther from the average.   G6 allows you to calibrate if you need to.  
-Regardless, it is a good idea to test with your blood glucose meter if your symptoms disagree with what the CGM shows.  
+Calibration involves providing your CGM with your blood glucose readings, measured with a glucose meter, to help it establish this correlation. Ideally, more calibrations improve accuracy.  
+  
+### Factors Affecting Accuracy  
+* **Accuracy of your blood glucose meter**: Ensure your meter is accurate and properly calibrated.  
+* **Sensor Accuracy and Sensitivity**: The sensor’s performance affects readings.  
+* **Formula Accuracy**:  The formula used to correlate interstitial fluid glucose with blood glucose impacts results.  
+* **Delay**: Blood glucose levels change before interstitial fluid glucose reflects those changes, with a typical delay of about 10 minutes ([clip](./videos/difference_interstitial_fluid_vs_blood_glucose.mp4)).  Calibrating during rapid glucose changes can degrade accuracy.  
+  
+### Factory-calibrated CGMs  
+The G6 sensor offers factory calibration, eliminating the need for regular calibrations after entering a 4-digit code at startup.  This is based on average error studies, but individual variations may occur.   If discrepancies arise, you can still calibrate.  
+Always test with a glucose meter if symptoms do not match CGM readings.  
 <br/>  
-  
-If you are interested in more detail, [this article](./pdf/biosensors-08-00024.pdf) is a good reference.  
 <br/>  
   
 ---  
