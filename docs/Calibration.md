@@ -12,7 +12,7 @@ Calibration involves providing your CGM with your blood glucose readings, measur
 * **Formula Accuracy**:  The formula used to correlate interstitial fluid glucose with blood glucose impacts results.  
 * **Delay**: Blood glucose levels change before interstitial fluid glucose reflects those changes, with a typical delay of about 10 minutes.
   
-<video width="400" controlsList="nodownload" src="./videos/difference_interstitial_fluid_vs_blood_glucose.mp4" controls>  
+<video width="400" controlsList="nodownload" src="./videos/BG_SG_Train.mp4" controls>  
 </video>  
 <br/>  
   
