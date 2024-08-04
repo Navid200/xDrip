@@ -1,15 +1,15 @@
-## G6, Dex1, G7 or One+ xDrip Recommended Settings  
+## Dexcom xDrip Recommended Settings  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Dexcom collector recommended settings  
   
-Click/tap on the hyperlinks to see the details.  After a fresh install of xDrip, running the source wizard will result in these same settings.  If you see a discrepancy, please let me know.  
-
-* You should use an xDrip [version](./xDrip-Version.md) not older than the current stable release.  Please [update](./Updates.md) accordingly.   
+For optimal performance with xDrip and Dexcom devices, follow these recommended settings:  
   
-* `Settings` &#8722;> [`Dex Debug Settings`](./images/g6-recommended-settings.png)  
-
-* `Settings` &#8722;> `Less common settings` &#8722;> [`Other misc options`](./images/other-misc-recommended.png)  
-
-* `Settings` &#8722;> `Less common settings` &#8722;> [`Bluetooth Settings`](./images/ble-recommended-stngs.png)  
+* Ensure you are [using](./xDrip-Version.md) the latest stable release of xDrip.  [Update](./Updates.md) if necessary.     
+  
+* Verify `Settings` &#8722;> [`Dex Debug Settings`](./images/g6-recommended-settings.png)  
+  
+* Verify `Settings` &#8722;> `Less common settings` &#8722;> [`Other misc options`](./images/other-misc-recommended.png)  
+  
+* Verify `Settings` &#8722;> `Less common settings` &#8722;> [`Bluetooth Settings`](./images/ble-recommended-stngs.png)  
 
 * Enable &nbsp; &nbsp; &nbsp; `Settings` &#8722;> `Less common settings` &#8722;> `Aggressive service restarts`  
 
@@ -17,15 +17,16 @@ Click/tap on the hyperlinks to see the details.  After a fresh install of xDrip,
   
 <br/>    
 
-* Use Android Settings to sync its time with the network as explained in "[Basics](./Dexcom-Basics.md#phone-time-accuracy)".  
+* Use Android Settings to sync your phone’s time with the network as explained in "[Basics](./Dexcom-Basics.md#phone-time-accuracy)".  
 
-* Disable battery optimization as explained [here](./BatteryOpt.md).  
+* Follow the instructions [here](./BatteryOpt.md) to disable battery optimization for xDrip.  
 
-* Also disable Bluetooth battery optimization as explained [here](./BluetoothBatteryOpt.md).  
-
+* Follow the instructions [here](./BluetoothBatteryOpt.md) to disable Bluetooth battery optimization.  
+  
 * For Android 11 or newer, enable background location access as explained [here](./Location.md).  
 
-* Restart the phone.  
+* Restart your phone.  
 
-* If it disconnects, see [this](./Connectivity-troubleshoot.md).  
+* If you experience disconnections, refer to the troubleshooting guide [here](./Connectivity-troubleshoot.md).  
+  
   
