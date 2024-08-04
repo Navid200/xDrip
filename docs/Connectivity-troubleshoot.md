@@ -1,25 +1,26 @@
 ## Connectivity troubleshooting
 [xDrip](../README.md) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Connectivity troubleshooting  
   
-Don't tweak the xDrip settings hoping to get it going.  
-Disable [engineering mode](./Engineering-Mode.md).  
+* Don’t adjust xDrip settings in an attempt to resolve connectivity issues without following the [recommended steps](./G6-Recommended-Settings.md).  
   
-When making changes to meet the following recommendations, be patient and allow a new reading to complete.  Communication with the transmitter happens only once every 5 minutes.  After you make a change, you are not going to see an impact, on the status page, until the next read cycle completes.  Please keep that in mind every time you make a change to the settings.  
+* Disable [engineering mode](./Engineering-Mode.md) if it’s enabled.  
   
-Ensure your settings match the [recommended settings](./G6-Recommended-Settings.md).  
+ * Allow time for changes to take effect.  Communication with the transmitter occurs every 5 minutes. After making changes, wait for a new reading cycle to complete before assessing the impact on the status page.  
   
-If it is a G6 or Dexcom One, have you [activated the transmitter](./Dexcom/NewG6TX_Activation.md)?  
-If it is a G7, have you inserted the device?  
-  
-Enable all xDrip notifications under `Android Settings` &#8722;> `Apps & notifications` &#8722;> `Notifications` &#8722;> `xDrip+`.  Otherwise, you may not get a pair request notification, which you will need to approve if you have Android 10 or newer.  
+* For G6 or Dexcom One, ensure the transmitter is [activated](./Dexcom/NewG6TX_Activation.md).  
 
-If you are new to xDrip or Dexcom, have a look at the [general information](./Dexcom-Basics.md) to familiarize yourself with the interface and requirements and limitations.  
-
-If there is another mobile device set to collect from the same Dexcom device (not a follower, but a master), you need to disconnect it.  
-
-The Dex status page gives you most of the information you need about how your system is doing.  
+* For G7 or One+, follow [these steps](./Dexcom/G7.md).  
+  
+* Go to `Android Settings` &#8722;> `Apps & notifications` &#8722;> `Notifications` &#8722;> `xDrip+` and enable notifications and also disable DND.  This is crucial for receiving pair request notifications on Android 10 or newer.  
+  
+* Ensure no other mobile device is set to collect data from the same transmitter. If another device is connected as a master, disconnect it.  
+  
+* Check the Dex Status Page, which provides important information about the system’s performance.  
 ![](./images/system-status-pg.png)  
+<br/>  
   
+
+
 Is there a [disconnect](./Proper-connectivity.md)?  If yes, you need to resolve it before anything else.  Don't waste your time starting a sensor before you have connectivity.  
   
 If there is a command in the queue on the status page, it should clear on the next read cycle (once every 5 minutes).  If it does not clear on the next read cycle, you have a command stuck in the queue.  In that case, [clear](./Clear-queue.md) the queue.  
