@@ -2,7 +2,7 @@
 [xDrip](../README.md) >> Settings  
 <br/>  
   
-This page describes all the settings in xDrip.  The settings have been organized in different menus.  
+This page provides an overview of all settings available in xDrip. The settings are organized into the following menus:  
 <br/>  
   
 #### [Main settings](./Settings/MainSettings.md) &nbsp; ![](./Settings/images/Hamburger.png)  
