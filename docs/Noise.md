@@ -1,10 +1,10 @@
 ## Noise
 [xDrip](../README.md) >> [FAQ](./FAQ_page.md) >> Noise  
 
-As a sensor ages, its accuracy diminishes, and the correlation with interstitial fluid glucose deteriorates.  
-Noise is the rapid oscillatory fluctuation of readings that is due to the sensor malfunction rather than a real representation of your blood glucose.  
+As a sensor ages, its accuracy diminishes, and its correlation with interstitial fluid glucose deteriorates. Noise refers to the rapid, oscillatory fluctuations in readings caused by sensor malfunction, rather than true variations in your blood glucose levels.  
   
-Please look at the readings in the following image.   
+Consider the readings in the following image:  
 ![](./images/Noise.png)  
-According to the readings, the blood glucose increases from reading A to the following reading marked with B.  Then, the blood glucose decreases from reading B to the following reading marked with C.  But, the time sequence between these readings is only 5 minutes.  Your blood glucose never fluctuates that fast.  
-This is obviously caused by the malfunction of the sensor (noise).  In this case, you can either switch to a new sensor or will have to put up with the ups and downs until you do. 
+The glucose level increases from reading A to reading B, then decreases from reading B to reading C. However, the time interval between these readings is only 5 minutes, which is too short for such rapid fluctuations in blood glucose. This discrepancy indicates sensor malfunction (noise). In this case, you can either switch to a new sensor or tolerate the erratic readings until you do.  
+
+  
