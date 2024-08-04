@@ -19,22 +19,17 @@
 ![](./images/system-status-pg.png)  
 <br/>  
   
-
-
-Is there a [disconnect](./Proper-connectivity.md)?  If yes, you need to resolve it before anything else.  Don't waste your time starting a sensor before you have connectivity.  
+* If there is a command in the queue, it should clear in the next read cycle (every 5 minutes). If not, [clear the queue](./Clear-queue.md).  
   
-If there is a command in the queue on the status page, it should clear on the next read cycle (once every 5 minutes).  If it does not clear on the next read cycle, you have a command stuck in the queue.  In that case, [clear](./Clear-queue.md) the queue.  
+* If the status page shows “Deep sleeping errors” or “Checking Auth errors” and the last connected time is consistently less than 5 minutes, tap “Forget Device” on the classic status page.  For G7 or One+, forget all devices starting with DXCM or DX02 in your Bluetooth settings.  
+Return to the Dex status page and approve a new pair request. For Android versions older than 10, you will not receive a pair request but will hear a pairing notification.  
   
-If there is a disconnect, and you don't see "scanning" on the G5/G6 status page, you should tap on "Restart Collector" on the classic status page.  You may need to approve a pair request, which may come up any time up to 5 minutes after tapping on restart collector.  
+* If there is still a disconnect, [trigger a pair request](./MissedPairRequest.md).  It should connect.  
   
-If last connected, on the status page, consistently shows a value less than 5 minutes, yet, you see "Deep sleeping errors" or "Checking Auth errors" on the status page, go to the classic status page and tap on "Forget device".  This does not work for a G7 though.  For a G7, you will need to forget all devices in your Bluetooth settings that start with DXCM.  Then, return to the G5/G6 status page and wait for a pair request to approve.  If you are using a version of Android older than Android 10, you will not get a pair request.  But, you will hear a pairing notification.  The connectivity should be resolved after pairing.  
+* If  there is no disconnect, and the status page shows "OK \*\* days" for sensor status, but you have no readings, ensure the xDrip session is started.  Tap “Start Sensor” for G6/Dexcom One; you can enter the same calibration code shown on the status page. The calibration code entered now does not affect the already started session on G6.  G7 will start automatically.  
   
-If there is still a disconnect, [trigger a pair request](./MissedPairRequest.md).  It should connect.  
+* If your system occasionally disconnects and requires action to reconnect, refer to the additional troubleshooting steps for [intermittent connectivity issues](./Intermittent.md).  
   
-If  there is no disconnect, and the status page shows "OK \*\* days" for sensor status, yet, you have no readings, it means that there is a session in progress and you are connected;  but, xDrip needs a start.  
-Please tap on start sensor.  For a G6/Dex1, you can enter the same calibration code shown on the status page.  It doesn't really matter because the session has already started and the calibration code you enter now does not matter.  
-  
-If you have resolved the problem and have a working system, but, it occasionally disconnects requireing you to take action to reconnect, please see [this](./Intermittent.md).  
-  
-If you are still having trouble, you can [ask for help](./Contact.md).  
+If you’re still experiencing trouble, don’t hesitate to [ask for help](./Contact.md).  
+    
   
