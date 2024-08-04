@@ -2,10 +2,9 @@
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Follow](../Follow_page.md) >> Nightscout  
   
 You can easily set up xDrip to follow Nightscout by configuring the following settings:  
-Select Nightscout Follower as the Data Source.  
-
-Under [hardware data source](../HardwareDataSource.md), select `Nightscout Follower`.  
-
+  
+Select `Nightscout Follower` as the [Data Source](../HardwareDataSource.md).  
+  
 Go to `Settings` &#8722;> `Nightscout Follow URL` and enter the Nightscout Follow URL, based on the `AUTH_DEFAULT_ROLES` variable setting:  
   
 | AUTH_DEFAULT_ROLES | Nightscout Follow URL |  
