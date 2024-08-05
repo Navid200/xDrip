@@ -1,5 +1,5 @@
 ## Dexcom xDrip Recommended Settings  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Dexcom collector recommended settings  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Dexcom G6, Dexcom One, G7, and One+ collector recommended settings  
   
 For optimal performance with xDrip and Dexcom devices, follow these recommended settings:  
   
