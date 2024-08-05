@@ -13,7 +13,7 @@ Using each sensor for the full 10 days allows the extra 12 hours to offer flexib
 You can opt to use each sensor for the full 10.5 days instead of 10. To do this, if you start a sensor at 7:00 AM, you must start the next one at 7:00 PM. This means you’ll alternate between starting sensors in the morning and evening. Using each sensor for 10.5 days, 9 sensors will last you a total of 94.5 days.  
   
 3- Presoak  
-You can insert your new sensor while the old one is still operational. For example, you might insert your new sensor at 7:00 AM but keep the old sensor active until 7:00 PM. This way, when the old sensor stops working, the new sensor will have already been active for several hours. Since readings from a new sensor can be unstable initially, this method helps you avoid unreliable readings by having the old sensor in use while the new one "warms up".  
+You can insert your new sensor while the old one is still operational. For example, you might insert your new sensor at 7:00 AM but keep the old sensor active until 7:00 PM. This way, when the old sensor stops working, the new sensor will have already been active for several hours. Since readings from a new sensor can be unstable initially, this method helps you avoid unreliable readings by having the old sensor in use while the new one becomes more stable.  
 <br/>  
 
 How you use the extra 12 hours is up to you.  
