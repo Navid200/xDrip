@@ -1,29 +1,26 @@
-## G7 Grace period
+## G7 or One+ Grace period
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Dexcom G7 grace perriod  
   
-[This](./G7.md) explains how to set up xDrip to use G7.  
+[This guide](./G7.md) explains how to set up xDrip to use G7 or One+.  
   
-A G7 device runs for 10.5 days.  Dexcom refers to the extra 12 hours over a 10-day period as the grace period.  You have several options explained below for how you can take advantage of the grace period.  You can also use a combination of those.  
+A G7 device runs for 10.5 days. Dexcom refers to the extra 12 hours beyond the standard 10-day period as the grace period. You have several options for taking advantage of this grace period, and you can also use a combination of these methods.  
 <br/>  
   
 1- Flexibility  
-If you use every sensor for 10 days, the extra 12 hours can give you flexibility.  For example if an unexpected errand comes up exactly at the 10-day schedule and you cannot start the new sensor as expected, you will have 12 hours to complete the errand and start the new sensor while your old sensor remains functional.  
+Using each sensor for the full 10 days allows the extra 12 hours to offer flexibility. For instance, if an unexpected errand arises exactly on the 10th day and you cannot start the new sensor as planned, you will have an additional 12 hours to complete the errand and start the new sensor while the old one remains functional.  
 
-2- Extra run time  
-You can choose to use each sensor for 10.5 days instead of 10.  The requirement for this is if you start a sensor at 7:00 am, you will have to start the next one at 7:00 pm.  You will need to switch back and forth between starting the sensor in the morning and evening.  
-If you use each sensor for 10.5 days, 9 sensors will last you 94.5 days.  
+2- Extended run time  
+You can opt to use each sensor for the full 10.5 days instead of 10. To do this, if you start a sensor at 7:00 AM, you must start the next one at 7:00 PM. This means you’ll alternate between starting sensors in the morning and evening. Using each sensor for 10.5 days, 9 sensors will last you a total of 94.5 days.  
   
 3- Presoak  
-You can insert your new sensor while your old sensor is still operational.  As an example, you can always insert your new sensor at 7:00 am but leave your old sensor active until 7:00 pm.  
-The result is that when your old sensor stops working, your new sensor has already warmed up and worked for hours already.  
-Readings from a new sensor are unstable for a while.  Using your old sensor while your new sensor runs for 12 hours let's you avoid the unstable readings.  
+You can insert your new sensor while the old one is still operational. For example, you might insert your new sensor at 7:00 AM but keep the old sensor active until 7:00 PM. This way, when the old sensor stops working, the new sensor will have already been active for several hours. Since readings from a new sensor can be unstable initially, this method helps you avoid unreliable readings by having the old sensor in use while the new one "warms up".  
 <br/>  
 
-How you use the extra 12 hours is your choice.  
+How you use the extra 12 hours is up to you.  
 <br/>  
 
 ---  
 
 #### **xDrip sensor expiry**  
-xDrip considers a G7 sensor to run for 10.5 days and expire then.  Therefore, when you start a sensor, xDrip shows the sensor to expire in 10.5 days.  
+xDrip considers a G7 sensor to run for 10.5 days and then expire. Therefore, when you start a sensor, xDrip will indicate that the sensor will expire in 10.5 days.  
   
