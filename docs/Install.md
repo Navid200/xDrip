@@ -1,13 +1,14 @@
 ## Install xDrip  
 [xDrip](../README.md) >> [Download & Installation](./Installation_page.md) >> Install xDrip  
   
-After having [downloaded](./Download-xDrip.md) the .apk file, you can install by tapping on it.  
+After [downloading](./Download-xDrip.md) the xDrip .apk file, locate it in your file manager and tap on it to start the installation process.  
   
-If you already have another xDrip release installed, as long as it is from the [Nightscout foundation xDrip](https://github.com/NightscoutFoundation/xDrip), you don't have to uninstall first.  You can just install over your existing installation.  
-
-But, if you have installed xDrip from another repository, you will not be able to install over it.  In that case, you should [backup](./Backup.md) before uninstalling.  After you install, you will be able to restore your backup to restore your old readings and or your old settings if you want to.  
+If you have another xDrip release installed from the [Nightscout Foundation](https://github.com/NightscoutFoundation/xDrip), you can install the new version directly over the existing one without uninstalling the previous version.  
   
-If you have never installed xDrip, you may see the following note:  
+If xDrip was installed from a different repository, you cannot install the new version over it. In this case:  
+Before uninstalling the old version, ensure you [back up](./Backup.md) your data.  Uninstall the existing version.  Proceed with the installation of the new version.  After installation, restore your backup to recover your old readings and settings if needed.  
+  
+You may see the following note after install:  
 ![](./images/InstallNotAllowed.png)  
   
 Tap on "Settings".  That will bring up this form:  
