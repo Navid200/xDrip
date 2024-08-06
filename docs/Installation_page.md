@@ -9,12 +9,12 @@ There is no automatic update feature, but you can manually check for updates wit
   
 The following sections offer more details. If you have any questions, please [contact us](./Contact.md).  
   
-#### [Requirements](./Requirements_page.md)
-#### [Release notes - changelog](ReleaseNotes.md)
 #### [Download xDrip](./Download-xDrip.md)
 #### [Install xDrip](./Install.md)
 <br/>  
   
+#### [Release notes - changelog](ReleaseNotes.md)
+#### [Requirements](./Requirements_page.md)
 #### [Location access](./Location.md)
 #### [Bluetooth Battery optimization](./BluetoothBatteryOpt.md)
 #### [xDrip version](./xDrip-Version.md)
