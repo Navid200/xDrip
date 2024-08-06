@@ -3,11 +3,9 @@
   
 When attempting to install xDrip, you may encounter the following message:    
 ![](../images/UnsafeAppBlocked1.png)  
-  
 This is an expected security measure due to xDrip not being available on the Google Play Store. To proceed with the installation:  
 - Tap on “More details”: This will expand additional options.  
 ![](../images/UnsafeAppBlocked2.png)  
-  
 - Tap on “Install anyway”: This allows you to continue with the installation despite the warning.  
   
 <br/>  
