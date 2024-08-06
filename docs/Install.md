@@ -9,6 +9,8 @@ If xDrip was installed from a different repository, you cannot install the new v
 Before uninstalling the old version, ensure you [back up](./Backup.md) your data.  Uninstall the existing version.  Proceed with the installation of the new version.  After installation, restore your backup to recover your old readings and settings if needed.  
 <br/>  
   
+---  
+  
 You may see the following note after attempting to install:  
 ![](./images/InstallNotAllowed.png)  
   
@@ -20,6 +22,8 @@ Enable "Allow from this source" and go back.  Now, you will see this:
   
 Tap on "Install".  
 <br/>  
+  
+---  
   
 If you see unsafe app blocked.  Follow these [instructions](./FAQ/UnsafeAppBlocked.md) to install.  
   
