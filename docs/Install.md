@@ -7,6 +7,7 @@ If you have another xDrip release installed from the [Nightscout Foundation](htt
   
 If xDrip was installed from a different repository, you cannot install the new version over it. In this case:  
 Before uninstalling the old version, ensure you [back up](./Backup.md) your data.  Uninstall the existing version.  Proceed with the installation of the new version.  After installation, restore your backup to recover your old readings and settings if needed.  
+<br/>  
   
 You may see the following note after attempting to install:  
 ![](./images/InstallNotAllowed.png)  
