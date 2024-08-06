@@ -5,9 +5,9 @@ You cannot install multiple instances of xDrip on the same phone. However, xDrip
   
 **Downloading Nightly Variants**  
 You can download nightly variants [here](https://drive.google.com/drive/folders/0B6mvYVNVC-fOWkxnVF80dlFabjQ?resourcekey=0-ebguuiPuB1wUI9Rp2zjMNg). To view the list:  
-- Click the button at the top right to switch to list view.  
-- Click on “Last modified” at the top and select the check mark. This will add an arrow next to "Last Modified”.  
-- Click the arrow to sort by the latest version. Be patient, as the sorting process may take a moment. The latest variant will appear at the top.  
+1- Click the button at the top right to switch to list view.  
+2- Click on “Last modified” at the top and select the check mark. This will add an arrow next to "Last Modified”.  
+3- Click the arrow to sort by the latest version. Be patient, as the sorting process may take a moment. The latest variant will appear at the top.  
   
 ![](./images/Variants.png)  
 <br/>  
@@ -15,21 +15,22 @@ You can download nightly variants [here](https://drive.google.com/drive/folders/
 ---  
   
 #### **Which is which**  
+<br/>  
   
 - Basic notifications  
-The basic notifications are already identified by the name of the app as highlighted in the following screenshot example.  So, you don't need to do anything for that.  
-![](./images/variantNote.png)  
+Basic notifications are identified by the name of the app, as shown in the example screenshot.  No additional action is required.  
+![](./images/variantNote.png)   
 <br/>  
   
 - Alerts  
-Name the alerts in each app according to the person you are following.  For example, name the low alert in the main app "HanselLow" while naming the low alert in the variant "GretelLow".  Now, when you get a low alert, you can tell whom the alert is for.  
+Name the alerts in each app according to the person you are following. For example, label the low alert in the main app as “HanselLow” and the low alert in the variant as “GretelLow.” This helps you identify which user the alert is for.   
 <br/>  
   
 - Icons  
-The icons are clearly identified.  
+Icons are clearly identified within the app, making it easy to distinguish between different instances.  
 ![](./images/variantIcons.png)  
 <br/>  
   
-- Which xDrip do I have open?  
-You can customize the navigation bar and/or the title bar colors, as shown [here](./Legend.md).  Then, it may be easier for you to tell which app you are in.  
-   
+- Menus  
+Customize the navigation bar and/or the title bar [colors](./Legend.md) to make it easier to identify which xDrip instance is currently open. This customization helps you quickly determine which app you are using.  
+  
