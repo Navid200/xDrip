@@ -2,32 +2,30 @@
 [xDrip](../README.md) >> xDrip Support  
   
 ### **Request for Help**  
-If you need help using xDrip, please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  
-include the following in the first post.  
-- What device is attached to the sensor. For example, Dexcom G6, or MIAOMIAO.   
-- What brand and model is the phone, and what Android version is on the phone?  
-- A screenshot of the [system status page](./StatusG5G6.md) (you can blackout serial numbers)  
-- A screenshot of the [Hardware Data Source page](./HardwareDataSource.md)  
-
-Include a short description of what is wrong. For example "No readings", or "Sensor Stopped".  
-Also, state if there is something that has changed. For example, is this a new phone, did you recently receive an Android patch, if the problem only occurs with a particular release of xDrip, or if a new sensor started the issue.  
-
-- Please don't respond by replying to an email from GitHub.  Doing that will quote previous messages cluttering the thread.  
+If you need assistance with xDrip, please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions). When creating your initial post, include the following information:  
   
-**<span style="color:red">Please don't open an issue.</span>**  
-Please allow us to manage the issues.  There used to be too many issues opened up by users.  Many could just be addressed by using xDrip differently.  In the meantime, there were always too many open issues and there was no way for the developers to know which ones were real.  
-Please help us manage the issues more efficiently by opening a [discussion](https://github.com/NightscoutFoundation/xDrip/discussions) instead of an issue.  If it turns out to be an issue, we will convert the discussion into an issue.  
+- Specify the device attached to the sensor (e.g., Dexcom G6, MIAOMIAO).  
+- Provide the brand and model of your phone, as well as the Android version it is running.  
+- A screenshot of the [system status page](./StatusG5G6.md) (you may blackout serial numbers).  
+- A screenshot of the [Hardware Data Source page](./HardwareDataSource.md).  
+- Include a brief description of the problem (e.g., “No readings” or “Sensor Stopped”).  
+- Mention if anything has recently changed, such as a new phone, an Android patch, a specific xDrip release, or a new sensor that might have triggered the issue.  
+<br/>
   
-#### What you shouldn't include  
-Items like user IDs, passwords, full name, address, phone number etc. can identify you or something that belongs to you.  We don't need any of those in order to help you.  Some of those information may be included in xDrip logs or shown on status pages.  You can blackout such information before posting.  
-On the other hand, the xDrip version you are using or the firmware version of the transmitter you are using are very important and can be relevant and will not compromise your privacy.  So, please don't leave those out of your screenshots.  
+---  
   
+- **<span style="color:red">Opening New Issues.</span>**  
+Please do not open a new issue directly. We prefer to manage issues through [discussions](https://github.com/NightscoutFoundation/xDrip/discussions). Many problems can be resolved by adjusting xDrip settings with no need to modify the xDrip code. This helps us better prioritize and address real problems.  
+If the discussion reveals a genuine issue, we will convert it into an official issue for further investigation.  
   
-### **Suggestions** 
-To reach out to developers, post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  
-xDrip is constantly being improved and your suggestions are welcome.  But, please note that there is a price to pay for every new feature.  xDrip needs to be maintained and documented.  That means xDrip bugs need to be fixed.  The more features there are, the more complicated the bugs will become.  
-Please post your suggestions.  But, please be patient.  
+- Avoid replying to emails from GitHub as this will quote previous messages and clutter the thread.  Instead, please log into GitHub and respond in a post in the discussion thread.  
   
+- Do not include personal information such as user IDs, passwords, full names, addresses, or phone numbers in your post. While some of this information might appear in xDrip logs or status pages, you should blackout such details before posting. However, details like your xDrip version and the firmware version of your transmitter are important for troubleshooting and should not be omitted from your screenshots.  
+  
+### **Suggestions**  
+To suggest new features or improvements, please post in the [discussions](https://github.com/NightscoutFoundation/xDrip/discussions). We welcome your input, but keep in mind that adding new features can increase the complexity of xDrip and introduce new bugs that need to be fixed. Therefore, while we value your suggestions, please be patient with the implementation process.  
   
 ### **Feedback**  
-If you find an item in the documentation that is not explained clearly, or if you like a subject to be added, or if you have found errors, please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  Please include in your post a link to the document to clarify which page you are referring to.  
+If you notice unclear documentation, errors, or if you think a topic should be added, please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions). Include a link to the specific document or page you’re referring to for better clarity.  
+
+  
