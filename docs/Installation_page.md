@@ -1,17 +1,19 @@
 # Download & Installation  
 [xDrip](../README.md) >> xDrip Download & Installation  
-
-We provide xDrip in case you find it beneficial, but we cannot offer any warranties. You assume responsibility for any outcomes.  
   
-Unlike some other apps, you can change the version of xDrip on your phone by installing a new version over your current one—there’s no need to uninstall the old version first.  
-
-There is no automatic update feature, but you can manually check for updates within the app.  You can also choose to be notified when there is an update.  
+We provide xDrip for your use, but please note that we cannot offer any warranties. You assume responsibility for any outcomes from using the app.  
   
-The following sections offer more details. If you have any questions, please [contact us](./Contact.md).  
+Unlike some other apps, you can update xDrip by simply installing a new version over the current one—there's no need to uninstall the old version first.  
+  
+While xDrip does not have an automatic update feature, you can manually check for updates within the app. You can also opt to receive notifications when an update is available.  
+  
+For more details, refer to the following sections. If you have any questions, please [contact us](./Contact.md).  
   
 #### [Download xDrip](./Download-xDrip.md)
 #### [Install xDrip](./Install.md)
 <br/>  
+  
+---  
   
 #### [Release notes - changelog](ReleaseNotes.md)
 #### [Requirements](./Requirements_page.md)
