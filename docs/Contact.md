@@ -4,7 +4,7 @@
 ### **Request for Help**  
 If you need assistance with xDrip, please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions). When creating your initial post, include the following information:  
   
-- Specify the device attached to the sensor (e.g., Dexcom G6, MIAOMIAO).  
+- Specify the device attached to the sensor (e.g. Dexcom G6 or MIAOMIAO).  
 - Provide the brand and model of your phone, as well as the Android version it is running.  
 - A screenshot of the [system status page](./StatusG5G6.md) (you may blackout serial numbers).  
 - A screenshot of the [Hardware Data Source page](./HardwareDataSource.md).  
