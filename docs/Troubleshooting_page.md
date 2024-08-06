@@ -1,10 +1,10 @@
 # xDrip Troubleshooting  
 [xDrip](../README.md) >> xDrip Troubleshooting  
   
-If you are experiencing problems using xDrip, some possible issues, and suggested solutions, are listed on this page.  
+If you're experiencing issues with xDrip, check the list below for potential problems and suggested solutions:  
   
 #### [xDrip does not install](./DoesNotInstall.md)
-#### [Alert is silent](./Silent-alert.md)
+#### [Alerts Are Silent](./Silent-alert.md)
 #### [New G6 or Dexcom One transmitter does not connect](./Dexcom/NewG6TX_Activation.md)
 #### [Dexcom transmitter does not connect](./Connectivity-troubleshoot.md)
 #### [Dexcom transmitter keeps disconnecting](./Intermittent.md)
@@ -22,7 +22,7 @@ If you are experiencing problems using xDrip, some possible issues, and suggeste
   
 Disable [engineering mode](Engineering-Mode.md) if it is enabled.  
   
-You can see existing open issues [here](./Issues.md).  
+For information on existing open issues, please [view here](./Issues.md).  
   
-If the problem you experience is not listed, please don't open a new issue.  Instead, please reach out to experienced users and developers by opening a [discussion](https://github.com/NightscoutFoundation/xDrip/discussions).    
+If your issue is not listed, do not open a new issue. Instead, seek assistance from experienced users and developers by starting a [discussion](https://github.com/NightscoutFoundation/xDrip/discussions).      
   
