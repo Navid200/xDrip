@@ -13,7 +13,7 @@ xDrip can receive readings from notifications issued by another app. For example
   
 - Go to Android settings on your phone.  
 - Search for "notification access." Android will locate and display the setting.  
-- Tap on it and enable xDrip.
+- Tap on it and enable xDrip.  
  ![](./images/NoteAccess.png)  
   
 4- Set xDrip to use the same [unit](../Display/Units_HiLow.md) for blood glucose as your companion app, either mmol/L or mg/dL.  
