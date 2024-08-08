@@ -1,30 +1,32 @@
 ## Companion App Mode
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Follow](../Follow_page.md) >> xDrip Companion App mode  
   
-xDrip can get readings from notifications issued by another app.  
-For example, if you have CamAPS installed and operational, you can have xDrip on the same phone show readings from CamAPS.  
-Similarly, if you have a Dexcom app installed collecting from a transmitter, you can use the Companion App feature to receive readings from the Dexcom app.  
-This feature does not require internet access.  
+xDrip can receive readings from notifications issued by another app. For example, if you have CamAPS installed and operational, you can have xDrip on the same phone display readings from CamAPS. Similarly, if you have the Dexcom app installed and collecting data from a transmitter, you can use the Companion App feature to receive readings from the Dexcom app. This feature does not require internet access.
   
-1- You need to have notifications showing on your phone from the other app.  Pull down from the top of the screen on your phone to see all the notifications.  
   
-2- Enable Companion App on the [Hardware Data Source page](../HardwareDataSource.md).  
   
-3- Give xDrip notification access.  When you enable Companion app mode, you will be offered the opportunity to give that permission to xDrip.  If you didn't grant permission, this is how you can do it later.  
-Go to Android settings on your phone.  Perform a search and search for notification access.  Android will find and show you the setting.  Tap on it.  Enable xDrip.  
-![](./images/NoteAccess.png)  
+1- Ensure that notifications from the other app are visible on your phone. Pull down from the top of the screen to view all notifications.  
   
-4- Set xDrip to use the same [unit](../Display/Units_HiLow.md) for blood glucose that your companion app is set to, mmol/L or mg/dL.  
+2- Enable Companion App mode on the [Hardware Data Source page](../HardwareDataSource.md).  
+  
+3- Grant xDrip notification access. When you enable Companion App mode, you will be prompted to grant this permission to xDrip. If you did not grant permission at that time, you can do so later by following these steps:  
+  
+- Go to Android settings on your phone.  
+- Search for "notification access." Android will locate and display the setting.  
+- Tap on it and enable xDrip.
+ ![](./images/NoteAccess.png)  
+  
+4- Set xDrip to use the same [unit](../Display/Units_HiLow.md) for blood glucose as your companion app, either mmol/L or mg/dL.  
 <br/>  
   
 ---  
   
 #### **Backfill**  
-When using companion app mode, if you walk away from your phone for more than 5 minutes, when you return, you will see missing readings in xDrip even though the companion app may have no missed readings.  
+When using Companion App mode, if you leave your phone for more than 5 minutes, you might see missing readings in xDrip upon your return, even if the companion app has no missed readings.  
   
-Enable the following setting.  If then, you walk away from the phone for more than 5 minutes and on your return, you see no missed readings in xDrip, perfect.  
+Enable the following setting: If you return after more than 5 minutes and see no missed readings in xDrip, this is ideal.  
   
-Please note there is no guarantee this will work on all phones or Android versions or companion apps.  Please test and use if it works for you.  
+Please note that this feature may not work on all phones, Android versions, or companion apps. Test and use if it works for you.  
   
 `Settings` &#8722;> `Less common settings` &#8722;> `Bluetooth Settings` &#8722;> `Companion Bluetooth`  
 ![](./images/CompanionBluetoothSetting.png)  
@@ -33,8 +35,7 @@ Please note there is no guarantee this will work on all phones or Android versio
 ---  
 
 #### **Multiple Companion apps**  
-The companion app feature is meant to be used with one companion app only.  
-If you have two different apps that xDrip can work with as companion apps, xDrip has no way of being set to only collect from one.  
-You are not supposed to use such a setup.  
-If there is a requirement to use two different apps at the same time and xDrip can collect from both in companion app mode, you should disable notifications in one of the two apps.  
+The Companion App feature is designed to work with only one companion app at a time. If you have two different apps that xDrip can work with as companion apps, xDrip cannot be configured to collect data from only one of them. Using such a setup is not recommended.  
+
+If you need to use two different apps simultaneously and xDrip can collect data from both in Companion App mode, you should disable notifications in one of the apps.  
   
