@@ -25,7 +25,7 @@ Enter the full path to the backup file. For example, if the backup filename is b
   
 Click on “Download” to start downloading the backup file to the device you're using to access the virtual machine.  
   
-If the terminal disconnects during the download and shows a disconnect error, wait a moment and click “Retry” to reconnect. Try downloading again, and it should proceed.  
+If the terminal disconnects during the download and shows a [disconnect error](./images/Disconnect.png), wait a moment and click “Retry” to reconnect. Try downloading again, and it should proceed.  
   
 Ensure you keep the backup file in a safe location.  
 <br/>  
