@@ -6,7 +6,7 @@ If you have a Dexcom session already running that was started using another phon
   
 - If another mobile device or app is currently controlling the transmitter, you will need to either disable it or move outside its range. This does not apply to the Dexcom receiver or a t:slim pump; these devices can remain active. If you have another phone with xDrip controlling the device, you will need to [disable its collection](./Stop-xDrip.md).  
   
-- Set up xDrip and Android for [Dexcom](./G6-Recommended-Settings.md)).  
+- Set up [xDrip and Android for Dexcom](./G6-Recommended-Settings.md).  
   
 - Ensure [proper connectivity](./Proper-connectivity.md). If you experience issues, follow the [troubleshooting steps](./Connectivity-troubleshoot.md).  
   
