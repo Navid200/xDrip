@@ -5,7 +5,7 @@ layout: GCNS
 ## Google Cloud Nightscout Backup
 [Google Cloud Nightscout](./GoogleCloud.md) >> Backup  
   
-You must have Nightscout [installed](./NS_Install.md) and operational for this to work.  
+You must have Nightscout [installed and operational](./GoogleCloud.md) for this to work.  
   
 **Backup**  
 Open a [terminal](./Terminal.md).  Select "Backup MongoDB and variables" from the Data submenu.  
