@@ -5,7 +5,7 @@ layout: GCNS
 ## Google Cloud Nightscout Restore
 [Google Cloud Nightscout](./GoogleCloud.md) >> Restore  
   
-You must have Nightscout [installed and functional](./NS_Install.md) for this to work.  
+You must have Nightscout [installed and functional](./GoogleCloud.md) for this to work.  
   
 Open a [terminal](./Terminal.md).  
 Click on "Upload" at the top of the terminal.  
