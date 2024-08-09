@@ -1,11 +1,10 @@
 ## Battery voltage logs  
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Battery voltage logs  
   
-If you use xDrip as a collector, the battery voltages are saved, and kept for 9 days, in the [logs](../Logs.md).  To see those, while viewing the logs, you can tap on the magnifying glass symbol to search and enter volt.  
-That only shows the battery voltage logs.  An example is shown here:  
+If you use xDrip as a collector, battery voltages are saved and kept for 9 days in the [logs](../Logs.md). To view these logs, tap on the magnifying glass symbol while viewing the logs and enter "volt" in the search field. This will filter the logs to only show battery voltage information. An example is provided below:    
 ![](./images/BatteryLogs.png)  
   
-Pay attention to the dates and times on the left.  The items at the top are more recent.  
+Pay attention to the dates and times on the left. The items at the top are the most recent.    
 
-Voltage B is what matters.  If the value has been decreasing rapidly, it could be that the battery is the cause of connectivity issues you may be experiencing.   
+Focus on the "Voltage B" values. If you notice that the value has been decreasing rapidly, the battery could be causing the connectivity issues you are experiencing.   
   
