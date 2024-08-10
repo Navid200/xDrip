@@ -18,7 +18,7 @@ If xDrip continues to disconnect, try the following adjustments:
   
 * If disconnections persist, try enabling `Avoid Scanning`.  
   
-* For Samsung devices, try `Trust Auto-Connect` on the [Bluetooth settings page](./images/ble-recommended-stngs.png).  
+* For Samsung devices, try enabling `Trust Auto-Connect` on the [Bluetooth settings page](./images/ble-recommended-stngs.png).  
     
 If the problem persists, please [open a discussion](https://github.com/NightscoutFoundation/xDrip/discussions) for further assistance.  
   
