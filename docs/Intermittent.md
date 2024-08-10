@@ -1,34 +1,24 @@
 ## xDrip Dexcom Intermittent Connectivity
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> xDrip intermittent Connectivity  
   
-If you have no connectivity at all, [transmitter connectivity troubleshooting](./Connectivity-troubleshoot.md) may help.  
-If you have connectivity and readings, but occasionally experience a disconnect, this page may help.  
+If you have no connectivity at all, [transmitter connectivity troubleshooting](./Connectivity-troubleshoot.md) may help. This page may help if you have connectivity and readings, but occasionally experience a disconnect.  
   
-xDrip needs to wake up and scan once every 5 minutes in order to maintain connectivity and provide consistent readings.  The rest of the time, xDrip is sleep, running in the background, to avoid draining the battery.  
-New versions of Android have features to extend the phone battery run time by minimizing background activity.  
-The phone manufacturers also include their methods for accomplishing the same.  
-This behavior interferes with proper operation of xDrip.  As a result, when you first install xDrip on Android 10 or newer releases of Android, it is almost guaranteed it will have connectivity issues.  
+xDrip needs to wake up and scan every 5 minutes to maintain connectivity and provide consistent readings. The rest of the time, xDrip is in sleep mode, running in the background to conserve battery life. New versions of Android have features that extend phone battery life by minimizing background activity, and phone manufacturers also have their own methods for achieving this. Unfortunately, these behaviors can interfere with xDrip’s proper operation. As a result, when you first install xDrip on Android 10 or newer versions, connectivity issues are almost guaranteed.  
   
-1. Please [update](./Updates.md) xDrip, at least, to the current stable release.  For G7, [see this](./Dexcom/G7.md).  
+1. Ensure you are using at least the current stable release. [update](./Updates.md) if necessary.  For G7, see [this](./Dexcom/G7.md).  
   
-2. Start from the recommended settings:
-[G5](./G5-Recommended-Settings.md)
-[G6/Dex1 or G7/1+](./G6-Recommended-Settings.md)  
+2. Start with the [recommended settings](./G6-Recommended-Settings.md).  
   
-3. Disable any battery optimization/adaptation settings you can find under Android Settings &#8722;> Battery.  
-For example, for Samsung, go to Settings &#8722;> Device care &#8722;> Battery, and disable "Power saving".  Then, tap on "Background usage limits", and disable "Put unused apps to sleep".  
-  
-4. Look at Bluetooth Battery Optimization [here](./Dexcom-Basics.md).  Set it to not optimized or unrestricted.  
-  
-5. Look for something similar for your phone and brand: [https://dontkillmyapp.com/xiaomi](https://dontkillmyapp.com/xiaomi)
+3. Look for similar settings for your phone brand: [https://dontkillmyapp.com/xiaomi](https://dontkillmyapp.com/xiaomi).  
 <br/>  
-
-If it keeps disconnecting, please use what follows as a method for tweaking your device to find the best settings.  
   
-A. Enable "Special Pairing Workaround" even if you are not using a Samsung.  
+If xDrip continues to disconnect, try the following adjustments.  
   
-B. If you still get a disconnect more than once a week, try enabling "Avoid Scanning".  
+* Enable "Special Pairing Workaround".   This may help even if you are not using a Samsung device.  
   
+* If you still experience disconnections, try `Avoid Scanning`.  
   
-If the problem persists, please [open a discussion](https://github.com/NightscoutFoundation/xDrip/discussions).  
+* If you are using a Samsung device, try `Trust Auto-Connect` on the [Bluetooth settings page](./images/ble-recommended-stngs.png).  
+    
+If the problem persists, please [open a discussion](https://github.com/NightscoutFoundation/xDrip/discussions) for further assistance.  
   
