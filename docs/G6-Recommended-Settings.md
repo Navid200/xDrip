@@ -3,8 +3,6 @@
   
 For optimal performance with xDrip and Dexcom devices, follow these recommended settings:  
   
-* Ensure you are [using](./xDrip-Version.md) the latest stable release of xDrip.  [Update](./Updates.md) if necessary.     
-  
 * Verify `Settings` &#8722;> [`Dex Debug Settings`](./images/g6-recommended-settings.png)  
   
 * Verify `Settings` &#8722;> `Less common settings` &#8722;> [`Other misc options`](./images/other-misc-recommended.png)  
