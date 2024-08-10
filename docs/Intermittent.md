@@ -5,7 +5,7 @@ If you have no connectivity at all, [transmitter connectivity troubleshooting](.
   
 xDrip needs to wake up and scan every 5 minutes to maintain connectivity and provide consistent readings. The rest of the time, xDrip is in sleep mode, running in the background to conserve battery life. New versions of Android have features that extend phone battery life by minimizing background activity, and phone manufacturers also have their own methods for achieving this. Unfortunately, these behaviors can interfere with xDrip’s proper operation. As a result, when you first install xDrip on Android 10 or newer versions, connectivity issues are almost guaranteed.  
   
-1. Ensure you are using at least the current stable release. [update](./Updates.md) if necessary.  For G7, see [this](./Dexcom/G7.md).  
+1. Ensure you are using at least the current stable release. [Update](./Updates.md) if necessary.  For G7, see [this](./Dexcom/G7.md).  
   
 2. Start with the [recommended settings](./G6-Recommended-Settings.md).  
   
