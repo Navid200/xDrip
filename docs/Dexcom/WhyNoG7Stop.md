@@ -3,7 +3,7 @@
   
 A G7 (or One+) session starts automatically on the device as soon as you use the applicator to insert it. There is no need to manually start the session.  
   
-With the G6 transmitter, you could use it for up to 110 days, allowing for up to 11 sensors to be used sequentially with a single transmitter. When starting a new G6 sensor, you must first stop the previous sensor and ensure that the transmitter is outside the sensor for at least 10 minutes before beginning the new session. Failing to do so may cause the transmitter to detect a false restart attempt and stop the session. This is why it is necessary to be able to stop a G6 sensor.  
+With the G6 transmitter, you could use it for up to 110 days, allowing for up to 11 sensors to be used sequentially with a single transmitter. When starting a new G6 sensor, you must first stop the previous sensor and ensure that the transmitter is outside the sensor for at least 10 minutes before beginning the new session. Failing to do so may cause the transmitter to incorrectly detect a restart attempt and stop the session. This is why it is necessary to be able to stop a G6 sensor.  
   
 In contrast, the G7 integrates both the sensor and transmitter into a single device. Once you have used it, you cannot reuse it. There will be no restart attempt detection with the G7 because the session starts automatically as soon as you use the applicator and insert the device. Therefore, there is no need to stop a G7.  
   
