@@ -7,8 +7,7 @@ If the transmitter is not transmitting, you will not be able to use it, regardle
 Install the app on any Android phone. It doesn’t need to be the same phone that has xDrip installed. Be cautious with the on-screen ads.  
   
 Run the app and grant permission when requested. Ensure the transmitter is in the same room as the scanner.  
-  
-The app will start scanning for available Bluetooth devices. It will create a list of devices. Scroll through the list to see all the detected devices.  
+The app will start scanning for available Bluetooth devices. It will create a list of devices. You can scroll through the list.  
   
 For a G6 or Dexcom One, look for a device named Dexcom\*\*, where \*\* are the last two characters of the transmitter’s serial number.  
   
