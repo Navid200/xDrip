@@ -27,14 +27,20 @@ Set machine type to "e2-micro".
 Edit "Boot Disk" and modify as shown below.  
 ![](./images/Disk2.png)  
   
-If you don't see the required version of Ubuntu, please click on "Show 20 more of ..." at the bottom to view more options.  You may need to do that several times until you see the required version.  
-![](./images/Show20More.png)  
-  
 Click on "Select".    
   
 Under firewall, enable both http and https.  
 ![](./images/Firewall2.png)  
   
+Click on "Create" to create the virtual machine.  Google will now bring up your virtual machine.  Wait for it to come up.  It could take a minute.  When the external IP column appears, you should be good to go.  
+  
+<video width="400" controlsList="nodownload" src="./video/VM.mp4" controls>  
+</video>  
+  
+<br/>  
+  
+---  
+    
 You will not be able to change any of this after you create.  The only way to change is to delete the machine and create a new one.  Therefore, before clicking on create, make sure all requirements listed in the following table are met.  
   
 | Parameters | Requirements | Why |  
@@ -52,9 +58,7 @@ The estimate shown at the top right on the same page will not be 0.  As long as 
 You can also use the [calculator](https://cloud.google.com/products/calculator) to confirm the price.  
 ![](./images/Estimate.png)  
   
-Click on "Create" to create the virtual machine.  Google will now bring up your virtual machine.  Wait for it to come up.  It could take a minute.  When the external IP column appears, you should be good to go.  
-  
-If instead, you see a red exclamation mark and hovering the cursor over it shows a message (shown below) noting that a virtual machine is unavailable, you will need to dismiss the request by clicking on the garbage can symbol on the right.  Then, try to create the machine in a different region.  Unfortunately, you will need to make all the selections again for a new request.    
+After you create, if you see a red exclamation mark and hovering the cursor over it shows a message (shown below) noting that a virtual machine is unavailable, you will need to dismiss the request by clicking on the garbage can symbol on the right.  Then, try to create the machine in a different region.  Unfortunately, you will need to make all the selections again for a new request.    
 ![](./images/VM_Unavailable.png)  
   
 <video width="400" controlsList="nodownload" src="./video/VM.mp4" controls>  
