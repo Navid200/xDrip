@@ -58,10 +58,8 @@ You will not be able to change any of this after you create.  The only way to ch
 The estimate shown at the top right on the same page will not be 0.  As long as you satisfy the conditions listed in the above table, it's OK.  You can ignore that non-0 estimate.  
 You can also use the [calculator](https://cloud.google.com/products/calculator) to confirm the price.  
 ![](./images/Estimate.png)  
+<br/>  
   
 After you create, if you see a red exclamation mark and hovering the cursor over it shows a message (shown below) noting that a virtual machine is unavailable, you will need to dismiss the request by clicking on the garbage can symbol on the right.  Then, try to create the machine in a different region.  Unfortunately, you will need to make all the selections again for a new request.    
-![](./images/VM_Unavailable.png)  
-  
-<video width="400" controlsList="nodownload" src="./video/VM.mp4" controls>  
-</video>    
+![](./images/VM_Unavailable.png)   
   
