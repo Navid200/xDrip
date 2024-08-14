@@ -10,6 +10,7 @@ The virtual machine you create here is intended solely for hosting Nightscout. D
 <br/>  
 
 Here, we will create a free virtual machine in our [Google project](./NS_GCProject.md).  
+For additional assistance, there is a video clip on this page that might be helpful if the instructions are not clear. The process should take approximately 10-20 minutes to complete.  
   
 Go to dashboard.  Select "Compute Engine".  Select the "VM instances" tab in the left pane if it's not already selected.  
   
@@ -31,8 +32,6 @@ Under firewall, enable both http and https.
 ![](./images/Firewall2.png)  
   
 Click on "Create"<sup>\*</sup> to create the virtual machine.  Google will now bring up your virtual machine.  Wait for it to come up.  It could take a minute.  When the external IP column appears, you should be good to go.  
-
-For additional assistance, there is a video clip on this page that might be helpful if the instructions are not clear. The process should take approximately 10-20 minutes to complete.  
   
 <video width="400" controlsList="nodownload" src="./video/VM.mp4" controls>  
 </video>  
