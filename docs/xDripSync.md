@@ -26,8 +26,6 @@ Scan the QR code shown on the master screen.
 Approve the import.  
 ![](./Follow/images/ConfirmxSyncKeyImport.png)  
   
-This will change all the required settings, on the follower, to follow the master.  
-  
 All that is shown in a clip [here](https://youtu.be/LcgjfbYcWkE).  
 <br/>  
   
