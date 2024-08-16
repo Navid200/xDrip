@@ -6,6 +6,7 @@ layout: GCNS
 [Google Cloud Nightscout](./GoogleCloud.md) >> Backup  
   
 You must have Nightscout [installed and operational](./GoogleCloud.md) for this to work.  
+A video clip[ is included to help with the instructions.  
   
 **Backup**  
 Open a [terminal](./Terminal.md).  Select "Backup MongoDB and variables" from the Data submenu.  
@@ -28,6 +29,10 @@ Click on “Download” to start downloading the backup file to the device you'r
 If the terminal disconnects during the download and shows a [disconnect error](./images/Disconnect.png), wait a moment and click “Retry” to reconnect. Try downloading again, and it should proceed.  
   
 Ensure you keep the backup file in a safe location.  
+
+<video width="400" controlsList="nodownload" src="./video/Backup.mp4" controls>  
+</video>  
+  
 <br/>  
   
 ---  
