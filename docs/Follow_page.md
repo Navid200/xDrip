@@ -9,8 +9,5 @@ There are several options for using xDrip as a follower, to see someone else's r
 #### [Follow without access to the internet](./Follow/DesertSync.html)
 <br/>  
   
-#### [Comparison of follow schemes](./How-to-follow.md)
-<br/>  
-  
 #### [xDrip sync not working](./xDrip-Sync-not-working.md)
 #### [Follow multiple people](./Variants.md)
