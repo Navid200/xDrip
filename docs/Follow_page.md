@@ -6,7 +6,6 @@ There are several options for using xDrip as a follower, to see someone else's r
 #### [xDrip Sync](./xDripSync.md)
 #### [Nightscout](./Follow/FollowNightscout.md)
 #### [Web Follower for Libre 3](./Libre3_Follow.md)
-#### [BYODA](./DexcomAppxDrip.md)
 #### [Follow without access to the internet](./Follow/DesertSync.html)
 <br/>  
   
