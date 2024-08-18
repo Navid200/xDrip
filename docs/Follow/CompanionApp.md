@@ -1,5 +1,5 @@
 ## Companion App Mode
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Follow](../Follow_page.md) >> xDrip Companion App mode  
+[xDrip](../../README.md) >> [Features](../Features_page.md) >> xDrip Companion App mode  
   
 xDrip can receive readings from notifications issued by another app. For example, if you have CamAPS installed and operational, you can have xDrip on the same phone display readings from CamAPS. Similarly, if you have the Dexcom app installed and collecting data from a transmitter, you can use the Companion App feature to receive readings from the Dexcom app. This feature does not require internet access.
   
