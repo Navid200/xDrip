@@ -1,7 +1,7 @@
 ## Forecast Low alert
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Forecast Low alert  
   
-Glucose level alerts notify you when your glucose is low or high.  But the trend is also very important. For example, if your glucose level is at 6 (108) with a flat trend, you might not need an alert. However, if your glucose is at the same level but dropping rapidly, an alert could be essential.  
+Glucose level alerts notify you when your glucose is too low or too high, but the trend is also crucial. For example, if your glucose level is at 6 (108) with a flat trend, you might not need an alert. However, if your glucose is at the same level but dropping rapidly, an alert could be essential.  
   
 While the Fast Falling Alert notifies you if glucose is dropping very quickly, it might not be useful if you’re aiming for a rapid drop in glucose due to high levels. Thus, neither alert may fully meet your needs on its own, making a combination of alerts more effective.  
   
