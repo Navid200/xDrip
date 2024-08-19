@@ -1,27 +1,20 @@
 ## Forecast Low alert
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Forecast Low alert  
   
-Glucose level alerts, the main alerts, alert you when your glucose is low or high.  But, they ignore the trend.  
-If you are at 6 (108) and your trend is flat, you may not need an alert.  But, if you are at the same level and your glucose is rapidly dropping, you may need an alert.  
+Glucose level alerts notify you when your glucose is low or high.  But the trend is also very important. For example, if your glucose level is at 6 (108) with a flat trend, you might not need an alert. However, if your glucose is at the same level but dropping rapidly, an alert could be essential.  
   
-We also have a fast falling alert, which alerts you if the glucose is dropping very fast.  But, if your glucose is very high, you would want your glucose to be dropping fast and you wouldn't need an alert.  
+While the Fast Falling Alert notifies you if glucose is dropping very quickly, it might not be useful if you’re aiming for a rapid drop in glucose due to high levels. Thus, neither alert may fully meet your needs on its own, making a combination of alerts more effective.  
   
-So, it seems neither of those alerts is perfectly complete, and a combination might be what we need.  
-Well, the Forecast Low alert is exactly that combination.  
+The Forecast Low Alert provides that combination. It uses your current glucose level and trend to predict how low your glucose may be in the near future and alerts you if the predicted level drops below a specified threshold.  
   
-The Forecast Low alert considers your current level as well as the trend to extrapolate how low you may be in a certain amount of time and alert you if the prediction is below a threshold.  
-  
-The following image shows the Extra Alerts page, where you can control the Forecast Low alert, at `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Extra Alerts`.  
+To manage the Forecast Low Alert, go to `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Extra Alerts`.   
 ![](./images/ForecastLow.png)  
   
-The alert will trigger if the extrapolated value drops below your low value in less than the time (in minutes) specified under `Alarm at forecasted low mins`.  
+The alert will trigger if the extrapolated value is projected to fall below your low threshold within the time specified under "Alarm at forecasted low mins".  
   
-The forecast low alert does not take into account insulin or carbs or exercise etc.  
-It takes into account the current glucose value and a few of the recent readings to calculate the trend and predict the next few readings.  
+Note that the Forecast Low Alert does not consider factors like insulin, carbs, or exercise. It uses your current glucose value and recent readings to calculate the trend and predict future levels.  
   
-If the trend is linear, it just extends the line to see when it crosses the threshold.  
+If the trend is linear, the alert extends the line to determine when it will cross the threshold. If the trend is curved, it performs a polynomial extrapolation to estimate when the curve will cross the threshold.  
 ![](./images/ExtrapolateLinear.png)  
-  
-If the trend is a curve, it will do a polynomial extrapolation to extend the curve to see when it will cross the threshold.  
 ![](./images/ExtrapolatePolynomial.png)  
   
