@@ -15,6 +15,5 @@ The alert will trigger if the extrapolated value is projected to fall below your
 Note that the Forecast Low Alert does not consider factors like insulin, carbs, or exercise. It uses your current glucose value and recent readings to calculate the trend and predict future levels.  
   
 If the trend is linear, the alert extends the line to determine when it will cross the threshold. If the trend is curved, it performs a polynomial extrapolation to estimate when the curve will cross the threshold.  
-![](./images/ExtrapolateLinear.png)  
-![](./images/ExtrapolatePolynomial.png)  
+![](./images/ExtrapolateLinear.png)  ![](./images/ExtrapolatePolynomial.png)  
   
