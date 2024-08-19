@@ -1,11 +1,14 @@
 ## Disable Collection  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> Disable collection  
   
-If you want to stop using xDrip without uninstalling it, you can disable collection.  
-To do that, go to Settings &#8722;> Hardware Data Source.  
-Make a record of the current setting so that you remember in case you want to undo this.  
-Scroll all the way down, and tap on "Disable Collection".  
-![](./images/DisableCollection.png)  
+If you want to stop using xDrip without uninstalling it, you can disable collection. To do this, follow these steps:  
   
-To re-enable xDrip, go back to Hardware Data Source and choose the collection system you were using before. For example, if you were using G5 or G6, that would be "G5/G6 Transmitter".  
+* Go to `Settings` &#8722;> `Hardware Data Source`.  
+  
+* Make a note of the current setting so you can revert it later if needed.  
+  
+* Scroll all the way down and tap on `Disable Collection`.   
+![](./images/DisableCollection.png)  
+    
+To re-enable xDrip, go back to Hardware Data Source and select the collection system you were using before.    
   
