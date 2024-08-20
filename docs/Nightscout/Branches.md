@@ -5,44 +5,48 @@ layout: GCNS
 ## Google Cloud Nightscout branches
 [Google Cloud Nightscout](./GoogleCloud.md) >> Branches  
   
-Google Cloud Nightscout has two branches.  You can use either.  
-This is not about Nightscout itself.  This is about the Google Cloud platform we use for running Nightscout.  
-The development branch, vps-dev, is updated first and as a result, less tested.  You can access the latest updates sooner using this branch.  
-The stable branch, vps-1, is updated after a new feature has been tested on the dev branch for a while.  It is updated by promoting a development branch release.  Therefore, it is more stable.  
+Google Cloud Nightscout has two branches that you can use:  
+  
+* Development Branch (vps-dev): This branch receives updates first and is therefore less tested. You can access the latest updates sooner with this branch.  
+  
+* Stable Branch (vps-1): This branch is updated after new features have been tested on the development branch for a while. It is updated by promoting a release from the development branch and is therefore more stable.  
 <br/>  
   
 ---  
   
 #### **Updates**  
-When you [update the platform](./NS_SyncExecutables.md), you get the latest release in the branch you are using.  
+When you [update the platform](./NS_SyncExecutables.md), you receive the latest release in the branch you are using.  
 <br/>  
   
 ---  
   
 #### **Comparison**  
-To see the differences between the two branches, you can view the [release notes](./GC_ReleaseNotes.md).  
+To see the differences between the two branches, refer to the [release notes](./GC_ReleaseNotes.md).  
 <br/>  
   
 ---  
     
-#### **Switch**  
-If you are already using Google Cloud Nightscout and want to switch to the other branch, you need to run "Bootstrap" associated with the branch you want to switch to followed by "Install Nightscout phase 1" both from the [Google Cloud setup submenu](./Menu.md).  
-You can then [restart the server](./Restart.md) to ensure that everything is working as expected.  If not, run "Install Nightscout Phase 2" as well.  It will ask you to change API_SECRET.  Just press ESC to keep it unchanged.  You will then be asked to enter credentials for your FreeDNS account.  Press ESC again to avoid changing the hostname.  
+#### **Switching Branches**  
+If you want to switch branches while using Google Cloud Nightscout, follow these steps:  
+  
+1- Run “Bootstrap” associated with the branch you want to switch to from the [Google Cloud setup submenu](./Menu.md).  
+2- Run “Install Nightscout Phase 1” from the Google Cloud setup submenu.  
+After switching branches, [restart the server](./Restart.md) to ensure everything works as expected. If issues arise, run “Install Nightscout Phase 2” as well. You will be prompted to change the API_SECRET; press ESC to keep it unchanged. You will also be asked for FreeDNS account credentials; press ESC again to retain the current hostname.   
 <br/>  
   
 ---  
    
 #### **Which branch am I using?**  
-Go to the status page.  The full GitHub path is shown on the status page.  The last section on the line is vps-1 or vps-dev for the stable or development branches respectively.  
+To determine which branch you are using, go to the status page. The full GitHub path is displayed on the status page, and the last section of the line indicates vps-1 for the stable branch or vps-dev for the development branch.   
 ![](./images/BranchFlag.png)  
 <br/>  
   
 ---  
   
 #### **Which branch should I use?**  
-That's for you to decide.  
+The choice of branch depends on your needs:  
   
-If you are confident with tech and are willing to contribute by testing, use the development branch.  
-If you need a feature that is only available in the development branch, use the development branch.  
-If you don't feel like using the new release, and the stable release gives you all you need, use the stable release.  
+Use the development branch if you are confident with technology and are willing to contribute by testing.  
+Use the development branch if you need a feature that is only available there.  
+Use the stable branch if you prefer stability and the stable release meets all your needs.  
   
