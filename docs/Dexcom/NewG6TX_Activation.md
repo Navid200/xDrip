@@ -5,10 +5,12 @@
 When you first receive a new G6 or Dexcom One transmitter, it must be activated before it can be used with xDrip, any other app, or a Dexcom receiver. This activation process helps minimize the transmitter's power consumption while it is still in the box.  
   
 **Important:** Only activate a transmitter when you are ready to use it, as it cannot be deactivated once activated.  
+<br/>  
   
-**Activation Methods:**  
+**Activation Methods:**
 * Snapping into an Inserted Sensor:  Insert the transmitter into a sensor that is already in place. This will activate the transmitter.  
-* Manual Activation:  Hold the transmitter in your hand with your thumb pressed against the contacts until it activates. You can verify activation by monitoring the xDrip system status page. This process may take a few minutes.  
+* Manual Activation:  Hold the transmitter in your hand with your thumb pressed against the contacts until it activates. You can verify activation by monitoring the xDrip system status page. This process may take a few minutes.
+<br/>  
   
 **Contact Cleaning Recommendations:**  
 * For New Sensors:  If you are inserting a transmitter into a brand-new sensor, clean the transmitter contacts (but not the sensor contacts) with rubbing alcohol to remove any residue from your skin.  
