@@ -31,6 +31,7 @@ If you want to switch branches while using Google Cloud Nightscout, follow these
   
 1- Run “Bootstrap” associated with the branch you want to switch to from the [Google Cloud setup submenu](./Menu.md).  
 2- Run “Install Nightscout Phase 1” from the Google Cloud setup submenu.  
+  
 After switching branches, [restart the server](./Restart.md) to ensure everything works as expected. If issues arise, run “Install Nightscout Phase 2” as well. You will be prompted to change the API_SECRET; press ESC to keep it unchanged. You will also be asked for FreeDNS account credentials; press ESC again to retain the current hostname.   
 <br/>  
   
