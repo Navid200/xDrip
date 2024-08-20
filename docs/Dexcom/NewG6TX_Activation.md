@@ -2,12 +2,15 @@
 
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> New G6 or Dexcom One transmitter activation    
   
-When you first receive a new G6 or Dexcom One transmitter, it needs to be activated before it can be used with xDrip or any other app or even a Dexcom receiver.  This is to minimize the power consumption of a transmitter while it is still in the box.  
-However, you should only activate a transmitter when you intend to use it.  After you do, you will not be able to deactivate it.  
+When you first receive a new G6 or Dexcom One transmitter, it must be activated before it can be used with xDrip, any other app, or a Dexcom receiver. This activation process helps minimize the transmitter's power consumption while it is still in the box.  
   
-Snapping the transmitter into an inserted sensor will activate it.  
-Alternatively, you can hold a new transmitter in your hand with your thumb pressed against the contacts until it activates, which you can verify by monitoring the xDrip system status page.  This could take up to a few minutes.  
+**Important:** Only activate a transmitter when you are ready to use it, as it cannot be deactivated once activated.  
   
-If you are going to insert a transmitter into a brand new sensor, it is a good idea to clean the transmitter contacts (not the sensor contacts) with rubbing alcohol to remove any residue originated from your skin.  
-On the other hand, if you are restarting a sensor and have removed the transmitter from an active sensor, do not touch the contacts and do not use rubbing alcohol as the oily residue on the contacts is Petroleum jelly required for providing a perfect seal between the sensor and the transmitter.  
+**Activation Methods:**  
+* Snapping into an Inserted Sensor:  Insert the transmitter into a sensor that is already in place. This will activate the transmitter.  
+* Manual Activation:  Hold the transmitter in your hand with your thumb pressed against the contacts until it activates. You can verify activation by monitoring the xDrip system status page. This process may take a few minutes.  
+  
+**Contact Cleaning Recommendations:**  
+* For New Sensors:  If you are inserting a transmitter into a brand-new sensor, clean the transmitter contacts (but not the sensor contacts) with rubbing alcohol to remove any residue from your skin.  
+* For Reused Sensors:  If you are restarting a sensor and have removed the transmitter from an active sensor, avoid touching the contacts and do not use rubbing alcohol. The oily residue on the contacts is petroleum jelly, which is necessary for creating a proper seal between the sensor and the transmitter.   
   
