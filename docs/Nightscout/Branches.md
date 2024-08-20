@@ -27,7 +27,7 @@ To see the differences between the two branches, you can view the [release notes
     
 #### **Switch**  
 If you are already using Google Cloud Nightscout and want to switch to the other branch, you need to run "Bootstrap" associated with the branch you want to switch to followed by "Install Nightscout phase 1" both from the [Google Cloud setup submenu](./Menu.md).  
-You can then [restart the server](./Restart.md) to ensure that everything is working as expected.  If not, run "Install Nightscout Phase 2" as well.  
+You can then [restart the server](./Restart.md) to ensure that everything is working as expected.  If not, run "Install Nightscout Phase 2" as well.  It will ask you to change API_SECRET.  Just press ESC to keep it unchanged.  You will then be asked to enter credentials for your FreeDNS account.  Press ESC again to avoid changing the hostname.  
 <br/>  
   
 ---  
