@@ -1,34 +1,36 @@
 ## Hard Reset (Advanced)  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Hard Reset  
-There is no way to undo this.  Therefore, please make sure you need to do it before you start.  
   
-Please disable [engineering mode](./Engineering-Mode.md).  There is no need to enable engineering mode in order to perform a hard reset.  
+Warning: This action cannot be undone. Ensure you really need to perform a hard reset before proceeding.  
   
-You can hard reset a G5 using xDrip.   
-You can also hard reset a G6, using xDrip, if the Firmware version is 1.6.5.25 or prior to that.    
-There is no way to hard reset any other one of G6 transmitters unless modified.  
+Disable [engineering mode](./Engineering-Mode.md). Engineering mode is not required for a hard reset.   
   
-If you hard reset a transmitter, the number of transmitter days, as shown on the system status page, will be reset to 0. This is only required if you want to use the Native mode, or if you want to use the Dexcom app or receiver. If you are using the xDrip non-native mode, you don't need to hard reset.  
-
-If the battery voltage is low, you will need to replace the battery. Hard resetting the transmitter will not change the battery voltage.  
-
-If you want to hard reset, do it when you don't have an active session. For example, when you stop a sensor before starting the next one.  
-
-Before you can hard reset a transmitter using xDrip, you need to have [proper connectivity](./Proper-connectivity.md) to it.  
-You should also disable the Dexcom app as you cannot link to the same transmitter at the same time with both xDrip and the Dexcom app.  
-
-Tap on the treatment (dropper) symbol on the main screen.  
-![](./images/syringe-symbol.png)
+G6 can be hard reset using xDrip if the firmware version is 1.6.5.25 or earlier. Transmitters with newer firmware cannot be hard reset without modifications.  
   
-This opens a form mainly showing a numeric pad. At the bottom right corner, long press on the microphone symbol.  
-![](./images/treatment-menu.png)
+* Effect of Hard Reset:  
+The transmitter's days count, as shown on the system status page, will reset to 0.  
   
-A keyboard will appear. Type and enter `Hard Reset Transmitter`.  You will see a message confirming the attempt will be made.  Do not exit xDrip.  The command still needs to be sent to the transmitter.  
+* Timing for Hard Reset:  
+ Perform the hard reset when you do not have an active session. For example, after stopping a sensor but before starting a new one.  
   
-Monitor the system status page. It will take a read cycle (up to 5 minutes) for the command to be submitted to the transmitter.  
-You will see a warning that hard reset may have failed.  
-Either restart the phone, or force stop xDrip and then, start it again.  
-Delete the transmitter from the list of previously connected Bluetooth devices from your Android settings.  
+* Steps to Hard Reset a Transmitter Using xDrip:  
   
-If/when you intend to use the transmitter, after a reset, you will need to activate it again as if you were using a brand new transmitter for the very first time.  
+1- Ensure [proper connectivity](./Proper-connectivity.md) to the transmitter.  
+  
+2- Disable the Dexcom app as you cannot use both xDrip and the Dexcom app with the same transmitter simultaneously.  
+  
+3- On the xDrip main screen, tap the treatment (dropper) symbol.  
+![](./images/syringe-symbol.png)  
+  
+4- This will open a form with a numeric pad. At the bottom right corner, long-press the microphone symbol.  
+![](./images/treatment-menu.png)  
+  
+5- A keyboard will appear. Type `Hard Reset Transmitter` and tap Enter. A confirmation message will appear indicating that the attempt will be made. Do not exit xDrip; the command still needs to be sent to the transmitter.  
+  
+6- Monitor the system status page. The command may take up to 5 minutes to be submitted to the transmitter. You will see a warning that the hard reset may have failed.  Restart your phone or force stop xDrip and then restart it.  
+  
+7- Delete the transmitter from the list of previously connected Bluetooth devices in your Android settings.  
+  
+* Post-Reset:  
+If you intend to use the transmitter after the reset, [activate it](./Dexcom/NewG6TX_Activation.md) as if it were a new transmitter.  
   
