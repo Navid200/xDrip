@@ -1,21 +1,19 @@
 ## Graph Smoothing  
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Graph smoothing  
   
-You can enable a low-pass filter to reduce the transients.  
-It is impossible to have a low-pass filter that does not cause delay.  If this was applied to all data, including the current reading, it would add a delay, which would be very bad.  It is only applied to older readings.  It does not affect the current or the recent readings.  Therefore, it does not affect the alert triggers.  Neither does it affect the data broadcast to Nightscout or AAPS.  
+You can enable a low-pass filter to reduce transients. It is important to note that a low-pass filter will always introduce some degree of delay. Applying this filter to all data, including the current reading, would cause undesirable delays. Therefore, the filter is only applied to older readings and does not affect the current or recent readings. Consequently, it does not impact alert triggers or the data broadcast to Nightscout or AAPS.   
   
-To enable the filter, enable:  
+To enable the filter, navigate to:   
 `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Graph Settings` &#8722;> `Graph Smoothing` &#8722;> `Enable`  
 ![](./images/GraphSmoothingEnable.png)  
   
-After you enable graph smoothing, you can also see the unfiltered readings if you want.  For that, enable `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Graph Settings` &#8722;> `Graph Smoothing` &#8722;> `Show unsmoothed`.  
+After enabling graph smoothing, you can also view the unfiltered readings if desired. To do this, enable: `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Graph Settings` &#8722;> `Graph Smoothing` &#8722;> `Show unsmoothed`.  
 <br/>  
 
 ---  
 
 #### **What it does**  
-This setting effectively rewrites history on your screen, not the broadcast data.  
-The following images show a sequence of snapshots of the main screen with the graph smoothing setting enabled and the unsmoothed points shown as well.  
+This setting effectively rewrites the history displayed on your screen without altering the broadcast data. The images below illustrate a sequence of snapshots of the main screen with graph smoothing enabled, showing both smoothed and unsmoothed points.   
 
 ![](./images/GraphSmoothingImages1/1.png)  
 
@@ -30,10 +28,11 @@ The following images show a sequence of snapshots of the main screen with the gr
 ![](./images/GraphSmoothingImages1/6.png)  
 
 ![](./images/GraphSmoothingImages1/7.png)  
-
-If you focus on the reading at 9:15, you can see that the reading deviates from the original, unsmoothed, value more and more at every sequence.  
-
-The following image shows the same results exactly at the same time as the last image, but with graph smoothing disabled.    
+  
+For example, at the reading recorded at 9:15, you can observe that the smoothed reading deviates more from the original unsmoothed value with each sequence.  
+  
+The following image shows the same results at the same time as the last image, but with graph smoothing disabled.  
 ![](./images/GraphSmoothingImages1/8.png)    
-Enable the setting if you want the graph on your screen to look smooth.  
+  
+Enable this setting if you want the graph on your screen to appear smoother.  
   
