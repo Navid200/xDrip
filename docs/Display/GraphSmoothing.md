@@ -31,7 +31,7 @@ This setting effectively rewrites the history displayed on your screen without a
   
 For example, at the reading recorded at 9:15, you can observe that the smoothed reading deviates more from the original unsmoothed value with each sequence.  
   
-The following image shows the same results at the same time as the last image, but with graph smoothing disabled, which is what AAPS receives whether you enable the setting or not.  
+The following image shows the same results at the same time as the last image, but with graph smoothing disabled.  This is what AAPS receives, regardless of whether you enable the setting or not.  
 ![](./images/GraphSmoothingImages1/8.png)    
   
 Enable this setting if you want the graph on your screen to appear smoother.  
