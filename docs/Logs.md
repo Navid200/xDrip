@@ -11,5 +11,5 @@ The logs may contain user IDs, passwords, or serial numbers. Be cautious about w
   
 At the top of the screen, you can choose different categories of logs to display. Please enable all categories if sharing logs via a screenshot with someone helping you troubleshoot.  
   
-At the bottom of the screen, you can tap `Save Logs` to save a text file containing the logs.  
+At the bottom of the screen, you can tap `Save Logs` to save a text file containing the logs.  The file will be saved at /Download/xDrip-export/xDrip-log.txt.  
   
