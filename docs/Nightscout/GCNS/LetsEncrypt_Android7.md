@@ -12,4 +12,3 @@ javax.net.ssl.SSLHandshakeException: Java.security.cert.CertPathValidatorExcepti
   
 You will need to use a device running Android 8 or newer to access your site.  
   
- 
