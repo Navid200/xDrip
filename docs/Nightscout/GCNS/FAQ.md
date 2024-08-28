@@ -12,6 +12,7 @@ layout: GCNS
 #### [Will this work in Australia or China?](../AustraliaChina.md)
 #### [Why have I been charged?](../NS_FreeTier.md)
 #### [How to respond to existing certificate?](../ExistingCertificate.md)
+#### [Why can I not use Android 7?](./LetsEncrypt_Android7.md)
 #### [What is Storage PD Snapshot?](../SnapshotCost.md)
 #### [What is Storage PD Capacity?](../StoragePDCap.md)
 #### [Can I have multiple accounts?](../MultipleAccounts.md)
