@@ -9,6 +9,8 @@ Our setup uses Let’s Encrypt. Unfortunately, free support for Android 7 has en
 
 This is an error you may see on your uploader:  
 `javax.net.ssl.SSLHandshakeException: Java.security.cert.CertPathValidatorException: Trust anchor for certification path not found.`  
+
+In case of a follower or browser, you may see `... can't open the page`.  
   
 You will need to use a device running Android 8 or newer to access your site.  
   
