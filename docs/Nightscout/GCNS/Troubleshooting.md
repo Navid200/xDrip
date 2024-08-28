@@ -10,6 +10,7 @@ layout: GCNS
 #### [Google Cloud Nightscout stopped working](../Troubleshooting.md)
 #### [Status page markers](../StatusKey.md)
 #### [Connection Failed](../ConnectionFailed.md)
+#### [Can't open the page](./LetsEncrypt_Android7.md)
 #### [Connection via Cloud Identity-Aware Proxy Failed](../ConnIdentAwareFailed.md)
 #### [Blocked at work or in school](../FD_Domains.md)
 #### [You have an existing certificate that ...](../ExistingCertificate.md)
