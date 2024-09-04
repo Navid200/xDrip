@@ -8,7 +8,8 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
-| [2024.08.31](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.31) | New device |  
+| [2024.09.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.04) | Some cleanup |  
+| [2024.08.31](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.31) | New device &nbsp; &nbsp; ❌ |  
 | [2024.08.30](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.30) | New companion app |  
 | [2024.08.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.26) | Cleanup |  
 | [2024.08.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.07) | Sensor failed 7 fix - Sensor expiry alert resolution - Ongoing notification time |  
