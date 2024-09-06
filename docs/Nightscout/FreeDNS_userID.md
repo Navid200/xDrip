@@ -5,12 +5,12 @@ layout: GCNS
 ## What is my FreeDNS user ID?
 [Google Cloud Nightscout](./GoogleCloud.md) >> FreeDNS user ID  
 
-You can use your email address to log into FreeDNS in a browser.  
-But, when you perform installation phase 2, you will need your FreeDNS user ID.  
-If you don't remember your FreeDNS user ID, you can log into [FreeDNS](https://freedns.afraid.org/menu/), where your user ID will be shown in the right pane at the top.  
+You can use your email address to log into FreeDNS in a browser.  However, during the installation phase 2, you will need your FreeDNS user ID.  
+  
+If you don’t remember your FreeDNS user ID, you can find it by logging into [FreeDNS](https://freedns.afraid.org/menu/). Your user ID will be displayed at the top right pane.  
 ![](./images/FD_userID.png)  
   
-Or, you can look at the verification email you received when you first signed up for FreeDNS.  It shows your user ID as well.  
+Alternatively, check the verification email you received when you first signed up for FreeDNS; it includes your user ID.   
   
-If you have already completed installation, you can see your FreeDNS user ID and password both by going to the [status page](./Status.md), and at the bottom, selecting `Login credentials`.  
+If you have already completed the installation, you can find your FreeDNS user ID and password on the [status page](./Status.md) by selecting `Login Credentials` at the bottom.  
   
