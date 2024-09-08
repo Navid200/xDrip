@@ -6,7 +6,6 @@ Be very careful. xDrip cannot import a database; it can only restore one. This m
 To avoid losing data, restore the database on the new phone before setting it up as a collector. If you start collecting data on the new phone before restoring the database, any new collections will be overwritten when you restore.   
   
 Follow these steps:  
-  
 1. Create a [backup](./Backup-Database.md) from the old phone.
 2. Transfer the backup database and settings file to the new phone.  
 3. Install xDrip on the new phone.  
