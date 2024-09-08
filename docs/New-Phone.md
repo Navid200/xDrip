@@ -1,15 +1,14 @@
 ## Transfer to a new phone  
 [xDrip](../README.md) >> [Download & Installation](./Installation_page.md) >> Transfer to a new phone  
   
-If you like to have your previous readings on your new phone, this is about how you should do it.  
+If you want to transfer your previous readings to your new phone, follow these steps:  
   
-Be very careful. xDrip cannot _import_ a database.  It can only _restore_ a database.  What it does is to replace the existing database with the one being restored.  
-Effectively, xDrip deletes the entire existing database and then replaces it with the new database.  
+Be very careful. xDrip cannot import a database; it can only restore one. This means that xDrip will replace the existing database with the one being restored, effectively deleting the entire existing database and then replacing it with the new one.   
   
-The best course of action is to restore the database into the new phone before setting it up as a collector.  Otherwise, if you start collection on the new phone, restoring a database after will overwrite every collection.  The following list shows the recommended sequence.  
+To avoid losing data, restore the database on the new phone before setting it up as a collector. If you start collecting data on the new phone before restoring the database, any new collections will be overwritten when you restore.   
   
 1. Create a [backup](./Backup-Database.md) from the old phone.
-2. Transfer the backed up database and settings file to the new phone.  
+2. Transfer the backup database and settings file to the new phone.  
 3. Install xDrip on the new phone.  
-4. Restore the database only if you have not already started collection, or if you are willing to lose the new readings.  
+4. Restore the database only if you have not already started collection, or if you are willing to lose the new readings since the time the backup file was created.  
   
