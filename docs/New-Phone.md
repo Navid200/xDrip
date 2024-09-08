@@ -8,7 +8,8 @@ Effectively, xDrip deletes the entire existing database and then replaces it wit
   
 The best course of action is to restore the database into the new phone before setting it up as a collector.  Otherwise, if you start collection on the new phone, restoring a database after will overwrite every collection.  The following list shows the recommended sequence.  
   
-1. Create a [backup](./GoogleDriveBackup.md) from the old phone into your Google drive.  
-2. Install xDrip on the new phone.   
-3. Restore the database, from your Google drive, only if you have not already started collection, or if you are willing to lose the new readings.  
+1. Create a [backup](./Backup-Database.md) from the old phone.
+2. Transfer the backed up database and settings file to the new phone.  
+3. Install xDrip on the new phone.  
+4. Restore the database only if you have not already started collection, or if you are willing to lose the new readings.  
   
