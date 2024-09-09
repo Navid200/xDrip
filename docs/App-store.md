@@ -1,9 +1,7 @@
 ## Why is xDrip not in Google play store?
 [xDrip](../README.md) >> [Frequently Asked Questions](./FAQ_page.md) >> Why is xDrip not in Google play store?  
   
-There was a [request](https://github.com/NightscoutFoundation/xDrip/issues/693) to move xDrip to the app store a few years ago.  
-The reasons for not doing that are explained there.  
-Please read the details.  If you feel you have a reason for or against that, which is not included, you can post in it.  But, please don't post there just as a vote.  
+A few years ago, there was a [request](https://github.com/NightscoutFoundation/xDrip/issues/693) to move xDrip to the Google Play Store.  The reasons for not doing so are explained in the linked thread.  Please review the information provided.  If you have a reason for or against this decision that is not covered, you are welcome to post your thoughts.  However, please avoid posting solely as a vote.   
   
-You can always open a [discussion](https://github.com/NightscoutFoundation/xDrip/discussions) about this or any other subject related to xDrip.  
+You are always welcome to open a [discussion](https://github.com/NightscoutFoundation/xDrip/discussions) about this or any other topic related to xDrip.  
   
