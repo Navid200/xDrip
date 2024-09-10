@@ -10,7 +10,7 @@ The virtual machine you create here is intended solely for hosting Nightscout. D
 <br/>  
 
 Here, we will create a free virtual machine in our [Google project](./NS_GCProject.md).  
-For additional assistance, there is a video clip on this page that might be helpful if the instructions are not clear. The process should take approximately 10-20 minutes to complete.  
+For additional assistance, there is a video clip on this page that might be helpful if the instructions are not clear. The process should take approximately 3 minutes to complete.  
   
 Go to dashboard.  Select "Compute Engine".  Select the "VM instances" tab in the left pane if it's not already selected.  
   
