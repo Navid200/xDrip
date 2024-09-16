@@ -199,3 +199,4 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
 | [2020.11.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2020.11.27) | G6 Frequent pair request resolved - "When did you insert sensor" was removed for Dexcom native mode |  
 | [2018.08.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2018.08.18) | Hard reset does not require engineering mode any longer |  
   
+  
