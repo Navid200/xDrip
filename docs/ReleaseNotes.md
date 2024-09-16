@@ -8,6 +8,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2024.09.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.16) | Status page screenshot button |  
 | [2024.09.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15c) | xDrip Sync update |  
 | [2024.09.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.04) | Some cleanup |  
 | [2024.08.31](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.31) | New device &nbsp; &nbsp; ❌ |  
