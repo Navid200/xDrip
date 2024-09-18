@@ -8,7 +8,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
-| [2024.09.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.17) | Some cleanup |  
+| [2024.09.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.17) | **<span style="color:orange">Stable</span>** <br/> Some cleanup |  
 | [2024.09.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.16) | Status page screenshot button |  
 | [2024.09.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15c) | xDrip Sync update |  
 | [2024.09.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.04) | Some cleanup |  
@@ -28,7 +28,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
 | [2024.05.22](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.22) | Forecast x axis fix - future treatment 3-min threshold - Huawei wake - G7 timestamp fix &nbsp; &nbsp; ❌ |  
 | [2024.05.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.15) | Ascend to Medium option for ascending volume profile |  
 | [2024.05.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.12) | Android 14 vehicle mode fix - correct G6 start time broadcast - delete alert confirmation - G6/G7 log cleanup - graph smoothing settings cleanup |  
-| [2024.04.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.19) | **<span style="color:orange">Stable</span>** <br/> Correct G7 start time broadcast |  
+| [2024.04.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.19) | **Previous Stable release** <br/> Correct G7 start time broadcast |  
 | [2024.04.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.09) | One+ companion app |  
 | [2024.04.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.07) | Smart snooze and smart alert thresholds reduced for high alerts |  
 | [2024.03.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.27) | No forget device for G7 |  
