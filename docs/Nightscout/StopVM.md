@@ -5,7 +5,8 @@ layout: GCNS
 ## Stopping or starting the virtual machine  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Stop and start virtual machine  
   
-You may need to stop a virtual machine if you cannot meet the free tier requirements, which allow only one virtual machine to be running at a time.  Or, your instance may stop because of an intrruption in [payments](./NS_FreeTier.md).  
+You may need to stop a virtual machine if you cannot meet the free tier requirements, which allow only one virtual machine to be running at a time.  
+Additionally, your instance may stop due to an interruption in [payments](./NS_FreeTier.md).    
 Keep in mind that if a virtual machine running Nightscout is stopped, its IP address will change when you start it again.  
   
 To stop a virtual machine, go to the [compute engine](./ComputeEngine.md).  
