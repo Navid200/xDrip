@@ -10,7 +10,6 @@ Additionally, your instance may stop due to an interruption in [payments](./NS_F
 Keep in mind that if a virtual machine running Nightscout is stopped, its IP address will change when you start it again.  
   
 To stop a virtual machine, go to the [compute engine](./ComputeEngine.md).  
-
 Choose `Stop` from the 3-dot menu.  
 ![](./images/StopVirtualMachine.png)  
 
@@ -20,7 +19,5 @@ If the virtual machine is stopped, you can start it from the same menu.
 ---  
   
 #### **IP Address**  
-After starting a virtual machine that had been stopped, its IP address will differ from the one it had before.  
-  
 After restarting the virtual machine, please be patient for up to 2 minutes for the new IP address to be mapped to your hostname. During this time, you will not be able to access Nightscout in a browser or connect with your followers right away.   
   
