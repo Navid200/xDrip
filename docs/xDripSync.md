@@ -52,6 +52,8 @@ If you are the one calibrating or stopping sensors and don't need the follower t
 #### **Malfunction**  
 On both master and follower, ensure that `Settings` &#8722;> `xDrip+ Sync Settings` &#8722;> `Disable all sync features` is disabled (no check mark beside it).  
 ![](./images/DisableAllSyncFeatures.png)  
+
+The `Use xDrip Cloud` setting should be at the same setting on all the phones in the group.  It should either be all enabled on all the phones in the group.  Or, it should be disabled on them all.  
 <br/>  
 
 ---  
