@@ -1,19 +1,15 @@
 ## xDrip Sync not working
 [xDrip](../README.md) >> [Troubleshooting](./Troubleshooting_page.md) >> xDrip Sync not working  
   
-As of July 2024, we have made some changes to xDrip sync due to updates in Google Cloud messaging. To ensure proper functionality, please update both the master and follower to an xDrip release from [2024.07.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) or later.  
+You need to use an xDrip release of 2024.09.17 or later.  
+The instructions for setting up xDrip Sync can be found [here](./xDripSync.md).  
+The new setting `Use xDrip Cloud` should be enabled on the master and all followers.  
   
-We are aware that the sensor expiry, battery percentage, and other details are no longer displayed on the follower. These issues will be addressed, but for now, it is crucial to use the new version to obtain readings. Once this is resolved, we will work on fixing the remaining issues.  
-  
-Thank you for your patience.  
-  
-If updating both the master and follower does not resolve the issue and you are unable to get readings, please [report the problem](./Contact.md). In the meantime, you may use [Nightscout](./Nightscout_page.md) as an alternative.
-  
+If you experience disconnects, try disabling the setting on the master ands followers.  Then, please [report the problem](./Contact.md).  
 <br>  
   
 ---  
   
-The instructions for setting up xDrip Sync can be found [here](./xDripSync.md).  
-Ensure that "Disable all sync features" is disabled (no check mark beside it) both on the master and follower.  
+Ensure that "Disable all sync features" is disabled (no check mark beside it) on the master and followers.  
 ![](./images/DisableAllSyncFeatures.png)  
   
