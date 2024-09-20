@@ -7,7 +7,7 @@ This page explains how to set up xDrip Sync.  You will need both the master and 
 ---  
 
 #### **Setup with QR code**    
-On master, go to `Settings` &#8722;> `xDrip+ Sync settings`, and tap on `Be master for followers`.  
+On the master phone, go to `Settings` &#8722;> `xDrip Sync Settings`, and tap on `Be Master for Followers`.  
   
 Tap on `Settings` &#8722;> `Show Settings QR codes`.  
 ![](./images/ShowSettingsQR.png)  
@@ -25,35 +25,34 @@ Scan the QR code shown on the master screen.
 Approve the import.  
 ![](./Follow/images/ConfirmxSyncKeyImport.png)  
   
-All that is shown in a clip [here](https://youtu.be/LcgjfbYcWkE).  
+All of this is shown in a clip [here](https://youtu.be/LcgjfbYcWkE).  
 <br/>  
   
 ---  
 
 #### **Manual setup**    
-In some cases, the scan does not work. You can manually set up the follower:  
+In some cases, the scan may not work. You can manually set up the follower:   
 Under `Settings` &#8722;> `Hardware Data Source`, select `xDrip+ Sync Follower`.  
-Then, go to `Settings` &#8722;> `xDrip+ Sync Settings` and tap on `Handset Group Security Sync Key`. Make sure the key matches the key on the same page on the master.  
+Then, go to `Settings` &#8722;> `xDrip+ Sync Settings` and tap on `Handset Group Security Sync Key`.  Make sure the key matches the key on the same page on the master.  
 <br/>  
   
 ---  
   
 #### **Follower has too much control**  
-By default, the follower can upload treatments to the master, calibrate it, and even stop sensor on it.  Disable `Allow follower actions` to remove that possibility.  
+By default, the follower can upload treatments to the master, calibrate it, and even stop sensor on it.  To remove this possibility, disable `Allow Follower Actions`.  
 ![](./Follow/images/AcceptFollowerActions.png)  
-
-This is allowed so that a parent can have control over a child's master if the child is too young to perform functions like calibration.  
-If you are the one calibrating or stopping sensors and don't need the follower to accidentally interfere, you need to disable the following setting.  
+  
+This feature is allowed so that a parent can have control over a child’s master if the child is too young to perform functions like calibration. If you are the one calibrating or stopping sensors and don’t want the follower to accidentally interfere, you need to disable this setting.  
   
 <br/>  
   
 ---  
   
 #### **Malfunction**  
-On both master and follower, ensure that `Settings` &#8722;> `xDrip+ Sync Settings` &#8722;> `Disable all sync features` is disabled (no check mark beside it).  
+On both the master and follower, ensure that `Settings` &#8722;> `xDrip+ Sync Settings` &#8722;> `Disable All Sync Features` is disabled (no checkmark beside it).   
 ![](./images/DisableAllSyncFeatures.png)  
 
-The `Use xDrip Cloud` setting should be at the same setting on all the phones in the group.  It should either be all enabled on all the phones in the group.  Or, it should be disabled on them all.  
+The `Use xDrip Cloud` setting should be the same on all phones in the group. It should either be enabled on all phones or disabled on all phones.   
 <br/>  
 
 ---  
