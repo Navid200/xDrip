@@ -1,7 +1,7 @@
 ## Dexcom Connectivity troubleshooting
 [xDrip](../README.md) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Dexcom Connectivity troubleshooting  
   
-* Start from [recommended settings](./G6-Recommended-Settings.md).  
+* Start with [recommended settings](./G6-Recommended-Settings.md).  
   
 * Disable [engineering mode](./Engineering-Mode.md).  
   
@@ -28,9 +28,9 @@ Return to the Dex status page and approve a new pair request. For Android versio
   
 * If  there is no disconnect, and the status page shows "OK \*\* days" for sensor status, but you have no readings, ensure the xDrip session is started.  Tap “Start Sensor” for G6/Dexcom One; you can enter the same calibration code shown on the status page. The calibration code entered now does not affect the already started session on G6.  G7 will start automatically.  
   
-* If there is still a disconnect, [disable collection](./Stop-xDrip.md) in xDrip and instasll Dexcom app and follow its instructions to start.  If it does not work, you can contact Dexcom and ask for advice.  If it does work with Dexcom app, please [report it to us](./Contact.md).  
+* If there is still a disconnect, [disable collection](./Stop-xDrip.md) in xDrip, instasll the Dexcom app, and follow its instructions to start.  If it does not work, you can contact Dexcom for advice.  If it works with Dexcom app, please [report it to us](./Contact.md).  
   
-* If your system is functioning, but occasionally disconnects and requires action to reconnect, refer to the additional troubleshooting steps for [intermittent connectivity issues](./Intermittent.md).  
+* If your system is functioning but occasionally disconnects and requires action to reconnect, refer to the additional troubleshooting steps for [intermittent connectivity issues](./Intermittent.md).  
   
 If you’re still experiencing trouble, don’t hesitate to [ask for help](./Contact.md).  
   
