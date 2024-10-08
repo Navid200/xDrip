@@ -22,10 +22,11 @@
  [Why a compressed graph](./Display/CompressedScreen.md)
   
 #### **Where**
-#### [Where are the Logs?](./Logs.md)
-#### [Where are the settings](./Settings.md)
+#### [Logs?](./Logs.md)
+#### [Settings](./Settings.md)
+#### [Treatment menu](./Treatments.md)
 #### [Which xDrip version do I have?](./xDrip-Version.md)  
-[Where is Auto configure?](./FAQ/AutoConfig.md) 
+[Auto configure?](./FAQ/AutoConfig.md) 
   
 #### **How**
 #### [To receive an alert if I have no readings](./Alerts/MissedReading)
