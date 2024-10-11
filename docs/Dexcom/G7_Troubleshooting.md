@@ -4,7 +4,6 @@
   
 #### [Applicator problems](./G7ApplicatorFailures.md)  
 <br/>  
-<br/>  
   
 If you have inserted the sensor and no app or device is connected, but the xDrip status page continues to show “Hunting Transmitter” after waiting more than 15 minutes, try the following:  
 
