@@ -8,6 +8,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2024.10.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.10.11) | Comp app G6 - Persistent High Threshold |  
 | [2024.09.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.27) | Companion app fix - Dex share cleanup - Sensor restart intel |  
 | [2024.09.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.19) | CareLink Update |  
 | [2024.09.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.17) | **<span style="color:orange">Stable</span>** <br/> Some cleanup |  
