@@ -17,7 +17,7 @@ You can use Nightscout, or even xDrip, and a simple word processor to create a r
 ---  
   
 ### **Doctor suggests Clarity**  
-Your doctor is an important member of your team, and it’s important to work with them. While you should generally follow your doctor's advice, you can ask questions. Show your doctor a report and inquire if they might find it acceptable, even if it is not from Clarity. I did this, and when my doctor saw my report, she was satisfied with it and no longer required Clarity.  
+Your doctor is an important member of your team, and it’s important to work with them. While you should generally follow your doctor's advice, you can ask questions. Show your doctor a report and enquire if they might find it acceptable, even if it is not from Clarity. I did this, and when my doctor saw my report, she was satisfied with it and no longer required Clarity.  
   
 <br/>   
   
