@@ -51,7 +51,7 @@ You are welcome to use xDrip, but always consult with a medical professional (su
   
 #### **Troubleshooting**
 #### [Connectivity Troubleshooting](./Connectivity-troubleshoot.md)
-#### [G7 applicator failures](./Dexcom/G7ApplicatorFailures.md)
+#### [G7 troubleshooting](./Dexcom/G7_Troubleshooting.md)
 #### [New G6 or Dexcom One transmitter does not connect](./Dexcom/NewG6TX_Activation.md)
 #### [Intermittent Connectivity](./Intermittent.md)
 #### [Sensor failed start](./Dexcom/SensorFailedStart.md)
