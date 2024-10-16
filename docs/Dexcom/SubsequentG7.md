@@ -12,7 +12,7 @@ After you have confirmed that it is working, you can just [disconnect](../Stop-x
   
 When your current sensor stops working after its 10.5 day period ends, or before, proceed with the following.  
   
-1- If you haven't disabled the test phone, do it now.  You can [disable collection](../Stop-xDrip.md) on it.  
+1- If you haven't disabled the test phone, do it now.  You can [disable collection](../Stop-xDrip.md) on it.  Wait 15 minutes.  
 2- On your main phone, follow the instructions under the heading "Establishing Connectivity" [here](./G7.md) to connect to your new device using the pairing code of your new G7.  
 3- Peel off the old sensor being careful not to accidentally peel off the new one.  
 <br/>  
