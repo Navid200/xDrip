@@ -7,7 +7,7 @@ If you want to start a G7 or One+ for the first time, the instructions are [here
 When the status page shows 10 days for transmitter days, or after the optional sensor expiry note on the main screen shows that the sensor will expire in about 12 hours, insert a new sensor following the section titled "Starting the sensor" [here](./G7.md).  
 ![](./images/G7EndsIn.png)  
   
-You can use a phone, other than your main xDrip phone, to establish connectivity to your new device to confirm that it is working.  To do that, follow the instructions under the heading "Establish connectivity to G7 or One+" [here](./G7.md) using the other phone.  
+You can use a phone, other than your main xDrip phone, to establish connectivity to your new device to confirm that it is working.  To do that, follow the instructions under the heading "Establishing Connectivity" [here](./G7.md) using the other phone.  
 After you have confirmed that it is working, you can just [disconnect](../Stop-xDrip.md).  There is no requirement to maintain connectivity for a sensor to remain operational.  
   
 When your current sensor stops working after its 10.5 day period ends, or before, proceed with the following.  
