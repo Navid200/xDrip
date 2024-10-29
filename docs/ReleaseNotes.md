@@ -8,6 +8,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2024.10.29](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.10.29) | Comp app Ottai - Lower G7 battery warning |  
 | [2024.10.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.10.11) | Comp app G6 - Persistent High Threshold |  
 | [2024.09.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.27) | Companion app fix - Dex share cleanup - Sensor restart intel |  
 | [2024.09.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.19) | CareLink Update |  
