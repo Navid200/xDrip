@@ -2,11 +2,6 @@
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Dexcom G7, One+ or Stelo troubleshooting  
 <br/>  
   
-#### [Applicator problems](./G7ApplicatorFailures.md)  
-<br/>  
-  
----  
-  
 If you have inserted the sensor and no other app or device is connected, but the xDrip status page continues to show “Hunting Transmitter” after waiting more than 15 minutes, try the following steps:  
 
 Use a [scanner](../Bluetooth-Scanner.html) to check if it detects the transmitter.  
