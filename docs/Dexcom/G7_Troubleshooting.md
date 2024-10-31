@@ -7,24 +7,24 @@
   
 ---  
   
-If you have inserted the sensor and no app or device is connected, but the xDrip status page continues to show “Hunting Transmitter” after waiting more than 15 minutes, try the following:  
+If you have inserted the sensor and no app or device is connected, but the xDrip status page continues to show “Hunting Transmitter” after waiting more than 15 minutes, try the following steps:  
 
-Use a [scanner](../Bluetooth-Scanner.html) to see if it can detect the transmitter.  
-If it does, and xDrip does not work, please try Dexcom app and [let us know](../Contact.html).  
+Use a [scanner](../Bluetooth-Scanner.html) to check if it detects the transmitter.  
+If the scanner detects it but xDrip does not connect, try Dexcom app and [let us know](../Contact.html).  
 
-If the scanner does not show the device, use the applicator and bring it close to the sensor so that the magnet on the applicator (shown in the image below) is near the sensor for a few seconds.  
+If the scanner does not detect the device, bring the applicator close to the sensor so that the magnet (indicated in the image below) is near the sensor for a few seconds.  
 ![](./images/G7_Applicator_Magnet.png)  
 
-This may trigger the sensor to activate.  See if you can see the transmitter in the scanner now.  
+This may trigger the sensor to activate.  Check if the transmitter is now visible in the scanner.  
 <br/>  
 
 ---  
   
-If you see "Mismatch" on the status page, it means either your pairing code is wrong or there is another sensor nearby. Check that pairing code is correct and wait for connection.  
+If you see "Mismatch" on the status page, it may indicate an incorrect pairing code or the presence of another nearby sensor.  Double-check the pairing code and ensure no other sensors are nearby. Then, wait for the connection.  
 <br/>  
 
 ---  
   
-If you get readings but it desconnects randomly, have a look at [this](../Intermittent.md).  
+If you receive readings but experience random disconnects, please refer to [this link](../Intermittent.md) for further guidance on stabilizing the connection.    
   
   
