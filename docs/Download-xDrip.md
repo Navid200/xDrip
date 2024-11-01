@@ -10,14 +10,7 @@ You can download the latest stable version from this [link](https://github.com/N
 ---  
   
 #### **Nightly Releases**  
-You can access the nightly builds (least tested but more recent) from `Rreleases` on the same [GitHub repository](https://github.com/NightscoutFoundation/xDrip) page.  
-![](./images/Releases_mobile.png)  
-That will take you to a page where you can scroll through all the releases and tap on the release you are interested in.  
-![](./images/AllReleasesGitHub.png)  
-<br/>  
-
-Alternatively, you can go to `Release notes` on this site, using the link at the top left in the header, and tap the link in the left column associated with the release you are interested in.  
-![](./images/NightlyReleaseNotes.png)  
+You can access the nightly builds (least tested but more recent) from the `Release notes` on this [link](./ReleaseNotes.md).  
 <br/>  
 <br/>  
   
