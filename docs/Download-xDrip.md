@@ -5,12 +5,7 @@
 ---  
   
 #### **Stable Release**  
-You can download the latest stable version here: [GitHub repository](https://github.com/NightscoutFoundation/xDrip/releases/latest).  
-  
-<br/>  
-  
-Alternatively, you can go to `Release notes` on this site, using the link at the top left in the header, and tap the link in the left column associated with the release marked `Stable`.  
-![](./images/StableReleaseNotes.png)  
+You can download the latest stable version from this [link](https://github.com/NightscoutFoundation/xDrip/releases/latest).    
 <br/>  
 <br/>  
   
