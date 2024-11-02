@@ -27,7 +27,7 @@ Approve the import.
   
 All of this is shown in a clip [here](https://youtu.be/LcgjfbYcWkE).  
 
-Enable `Use xDrip Cloud` setting on all phones in the group.  
+Enable `Settings` &#8722;> `xDrip+ Sync Settings` &#8722;> `Use xDrip Cloud` on all phones in the group.  
 ![](./Follow/images/EnableUsexDripCloud.png)  
 <br/>  
   
