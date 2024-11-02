@@ -52,7 +52,7 @@ This feature is allowed so that a parent can have control over a child’s maste
 On both the master and follower, ensure that `Settings` &#8722;> `xDrip+ Sync Settings` &#8722;> `Disable All Sync Features` is disabled (no checkmark beside it).   
 ![](./images/DisableAllSyncFeatures.png)  
 
-The `Use xDrip Cloud` setting should be the same on all phones in the group. It should either be enabled on all phones or disabled on all phones.   
+The `Use xDrip Cloud` setting should be enabled on all phones in the group.  
 <br/>  
 
 ---  
