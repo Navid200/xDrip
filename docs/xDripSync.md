@@ -26,6 +26,8 @@ Approve the import.
 ![](./Follow/images/ConfirmxSyncKeyImport.png)  
   
 All of this is shown in a clip [here](https://youtu.be/LcgjfbYcWkE).  
+
+Enable `Use xDrip Cloud` setting on all phones in the group.  
 <br/>  
   
 ---  
