@@ -53,7 +53,7 @@ Therefore, if you are using xDrip from a repository other than the [main](https:
   
 ---  
   
-#### [Release notes](./ReleaseNotes.md)  provide a basic description for, and a link to, each release
+#### [Release notes](./ReleaseNotes.md)  provides a basic description for, and a link to, each release
 #### [Why nothing happens when I check for updates?](./NoUpdate.md)
 #### [How to download](./Download-xDrip.md)
 #### [How to install](./Install.md)
