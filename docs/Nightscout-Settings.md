@@ -15,7 +15,7 @@ https<nolink>://password@hostname/api/v1/
 <br/>  
 
 As an example, let's say the hostname and password are the following.  
-Hostname: https<nolink>://jane.jumpingcrab.com  
+Hostname: jane.jumpingcrab.com  
 Password: 3MyPassword4NS  
 
 Then, the correct URL will be:  
