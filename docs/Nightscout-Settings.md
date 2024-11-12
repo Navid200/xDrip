@@ -19,7 +19,7 @@ Hostname: jane.jumpingcrab.com
 Password: 3MyPassword4NS  
 
 Then, the correct URL will be:  
-https<nolink>://3MyPassword4NS@jane.jumpingcrab.com/api/vi/  
+ht<span>tps://</span>3MyPassword4NS<span>@</span>jane.jumpingcrab.com/api/v1/  
 <br/>  
   
 ---  
