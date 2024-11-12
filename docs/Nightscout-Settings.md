@@ -22,7 +22,7 @@ If your hostname and password are as follows:
 - Password: `3MyPassword4NS`  
 
 Then, the correct URL will be:  
-`https<nolink>://3MyPassword4NS<nolink>@jane.us.to/api/v1/`  
+https<nolink>://3MyPassword4NS<nolink>@jane.us.to/api/v1/  
 <br/>  
   
 ---  
