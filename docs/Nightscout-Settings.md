@@ -13,6 +13,13 @@ https<nolink>://password@hostname/api/v1/
 "password" is the "API_SECRET" you can find in your Nightscout variables.  
 "hostname" is the URL you use to access Nightscout in a browser excluding https<nolink>://  
 <br/>  
+
+As an example, let's say the hostname and password are the following.  
+Hostname: jane.jumpingcrab.com  
+Password: 3MyPassword4NS  
+
+Then, the correct URL will be:  
+https<nolink>://3MyPassword4NS@jane.jumpingcrab.com/api/vi/  
 <br/>  
   
 ---  
