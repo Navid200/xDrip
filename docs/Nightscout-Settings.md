@@ -15,11 +15,11 @@ https<nolink>://password@hostname/api/v1/
 <br/>  
 
 As an example, let's say the hostname and password are the following.  
-Hostname: jane.jumpingcrab.com  
+Hostname: https<nolink>://jane.jumpingcrab.com  
 Password: 3MyPassword4NS  
 
 Then, the correct URL will be:  
-ht<span>tps://</span>3MyPassword4NS<span>@</span>jane.jumpingcrab.com/api/v1/  
+https<nolink>://3MyPassword4NS<nolink>@jane.jumpingcrab.com/api/v1/  
 <br/>  
   
 ---  
