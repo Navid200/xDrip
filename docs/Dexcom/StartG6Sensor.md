@@ -32,6 +32,11 @@ Therefore, to avoid triggering a false restart attempt, always keep the transmit
 ---  
 
 #### **Start the new sensor**  
-Only after the previous session has stopped, and you have confirmation by a clear transmitter queue on the status page, and after having kept the transmitter detached from your body for 10 minutes should you proceed with snapping in the transmitter and starting sensor.    
+Only after the previous session has stopped, and you have confirmation by a clear transmitter queue on the status page, and after having kept the transmitter detached from your body for 10 minutes should you proceed with snapping in the transmitter and starting sensor.  
+<br/>  
   
-  
+---  
+
+#### **What if you made a mistake?**  
+If you start a new sensor and you see readings before a 2-hour warm-up, check the status page.  If you see anything other than 0 for Sensot Status, it means that you rushed and the transmitter still thinks it is on the previous sensor!  
+You need to follow the restart instructions on this [link](../Restart-G6-sensor.md) following link as soon as possible to address this.  
