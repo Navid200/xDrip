@@ -38,5 +38,5 @@ Only after the previous session has stopped, and you have confirmation by a clea
 ---  
 
 #### **What if you made a mistake?**  
-If you start a new sensor and you see readings before a 2-hour warm-up, check the status page.  If you see anything other than 0 for Sensot Status, it means that you rushed and the transmitter still thinks it is on the previous sensor!  
+If you start a new sensor and you see readings before a 2-hour warm-up, check the status page.  If you see anything other than 0 for Sensor Status, it means that you rushed and the transmitter thinks that it is still on the previous sensor!  
 You need to follow the restart instructions on this [link](../Restart-G6-sensor.md) following link as soon as possible to address this.  
