@@ -22,6 +22,5 @@ layout: GCNS
 #### [Where to ask for help?](../GCNS_Support.md)
 #### [Why is AUTH_DEFAULT_ROLES set to denied?](../Why_Denied_Auth.md)
 #### [Why am I asked for an email address?](../GC_WhyEmail.md)
-#### [Deprecation Warning](../GC_DeprecationWarning.md)
   
   
