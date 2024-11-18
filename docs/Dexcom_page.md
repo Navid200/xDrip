@@ -20,7 +20,7 @@ You are welcome to use xDrip, but always consult with a medical professional (su
  [Both xDrip and Dexcom app](./xDrip-and-Dexcom-app.md)  
   
 #### **What is ...?**
-#### [G5/G6/G7 Status](./StatusG5G6.md)
+#### [Dex Status](./StatusG5G6.md)
 #### [Session in progress](./Session-in-progress.md)
 #### [Proper Connectivity](./Proper-connectivity.md)
 #### [Native algorithm - mode](./Native-Algorithm.md)
