@@ -8,6 +8,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2024.11.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26) | Persistent high threshold range verification |  
 | [2024.11.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.17) | CareLink fix |  
 | [2024.11.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.15) | Database size on status page - pref switches translation correction |  
 | [2024.11.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.08) | Inter-app menu fix - Comp app Ottai - BlueJay utils |  
