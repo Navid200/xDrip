@@ -10,6 +10,7 @@ If you ever decide to stop sharing with someone, removing a token is much easier
 #### **Steps to Create a Nightscout Token:**  
   
 1- Use a web browser to access your Nightscout.  
+  
 2- Click on the top right menu button and select `Admin Tools`.  
 ![](./images/AdminTools.png)  
   
