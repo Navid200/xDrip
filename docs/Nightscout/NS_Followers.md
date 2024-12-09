@@ -18,8 +18,8 @@ Additionally, granting public access to your site may allow web crawlers to inde
   
 #### **Setting up a follower app**  
   
-There are apps you can use to follow Nightscout.  
-How you need to set up an app to follow Nightscout varies depending on the app.  You need to refer to the app instructions.  
+There are apps available that you can use to follow Nightscout.  
+The setup process for each app varies. Be sure to refer to the specific app’s instructions for proper configuration.  
 
-How you can use xDrip as a Nightscout follower is explained [here](../Follow/FollowNightscout.md).  
+Instructions for using xDrip as a Nightscout follower are explained [here](../Follow/FollowNightscout.md).  
   
