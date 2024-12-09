@@ -14,7 +14,7 @@ Go to `Settings` &#8722;> `Nightscout Follow URL` and enter the Nightscout Follo
   
 * hostname: The address of the Nightscout site, excluding https:// at the beginning.  
 * API_SECRET: The password used by the uploader to upload to Nightscout.  
-* Token: A token created by a Nightscout master, allowing you to follow without requiring their password.  
+* Token: A token [created](../Nightscout/Tokens.md) by a Nightscout master, allowing you to follow without requiring their password.  
 <br/>  
   
 ---  
