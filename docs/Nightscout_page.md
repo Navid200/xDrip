@@ -10,5 +10,8 @@ Setting up Nightscout requires some effort and is not something you can complete
 Alternatively, you can subscribe to a service provider to handle the setup for you.  
   
 If you already have Nightscout set up, instructions for configuring xDrip as an uploader (master) can be found [here](./Nightscout-Settings.md). How to use xDrip to follow an existing Nightscout site is explained [here](./Follow/FollowNightscout.md).  
-    
+<br/>  
   
+---  
+
+#### [Tokens](./Nightscout/Tokens.md)  
