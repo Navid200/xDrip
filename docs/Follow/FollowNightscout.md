@@ -14,29 +14,31 @@ Go to `Settings` &#8722;> `Nightscout Follow URL` and enter the Nightscout Follo
   
 * hostname: The address of the Nightscout site, excluding https:// at the beginning.  
 * API_SECRET: The password used by the uploader to upload to Nightscout.  
-* Token: A token that a Nightscout user can create to allow you to follow without disclosing their password.  
+* Token: A token created by a Nightscout master, allowing you to follow without requiring their password.  
 <br/>  
   
 ---  
 
 #### **Configure Wake Delay**  
-As Nightscout Follower, xDrip will attempt to read from Nightscout a maximum of two times. If it fails to get a new reading after two attempts, it will assume the master is disconnected and go back to sleep to conserve battery and data.  
-However, if there is a delay in the master uploading data to Nightscout, that may be the reason for the failure.  
-You can set a delay for xDrip to wait before reading from Nightscout to account for this potential upload delay. This can help ensure that xDrip reads the latest data from Nightscout rather than going to sleep with outdated information.  
+As a Nightscout Follower, xDrip will attempt to read data from Nightscout twice.  If it cannot retrieve a new reading after two attempts, it will assume the master device is disconnected and go to sleep to conserve battery and data.  
+Delays in the master device uploading data to Nightscout may cause failed attempts.  
+  
+To address this:  
+Set a delay to allow xDrip to wait before reading from Nightscout. This accounts for any upload delays and ensures xDrip retrieves the latest data instead of going to sleep with outdated information.  
 ![](./images/NS_Follow_Delay.png)  
   
 ![](./images/NS_Follow_Delay2.png)  
   
 **Do you need this setting?**   
-If you are satisfied with how the Nightscout follower currently works, no changes are necessary.    
+No changes are needed if you’re satisfied with how the Nightscout follower currently works.  
   
 **Benefits of adjusting delay**  
-Adjusting the delay can reduce the time it takes for new readings from the person you are following to appear on your follower. If you see a red delay indicator on the Nightscout follow status page, adjusting the delay setting may help.  
+Adjusting the delay can reduce the time it takes for new readings from the master to appear on your follower. If you see a red delay indicator on the Nightscout follow status page, adjusting the delay setting may help.  
 ![](./images/NS_Delay.png)  
   
 **What if you don’t change anything?**  
-If you don’t adjust the follower delay, your follower will still receive all readings, but there might be a delay of up to 5 minutes depending on the master’s upload time.  
+Your follower will still receive all readings, but there might be a delay of up to 5 minutes, depending on the master’s upload time.    
   
 **Best setting for delay**  
-Most users can leave the setting at the default value of 0. If you notice a delay on the Nightscout follow status page, experiment with different delay values to find the shortest delay that eliminates the red delay indicator.  
+Most users can keep the default setting of 0.  If you notice delays, experiment with different values to find the smallest value that eliminates the red delay indicator.  
   
