@@ -40,6 +40,7 @@
 #### [How to delete a treatment](./Delete_Treatment.md)
 #### [Can I snooze alert without unlocking the phone?](./Snooze.md)
 #### [Should I enable Android auto update?](./Android-auto-update.md)
+#### [to create a Nightscout Token](./Nightscout/Tokens.md)
  [How can I ask a question or make a suggestion?](./Contact.md)  
   
 #### **Alerts**
