@@ -5,7 +5,7 @@ layout: GCNS
 ## 502 Bad Gateway
 [Google Cloud Nightscout](./GoogleCloud.md) >> 502 Bad Gateway  
   
-Do you get this error when you attempt to access your Nightscout in a browser?  
+Do you encounter this error when attempting to access your Nightscout in a browser?  
 <br/>  
   
 ![](./images/502BadGateway.png)  
@@ -14,17 +14,21 @@ Do you get this error when you attempt to access your Nightscout in a browser?
 
 ---  
   
-It's not unusual to get this error.  It could happen if you have just imported a database.  
-It could also happen if your virtual machine had stopped and you have just restarted it.  
-Please be patient.  Please give it a minute.  
+It’s not unusual to see this error.  It could occur if you have just restarted your virtual machine.  
+Please be patient and give it a minute.  
 <br/>  
 
 ---  
   
-This could have been caused by having run bootstrap and not having followed by executing Install Nightscout phase 1.  
-Please check the [status page](./Status.md).  If it shows "Missing node_modules" in red, you need to run "Install Nightscout phase 1" from the Google Cloud setup submenu.  
-Then, [restart the server](./Restart.md) to resolve the issue.   
+This issue could also happen if you ran the bootstrap process but did not follow it with the "Install Nightscout Phase 1" step.  
+
+To resolve the issue:  
+1- Check the [status page](./Status.md).  
+- If you see “Missing node_modules” highlighted in red, you need to run “Install Nightscout Phase 1” from the Google Cloud Setup submenu.  
+
+2- After completing the installation, [restart the server](./Restart.md).  
+
+If the problem persists after the restart, please [contact us](./GCNS_Support.md) for further assistance.  
   
-After restast, if the problem persists, please [contact us](./GCNS_Support.md).  
   
   
