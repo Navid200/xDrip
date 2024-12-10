@@ -1,29 +1,40 @@
 ## Always-on Display
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [Display](./Display.md) >> xDrip Always-on display    
   
-If your phone has [always-on display](https://en.wikipedia.org/wiki/Always-on_display), you can set it up to show the xDrip widget on the screen when the phone is sleep.  
+If your phone supports an always-on display (AOD), you can configure it to show the xDrip widget on the screen while the phone is in sleep mode.  
 
 ![](./images/AOD_Sample.png)  
 
-To set up, access `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Always On Display Settings` &#8722;> `Enable xDrip Accessibility`.  
-It will take you to the Android accessibility menu.  Tap on xDrip to enable as shown below.  
+**How to Set It Up:**  
+
+1- Go to `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Always-On Display Settings` &#8722;> `Enable xDrip Accessibility`.  
+
+This will take you to the Android Accessibility menu. Tap on xDrip to enable it, as shown below.  
 ![](./images/EnablexDripAOD.png)  
 
-If doing that does not allow you to enable it, go to xDrip app info under Android settings and from the 3-dot menu at the top right, select `Allow restricted settings`.  
-![](./images/AllowRestrictedSettings.png)  
-  
-Approve the confirmation request.  
+2- If you're unable to enable it:  
+- Navigate to xDrip app info under Android Settings.  
+- From the 3-dot menu at the top right, select `Allow restricted settings`.  
+![](./images/AllowRestrictedSettings.png)
+
+3- Approve the confirmation request.  
 ![](./images/AllowRestrictedSettings2.png)  
 
-Now, repeat the process.  This time, you will be able to choose xDrip to be used for AOD on the accessibility page.  
-  
-By default, the widget will move all over the display.  You can limit it to sections of the display at `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Always On Display Settings`.  
-![](./images/AOD_Limit_Regions.png)  
-
-The widget will only move in selected regions.  
-If all or none is selected, xDrip will move the widget all over the screen, which is the default setting.  
+Repeat the setup process. This time, you should be able to enable xDrip for AOD from the Accessibility menu.  
 <br/>  
+  
+**Widget Behavior:**  
+By default, the widget will move around the display to prevent screen burn-in.  
 
+To restrict its movement to specific areas:  
+
+- Go to `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Always-On Display Settings`.  
+- Select the desired regions for the widget.
+  ![](./images/AOD_Limit_Regions.png)  
+
+If you select `All` or `None`, the widget will continue to move across the entire screen, which is the default behavior.  
+<br/>  
+  
 ---  
 
 #### **Reference**  
