@@ -3,8 +3,10 @@
   
 To enable Data tables, enable `Settings` &#8722;> `Less common settings` &#8722;> `Show Data Tables`.  
   
-Now, if you go back to the main screen and tap on the top left menu button (3 horizontal lines), you will see two new options, `BG Data Table` and `Calibration Data Table`.  
+Once enabled, return to the main screen and tap the menu button (three horizontal lines) in the top left corner. You will now see two new options: `BG Data Table` and `Calibration Data Table`.  
   
 ![](./images/Datatables_menu.png)    
   
-Tapping on either, lets you see the corresponding samples that xDrip uses to form the graphs you see on screen.  
+Tapping on either option will display the corresponding data samples that xDrip uses to generate the graphs shown on the screen.  
+
+  
