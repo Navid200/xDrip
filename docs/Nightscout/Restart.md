@@ -5,24 +5,26 @@ layout: GCNS
 ## Restart Nightscout
 [Google Cloud Nightscout](./GoogleCloud.md) >> Restart Nightscout   
   
-To restart Nightscout, you can reboot the virtual machine.  
-To do that, open a [terminal](./Terminal).  From the [menu](./Menu.md), select "Reboot server" and enter.  
+To restart Nightscout, reboot the virtual machine by following these steps:  
+1- [Open a terminal](./Terminal).  
+2- From the [main menu](./Menu.md), select `Reboot server` and confirm.  
   
-The terminal will then show a [connection error](./ConnectionFailed.md) because it will be disconnected from the machine since it is rebooting.  
-Wait a minute, and Nightscout will be back up and running again.  
+**<span style="color:orange">Connection Failed</span>**  
+The terminal will display a [connection error](./ConnectionFailed.md) because it disconnects from the machine during the reboot process.  
+This is an expected error.  You should not click on troubleshoot.  
+Wait about a minute, and Nightscout will be back up and running.  
 <br/>  
   
 ---  
 
 #### **IP address**  
-Restarting the server will not change the IP address.  
-If the virtual machine is stopped, after you restart it, its IP address will be different from what it was when it was running before.  But, this is not a problem.  You just need to be patient for about a minute for the new IP address to be mapped to the hostname.  
+Restarting the server does **not** change the IP address.  
+However, if the virtual machine is stopped and then restarted, its IP address will be different from the previous one.  This is not an issue; you just need to wait approximately a minute for the new IP address to map to the hostname.  
 <br/>  
 
 ---  
   
 #### **Note**  
-You run Nightscout on a Google Cloud virtual machine that you created as a part of the original installation.  If you look under installation on the Google Cloud Nightscout [main page](./GoogleCloud.md), you will see the "Virtual Machine" heading link you must have followed during installation.  
-  
-Therefore, restarting the virtual machine means restarting the server.  
+Nightscout runs on a Google Cloud virtual machine that was set up during the initial installation.  
+As a result, restarting the virtual machine is equivalent to restarting the Nightscout server.  
   
