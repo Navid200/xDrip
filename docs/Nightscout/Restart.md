@@ -9,7 +9,7 @@ To restart Nightscout, reboot the virtual machine by following these steps:
 1- [Open a terminal](./Terminal).  
 2- From the [main menu](./Menu.md), select `Reboot server` and confirm.  
   
-**<span style="color:orange">Connection Failed</span>**  
+**<span style="color:red">Connection Failed</span>**  
 The terminal will display a [connection error](./ConnectionFailed.md) because it disconnects from the machine during the reboot process.  
 This is an expected error.  You should not click on troubleshoot.  
 Wait about a minute, and Nightscout will be back up and running.  
