@@ -51,7 +51,7 @@ Let’s walk through the steps to restore a snapshot.
 2- Click on Create Instance.  
 ![](./images/CreateInstance2.png)  
   
-3- Select a region:  
+3- Select a region:
 - The region must match the region where the snapshot was created. You can find this information under the Location heading on the snapshot details page.  
   
 4- Choose e2-micro as the machine type.  
