@@ -22,7 +22,7 @@ Once you’ve confirmed the new device is working, you can [disconnect the secon
 When your current sensor stops working (after its 10.5-day period ends or earlier), proceed with the following steps:  
 
 1- If you haven’t already disabled the secondary phone, do so now by disabling collection on it.  Wait 15 minutes.  
-2- Carefully peel off the old sensor without accidentally removing the new one.  Store the old sensor inside a metallic box or move it far (> 10m) away.  
+2- Carefully peel off the old sensor without accidentally removing the new one.  Store the old sensor inside a metallic box or move it at least 10 meters away to avoid interference.  
 3- On your main phone, follow the instructions under the heading “Establishing Connectivity” [here](./G7.md) to connect to your new device using the pairing code of your new G7.  
 <br/>  
   
