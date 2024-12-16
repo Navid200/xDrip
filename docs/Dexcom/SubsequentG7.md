@@ -7,7 +7,7 @@ If you are starting a G7 or One+ for the first time, refer to the instructions [
   
 ---  
   
-#### **Preparing to Start a New Device**  
+#### **Starting a New Device**  
 When the status page shows 10 days for transmitter days or when the optional sensor expiry notification on the main screen indicates that the sensor will expire in about 12 hours, insert a new sensor following the section titled “Starting the Sensor” [here](./G7.md).    
 ![](./images/G7EndsIn.png)  
   
