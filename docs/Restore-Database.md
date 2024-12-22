@@ -1,14 +1,16 @@
 ## Restore database  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [Backup](./Backup.md) >> Restore database  
   
-To restore a database, you need to place it in the xdrip folder on the phone internal storage.  If the folder does not exist, you can create one.  
-The database filename is composed of the word export followed by year, month, day, hours, minutes, seconds as shown on the following line.  
-exportYYYYMMDD-HHMMSS.zip  
+To restore a database, you must place it in the xDrip folder located in the phone's internal storage. If the folder does not already exist, you can create it manually.  
+The database filename follows this format:  
+`exportYYYYMMDD-HHMMSS.zip `  
   
-Be very careful. xDrip cannot _import_ a database.  It has a restore database function.  What it does is to replace the existing database with the one being restored.  
-Effectively, xDrip deletes the entire existing database and then replaces it with the new database.  
+Here, `YYYY` represents the year, `MM` the month, `DD` the day, `HH` the hours, `MM` the minutes, and `SS` the seconds.  
   
-To restore the database, tap on Import / Export features &#8722;> Restore database.  
-Read the warning.  If it does not make you change your mind about restoring a database, tap on OK.  
-Tap on the file name to restore.  
+**Important Note:**  xDrip does not import a database; it restores a database. The restore function **replaces the existing database** with the one being restored. This means the current database will be entirely deleted and replaced by the new one.
+  
+To restore a database:  
+1- Tap on `Import/Export Features` → `Restore Database`.  
+2- Read the warning message carefully. If you are certain you want to proceed, tap OK.  
+3- Select the appropriate file by tapping on its name to initiate the restoration process.  
   
