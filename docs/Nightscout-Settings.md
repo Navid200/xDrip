@@ -23,12 +23,7 @@ If your hostname and password are as follows:
 
 Then, the correct URL will be:  
 https<nolink>://3MyPassword4NS<nolink>@jane.us.to/api/v1/  
-<br/>  
-  
----  
-
-#### **[Nightscout](./Nightscout_page.md)**  
-<br/>  
+<br/>   
   
 ---  
   
@@ -42,4 +37,10 @@ To disable a follower, you can remove the token associated with that follower.
   
 #### **Upload to multiple Nightscout sites**  
 To upload to multiple Nightscout sites, enter the URLs in the same field, separated by spaces.  
+<br/>  
+
+---  
+  
+#### [Nightscout](./Nightscout_page.md)  
+#### [Tokens](./Nightscout/Tokens.md)  
   
