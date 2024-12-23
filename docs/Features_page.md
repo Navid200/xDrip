@@ -12,8 +12,7 @@
 ### [Nightscout](./Nightscout_page.md)
 ### [Emergency Messages](./Emergency.md)
 ### [Dexcom](./Dexcom_page.md)
-### [Watches](./Watches.md)
-   
+  
 <br/>  
   
 #### [Hardware Data Source](./HardwareDataSource.md)
