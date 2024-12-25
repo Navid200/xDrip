@@ -4,5 +4,7 @@
 You can access reminders from the ellipsis (three-dot) menu.  
 ![](./images/RemindersMenu.png)  
 <br/>  
-
   
+---  
+
+#### [Delete a reminder](./Delete-Reminder.md)  
