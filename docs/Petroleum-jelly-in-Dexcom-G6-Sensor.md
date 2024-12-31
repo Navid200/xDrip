@@ -8,7 +8,7 @@ Wait a minute or two to ensure there is no bleeding. If bleeding occurs, use Q-t
   
 After cleaning the transmitter contacts (but not the sensor), snap in the transmitter. This action spreads the petroleum jelly around the contacts, forming a barrier against moisture.  
   
-To [restart a G6 sensor](./Restart-G6-sensor.md), the transmitter is removed and later snapped back in. Do not insert a test strip between the transmitter and the sensor to restart it. Doing so may effectively wipe away the petroleum jelly.  
+To [restart a G6 sensor](./Restart-G6-sensor.md), the transmitter is removed and later snapped back in. **Do not insert a test strip between the transmitter and the sensor to restart it.**  Doing so may effectively wipe away the petroleum jelly.  
 When [removing the transmitter for a restart](./Remove-transmitter.md), avoid wiping away the substance from the transmitter contacts. While the transmitter is out, keep the contacts untouched. Also, avoid wearing tight clothing over the sensor to prevent wiping away the petroleum jelly.  
 
 ![](./images/PetroleumJelly.png)  
