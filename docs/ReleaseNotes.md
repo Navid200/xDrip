@@ -8,6 +8,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2024.12.31](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.12.31) | Daily service run even when not charging |  
 | [2024.12.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.12.17) | Master phone battery on xDrip sync follower status page |  
 | [2024.11.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.26) | Persistent high threshold range verification |  
 | [2024.11.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.17) | CareLink fix |  
