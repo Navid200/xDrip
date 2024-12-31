@@ -27,7 +27,7 @@ The following snapshot is from a Dexcom patent. It describes a potential problem
 ![](./Dexcom/images/PetroleumJellyPatent.png)  
 <br/>  
   
-The second snapshot following highlights the advantages of using petroleum jelly.  
+The second snapshot below highlights the advantages of using petroleum jelly.  
 
 ![](./Dexcom/images/PetroleumJellyPatent2.png)  
   
