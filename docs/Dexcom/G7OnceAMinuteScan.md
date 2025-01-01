@@ -6,16 +6,19 @@ The following image shows an example:
 ![](./images/RapidReconnect1.png)  
 <br/>  
   
-The communication between a G7 device and an app is two-way, involving an acknowledgment mechanism. If a G7 device misses three consecutive acknowledgments (15 minutes), it switches to a rapid reconnect mode. In this mode, it transmits every reading 4 additional times—once per minute—to facilitate faster reconnection. This mode continues for up to 12 hours or until the app successfully reconnects.  
+The communication between a G7 device and an app is two-way, utilizing an acknowledgment mechanism. If a G7 device misses three consecutive acknowledgments (15 minutes), it switches to a rapid reconnect mode. In this mode, the device transmits each reading 4 additional times—once per minute—to facilitate faster reconnection. This mode continues for up to 12 hours or until the app successfully reconnects.  
 The following image provides an example:  
 ![](./images/RapidReconnect2.png).  
 <br/>  
   
-As soon as a handshake takes place, the G7 stops the additional transmissions. There is no way for xDrip to determine which transmission is the original once-every-5-minute reading and which is not. Consequently, xDrip may pair and handshake on one of the additional transmissions. The issue in such a case is that when xDrip wakes up 5 minutes later, there will be no G7 transmission, as shown in the next figure.  
+As soon as a handshake occurs, the G7 stops the additional transmissions. However, xDrip cannot distinguish between the original once-every-5-minute reading and the additional transmissions. As a result, xDrip may pair and handshake with one of the additional transmissions. The issue with this scenario is that when xDrip wakes up 5 minutes later, no G7 transmission will occur, as illustrated in the next figure.  
 ![](./images/RapidReconnect3.png)  
 <br/>  
   
-To expedite connectivity, monitor the Dex status page after approving the pairing request and look for a note indicating that xDrip is scanning. If this note does not appear, go to the classic status page and tap `Restart Collector` to trigger scanning, then return to the Dex status page.  
-Once the red “Hunting Transmitter” note is removed from the Dex status page, you can leave the Dex status page. Connectivity should now be established.  
+To expedite connectivity, follow these steps:  
+1- Monitor the Dex status page after approving the pairing request and check for a note indicating that xDrip is scanning.  
+2- If the scanning note does not appear, navigate to the classic status page and tap `Restart Collector` to trigger scanning.  
+3- Return to the Dex status page and wait until the red “Hunting Transmitter” note is removed.  
   
+Once the red note is gone, you can leave the Dex status page. Connectivity should now be successfully established.  
   
