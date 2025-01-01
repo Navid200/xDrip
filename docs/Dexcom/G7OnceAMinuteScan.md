@@ -6,9 +6,8 @@ The following image shows an example.
 ![](./images/RapidReconnect1.png)  
   
 The communication between a G7 and an app is two-way, involving an acknowledgment mechanism.  
-If a G7 device misses three consecutive acknowledgments (15 minutes), it switches to a rapid reconnect mode, transmitting data once per minute to facilitate faster reconnection. This mode continues for up to 12 hours or until the app successfully reconnects.  
-
-While in rapid reconnect mode, the G7 device transmits each reading five times. The following image provides an example:  
+If a G7 device misses three consecutive acknowledgments (15 minutes), it switches to a rapid reconnect mode, transmitting every reading 4 more times once per minute to facilitate faster reconnection. This mode continues for up to 12 hours or until the app successfully reconnects.  
+The following image provides an example:  
 ![](./images/RapidReconnect2.png).  
   
   
