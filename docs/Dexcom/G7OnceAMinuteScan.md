@@ -10,4 +10,7 @@ If a G7 device misses three consecutive acknowledgments (15 minutes), it switche
 The following image provides an example:  
 ![](./images/RapidReconnect2.png).  
   
+As soon as a handhsake takes place, G7 stops the additional transmissions.  There is no way for xDrip to know which transmission is the original once-every-5-minute transmission and which is not.  Therefore, it is possible that xDrip could pair and handshake on one of the additional transmissions.  The problem in that case is that when xDrip wakes up 5 minutes after, there will be no G7 transmission as shown in the next figure.  
+![](./images/RapidReconnect3.png)  
+  
   
