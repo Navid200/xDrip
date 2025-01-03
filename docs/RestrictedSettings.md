@@ -8,7 +8,7 @@ To grant that permission, follow the instructions on this page.
 - From the 3-dot menu at the top right, select `Allow restricted settings`.  
 ![](./images/AllowRestrictedSettings.png)  
   
-- Approve the confirmation request.
+- Approve the confirmation request.  
 ![](./images/AllowRestrictedSettings2.png)  
   
   
