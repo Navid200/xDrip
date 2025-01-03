@@ -7,18 +7,12 @@ If your phone supports an always-on display (AOD), you can configure it to show 
 <br/>  
 
 **How to Set It Up:**  
-1- Go to `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Always-On Display Settings` &#8722;> `Enable xDrip Accessibility`.  
+Go to `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Always-On Display Settings` &#8722;> `Enable xDrip Accessibility`.  
 
 This will take you to the Android Accessibility menu. Tap on xDrip to enable it, as shown below.  
 ![](./images/EnablexDripAOD.png)  
 
-2- If you're unable to enable it:  
-- Navigate to xDrip app info under Android Settings.  
-- From the 3-dot menu at the top right, select `Allow restricted settings`.  
-![](./images/AllowRestrictedSettings.png)
-
-3- Approve the confirmation request.  
-![](./images/AllowRestrictedSettings2.png)  
+If you're unable to enable it, [grant restricted settings access to xDrip](../RestrictedSettings.md).  
 
 Repeat the setup process. This time, you should be able to enable xDrip for AOD from the Accessibility menu.  
 <br/>  
