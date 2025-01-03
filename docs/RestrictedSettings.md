@@ -1,14 +1,14 @@
 ## Allow Restricted Settings
 [xDrip](../README.md) >> Allow Restricted Settings  
   
-Some features require access to restricted settings on your phone depending on the Android version.  
-To grant that permission, follow the instructions on this page.  
+Some features require access to restricted settings on your phone, depending on the Android version.  
+To grant this permission, follow the instructions below:  
   
-- Navigate to xDrip app info under Android Settings.  
-- From the 3-dot menu at the top right, select `Allow restricted settings`.  
+1- Navigate to the xDrip app info page under Android Settings.  
+2- Tap the three-dot menu in the top-right corner and select `Allow restricted settings`.  
 ![](./images/AllowRestrictedSettings.png)  
   
-- Approve the confirmation request.  
+3- Approve the confirmation request.  
 ![](./images/AllowRestrictedSettings2.png)  
   
   
