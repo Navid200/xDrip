@@ -1,4 +1,4 @@
-## Backup
+## Allow Restricted Settings
 [xDrip](../README.md) >> Allow Restricted Settings  
   
 Some features require access to restricted settings on your phone depending on the Android version.  
