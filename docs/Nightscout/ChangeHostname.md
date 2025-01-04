@@ -15,7 +15,8 @@ If you’ve already created an alternative subdomain, you can skip this step.
 Open the Google Cloud setup submenu and select `Install Nightscout Phase 2`.  
   
 3- Update Settings During Setup  
-- You’ll be given the option to change your API_SECRET, but this is not mandatory.  
+- You’ll be given the option to change your API_SECRET, but this is not mandatory.
+- You'll be asked for your FreeDNS user ID and password.  Enter those for the account with the new subdomain if you have multiple accounts.  
 - Next, you’ll be prompted to identify the subdomain you want to use. Select the new subdomain.  
   
 4- Restart the Server  
