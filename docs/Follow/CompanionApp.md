@@ -1,22 +1,19 @@
 ## Companion App Mode
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> xDrip Companion App mode  
   
-xDrip can receive readings from notifications issued by another app. For example, if you have CamAPS installed and operational, you can have xDrip on the same phone display readings from CamAPS. Similarly, if you have the Dexcom app installed and collecting data from a transmitter, you can use the Companion App feature to receive readings from the Dexcom app. This feature does not require internet access.
-  
-  
+xDrip can receive readings from notifications issued by another app. For example, if you have CamAPS installed and operational, you can have xDrip on the same phone display readings from CamAPS. Similarly, if you have the Dexcom app installed and collecting data from a transmitter, you can use the Companion App feature to receive readings from the Dexcom app. This feature does not require internet access.  
   
 1- Ensure that notifications from the other app are visible on your phone. Pull down from the top of the screen to view all notifications.  
   
 2- Enable Companion App mode on the [Hardware Data Source page](../HardwareDataSource.md).  
+You will see the following note:  
+![](./images/PleaseAllowNotificationAccess.png)  
   
-3- Grant xDrip notification access. When you enable Companion App mode, you will be prompted to grant this permission to xDrip. If you did not grant permission at that time, you can do so later by following these steps:  
+Tap OK.  
+You will be taken to Android Notification Access page.  
+Choose xDrip and grant access.  If you cannot, follow [this](../RestrictedSettings.md) guide to give restricted access to xDrip.  Now, disable and enable Companion app again.  This time, you will be able to grant permission.  
   
-- Go to Android settings on your phone.  
-- Search for "notification access." Android will locate and display the setting.  
-- Tap on it and enable xDrip.  
- ![](./images/NoteAccess.png)  
-  
-4- Set xDrip to use the same [unit](../Display/Units_HiLow.md) for blood glucose as your companion app, either mmol/L or mg/dL.  
+3- Set xDrip to use the same [unit](../Display/Units_HiLow.md) for blood glucose as your companion app, either mmol/L or mg/dL.  
 <br/>  
   
 ---  
