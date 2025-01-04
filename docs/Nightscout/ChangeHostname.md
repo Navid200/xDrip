@@ -5,15 +5,26 @@ layout: GCNS
 ## How can I change the hostname?
 [Google Cloud Nightscout](./GoogleCloud.md) >> Can I change the hostname?  
   
-Assuming you already have a working Nightscout following our [instructions](./GoogleCloud.md), and all you want to do is to change the hostname, this page explains how to do it.  
-
-You first need to log into your FreeDNS account and choose a domain and create a new subdomain as described [here](./FreeDNS).  
-If you have done this already and have created an alternative subdomain as well, you can skip this step.  
+If you already have a working Nightscout setup following our [instructions](./GoogleCloud.md) and simply want to change the hostname, this guide explains how to do it.  
   
-Now, run "Install Nightscout phase 2" from the Google Cloud setup submenu.  
+1- Create a New Subdomain in FreeDNS  
+Log in to your FreeDNS account, choose a domain, and create a new subdomain as described [here](./FreeDNS).  
+If you’ve already created an alternative subdomain, you can skip this step.  
   
-You will be given the option to change your API_SECRET.  You don't have to change it.  
-Then, you will be asked to identify the subdomain you want to use.  Choose the one you want to switch to.  
-After the setup completes, you will be asked to restart the server.  After you do that, your Nightscout will be on your new hostname.  
-At this point, you will need to update your uploader to use your new hostname.  You will also need to update your followers to use the new hostname.  
-Your previous hostname may remain active for a while, but eventually it will stop working.  
+2- Run "Install Nightscout Phase 2"  
+Open the Google Cloud setup submenu and select `Install Nightscout Phase 2`.  
+  
+3- Update Settings During Setup  
+- You’ll be given the option to change your API_SECRET, but this is not mandatory.  
+- Next, you’ll be prompted to identify the subdomain you want to use. Select the new subdomain.  
+  
+4- Restart the Server  
+After the setup completes, you’ll be asked to restart the server. Once restarted, your Nightscout will be accessible using the new hostname.  
+  
+5- Update Uploader and Followers  
+Update your uploader to use the new hostname. Additionally, notify your followers and provide tokens to use the updated hostname.  
+  
+Note:  
+Your previous hostname may remain active for a while but will eventually stop working. Ensure all devices and users are transitioned to the new hostname promptly.  
+  
+  
