@@ -25,7 +25,6 @@ Once the process is complete, your Nightscout should be updated.
 #### **What if no update is available?**  
 After a new Nightscout version is released, there may be a short delay before an update is available.  
 During this time, we verify compatibility and functionality within our setup. This process may take a few days.  
-During this time, we are verifying the release to ensure compatibility and functionality with our setup. This process may take a few days.  
   
 We recommend being patient while we complete testing and release the updated installation process.  
 If you are unsure or need further assistance, feel free to [reach out to us](./GCNS_Support.md).  
