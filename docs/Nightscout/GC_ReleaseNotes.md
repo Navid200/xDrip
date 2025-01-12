@@ -9,9 +9,10 @@ The development and stable branches are explained [here](./Branches.md).
   
 | Release | Notes | Status page |  
 |---------|-------| ----------- |  
-| 2024.08.28 | **<span style="color:orange">Dev release</span>** <br/> Backup utility update | |  
+| 2024.12.29 | **<span style="color:orange">Stable release</span>** <br/> Cleanup | |  
+| 2024.08.28 | Backup utility update | |  
 | 2024.08.20 | Update to Node 16 |  |  
-| 2024.02.24 | **<span style="color:orange">Stable release</span>** <br/> Update to 11ubuntu5.8 | |  
+| 2024.02.24 | Update to 11ubuntu5.8 | |  
 | 2024.01.29 | Logs fix | |  
 | 2023.11.14 | Auto Ubuntu security update status flag | ![](./images/Nov142023StatusP.png) |  
 | 2023.10.27 | Update to Nightscout 15.0.2 | |  
