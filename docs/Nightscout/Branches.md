@@ -30,12 +30,12 @@ To see the differences between the two branches, refer to the [release notes](./
 If you want to switch branches while using Google Cloud Nightscout, follow these instructions:  
 
 1- Copy the following.  
-  
 <input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash" readonly id="myInputText" style="border:none; color:#101010; background-color:#ededed; width:100%; font-size:15px">  
 <button onclick="FunctionCopyText()" style="border: 1px solid #0066ff; color:#f0f0f0; background: linear-gradient(#0066ff, #0066ff); font-size:14px; background-color:#0066ff; font-weight:400; border-radius: 2px; margin-left:70px; margin-top:8px; padding:4px 12px; display:inline-block; box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 5px rgba(0,0,0,.7); :hover ">Copy</button>  
   
 2- Paste into the virtual machine terminal.  
-3- The command is the stable bootstrap.  if you want to run the dev bootstrap, change 1 to dev.  
+If you want to run the dev bootstrap, change vps-1 to vps-dev.  Leave it as is if you want to srun the stable release bootstrap.  
+3- Enter to run bootstrap.  
 4- Run “Install Nightscout Phase 1” from the Google Cloud setup submenu.  
   
 After switching branches, [restart the server](./Restart.md) to ensure everything works as expected. If issues arise, run “Install Nightscout Phase 2” as well. You will be prompted to change the API_SECRET; press ESC to keep it unchanged. You will also be asked for FreeDNS account credentials; press ESC again to retain the current hostname.  
