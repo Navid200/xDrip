@@ -8,6 +8,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.01.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.18) | CareLink fix |  
 | [2025.01.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.07) | G6 session start time broadcast fix |  
 | [2024.12.31](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.12.31) | Daily service run even when not charging |  
 | [2024.12.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.12.17) | Master phone battery on xDrip sync follower status page |  
