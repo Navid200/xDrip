@@ -12,7 +12,7 @@ After xDrip scans, it will show you the settings that are included in the QR cod
 ---  
 
 #### **If camera is not an option**  
-Your device might not have a camera, the camera could be broken, or you may only be able to access the QR code on the same device running xDrip. In these cases, you can use an alternative method available starting with the [2024.08.02 release](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02) of xDrip, as explained here.  
+Your device might not have a camera, the camera could be broken, or you may only be able to access the QR code on the same device running xDrip. In these cases, you can use an alternative method as explained here.  
   
 First, save the QR code as an image file on your device. To do this, use a browser to access the QR code. Long press on the QR code image and select the option to save it. By default, the image will be saved in your **Dolwnload** folder.  
 
