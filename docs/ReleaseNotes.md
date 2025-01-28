@@ -8,6 +8,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.01.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.28) | Eversense 365 Companion app |  
 | [2025.01.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.24) | AOD fix - Start time back to classic status page except G7 |  
 | [2025.01.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.18) | CareLink fix |  
 | [2025.01.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.07) | G6 session start time broadcast fix |  
