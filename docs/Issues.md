@@ -28,10 +28,7 @@ If you are experiencing a problem with xDrip, please start [here](https://navid2
 | [1643](https://github.com/NightscoutFoundation/xDrip/issues/1643) | Allow linking more than one Bluetooth meter at a time | 2021.02.15 |  
 | [1672](https://github.com/NightscoutFoundation/xDrip/issues/1672) | Don't enable Out of process libre algorithm | 2021.03.14 |  
 | [1690](https://github.com/NightscoutFoundation/xDrip/issues/1690) | xDrip detecting future data | 2021.03.30 |  
-| [1692](https://github.com/NightscoutFoundation/xDrip/issues/1692) | G5 Dexcom receiver loses connectivity after Feb. 4, 2021 | 2021.04.02 |  
-| [1762](https://github.com/NightscoutFoundation/xDrip/issues/1762) | Consistent behavior and capability of alerts | 2021.06.21 |  
 | [1793](https://github.com/NightscoutFoundation/xDrip/issues/1793) | Notification channel for number icon | 2021.07.31 |  
-| [1813](https://github.com/NightscoutFoundation/xDrip/issues/1813) | Motion tracking fails and is disabled | 2021.08.16 |  
 | [1872](https://github.com/NightscoutFoundation/xDrip/issues/1872) | Requests for support: Watches | Consolidated |  
 | [1889](https://github.com/NightscoutFoundation/xDrip/issues/1889) | Medtrum A8 (nano) | 2021.12.08 |  
 | [1898](https://github.com/NightscoutFoundation/xDrip/issues/1898) | Requests for support: Insulin profiles | Consolidated |  
