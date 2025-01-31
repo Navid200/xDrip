@@ -10,3 +10,9 @@ When you create a virtual machine, it has a firewall already.  To see it, go to 
 From the menu, select `VPC Network` > `Firewall`.  
 ![](./Firewall/images/AccessFirewall.png)  
   
+If you have followed our instructions to create a virtual machine, you will see the following.  
+![](./Firewall/images/FirewallRules.png).  
+
+If you have not created a virtual machine, you will only see the 4 rules at the bottom.  
+The two rules at the top are related to the http and https options you are supposed to enable during the virtual machine setup following our instructions.  
+  
