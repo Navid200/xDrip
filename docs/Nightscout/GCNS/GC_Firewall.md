@@ -32,8 +32,12 @@ Then, create a firewall policy.
 ![](./Firewall/images/FirewallPolicy.png)  
   
 Associate it and save.  
+<br/>  
   
 Now, create a new rule inside the firewall policy you created.  
+![](./Firewall/images/AllowFirewallRuleDetails.png)  
+<br/>  
+  
 ![](./Firewall/images/FirewallPolicyRules.png)  
-
+  
   
