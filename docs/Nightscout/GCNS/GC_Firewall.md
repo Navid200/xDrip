@@ -35,6 +35,7 @@ Associate it and save.
 <br/>  
   
 Now, create a new rule inside the firewall policy you created.  
+In the geo-location section, choose your country making sure it is an "allow" rule.  Geo-location is not free.  
 ![](./Firewall/images/AllowFirewallRuleDetails.png)  
 <br/>  
   
