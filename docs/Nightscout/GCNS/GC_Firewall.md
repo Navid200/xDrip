@@ -31,4 +31,9 @@ You can delete the http and https rules.  Now, you will not be able to access yo
 Then, create a firewall policy.  
 ![](./Firewall/images/FirewallPolicy.png)  
   
+Associate it and save.  
+  
+Now, create a new rule inside the firewall policy you created.  
+![](./Firewall/images/FirewallPolicyRules.png)  
+
   
