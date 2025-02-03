@@ -66,13 +66,8 @@ Click on Create firewall rule.
 ![](./Firewall/images/CreateFirewallPolicyRule.png)  
 <br/>  
   
-Associate it and save.  
-![](./Firewall/images/FirewallPolicyAssociation.png)  
-<br/>  
-  
-Now, create a new rule inside the firewall policy you created.  
-In the geo-location section, choose your country making sure it is an "allow" rule.  Geo-location is not free.  
-![](./Firewall/images/AllowFirewallRuleDetails.png)  
+Set priority to 950.  Choose tcp 80 and 443.  Under Geolocations, choose your country and any other country you travel to a lot.  Geolocation is not free.  
+![](./Firewall/images/NetworkPolicyRuleDetails.png)  
 <br/>  
   
 ![](./Firewall/images/FirewallPolicyRules.png)  
