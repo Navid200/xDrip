@@ -58,6 +58,10 @@ Create.
 ![](./Firewall/images/CreateFirewallPolicy2.png)    
 <br/>  
   
+Click on firewall policy name.  
+![](./Firewall/images/ClickOnFirewallPolicyName.png)  
+<br/>  
+  
 Associate it and save.  
 ![](./Firewall/images/FirewallPolicyAssociation.png)  
 <br/>  
