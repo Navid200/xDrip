@@ -37,6 +37,10 @@ Then, create a firewall policy.
 Give it a name.  Continue.  
 ![](./Firewall/images/CreateANetworkFirewallPolicy.png)  
 <br/>  
+
+Continue.  
+![](./Firewall/images/ConfigurePolicy2.png)  
+<br/>  
   
 Associate it and save.  
 ![](./Firewall/images/FirewallPolicyAssociation.png)  
