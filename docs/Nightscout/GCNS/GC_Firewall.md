@@ -46,6 +46,10 @@ Associate.
 ![](./Firewall/images/Associate.png)  
 <br/>  
   
+Select "default".  Associate.  
+![](./Firewall/images/Associate2.png)  
+<br/>  
+  
 Associate it and save.  
 ![](./Firewall/images/FirewallPolicyAssociation.png)  
 <br/>  
