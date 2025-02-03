@@ -42,6 +42,10 @@ Continue.
 ![](./Firewall/images/ConfigurePolicy2.png)  
 <br/>  
   
+Associate.  
+![](./Firewall/images/Associate.png)  
+<br/>  
+  
 Associate it and save.  
 ![](./Firewall/images/FirewallPolicyAssociation.png)  
 <br/>  
