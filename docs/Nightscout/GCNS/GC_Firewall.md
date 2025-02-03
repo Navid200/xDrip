@@ -27,9 +27,15 @@ The two rules at the top are related to the http and https options you are suppo
 #### **Firewall policies**  
 If you want to use geo-location, you will need to create a firewall policy.  But, geo-location is not free.  
 
-You can delete the http and https rules.  Now, you will not be able to access your site.  Test and verify.  
+Delete the http and https rules.  Now, you will not be able to access your site.  Test and verify.  
+  
 Then, create a firewall policy.  
 ![](./Firewall/images/CreateFirewallPolicy.png)  
+<br/>  
+<br/>  
+
+Give it a name.  Continue.  
+![](./Firewall/images/CreateANetworkFirewallPolicy.png)  
 <br/>  
   
 Associate it and save.  
