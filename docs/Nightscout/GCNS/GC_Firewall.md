@@ -45,12 +45,16 @@ Continue.
 Associate.  
 ![](./Firewall/images/Associate.png)  
 <br/>  
-  
-Continue.  
-![](./Firewall/images/ConfigurePolicy3.png)  
+<br/>  
   
 Select "default".  Associate.  
 ![](./Firewall/images/Associate2.png)  
+<br/>  
+<br/>  
+  
+Continue.  
+![](./Firewall/images/ConfigurePolicy3.png)  
+<br/>  
 <br/>  
   
 Associate it and save.  
