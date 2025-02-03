@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Google Cloud Firewall **<span style="color:red">DRAFT</span>**  
+## Google Cloud Firewall &nbsp; &nbsp; **<span style="color:red">DRAFT</span>**  
 [Google Cloud Nightscout](../GoogleCloud.md) >> Firewall  
 <br/>  
   
