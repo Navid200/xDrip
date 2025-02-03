@@ -5,6 +5,10 @@ layout: GCNS
 ## Google Cloud Firewall &nbsp; &nbsp; **<span style="color:red">DRAFT</span>**  
 [Google Cloud Nightscout](../GoogleCloud.md) >> Firewall  
 <br/>  
+
+<span style="color:red">This page is still being edited.  </span>
+<br/>  
+<br/>  
   
 When you create a virtual machine, it has a firewall already.  To see it, go to your Google Cloud [Dashboard](../Dashboard.md).  
 From the menu, select `VPC Network` > `Firewall`.  
