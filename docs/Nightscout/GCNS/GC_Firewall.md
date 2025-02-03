@@ -62,6 +62,10 @@ Click on firewall policy name.
 ![](./Firewall/images/ClickOnFirewallPolicyName.png)  
 <br/>  
   
+Click on Create firewall rule.  
+![](./Firewall/images/CreateFirewallPolicyRule.png)  
+<br/>  
+  
 Associate it and save.  
 ![](./Firewall/images/FirewallPolicyAssociation.png)  
 <br/>  
