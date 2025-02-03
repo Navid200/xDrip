@@ -70,6 +70,5 @@ Set priority to 950.  Choose tcp 80 and 443.  Under Geolocations, choose your co
 ![](./Firewall/images/NetworkPolicyRuleDetails.png)  
 <br/>  
   
-![](./Firewall/images/FirewallPolicyRules.png)  
-  
+You should now be able to access your Nightscout in a browser again.  
   
