@@ -31,10 +31,16 @@ Note: Snapshots are not free and may cost around $0.25 per month while stored.
 ---  
   
 #### **Deleting the Virtual Machine**  
-Deleting the virtual machine is almost never necessary and should only be a last resort.  
+Deleting the virtual machine is rarely necessary and should only be a last resort.  
 Once deleted, all files, including your MongoDB database, will be lost permanently with no way to recover them.  
   
 If you are certain you need to delete it, follow the backup instructions above to secure all necessary files.  
   
 Only proceed with [deleting the machine](./DeleteVM.md) if you have no other recovery options and have ensured you have backed up everything.  
+<br/>  
+
+---  
   
+#### **Reinstall**  
+Follow the [installation instructions](./GoogleCloud.md) to set up a new instance.  
+Once completed, you can [restore your backup](./DatabaseRestore.md).  
