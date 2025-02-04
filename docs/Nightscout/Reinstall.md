@@ -3,36 +3,38 @@ layout: GCNS
 ---
   
 ## Google Cloud Nightscout reinstall
-[Google Cloud Nightscout](./GoogleCloud.md) >> How to reinstall   
+[Google Cloud Nightscout](./GoogleCloud.md) >> How to reinstall     
+<br/>  
   
-To reinstall, you need to run bootstrap followed by phase 1 (installation).  Both are explained [here](./NS_Install.md).  
-After that, [Restart](./Restart.md) the server.  
-  
+#### **Non-desctructive reinstall**  
+You can reinstall from scratch over an existing installation without affecting your database.  
+To do this, run bootstrap followed by phase 1 (installation)—both are explained [here](./NS_Install.md).  
+Afterward, [restart](./Restart.md) the server. You can then proceed with phase 2, as explained in the same guide.  
+<br/>  
 <br/>  
   
 ---  
   
 #### **Backup**  
-Follow the instructions [here](./DatabaseBackup.md) to backup the database and download it from the machine to your computer.  
-If you have any other files on the virtual machine that you like to keep, download those as well.  
-<br/>  
-  
----  
-
-#### **Restore**
-Follow [these](./DatabaseRestore.md) instructions to restore the MongoDB and your variables.  
+If you delete your virtual machine, you will lose everything on it, including your Nightscout database.  
+To prevent data loss, follow the [backup instructions](./DatabaseBackup.md) to back up your database and download it to your computer.  
+If you have other important files on the virtual machine, be sure to download those as well.   
 <br/>  
   
 ---  
   
-#### **Deleting the machine**  
-Deleting the virtual machine is hardly ever necessary.  You shouldn't do it.  It is only a last resort.  
-
-If you delete the virtual machine, all the files on it will be deleted and you will have no way of recovering them.  This includes your MongoDB database.  
-Therefore, if you are certain you need to delete it, follow the backup instructions above to backup everything including your database.  
-  
-If you are certain you have backed up everything and have all the files you need, only then, should you [delete the machine](./DeleteVM.md) only if there is no way to restore it.  
-
-Now, you can follow the [guide](./GoogleCloud.md) to recreate a new machine.  Then, you can restore your backup on the new machine.  
+#### **Snapshot**  
+You can also create a [snapshot](./Snapshots.md), which saves a compressed version of the disk. This allows you to restore the entire system when creating a new virtual machine.  
+Note: Snapshots are not free and may cost around $0.25 per month while stored.  
 <br/>  
+  
+---  
+  
+#### **Deleting the Virtual Machine**  
+Deleting the virtual machine is almost never necessary and should only be a last resort.  
+Once deleted, all files, including your MongoDB database, will be lost permanently with no way to recover them.  
+  
+If you are certain you need to delete it, follow the backup instructions above to secure all necessary files.  
+  
+Only proceed with [deleting the machine](./DeleteVM.md) if you have no other recovery options and have ensured you have backed up everything.  
   
