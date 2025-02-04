@@ -2,11 +2,11 @@
 layout: GCNS
 ---
   
-## Google Cloud Nightscout reinstall
+## Google Cloud Nightscout Reinstall
 [Google Cloud Nightscout](./GoogleCloud.md) >> How to reinstall     
 <br/>  
   
-#### **Non-desctructive reinstall**  
+#### **Non-Destructive Reinstall**  
 You can reinstall from scratch over an existing installation without affecting your database.  
 To do this, run bootstrap followed by phase 1 (installation)—both are explained [here](./NS_Install.md).  
 Afterward, [restart](./Restart.md) the server. You can then proceed with phase 2, as explained in the same guide.  
