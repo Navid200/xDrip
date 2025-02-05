@@ -22,7 +22,6 @@ The following instructions will guide you through the upgrade process.
 - [Restore your backup](../DatabaseRestore.md) to the new installation.  
 - (Optional) Continue using this new installation and retire the virtual machine in your original Google account.  
 <br/>  
-<br/>  
   
 4- If you intend to continue using your original Google account:  
 - Ensure you have created and securely stored your backup.  
