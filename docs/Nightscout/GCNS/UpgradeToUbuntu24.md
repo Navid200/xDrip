@@ -13,13 +13,16 @@ The following instructions will guide you through the upgrade process.
 #### **Upgrade Steps**  
   
 1- Create a [backup and transfer it to your computer](../DatabaseBackup.md).  
+  
 2- (Optional) Create a [snapshot](../Snapshots.md).  Note: Snapshots are not free.  
-3- (Optional) Set up a second Google account for a new installation:  
+  
+3- (Optional) Set up a second Google account for a new installation:
 - Follow our [installation instructions](../GoogleCloud.md).  
 - [Restore your backup](../DatabaseRestore.md) to the new installation.  
-- (Optional) Continue using this new installation and retire the virtual machine in your original Google account.
-
-4- If you intend to continue using your original Google account:  
+- (Optional) Continue using this new installation and retire the virtual machine in your original Google account.  
+<br/>  
+  
+4- If you intend to continue using your original Google account:
 - Ensure you have created and securely stored your backup.  
 - [Delete your original virtual machine](../DeleteVM.md).  
 - Follow our [installation instructions](../GoogleCloud.md) to set up a new Ubuntu 24 virtual machine.  
