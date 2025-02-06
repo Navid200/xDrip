@@ -3,7 +3,7 @@ layout: GCNS
 ---
 
 ## Google Cloud Firewall Defaults  
-[Google Cloud Nightscout](../GoogleCloud.md) >> Firewall Defaults  
+[Google Cloud Nightscout](../../GoogleCloud.md) >> Firewall Defaults  
 <br/>  
 
 The following image shows the default firewall rules:  
