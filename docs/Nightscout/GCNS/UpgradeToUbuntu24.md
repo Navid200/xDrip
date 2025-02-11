@@ -14,7 +14,6 @@ The following instructions will guide you through the upgrade process.
 1- Update your existing setup by following [these instructions](../NS_SyncExecutables.md).  
   
 2- Create a [backup and transfer it to your computer](../DatabaseBackup.md).  
-<br/>  
   
 3- (Optional) Create a [snapshot](../Snapshots.md).  Note: Snapshots are not free.  
 <br/>  
