@@ -8,6 +8,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.02.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.02.14) | CareLink fix |  
 | [2025.02.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.02.07) | Web follower update |  
 | [2025.01.31](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.31) | Libre 2 source info identifier |  
 | [2025.01.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.28) | Eversense 365 Companion app |  
