@@ -1,5 +1,5 @@
 ## Sensor Expiry
-[xDrip](../README.md) >> [Alerts](./Alerts_page.md) >> Sensor expiry  
+[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip Alerts](./Alerts_page.md) >> Sensor expiry  
 <br/>   
   
 ---  
