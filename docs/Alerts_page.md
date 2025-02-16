@@ -14,7 +14,7 @@ To access the alerts page, tap on the top left menu button from the main screen 
 | Other Alerts | Ring & notification | Can choose | Can enable |  
 | Persistent High 📍 | Ring & notification | Can choose | `Other Alerts` \* |  
 | Forecast Lows 📍 | Ring & notification | Can choose | `Other Alerts` \* |  
-| Sensor Expiry 📍 | No sound | No sound | No sound |  
+| Sensor Expiry 📍 | Ring & notification | No choice | Cannot |  
   
  \* Uses the same setting selected for `Other Alerts`.  
  The sensor expiry notification triggers 24 hours, 12 hours, 6 hours and 2 hours prior to expiry.  
