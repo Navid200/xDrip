@@ -16,9 +16,9 @@ As soon as a handshake occurs, the G7 stops the additional transmissions. Howeve
 <br/>  
   
 To expedite connectivity, follow these steps:  
-1- Monitor the Dex status page after approving the pairing request and check for a note indicating that xDrip is scanning.  
-2- If the scanning note does not appear, navigate to the classic status page and tap `Restart Collector` to trigger scanning.  
-3- Return to the Dex status page and wait until the red “Hunting Transmitter” note is removed.  
+1- Monitor the Dex status page after approving the pairing request and check for a "Connect request" note or an indication that xDrip is scanning.  
+2- If neither appears, navigate to the classic status page and tap `Restart Collector` to trigger scanning.  
+3- Return to the Dex status page and wait until the red “Hunting Transmitter” note disappears.  
   
 Once the red note is gone, you can leave the Dex status page. Connectivity should now be successfully established.  
   
