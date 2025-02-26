@@ -9,6 +9,7 @@ The development and stable branches are explained [here](./Branches.md).
   
 | Release | Notes | Status page |  
 |---------|-------| ----------- |  
+| 2025.02.14 | Live hyperlinks | |   
 | 2025.02.10 | Initial Ubuntu 24 alpha release | ![](images/Feb102025StatusP.png) |  
 |            |                                                                    | |  
 | 2024.12.29 | **<span style="color:orange">Stable release</span>** <br/> Cleanup | |  
