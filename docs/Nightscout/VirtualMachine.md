@@ -23,12 +23,12 @@ Select a region that qualifies for free tier.  Those are ![](./images/Oregon.png
 Set machine type to "e2-micro".    
 ![](./images/vm2.png)  
   
-Edit "Boot Disk" and modify as shown below.  
+Under "Os and storage", click on Change and modify as shown below.  
 ![](./images/Disk2.png)  
   
 Click on "Select".    
   
-Under firewall, enable both http and https.  
+Under "Networking", enable both http and https.  
 ![](./images/Firewall2.png)  
   
 Click on "Create"<sup>\*</sup> to create the virtual machine.  Google will now bring up your virtual machine.  Wait for it to come up.  It could take a minute.  When the external IP column appears, you should be good to go.  
