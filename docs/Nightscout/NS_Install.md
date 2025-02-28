@@ -18,12 +18,12 @@ Open a [terminal](./Terminal.md).
 Copy and paste the following highlighted line into the terminal of your Nighscout virtual machine and enter.  
 **Caution:** Be very careful not to copy it into any other computer as it could overwrite the contents of the machine.  
   
-<input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash" readonly id="myInputText" style="border:none; color:#101010; background-color:#ededed; width:100%; font-size:15px">  
+<input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-2/bootstrap.sh | bash" readonly id="myInputText" style="border:none; color:#101010; background-color:#ededed; width:100%; font-size:15px">  
 <button onclick="FunctionCopyText()" style="border: 1px solid #0066ff; color:#f0f0f0; background: linear-gradient(#0066ff, #0066ff); font-size:14px; background-color:#0066ff; font-weight:400; border-radius: 2px; margin-left:70px; margin-top:8px; padding:4px 12px; display:inline-block; box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 5px rgba(0,0,0,.7); :hover ">Copy</button>  
   
 <br/>  
   
-You will be presented with a notification.  To acknowledge, you need to select OK.  However, you will not be able to use the mouse.  Just press enter.  [This](./HowToMenu.md) explains how the menus work.  
+You will be presented with a notification.  To acknowledge, click OK.  
 It will take a few minutes to complete a preliminary installation step.  You will then see a note or the status page.  
 The following table shows what you may see depending on different choices you can make.  
   
@@ -37,9 +37,9 @@ The following table shows what you may see depending on different choices you ca
 | Firewall | [<img src="./images/AllGood_Icon.png">](./images/Firewall.png) | Insecurity ❌ |  
 | Ubuntu | [<img src="./images/WrongUbuntu_Icon.png">](./images/WrongUbuntu.png) | Incompatibility ❌ |  
   
-If the note directs you to delete the machine and create a new one or if any item above the horizontal line on the status page is in red, it means you made an incorrect selection when you created the virtual machine.  If this is a new virtual machine and you have no database on it yet, [delete the virtual machine](./DeleteVM.md) and go back and repeat the [virtual machine](./VirtualMachine.md) step.  
+If the note directs you to create a new one or if any item above the horizontal line on the status page is in red, it means you made an incorrect selection when you created the virtual machine.  If this is a new virtual machine and you have no database on it yet, [delete the virtual machine](./DeleteVM.md) and go back and repeat the [virtual machine](./VirtualMachine.md) step.  
   
-If you did not get a notification to recreate the machine, because of a wrong Ubuntu version, and nothing is red above the horizontal line on the status page, just press enter to close the status page.  All the red notes you see below the horizontal line are expected at this stage and you can ignore them.  You will see this menu:  
+If you did not get a notification to recreate the machine, because of a wrong Ubuntu version, and nothing is red above the horizontal line on the status page, click OK to close the status page.  All the red notes you see below the horizontal line are expected at this stage and you can ignore them.  You will see this menu:  
 ![](./images/Menu.png)  
   
 <video width="400" controlsList="nodownload" src="./video/Install1.mp4" controls>  
