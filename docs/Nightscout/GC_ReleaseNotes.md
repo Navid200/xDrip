@@ -9,13 +9,14 @@ The development and stable branches are explained [here](./Branches.md).
   
 | Release | Notes | Status page |  
 |---------|-------| ----------- |  
+| 2025.02.27 | Upgrade Ubuntu to 24.04.2 | |  
 | 2025.02.14 | Live hyperlinks | |   
 | 2025.02.10 | Initial Ubuntu 24 alpha release | ![](images/Feb102025StatusP.png) |  
 |            |                                                                    | |  
 | 2024.12.29 | **<span style="color:orange">Stable release</span>** <br/> Cleanup | |  
 | 2024.08.28 | Backup utility update | |  
 | 2024.08.20 | Update to Node 16 |  |  
-| 2024.02.24 | Update to 11ubuntu5.8 | |  
+| 2024.02.24 | Upgrade to 11ubuntu5.8 | |  
 | 2024.01.29 | Logs fix | |  
 | 2023.11.14 | Auto Ubuntu security update status flag | ![](./images/Nov142023StatusP.png) |  
 | 2023.10.27 | Update to Nightscout 15.0.2 | |  
@@ -24,7 +25,7 @@ The development and stable branches are explained [here](./Branches.md).
 | 2023.07.22 | FreeDNS ID/pass status page marker fix | |  
 | 2023.07.21 | FreeDNS user ID and password fix | ![](./images/July212023StatusP.png) |  
 | 2023.07.17 | FreeDNS user ID and password on the status page | |  
-| 2023.05.09 | Update Ubuntu to 20.04.6 | |  
+| 2023.05.09 | Upgrade Ubuntu to 20.04.6 | |  
 | 2023.04.26 | FreeDNS site failure contingency | |  
 | 2023.03.19 | <br/>Single quote variables | |  
 | 2023.02.28 | Backup variables also | |  
