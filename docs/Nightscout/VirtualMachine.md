@@ -50,7 +50,7 @@ You will not be able to change any of this after you create.  The only way to ch
 | Disk type    | persistent disk | Free Tier |  
 | Disk size   |  Less than or equal to 30GB | Free Tier |  
 | Operating system | Ubuntu | Compatibility |  
-| Version | 20.04 LTS Minimal x86 /64, amd64 ... | Nightscout compatibility |  
+| Version | 24.04 LTS Minimal x86 /64, amd64 ... | Nightscout compatibility |  
 | Firewall | Allow HTTP traffic | Nightscout access |  
 | Firewall | Allow HTTPS traffic | Nightscout access |  
   
