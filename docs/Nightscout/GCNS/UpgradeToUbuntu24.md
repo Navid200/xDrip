@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Upgrade to Ubuntu 24  &nbsp; &nbsp; **<span style="color:red">DRAFT</span>**  
+## Upgrade to Ubuntu 24  &nbsp; &nbsp;  
 [Google Cloud Nightscout](../GoogleCloud.md) >> Upgrade to Ubuntu 24  
 <br/>  
   
