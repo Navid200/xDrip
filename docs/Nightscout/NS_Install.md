@@ -77,7 +77,6 @@ You will need 10-15 minutes to complete this.
 Go to the Google Cloud setup submenu, select item 2 "Install Nightscout Phase 2", and enter.    
   
 You will be asked to choose API_SECRET.  You will need your API_SECRET to access Nightscout.  
-[This](./HowToMenu.md) explains how to use the menus without a mouse.  
 Enter a password, excluding the following characters, and take note.  Or, choose cancel to keep it as is.  
   
 $ &nbsp; &nbsp; \" &nbsp; &nbsp; \' &nbsp; &nbsp; \\ &nbsp; &nbsp; SPACE &nbsp; &nbsp; @ &nbsp; &nbsp; / &nbsp; &nbsp; %  
