@@ -25,7 +25,8 @@ You will see a menu offering options for restoration.
   
 If the backup contains both MongoDB data and variables, you can choose to restore one or both.  
   
-If you choose to restore the MongoDB database, the backup content will be merged into the existing database.  
+If you restore the **MongoDB database**, the backup content will be merged into the existing database.  
+If you restore **variables**, your **API_SECRET** will be overwritten by the one in the backup.  
 <br/>  
   
 ---  
