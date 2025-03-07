@@ -35,9 +35,6 @@ If you need help using xDrip as a CGM, please post in [xDrip discussions](https:
 **QR code**  
 You can scan a QR code to automatically set up xDrip to upload to Nightscout.  
 To do that, go to the xDrip setup submenu.  Select "QR code to make xDrip master" on the submenu.  Then, scan the QR code that appears with xDrip autoconfigure (in xDrip, under Settings &#8722;> Auto configure).  
-<video width="400" controlsList="nodownload" src="./video/xDrip_Setup.mp4" controls>  
-</video>   
-<br/>  
   
 However, please note that doing this will erase any existing URLs from xDrip.  Therefore, if you intend to upload to multiple Nightscout sites, and you have already set up one of them, please use the manual method explained below.  
 <br/>  
