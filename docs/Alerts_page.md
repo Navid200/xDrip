@@ -10,7 +10,7 @@ To access the alerts page, tap on the top left menu button from the main screen 
 | :----: | :-----: | :---------: | :-------------------: |  
 | Glucose level | Volume profile | Can choose | Can enable |  
 | Calibration | Ring & notification | Can choose | Can enable |  
-| Missed Reading | Ring & notification | `Other Alerts` \* | `Other Alerts` \* | 
+| Missed Reading | Ring & notification | Can choose | `Other Alerts` \* | 
 | Other Alerts | Ring & notification | Can choose | Can enable |  
 | Persistent High 📍 | Ring & notification | Can choose | `Other Alerts` \* |  
 | Forecast Lows 📍 | Ring & notification | Can choose | `Other Alerts` \* |  
