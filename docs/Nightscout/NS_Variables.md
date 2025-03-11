@@ -7,7 +7,7 @@ layout: GCNS
   
 After [setting up Nightscout](./NS_setup.md), you can edit your Nightscout variables if needed.  <span style="color:red">For any change to the variables to take effect, you will need to [reboot the server](./Restart.md).</span>  
   
-If anything breaks, you can edit the file again and change it back.  Or, you can rerun install Nightscout phase 2 from the Google Cloud setup submenu.  You can see the default values in the corresponding section below.  
+If anything breaks, you can edit the file again and change it back.  Or, you can rerun install Nightscout phase 2 from the Google Cloud setup submenu.  
 To edit your Nightscout variables, open a [terminal](./Terminal.md).  
   
 ---  
@@ -42,19 +42,6 @@ After you are done editing and saving the file, you will need to reboot the virt
 Rebooting the machine will disconnect you and you will see an error message in the terminal. Just close the terminal.  
 If you haven't done anything destructive, your Nightscout will keep going.  
    
-<br/>  
-  
----  
-  
-**Defaults**
-
-export API_SECRET="YOUR_API_SECRET_HERE"  
-export ENABLE="careportal food boluscalc bwp cob bgi pump openaps rawbg iob upbat cage sage basal"  
-export AUTH_DEFAULT_ROLES="denied"  
-export PUMP_FIELDS="reservoir battery clock"  
-export DEVICESTATUS_ADVANCED="true"  
-export THEME="colors"  
-export DBSIZE_MAX="20000"  
 <br/>  
   
 ---  
