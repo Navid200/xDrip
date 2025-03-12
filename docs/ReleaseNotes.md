@@ -8,6 +8,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.03.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.03.12) | CareLink fix - decimal separator . , |  
 | [2025.03.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.03.11) | Missed Reading sound file option |  
 | [2025.02.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.02.18) | Companion app Pasta |  
 | [2025.02.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.02.14) | CareLink fix |  
