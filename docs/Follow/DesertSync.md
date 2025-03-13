@@ -18,7 +18,7 @@ For example, you could be camping or on a motorcycle ride together, far from any
 In the following image, you can see a follower device with no SIM card or WiFi access, connected to the master. The master itself also has no internet access.   
 ![](./images/DesertSyncFollower.png)  
   
-3- On the master phone, go to the sync settings page and enable **"Be master for followers"** under `Desert Sync`.  
+3- On the master phone, go to the sync settings page and enable **"Be master for followers"**.  Enable `Desert Sync` > `Desert Sync`.  
 ![](./images/DesertSyncPage.png)  
   
 4- Enable **"Desert Sync"** and tap **"Show QR code"**.  
