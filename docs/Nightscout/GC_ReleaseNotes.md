@@ -9,10 +9,11 @@ The development and stable branches are explained [here](./Branches.md).
   
 | Release | Notes | Status page |  
 |---------|-------| ----------- |  
+| 2025.03.17 | Cleanup of the installation routine | |  
 | 2025.02.27 | Upgrade Ubuntu to 24.04.2 | |  
 | 2025.02.14 | Live hyperlinks | |   
 | 2025.02.10 | Initial Ubuntu 24 alpha release | ![](images/Feb102025StatusP.png) |  
-|            |                                                                    | |  
+|   ------   |      ------------------------------------------                    | --------- |  
 | 2024.12.29 | **<span style="color:orange">Stable release</span>** <br/> Cleanup | |  
 | 2024.08.28 | Backup utility update | |  
 | 2024.08.20 | Update to Node 16 |  |  
