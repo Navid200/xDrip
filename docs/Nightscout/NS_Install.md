@@ -5,7 +5,7 @@ layout: GCNS
 ## Linux/Nightscout install  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Linux/Nightscout install  
   
-Now, we will update Linux on our [virtual machine](./NS_FreeTier.md) and install Nightscout on it.  You must have [FreeDNS](./FreeDNS.md) and [Google Project](./NS_GCProject.md) set up already to proceed.  There are also video clips (silent) on this page that may be helpful.  
+Now, we will update Linux on our virtual machine and install Nightscout on it.  You must have [FreeDNS](./FreeDNS.md) and [Google Project](./NS_GCProject.md) set up already to proceed.  There are also video clips (silent) on this page that may be helpful.  
 <br/>  
   
 ---  
@@ -113,9 +113,11 @@ After a successful setup, you will be prompted to enter an **email address for s
 Once restarted, you will see a disconnect message. Wait **30 seconds**, and Nightscout will be running.  
   
 You can check the logs to confirm that **Phase 2** was successfully completed.  
-If this is a new site and you have never used it before, you will still need to set up your uploader. This is a good time to take a break if needed.  
+If this is a new site and you have never used it before, you will still need to set up your uploader.  
   
 <video width="400" controlsList="nodownload" src="./video/Install4.mp4" controls>  
 </video>  
 <br/>  
+  
+This is a good time to take a break if needed.  
 <br/> 
