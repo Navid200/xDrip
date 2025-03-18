@@ -34,7 +34,7 @@ The following table shows what you may see depending on different choices you ca
 | Machine type | [<img src="./images/AllGood_Icon.png">](./images/NoMicro.png) | Not free ❌ |  
 | Disk type | [<img src="./images/AllGood_Icon.png">](./images/NotStandard.png) | Not free ❌ |  
 | Disk size | [<img src="./images/AllGood_Icon.png">](./images/DiskSize.png) | Unused resource <br/> Not free ❌ |  
-| Firewall | [<img src="./images/AllGood_Icon.png">](./images/Firewall.png) | Insecurity ❌ |  
+| Firewall | [<img src="./images/AllGood_Icon.png">](./images/Firewall.png) | Disconnect ❌ |  
 | Ubuntu | [<img src="./images/WrongUbuntu_Icon.png">](./images/WrongUbuntu.png) | Incompatibility ❌ |  
   
 If the note directs you to create a new one or if any item above the horizontal line on the status page is in red, it means you made an incorrect selection when you created the virtual machine.  If this is a new virtual machine and you have no database on it yet, [delete the virtual machine](./DeleteVM.md) and go back and repeat the [virtual machine](./VirtualMachine.md) step.  
