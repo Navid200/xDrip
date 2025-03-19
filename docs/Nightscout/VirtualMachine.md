@@ -7,6 +7,7 @@ layout: GCNS
    
 In this guide, we will create a free virtual machine in our [Google project](./NS_GCProject.md).  
 For additional assistance, a video clip on this page may be helpful. The process should take approximately 5 minutes to complete.  
+<br/>  
   
 ---
   
@@ -74,9 +75,13 @@ If you see a red exclamation mark after creating your virtual machine and hoveri
 2- Reattempt creation in a different region.  
 3- Unfortunately, you will need to reconfigure all settings from scratch for the new request.  
 ![](./images/VM_Unavailable.png)   
+<br/>  
   
 ---  
   
 ### ✅ Your virtual machine is now ready! 🎉  
 Now that your virtual machine is set up, you can proceed to the next step in the Nightscout installation process.  
+  
+---  
+  
   
