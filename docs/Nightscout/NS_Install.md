@@ -5,7 +5,7 @@ layout: GCNS
 ## Linux/Nightscout install  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Linux/Nightscout install  
   
-Now, we will update Linux on our virtual machine and install Nightscout on it.  You must have [FreeDNS](./FreeDNS.md) and [Google Project](./NS_GCProject.md) set up already to proceed.  There are also video clips (silent) on this page that may be helpful.  
+Now, we will update Linux on our virtual machine and install Nightscout on it.  You must have [FreeDNS](./FreeDNS.md) and a [Google Project](./NS_GCProject.md) set up and have already created a [virtual machine](./VirtualMachine.md) to proceed.  There are also video clips (silent) on this page that may be helpful.  
 <br/>  
   
 ---  
@@ -16,7 +16,7 @@ Estimated time: 5-10 minutes
 Open a [terminal](./Terminal.md).  
   
 Copy and paste the following highlighted line into the terminal of your Nighscout virtual machine, then press **Enter**.  
-**Caution: Be very careful not to copy this into any other computer, as it could overwrite its contents.**  
+**Caution:** Be very careful not to copy this into any other computer, as it could overwrite its contents.  
   
 <input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-2/bootstrap.sh | bash" readonly id="myInputText" style="border:none; color:#101010; background-color:#ededed; width:100%; font-size:15px">  
 <button onclick="FunctionCopyText()" style="border: 1px solid #0066ff; color:#f0f0f0; background: linear-gradient(#0066ff, #0066ff); font-size:14px; background-color:#0066ff; font-weight:400; border-radius: 2px; margin-left:70px; margin-top:8px; padding:4px 12px; display:inline-block; box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 5px rgba(0,0,0,.7); :hover ">Copy</button>  
@@ -54,6 +54,7 @@ If you need a break, this is a good time.
 ---  
   
 **Phase 1**  
+You must have completed bootstrap to proceed.  
 Estimated time: 15-20 minutes  
   
 To continue the installation, go to the **Google Cloud setup submenu**, select **Item 1 - "Install Nightscout Phase 1"**, and press **Enter**.  
@@ -74,6 +75,7 @@ If you need a break, this is a good time.
 ---
   
 **Phase 2**  
+You must have completed Phase 1 to proceed.  
 You will be asked to provide an email address at this stage.  See [this page](./GC_WhyEmail.md) if you're wondering why.  
 Estimated time: 10-15 minutes  
   
