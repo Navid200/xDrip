@@ -47,7 +47,9 @@ Click on "Create"<sup>\*</sup> to create the virtual machine.  Google will now b
 ---  
 ### ⚠️ Important Notes  
 **\***    
-You will not be able to change any of this after you create.  The only way to change is to delete the machine and create a new one.  Therefore, before clicking on create, make sure all requirements listed in the following table are met.  
+You will not be able to change any of this after you create.  The only way to change is to delete the machine and create a new one.  
+### ✅ Required Configuration Checklist  
+Before clicking on create,  ensure the following settings are correct:  
   
 | Parameters | Requirements | Why |  
 | ---------- | ------------ | ---- |  
