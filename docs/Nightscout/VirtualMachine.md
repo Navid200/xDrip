@@ -4,13 +4,15 @@ layout: GCNS
 
 ## Google Cloud Virtual Machine  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Virtual Machine  
+   
+In this guide, we will create a free virtual machine in our [Google project](./NS_GCProject.md).  
+For additional assistance, a video clip on this page may be helpful. The process should take approximately 5 minutes to complete.  
   
-### WARNING!  
-The virtual machine you create here is intended solely for hosting Nightscout. Do not use it for banking, trading, development, writing, shopping, web browsing, or any other activities that you may typically perform on your personal or work computer.   
+---
+  
+### ⚠️ WARNING!  
+The virtual machine you create here is exclusively for hosting Nightscout. Do **not** use it for banking, trading, development, writing, shopping, web browsing, or any other personal or work-related activities.   
 <br/>  
-
-Here, we will create a free virtual machine in our [Google project](./NS_GCProject.md).  
-For additional assistance, there is a video clip on this page that might be helpful if the instructions are not clear. The process should take approximately 3 minutes to complete.  
   
 Go to dashboard.  Select "Compute Engine".  Select the "VM instances" tab in the left pane if it's not already selected.  
   
@@ -40,6 +42,7 @@ Click on "Create"<sup>\*</sup> to create the virtual machine.  Google will now b
 <br/>  
   
 ---  
+### ⚠️ Important Notes  
 **\***    
 You will not be able to change any of this after you create.  The only way to change is to delete the machine and create a new one.  Therefore, before clicking on create, make sure all requirements listed in the following table are met.  
   
@@ -60,6 +63,18 @@ You can also use the [calculator](https://cloud.google.com/products/calculator) 
 <br/>  
 <br/>  
   
-After you create, if you see a red exclamation mark and hovering the cursor over it shows a message (shown below) noting that a virtual machine is unavailable, you will need to dismiss the request by clicking on the garbage can symbol on the right.  Then, try to create the machine in a different region.  Unfortunately, you will need to make all the selections again for a new request.    
+---  
+  
+### ❌ Handling Virtual Machine Creation Errors  
+If you see a red exclamation mark after creating your virtual machine and hovering over it shows an error message stating that the instance is unavailable, follow these steps:  
+
+1- Dismiss the request by clicking the trash can icon on the right.  
+2- Reattempt creation in a different region.  
+3- Unfortunately, you will need to reconfigure all settings from scratch for the new request.  
 ![](./images/VM_Unavailable.png)   
+  
+---  
+  
+### ✅ Your virtual machine is now ready! 🎉  
+Now that your virtual machine is set up, you can proceed to the next step in the Nightscout installation process.  
   
