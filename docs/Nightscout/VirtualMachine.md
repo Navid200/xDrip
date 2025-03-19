@@ -5,7 +5,7 @@ layout: GCNS
 ## Google Cloud Virtual Machine  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Virtual Machine  
    
-In this guide, we will create a free virtual machine in our [Google project](./NS_GCProject.md).  
+In this guide, we will create a free virtual machine in our [Google project](./NS_GCProject.md).  Only one virtual machine per Google account will be free.  
 For additional assistance, a video clip on this page may be helpful. The process should take approximately 5 minutes to complete.  
 <br/>  
   
