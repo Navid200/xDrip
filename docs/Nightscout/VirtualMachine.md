@@ -14,6 +14,8 @@ For additional assistance, a video clip on this page may be helpful. The process
 The virtual machine you create here is exclusively for hosting Nightscout. Do **not** use it for banking, trading, development, writing, shopping, web browsing, or any other personal or work-related activities.   
 <br/>  
   
+---  
+  
 Go to dashboard.  Select "Compute Engine".  Select the "VM instances" tab in the left pane if it's not already selected.  
   
 Select "Create Instance".  
