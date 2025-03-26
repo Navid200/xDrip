@@ -14,4 +14,7 @@ If you already have Nightscout set up, instructions for configuring xDrip as an 
   
 ---  
 
-#### [Tokens](./Nightscout/Tokens.md)  
+#### [Tokens](./Nightscout/Tokens.md)
+#### [Multi-site upload failure](./Nightscout/MultiSiteUpload.md)
+
+  
