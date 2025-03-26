@@ -38,7 +38,7 @@ To disable a follower, you can remove the token associated with that follower.
 #### **Upload to multiple Nightscout sites**  
 You can upload to more than one Nightscout site, but there is an important limitation:  
 - If you upload to a single site and it goes down, xDrip will queue the readings and upload them once the site is restored.
-- If you upload to multiple sites and one goes down while another remains functional, xDrip clears the queue as soon as any site successfully uploads.  As a result, readings that were not uploaded to the downed site will be missing.  xDrip will notify you so that you can backfill the missing data.
+- If you upload to multiple sites and one goes down while another remains functional, xDrip clears the queue as soon as any site successfully uploads.  As a result, readings that were not uploaded to the downed site will be missing.  xDrip will [notify](./Nightscout/MultiSiteUpload.md) you so that you can backfill the missing data.  
   
 To upload to multiple Nightscout sites, enter the URLs in the same field, separated by spaces.  
 <br/>  
