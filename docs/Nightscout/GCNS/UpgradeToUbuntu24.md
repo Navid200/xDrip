@@ -18,6 +18,7 @@ Follow [these instructions](../NS_SyncExecutables.md) to ensure your system is u
   
 2- Back Up Your Data  
 [Create a backup and transfer it to your computer](../DatabaseBackup.md).  
+<br/>  
   
 3- Set Up a New Virtual Machine and Install Nightscout  
 - Follow our [installation instructions](../GoogleCloud.md).  
