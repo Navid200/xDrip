@@ -8,6 +8,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.04.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.04.03) | iCan CGM companion app |  
 | [2025.03.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.03.26) | Nightscout upload fail notification |  
 | [2025.03.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.03.23) | G7 Backfill overlap fix |  
 | [2025.03.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.03.12) | CareLink fix - Edit alert decimal separator fix |  
