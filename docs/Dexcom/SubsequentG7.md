@@ -13,7 +13,7 @@ When the status page shows 10 days for transmitter days or when the optional sen
   
 You can use a secondary phone (different from your main xDrip phone) to establish connectivity with your new device and confirm that it is working. To do so, follow the instructions under the heading “Establishing Connectivity” [here](./G7.md) using the secondary phone.  If you don't have access to a secondary phone, you can use a [variant](../Variants.md).  
   
-Once you’ve confirmed the new device is working, you can [disconnect the secondary phone](../Stop-xDrip.md).  There is no requirement to maintain connectivity for the sensor to remain operational.  
+Once you’ve confirmed the new device is working, you can [disconnect the secondary phone or variant](../Stop-xDrip.md).  There is no requirement to maintain connectivity for the sensor to remain operational.  
 <br/>  
   
 ---  
