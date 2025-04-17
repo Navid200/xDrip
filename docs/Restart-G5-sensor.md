@@ -10,3 +10,9 @@ As long as you have inserted the sensor more than 2 hours ago, you won't need to
   
 But, you should only do this if you have inserted the sensor more than 2 hours ago.  You should never do this for a sensor that you have just inserted.  In that case, you should go though the regular 2-hour warm-up to avoid extremely noisy readings.  
   
+---  
+  
+**G5 is no longer supported.**  
+This page will be removed soon.  
+
+  
