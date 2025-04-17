@@ -26,3 +26,10 @@ Enable [Native Algorithm](./Native-Algorithm.md) only if you have to.  If you do
 * For Android 11 or newer, enable background location access as explained [here](./Location.md).    
 
 * Restart the phone.  
+  
+---  
+  
+**G5 is no longer supported.**  
+This page will be removed soon.  
+  
+  
