@@ -12,7 +12,7 @@ But, you should only do this if you have inserted the sensor more than 2 hours a
   
 ---  
   
-**G5 is no longer supported.**  
+**G5 is no longer supported as of the 2025.04.15 release.**  
 This page will be removed soon.  
-
+  
   
