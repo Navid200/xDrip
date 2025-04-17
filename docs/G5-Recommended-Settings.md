@@ -29,7 +29,7 @@ Enable [Native Algorithm](./Native-Algorithm.md) only if you have to.  If you do
   
 ---  
   
-**G5 is no longer supported.**  
+**G5 is no longer supported as of the 2025.04.15 release.**  
 This page will be removed soon.  
   
   
