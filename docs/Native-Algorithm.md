@@ -21,5 +21,11 @@ The two modes are compared in the following table.
   
 \*\*   If the G6 transmitter firmware version is 1.6.5.25 or prior to that, it transmits raw values as well.  But, non-native mode is not recommended, and xDrip will automatically switch to native mode in that case.  All G5 transmitters can be used in either native or non-native mode.  
   
-\*\*\*  In native mode, calibration is done by the transmitter.  If you see a calibration graph, it is because the transmitter sends raw values also.  But, the graph does not represent the calibration formula.  Clearing calibrations in native mode will have no impact on the effective calibration formula.
+\*\*\*  In native mode, calibration is done by the transmitter.  If you see a calibration graph, it is because the transmitter sends raw values also.  But, the graph does not represent the calibration formula.  Clearing calibrations in native mode will have no impact on the effective calibration formula.  
+  
+---  
+  
+**G5 is no longer supported as of the 2025.04.15 release.**  
+There is no reason to disable Native algorithm any longer.  
+This page will be removed soon.  
   
