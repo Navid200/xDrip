@@ -8,6 +8,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.04.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.04.25) | Nightscout treatments upload to multiple sites - Nightscout cleanup |  
 | [2025.04.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.04.15) | CamAPS Canada and iCan Health companions - G5 retired - xDrip Sync update |  
 | [2025.04.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.04.03) | iCan CGM companion app |  
 | [2025.03.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.03.26) | Nightscout upload fail notification |  
