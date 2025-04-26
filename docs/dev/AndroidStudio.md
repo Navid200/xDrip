@@ -6,7 +6,7 @@
 We are currently using Android Studio Giraffe.  
 Go to [archives](https://developer.android.com/studio/archive)  
 Agree to the terms.  
-Choose: Android Studio Giraffe | 2022.3.1 Patch 4 November 16, 2023.  
+Choose: Android Studio Giraffe | 2022.3.1 Patch 3 November 7, 2023.  
 Download the installer depending on your operating system.   
   
 #### **JDK**  
