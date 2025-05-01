@@ -12,4 +12,6 @@ The video below demonstrates all the required steps.
 <video width="400" controlsList="nodownload" src="../video/SwitchNetworkTier.mp4" controls>  
 </video>  
 <br/>  
-
+  
+After restarting your virtual machine, please allow a few minutes for the new IP address to map to the hostname.  
+  
