@@ -16,7 +16,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
 | [2025.03.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.03.23) | G7 Backfill overlap fix |  
 | [2025.03.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.03.12) | CareLink fix - Edit alert decimal separator fix |  
 | [2025.03.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.03.11) | Missed Reading sound file option |  
-| [2025.02.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.02.18) | Companion app Pasta |  
+| [2025.02.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.02.18b) | Companion app Pasta - G7 pairing fix |  
 | [2025.02.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.02.14) | CareLink fix |  
 | [2025.02.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.02.07) | Web follower update |  
 | [2025.01.31](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.01.31) | Libre 2 source info identifier |  
