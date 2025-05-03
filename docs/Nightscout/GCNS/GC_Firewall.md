@@ -2,10 +2,14 @@
 layout: GCNS
 ---
 
-## Google Cloud Firewall &nbsp; &nbsp; **<span style="color:red">DRAFT</span>**  
+## Google Cloud Firewall  
 [Google Cloud Nightscout](../GoogleCloud.md) >> Firewall  
 <br/>  
-
+  
+Creating a firewall is unnecessary for reducing the cost of unwanted traffic. A simpler approach is to change the network service class from the default premium setting to standard, as explained [here](./SwitchNetworkTier.md). This adjustment effectively eliminates traffic costs.    
+  
+---  
+  
 <span style="color:red">This page is still being edited.  </span>
 <br/>  
 <br/>  
