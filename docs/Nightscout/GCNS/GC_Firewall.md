@@ -10,7 +10,6 @@ Creating a firewall is unnecessary for reducing the cost of unwanted traffic. A 
   
 ---  
   
-<span style="color:red">This page is still being edited.  </span>
 <br/>  
 <br/>  
   
