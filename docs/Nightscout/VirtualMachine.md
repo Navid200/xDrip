@@ -62,7 +62,8 @@ Click on "Done".
   
 ---  
   
-Click on "Create"<sup>\*</sup> to create the virtual machine.  Google will now initialize your virtual machine.  Wait for it to come up.  It could take a minute.  When the external IP column appears, you should be good to go.  
+Click on "Create" to create the virtual machine.  Google will now initialize your virtual machine.  Wait for it to come up.  It could take a minute.  When the external IP column appears, you should be good to go.  
+<br/>  
   
 <video width="400" controlsList="nodownload" src="./video/VM.mp4" controls>  
 </video>  
