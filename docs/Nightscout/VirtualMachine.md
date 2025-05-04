@@ -77,6 +77,7 @@ Before clicking on create,  ensure the following settings are correct:
 | Firewall | Allow HTTP traffic | Nightscout access |  
 | Firewall | Allow HTTPS traffic | Nightscout access |  
 | Network Service Tier | Standard | Free |  
+  
 <br/>  
   
 ---  
