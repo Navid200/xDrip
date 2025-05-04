@@ -46,7 +46,7 @@ Click on "Create"<sup>\*</sup> to create the virtual machine.  Google will now b
   
 ---  
 ### ⚠️ Important Notes  
-**\***    
+  
 You will not be able to change any of this after you create.  The only way to change is to delete the machine and create a new one.  
 ### ✅ Required Configuration Checklist  
 Before clicking on create,  ensure the following settings are correct:  
@@ -59,8 +59,6 @@ Before clicking on create,  ensure the following settings are correct:
 | Disk size   |  Less than or equal to 30GB | Free Tier |  
 | Operating system | Ubuntu | Compatibility |  
 | Version | 24.04 LTS Minimal x86 /64, amd64 noble ... | Nightscout compatibility |  
-| Firewall | Allow HTTP traffic | Nightscout access |  
-| Firewall | Allow HTTPS traffic | Nightscout access |  
   
 The estimate shown at the top right on the same page will not be 0.  As long as you satisfy the conditions listed in the above table, it's OK.  You can ignore that non-0 estimate.  
 You can also use the [calculator](https://cloud.google.com/products/calculator) to confirm the price.  
