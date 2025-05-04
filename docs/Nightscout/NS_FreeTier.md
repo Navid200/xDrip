@@ -3,19 +3,13 @@ layout: GCNS
 ---
 
 ## Google Cloud cost  
-[Google Cloud Nightscout](./GoogleCloud.md) >> Unexpected costs  
-
-#### **Expected cost**  
-Using Google Cloud Nightscout should be free. But, incorrect settings could lead to unexpected costs.  
-<br/>  
+[Google Cloud Nightscout](./GoogleCloud.md) >> Unexpected costs    
   
----  
-
-#### **Why have I been charged more?**  
+#### **Why have I been charged?**  
 To sstisfy the free tier requirements, you need to have only one virtual machine. If you require more than one Nightscout account, see the section titled "Multiple Nightscout accounts" below.  
 To determine the exact reason for any charges, you should create a [cost table](./CostTable.md).  
 <br/>  
-
+  
 ---  
   
 #### **Free Trial**
@@ -27,7 +21,7 @@ You will need a credit card to set up billing.
   
 ---  
   
-#### **Free tier Constraints**  
+#### **Free tier Constraints**
 Follow the installation guide to ensure you meet the free tier requirements. On the status page, some violations of these requirements will be highlighted in red above the horizontal line.  
   
 You can have a free virtual machine only in specified regions, but this doesn’t restrict the location of your followers.  
@@ -35,15 +29,15 @@ You can have a free virtual machine only in specified regions, but this doesn’
   
 ---  
 
-#### **[Storage PD Snapshot](./SnapshotCost.md)**  
+#### **[Storage PD Snapshot](./SnapshotCost.md)**
 <br/>  
 
 ---  
 
-#### **[Storage PD Capacity](./StoragePDCap.md)**  
+#### **[Storage PD Capacity](./StoragePDCap.md)**
 <br/>  
   
 ---  
 
-#### **[Multiple Nightscout accounts](./MultipleAccounts.md)**  
+#### **[Multiple Nightscout accounts](./MultipleAccounts.md)**
   
