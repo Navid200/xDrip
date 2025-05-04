@@ -62,20 +62,7 @@ Click on "Done".
   
 ---  
   
-Click on "Create" to create the virtual machine.  Google will now initialize your virtual machine.  Wait for it to come up.  It could take a minute.  When the external IP column appears, you should be good to go.  
-<br/>  
-  
-<video width="400" controlsList="nodownload" src="./video/VM.mp4" controls>  
-</video>  
-  
-<br/>  
-<br/>  
-  
----  
-### ⚠️ Important Notes  
-  
-You will not be able to change any of this after you create.  The only way to change is to delete the machine and create a new one.  
-### ✅ Required Configuration Checklist  
+#### **Required Configuration Checklist**  
 Before clicking on create,  ensure the following settings are correct:  
   
 | Parameters | Requirements | Why |  
@@ -86,7 +73,25 @@ Before clicking on create,  ensure the following settings are correct:
 | Disk size   |  Less than or equal to 30GB | Free Tier |  
 | Operating system | Ubuntu | Compatibility |  
 | Version | 24.04 LTS Minimal x86 /64, amd64 noble ... | Nightscout compatibility |  
+| Data protection | No backups | Free |  
+| Firewall | Allow HTTP traffic | Nightscout access |  
+| Firewall | Allow HTTPS traffic | Nightscout access |  
+| Network Service Tier | Standard | Free |  
+<br/>  
   
+---  
+
+Click on "Create" to create the virtual machine.  Google will now initialize your virtual machine.  Wait for it to come up.  It could take a minute.  When the external IP column appears, you should be good to go.  
+<br/>  
+  
+<video width="400" controlsList="nodownload" src="./video/VM.mp4" controls>  
+</video>  
+  
+<br/>  
+<br/>  
+  
+---  
+    
 The estimate shown at the top right on the same page will not be 0.  As long as you satisfy the conditions listed in the above table, it's OK.  You can ignore that non-0 estimate.  
 You can also use the [calculator](https://cloud.google.com/products/calculator) to confirm the price.  
 ![](./images/Estimate.png)  
