@@ -9,6 +9,10 @@ Creating a snapshot of your virtual machine (VM) disk on Google Cloud (note: thi
 <br/>  
   
 ---  
+**[Disabling a snapshot schedule](./GCNS/DeleteSnapshotSchedule.md)**  
+<br/>  
+  
+---  
 **Creating a Snapshot**  
 Follow these steps to create a snapshot of your virtual machine disk:  
 1- Navigate to the Compute Engine page and click on Snapshots in the left-hand pane.  
