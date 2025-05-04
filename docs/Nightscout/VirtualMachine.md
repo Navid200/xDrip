@@ -82,7 +82,7 @@ Before clicking on create,  ensure the following settings are correct:
   
 ---  
 
-Click on "Create" to create the virtual machine.  Google will now initialize your virtual machine.  Wait for it to come up.  It could take a minute.  When the external IP column appears, you should be good to go.  
+Click on "Create" to create the virtual machine.  Google will now initialize your virtual machine.  Wait for it to come up.  It could take a minute.  When the external IP column appears, you should be good to go.  Your virtual machine is now ready! 🎉  
 <br/>  
   
 <video width="400" controlsList="nodownload" src="./video/VM.mp4" controls>  
@@ -109,11 +109,6 @@ If you see a red exclamation mark after creating your virtual machine and hoveri
 3- Unfortunately, you will need to reconfigure all settings from scratch for the new request.  
 ![](./images/VM_Unavailable.png)   
 <br/>  
-  
----  
-  
-### ✅ Your virtual machine is now ready! 🎉  
-You can proceed to the next step in the Nightscout installation process.  
   
 ---  
   
