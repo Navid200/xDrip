@@ -13,16 +13,8 @@ Open a [terminal](./Terminal.md).  A [menu](./Menu.md) should come up automatica
   
 If you created your setup prior to January 2023 and never updated it, you will not have the same menu options.  In that case, please follow the instructions explained in a corresponding section below first.  
 <br/>  
-<br/>  
+<br/>   
   
----  
-
-#### **502 Bad Gateway**  
-If after you update your platform, Nightscout is not running and you get a "502 bad gateway" error when you attempt to access your Nightscout in a browser, even after a [restart](./Restart.md), proceed with the following.  
-From the Google Cloud setup submenu, select "Install Nightscout phase 1" and enter.  Wait for it to complete.  
-Then, [restart](./Restart.md) Nightscout.  
-<br/>  
-
 ---  
   
 #### **If you created your setup before January 2023 and never updated**  
