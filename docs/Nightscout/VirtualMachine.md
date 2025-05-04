@@ -12,17 +12,17 @@ For additional assistance, a video clip on this page may be helpful. This proces
 ---
   
 ### ⚠️ WARNING!  
-This virtual machine is strictly for hosting Nightscout. Do not use it for personal or work-related activities, including banking, trading, shopping, or development.   
+This virtual machine is strictly for hosting Nightscout. Do not use it for work, banking, trading, shopping, or development.   
 <br/>  
   
 ---  
   
-Go to "Compute Engine" > "VM Instances".  
+Go to "Compute Engine"  &#8594; "VM Instances".  
   
 Select "Create Instance".  
 ![](./images/CreateInstance.png)  
   
-Select all the items mentioned below (those marked with stars affect cost.  Leave everything else as is.  
+Select all the items mentioned below.  Leave everything else as is.  
 <br/>  
   
 ---
@@ -113,7 +113,7 @@ If you see a red exclamation mark after creating your virtual machine and hoveri
 ---  
   
 ### ✅ Your virtual machine is now ready! 🎉  
-Now that your virtual machine is set up, you can proceed to the next step in the Nightscout installation process.  
+You can proceed to the next step in the Nightscout installation process.  
   
 ---  
   
