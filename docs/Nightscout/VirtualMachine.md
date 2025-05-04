@@ -5,38 +5,64 @@ layout: GCNS
 ## Google Cloud Virtual Machine  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Virtual Machine  
    
-In this guide, we will create a free virtual machine in our [Google project](./NS_GCProject.md).  Only one virtual machine per Google account will be free.  
-For additional assistance, a video clip on this page may be helpful. The process should take approximately 5 minutes to complete.  
+In this guide, we will create a free virtual machine in our [Google project](./NS_GCProject.md).  Each Google account is eligible for one free virtual machine.  
+For additional assistance, a video clip on this page may be helpful. This process takes around 5 minutes.  
 <br/>  
   
 ---
   
 ### ⚠️ WARNING!  
-The virtual machine you create here is exclusively for hosting Nightscout. Do **not** use it for banking, trading, development, writing, shopping, web browsing, or any other personal or work-related activities.   
+This virtual machine is strictly for hosting Nightscout. Do not use it for personal or work-related activities, including banking, trading, shopping, or development.   
 <br/>  
   
 ---  
   
-Go to dashboard.  Select "Compute Engine".  Select the "VM instances" tab in the left pane if it's not already selected.  
+Go to "Compute Engine" > "VM Instances".  
   
 Select "Create Instance".  
 ![](./images/CreateInstance.png)  
   
-Set name to whatever you like.  Select all the items mentioned below and marked in the images as specified (those marked with stars affect cost).  Leave everything else as is.  
+Select all the items mentioned below (those marked with stars affect cost.  Leave everything else as is.  
+<br/>  
   
+---
+  
+#### **Machine configuration**  
 Select a region that qualifies for free tier.  Those are ![](./images/Oregon.png), ![](./images/Iowa.png) or ![](./images/S_Carolina.png).  
-Set machine type to "e2-micro".    
-![](./images/vm2.png)  
   
-Under "Os and storage", click on Change and modify as shown below.  
+Set machine type to "e2-micro".  
+![](./GCNS/images/MachineType.png)  
+<br/>  
+  
+----  
+  
+#### **OS and storage**  
+Under "OS and storage", click on Change and modify as shown below.  
 ![](./images/Disk2.png)  
   
-Click on "Select".    
+Click on "Select".  
+<br/>  
   
-Under "Networking", enable both http and https.  
+---  
+  
+#### **Data protection**  
+Under Data protection, choose "No backups".  
+<br/>  
+  
+---  
+  
+#### **Networking**  
+Under "Firewall", enable both http and https.  
 ![](./images/Firewall2.png)  
   
-Click on "Create"<sup>\*</sup> to create the virtual machine.  Google will now bring up your virtual machine.  Wait for it to come up.  It could take a minute.  When the external IP column appears, you should be good to go.  
+Under "Network interfaces", click on "default".  In the fields that appear, under "Network Service Tier", select "Standard".  
+Click on "Done".  
+  
+<br/>  
+  
+---  
+  
+Click on "Create"<sup>\*</sup> to create the virtual machine.  Google will now initialize your virtual machine.  Wait for it to come up.  It could take a minute.  When the external IP column appears, you should be good to go.  
   
 <video width="400" controlsList="nodownload" src="./video/VM.mp4" controls>  
 </video>  
