@@ -1,8 +1,9 @@
 ## xDrip and Clarity
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Clarity  
   
-xDrip can directly collect from [G6/Dexcom One](../Starting-G6.md), or [G7/One+](./G7.md).  
+xDrip can directly collect from [G6/Dexcom One](../Starting-G6.md), or [G7/One+/Stelo](./G7.md).  
 xDrip cannot upload to Clarity.  
+You cannot run xDrip and Dexcom app both as collectors from the same device.  
 <br/>  
   
 ---  
@@ -45,7 +46,7 @@ You can run the Dexcom app on your phone and use the [Companion app mode](../Fol
 |       Method    | Advantage | Disadvantage |  
 | --------------- | --------- | ------------ |  
 | xDrip collector | Easy | Does not support Clarity |  
-| Receiver | Easy xDrip setup | Requires a receiver |  
+| Receiver | Easy xDrip setup | Requires a receiver - must carry a G6 receiver all the time or turn on a G7 receiver once a day |  
 | BYODA | Supports Clarity | Not every sensor is compatible; potential two points of failure: xDrip and BYODA |  
 | Companion app | Supports Clarity | Potential two points of failure: xDrip and the companion app; if either fails, no readings in xDrip |  
   
