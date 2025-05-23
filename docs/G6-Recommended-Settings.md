@@ -3,7 +3,7 @@
   
 For optimal performance with xDrip and Dexcom devices, follow these recommended settings:  
   
-* Choose `Settings` > `Hardware Data Source` > `G6/G7/1/1+ Transmitter`.  
+* Choose `Settings` > `Hardware Data Source` > `Dex`.  
   
 * Verify `Settings` &#8722;> [`Dex Debug Settings`](./images/g6-recommended-settings.png)  
   
