@@ -22,7 +22,7 @@ If the trend is linear, the alert extends the line to determine when it will cro
   
 #### **Threshold**  
 You can configure the threshold for your Forecast Low Alert in one of two ways:  
-1- **Use Low Value:** Enable the `Threshold: Low Value` option to use the value set in `Settings` −> `Glucose Units` −> `High Value` as the threshold.  
+1- **Use Low Value:** Enable the `Threshold: Low Value` option to use the value set in `Settings` −> `Glucose Units` −> `Low Value` as the threshold.  
 2- **Specify a Custom Threshold:** Disable the `Threshold: Low Value` option to set a custom threshold for the Forecasted Low Alert, independent of your Low Value setting.  
 
   
