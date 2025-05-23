@@ -8,6 +8,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.05.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.05.23) | Forecast Low threshold - Accu-Chek glucometer meter |  
 | [2025.05.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.05.09) | **<span style="color:orange">Stable</span>** <br/> Update alert |  
 | [2025.04.30](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.04.30) | Update check load balance |  
 | [2025.04.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.04.25) | Nightscout treatments upload to multiple sites - Nightscout cleanup |  
