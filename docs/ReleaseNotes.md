@@ -8,7 +8,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
-| [2025.05.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.05.09) | Update alert |  
+| [2025.05.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.05.09) | **<span style="color:orange">Stable</span>** <br/> Update alert |  
 | [2025.04.30](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.04.30) | Update check load balance |  
 | [2025.04.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.04.25) | Nightscout treatments upload to multiple sites - Nightscout cleanup |  
 | [2025.04.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.04.15) | CamAPS Canada and iCan Health companions - G5 retired - xDrip Sync update |  
@@ -36,7 +36,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
 | [2024.10.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.10.11) | Comp app G6 - Persistent High Threshold |  
 | [2024.09.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.27) | Companion app fix - Dex share cleanup - Sensor restart intel |  
 | [2024.09.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.19) | CareLink Update |  
-| [2024.09.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.17) | **<span style="color:orange">Stable</span>** <br/> Some cleanup |  
+| [2024.09.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.17) | **Previous Stable release** <br/> Some cleanup |  
 | [2024.09.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.16) | Status page screenshot button |  
 | [2024.09.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15c) | xDrip Sync update |  
 | [2024.09.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.04) | Some cleanup |  
