@@ -7,7 +7,7 @@ While the Fast Falling Alert notifies you if glucose is dropping very quickly, i
   
 The Forecast Low Alert provides that combination. It uses your current glucose level and trend to predict how low your glucose may be in the near future and alerts you if the predicted level drops below a specified threshold.  
   
-To manage the Forecast Low Alert, go to `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Extra Alerts`.   
+To manage the Forecast Low Alert, go to `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Extra Alerts` &#8722;> `Forecasted Low Alert`.   
 ![](./images/ForecastLow.png)  
   
 The alert will trigger if the extrapolated value is projected to fall below your low threshold within the time specified under "Alarm at forecasted low mins".  
