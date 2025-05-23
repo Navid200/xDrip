@@ -1,5 +1,5 @@
-## Forecast Low alert
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Forecast Low alert  
+## Forecasted Low alert
+[xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Forecasted Low alert  
   
 Glucose level alerts notify you when your glucose is too low or too high, but the trend is also crucial. For example, if your glucose level is at 6 (108) with a flat trend, you might not need an alert. However, if your glucose is at the same level but dropping rapidly, an alert could be essential.  
   
@@ -16,4 +16,13 @@ Note that the Forecast Low Alert does not consider factors like insulin, carbs, 
   
 If the trend is linear, the alert extends the line to determine when it will cross the threshold. If the trend is curved, it performs a polynomial extrapolation to estimate when the curve will cross the threshold.  
 ![](./images/ExtrapolateLinear.png)  ![](./images/ExtrapolatePolynomial.png)  
+<br/>  
+
+---  
+  
+#### **Threshold**  
+You can configure the threshold for your Forecast Low Alert in one of two ways:
+1- **Use Low Value:** Enable the `Threshold: Low Value` option to use the value set in `Settings` −> `Glucose Units` −> `High Value` as the threshold.  
+2- **Specify a Custom Threshold:** Disable the `Threshold: Low Value` option to set a custom threshold for the Forecasted Low Alert, independent of your Low Value setting.  
+
   
