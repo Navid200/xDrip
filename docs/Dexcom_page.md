@@ -13,7 +13,6 @@ You are welcome to use xDrip, but always consult with a medical professional (su
   
 #### **Setup**
 #### [Dexcom basics](./Dexcom-Basics.md)
-#### [G5 recommended settings](./G5-Recommended-Settings.md)
 #### [G6, Dex1 or G7 recommended settings](./G6-Recommended-Settings.md)
 #### [Can xDrip coexist with t:slim or receiver?](./Receiver-or-tslim-and-xDrip.md)
 #### [Clarity](./Dexcom/Clarity.md)
@@ -23,9 +22,7 @@ You are welcome to use xDrip, but always consult with a medical professional (su
 #### [Dex Status](./StatusG5G6.md)
 #### [Session in progress](./Session-in-progress.md)
 #### [Proper Connectivity](./Proper-connectivity.md)
-#### [Native algorithm - mode](./Native-Algorithm.md)
 #### [G7 rapid reconnect](./Dexcom/G7OnceAMinuteScan.md)
-#### [Preemptive Restart](./Preemptive-Restart.md)
 #### [Transmitter Queue](./Transmitter-Queue.md)
 #### [The differences between G6 and Dexcom One](./Dexcom/G6vsOne.md)
 #### [The differences between G7 and One+](./Dexcom/G7vsOneP.md)
@@ -44,7 +41,6 @@ You are welcome to use xDrip, but always consult with a medical professional (su
 #### [Restart G6, or Dex1](./Restart-G6-sensor.md)
 #### [Remove a G6, or Dex1, transmitter from sensor](./Remove-transmitter.md)
 #### [Calibrate G6, or Dex1, after a restart](./Calibrate-after-G6Restart.md)
-#### [Restart G5](./Restart-G5-sensor.md)
 #### [Change G6, or Dex1, Slot Number (advanced)](./G6_slot.md)
 #### [Hard reset](./Hard-Reset.md)
  [What not to do!](./What-not-to-do.md)
