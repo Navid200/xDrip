@@ -8,6 +8,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.06.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.06.03) | Better G7 TXID handling - Treatment notes improvement |  
 | [2025.05.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.05.23) | Forecast Low threshold - Accu-Chek glucometer |  
 | [2025.05.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.05.09) | **<span style="color:orange">Stable</span>** <br/> Update alert |  
 | [2025.04.30](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.04.30) | Update check load balance |  
