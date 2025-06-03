@@ -26,7 +26,7 @@ You are welcome to use xDrip, but always consult with a medical professional (su
 #### [Transmitter Queue](./Transmitter-Queue.md)
 #### [The differences between G6 and Dexcom One](./Dexcom/G6vsOne.md)
 #### [The differences between G7 and One+](./Dexcom/G7vsOneP.md)
- [G5/G6 Transmitter Lifetime](./Transmitter-lifetime.md)  
+ [G6 Transmitter Lifetime](./Transmitter-lifetime.md)  
   
 #### **How to**
 #### [Start G7, One+ or Stelo](./Dexcom/G7.md)
