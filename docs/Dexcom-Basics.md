@@ -61,12 +61,12 @@ Don't look under the list of paired devices expecting to see your transmitter. T
 ---  
   
 ### System Status
-Access the System Status page from the top left menu. There, you can swipe left and right to access two different system status pages, when collecting from a Dexcom transmitter, with headings "Classic Status Page" and "G5/G6 Status".  
+Access the System Status page from the top left menu. There, you can swipe left and right to access two different system status pages, when collecting from a Dexcom transmitter, with headings "Classic Status Page" and "Dex Status".  
 
 The Classic Status page shows the xDrip version including date.  
 ![](./images/classic-status-pg.png)  
 
-The G5/G6 Status Page contains important parameters including transmitter ID, time from last connection, firmware version, number of days on the transmitter, and transmitter battery voltages.  
+The Dex Status Page contains important parameters including transmitter ID, time from last connection, firmware version, number of days on the transmitter, and transmitter battery voltages.  
 ![](./images/system-status-pg.png)  
 <br/>  
   
