@@ -35,7 +35,6 @@ You are welcome to use xDrip, but always consult with a medical professional (su
 #### [Stop a G7, One+ or Stelo](./Dexcom/WhyNoG7Stop.md)
 #### [Start G6 (or Dex1) transmitter](./Starting-G6.md)
 #### [Stop and start a G6 or Dex1 sensor](./Dexcom/StartG6Sensor.md)
-#### [Use Dexcom One](./Dexcom-One.md)
 #### [Calibrate G6, or Dex1](./Calibrate-G6.md)
 #### [Please report unknown firmware!](./Report-firmware.md)
 #### [Restart G6, or Dex1](./Restart-G6-sensor.md)
