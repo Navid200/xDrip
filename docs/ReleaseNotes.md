@@ -60,7 +60,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
 | [2024.05.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.12) | Android 14 vehicle mode fix - correct G6 start time broadcast - delete alert confirmation - G6/G7 log cleanup - graph smoothing settings cleanup |  
 | [2024.04.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.19) | **Previous Stable release** <br/> Correct G7 start time broadcast |  
 | [2024.04.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.09) | One+ companion app |  
-| [2024.04.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.07) | Smart snooze and smart alert thresholds reduced for high alerts |  
+| [2024.04.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.07) | [Smart snooze and smart alert thresholds reduced for high alerts](https://github.com/NightscoutFoundation/xDrip/discussions/3421) |  
 | [2024.03.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.27) | No forget device for G7 |  
 | [2024.03.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.10) | Backfill fix - No G7 battery level edit |  
 | [2024.03.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.03.06) | Simplera comapnion app - Nightscout treatment download fix |  
