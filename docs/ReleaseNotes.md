@@ -47,7 +47,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
 | [2024.08.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.26) | Cleanup |  
 | [2024.08.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.07) | Sensor failed 7 fix - Sensor expiry alert resolution - Ongoing notification time |  
 | [2024.08.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.02) | Save Logs feature - Option to Scan QR code from file |   
-| [2024.07.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) | xDrip sync switched to BlueJay |  
+| [2024.07.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.23) | [xDrip sync switched to BlueJay](https://github.com/NightscoutFoundation/xDrip/discussions/3664) |  
 | [2024.07.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.07.17) | G6 new transmitter start cleanup - G6/G7 backfill overlap fix |  
 | [2024.06.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.28) | WearOS complication null null G7 |  
 | [2024.06.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.25) | Dex cleanup - LinX companion - Compiler cleanup - Dex share follow server - G7 stop gone 4 good |  
