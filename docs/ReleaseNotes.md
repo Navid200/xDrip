@@ -35,7 +35,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
 | [2024.11.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.08) | Inter-app menu fix - Comp app Ottai - BlueJay utils |  
 | [2024.11.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.11.03) | Hidden sync key - Silent Tidepool logs |  
 | [2024.10.29](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.10.29) | Comp app Ottai - Lower G7 battery warning - G6 2.27.2.105 |  
-| [2024.10.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.10.11) | Comp app G6 - Persistent High Threshold |  
+| [2024.10.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.10.11) | Comp app G6 - [Persistent High Threshold](https://github.com/NightscoutFoundation/xDrip/discussions/4039) |  
 | [2024.09.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.27) | Companion app fix - Dex share cleanup - Sensor restart intel |  
 | [2024.09.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.19) | CareLink Update |  
 | [2024.09.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.17) | **Previous Stable release** <br/> Some cleanup |  
