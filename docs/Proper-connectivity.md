@@ -28,5 +28,5 @@ A disconnect is indicated if any of the conditions mentioned above are not met. 
   
 ![](./Dexcom/images/CheckingAuthErrors.png)  
   
-If there is a connectivity issue, [resolve it](./Connectivity-troubleshoot.md) before issuing any commands (e.g., start, stop, calibrate, hard reset).  
+If there is a connectivity issue, resolve it before issuing any commands (e.g., start, stop, calibrate, hard reset).  
   
