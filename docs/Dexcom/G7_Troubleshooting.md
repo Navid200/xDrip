@@ -2,7 +2,7 @@
 [xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Dexcom G7, One+ or Stelo troubleshooting  
 <br/>  
   
-If you are using xDrip to directly collect readigns from G7, but are not receiving readings, follow these steps in order:  
+If you are using xDrip to directly collect readigns from G7, but are not receiving data, follow these steps in order:  
   
 1- Disable [Engineering mode](../Engineering-Mode.md).  
   
@@ -15,11 +15,11 @@ If yes, take a picture for reference to show Dexcom.  Even if you establish conn
 4- Check for “Mismatch - wait” on the Dex Status Page.  
 - If this appears, you may have entered the pairing code incorrectly or have old, used sensors nearby.  
 - Move all previously used devices more than 10 meters away.  
-- Ensure the pairing code is entered correctly. It is printed on the applicator.  
+- Ensure the pairing code is entered correctly—it is printed on the applicator.  
 - Tap on “Restart Collector” on the Classic Status Page.  
   
-5- Is there [proper connectivity](../Proper-connectivity.md)?  
-If not, use a [scanner to verify that you can see the transmitter](../Bluetooth-Scanner.md).  
+5- Verify [proper connectivity](../Proper-connectivity.md).  
+If there is no connectivity, [use a scanner to check if you can see the transmitter](../Bluetooth-Scanner.md).  
 Move all previously used devices more than 10 meters away.  
   
 - If you have moved all the old devices away and can see the transmitter in the scanner, verify that all [settings are correct](../G6-Recommended-Settings.md).  
@@ -30,12 +30,12 @@ This may trigger the sensor to activate.  Check if the transmitter appears in th
   
 Tap on "Restart Collector" on the classic status page.  
   
-6- Resolve "Deep Sleeping Errors" or "Checking Auth Errors" or "Initializing Errors" on the Dex status page.  
+6- Resolve "Deep Sleeping Errors," "Checking Auth Errors," or "Initializing Errors" on the Dex status page.  
 - [Disable collection in xDrip](../Stop-xDrip.md).  
 - If you use a pump or watch directly connecting to G7, temporarily disable them.  
-- Wait 15 minutes for G7 to go to rapid reconnect mode.  
-- Delete any devices whose name starts with DXCM, DX01 or DX02 from the list of connected or previously connected Bluetooth devices.  
-- Re-enable xDrip Dex Collector by selecting Dex as the hardware data source.  
+- Wait 15 minutes for G7 to enter rapid reconnect mode.  
+- Delete any devices whose names start with DXCM, DX01, or DX02 from the list of connected or previously connected Bluetooth devices.  
+- Re-enable the xDrip Dex Collector by selecting Dex as the hardware data source.  
 - Go to the Dex status page, wait up to a minute for a pairing request, and approve it.  
   
 <br/>  
