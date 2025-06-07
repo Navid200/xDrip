@@ -17,8 +17,8 @@ If yes, take a picture for reference to show Dexcom.  Even if connectivity is es
 - If this appears, you may have entered the pairing code incorrectly or have old, used sensors nearby.  
 - Move all previously used devices more than 10 meters away.  
 - Ensure the pairing code is entered correctly—it is printed on the applicator.  
-- Tap on “Restart Collector” on the Classic Status Page.
-- <br/>  
+- Tap on “Restart Collector” on the Classic Status Page.  
+<br/>  
   
 5- Verify [proper connectivity](../Proper-connectivity.md).  
 If there is no connectivity, [use a scanner to check if you can see the transmitter](../Bluetooth-Scanner.md).  
@@ -39,7 +39,7 @@ Tap on "Restart Collector" on the classic status page.
 - Wait 15 minutes for G7 to enter rapid reconnect mode.  
 - Delete any devices whose names start with DXCM, DX01, or DX02 from the list of connected or previously connected Bluetooth devices.  
 - Re-enable the xDrip Dex Collector by selecting Dex as the hardware data source.  
-- Go to the Dex status page, wait up to a minute for a pairing request, and approve it.
+- Go to the Dex status page, wait up to a minute for a pairing request, and approve it.  
 <br/>  
   
 7- Sensor Failed 7  
@@ -48,7 +48,6 @@ If this appears on the Dex Status Page:
 - Relax the limb where the sensor is placed.  
 - Stay hydrated.  
 - It may take up to 3 hours for readings to return.  
-  
 <br/>  
   
 ---  
