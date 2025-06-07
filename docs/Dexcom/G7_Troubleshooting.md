@@ -11,12 +11,14 @@ If you are using xDrip to directly collect readigns from G7, but are not receivi
 3- Check the Sensor.  Do you see the filament protruding from the top?  
 ![](./images/G7FilamentNotInserted.png)  
 If yes, take a picture for reference to show Dexcom.  Even if connectivity is established, the sensor is unlikely to work since the filament has not been inserted under your skin.  You will need to use a new sensor.  
+<br/>  
   
 4- Check for “Mismatch - wait” on the Dex Status Page.  
 - If this appears, you may have entered the pairing code incorrectly or have old, used sensors nearby.  
 - Move all previously used devices more than 10 meters away.  
 - Ensure the pairing code is entered correctly—it is printed on the applicator.  
-- Tap on “Restart Collector” on the Classic Status Page.  
+- Tap on “Restart Collector” on the Classic Status Page.
+- <br/>  
   
 5- Verify [proper connectivity](../Proper-connectivity.md).  
 If there is no connectivity, [use a scanner to check if you can see the transmitter](../Bluetooth-Scanner.md).  
@@ -29,6 +31,7 @@ Move all previously used devices more than 10 meters away.
 This may trigger the sensor to activate.  Check if the transmitter appears in the scanner.  
   
 Tap on "Restart Collector" on the classic status page.  
+<br/>  
   
 6- Resolve "Deep Sleeping Errors," "Checking Auth Errors," or "Initializing Errors" on the Dex status page.  
 - [Disable collection in xDrip](../Stop-xDrip.md).  
@@ -37,13 +40,14 @@ Tap on "Restart Collector" on the classic status page.
 - Delete any devices whose names start with DXCM, DX01, or DX02 from the list of connected or previously connected Bluetooth devices.  
 - Re-enable the xDrip Dex Collector by selecting Dex as the hardware data source.  
 - Go to the Dex status page, wait up to a minute for a pairing request, and approve it.
+<br/>  
   
 7- Sensor Failed 7  
 If this appears on the Dex Status Page:  
 - Avoid  lying down on the sensor.  
 - Relax the limb where the sensor is placed.  
 - Stay hydrated.  
-- It may take up to 3 hours for readings to return.   
+- It may take up to 3 hours for readings to return.  
   
 <br/>  
   
