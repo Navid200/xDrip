@@ -13,14 +13,21 @@ If you are using xDrip to directly collect readigns from G7, but are not receivi
 If yes, take a picture for reference to show Dexcom.  Even if connectivity is established, the sensor is unlikely to work since the filament has not been inserted under your skin.  You will need to use a new sensor.  
 <br/>  
   
-4- Check for “Mismatch - wait” on the Dex Status Page.  
-- If this appears, you may have entered the pairing code incorrectly or have old, used sensors nearby.  
+4- "Missing QR Code" on [Dex Status Page](../StatusG5G6.md)  
+![](./images/MissingQR.png)  
+Use "Settings" > "Auto Config" to [scan](../Settings/Scan_QR_Code.md) the QR code shown in the [Guide](./G7.md).  
+Tap on “Restart Collector” on the Classic Status Page.  
+<br/>  
+  
+5- “Mismatch - wait” on Dex Status Page  
+![](./images/MismatchWait.png)  
+- You may have entered the pairing code incorrectly or have old, used sensors nearby.  
 - Move all previously used devices more than 10 meters away.  
 - Ensure the pairing code is entered correctly—it is printed on the applicator.  
 - Tap on “Restart Collector” on the Classic Status Page.  
 <br/>  
   
-5- Verify [proper connectivity](../Proper-connectivity.md).  
+6- Verify [proper connectivity](../Proper-connectivity.md).  
 If there is no connectivity, [use a scanner to check if you can see the transmitter](../Bluetooth-Scanner.md).  
 Move all previously used devices more than 10 meters away.  
   
@@ -33,7 +40,7 @@ This may trigger the sensor to activate.  Check if the transmitter appears in th
 Tap on "Restart Collector" on the classic status page.  
 <br/>  
   
-6- Resolve "Deep Sleeping Errors," "Checking Auth Errors," or "Initializing Errors" on the Dex status page.  
+7- Resolve "Deep Sleeping Errors," "Checking Auth Errors," or "Initializing Errors" on the Dex status page.  
 - [Disable collection in xDrip](../Stop-xDrip.md).  
 - If you use a pump or watch that connects directly to G7, temporarily disable them.  
 - Wait 15 minutes for G7 to enter rapid reconnect mode.  
@@ -42,7 +49,7 @@ Tap on "Restart Collector" on the classic status page.
 - Go to the Dex status page, wait up to a minute for a pairing request, and approve it.  
 <br/>  
   
-7- Sensor Failed 7  
+8- Sensor Failed 7  
 If this appears on the Dex Status Page:  
 - Avoid  lying down on the sensor.  
 - Relax the limb where the sensor is placed.  
