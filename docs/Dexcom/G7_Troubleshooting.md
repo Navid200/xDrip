@@ -49,8 +49,8 @@ Tap on "Restart Collector" on the classic status page.
 - Go to the Dex status page, wait up to a minute for a pairing request, and approve it.  
 <br/>  
   
-8- Sensor Failed 7  
-If this appears on the Dex Status Page:  
+8- Sensor Failed 7 on Dex Status Page  
+![](./images/SensorFailed7.png)  
 - Avoid  lying down on the sensor.  
 - Relax the limb where the sensor is placed.  
 - Stay hydrated.  
