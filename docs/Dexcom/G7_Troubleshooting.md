@@ -15,7 +15,7 @@ If yes, take a picture for reference to show Dexcom.  Even if connectivity is es
   
 4- "Missing QR Code" on [Dex Status Page](../StatusG5G6.md)  
 ![](./images/MissingQR.png)  
-Use "Settings" > "Auto Config" to [scan](../Settings/Scan_QR_Code.md) the QR code shown in the [Guide](./G7.md).  
+Use "Settings" > "Auto Config" to [scan](../Settings/Scan_QR_Code.md) the QR code shown in the [Guide](./G7.md), not on the sensor.  
 Tap on “Restart Collector” on the Classic Status Page.  
 <br/>  
   
