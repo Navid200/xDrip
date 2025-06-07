@@ -10,7 +10,7 @@ If you are using xDrip to directly collect readigns from G7, but are not receivi
   
 3- Check the Sensor.  Do you see the filament protruding from the top?  
 ![](./images/G7FilamentNotInserted.png)  
-If yes, take a picture for reference to show Dexcom.  Even if you establish connectivity, the sensor is unlikely to work since the filament has not been inserted under your skin.  You will need to use a new sensor.  
+If yes, take a picture for reference to show Dexcom.  Even if connectivity is established, the sensor is unlikely to work since the filament has not been inserted under your skin.  You will need to use a new sensor.  
   
 4- Check for “Mismatch - wait” on the Dex Status Page.  
 - If this appears, you may have entered the pairing code incorrectly or have old, used sensors nearby.  
@@ -24,7 +24,7 @@ Move all previously used devices more than 10 meters away.
   
 - If you have moved all the old devices away and can see the transmitter in the scanner, verify that all [settings are correct](../G6-Recommended-Settings.md).  
   
-- If the transmitter is not visible in the scanner, bring the applicator close to the sensor so that the magnet (shown in the image below) is near the sensor for a few seconds.  
+- If the transmitter is not visible in the scanner, bring the applicator close to the sensor so the magnet (shown in the image below) is near the sensor for a few seconds.  
 ![](./images/G7_Applicator_Magnet.png)  
 This may trigger the sensor to activate.  Check if the transmitter appears in the scanner.  
   
@@ -32,11 +32,18 @@ Tap on "Restart Collector" on the classic status page.
   
 6- Resolve "Deep Sleeping Errors," "Checking Auth Errors," or "Initializing Errors" on the Dex status page.  
 - [Disable collection in xDrip](../Stop-xDrip.md).  
-- If you use a pump or watch directly connecting to G7, temporarily disable them.  
+- If you use a pump or watch that connects directly to G7, temporarily disable them.  
 - Wait 15 minutes for G7 to enter rapid reconnect mode.  
 - Delete any devices whose names start with DXCM, DX01, or DX02 from the list of connected or previously connected Bluetooth devices.  
 - Re-enable the xDrip Dex Collector by selecting Dex as the hardware data source.  
-- Go to the Dex status page, wait up to a minute for a pairing request, and approve it.  
+- Go to the Dex status page, wait up to a minute for a pairing request, and approve it.
+  
+7- Sensor Failed 7  
+If this appears on the Dex Status Page:  
+- Avoid  lying down on the sensor.  
+- Relax the limb where the sensor is placed.  
+- Stay hydrated.  
+- It may take up to 3 hours for readings to return.   
   
 <br/>  
   
