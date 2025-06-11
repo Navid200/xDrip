@@ -40,7 +40,7 @@ This may trigger the sensor to activate.  Check if the transmitter appears in th
 Tap on "Restart Collector" on the classic status page.  
 <br/>  
   
-7- Resolve "Deep Sleeping Errors," "Checking Auth Errors," or "Initializing Errors" on the Dex status page.  
+7- Resolve "Deep Sleeping Errors," "Checking Auth Errors," "Scanning Errors," or "Initializing Errors" on the Dex status page.  
 - [Disable collection in xDrip](../Stop-xDrip.md).  
 - If you use a pump or watch that connects directly to G7, temporarily disable them.  
 - Wait 15 minutes for G7 to enter rapid reconnect mode.  
