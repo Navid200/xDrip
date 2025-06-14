@@ -20,6 +20,7 @@ The development and stable branches are explained [here](./Branches.md).
 The Ubuntu 20 platform will not be updated any longer. It is a good idea to [upgrade to Ubuntu 24](./GCNS/UpgradeToUbuntu24.md) when you get a chance.  
 <br/>  
   
+| ---------- | ----------------------------------------------------- | |  
 | 2024.12.29 | **<span style="color:orange">Stable release (Ubuntu 20)</span>** <br/> Cleanup | |  
 | 2024.08.28 | Backup utility update | |  
 | 2024.08.20 | Update to Node 16 |  |  
