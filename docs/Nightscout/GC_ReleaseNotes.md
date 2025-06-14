@@ -9,8 +9,8 @@ The development and stable branches are explained [here](./Branches.md).
   
 | Release | Notes | Status page |  
 |---------|-------| ----------- |  
-| 2025.05.19 | **<span style="color:orange">Dev release</span>** <br/> NS 15.0.3 | |  
-| 2025.03.17 | **<span style="color:orange">Stable release</span>** <br/> Cleanup of the installation routine | |  
+| 2025.05.19 | **<span style="color:orange">Stable release</span>** <br/> NS 15.0.3 | |  
+| 2025.03.17 | Cleanup of the installation routine | |  
 | 2025.02.27 | Upgrade Ubuntu to 24.04.2 | |  
 | 2025.02.14 | Live hyperlinks | |   
 | 2025.02.10 | Initial Ubuntu 24 alpha release | ![](images/Feb102025StatusP.png) |  
