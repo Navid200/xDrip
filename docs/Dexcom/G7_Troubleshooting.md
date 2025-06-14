@@ -42,11 +42,12 @@ Tap on "Restart Collector" on the classic status page.
   
 7- Resolve "Deep Sleeping Errors," "Checking Auth Errors," "Scanning Errors," or "Initializing Errors" on the Dex status page.  
 - [Disable collection in xDrip](../Stop-xDrip.md).  
-- If you use a pump or watch that connects directly to G7, temporarily disable them.  
+- If you use a pump or Dexcom receiver or watch that connects directly to G7, temporarily disable them.  
 - Wait 15 minutes for G7 to enter rapid reconnect mode.  
 - Delete any devices whose names start with DXCM, DX01, or DX02 from the list of connected or previously connected Bluetooth devices.  
 - Re-enable the xDrip Dex Collector by selecting Dex as the hardware data source.  
-- Go to the Dex status page, wait up to a minute for a pairing request, and approve it.  
+- Go to the Dex status page, wait up to a minute for a pairing request, and approve it.
+- Once the connection is established and you have received three consecutive readings, you can re-enable your pump, receiver or watch to connect directly again.  
 <br/>  
   
 8- "Sensor Failed 7" on Dex Status Page  
