@@ -14,7 +14,7 @@ The development and stable branches are explained [here](./Branches.md).
 | 2025.02.27 | Upgrade Ubuntu to 24.04.2 | |  
 | 2025.02.14 | Live hyperlinks | |   
 | 2025.02.10 | Initial Ubuntu 24 alpha release | ![](images/Feb102025StatusP.png) |  
-|            |                                                                    | |  
+|            | The Ubuntu 20 platform will not be updated any longer. It is a good idea to [upgrade to Ubuntu 24](./GCNS/UpgradeToUbuntu24.md) when you get a chance. | |  
 | 2024.12.29 | **<span style="color:orange">Stable release (Ubuntu 20)</span>** <br/> Cleanup | |  
 | 2024.08.28 | Backup utility update | |  
 | 2024.08.20 | Update to Node 16 |  |  
