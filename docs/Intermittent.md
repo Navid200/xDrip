@@ -1,20 +1,20 @@
 ## xDrip Dexcom Intermittent Connectivity
 [xDrip](../README.md) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> xDrip intermittent Connectivity  
   
-If you have no connectivity at all, [transmitter connectivity troubleshooting](./Connectivity-troubleshoot.md) may help. This page is intended for situations where you have connectivity and readings but occasionally experience a disconnect.  
+If you have no connectivity at all, [G6 troubleshooting](./Connectivity-troubleshoot.md) or [G7 troubleshooting](./Dexcom/G7_Troubleshooting.md) may help. This page is intended for cases where you experience intermittent disconnections despite having connectivity and readings.  
   
-xDrip needs to wake up and scan every 5 minutes to maintain connectivity and provide consistent readings. When not actively scanning, xDrip runs in the background to conserve battery life.  Newer versions of Android include features to extend battery life by minimizing background activity, and manufacturers often implement their own methods for this. Unfortunately, these behaviors can interfere with xDrip’s operation. Therefore, when you first install xDrip on Android 10 or newer versions, connectivity issues are common.  
+xDrip scans every five minutes to maintain connectivity and provide consistent readings.  While not actively scanning, it runs in the background to conserve battery life.  Newer versions of Android incorporate features to extend battery life by reducing background activity, and phone manufacturers often implement additional power-saving methods.  Unfortunately, these behaviors can interfere with xDrip’s operation.  As a result, initial connectivity issues are common when installing xDrip on Android 10 or newer.  
   
-1. Ensure you are using at least the current stable release. [Update](./Updates.md) if necessary.  
+1. Ensure you are using at least the current stable release—[update](./Updates.md) if necessary.  
   
 2. Start with the [recommended settings](./G6-Recommended-Settings.md).  
   
-3. Look for similar settings for your phone brand: [https://dontkillmyapp.com/xiaomi](https://dontkillmyapp.com/xiaomi).  
+3. Check for similar settings for your phone brand: [https://dontkillmyapp.com/xiaomi](https://dontkillmyapp.com/xiaomi).  
 <br/>  
   
-If xDrip continues to disconnect, try the following adjustments:  
+If occasional disconnects continue, try the following adjustments:  
   
-* Enable "Special Pairing Workaround".   This may help even if you are not using a Samsung device.  
+* Enable "Special Pairing Workaround"—this may help even if you are not using a Samsung device.  
   
 * If disconnections persist, try enabling `Avoid Scanning`.  
   
