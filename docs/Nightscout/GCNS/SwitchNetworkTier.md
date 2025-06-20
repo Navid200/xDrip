@@ -11,7 +11,7 @@ Our installation guide now includes instructions for changing the service tier f
   
 To check which service tier your virtual machine is using, refer to the video below:  
   
-<video width="400" controlsList="nodownload" src="../video/IdentifyNetworkTier.mp4.mp4" controls>  
+<video width="400" controlsList="nodownload" src="../video/IdentifyNetworkTier.mp4" controls>  
 </video>  
 <br/>  
   
