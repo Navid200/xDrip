@@ -2,18 +2,25 @@
 layout: GCNS
 ---
 
-## Switch Network Service Tier    
+## Network Service Tier    
 [Google Cloud Nightscout](../GoogleCloud.md) >> Switch Network Service Tier  
 <br/>  
   
-By default, the Network Service Tier is set to Premium, which can be costly for outgoing traffic. Switching to Standard allows for free outgoing traffic up to 200GB per month. We have been using this setting without any negative impact on Nightscout’s performance.  
+By default, the Network Service Tier is set to Premium, which can lead to higher costs for outgoing traffic. Switching to the Standard tier allows up to 200 GB of outbound traffic per month at no charge.  
+Our installation guide now includes instructions for changing the service tier from Premium to Standard.  
+  
+To check which service tier your virtual machine is using, refer to the video below:  
+  
+<video width="400" controlsList="nodownload" src="../video/IdentifyNetworkTier.mp4.mp4" controls>  
+</video>  
+<br/>  
   
 To change the network service tier of an active machine, you must stop it first.  
-The video below demonstrates all the required steps.  
+The following video walks you through the entire process:  
 
 <video width="400" controlsList="nodownload" src="../video/SwitchNetworkTier.mp4" controls>  
 </video>  
 <br/>  
   
-After restarting your virtual machine, please allow a few minutes for the new IP address to map to the hostname.  
+Once your virtual machine has restarted, please allow a few minutes for the new IP address to update and map to the hostname.  
   
