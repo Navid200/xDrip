@@ -8,6 +8,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.06.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.06.20) | New Libre 2 serial number - xDrip Sync Follow source wizard |  
 | [2025.06.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.06.17) | Dex last connected color - Small phone layout fix - Y min/max menu orientation - Tidepool authentication - Sync follower missed reading alert - Database import fix |  
 | [2025.06.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.06.03) | Better G7 TXID handling - Treatment notes improvement |  
 | [2025.05.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.05.23) | [Forecast Low threshold](https://github.com/NightscoutFoundation/xDrip/discussions/4012) - Accu-Chek glucometer |  
