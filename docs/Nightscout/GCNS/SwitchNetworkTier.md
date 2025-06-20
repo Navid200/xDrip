@@ -8,14 +8,19 @@ layout: GCNS
   
 By default, the Network Service Tier is set to Premium, which can lead to higher costs for outgoing traffic. Switching to the Standard tier allows up to 200 GB of outbound traffic per month at no charge.  
 Our installation guide now includes instructions for changing the service tier from Premium to Standard.  
+<br/>  
   
-To check which service tier your virtual machine is using, refer to the video below:  
+---  
+  
+**To check** which service tier your virtual machine is using, refer to the video below:  
   
 <video width="400" controlsList="nodownload" src="./video/IdentifyNetworkTier.mp4" controls>  
 </video>  
 <br/>  
   
-To change the network service tier of an active machine, you must stop it first.  
+---  
+  
+**To change** the network service tier of an active machine, you must stop it first.  
 The following video walks you through the entire process:  
 
 <video width="400" controlsList="nodownload" src="../video/SwitchNetworkTier.mp4" controls>  
