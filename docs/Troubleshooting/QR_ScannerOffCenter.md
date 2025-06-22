@@ -1,14 +1,14 @@
-## Auto Configure Camera not working
+## Auto Configure Camera "QR Scanner" Not Working
 [xDrip](../../README.md) >> [Troubleshooting](../Troubleshooting_page.md) >> QR Scanner does not work  
   
-Do you notice that the scan viewport appears off-center, similar to what’s shown in the image below?  
+Is the scan viewport appearing off-center, like in the image below?    
 ![](./images/OffCenterScanner.png)  
 <br/>  
   
-If so, go back to the menu, rotate your phone to landscape mode, and then tap **Camera**.  
-You should then see the viewport centered, with a red line in the middle—just like in the image below:  
+If so, return to the menu, rotate your phone to landscape mode, and tap **Camera**.  
+The viewport should now appear centered with a red line in the middle—just like this:  
 ![](./images/QR_Scan_Viewport.png)  
 <br/>  
   
-At this point, the scanner should function properly.  
+At this point, the QR scanner should function correctly.  
   
