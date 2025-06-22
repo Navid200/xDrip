@@ -5,6 +5,10 @@ Do you notice that the scan viewport appears off-center, similar to what’s sho
 ![](./images/OffCenterScanner.png)  
 <br/>  
   
-If so, return to the menu, rotate your phone to landscape mode, and then tap **Camera**.  
+If so, go back to the menu, rotate your phone to landscape mode, and then tap **Camera**.  
+You should then see the viewport centered, with a red line in the middle—just like in the image below:  
+![](./images/QR_Scan_Viewport.png)  
+<br/>  
   
+At this point, the scanner should function properly.  
   
