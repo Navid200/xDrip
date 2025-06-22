@@ -10,7 +10,12 @@ After xDrip scans, it will show you the settings that are included in the QR cod
 <br/>  
   
 ---  
-
+  
+#### **[Off-center viewport](../Troubleshooting/QR_ScannerOffCenter.md)**  
+<br/>  
+  
+---  
+  
 #### **If camera is not an option**  
 Your device might not have a camera, the camera could be broken, or you may only be able to access the QR code on the same device running xDrip. In these cases, you can use an alternative method as explained here.  
   
@@ -19,5 +24,6 @@ First, save the QR code as an image file on your device. To do this, use a brows
 Once the QR code image file is saved, go to `Settings` &#8722;> `Auto Configure` &#8722;> `Image file`.  Locate and select the saved image file.  
 
 After xDrip scans the image, it will display the settings contained in the QR code and ask you to confirm before importing them.  
+<br/>  
   
   
