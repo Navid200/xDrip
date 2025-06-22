@@ -18,6 +18,7 @@ If you're experiencing issues with xDrip, check the list below for potential pro
 #### [Number wall on lock screen does not disable](./NumberWallDisable.md)
 #### [Google Play Services is not installed](./GooglePlayServices_NotInstalled.md)
 #### [Treatment reminders?](./Alerts/TreatmentReminders.md)
+#### [QR Scanner does not work](./Troubleshooting/QR_ScannerOffCenter.md)
   
 <br/>  
   
