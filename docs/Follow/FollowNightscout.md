@@ -10,7 +10,7 @@ Go to `Settings` &#8722;> `Nightscout Follow URL` and enter the Nightscout Follo
 | AUTH_DEFAULT_ROLES | Nightscout Follow URL |  
 | ------------------ | --------------------- |  
 | readable | https://<span>hostname</span> |  
-| denied | https://<span>API_SECRET@</span>hostname <br/> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; or <br/> https://<span>hostname/?Token@</span> |  
+| denied | https://<span>API_SECRET@</span>hostname <br/> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; or <br/> https://<span>hostname/?Token</span> |  
   
 * hostname: The address of the Nightscout site, excluding https:// at the beginning.  
 * API_SECRET: The password used by the uploader to upload to Nightscout.  
