@@ -7,10 +7,10 @@ Select `Nightscout Follower` as the [Data Source](../HardwareDataSource.md).
   
 Go to `Settings` &#8722;> `Nightscout Follow URL` and enter the Nightscout Follow URL, based on the `AUTH_DEFAULT_ROLES` variable setting:  
   
-| AUTH_DEFAULT_ROLES | Nightscout Follow URL |  
-| ------------------ | --------------------- |  
-| readable | https://<span>hostname</span> |  
-| denied | https://<span>API_SECRET@</span>hostname <br/> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; or <br/> https://<span>Token@</span>hostname |  
+| AUTH_DEFAULT_ROLES | Nightscout Follow URL | Browser URL |  
+| ------------------ | --------------------- | ----------- |  
+| readable | https://<span>hostname</span> | https://<span>hostname</span> |  
+| denied | https://<span>API_SECRET@</span>hostname <br/> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; or <br/> https://<span>Token@</span>hostname | https://<span>API_SECRET@</span>hostname <br/> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; or <br/> https://<span>Token@</span>hostname |  
   
 * hostname: The address of the Nightscout site, excluding https:// at the beginning.  
 * API_SECRET: The password used by the uploader to upload to Nightscout.  
