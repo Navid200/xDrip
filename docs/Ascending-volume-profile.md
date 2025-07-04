@@ -6,7 +6,7 @@ When the xDrip alarm triggers, it starts silent or at low volume (depending on a
   
 To enable it, go to  
 `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Glucose Alert Settings` &#8722;> `Alert Volume Profile`,  
-and choose `Ascending Volume Profile`.  
+and choose `Ascending`.  
 
 If you cannot hear your alarm when you are in a noisy environment, this can solve the problem because it will eventually play the alarm at a higher volume.  
 
