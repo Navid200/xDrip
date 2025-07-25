@@ -8,6 +8,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.07.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.07.25) | Nightscout sensor age improvement for G7 - Carb entry fix - Reminder cleanup |  
 | [2025.07.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.07.16) | Libre 2+ sensor age - no follower cal except xSync - follower chime menu - notification logs |  
 | [2025.07.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.07.04) | Dex share follow 24-hour backfill |  
 | [2025.06.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.06.20) | New Libre 2 serial number - xDrip Sync Follow source wizard |  
