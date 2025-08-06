@@ -49,7 +49,7 @@ See *Troubleshooting* below.
 ---  
   
 #### **Follower has too much control**  
-By default, the follower can upload treatments to the master, calibrate it, and even stop sensor on it.  To prevent this, disable `Allow Follower Actions`.  
+By default, the follower can upload treatments to the master, calibrate it, and even stop sensor on it.  To prevent this, disable `Accept Follower Actions`.  
 ![](./Follow/images/AcceptFollowerActions.png)  
   
 This option exists so a parent can control a child’s master phone if the child is too young to perform tasks like calibration. If you are the one calibrating or stopping sensors and do not want the follower to accidentally interfere, disable this setting.  
