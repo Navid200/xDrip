@@ -1,3 +1,8 @@
+---  
+title: Android  
+description: "xDrip works on Android 7 and newer, but is not compatible with iOS."  
+---  
+  
 ## Android
 [xDrip](../README.md) >> [Frequently Asked Questions](./FAQ_page.md) >> Android  
   
