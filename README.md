@@ -1,7 +1,7 @@
 ---  
 title: xDrip  
-description: "Open‑source Android app (Android 7–16) for continuous glucose monitoring with customizable alerts, follower support, stats analysis, and more."
----
+description: "Open‑source Android app (Android 7–16) for continuous glucose monitoring with customizable alerts, follower support, stats analysis, and more."  
+---  
 
 
 # xDrip
