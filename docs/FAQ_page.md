@@ -1,3 +1,8 @@
+---  
+title: xDrip Frequently Asked Questions  
+description: "Common questions and answers about installing, using, and troubleshooting xDrip."  
+---  
+  
 # xDrip Frequently Asked Questions  
 [xDrip](../README.md) >> xDrip Frequently Asked Questions  
   
