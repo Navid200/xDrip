@@ -1,3 +1,8 @@
+---  
+title: xDrip Release Notes  
+description: "Stay up to date with the latest changes and improvements in xDrip."  
+---  
+  
 ## xDrip Release Notes  
 [xDrip](../README.md) >> xDrip Release Notes  
   
