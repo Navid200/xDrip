@@ -3,86 +3,172 @@
 <script>
 $(function() {
     $("#lunrsearchresults").on('click', '#btnx', function () {
-        $('#lunrsearchresults').hide( 1000 );
-        $( "body" ).removeClass( "modal-open" );
+        $('#lunrsearchresults').hide(1000);
+        $("body").removeClass("modal-open");
     });
 });
-    
+
 {% assign counter = 0 %}
 var documents = [{% for page in site.pages %}{% if page.url contains '.xml' or page.url contains 'assets' %}{% else %}{
     "id": {{ counter }},
     "url": "{{ site.url }}{{site.baseurl}}{{ page.url }}",
     "title": "{{ page.title }}",
-    "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
-    }, {% endif %}{% endfor %}{% for page in site.without-plugin %}{
+    "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"}{% assign counter = counter | plus: 1 %}
+    , {% endif %}{% endfor %}{% for page in site.without-plugin %}{
     "id": {{ counter }},
     "url": "{{ site.url }}{{site.baseurl}}{{ page.url }}",
     "title": "{{ page.title }}",
-    "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
-    }, {% endfor %}{% for page in site.posts %}{
+    "body": "{{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"}{% assign counter = counter | plus: 1 %}
+    , {% endfor %}{% for page in site.posts %}{
     "id": {{ counter }},
     "url": "{{ site.url }}{{site.baseurl}}{{ page.url }}",
     "title": "{{ page.title }}",
-    "body": "{{ page.date | date: "%Y/%m/%d" }} - {{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"{% assign counter = counter | plus: 1 %}
-    }{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
+    "body": "{{ page.date | date: "%Y/%m/%d" }} - {{ page.content | markdownify | replace: '.', '. ' | replace: '</h2>', ': ' | replace: '</h3>', ': ' | replace: '</h4>', ': ' | replace: '</p>', ' ' | strip_html | strip_newlines | replace: '  ', ' ' | replace: '"', ' ' }}"}{% assign counter = counter | plus: 1 %}{% if forloop.last %}{% else %}, {% endif %}{% endfor %}];
 
 var idx = lunr(function () {
-    this.ref('id')
-    this.field('title')
-    this.field('body')
-
+    this.ref('id');
+    this.field('title');
+    this.field('body');
     documents.forEach(function (doc) {
-        this.add(doc)
-    }, this)
+        this.add(doc);
+    }, this);
 });
 
-
-    
 function lunr_search(term) {
-    $('#lunrsearchresults').show( 1000 );
-    $( "body" ).addClass( "modal-open" );
-    
-    document.getElementById('lunrsearchresults').innerHTML = '<div id="resultsmodal" class="modal fade show d-block"  tabindex="-1" role="dialog" aria-labelledby="resultsmodal"> <div class="modal-dialog shadow-lg" role="document"> <div class="modal-content"> <div class="modal-header" id="modtit"> <button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close"> &times; </button> </div> <div class="modal-body"> <ul class="mb-0"> </ul>    </div> <div class="modal-footer"><button id="btnx" type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button></div></div> </div></div>';
-    if(term) {
-        document.getElementById('modtit').innerHTML = "<h3sr class='modal-title'>Search results for '" + term + "'</h3sr>" + document.getElementById('modtit').innerHTML;
-        //put results on the screen.
+    $('#lunrsearchresults').show(1000);
+    $("body").addClass("modal-open");
+
+    document.getElementById('lunrsearchresults').innerHTML =
+        '<div id="resultsmodal" class="modal fade show d-block" tabindex="-1" role="dialog" aria-labelledby="resultsmodal">' +
+        '<div class="modal-dialog shadow-lg" role="document">' +
+        '<div class="modal-content">' +
+        '<div class="modal-header" id="modtit">' +
+        '<button type="button" class="close" id="btnx" data-dismiss="modal" aria-label="Close"> &times; </button>' +
+        '</div>' +
+        '<div class="modal-body">' +
+        '<ul class="mb-0"></ul>' +
+        '</div>' +
+        '<div class="modal-footer"><button id="btnx" type="button" class="btn btn-secondary btn-sm" data-dismiss="modal">Close</button></div>' +
+        '</div>' +
+        '</div>' +
+        '</div>';
+
+    if (term) {
+        document.getElementById('modtit').innerHTML =
+            "<h3sr class='modal-title'>Search results for '" + term + "'</h3sr>" + document.getElementById('modtit').innerHTML;
+
         var results = idx.search(term);
-        if(results.length>0){
-            //console.log(idx.search(term));
-            //if results
-var res_l=results.length;
-if(res_l>40) {res_l=40}
+        if (results.length > 0) {
+            var res_l = results.length;
+            if (res_l > 40) res_l = 40;
             for (var i = 0; i < res_l; i++) {
-                // more statements
                 var ref = results[i]['ref'];
                 var url = documents[ref]['url'];
                 var title = documents[ref]['title'];
-                var body = documents[ref]['body'].substring(0,160)+'...';
-                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'> <span class='title'>" + title + "</span></small></a></li>";
+                var body = documents[ref]['body'].substring(0, 160) + '...';
+                document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML +=
+                    "<li class='lunrsearchresult'><a href='" + url + "'> <span class='title'>" + title + "</span></a></li>";
             }
         } else {
-            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = "<li class='lunrsearchresult'>No results! Check spelling. Close & try again.</li>";
+            document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML =
+                "<li class='lunrsearchresult'>No results! Check spelling. Close & try again.</li>";
         }
     }
     return false;
 }
-</script>
-<style>
-    .lunrsearchresult .title {color: #b91308; line-height: 1.7em; margin-top: 60px;}
-    .lunrsearchresult .url {color: silver;}
-    .lunrsearchresult a {display: block; color: #777;}
-    .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
-    .lunrsearchresult a:hover .title {text-decoration: underline;}
-    @media print, screen and (max-width: 480px) {
-      .lunrsearchresult .title {
-        line-height: 2.0em;
-      }
+
+// AUTOCOMPLETE
+document.getElementById('lunrsearch').addEventListener('input', function () {
+    const query = this.value.trim();
+    const suggestionsContainer = document.getElementById('autocomplete-results');
+    suggestionsContainer.innerHTML = '';
+    suggestionsContainer.style.display = 'none';
+
+    if (query.length < 2) return;
+
+    const results = idx.search(query + '*');
+    if (results.length > 0) {
+        suggestionsContainer.style.display = 'block';
+        results.slice(0, 5).forEach(result => {
+            const doc = documents[result.ref];
+            const item = document.createElement('div');
+            item.className = 'autocomplete-item';
+            item.innerHTML = `<strong>${doc.title}</strong><br><small>${doc.url}</small>`;
+            item.addEventListener('click', () => {
+                window.location.href = doc.url;
+            });
+            suggestionsContainer.appendChild(item);
+        });
     }
+});
+
+document.addEventListener('click', function (e) {
+    const suggestionsContainer = document.getElementById('autocomplete-results');
+    if (!document.getElementById('lunrsearch').contains(e.target)) {
+        suggestionsContainer.style.display = 'none';
+    }
+});
+</script>
+
+<style>
+.lunrsearchresult .title {
+    color: #b91308;
+    line-height: 1.7em;
+    margin-top: 60px;
+}
+
+.lunrsearchresult .url {
+    color: silver;
+}
+
+.lunrsearchresult a {
+    display: block;
+    color: #777;
+}
+
+.lunrsearchresult a:hover,
+.lunrsearchresult a:focus {
+    text-decoration: none;
+}
+
+.lunrsearchresult a:hover .title {
+    text-decoration: underline;
+}
+
+@media print,
+screen and (max-width: 480px) {
+    .lunrsearchresult .title {
+        line-height: 2.0em;
+    }
+}
+
+/* AUTOCOMPLETE STYLES */
+#autocomplete-results {
+    border: 1px solid #ccc;
+    background: white;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+.autocomplete-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+}
+
+.autocomplete-item:hover {
+    background: #f1f1f1;
+}
 </style>
 
-
-
-
-<form class="bd-search hidden-sm-down" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
-<input type="text" class="form-control"  id="lunrsearch" name="q" value="" placeholder="Search" autocomplete="off"> 
+<!-- SEARCH FORM -->
+<form class="bd-search hidden-sm-down" style="position: relative;" onSubmit="return lunr_search(document.getElementById('lunrsearch').value);">
+    <input type="text" class="form-control" id="lunrsearch" name="q" value="" placeholder="Search" autocomplete="off">
+    <div id="autocomplete-results" class="autocomplete-suggestions"></div>
 </form>
+ 
