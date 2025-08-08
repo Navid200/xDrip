@@ -1,5 +1,5 @@
 ## Android Auto Update  
-[xDrip](../README.md) >> [Frequently Asked Questions](./FAQ_page.md) >> Android auto update  
+[xDrip](../) >> [Frequently Asked Questions](./FAQ_page.md) >> Android auto update  
   
 It is recommended to disable Android Auto Update.  
   
