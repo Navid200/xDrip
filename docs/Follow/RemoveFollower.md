@@ -1,5 +1,5 @@
 ## Remove xDrip Sync follower
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Follow](../Follow_page.md) >> Remove xDrip sync follower  
+[xDrip](../../) >> [Features](../Features_page.md) >> [Follow](../Follow_page.md) >> Remove xDrip sync follower  
   
 If you don't want a follower to be able to follow you any longer, you have to disable it on the follower side.  
 If that is not possible, the only remaining way is to change the group security sync key as explained below.  
