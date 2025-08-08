@@ -1,5 +1,5 @@
 ## Trend Arrow
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Display](./Display.md) >> xDrip Trend Arrow  
+[xDrip](../../) >> [Features](../Features_page.md) >> [Display](./Display.md) >> xDrip Trend Arrow  
   
 The xDrip trend arrow is displayed on the main screen to the right of the current reading.  The direction of the arrow indicates the difference between the current reading and the previous one.  You can customize the trend arrow.  
   
