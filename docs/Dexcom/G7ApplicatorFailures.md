@@ -1,5 +1,5 @@
 ## G7 applicator failures  
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> G7 applicator failures  
+[xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> G7 applicator failures  
   
 Read the instructions for using the applicator but do not follow them yet.  
 After removing the cap, look inside the applicator. If you see no adhesive or if the filament is outside the needle, as shown in the images below, the sensor will not work.  
