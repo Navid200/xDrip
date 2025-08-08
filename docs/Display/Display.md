@@ -1,5 +1,5 @@
 ## Display  
-[xDrip](../../README.md) >> [Features](../Features_page) >> Display  
+[xDrip](../../) >> [Features](../Features_page) >> Display  
   
 You can customize what xDrip shows.  
   
