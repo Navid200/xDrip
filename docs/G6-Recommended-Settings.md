@@ -1,6 +1,6 @@
 ---  
 title: Dexcom xDrip Recommended Settings  
-description: "Recommended xDrip settings for Dexcom devices including G6, G7, and One+ collectors to optimize performance and connectivity."  
+description: "Recommended xDrip settings for collection from Dexcom devices including G6, G7, and One+ to optimize performance and connectivity."  
 ---  
   
 ## Dexcom xDrip Recommended Settings  
