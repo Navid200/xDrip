@@ -1,5 +1,5 @@
 ## BlueJay Follower  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Watches](./Watches.md) >> [BlueJay](./Bluejay_page.md) >> BlueJay Follower  
+[xDrip](../) >> [Features](./Features_page.md) >> [Watches](./Watches.md) >> [BlueJay](./Bluejay_page.md) >> BlueJay Follower  
   
 You can have xDrip show readings collected by your BlueJay.  Since BlueJay and xDrip communicate using Bluetooth, your phone and BlueJay need to be close for this to work.  It will not work over the internet.  
 You need to link BlueJay to xDrip using the xDrip BlueJay Admin page.  
