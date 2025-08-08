@@ -1,5 +1,5 @@
 ## AAPS Profile Import Notification
-[xDrip](../README.md) >> [Troubleshooting](./Troubleshooting_page.md) >> AAPS Profile Import Notification  
+[xDrip](../) >> [Troubleshooting](./Troubleshooting_page.md) >> AAPS Profile Import Notification  
   
 Why do I get frequent notifications?  
   
