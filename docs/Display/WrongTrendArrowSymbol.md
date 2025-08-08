@@ -1,5 +1,5 @@
 ## Wrong Trend Arrow Symbol  
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Wrong trend arrow symbol  
+[xDrip](../../) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Wrong trend arrow symbol  
   
 If you use an Infinix phone, you may see an incorrect character for the trend arrow.  
 ![](./images/WrongTrendArrow Symbol.png)  
