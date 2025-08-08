@@ -1,5 +1,5 @@
 ## xDrip Dexcom Intermittent Connectivity
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> xDrip intermittent Connectivity  
+[xDrip](../) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> xDrip intermittent Connectivity  
   
 If you have no connectivity at all, [G6 troubleshooting](./Connectivity-troubleshoot.md) or [G7 troubleshooting](./Dexcom/G7_Troubleshooting.md) may help. This page is intended for cases where you experience intermittent disconnections despite having connectivity and readings.  
   
