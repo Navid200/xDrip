@@ -1,5 +1,5 @@
 ## Variants  
-[xDrip](../README.md) >> [Download & Installation](./Installation_page.md) >> xDrip Variants  
+[xDrip](../) >> [Download & Installation](./Installation_page.md) >> xDrip Variants  
   
 You cannot install multiple instances of xDrip on the same phone. However, xDrip variants have different names, allowing you to install xDrip and one or more variants simultaneously. This effectively enables you to run multiple instances of xDrip on the same device, each for tracking different individuals.   
   
