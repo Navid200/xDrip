@@ -1,5 +1,5 @@
 ## Logs
-[xDrip](../README.md) >> [Features](./Features_page.md) >> xDrip Logs  
+[xDrip](../) >> [Features](./Features_page.md) >> xDrip Logs  
   
 To view the logs, tap the ellipsis (three dots) menu button in the top right corner and choose `View Events Log`.  
 ![](./images/ViewEventLogs.png)  
