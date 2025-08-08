@@ -1,5 +1,5 @@
 ## Google Drive Backup
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Backup](./Backup.md) >> Google Drive Backup  
+[xDrip](../) >> [Features](./Features_page.md) >> [Backup](./Backup.md) >> Google Drive Backup  
   
 To access the Google Drive functions, tap on `Import /Export features` from the top right (3-dot) menu button on the main screen.  
 ![](./Backup/images/ImportExport.png)  
