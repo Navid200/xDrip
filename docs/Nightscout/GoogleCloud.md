@@ -5,7 +5,7 @@ description: "Step‑by‑step guide to setting up Nightscout on Google Cloud us
 ---  
   
 ## Google Cloud Nightscout  
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> Google Cloud Nightscout  
+[xDrip](../../) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> Google Cloud Nightscout  
 <br/>  
 <br/>  
   
