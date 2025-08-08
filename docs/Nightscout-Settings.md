@@ -1,5 +1,5 @@
 ## Nightscout Uploader Settings
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Nightscout](Nightscout_page.md) >> Nightscout Master
+[xDrip](../) >> [Features](./Features_page.md) >> [Nightscout](Nightscout_page.md) >> Nightscout Master
   
 To enable the Nightscout uploader (master), follow these steps:  
   
