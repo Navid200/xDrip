@@ -1,5 +1,5 @@
 ## Removing a G6 transmitter without damaging the sensor
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Remove G6 transmitter  
+[xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Remove G6 transmitter  
   
 Under normal circumstances, after you peel off the sensor with the transmitter inside, you can open the sensor, remove the transmitter and throw away the sensor.  You will not be able to continue to use the sensor then.  
 This guide explains how you can remove the transmitter leaving the sensor intact and still attached to you.  
