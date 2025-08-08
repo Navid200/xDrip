@@ -1,5 +1,5 @@
 ## Disable Collection  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> Disable collection  
+[xDrip](../) >> [Features](./Features_page.md) >> Disable collection  
   
 If you want to stop using xDrip without uninstalling it, you can disable collection. To do this, follow these steps:  
   
