@@ -1,5 +1,5 @@
 ## Notification Channels  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Alerts](./Alerts_page.md) >> Notification Channels  
+[xDrip](../) >> [Features](./Features_page.md) >> [Alerts](./Alerts_page.md) >> Notification Channels  
   
 You can enable notification channels at `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Glucose Alerts Settings` &#8722;> `Notification Channels`.  
 If you do, every alert will create a new Android notification channel (only on Android 8 and +) with specific settings.  
