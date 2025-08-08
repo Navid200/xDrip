@@ -1,5 +1,5 @@
 ## Legend  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> xDrip Legend  
+[xDrip](../) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> xDrip Legend  
   
 You can customize some xDrip colors at: `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `xDrip+ Color Settings`  
   
