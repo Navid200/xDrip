@@ -1,5 +1,5 @@
 ## Dex Status Page
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Dex Status  
+[xDrip](../) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Dex Status  
   
 To get to the status pages, tap on the top left menu button on the main screen and choose "System Status".  
 ![](./images/SysStatDrop.png)  
