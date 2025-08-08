@@ -1,5 +1,5 @@
 ## Desert Sync
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Follow](../Follow_page.md) >> Follow with no internet access  
+[xDrip](../../) >> [Features](../Features_page.md) >> [Follow](../Follow_page.md) >> Follow with no internet access  
   
 You can use xDrip to follow even without internet access (internet desert). However, the follower must be close enough to connect to the master’s hotspot.  
 The master itself does not need internet access.  
