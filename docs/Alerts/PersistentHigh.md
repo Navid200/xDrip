@@ -1,5 +1,5 @@
 ## Persistent High alert
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Persistent High alert  
+[xDrip](../../) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Persistent High alert  
   
 Glucose level alerts notify you when your glucose is either too low or too high. However, it’s not just the current glucose level that matters—how long your glucose remains high is equally important.  
   
