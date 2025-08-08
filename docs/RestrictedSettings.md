@@ -1,5 +1,5 @@
 ## Allow Restricted Settings
-[xDrip](../README.md) >> Allow Restricted Settings  
+[xDrip](../) >> Allow Restricted Settings  
   
 Some features require access to restricted settings on your phone, depending on the Android version.  
 To grant this permission, follow the instructions below:  
