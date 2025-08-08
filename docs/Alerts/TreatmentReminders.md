@@ -1,5 +1,5 @@
 ## Treatment Reminder
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Why do I get treatment reminders?  
+[xDrip](../../) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Why do I get treatment reminders?  
   
 xDrip automatically creates a reminder for a treatment that is more than 1 minute in the future.  
   
