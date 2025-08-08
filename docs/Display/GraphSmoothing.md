@@ -1,5 +1,5 @@
 ## Graph Smoothing  
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Graph smoothing  
+[xDrip](../../) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Graph smoothing  
   
 You can enable a low-pass filter to reduce transients. It is important to note that a low-pass filter will always introduce some degree of delay. Applying this filter to all data, including the current reading, would cause undesirable delays. Therefore, the filter is only applied to older readings and does not affect the current or recent readings. Consequently, it does not impact alert triggers or the data broadcast to Nightscout or AAPS.   
   
