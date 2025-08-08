@@ -1,5 +1,5 @@
 ## xDrip version  
-[xDrip](../README.md) >> [Download & Installation](./Installation_page.md) >> Version  
+[xDrip](../) >> [Download & Installation](./Installation_page.md) >> Version  
   
 To get to the status pages, tap on the top left menu button and choose `System Status`.  
 ![](./images/SysStatDrop.png)  
