@@ -1,5 +1,5 @@
 ## G7 Rapid Reconnect  
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Dexcom G7 once a minute scan  
+[xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Dexcom G7 once a minute scan  
   
 A G7 (or One+) device transmits data every 5 minutes under normal conditions.  
 The following image shows an example:  
