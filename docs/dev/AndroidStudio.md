@@ -1,5 +1,5 @@
 ## Android Studio  
-[xDrip](../../README.md) >> [Development](./dev.md) >> Android Studio  
+[xDrip](../../) >> [Development](./dev.md) >> Android Studio  
   
 [Reference](https://github.com/NightscoutFoundation/xDrip/blob/master/Documentation/Quick_Start.md)  
   
