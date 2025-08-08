@@ -1,5 +1,5 @@
 ## xDrip Time Buttons  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> Time Range  
+[xDrip](../) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> Time Range  
   
 Bring up the [home shelf](./HomeShelf.md).   
   
