@@ -1,5 +1,5 @@
 ## Show backfilled data
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Show backfill  
+[xDrip](../../) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Show backfill  
   
 xDrip can highlight backfilled data points on the main screen.  
 To enable that feature, enable the following setting.  
