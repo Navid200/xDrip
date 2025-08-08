@@ -1,5 +1,10 @@
+---  
+title: xDrip Alerts  
+description: "How to access and configure xDrip alarms and alerts, including glucose level, calibration, missed‑reading, sensor expiry, and custom sound settings."  
+---  
+  
 # xDrip Alerts  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> xDrip Alarms and Alerts  
+[xDrip](../) >> [Features](./Features_page.md) >> xDrip Alarms and Alerts  
   
 To access the alerts page, tap on the top left menu button from the main screen and select `Setting` &#8722;> `Alarms and Alerts`.  
   
