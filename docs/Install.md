@@ -1,5 +1,5 @@
 ## Install xDrip  
-[xDrip](../README.md) >> [Download & Installation](./Installation_page.md) >> Install xDrip  
+[xDrip](../) >> [Download & Installation](./Installation_page.md) >> Install xDrip  
   
 After [downloading](./Download-xDrip.md) the xDrip .apk file, locate it in your file manager and tap on it to start the installation process.  
   
