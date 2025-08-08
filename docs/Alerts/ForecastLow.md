@@ -1,5 +1,5 @@
 ## Forecasted Low alert
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Forecasted Low alert  
+[xDrip](../../) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Forecasted Low alert  
   
 Glucose level alerts notify you when your glucose is too low or too high, but the trend is also crucial. For example, if your glucose level is at 6 (108) with a flat trend, you might not need an alert. However, if your glucose is at the same level but dropping rapidly, an alert could be essential.  
   
