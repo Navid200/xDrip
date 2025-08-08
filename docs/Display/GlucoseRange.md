@@ -1,5 +1,5 @@
 ## Glucose y (vertical) axis range
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Glucose range  
+[xDrip](../../) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Glucose range  
   
 You can adjust the range shown on screen as long as you have no readings that go outside the range.  If you do, the range will extend to show such readings for several hours.  
 <br/>  
