@@ -1,5 +1,5 @@
 ## Automatic Calibration
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Calibration](./Calibration.md) >> Automatic Calibration  
+[xDrip](../) >> [Features](./Features_page.md) >> [Calibration](./Calibration.md) >> Automatic Calibration  
   
 You can enter blood glucose measurements from your blood glucose meter into xDrip to keep records.  
   
