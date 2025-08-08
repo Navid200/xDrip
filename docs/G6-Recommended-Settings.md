@@ -4,7 +4,7 @@ description: "Recommended xDrip settings for collection from Dexcom devices incl
 ---  
   
 ## Dexcom xDrip Recommended Settings  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Dexcom G6, Dexcom One, G7, and One+ collector recommended settings  
+[xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Dexcom G6, Dexcom One, G7, and One+ collector recommended settings  
   
 For optimal performance with xDrip and Dexcom devices, follow these recommended settings:  
   
