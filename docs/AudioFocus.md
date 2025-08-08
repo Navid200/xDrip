@@ -1,5 +1,5 @@
 ## Audio Focus
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Alerts](./Alerts_page.md) >> xDrip Audio Focus  
+[xDrip](../) >> [Features](./Features_page.md) >> [Alerts](./Alerts_page.md) >> xDrip Audio Focus  
   
 Why does music blast my ears when I am listening to music using my headphones and an xDrip alert triggers?  
   
