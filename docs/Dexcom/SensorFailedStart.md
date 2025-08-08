@@ -1,5 +1,5 @@
 ## Sensor failed start  
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Sensor failed start  
+[xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Sensor failed start  
   
 If you start sensor without keeping the transmitter detached for at least 10 minutes, the session you start will stop in about half an hour.  
 You will then see the following on the status page and in the logs.  
