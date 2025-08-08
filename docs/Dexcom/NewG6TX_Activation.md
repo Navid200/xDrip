@@ -1,6 +1,6 @@
 ## New G6 or Dexcom One transmitter activation  
 
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> New G6 or Dexcom One transmitter activation    
+[xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> New G6 or Dexcom One transmitter activation    
   
 When you first receive a new G6 or Dexcom One transmitter, it must be activated before it can be used with xDrip, any other app, or a Dexcom receiver. This activation process helps minimize the transmitter's power consumption while it is still in the box.  
   
