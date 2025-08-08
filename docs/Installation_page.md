@@ -1,5 +1,5 @@
 # Download & Installation  
-[xDrip](../README.md) >> xDrip Download & Installation  
+[xDrip](../) >> xDrip Download & Installation  
   
 We provide xDrip for your use, but please note that we cannot offer any warranties. You assume responsibility for any outcomes from using the app.  
   
