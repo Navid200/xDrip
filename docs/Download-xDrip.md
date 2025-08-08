@@ -1,3 +1,8 @@
+---  
+title: Download xDrip  
+description: "Instructions for downloading xDrip: where to get the stable and nightly APK builds and how to choose the correct file."  
+---  
+  
 ## Download xDrip  
 [xDrip](../README.md) >> [Download & Installation](./Installation_page.md) >> Download xDrip  
 <br/>  
