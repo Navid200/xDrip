@@ -1,3 +1,8 @@
+---  
+title: xDrip & Dexcom  
+description: "Comprehensive guide to using xDrip with Dexcom devices, including setup, supported CGMs, compatibility tips, and medical usage advisory."  
+---  
+  
 # xDrip and Dexcom  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> xDrip & Dexcom  
   
