@@ -1,5 +1,5 @@
 ## Session in progress  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Session in progress  
+[xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Session in progress  
   
 If you have a Dexcom session already running that was started using another phone, app, or medical device, and you want to access and control it using xDrip, you can do so easily. You don’t need to start a new session or reinitialize the existing sensor.     
 <br/>  
