@@ -1,5 +1,5 @@
 ## Transmitter Lifetime
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Transmitter Lifetime  
+[xDrip](../) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Transmitter Lifetime  
   Transmitter Days  
   
 You can hard reset an old G6 if its firmware is 1.6.5.25 or older.  
