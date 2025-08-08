@@ -1,5 +1,5 @@
 ## G6 Bluetooth Slots
-[xDrip](../README.md) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> G6 Bluetooth Slots  
+[xDrip](../) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> G6 Bluetooth Slots  
 
 **<span style="color:red">WARNING</span>**  
 This feature was added and placed behind engineering mode for verification before being offered as a feature.  
