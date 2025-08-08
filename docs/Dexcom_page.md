@@ -4,7 +4,7 @@ description: "Comprehensive guide to using xDrip with Dexcom devices, including 
 ---  
   
 # xDrip and Dexcom  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> xDrip & Dexcom  
+[xDrip](../) >> [Features](./Features_page.md) >> xDrip & Dexcom  
   
 If you use xDrip with a Dexcom device, this page provides information that may be helpful.  
   
