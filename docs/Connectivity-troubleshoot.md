@@ -1,5 +1,5 @@
 ## Dexcom G6 or One Connectivity troubleshooting
-[xDrip](../README.md) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Dexcom G6 Connectivity troubleshooting  
+[xDrip](../) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Dexcom G6 Connectivity troubleshooting  
   
 * Start with [recommended settings](./G6-Recommended-Settings.md).  
   
