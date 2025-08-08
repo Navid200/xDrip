@@ -1,5 +1,5 @@
 ## Hardware Data Source
-[xDrip](../README.md) >> [Features](./Features_page.md) >> xDrip Hardware data source  
+[xDrip](../) >> [Features](./Features_page.md) >> xDrip Hardware data source  
   
 A very important xDrip settings page is `Settings` &#8722;> `Hardware Data Source`.  
   
