@@ -4,7 +4,7 @@ description: "Common questions and answers about installing, using, and troubles
 ---  
   
 # xDrip Frequently Asked Questions  
-[xDrip](../README.md) >> xDrip Frequently Asked Questions  
+[xDrip](../) >> xDrip Frequently Asked Questions  
   
 #### **What**
 #### [What can I do to avoid database corruption?](./Issues/DatabaseCorruption.md)
