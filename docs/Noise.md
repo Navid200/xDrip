@@ -1,5 +1,5 @@
 ## Noise
-[xDrip](../README.md) >> [FAQ](./FAQ_page.md) >> Noise  
+[xDrip](../) >> [FAQ](./FAQ_page.md) >> Noise  
 
 As a sensor ages, its accuracy diminishes, and its correlation with interstitial fluid glucose deteriorates. Noise refers to the rapid, oscillatory fluctuations in readings caused by sensor malfunction, rather than true variations in your blood glucose levels.  
   
