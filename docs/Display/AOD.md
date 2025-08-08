@@ -1,5 +1,5 @@
 ## Always-on Display
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Display](./Display.md) >> xDrip Always-on display    
+[xDrip](../../) >> [Features](../Features_page.md) >> [Display](./Display.md) >> xDrip Always-on display    
   
 If your phone supports an always-on display (AOD), you can configure it to show the xDrip widget on the screen while the phone is in sleep mode.  
 
