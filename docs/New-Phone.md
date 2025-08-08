@@ -1,5 +1,5 @@
 ## Transfer to a new phone  
-[xDrip](../README.md) >> [Download & Installation](./Installation_page.md) >> Transfer to a new phone  
+[xDrip](../) >> [Download & Installation](./Installation_page.md) >> Transfer to a new phone  
   
 Be very careful. xDrip cannot import a database; it can only restore one. This means that when restoring a database, xDrip will replace the existing one, effectively deleting all current data and replacing it with the restored database.   
   
