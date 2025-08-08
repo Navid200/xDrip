@@ -1,5 +1,5 @@
 ## Support
-[xDrip](../README.md) >> xDrip Support  
+[xDrip](../) >> xDrip Support  
   
 ### **Request for Help**  
 If you need assistance with xDrip, please post in [discussions](https://github.com/NightscoutFoundation/xDrip/discussions). When creating your initial post, include the following information:  
