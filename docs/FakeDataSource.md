@@ -1,5 +1,5 @@
 ## Fake or Mock Data Source (Advanced)
-[xDrip](../README.md) >> [Features](./Features_page.md) >> Fake/Mock Data Source  
+[xDrip](../) >> [Features](./Features_page.md) >> Fake/Mock Data Source  
   
 Have you ever wanted to test something in xDrip, but, didn't want to use a sensor for it?  
 You can.  xDrip has a fake data source.  
