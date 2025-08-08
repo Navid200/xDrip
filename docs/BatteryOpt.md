@@ -1,5 +1,5 @@
 ## xDrip Battery Optimization
-[xDrip](../README.md) >> [Download & Installation](./Installation_page.md) >> xDrip Battery optimization  
+[xDrip](../) >> [Download & Installation](./Installation_page.md) >> xDrip Battery optimization  
   
 If you use xDrip as your collector, the app that receives readings from the sensor, you need to disable battery optimization for xDrip on your phone.  
   
