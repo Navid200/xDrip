@@ -1,3 +1,8 @@
+---  
+title: Update xDrip  
+description: "How to update xDrip using internal update, choose between Nightly, Alpha, Beta, or Stable channels, and preserve data during version changes."  
+---  
+  
 ## Update xDrip  
 [xDrip](../README.md) >> [Features](./Features_page.md) >> Update xDrip    
   
