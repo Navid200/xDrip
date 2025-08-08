@@ -1,5 +1,5 @@
 ## xDrip more settings  
-[xDrip](../../README.md) >> [Settings](../Settings.md) >> More settings or vertical ellipsis menu or 3 dots menu  
+[xDrip](../../) >> [Settings](../Settings.md) >> More settings or vertical ellipsis menu or 3 dots menu  
 <br/>  
   
 Some controls are under the vertical ellipsis menu.  
