@@ -1,5 +1,5 @@
 ## xDrip does not install  
-[xDrip](../README.md) >> [Troubleshooting](./Troubleshooting_page.md) >> xDrip does not install  
+[xDrip](../) >> [Troubleshooting](./Troubleshooting_page.md) >> xDrip does not install  
   
 You can download xDrip as explained [here](./Download-xDrip.md).  
 You can install any version of xDrip over your existing version as long as they are both official versions.  
