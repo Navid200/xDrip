@@ -1,5 +1,5 @@
 ## Starting a subsequent G7 or One+  
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Starting a subsequent Dexcom G7 or One+  
+[xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Starting a subsequent Dexcom G7 or One+  
   
 This guide outlines the recommended steps for starting your next device after you’ve been using one already.  
 If you are starting a G7 or One+ for the first time, refer to the instructions [here](./G7.md).  
