@@ -1,5 +1,5 @@
 ## xDrip Settings
-[xDrip](../README.md) >> Settings  
+[xDrip](../) >> Settings  
 <br/>  
   
 This page provides an overview of all settings available in xDrip. The settings are organized into the following menus:  
