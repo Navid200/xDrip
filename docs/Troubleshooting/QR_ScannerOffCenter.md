@@ -1,5 +1,5 @@
 ## Auto Configure Camera "QR Scanner" Not Working
-[xDrip](../../README.md) >> [Troubleshooting](../Troubleshooting_page.md) >> QR Scanner does not work  
+[xDrip](../../) >> [Troubleshooting](../Troubleshooting_page.md) >> QR Scanner does not work  
   
 Is the scan viewport appearing off-center, like in the image below?    
 ![](./images/OffCenterScanner.png)  
