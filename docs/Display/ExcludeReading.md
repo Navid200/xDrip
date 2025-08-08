@@ -1,5 +1,5 @@
 ## Exclude a reading
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Exclude an xDrip reading - mark a reading as bad - bad reading  
+[xDrip](../../) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Exclude an xDrip reading - mark a reading as bad - bad reading  
   
 You can mark a reading, in xDrip, as a bad reading and exclude it from xDrip statistics.  
   
