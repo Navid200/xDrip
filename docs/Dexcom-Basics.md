@@ -1,5 +1,5 @@
 ## xDrip Dexcom Basics
-[xDrip](../README.md) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> xDrip Dexcom Basics  
+[xDrip](../) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> xDrip Dexcom Basics  
 
 Even if you don't use xDrip, some of these are still relevant.  
   
