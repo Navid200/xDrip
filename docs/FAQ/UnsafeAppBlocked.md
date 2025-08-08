@@ -1,5 +1,5 @@
 ## Unsafe app blocked
-[xDrip](../../README.md) >> [FAQ](../FAQ_page.md) >> Why Do I Get the "Unsafe App Blocked" Message?  
+[xDrip](../../) >> [FAQ](../FAQ_page.md) >> Why Do I Get the "Unsafe App Blocked" Message?  
   
 When attempting to install xDrip, you may encounter the following message:    
 ![](../images/UnsafeAppBlocked1.png)  
