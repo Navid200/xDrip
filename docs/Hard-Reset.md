@@ -1,5 +1,5 @@
 ## Hard Reset (Advanced)  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Hard Reset  
+[xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Hard Reset  
   
 Warning: This action cannot be undone. Ensure you really need to perform a hard reset before proceeding.  
   
