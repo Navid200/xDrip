@@ -1,5 +1,5 @@
 # xDrip and Nightscout  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> xDrip and Nightscout  
+[xDrip](../) >> [Features](./Features_page.md) >> xDrip and Nightscout  
   
 Nightscout can serve as a repository for all your xDrip readings. This is crucial for creating comprehensive reports for your endocrinologist and for tracking how your glucose control changes over time. Without a repository, your readings are only stored on your phone, posing a risk if you lose or damage your device.    
   
