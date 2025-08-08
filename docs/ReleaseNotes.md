@@ -4,7 +4,7 @@ description: "Stay up to date with the latest changes and improvements in xDrip.
 ---  
   
 ## xDrip Release Notes  
-[xDrip](../README.md) >> xDrip Release Notes  
+[xDrip](../) >> xDrip Release Notes  
   
 Major xDrip releases are listed below with brief descriptions. Tap on a release to access a page where you can download it.  
   
@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.08.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.08.08) | Compact ongoing notification |  
 | [2025.07.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.07.25) | Nightscout sensor age improvement for G7 - Carb entry fix - Reminder cleanup |  
 | [2025.07.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.07.16) | Libre 2+ sensor age - no follower cal except xSync - follower chime menu - notification logs |  
 | [2025.07.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.07.04) | Dex share follow 24-hour backfill |  
