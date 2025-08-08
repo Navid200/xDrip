@@ -1,5 +1,5 @@
 ## How strong is the transmitter signal?
-[xDrip](../README.md) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Scanner  
+[xDrip](../) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Scanner  
   
 If the transmitter is not transmitting, you won’t be able to use it, regardless of how you set up xDrip.  Sometimes, it may be necessary to verify whether the transmitter is functioning. You can use a Bluetooth scanner for this purpose. It’s best to use a scanner that scans continuously rather than one that stops after a minute or so. At the time of writing this, the following app meets that requirement:  
 [BLE Scanner](https://play.google.com/store/apps/details?id=com.macdom.ble.blescanner)  
