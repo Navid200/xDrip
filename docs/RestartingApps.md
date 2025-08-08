@@ -1,5 +1,5 @@
 ## xDrip causes other apps to restart
-[xDrip](../README.md) >> [Troubleshooting](./Troubleshooting_page.md) >> xDrip causes other apps to restart  
+[xDrip](../) >> [Troubleshooting](./Troubleshooting_page.md) >> xDrip causes other apps to restart  
   
 If you experience this, and have Android 12 on your phone, please update to Android 13.  
   
