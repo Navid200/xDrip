@@ -1,5 +1,5 @@
 ## xDrip Sync not working
-[xDrip](../README.md) >> [Troubleshooting](./Troubleshooting_page.md) >> xDrip Sync not working  
+[xDrip](../) >> [Troubleshooting](./Troubleshooting_page.md) >> xDrip Sync not working  
   
 Ensure you are using the stable release of xDrip or a later version.  
 Instructions for setting up xDrip Sync can be found [here](./xDripSync.md).  
