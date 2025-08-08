@@ -1,5 +1,5 @@
 ## G6 transmitter Warranty
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> G6 transmitter warranty  
+[xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> G6 transmitter warranty  
   
 A transmitter is under warranty if two conditions are satisfied:  
 
