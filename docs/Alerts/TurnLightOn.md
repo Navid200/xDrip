@@ -1,5 +1,5 @@
 ## Turn light on for alert
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Turn a light on for an alert  
+[xDrip](../../) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Turn a light on for an alert  
   
 xDrip can activate the phone's flashlight to strobe for an alert while the phone is charging.  
 To enable this feature, enable:  
