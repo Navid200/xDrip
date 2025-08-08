@@ -1,5 +1,5 @@
 ## Calibrate G6 or Dexcom ONE  
-[xDrip](../README.md) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Calibrate G6 or Dexcom ONE with xDrip  
+[xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Calibrate G6 or Dexcom ONE with xDrip  
   
 See [Calibration](./Calibration.md) for details about what calibration is and when and why you should calibrate.  
 
