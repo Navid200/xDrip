@@ -4,7 +4,7 @@ description: "Troubleshooting guide for Dexcom G7 issues with xDrip, including p
 ---  
   
 ## G7, One+ or Stelo Troubleshooting  
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Dexcom G7, One+ or Stelo troubleshooting  
+[xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Dexcom G7, One+ or Stelo troubleshooting  
 <br/>  
   
 If you are using xDrip to directly collect readigns from G7, but are not receiving data, follow these steps in order:  
