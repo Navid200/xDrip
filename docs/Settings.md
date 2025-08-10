@@ -1,3 +1,14 @@
+---
+title: "xDrip Settings Overview"
+description: "Explore all configurable settings in xDrip, including main settings, ellipsis menu options, home shelf customization, advanced voice commands, transfer settings, and QR code scanning."
+---
+  
+## xDrip Settings
+
+This page provides an overview of all settings available in xDrip. The settings are organized into the following menus:  
+...  
+  
+  
 ## xDrip Settings
 [xDrip](../) >> Settings  
 <br/>  
