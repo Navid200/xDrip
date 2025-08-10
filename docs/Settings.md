@@ -4,12 +4,6 @@ description: "Explore all configurable settings in xDrip, including main setting
 ---
   
 ## xDrip Settings
-
-This page provides an overview of all settings available in xDrip. The settings are organized into the following menus:  
-...  
-  
-  
-## xDrip Settings
 [xDrip](../) >> Settings  
 <br/>  
   
