@@ -1,3 +1,8 @@
+---
+title: "Disable Collection in xDrip"
+description: "Learn how to temporarily stop data collection in xDrip by disabling the hardware data source, and how to re-enable it when needed."
+---
+  
 ## Disable Collection  
 [xDrip](../) >> [Features](./Features_page.md) >> Disable collection  
   
