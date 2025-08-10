@@ -1,3 +1,8 @@
+---
+title: "xDrip and Nightscout Integration"
+description: "Learn how xDrip uses Nightscout as a repository for your glucose readings—ideal for backups, endocrinologist reports, and sharing with followers."
+---
+  
 # xDrip and Nightscout  
 [xDrip](../) >> [Features](./Features_page.md) >> xDrip and Nightscout  
   
