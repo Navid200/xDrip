@@ -1,3 +1,8 @@
+---
+title: "xDrip Companion App Mode"
+description: "Learn how to receive glucose readings in xDrip via the Companion App Mode, using notification access from apps like CamAPS or the Dexcom app without requiring internet connectivity."
+---
+  
 ## Companion App Mode
 [xDrip](../../) >> [Features](../Features_page.md) >> xDrip Companion App mode  
   
