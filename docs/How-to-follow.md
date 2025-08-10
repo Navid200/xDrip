@@ -1,3 +1,8 @@
+---
+title: "Comparison of xDrip Follower Options"
+description: "Explore the differences between xDrip Sync, Nightscout Follower, Dex Share Follower, and Web Follower modes to determine the best setup for your glucose monitoring needs."
+---
+  
 ## Comparison of follower schemes  
 [xDrip](../) >> [Features](./Features_page.md) >> [Follow](./Follow_page.md) >> Comparison of xDrip follower schemes  
   
