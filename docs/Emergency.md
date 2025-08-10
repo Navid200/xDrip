@@ -1,3 +1,8 @@
+---
+title: "Emergency Messages in xDrip"
+description: "Learn how to configure xDrip to automatically send emergency text messages when needed, using the Emergency Messages feature."
+---
+  
 ## Emergency Messages
 [xDrip](../) >> [Features](./Features_page.md) >> Emergency Message  
   
