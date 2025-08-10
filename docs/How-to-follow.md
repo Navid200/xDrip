@@ -16,8 +16,5 @@ These are the [follower instructions](./Follow/FollowNightscout.md).
 This is an option if the master must be a Dexcom app.  
   
 On the follower, tap on `Settings` &#8722;> `Hardware Data Source` &#8722;> `Dex Share Follower`.  
-<br/>    
-  
-### **[Web Follower](./Libre3_Follow.md)** (needs internet)  
-If you use Libre 3, you can use this option to have readings in xDrip.  
+<br/>  
   
