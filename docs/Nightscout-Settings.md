@@ -1,3 +1,8 @@
+---
+title: "Configure Nightscout Uploader in xDrip"
+description: "Step-by-step guide to enable and configure the Nightscout REST-API uploader in xDrip, including setup of the Base URL, API secret, and options for multi-site upload."
+---
+  
 ## Nightscout Uploader Settings
 [xDrip](../) >> [Features](./Features_page.md) >> [Nightscout](Nightscout_page.md) >> Nightscout Master
   
