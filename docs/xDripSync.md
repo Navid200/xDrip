@@ -1,3 +1,8 @@
+---
+title: "xDrip Sync Follow Setup"
+description: "Step-by-step instructions for configuring xDrip Sync between a master phone and follower devices, including QR-code and manual setup options, and enabling xDrip Cloud."
+---
+  
 ## xDrip Sync Follow  
 [xDrip](../) >> [Features](./Features_page.md) >> [Follow](./Follow_page.md) >> [How to follow with xDrip](./How-to-follow.md) >> xDrip Sync  
   
