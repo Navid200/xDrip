@@ -1,4 +1,4 @@
-## Why do I get a notification for each reading?
+# Why do I get a notification for each reading?
 [xDrip](../) >> [FAQ](./FAQ_page.md) >> xDrip notification for each reading  
   
 xDrip needs its persistent notification to be active to work properly.  
