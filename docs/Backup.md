@@ -3,7 +3,7 @@ title: "Backup and Export in xDrip"
 description: "Learn how to back up your xDrip data and settings using features like Google Drive backup, legacy database export, settings copy, and transfer to a new phone."
 ---
   
-## Backup
+# Backup
 [xDrip](../) >> [Features](./Features_page.md) >> xDrip Backup  
   
 You can access xDrip's backup functions from the top right menu button under `Import /Export featurets`.  
