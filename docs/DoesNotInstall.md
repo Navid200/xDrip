@@ -1,3 +1,8 @@
+---
+title: "Troubleshoot xDrip Installation Errors"
+description: "Find out why xDrip might fail to install when an unofficial version is present, and how to back up and restore your data before installing the official build."
+---
+  
 ## xDrip does not install  
 [xDrip](../) >> [Troubleshooting](./Troubleshooting_page.md) >> xDrip does not install  
   
