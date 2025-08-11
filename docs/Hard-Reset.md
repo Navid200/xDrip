@@ -6,8 +6,6 @@ description: "Learn how to perform a hard reset on Dexcom G6 transmitters in xDr
 # Hard Reset  
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Hard Reset  
   
-Warning: This action cannot be undone. Ensure you really need to perform a hard reset before proceeding.  
-  
 Disable [engineering mode](./Engineering-Mode.md). Engineering mode is not required for a hard reset.   
   
 G6 can be hard reset using xDrip if the firmware version is 1.6.5.25 or earlier. Transmitters with newer firmware cannot be hard reset without modifications.  
