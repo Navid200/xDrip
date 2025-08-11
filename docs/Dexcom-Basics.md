@@ -1,4 +1,4 @@
-## xDrip Dexcom Basics
+# xDrip Dexcom Basics
 [xDrip](../) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> xDrip Dexcom Basics  
 
 Even if you don't use xDrip, some of these are still relevant.  
