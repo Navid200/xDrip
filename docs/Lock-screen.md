@@ -1,4 +1,9 @@
-## Lock Screen
+---
+title: "xDrip Lock Screen Display Setup"
+description: "Learn how to configure xDrip+ to display your blood glucose readings on your Android device's lock screen."
+---
+  
+# Lock Screen
 [xDrip](../) >> [Display](./Display/Display.md) >> Lock screen  
   
 You can set xDrip to show your blood glucose on screen as well as an image as the lock screen when the phone is not being charged.  
