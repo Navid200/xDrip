@@ -1,4 +1,9 @@
-## xDrip Dexcom Intermittent Connectivity
+---
+title: "xDrip Dexcom Intermittent Connectivity"
+description: "Troubleshoot and resolve intermittent Bluetooth disconnections in xDrip when collecting from Dexcom sensors."
+---
+  
+# xDrip Dexcom Intermittent Connectivity
 [xDrip](../) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> xDrip intermittent Connectivity  
   
 If you have no connectivity at all, [G6 troubleshooting](./Connectivity-troubleshoot.md) or [G7 troubleshooting](./Dexcom/G7_Troubleshooting.md) may help. This page is intended for cases where you experience intermittent disconnections despite having connectivity and readings.  
