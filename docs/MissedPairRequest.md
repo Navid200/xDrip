@@ -1,4 +1,9 @@
-## How to trigger a pair request
+---
+title: "xDrip Missed Pair Request Troubleshooting"
+description: "Step-by-step guide to manually trigger a pair request for Dexcom transmitters in xDrip, ensuring connectivity."
+---
+  
+# How to trigger a pair request
 [xDrip](../) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Pair Request with xDrip  
   
 Tap on `Settings` &#8722;> `Dexcom Transmitter ID`.  
