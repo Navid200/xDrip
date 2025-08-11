@@ -1,4 +1,4 @@
-## Delete Treatment
+# Delete Treatment
 [xDrip](../) >> [FAQ](./FAQ_page.md) >> Delete xDrip treatment  
   
 If you’ve entered a treatment (such as insulin, carbs, or a blood glucose measurement) and it appears on the screen (e.g., insulin in this case), follow these steps to delete it:  
