@@ -1,4 +1,4 @@
-## Bluetooth Battery Optimization
+# Bluetooth Battery Optimization
 [xDrip](../) >> [Download & Installation](./Installation_page.md) >> xDrip Bluetooth Battery optimization  
   
 If you use xDrip as your collector—the app that receives readings from the sensor—you need to disable battery optimization for Bluetooth on your phone.  
