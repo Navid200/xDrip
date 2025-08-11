@@ -1,4 +1,9 @@
-## Native Algorithm
+---
+title: "xDrip Native Algorithm"
+description: "Understand how the xDrip native algorithm uses transmitter-side calibration vs non-native mode raw-value processing; includes mode comparison, limitations, and future deprecation notice."
+---
+  
+# Native Algorithm
 [xDrip](../) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Native Algorithm  
   
 When we use the native algorithm, the transmitter maintains the [calibration formula](./Calibration.md).  In non-native mode, xDrip maintains the formula using raw values that are also transmitted by the transmitter.  The non-native mode is only possible if the transmitter transmits raw values as well.  
