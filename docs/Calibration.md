@@ -1,4 +1,4 @@
-## Calibration  
+# Calibration  
 [xDrip](../) >> [Features](./Features_page.md) >> xDrip Calibration  
   
 ### **What is Calibration**  
