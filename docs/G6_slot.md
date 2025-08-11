@@ -1,4 +1,9 @@
-## G6 Bluetooth Slots
+---
+title: "Dexcom G6 Bluetooth Slot Selection in xDrip"
+description: "Understand how to change the Dexcom G6 transmitter slot in xDrip using Engineering Mode, and why this option is not recommended due to potential risks."
+---
+  
+# G6 Bluetooth Slots
 [xDrip](../) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> G6 Bluetooth Slots  
 
 **<span style="color:red">WARNING</span>**  
