@@ -1,4 +1,4 @@
-## Android Auto Update  
+# Android Auto Update  
 [xDrip](../) >> [Frequently Asked Questions](./FAQ_page.md) >> Android auto update  
   
 It is recommended to disable Android Auto Update.  
