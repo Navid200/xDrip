@@ -1,3 +1,8 @@
+---
+title: "Download & Install xDrip"
+description: "Comprehensive guide to downloading, installing, and updating xDrip on Android devices. Learn how to handle APK installations, manage permissions, and update from different repositories."
+---
+  
 # Download & Installation  
 [xDrip](../) >> xDrip Download & Installation  
   
