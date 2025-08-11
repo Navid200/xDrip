@@ -1,4 +1,4 @@
-## Transmitter Battery condition
+# Transmitter Battery condition
 [xDrip](../) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Transmitter Battery  
   
 It's not advisable to keep a replacement transmitter in storage, as the battery degrades over time even if it’s not in use.  In fact, if you look at the transmitter (or G7/One+) box, you’ll find two different dates printed on it: the manufacture date and the date the manufacturer considers the device to be too old. This is due to the expected lifespan of the battery.  
