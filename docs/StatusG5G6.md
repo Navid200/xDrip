@@ -1,3 +1,8 @@
+---
+title: "Dexcom System Status in xDrip"
+description: "Learn how to access and interpret the Dexcom system status page in xDrip—view transmitter ID, connection info, and status details for G6/G7/One/One+/Stelo sensors."
+---
+  
 ## Dex Status Page
 [xDrip](../) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Dex Status  
   
