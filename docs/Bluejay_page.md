@@ -1,4 +1,4 @@
-## BlueJay  
+# BlueJay  
 [xDrip](../) >> [Features](./Features_page.md) >> [Watches](./Watches.md) >> BlueJay
   
 BlueJay is a watch that can collect directly from G5 or G6.  
