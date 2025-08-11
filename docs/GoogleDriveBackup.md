@@ -1,4 +1,9 @@
-## Google Drive Backup
+---
+title: "Google Drive Backup in xDrip"
+description: "Learn how to back up your xDrip data to Google Drive—enable cloud backup, choose manual or automatic backups, and secure your settings and database in one encrypted file."
+---
+  
+# Google Drive Backup
 [xDrip](../) >> [Features](./Features_page.md) >> [Backup](./Backup.md) >> Google Drive Backup  
   
 To access the Google Drive functions, tap on `Import /Export features` from the top right (3-dot) menu button on the main screen.  
