@@ -3,7 +3,7 @@ title: "Ascending Volume Profile in xDrip"
 description: "Learn how the Ascending Volume Profile feature in xDrip gradually increases alert volume over time, with settings for delay and maximum volume."
 ---
   
-## Ascending Volume Profile  
+# Ascending Volume Profile  
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip Alerts](./Alerts_page.md) >> xDrip Ascending Volume Profile  
   
 Try the ascending volume profile if you haven't already.  
