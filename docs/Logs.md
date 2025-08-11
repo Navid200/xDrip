@@ -1,3 +1,8 @@
+---
+title: "xDrip Logs"
+description: "Learn how to access and manage the Error & Event log in xDrip, view different log categories, save logs to a file, and safely share them without exposing sensitive data."
+---
+  
 ## Logs
 [xDrip](../) >> [Features](./Features_page.md) >> xDrip Logs  
   
