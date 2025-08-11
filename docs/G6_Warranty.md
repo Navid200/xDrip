@@ -1,4 +1,9 @@
-## G6 transmitter Warranty
+---
+title: "Dexcom G6 Transmitter Warranty Guidelines"
+description: "Learn how the Dexcom G6 transmitter warranty works."
+---
+  
+# G6 transmitter Warranty
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> G6 transmitter warranty  
   
 A transmitter is under warranty if two conditions are satisfied:  
