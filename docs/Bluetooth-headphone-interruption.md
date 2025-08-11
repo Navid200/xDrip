@@ -1,4 +1,4 @@
-##  Bluetooth headphone interruption
+#  Bluetooth headphone interruption
 [xDrip](../) >> [Troubleshooting](./Troubleshooting_page.md) >> Bluetooth headphone interruption  
   
 It is reported that this is caused by Roku.  
