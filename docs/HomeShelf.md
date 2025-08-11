@@ -1,4 +1,9 @@
-## Home shelf
+---
+title: "Using the Home Shelf in xDrip"
+description: "Access and use the Home Shelf in xDrip by long-pressing the main screen icon—it provides quick access to essential tools like sensor expiry, collector status, time buttons, source wizard, and more."
+---
+  
+# Home shelf
 [xDrip](../) >> [Settings](./Settings.md) >> Home shelf  
   
 Some settings can only be accessed on the home shelf.  Those are:  
