@@ -1,3 +1,8 @@
+---
+title: "xDrip Version Status"
+description: "Learn how to view your installed xDrip version via the System Status page, using the Classic Status Page for version information."
+---
+  
 ## xDrip version  
 [xDrip](../) >> [Download & Installation](./Installation_page.md) >> Version  
   
