@@ -1,4 +1,9 @@
-## Bugs & Feature Requests  
+---
+title: "xDrip Issues & Feature Requests"
+description: "Report issues or suggest features for xDrip. View a list of known bugs and feature requests, including their status and GitHub links."
+---
+  
+# Issues & Feature Requests  
 [xDrip](../) >> xDrip bugs and feature requests  
   
 If you are experiencing a problem with xDrip, please start [here](https://navid200.github.io/xDrip/docs/Troubleshooting_page.html).  
