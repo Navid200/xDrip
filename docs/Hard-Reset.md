@@ -1,4 +1,9 @@
-## Hard Reset (Advanced)  
+---
+title: "xDrip Hard Reset Transmitter (Advanced)"
+description: "Learn how to perform a hard reset on Dexcom G6 transmitters in xDrip—resetting the day count to zero when firmware is 1.6.5.25 or older, and why it carries risks."
+---
+  
+# Hard Reset (Advanced)  
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Hard Reset  
   
 Warning: This action cannot be undone. Ensure you really need to perform a hard reset before proceeding.  
