@@ -1,4 +1,4 @@
-## Copying settings  
+# Copying settings  
 [xDrip](../) >> [Settings](./Settings.md) >> Copying settings  
   
 To save or copy settings use `Show Settings QR codes` or `Load/Save settings` under xDrip `Settings` from the main menu.  
