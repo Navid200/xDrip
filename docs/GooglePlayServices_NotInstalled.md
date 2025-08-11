@@ -1,4 +1,9 @@
-## Google Play Services Not Installed
+---
+title: "Google Play Services Not Installed"
+description: "Learn how to continue using xDrip without Google Play Services by disabling all sync features under xDrip+ Sync settings."
+---
+  
+# Google Play Services Not Installed
 [xDrip](../) >> [Troubleshooting](./Troubleshooting_page.md) >> Google Play Services Not Installed  
 xDrip without Google Play Services  
   
