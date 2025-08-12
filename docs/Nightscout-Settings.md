@@ -10,7 +10,7 @@ To enable the Nightscout uploader (master), follow these steps:
   
 1- Go to `Settings` &#8722;> `Cloud Upload` &#8722;> `Nightscout Sync (REST-API)`.  
   
-![](./images/NightscoutPage.png)  
+![NightscoutPage](./images/NightscoutPage.png)  
 
 2- At the top of the page, enable the function.  
   
