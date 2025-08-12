@@ -17,6 +17,6 @@ Your readings will start after the warm up and will be significantly higher than
    - You will see logs containing "Received backfill packet out of sequence", which you can ignore.  
 
    - The following image shows how two consecutive calibrations were used to bring the readings close enough to the correct values after a restart.  
-![](./images/cal-rstrt.png)  
+![cal-rstrt](./images/cal-rstrt.png)  
 
    - You should continue to check with your blood glucose meter occasionally and make calibrations if needed.  
