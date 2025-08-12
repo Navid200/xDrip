@@ -1,4 +1,4 @@
-## Starting a subsequent G7 or One+  
+# Starting a subsequent G7 or One+  
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Starting a subsequent Dexcom G7 or One+  
   
 This guide outlines the recommended steps for starting your next device after you’ve been using one already.  
@@ -9,7 +9,7 @@ If you are starting a G7 or One+ for the first time, refer to the instructions [
   
 #### **Starting a New Device**  
 When the status page shows 10 days for transmitter days or when the optional sensor expiry notification on the main screen indicates that the sensor will expire in about 12 hours, insert a new sensor following the section titled “Starting the Sensor” [here](./G7.md).    
-![](./images/G7EndsIn.png)  
+![G7EndsIn](./images/G7EndsIn.png)  
   
 You can use a secondary phone (different from your main xDrip phone) or a [variant](../Variants.md) to establish connectivity with your new device and confirm that it is working. To do so, follow the instructions under the heading “Establishing Connectivity” [here](./G7.md) using the secondary phone or the variant.  
   
