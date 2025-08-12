@@ -7,7 +7,8 @@ description: "How to update xDrip using internal update, choose between Nightly,
 [xDrip](../) >> [Features](./Features_page.md) >> Update xDrip    
   
 **<span style="color:red">Do not uninstall</span>**  
-If you uninstall, you will lose all your old readings. Fortunately, you don’t need to uninstall xDrip to update; you can install a different version over your existing installation.   
+You can update xDrip by simply installing a new version over the current one—there's no need to uninstall the old version first.  
+While xDrip does not have an automatic update feature, you can manually check for updates within the app. You can also opt to receive notifications when an update is available.  
 <br/>  
   
 ---  
