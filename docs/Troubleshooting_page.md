@@ -10,7 +10,6 @@ If you're experiencing issues with xDrip, check the list below for potential pro
 #### [Dexcom transmitter does not connect](./Connectivity-troubleshoot.md)
 #### [Dexcom transmitter keeps disconnecting](./Intermittent.md)
 #### [Android update & disconnects](./FAQ/AndroidUpdate.md)
-#### [Why do I get xDrip imported AAPS profile pop-up?](./AAPS_ProfileImportNotification.md)
 #### [Bluetooth headphone interruption](./Bluetooth-headphone-interruption.md)
 #### [Alert re-raise malfunction](./Alert-re‐raise-malfunction.md)
 #### [xDrip sync not working](./xDrip-Sync-not-working.md)
