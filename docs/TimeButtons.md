@@ -1,10 +1,10 @@
-## xDrip Time Buttons  
+# xDrip Time Buttons  
 [xDrip](../) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> Time Range  
   
 Bring up the [home shelf](./HomeShelf.md).   
   
 On it, enable `Show Time Buttons`.  Now, you will see something like this:  
-![](./images/ShowTimeButtons.png)  
+![ShowTimeButtons](./images/ShowTimeButtons.png)  
   
 If you long press any of the time buttons, xDrip will maintain that for the time range shown on screen.  
   
