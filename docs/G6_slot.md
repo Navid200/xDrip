@@ -18,7 +18,7 @@ By default, xDrip is on slot 2.  t:slim pump is  on slot 1.  The Dexcom receiver
 
 If you want to change the slot number xDrip uses, you first need to enable [engineering mode](./Engineering-Mode.md).  
 Then, if you access Settings &#8722;> G5/G6 Debug Settings, you will see a setting titled "Manual Slot Number", which you can edit.  
-![](./images/manual_slot.png)  
+![manual_slot](./images/manual_slot.png)  
 
 To force xDrip to use the non-default slot number, set that to 1.  
 If you disable engineering mode, it will use the default setting.  
