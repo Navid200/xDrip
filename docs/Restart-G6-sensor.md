@@ -1,4 +1,4 @@
-## Restart G6 Sensor  
+# Restart G6 Sensor  
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Restart G6 or Dexcom ONE sensor  
   
 **<span style="color:red">This can be very dangerous.</span>**  Please read the entire page first.  You should not restart if you are not aware of the risks and consequences.  
