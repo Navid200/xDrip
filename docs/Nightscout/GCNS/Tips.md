@@ -1,5 +1,7 @@
 ---
 layout: GCNS
+title: "Google Cloud Nightscout Tips & Quick Access"
+description: "Quick shortcuts for managing Nightscout on Google Cloud: restart, access billing, switch branches, use FreeDNS, import MongoDB, manage VMs, snapshots, and more."
 ---
 
 # Tips  
