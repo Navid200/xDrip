@@ -3,7 +3,7 @@ title: Update xDrip
 description: "How to update xDrip using internal update, choose between Nightly, Alpha, Beta, or Stable channels, and preserve data during version changes."  
 ---  
   
-## Update xDrip  
+# Update xDrip  
 [xDrip](../) >> [Features](./Features_page.md) >> Update xDrip    
   
 **<span style="color:red">Do not uninstall</span>**  
@@ -24,7 +24,7 @@ You will be informed only when there is an update in your selected channel when 
 | Beta / Stable  | Most tested (default) | Twice a year |  
 
 Access [Main Settings](./Settings.md) &#8722;> `xDrip+ Update Settings`.  
-![](./images/auto_update.png)  
+![auto_update](./images/auto_update.png)  
 You need to choose alpha in order for the nightly option to become visible.  After selecting the alpha channel, return to the main screen.  Then, go back to the Update Settings page and you will see the Nightly as an option.  
 To use the auto update check, enable Automatic update check, which will notify you when there is a new release in your selected channel.  
   
@@ -35,9 +35,9 @@ To use the auto update check, enable Automatic update check, which will notify y
 #### **Update in your chosen channel**  
 From the 3-dot menu button at the top right corner of the main screen, tap on `Check for updated version`.  
   
-![](./images/3dotMenu.png)  
+![3dotMenu](./images/3dotMenu.png)  
   
-![](./images/CheckForUpdate.png)  
+![CheckForUpdate](./images/CheckForUpdate.png)  
   
 If there has been an update in your update channel, it will be downloaded into your Download folder, and you can install it by tapping on it.  
 <br/>   
