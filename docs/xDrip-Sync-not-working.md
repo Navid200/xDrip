@@ -1,4 +1,4 @@
-## xDrip Sync not working
+# xDrip Sync not working
 [xDrip](../) >> [Troubleshooting](./Troubleshooting_page.md) >> xDrip Sync not working  
   
 Ensure you are using the stable release of xDrip or a later version.  
@@ -11,5 +11,5 @@ If you experience disconnects, try disabling this setting on both the master and
 ---  
   
 Ensure that `Disable all sync features` is disabled (no check mark beside it) on the master and followers.  
-![](./images/DisableAllSyncFeatures.png)  
+![DisableAllSyncFeatures](./images/DisableAllSyncFeatures.png)  
   
