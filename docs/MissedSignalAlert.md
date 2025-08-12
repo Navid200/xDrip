@@ -8,4 +8,4 @@ description: "Learn how to configure the Missed Reading Alert in xDrip to notify
   
 If you want the xDrip missed reading alert to repeat until you snooze it, you need to enable "Reraise alerts before snooze time".  
 By default, the setting is disabled.  
-![](./images/MissedReadingReraise.png)  
+![MissedReadingReraise](./images/MissedReadingReraise.png)  
