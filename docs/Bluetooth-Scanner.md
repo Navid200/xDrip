@@ -1,3 +1,8 @@
+---
+title: "xDrip Bluetooth Scanner Signal Strength Guide"
+description: "How to use a continuous Bluetooth scanner app on Android to check Dexcom transmitter signal strength—includes steps to identify your transmitter and record the dBm value."
+---
+  
 # How strong is the transmitter signal?
 [xDrip](../) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Scanner  
   
