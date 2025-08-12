@@ -2,13 +2,13 @@
 layout: GCNS
 ---
 
-## Tips  
+# Tips  
 [Google Cloud Nightscout](../GoogleCloud.md) >> Google Cloud Nightscout Tips  
 <br/>  
   
 #### [Use menus](../HowToMenu.md)
 #### [Restart](../Restart.md)
-#### [Access Compute Engine](../ComputeEngine.md)
+#### [Access Compute Engine VM instances](../ComputeEngine.md)
 #### [Access Billing](../Billing.md)
 #### [Log into FreeDNS](../FreeDNS_Login.md)
 #### [Switch branches](../Branches.md)
