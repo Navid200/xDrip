@@ -8,7 +8,7 @@ description: "How to access and configure xDrip alarms and alerts, including glu
   
 To access the alerts page, tap on the top left menu button from the main screen and select `Setting` &#8722;> `Alarms and Alerts`.  
   
-![](./images/Alerts.png)  
+![Alerts](./images/Alerts.png)  
 <br/>  
   
 |  Alert |  Volume |  Sound file |  Override Silent Mode |  
