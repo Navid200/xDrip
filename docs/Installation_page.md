@@ -12,12 +12,13 @@ description: "Comprehensive guide to downloading, installing, and updating xDrip
   
 ---  
   
+#### [Update xDrip](./Updates.md)  
+  
 #### [Release notes - changelog](ReleaseNotes.md)
 #### [Requirements](./Requirements_page.md)
 #### [Location access](./Location.md)
 #### [Bluetooth Battery optimization](./BluetoothBatteryOpt.md)
 #### [xDrip version](./xDrip-Version.md)
-#### [Update xDrip](./Updates.md)
 #### [Transfer to new phone](./New-Phone.md)
 #### [Reinstall xDrip](./Reinstall.md)
 #### [Multiple instances (variants)](./Variants.md)
