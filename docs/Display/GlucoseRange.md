@@ -1,4 +1,4 @@
-## Glucose y (vertical) axis range
+# Glucose y (vertical) axis range
 [xDrip](../../) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Glucose range  
   
 You can adjust the range shown on screen as long as you have no readings that go outside the range.  If you do, the range will extend to show such readings for several hours.  
@@ -11,7 +11,7 @@ If you reduce the range dramatically and get used to the way your variations loo
 This expanded range will last 24 hours and you will not be able to change it.  During those 24 hours, your screen will show curves with much less ups and downs due to the significant expanded range.  
   
 The following image shows the exact same results at the two extremes of the y axis range.  
-![](./images/GlucoseRange.png)  
+![GlucoseRange](./images/GlucoseRange.png)  
   
 Please be careful if the range expands due to very high readings.  
 <br/>  
@@ -22,7 +22,7 @@ Please be careful if the range expands due to very high readings.
 You can access the setting at:  
 `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Graph Settings` &#8722;> `Customize y axis range`  
   
-![](./images/CustomizeYaxisRange.png)    
+![CustomizeYaxisRange](./images/CustomizeYaxisRange.png)    
   
 Enable the feature.  When you do, two settings, on the same page, become available allowing you to adjust Y Min and Y Max.  
 Adjusting either will take effect immediately on screen.  
