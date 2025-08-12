@@ -1,3 +1,8 @@
+---
+title: "xDrip Battery Optimization"
+description: "Step-by-step instructions to disable battery optimization for xDrip+ on Android, ensuring continuous background operation and reliable sensor data collection."
+---
+  
 # xDrip Battery Optimization
 [xDrip](../) >> [Download & Installation](./Installation_page.md) >> xDrip Battery optimization  
   
