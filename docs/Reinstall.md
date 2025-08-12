@@ -1,4 +1,4 @@
-## Reinstall  
+# Reinstall  
 [xDrip](../) >> [Download & Installation](./Installation_page.md) >> Reinstall  
   
 Why do you think you need to reinstall xDrip?  
