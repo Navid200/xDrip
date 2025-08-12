@@ -1,4 +1,4 @@
-## G7 or One+ Grace period
+# G7 or One+ Grace period
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Dexcom G7 grace perriod  
   
 [This guide](./G7.md) explains how to set up xDrip to use G7 or One+.  
