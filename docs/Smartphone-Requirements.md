@@ -1,4 +1,4 @@
-## Smartphone requirements
+# Smartphone requirements
 [xDrip](../) >> [Download & Installation](./Installation_page.md) >> Phone requirements  
   
 **[Android](./Android.md)**  
