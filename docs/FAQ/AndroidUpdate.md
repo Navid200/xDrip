@@ -1,4 +1,4 @@
-## Android update disconnected xDrip!
+# Android update disconnected xDrip!
 [xDrip](../../) >> [Troubleshooting](../Troubleshooting_page.md) >> Updated Android; xDrip disconnected!  
   
 After an Android update, some settings may change to default causing connectivity issues for xDrip.  
