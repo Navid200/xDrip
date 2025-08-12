@@ -1,10 +1,10 @@
-## Exclude a reading
+# Exclude a reading
 [xDrip](../../) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Exclude an xDrip reading - mark a reading as bad - bad reading  
   
 You can mark a reading, in xDrip, as a bad reading and exclude it from xDrip statistics.  
   
 To do that, you will need to use the [data table](../Datatables.md).  Open the readings data table.  Find the reading.  Long press it.  You will see a prompt to flag the reading as bad.  
-![](./images/FlagAsBad.png)  
+![FlagAsBad](./images/FlagAsBad.png)  
   
 Answer with "yes".  
 After you flag a reading as bad, the color of the point representing the reading on the main screen will change and the reading will be excluded from xDrip statistics.  
