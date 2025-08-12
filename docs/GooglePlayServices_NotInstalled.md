@@ -8,14 +8,14 @@ description: "Learn how to continue using xDrip without Google Play Services by 
 xDrip without Google Play Services  
   
 Do you see this message in xDrip?  
-![](./images/GoogPlySrvcs_Not_Installed.png)  
+![GoogPlySrvcs_Not_Installed](./images/GoogPlySrvcs_Not_Installed.png)  
 
 Or, do you get this Android notification?  
-![](./images/NotWithoutGooglePlay.png)  
+![NotWithoutGooglePlay](./images/NotWithoutGooglePlay.png)  
 <br/>  
   
 If you don't want to, or cannot, install Google Play services, enable (put a check mark beside) the following setting in xDrip.  
   
 `Settings` &#8722;> `xDrip+ Sync settings` &#8722;> `Disable all sync features`  
-![](./images/DisableAllSyncFeatures.png)  
+![DisableAllSyncFeatures](./images/DisableAllSyncFeatures.png)  
   
