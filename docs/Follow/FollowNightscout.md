@@ -1,4 +1,4 @@
-## Follow Nightscout
+# Follow Nightscout
 [xDrip](../../) >> [Features](../Features_page.md) >> [Follow](../Follow_page.md) >> Nightscout  
   
 You can easily set up xDrip to follow Nightscout by configuring the following settings:  
@@ -25,16 +25,16 @@ Delays in the master device uploading data to Nightscout may cause failed attemp
   
 To address this:  
 Set a delay to allow xDrip to wait before reading from Nightscout. This accounts for any upload delays and ensures xDrip retrieves the latest data instead of going to sleep with outdated information.  
-![](./images/NS_Follow_Delay.png)  
+![NS_Follow_Delay](./images/NS_Follow_Delay.png)  
   
-![](./images/NS_Follow_Delay2.png)  
+![NS_Follow_Delay2](./images/NS_Follow_Delay2.png)  
   
 **Do you need this setting?**   
 No changes are needed if you’re satisfied with how the Nightscout follower currently works.  
   
 **Benefits of adjusting delay**  
 Adjusting the delay can reduce the time it takes for new readings from the master to appear on your follower. If you see a red delay indicator on the Nightscout follow status page, adjusting the delay setting may help.  
-![](./images/NS_Delay.png)  
+![NS_Delay](./images/NS_Delay.png)  
   
 **What if you don’t change anything?**  
 Your follower will still receive all readings, but there might be a delay of up to 5 minutes, depending on the master’s upload time.    
