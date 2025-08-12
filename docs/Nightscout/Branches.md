@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Google Cloud Nightscout branches
+# Google Cloud Nightscout branches
 [Google Cloud Nightscout](./GoogleCloud.md) >> Branches  
   
 Google Cloud Nightscout has two branches that you can use:  
@@ -50,7 +50,7 @@ After switching branches:
    
 #### **Which branch am I using?**  
 To determine which branch you are using, go to the status page. The full GitHub path is displayed on the status page, and the last section of the line indicates vps-1 for the stable branch or vps-dev for the development branch.   
-![](./images/BranchFlag.png)  
+![BranchFlag](./images/BranchFlag.png)  
 <br/>  
   
 ---  
