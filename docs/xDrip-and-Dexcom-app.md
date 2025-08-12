@@ -1,4 +1,4 @@
-## xDrip and Dexcom app together
+# xDrip and Dexcom app together
 [xDrip](../) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> xDrip and Dexcom app together  
   
 You cannot use both xDrip and the Dexcom app, or the modified Dexcom app, to collect from the same transmitter at the same time.  You have to choose one or the other.  
