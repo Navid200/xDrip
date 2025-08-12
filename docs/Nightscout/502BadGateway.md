@@ -2,13 +2,13 @@
 layout: GCNS
 ---
 
-## 502 Bad Gateway
+# 502 Bad Gateway
 [Google Cloud Nightscout](./GoogleCloud.md) >> 502 Bad Gateway  
   
 Do you encounter this error when attempting to access your Nightscout in a browser?  
 <br/>  
   
-![](./images/502BadGateway.png)  
+![502BadGateway](./images/502BadGateway.png)  
 <br/>  
 <br/>  
 
