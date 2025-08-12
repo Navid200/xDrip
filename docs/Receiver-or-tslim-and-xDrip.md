@@ -1,4 +1,4 @@
-## xDrip coexists with Dexcom receiver or t:slim pump  
+# xDrip coexists with Dexcom receiver or t:slim pump  
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> xDrip and G6 Receiver  
   
 If you have a t:slim pump, you can start your sensors on the pump, not on xDrip.  
