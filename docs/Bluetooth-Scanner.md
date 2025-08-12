@@ -15,7 +15,7 @@ For a G7 or One+, look for a device named DXCM\*\* or DX02\*\*.  The last two ch
   
 Beside the device name, you will see a negative number. Write this number down.  
 You may need to wait up to 5 minutes for the listing to appear.   If the listing is not clear and bold, wait for the next reading cycle. Record the value once it appears in bold.   
-![](./images/ble_scanner.png)  
+![ble_scanner](./images/ble_scanner.png)  
   
 If the listing never appears, the transmitter is not transmitting.  
   
