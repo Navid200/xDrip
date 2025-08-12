@@ -1,4 +1,4 @@
-## Display  
+# Display  
 [xDrip](../../) >> [Features](../Features_page) >> Display  
   
 You can customize what xDrip shows.  
