@@ -1,4 +1,4 @@
-## Database Corruption  
+# Database Corruption  
 
 Users have reported xDrip database corruption.  
 [Open issue](https://github.com/NightscoutFoundation/xDrip/issues/1280)  
