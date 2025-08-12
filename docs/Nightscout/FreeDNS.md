@@ -1,8 +1,10 @@
 ---
 layout: GCNS
+title: "Google Cloud Nightscout FreeDNS Setup Guide"
+description: "Step-by-step instructions for creating a FreeDNS account and setting up a subdomain to access your Nightscout site—complete setup in under 10 minutes."
 ---
 
-## Free DNS
+# Free DNS
 [Google Cloud Nightscout](./GoogleCloud.md) >> FreeDNS  
 
 Follow these instructions in order to use FreeDNS, which you will need in order to set up Google Cloud Nightscout.  
@@ -24,13 +26,13 @@ $ &nbsp; &nbsp; \" &nbsp; &nbsp; \' &nbsp; &nbsp; \\  &nbsp; &nbsp; SPACE &nbsp;
 Please remember your user ID and password.  
   
 Send activation email.  
-![](./images/FreeDNS1.png)  
+![FreeDNS1](./images/FreeDNS1.png)  
 Open email and activate your account.  
 **<span style="color:red">Set up your email client not to filter the email, from FreeDNS, as junk/spam.  You will receive an email from them once every 5.5 months as a reminder to log into your FreeDNS account to keep your account active.</span>**  
   
 To log in, click on "Main Menu" under "For Members".  
 After logging in, you can see your user ID at the top right corner.  
-![](./images/FD_userID.png)  
+![FD_userID](./images/FD_userID.png)  
   
 <br/>  
 
@@ -55,12 +57,10 @@ After having selected a public domain, please proceed with creating a subdomain.
 #### **Creating a subdomain**    
 Enter a subdomain name.  Under the image, enter text (capital) to capture the image you see.  You can change the image if it's not clear.  
 Save.  
-![](./images/FreeDNS2.png)  
+![FreeDNS2](./images/FreeDNS2.png)  
 <br/>  
   
 Now, if you go to [Subdomains](https://freedns.afraid.org/subdomain/), you will see your new hostname:  
-![](./images/FD_hostname.png)  
+![FD_hostname](./images/FD_hostname.png)  
 That is what you will be using to access your Nightscout in a web browser.  
-<br/>  
-<br/>  
- 
+  
