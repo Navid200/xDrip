@@ -1,5 +1,7 @@
 ---
 layout: GCNS
+title: "Nightscout AUTH_DEFAULT_ROLES: Fixing App Malfunctions"
+description: "Learn how Nightscout’s AUTH_DEFAULT_ROLES setting can prevent third-party apps (e.g. AutotuneWeb) from working—change 'denied' to 'readable' temporarily and revert after use."
 ---
 
 # Malfunctioning Nightscout applications
