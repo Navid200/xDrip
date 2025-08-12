@@ -14,15 +14,15 @@ If you have another xDrip release installed from the [Nightscout Foundation](htt
 ---  
   
 You may see the following note after attempting to install:  
-![](./images/InstallNotAllowed.png)  
+![InstallNotAllowed](./images/InstallNotAllowed.png)  
 <br/>  
   
 Tap on "Settings".  That will bring up this form:  
-![](./images/AllowFromThisSource.png)  
+![AllowFromThisSource](./images/AllowFromThisSource.png)  
 <br/>  
   
 Enable "Allow from this source" and go back.  Now, you will see this:  
-![](./images/WantToInstall.png)  
+![WantToInstall](./images/WantToInstall.png)  
 Tap on "Install".  
 <br/>  
   
