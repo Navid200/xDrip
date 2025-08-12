@@ -8,9 +8,9 @@ description: "Comprehensive guide to downloading, installing, and updating xDrip
   
 #### [Download xDrip](./Download-xDrip.md)
 #### [Install xDrip](./Install.md)
+<br/>  
   
-Unlike some other apps, you can update xDrip by simply installing a new version over the current one—there's no need to uninstall the old version first.  
-  
+You can update xDrip by simply installing a new version over the current one—there's no need to uninstall the old version first.    
 While xDrip does not have an automatic update feature, you can manually check for updates within the app. You can also opt to receive notifications when an update is available.    
 <br/>  
   
