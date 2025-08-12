@@ -36,7 +36,7 @@ If you want to switch branches while using Google Cloud Nightscout, follow these
 <button onclick="FunctionCopyText()" style="border: 1px solid #0066ff; color:#f0f0f0; background: linear-gradient(#0066ff, #0066ff); font-size:14px; background-color:#0066ff; font-weight:400; border-radius: 2px; margin-left:70px; margin-top:8px; padding:4px 12px; display:inline-block; box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 5px rgba(0,0,0,.7); :hover ">Copy</button>  
   
 2- Paste the command into the virtual machine [terminal](./Terminal.md).  
-To run the development bootstrap, change vps-1 to vps-dev.  
+To run the development bootstrap, change vps-2 to vps-dev.  
 Leave it as is to run the stable release bootstrap.  
 3- Press Enter to execute the bootstrap.  
 4- From the Google Cloud setup submenu, run “Install Nightscout Phase 1.”  
@@ -51,7 +51,7 @@ After switching branches:
 ---  
    
 #### **Which branch am I using?**  
-To determine which branch you are using, go to the status page. The full GitHub path is displayed on the status page, and the last section of the line indicates vps-1 for the stable branch or vps-dev for the development branch.   
+To determine which branch you are using, go to the status page. The full GitHub path is displayed on the status page, and the last section of the line indicates vps-2 for the stable branch or vps-dev for the development branch.   
 ![BranchFlag](./images/BranchFlag.png)  
 <br/>  
   
