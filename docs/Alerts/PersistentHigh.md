@@ -1,4 +1,4 @@
-## Persistent High alert
+# Persistent High alert
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Persistent High alert  
   
 Glucose level alerts notify you when your glucose is either too low or too high. However, it’s not just the current glucose level that matters—how long your glucose remains high is equally important.  
@@ -8,7 +8,7 @@ For instance, after meals, you may expect your glucose level to rise temporarily
 The Persistent High Alert monitors both your current and past glucose levels to determine how long your glucose has been persistently high. If necessary, it triggers an alert to help you take timely action.   
   
 The image below shows the Persistent High Alert page, where you can configure the settings. To access it, navigate to: `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Extra Alerts` &#8722;> `Persistent High Alert`.      
-![](./images/PersistentHigh.png)  
+![PersistentHigh](./images/PersistentHigh.png)  
   
 The alert is triggered when your glucose level stays above the threshold continuously for longer than the duration specified under “For longer than (minutes).”    
 <br/>  
