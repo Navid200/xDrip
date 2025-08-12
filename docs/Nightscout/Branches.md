@@ -1,5 +1,7 @@
 ---
 layout: GCNS
+title: "Manage Google Cloud Nightscout Branches: Development vs Stable"
+description: "Understand the differences between Nightscout branches on Google Cloud, how to switch between development (vps-dev) and stable (vps-2), and determine which one you’re currently using."
 ---
 
 # Google Cloud Nightscout branches
@@ -9,7 +11,7 @@ Google Cloud Nightscout has two branches that you can use:
   
 * Development Branch (vps-dev): This branch receives updates first and is therefore less tested. You can access the latest updates sooner with this branch.  
   
-* Stable Branch (vps-1): This branch is updated after new features have been tested on the development branch for a while. It is updated by promoting a release from the development branch and is therefore more stable.  
+* Stable Branch (vps-2): This branch is updated after new features have been tested on the development branch for a while. It is updated by promoting a release from the development branch and is therefore more stable.  
 <br/>  
   
 ---  
@@ -30,7 +32,7 @@ To see the differences between the two branches, refer to the [release notes](./
 If you want to switch branches while using Google Cloud Nightscout, follow these instructions:  
 
 1- Copy the following command:  
-<input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash" readonly id="myInputText" style="border:none; color:#101010; background-color:#ededed; width:100%; font-size:15px">  
+<input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-2/bootstrap.sh | bash" readonly id="myInputText" style="border:none; color:#101010; background-color:#ededed; width:100%; font-size:15px">  
 <button onclick="FunctionCopyText()" style="border: 1px solid #0066ff; color:#f0f0f0; background: linear-gradient(#0066ff, #0066ff); font-size:14px; background-color:#0066ff; font-weight:400; border-radius: 2px; margin-left:70px; margin-top:8px; padding:4px 12px; display:inline-block; box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 5px rgba(0,0,0,.7); :hover ">Copy</button>  
   
 2- Paste the command into the virtual machine [terminal](./Terminal.md).  
