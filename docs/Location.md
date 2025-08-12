@@ -19,13 +19,13 @@ Search for xDrip.  Under "Apps" or "Apps info", and not under "Accessibility", t
 Tap on "Permissions".  
   
 On Android 10 and older, you will see this:  
-![](./images/LocationAndroid9.png)  
+![LocationAndroid9](./images/LocationAndroid9.png)  
   
 Enable "Location".  
 <br/>  
   
 On Android 11 and newer, tap on "Location".  You will see this:  
-![](./images/LocationAndroid11.png)  
+![LocationAndroid11](./images/LocationAndroid11.png)  
   
 Enable "Allow all the time".  
 <br/>  
@@ -36,4 +36,4 @@ Enable "Allow all the time".
 #### **Why is location service required?**  
 <br/>  
 
-![](./images/LocationRequirement.png)    
+![LocationRequirement](./images/LocationRequirement.png)    
