@@ -12,6 +12,6 @@ Click on "Console".
   
 From the main menu (top left corner), select VM instances through the Compute Engine submenu.  
   
-![ComputeEngineVmInstances](.GCNS/images/ComputeEngineVmInstances.png)  
+![ComputeEngineVmInstances](./GCNS/images/ComputeEngineVmInstances.png)  
   
   
