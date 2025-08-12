@@ -1,7 +1,7 @@
-## Encircled P
+# Encircled P
 [xDrip](../) >> [FAQ](./FAQ_page.md) >> Encircled P in front of the reading  
   
-![](./images/p_in_circle.png)  
+![p_in_circle](./images/p_in_circle.png)  
   
 An encircled P is shown in front of the blood glucose reading on the main screen if the following two conditions are satisfied.  
   
