@@ -1,4 +1,4 @@
-## Remove xDrip Sync follower
+# Remove xDrip Sync follower
 [xDrip](../../) >> [Features](../Features_page.md) >> [Follow](../Follow_page.md) >> Remove xDrip sync follower  
   
 If you don't want a follower to be able to follow you any longer, you have to disable it on the follower side.  
