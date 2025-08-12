@@ -1,4 +1,4 @@
-## Report  
+# Report  
 [xDrip](../) >> [Features](./Features_page.md) >> Report  
   
 This explains how you can create a report for your endocrinologist.  
@@ -7,7 +7,7 @@ In xDrip, tap on [Statistics](./Statistics.md) from the top left menu button. Yo
 But, before creating images, pay attention to the red and yellow lines shown on screen.  Those represent your low and high values.  You can adjust those under Settings &#8722;> Glucose Units.  However, please note that those settings affect statistics as well as your persistent high and forecast low alerts.  Therefore, if you adjust them for your report, remember to go back and return them to the values you need for your alerts.  The standard values for statistics (report) for your low and high levels are 70mg/dL (3.9mmol/L) and 180mg/dL (10mmol/L).  With those set to standard values, return to statistics.  
 At the top, tap on 90D for the past 90 days.  
 Tap on the 3-dot menu and select "Colors for printing".  This will change the background color to white.  You will now see something like this:  
-![](./images/StatsAGP_Color4Printing.png)  
+![StatsAGP_Color4Printing](./images/StatsAGP_Color4Printing.png)  
   
 Tap on share or create a screenshot.  Email it to yourself or place it on your Google Drive.  
 Swipe right twice to go to the statistics distribution page.  Share that as well and send to yourself.  
