@@ -2,9 +2,9 @@
 [xDrip](../) >> [Settings](./Settings.md) >> Copying settings  
   
 To save or copy settings use `Show Settings QR codes` or `Load/Save settings` under xDrip `Settings` from the main menu.  
-![](./images/Settings.png)  
+![Settings](./images/Settings.png)  
   
-![](./images/CopyingSettings.png)  
+![CopyingSettings](./images/CopyingSettings.png)  
   
 If what you want is to transfer all the history of your readings, you will need to [transnfer the database](./New-Phone.md).  But, be very careful that there is no way to import the database.  xDrip can only replace the database.  
   
