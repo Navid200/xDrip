@@ -1,3 +1,8 @@
+---
+title: "xDrip: Calibrating G6 After Restart"
+description: "Learn how to safely apply post-restart calibration for Dexcom G6 in xDrip: avoid large one-shot corrections by limiting to 20% per calibration, wait 25 minutes before second, and ensure trend is flat."
+---
+  
 # Calibrate G6 after a restart  
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> [Restart G6 sensor](./Restart-G6-sensor.md) >> Calibrate G6 after restart  
   
