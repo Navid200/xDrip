@@ -1,4 +1,4 @@
-## New G6 or Dexcom One transmitter activation  
+# New G6 or Dexcom One transmitter activation  
 
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> New G6 or Dexcom One transmitter activation    
   
