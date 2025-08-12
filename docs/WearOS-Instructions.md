@@ -1,4 +1,4 @@
-## Wear OS Instructions  
+# Wear OS Instructions  
   
 You can see a copy of instructions provided by jamorham in a [post](https://github.com/NightscoutFoundation/xDrip/issues/1648#issuecomment-818600901) in an issue here:  
   
