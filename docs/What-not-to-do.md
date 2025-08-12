@@ -2,7 +2,7 @@
 title: "What not to do"
 ---
 
-## What not to do!
+# What not to do!
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> What not to do  
   
 **Don't remove a transmitter from the box until you intend to use it.**  
