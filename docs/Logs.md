@@ -7,10 +7,10 @@ description: "Learn how to access and manage the Error & Event log in xDrip, vie
 [xDrip](../) >> [Features](./Features_page.md) >> xDrip Logs  
   
 To view the logs, tap the ellipsis (three dots) menu button in the top right corner and choose `View Events Log`.  
-![](./images/ViewEventLogs.png)  
+![ViewEventLogs](./images/ViewEventLogs.png)  
   
 This will open a new screen titled “Error and Event List.” You can scroll up and down to navigate through the logs and access older entries. The newest logs are displayed at the top.  
-![](./images/EventLogsSample.png)  
+![EventLogsSample](./images/EventLogsSample.png)  
   
 The logs may contain user IDs, passwords, or serial numbers. Be cautious about whom you share them with and hide (blackout) sensitive content if necessary.  
   
