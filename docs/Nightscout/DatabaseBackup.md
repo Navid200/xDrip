@@ -1,8 +1,10 @@
 ---
 layout: GCNS
+title: "Google Cloud Nightscout Backup Guide"
+description: "How to back up your Nightscout MongoDB database and variables on Google Cloud: generate a compressed archive via the terminal, download it safely, and avoid data loss if the VM is deleted."
 ---
 
-## Google Cloud Nightscout Backup
+# Google Cloud Nightscout Backup
 [Google Cloud Nightscout](./GoogleCloud.md) >> Backup  
   
 You must have Nightscout [installed and operational](./GoogleCloud.md) for this to work.  
@@ -17,7 +19,7 @@ To prevent loss if the virtual machine is deleted, transfer the backup off the m
 After the backup is completed, the full path to the backup file will be displayed on the screen—copy it.  
   
 Click **“Download File”** at the top of the terminal.    
-![](./images/Download.png)  
+![Download](./images/Download.png)  
   
 Enter the full path to the backup file, then click **“Download”** to start the transfer to your local device.  
   
