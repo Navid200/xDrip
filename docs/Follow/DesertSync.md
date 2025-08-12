@@ -1,4 +1,4 @@
-## Desert Sync
+# Desert Sync
 [xDrip](../../) >> [Features](../Features_page.md) >> [Follow](../Follow_page.md) >> Follow with no internet access  
   
 You can use xDrip to follow even without internet access (internet desert). However, the follower must be close enough to connect to the master’s hotspot.  
@@ -16,18 +16,18 @@ For example, you could be camping or on a motorcycle ride together, far from any
 - If using WiFi, you will need the hotspot password from the master’s phone.
   
 In the following image, you can see a follower device with no SIM card or WiFi access, connected to the master. The master itself also has no internet access.   
-![](./images/DesertSyncFollower.png)  
+![DesertSyncFollower](./images/DesertSyncFollower.png)  
   
 3- On the master phone, go to the sync settings page and enable **"Be master for followers"**.  
-![](./images/DesertSyncPage.png)  
+![DesertSyncPage](./images/DesertSyncPage.png)  
   
 4- Go to `Desert Sync`.  Enable **"Desert Sync"** and tap **"Show QR code"**.  
-![](./images/DesertSyncEnable.png)  
+![DesertSyncEnable](./images/DesertSyncEnable.png)  
 <br/>  
   
 5- On the follower device, open xDrip and go to `Settings` > `Auto configure` and scan the QR code displayed on the master.  
 Approve the prompt to import settings.  
-![](./images/DesertSyncImportSettings.png)  
+![DesertSyncImportSettings](./images/DesertSyncImportSettings.png)  
 <br/>  
 
 ---  
