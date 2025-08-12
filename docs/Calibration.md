@@ -38,7 +38,7 @@ If you use a G6, you don't have to calibrate.  But, if you find the readings to 
   
 ### **How to calibrate**  
 To calibrate, select `Add Calibration` from the top left menu.  
-![](./images/HowtoCalibrate.png)  
+![HowtoCalibrate](./images/HowtoCalibrate.png)  
 <br/>  
   
 ---  
