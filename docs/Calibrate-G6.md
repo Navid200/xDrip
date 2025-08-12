@@ -1,3 +1,8 @@
+---
+title: "xDrip: Calibrate G6 or Dexcom ONE"
+description: "Step-by-step guidance on when and how to calibrate G6 or Dexcom ONE with xDrip—learn calibration limits, timing rules, and how to avoid calibration errors."
+---
+  
 # Calibrate G6 or Dexcom ONE  
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Calibrate G6 or Dexcom ONE with xDrip  
   
