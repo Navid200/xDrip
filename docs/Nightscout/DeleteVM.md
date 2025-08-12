@@ -1,9 +1,8 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/DeleteVM.html"
 ---
 
-## Delete virtual machine
+# Delete virtual machine
 [Google Cloud Nightscout](./GoogleCloud.md) >> Delete virtual machine  
   
 **Warning!:** If you delete a virtual machine, all the data on it, including your MongoDB, will be deleted.  There will be no way to undo that.  
@@ -16,6 +15,6 @@ If you have just created the machine, you can delete it with no worries as you h
 Go to the [Compute Engine](./ComputeEngine.md).  
   
 Choose "Delete" from the 3-dot menu.  
-![](./images/DeleteVirtualMachine.png)  
+![DeleteVirtualMachine](./images/DeleteVirtualMachine.png)  
   
   
