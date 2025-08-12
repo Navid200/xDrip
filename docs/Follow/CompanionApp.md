@@ -3,7 +3,7 @@ title: "xDrip Companion App Mode"
 description: "Learn how to receive glucose readings in xDrip via the Companion App Mode, using notification access from apps like CamAPS or the Dexcom app without requiring internet connectivity."
 ---
   
-## Companion App Mode
+# Companion App Mode
 [xDrip](../../) >> [Features](../Features_page.md) >> xDrip Companion App mode  
   
 xDrip can receive readings from notifications issued by another app. For example, if you have CamAPS installed and operational, you can use xDrip on the same phone to display readings from CamAPS.  Similarly, if you have the Dexcom app installed and collecting data from a transmitter, you can use the Companion App feature to receive readings from the Dexcom app. This feature does **not** require internet access.  
@@ -16,7 +16,7 @@ xDrip can receive readings from notifications issued by another app. For example
   
 2- Enable Companion App mode on the [Hardware Data Source page](../HardwareDataSource.md).  
 A note will appear:  
-![](./images/PleaseAllowNotificationAccess.png)  
+![PleaseAllowNotificationAccess](./images/PleaseAllowNotificationAccess.png)  
   
 Tap OK.  
 You will be taken to Android Notification Access page.  
@@ -35,7 +35,7 @@ Enable the following setting: If you return after more than 5 minutes and see no
 Please note that this feature may not work on all phones, Android versions, or companion apps. Test and use if it works for you.  
   
 `Settings` &#8722;> `Less common settings` &#8722;> `Bluetooth Settings` &#8722;> `Companion Bluetooth`  
-![](./images/CompanionBluetoothSetting.png)  
+![CompanionBluetoothSetting](./images/CompanionBluetoothSetting.png)  
 <br/>  
   
 ---  
