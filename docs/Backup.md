@@ -7,7 +7,7 @@ description: "Learn how to back up your xDrip data and settings using features l
 [xDrip](../) >> [Features](./Features_page.md) >> xDrip Backup  
   
 You can access xDrip's backup functions from the top right menu button under `Import /Export featurets`.  
-![](./images/Backup.png)  
+![Backup](./images/Backup.png)  
   
 #### [Google Drive backup](./GoogleDriveBackup.md)
 #### [Legacy database backup](./Backup-Database.md)
