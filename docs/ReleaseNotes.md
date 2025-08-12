@@ -3,7 +3,7 @@ title: xDrip Release Notes
 description: "Stay up to date with the latest changes and improvements in xDrip."  
 ---  
   
-## xDrip Release Notes  
+# xDrip Release Notes  
 [xDrip](../) >> xDrip Release Notes  
   
 Major xDrip releases are listed below with brief descriptions. Tap on a release to access a page where you can download it.  
