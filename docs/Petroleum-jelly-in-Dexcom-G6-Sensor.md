@@ -1,4 +1,4 @@
-## Petroleum Jelly in Dexcom G6 Sensor
+# Petroleum Jelly in Dexcom G6 Sensor
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Petroleum jelly  
   
 After inserting the sensor and before snapping in the transmitter, you may notice small blobs of petroleum jelly inside the sensor around the contacts.  
@@ -11,12 +11,12 @@ After cleaning the transmitter contacts (but not the sensor), snap in the transm
 To [restart a G6 sensor](./Restart-G6-sensor.md), the transmitter is removed and later snapped back in. **Do not insert a test strip between the transmitter and the sensor to restart it.**  Doing so may effectively wipe away the petroleum jelly.  
 When [removing the transmitter for a restart](./Remove-transmitter.md), avoid wiping away the substance from the transmitter contacts. While the transmitter is out, keep the contacts untouched. Also, avoid wearing tight clothing over the sensor to prevent wiping away the petroleum jelly.  
 
-![](./images/PetroleumJelly.png)  
+![PetroleumJelly](./images/PetroleumJelly.png)  
 <br/>  
 
-![](./images/PetroleumJelly2.png)  
+![PetroleumJelly2](./images/PetroleumJelly2.png)  
 
-![](./images/PetroleumJelly3.png)  
+![PetroleumJelly3](./images/PetroleumJelly3.png)  
 <br/>  
 
 ---  
@@ -24,10 +24,10 @@ When [removing the transmitter for a restart](./Remove-transmitter.md), avoid wi
 #### **Dexcom Patent**  
 The following snapshot is from a Dexcom patent. It describes a potential problem and suggests petroleum jelly as an optional solution.   
   
-![](./Dexcom/images/PetroleumJellyPatent.png)  
+![PetroleumJellyPatent](./Dexcom/images/PetroleumJellyPatent.png)  
 <br/>  
   
 The second snapshot below highlights the advantages of using petroleum jelly.  
 
-![](./Dexcom/images/PetroleumJellyPatent2.png)  
+![PetroleumJellyPatent2](./Dexcom/images/PetroleumJellyPatent2.png)  
   
