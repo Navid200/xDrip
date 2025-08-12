@@ -1,4 +1,4 @@
-## Variants  
+# Variants  
 [xDrip](../) >> [Download & Installation](./Installation_page.md) >> xDrip Variants  
   
 You cannot install multiple instances of xDrip on the same phone. However, xDrip variants have different names, allowing you to install xDrip and one or more variants simultaneously. This effectively enables you to run multiple instances of xDrip on the same device, each for tracking different individuals.   
@@ -9,7 +9,7 @@ You can download nightly variants [here](https://drive.google.com/drive/folders/
 2- Click on “Last modified” at the top and select the check mark. This will add an arrow next to "Last Modified”.  
 3- Click the arrow to sort by the latest version. Be patient, as the sorting process may take a moment. The latest variant will appear at the top.  
   
-![](./images/Variants.png)  
+![Variants](./images/Variants.png)  
 <br/>  
   
 ---  
@@ -19,7 +19,7 @@ You can download nightly variants [here](https://drive.google.com/drive/folders/
   
 - Basic notifications  
 Basic notifications are identified by the name of the app, as shown in the example screenshot.  No additional action is required.  
-![](./images/variantNote.png)   
+![variantNote](./images/variantNote.png)   
 <br/>  
   
 - Alerts  
@@ -28,7 +28,7 @@ Name the alerts in each app according to the person you are following. For examp
   
 - Icons  
 Icons are clearly identified within the app, making it easy to distinguish between different instances.  
-![](./images/variantIcons.png)  
+![variantIcons](./images/variantIcons.png)  
 <br/>  
   
 - Menus  
