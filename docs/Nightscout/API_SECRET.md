@@ -1,9 +1,8 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/API_SECRET.html"
 ---
 
-## Google Cloud Nighscout API_SECRET
+# Google Cloud Nighscout API_SECRET
 [Google Cloud Nightscout](./GoogleCloud.md) >> What is my API_SECRET?  
   
 If you have forgotten the API_SECRET, go to the [status page](./Status.md).  At the bottom, choose "Hostname and password".  
