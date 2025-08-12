@@ -52,7 +52,7 @@ After switching branches:
    
 #### **Which branch am I using?**  
 To determine which branch you are using, go to the status page. The full GitHub path is displayed on the status page, and the last section of the line indicates vps-2 for the stable branch or vps-dev for the development branch.   
-![BranchFlag](./images/BranchFlag.png)  
+![BranchFlag](./GCNS/images/BranchFlag.png)  
 <br/>  
   
 ---  
