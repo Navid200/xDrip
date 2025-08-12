@@ -1,9 +1,8 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/Crawlers.html"
 ---
 
-## Invoice for egress to China
+# Invoice for egress to China
 [Google Cloud Nightscout](./GoogleCloud.md) >>  Invoice for traffic to China  
   
 *I thought this was supposed to be free.  I followed all the instructions when setting up my site.  
