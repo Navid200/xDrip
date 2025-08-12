@@ -12,7 +12,7 @@ Sign in.
 Click on "Console".  
 ![Console](./images/Console.png)  
   
-Click on the main menu at the top left and select "Billing".  
+Select "Billing" from the main menu at the top left corner.  
 ![Billing](GCNS/images/GCNS_Billing.png)  
   
   
