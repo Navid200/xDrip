@@ -1,4 +1,4 @@
-## xDrip Alert makes no sound
+# xDrip Alert makes no sound
 [xDrip](../) >> [Features](./Features_page.md) >> [Alerts](./Alerts_page.md) >> xDrip Alert makes no sound  
   
 Different factors could result in an xDrip alert not making any sound.  The following is a list of such combinations.  
@@ -15,13 +15,13 @@ Some Android settings may not be located exactly as shown on all phone brands.
 `Android Settings` &#8722;> `Apps & notifications` &#8722;> `Notifications` &#8722;> `xDrip+` &#8722;> `Uncategorized` &#8722;> `Allow interruptions`  
   
 5- The phone is in `Do Not Disturb` mode, and Android is not set to exclude Alarms from do not disturb.  To remedy this, enable Android `Settings` &#8722;> `Sound` &#8722;> `Do Not Disturb` &#8722;> `Alarm & other interruptions` &#8722;> `Alarms`  
-![](./Alerts/images/ExcludeAlarms.png)  
+![ExcludeAlarms](./Alerts/images/ExcludeAlarms.png)  
   
 6- The phone is in `Do Not Disturb` mode and the `override silent mode` and `Force speaker` settings are not enabled for the alert.  The missed reading alert inherits its sound file and override silent mode from the `Other Alerts` (`Settings` &#8722;> `Alarms and Alerts` &#8722;> `Other Alerts`).  
-![](./Alerts/images/OverrideAndForce.png)  
+![OverrideAndForce](./Alerts/images/OverrideAndForce.png)  
 
 7- The phone is in `Do Not Disturb` mode, and Android is not set to allow xDrip to override DND.  To remedy this, change the setting at `Android Settings` &#8722;> `Apps` &#8722;> `xDrip+` &#8722;> `Notifications` &#8722;> `Override Do Not Disturb`.  
-![](./Alerts/images/AndrdxDripDND.png)  
+![AndrdxDripDND](./Alerts/images/AndrdxDripDND.png)  
   
 <br/>  
   
