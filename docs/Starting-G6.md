@@ -1,4 +1,4 @@
-## Starting Dexcom G6 or Dexcom ONE
+# Starting Dexcom G6 or Dexcom ONE
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Starting G6 or Dexcom ONE  
   
 Please be patient and do not rush to tap on "Start Sensor" even if xDrip encourages you to.  Please follow the steps exactly as stated below, in the specified sequence, to avoid common issues.  
@@ -13,7 +13,7 @@ If you have already read this page and have started a sensor, and need informati
 #### **Transmitter**  
 If you are using a brand new transmitter, you will need to activate it.  It will be activated when you snap it into the sensor.  Or, you can activate it as explained [here](./Dexcom/NewG6TX_Activation.md).  
 You will need the serial number of the transmitter, which is shown on the bottom of the transmitter and on the transmitter box as shown in the following image.  
-![](./Dexcom/images/G6TXandBox.png)  
+![G6TXandBox](./Dexcom/images/G6TXandBox.png)  
 The serial number of the transmitter shown above is 8QMMM9.  
 Take a note of your transmitter serial number.  You will need it possibly for the next 110 days.  
   
@@ -24,7 +24,7 @@ Take a note of your transmitter serial number.  You will need it possibly for th
 #### **Sensor**  
 Don't open the sensor container until you are ready to insert it.  
 Every sensor has a 4-digit calibration code as shown in the following image.  You will need that code, from your sensor, to start a session.  
-![](./images/CalCode.png)  
+![CalCode](./images/CalCode.png)  
   
 <br/>  
   
@@ -39,7 +39,7 @@ If you already have xDrip installed and are using an older version, you can [upd
 2.  Set `G5/G6/G7/1 Transmitter` under &nbsp; `Settings` &#8722;> [`Hardware Data Source`](./HardwareDataSource.md).  
   
 3.  Is there a `Start G6 Sensor` stuck in the queue on the G5/G6/G7 status page?  Please note that in the last step when you start sensor, there will be a `Start G6 Sensor` in the queue for one read cycle (up to 5 minutes).  That is expected and does not count as a stuck command.  A stuck command remains in the queue and does not clear.  
-![](./images/queue-stuck.png)  
+![queue-stuck](./images/queue-stuck.png)  
 If there is a command stuck in the queue, [clear the queue](./Clear-queue.md).  
   
 4.  Adjust xDrip [settings](./G6-Recommended-Settings.md).  If you get a pair request at any point, please approve.  
