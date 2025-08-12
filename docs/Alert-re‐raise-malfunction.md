@@ -1,3 +1,9 @@
+---
+title: "xDrip Alert Re-Raise Behavior Explained"
+description: "Clarifies why alerts configured with the 'ascending volume' profile always re-raise every minute—this is intended behavior and not a malfunction."
+---
+
+
 # Alert re-raise malfunction
 [xDrip](../) >> [Troubleshooting](./Troubleshooting_page.md) >> Alert re-raise malfunction  
   
