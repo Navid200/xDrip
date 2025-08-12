@@ -1,16 +1,16 @@
-## Always-on Display
+# Always-on Display
 [xDrip](../../) >> [Features](../Features_page.md) >> [Display](./Display.md) >> xDrip Always-on display    
   
 If your phone supports an always-on display (AOD), you can configure it to show the xDrip widget on the screen while the phone is in sleep mode.  
 
-![](./images/AOD_Sample.png)  
+![AOD_Sample](./images/AOD_Sample.png)  
 <br/>  
 
 **How to Set It Up:**  
 Go to `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Always-On Display Settings` &#8722;> `Enable xDrip Accessibility`.  
 
 This will take you to the Android Accessibility menu. Tap on xDrip to enable it, as shown below.  
-![](./images/EnablexDripAOD.png)  
+![EnablexDripAOD](./images/EnablexDripAOD.png)  
 
 If you're unable to enable it, [grant restricted settings access to xDrip](../RestrictedSettings.md).  
 
@@ -24,7 +24,7 @@ To restrict its movement to specific areas:
 
 - Go to `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Always-On Display Settings`.  
 - Select the desired regions for the widget.  
-  ![](./images/AOD_Limit_Regions.png)  
+  ![AOD_Limit_Regions](./images/AOD_Limit_Regions.png)  
 
 If you select `All` or `None`, the widget will continue to move across the entire screen, which is the default behavior.  
 <br/>  
