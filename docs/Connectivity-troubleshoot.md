@@ -12,7 +12,7 @@
 * Ensure no other mobile device is set to collect data from the same transmitter. If another device is connected as a master, disconnect it.  
   
 * Check the Dex Status Page, which provides important information about the system’s performance.  
-![](./images/system-status-pg.png)  
+![system-status-pg](./images/system-status-pg.png)  
 <br/>  
   
 * If there is a command in the queue, it should clear in the next read cycle (every 5 minutes). If not, [clear the queue](./Clear-queue.md).  
