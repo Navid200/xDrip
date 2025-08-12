@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Malfunctioning Nightscout applications
+# Malfunctioning Nightscout applications
 [Google Cloud Nightscout](./GoogleCloud.md) >> Malfunctioning applications  
   
 There is a Nightscout variable titled AUTH_DEFAULT_ROLES. By default, we have set this variable to "denied." Here’s [why](./Why_Denied_Auth.md).  
