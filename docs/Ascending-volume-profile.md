@@ -21,10 +21,10 @@ If your alarm wakes up or annoys others around you, this can solve the problem b
 
 The following graph shows the ascending volume versus time for an alert that has triggered at time 0.  
   
-![](./Alerts/images/AscendingVolume.png)  
+![AscendingVolume](./Alerts/images/AscendingVolume.png)  
   
 The vibration is independent of the delay ascending setting.  You can enable vibration for each one of your Glucose Level alerts separately on the corresponding "Edit alert" page as shown below.  
-![](./Alerts/images/VibrateOnAlert.png)  
+![VibrateOnAlert](./Alerts/images/VibrateOnAlert.png)  
   
 The medium and high volumes correspond to the values of 0.7 and 1 in the graph.  
 As soon as the alert is snoozed, both sound and vibration terminate.  
@@ -35,6 +35,6 @@ As soon as the alert is snoozed, both sound and vibration terminate.
 #### **Delay Ascending Volume & Ascend to Medium**    
 You can reach the `Delay Ascending Volume` and `Ascend to medium` settings at:  
 `Settings` &#8722;> `Alarms and Alerts` &#8722;> `Glucose Alerts Settings` &#8722;> `Ascending Volume settings`  
-![](./Alerts/images/DelayAscendingVolume.png)  
+![DelayAscendingVolume](./Alerts/images/DelayAscendingVolume.png)  
   
   
