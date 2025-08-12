@@ -23,10 +23,10 @@ The transmitter's days count, as shown on the system status page, will reset to 
 2- Disable the Dexcom app as you cannot use both xDrip and the Dexcom app with the same transmitter simultaneously.  
   
 3- On the xDrip main screen, tap the treatment (dropper) symbol.  
-![](./images/syringe-symbol.png)  
+![syringe-symbol](./images/syringe-symbol.png)  
   
 4- This will open a form with a numeric pad. At the bottom right corner, long-press the microphone symbol.  
-![](./images/treatment-menu.png)  
+![treatment-menu](./images/treatment-menu.png)  
   
 5- A keyboard will appear. Type `Hard Reset Transmitter` and tap Enter. A confirmation message will appear indicating that the attempt will be made. Do not exit xDrip; the command still needs to be sent to the transmitter.  
   
