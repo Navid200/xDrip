@@ -16,11 +16,11 @@ Some settings can only be accessed on the home shelf.  Those are:
 . [Graphical trend arrow](./Display/TrendArrow.md)  
 
 To access the home shelf, long press the xDrip icon on the main screen.  
-![](./images/HomeShelfAccess.png)  
+![HomeShelfAccess](./images/HomeShelfAccess.png)  
 <br/>  
 
 Home shelf    
-![](./images/HomeShelf.png)  
+![HomeShelf](./images/HomeShelf.png)  
 
 To exit, just tap on the main screen outside the home shelf.  
 
