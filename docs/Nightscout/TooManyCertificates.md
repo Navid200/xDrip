@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Unexpected error - Too many requests of a given type
+# Unexpected error - Too many requests of a given type
 [Google Cloud Nightscout](./GoogleCloud.md) >> There were too many requests of a given type  
   
 ![](./images/UnexpectedError.png)  
