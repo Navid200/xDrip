@@ -8,9 +8,7 @@ layout: GCNS
 <br/>  
 <br/>  
 
-Now, we will update Linux on our [virtual machine](./NS_FreeTier.md), and install Nightscout on it.  You must have [FreeDNS](./FreeDNS.md) and [Google Project](./NS_GCProject.md) set up already to proceed.  
-<br/>  
-  
+
 <!-- First input and button -->
 <input type="text" value="curl https://example.com/script1.sh | bash" readonly 
        id="myInputText1" 
@@ -36,4 +34,5 @@ function copyText(inputId) {
     alert("Copied: " + copyField.value);
 }
 </script>
+
 
