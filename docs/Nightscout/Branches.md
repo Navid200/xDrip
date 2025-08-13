@@ -31,9 +31,27 @@ To see the differences between the two branches, refer to the [release notes](./
 #### **Switching Branches**  
 If you want to switch branches while using Google Cloud Nightscout, follow these instructions:  
 
-1- Copy the following command:  
+1- To switch from the dev branch to the stable branch, copy the following command:  
+<input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-2/bootstrap.sh | bash" readonly  
+       id="myInputText1"  
+       style="border:none; color:#101010; background-color:#ededed; width:100%; font-size:15px">  
+<button onclick="copyText('myInputText1', 'msg1')"   
+        style="border: 1px solid #0066ff; color:#f0f0f0; background: linear-gradient(#0066ff, #0066ff); font-size:14px; font-weight:400; border-radius: 2px; margin-left:70px;  margin-top:8px; padding:4px 12px; display:inline-block; box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 5px rgba(0,0,0,.7);">Copy</button>  
+<span id="msg1" style="margin-left:10px; color:green; display:none;">Copied!</span>  
+<br/>  
+To switch from the stable branch to the dev branch, copy the following command:  
+<input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-dev/bootstrap.sh | bash" readonly  
+       id="myInputText2"  
+       style="border:none; color:#101010; background-color:#ededed; width:100%; font-size:15px">  
+<button onclick="copyText('myInputText2', 'msg2')"   
+        style="border: 1px solid #0066ff; color:#f0f0f0; background: linear-gradient(#0066ff, #0066ff); font-size:14px; font-weight:400; border-radius: 2px; margin-left:70px;  margin-top:8px; padding:4px 12px; display:inline-block; box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 5px rgba(0,0,0,.7);">Copy</button>  
+<span id="msg2" style="margin-left:10px; color:green; display:none;">Copied!</span> 
+
+
+<!--
 <input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-2/bootstrap.sh | bash" readonly id="myInputText" style="border:none; color:#101010; background-color:#ededed; width:100%; font-size:15px">  
 <button onclick="FunctionCopyText()" style="border: 1px solid #0066ff; color:#f0f0f0; background: linear-gradient(#0066ff, #0066ff); font-size:14px; background-color:#0066ff; font-weight:400; border-radius: 2px; margin-left:70px; margin-top:8px; padding:4px 12px; display:inline-block; box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 5px rgba(0,0,0,.7); :hover ">Copy</button>  
+-->
   
 2- Paste the command into the virtual machine [terminal](./Terminal.md).  
 To run the development bootstrap, change vps-2 to vps-dev.  
@@ -64,3 +82,4 @@ Use the development branch if you are confident with technology and are willing 
 Use the development branch if you need a feature that is only available there.  
 Use the stable branch if you prefer stability and the stable release meets all your needs.  
   
+<script src="/xDrip/assets/js/copy.js"></script>  
