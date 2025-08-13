@@ -1,3 +1,8 @@
+---
+title: "Running Multiple xDrip Instances on One Phone"
+description: "Learn how to install and manage xDrip variants to track multiple users on a single Android device, including setup and customization tips."
+---
+  
 # Variants  
 [xDrip](../) >> [Download & Installation](./Installation_page.md) >> xDrip Variants  
   
