@@ -1,3 +1,8 @@
+---
+title: "How to Reinstall xDrip Without Losing Data"
+description: "Learn how to reinstall xDrip safely—keep your history and settings intact by restoring your backup immediately after installation."
+---
+  
 # Reinstall  
 [xDrip](../) >> [Download & Installation](./Installation_page.md) >> Reinstall  
   
