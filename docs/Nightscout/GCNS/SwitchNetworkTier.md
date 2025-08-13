@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Network Service Tier    
+# Network Service Tier    
 [Google Cloud Nightscout](../GoogleCloud.md) >> Network Service Tier  
 <br/>  
   
