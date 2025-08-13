@@ -1,9 +1,8 @@
 ---
 layout: GCNS
-permalink: "/docs/Nightscout/GCNS_Support.html"
 ---
 
-## Google Cloud Nightscout Support
+# Google Cloud Nightscout Support
 [Google Cloud Nightscout](./GoogleCloud.md) >> Support  
   
 ### **Request for Help**  
