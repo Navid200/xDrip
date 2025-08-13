@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Why am I asked for an email address?
+# Why am I asked for an email address?
 [Google Cloud Nightscout](./GoogleCloud.md) >> Who is asking for my email address?  
   
 During installation, in phase 2, you will be asked to enter an email address.
@@ -15,7 +15,7 @@ But, if you stop using your hostname, you will receive an email reminder that yo
 Your email address is given to letsencrypt.  And that's what they use it for.  
 The following is a sample email.   
   
-![](./images/Letsencryptemail.png)  
+![Letsencryptemail](./images/Letsencryptemail.png)  
 <br/>  
   
 If you are not going to use the hostname any longer, you can ignore the email.  
