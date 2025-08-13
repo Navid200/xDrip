@@ -48,7 +48,7 @@ If you have upgraded to Ubuntu 24, copy the highlighted text below and paste int
   
 <br/>  
   
-If you are still running Ubuntu 20, copy the highlighted text below and paste into the terminal.  Press enter.  
+If you are still running Ubuntu 20, copy the highlighted text below instead and paste into the terminal.  Press enter.  
   
 <!-- Second input and button -->
 <input type="text" value="curl https://raw.githubusercontent.com/jamorham/nightscout-vps/vps-1/bootstrap.sh | bash" readonly 
