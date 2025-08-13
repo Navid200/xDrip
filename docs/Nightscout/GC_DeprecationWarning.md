@@ -2,11 +2,11 @@
 layout: GCNS
 ---
 
-## Deprecation Warning
+# Deprecation Warning
 [Google Cloud Nightscout](./GoogleCloud.md) >> Deprecation Warning  
   
 While running installation phase 1, you will see a deprecation warning.  
-![](./images/DeprecationWarning.png)  
+![DeprecationWarning](./images/DeprecationWarning.png)  
   
 This is OK.  Please be patient while the installation completes.  
 <br/>  
