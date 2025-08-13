@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Troubleshooting  
+# Troubleshooting  
 [Google Cloud Nightscout](../GoogleCloud.md) >> Google Cloud Nightscout Troubleshooting  
 <br/>  
   
