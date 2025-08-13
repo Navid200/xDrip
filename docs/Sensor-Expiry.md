@@ -19,7 +19,6 @@ Bring up the [home shelf](./HomeShelf.md).
 Enable the `Show Sensor Expiry` option.  
 ![SensorExpiry](./images/SensorExpiry.png)  
   
-If you are using a G5 in non-[native](./Native-Algorithm) mode, or if you are using a G5 (or an older G6) and have enabled [preemptive restart](./Preemptive-Restart), your sensor will not stop automatically. In such cases, enabling this setting will still show an expiry notification on the main screen. Therefore, you should disable this setting for these configurations.     
 <br/>  
   
 ---  
