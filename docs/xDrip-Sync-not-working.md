@@ -1,3 +1,8 @@
+---
+title: "Troubleshooting xDrip Sync"
+description: "Fix xDrip sync issues by ensuring 'Use xDrip Cloud' is enabled and 'Disable all sync features' is turned off on both master and follower devices."
+---
+  
 # xDrip Sync not working
 [xDrip](../) >> [Troubleshooting](./Troubleshooting_page.md) >> xDrip Sync not working  
 <br/>  
