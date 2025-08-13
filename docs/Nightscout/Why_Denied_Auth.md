@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Why AUTH_DEFAULT_ROLES is set to "Denied"
+# Why AUTH_DEFAULT_ROLES is set to "Denied"
 [Google Cloud Nightscout](./GoogleCloud.md) >> AUTH_DEFAULT_ROLES set to denied  
   
 The Nightscout variable titled **AUTH_DEFAULT_ROLES** is set to "denied" by default. Here’s why:  
