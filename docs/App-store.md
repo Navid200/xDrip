@@ -1,3 +1,8 @@
+---
+title: "Why xDrip Isn’t in the Google Play Store"
+description: "Understand why the xDrip app is not available in the Google Play Store, including policy restrictions and distribution details."
+---
+  
 # Why is xDrip not in Google play store?
 [xDrip](../) >> [Frequently Asked Questions](./FAQ_page.md) >> Why is xDrip not in Google play store?  
   
