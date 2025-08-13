@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Google Cloud Nightscout Troubleshooting
+# Google Cloud Nightscout Troubleshooting
 [Google Cloud Nightscout](./GoogleCloud.md) >> Troubleshooting  
   
 If you cannot log into your virtual machine, it is possible that it has stopped.  See the following section.  
