@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Utilities  
+# Utilities  
 [Google Cloud Nightscout](../GoogleCloud.md) >> Google Cloud Nightscout Utilities  
 <br/>  
   
