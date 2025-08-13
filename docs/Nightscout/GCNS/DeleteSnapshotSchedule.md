@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Delete Google Cloud snapshot schedule  
+# Delete Google Cloud snapshot schedule  
 [Google Cloud Nightscout](../GoogleCloud.md) >> Delete Snapshot Schedule  
 <br/>  
   
