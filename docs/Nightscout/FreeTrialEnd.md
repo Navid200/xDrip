@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Free Trial has ended - Upgrade your account
+# Free Trial has ended - Upgrade your account
 [Google Cloud Nightscout](./GoogleCloud) >> Free Trial End  
   
 You should upgrade Google Cloud to avoid any surprises.  
