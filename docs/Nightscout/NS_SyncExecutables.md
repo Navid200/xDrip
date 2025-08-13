@@ -58,6 +58,7 @@ If you are still running Ubuntu 20, copy the highlighted text below instead and 
         style="border: 1px solid #0066ff; color:#f0f0f0; background: linear-gradient(#0066ff, #0066ff); font-size:14px; font-weight:400; border-radius: 2px; margin-left:70px; margin-top:8px; padding:4px 12px; display:inline-block; box-shadow: inset 0px 1px 0px rgba(255,255,255,.3), 0px 1px 5px rgba(0,0,0,.7);">Copy</button>
 <span id="msg2" style="margin-left:10px; color:green; display:none;">Copied!</span>
 
+<!--
 <script>  
 function copyText(inputId, msgId) {  
     var copyField = document.getElementById(inputId);  
@@ -75,6 +76,7 @@ function copyText(inputId, msgId) {
     });  
 }  
 </script>  
+-->
   
 <br/>  
   
@@ -90,6 +92,8 @@ Please proceed to the following sections.
 #### **No Hostname**
 If you are still using noip.com, after you run bootstrap and run `Install Nightscout phase 1`, you will see "No hostname" on the status page as shown below.  
 ![](./images/NoHostname.png)  
+
+<script src="/xDrip/assets/js/copy.js"></script>
   
 To switch to FreeDNS, please follow the instructions [here](./FreeDNS.md) to create a FreeDNS account and create a new hostname.  
 Then, please run "Install Nightscout phase 2" from the Google Cloud setup submenu.  
