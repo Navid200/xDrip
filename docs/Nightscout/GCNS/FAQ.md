@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Frequently Asked Questions  
+# Frequently Asked Questions  
 [Google Cloud Nightscout](../GoogleCloud.md) >> Google Cloud Nightscout Frequently Asked Questions  
 <br/>  
   
