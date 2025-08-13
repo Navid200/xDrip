@@ -1,4 +1,9 @@
-## Scan QR Code
+---
+title: "Scan QR Code to Import xDrip Settings"
+description: "Quickly import xDrip settings by scanning a QR code or using an image file. Simplify your setup process with this feature."
+---
+  
+# Scan QR Code
 [xDrip](../../) >> [Settings](../Settings.md) >> Scan QR Code  
   
 xDrip can scan a QR code containing settings to import them.  
