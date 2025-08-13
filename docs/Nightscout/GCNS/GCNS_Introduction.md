@@ -2,7 +2,7 @@
 layout: GCNS
 --- 
   
-## Introduction  
+# Introduction  
 [Google Cloud Nightscout](../GoogleCloud.md) >> Google Cloud Nightscout Introduction  
   
 #### **Important Considerations**  
