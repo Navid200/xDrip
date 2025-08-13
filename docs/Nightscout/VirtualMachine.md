@@ -1,7 +1,9 @@
 ---
+title: "Setting Up a Google Cloud Virtual Machine for Nightscout"
+description: "Step-by-step instructions to create a free-tier Google Cloud virtual machine optimized for hosting Nightscout safely and efficiently."
 layout: GCNS
 ---
-
+  
 # Google Cloud Virtual Machine  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Virtual Machine  
    
