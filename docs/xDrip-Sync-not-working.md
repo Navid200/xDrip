@@ -2,7 +2,7 @@
 [xDrip](../) >> [Troubleshooting](./Troubleshooting_page.md) >> xDrip Sync not working  
 <br/>  
   
-[Update xDrip](./Update.md) if you are using an old version.  Ensure you are using at least the the stable release.  
+[Update xDrip](./Updates.md) if you are using an old version.  Ensure you are using at least the the stable release.  
 <br/>  
   
 ---  
