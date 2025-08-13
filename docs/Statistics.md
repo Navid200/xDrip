@@ -1,3 +1,8 @@
+---
+title: "xDrip Statistics – Time-in-Range, Trends, and AGP"
+description: "Learn how to view xDrip’s statistical insights, including time-in-range pie charts, parameter summaries, and AGP graphs for today, yesterday, 7D, 30D, or 90D."
+---
+  
 # xDrip Statistics  
 [xDrip](../) >> [Features](./Features_page.md) >> xDrip Statistics  
   
