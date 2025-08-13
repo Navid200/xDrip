@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Disclaimer  
+# Disclaimer  
 [Google Cloud Nightscout](../GoogleCloud.md) >> Disclaimer  
 <br/>  
   
