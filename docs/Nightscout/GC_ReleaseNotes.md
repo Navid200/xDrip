@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Google Cloud Nightscout release notes
+# Google Cloud Nightscout release notes
 [Google Cloud Nightscout](./GoogleCloud.md) >> Release notes  
   
 The development and stable branches are explained [here](./Branches.md).  
