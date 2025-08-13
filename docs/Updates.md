@@ -20,7 +20,7 @@ You will be informed only when there is an update in your selected channel when 
   
 | Channel | Description | Average Frequency |  
 |:--------------:|:-----------: | :--------: |   
-| Nightly        | Most up-to-date but least tested | Once a week |  
+| Nightly        | Most up-to-date but least tested | 26 times a year |  
 | Alpha          | Earlier release than beta | Twice a year |  
 | Beta / Stable  | Most tested (default) | Twice a year |  
 
