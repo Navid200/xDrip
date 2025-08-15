@@ -1,4 +1,9 @@
-## xDrip Main Settings
+---
+title: "xDrip’s Main Settings Menu"
+description: "Learn how to access xDrip’s main settings via the hamburger menu for quick configuration and customization."
+---
+  
+# xDrip Main Settings
 [xDrip](../../) >> [Settings](../Settings.md) >> Main settings or main menu or hamburger menu  
 <br/>  
   
