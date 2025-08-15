@@ -1,4 +1,9 @@
-## xDrip more settings  
+---
+title: "More Settings in xDrip"
+description: "Learn about the additional configuration options available in xDrip’s More Settings menu, including advanced and specialized features."
+---
+  
+# xDrip more settings  
 [xDrip](../../) >> [Settings](../Settings.md) >> More settings or vertical ellipsis menu or 3 dots menu  
 <br/>  
   
