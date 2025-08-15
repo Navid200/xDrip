@@ -1,3 +1,9 @@
+---
+title: "Why xDrip Alerts Make No Sound (Silent Alert Troubleshooting)"
+description: "Discover why xDrip alerts may go silent—learn to check volume profiles, Android notification settings, DND mode, and override options."
+---
+
+
 # xDrip Alert makes no sound
 [xDrip](../) >> [Features](./Features_page.md) >> [Alerts](./Alerts_page.md) >> xDrip Alert makes no sound  
   
