@@ -1,8 +1,10 @@
 ---
 layout: GCNS
+title: "Create a Google Cloud Project for Nightscout"
+description: "Step-by-step guide to set up a Google Cloud project with billing and free-trial credit to host your Nightscout instance."
 ---
-
-## Google Cloud project  
+  
+# Google Cloud project  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Google Cloud project  
   
 You will need a Google account, a Google project, and activated billing for the Google project.  We will take care of all that now.  There are also video clips (silent) on this page that may be helpful if the instructions are not clear.  
