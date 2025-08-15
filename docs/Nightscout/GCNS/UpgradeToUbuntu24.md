@@ -25,6 +25,6 @@ The following instructions will guide you through the upgrade process.
   
 3- Clean Up  
 - [Stop](../StopVM.md) your old virtual machine.  
-- Verify that your new installation is fully functional.  
+- Verify that your new installation is fully functional and contains all your data.  
 - [Delete your original virtual machine](../DeleteVM.md).  
   
