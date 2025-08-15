@@ -1,3 +1,8 @@
+---
+title: "Enable Missed Reading Alerts in xDrip"
+description: "Learn how to activate missed reading alerts in xDrip and understand how override Do Not Disturb and audio volume behavior apply."
+---
+
 # Missed Reading Alert
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Missed Reading alert  
   
