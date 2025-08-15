@@ -29,8 +29,7 @@ description: "Common questions and answers about installing, using, and troubles
 #### [Logs?](./Logs.md)
 #### [Settings](./Settings.md)
 #### [Treatment menu](./Treatments.md)
-#### [Which xDrip version do I have?](./xDrip-Version.md)  
-[Auto configure?](./FAQ/AutoConfig.md) 
+ [Which xDrip version do I have?](./xDrip-Version.md)  
   
 #### **How**
 #### [To receive an alert if I have no readings](./Alerts/MissedReading)
