@@ -1,3 +1,8 @@
+---
+title: "Understanding Sensor Noise in xDrip"
+description: "Learn how to identify sensor noise in xDrip—rapid, erratic glucose readings caused by sensor malfunction—and how to address it."
+---
+
 # Noise
 [xDrip](../) >> [FAQ](./FAQ_page.md) >> Noise  
 
