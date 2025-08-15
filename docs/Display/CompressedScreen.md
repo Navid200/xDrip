@@ -1,3 +1,8 @@
+---
+title: "Fixing a Compressed Graph in xDrip"
+description: "Learn how to resolve issues with xDrip’s vertical axis stretching—remove flags or mark bad readings to restore normal graph display."
+---
+
 # Compressed graph
 [xDrip](../../) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Compressed screen  
   
