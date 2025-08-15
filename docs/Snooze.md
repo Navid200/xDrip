@@ -1,3 +1,8 @@
+---
+title: "How to Snooze Alerts in xDrip"
+description: "Discover how to silence xDrip alerts temporarily—triggered, preemptive, and on lock screen—using the menu, swipe gesture, or system settings."
+---
+
 # Snooze  
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip Alerts](./Alerts_page.md) >> Snooze xDrip  
   
