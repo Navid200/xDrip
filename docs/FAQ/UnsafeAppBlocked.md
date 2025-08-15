@@ -1,3 +1,8 @@
+---
+title: "How to Bypass 'Unsafe App Blocked' When Installing xDrip"
+description: "Learn how to install xDrip on Android when you encounter the 'Unsafe App Blocked' message—step-by-step instructions for manual APK installation."
+---
+
 # Unsafe app blocked
 [xDrip](../../) >> [FAQ](../FAQ_page.md) >> Why Do I Get the "Unsafe App Blocked" Message?  
   
