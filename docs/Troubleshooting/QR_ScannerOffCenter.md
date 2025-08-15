@@ -1,4 +1,9 @@
-## Auto Configure Camera "QR Scanner" Not Working
+---
+title: "QR Scanner Viewport Off-Center—How to Fix It"
+description: "If xDrip’s QR scanner shows the viewport off-center, switch your phone to landscape and tap Camera to re-center the scan frame."
+---
+  
+# Auto Configure Camera "QR Scanner" Not Working
 [xDrip](../../) >> [Troubleshooting](../Troubleshooting_page.md) >> QR Scanner does not work  
   
 Is the scan viewport appearing off-center, like in the image below?    
