@@ -1,8 +1,10 @@
 ---
 layout: GCNS
+title: "Setting Up Google Cloud Nightscout"
+description: "Log into your Nightscout site on Google Cloud via FreeDNS, configure API secret, and enable xDrip uploads using QR or REST API."
 ---
 
-## Setting up Google Cloud Nightscout
+# Setting up Google Cloud Nightscout
 [Google Cloud Nightscout](./GoogleCloud.md) >> Setting up Nightscout  
   
 We will now log into our new Nightscout, installed on the Google Cloud virtual machine, and set it up.  There are also video clips (silent) on this page that may be helpful if the instructions are not clear.  
