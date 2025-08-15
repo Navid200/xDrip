@@ -13,20 +13,17 @@ The following instructions will guide you through the upgrade process.
   
 ---  
   
-1- Update Your Existing Ubuntu 20 Setup  
-Follow [these instructions](../NS_SyncExecutables.md) to ensure your system is up to date.  
-  
-2- Back Up Your Data  
+1- Back Up Your Data  
 [Create a backup and transfer it to your computer](../DatabaseBackup.md).  
 <br/>  
   
-3- Set Up a New Virtual Machine and Install Nightscout  
+2- Set Up a New Virtual Machine and Install Nightscout  
 - Follow our [installation instructions](../GoogleCloud.md).  
 - [Restore your backup](../DatabaseRestore.md) to the new installation.
 - While both original and new virtual machines are active, you will be charged about $0.01 a day.  
 <br/>  
   
-4- Clean Up  
+3- Clean Up  
 - [Stop](../StopVM.md) your old virtual machine.  
 - Verify that your new installation is fully functional.  
 - [Delete your original virtual machine](../DeleteVM.md).  
