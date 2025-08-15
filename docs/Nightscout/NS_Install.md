@@ -1,8 +1,10 @@
 ---
 layout: GCNS
+title: "Install Nightscout on Your Google Cloud VM"
+description: "Update Linux and install Nightscout on your Google Cloud VM using FreeDNS and project setup in just a few smart steps."
 ---
 
-## Linux/Nightscout install  
+# Linux/Nightscout install  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Linux/Nightscout install  
   
 Now, we will update Linux on our virtual machine and install Nightscout on it.  You must have [FreeDNS](./FreeDNS.md) and a [Google Project](./NS_GCProject.md) set up, and you should have already created a [virtual machine](./VirtualMachine.md) to proceed.  There are also video clips on this page that may be helpful.  
