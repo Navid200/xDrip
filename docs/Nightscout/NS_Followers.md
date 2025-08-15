@@ -1,8 +1,10 @@
 ---
 layout: GCNS
+title: "Setting Up Nightscout Followers on Google Cloud"
+description: "Learn how to securely configure follower apps (like xDrip) to access your Nightscout site—while minimizing traffic and preserving your free-tier Google Cloud setup."
 ---
 
-## Setting up followers on Google Cloud
+# Setting up followers on Google Cloud
 [Google Cloud Nightscout](./GoogleCloud.md) >> Setting up followers  
   
 You can always use a web browser to view the readings from your Nightscout site. Simply enter the hostname into the browser and authenticate using your API_SECRET or token when prompted.  
