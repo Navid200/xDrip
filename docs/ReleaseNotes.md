@@ -13,7 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
-| [2025.08.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.08.16) | Override silent mode setting for each alert - Companion app iCan Russian - Companion app equil G |  
+| [2025.08.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.08.16) | [Override silent mode setting for each alert](https://github.com/NightscoutFoundation/xDrip/discussions/4130) - Companion app iCan Russian - Companion app equil G |  
 | [2025.08.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.08.08) | Compact ongoing notification |  
 | [2025.07.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.07.25) | Nightscout sensor age improvement for G7 - Carb entry fix - Reminder cleanup |  
 | [2025.07.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.07.16) | Libre 2+ sensor age - no follower cal except xSync - follower chime menu - notification logs |  
