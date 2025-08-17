@@ -8,9 +8,9 @@ description: "Learn about the additional configuration options available in xDri
 <br/>  
   
 Some controls are under the vertical ellipsis menu.  
-![](../images/3dotMenu.png)  
+![3dot Menu](../images/3dotMenu.png)  
 
-![](../images/3dotMenu2.png)  
+![3dot Menu 2](../images/3dotMenu2.png)  
 <br/>  
   
 The contents of the vertical ellipsis menu can be different depending on what page you are on.  
