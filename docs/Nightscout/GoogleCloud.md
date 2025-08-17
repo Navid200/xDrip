@@ -31,5 +31,5 @@ description: "Step‑by‑step guide to setting up Nightscout on Google Cloud us
 #### [FAQ](./GCNS/FAQ.md)
 #### [Troubleshooting](./GCNS/Troubleshooting.md)
 <br/>  
-#### [Upgrade from Ubuntu 20 to Ubuntu 24(./GCNS/UpgradeToUbuntu24.md)]
+#### [Upgrade from Ubuntu 20 to Ubuntu 24(./GCNS/UpgradeToUbuntu24.md)](./GCNS/UpgradeToUbuntu24.md)
   
