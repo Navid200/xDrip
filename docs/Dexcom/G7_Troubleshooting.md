@@ -1,5 +1,5 @@
 ---  
-title: Dexcom G7 Troubleshooting  
+title: Dexcom G7/One+/Stelo Troubleshooting  
 description: "Troubleshooting guide for Dexcom G7 issues with xDrip, including pairing errors, sensor session errors, and connection fixes."  
 ---  
   
