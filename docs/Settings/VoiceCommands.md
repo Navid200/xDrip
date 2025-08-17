@@ -12,10 +12,10 @@ Some features in xDrip are accessible only through voice commands.  These comman
   
 #### **How to Use Voice Commands:**
 1- Tap the dropper icon on the main screen.  
-![](../images/syringe-symbol.png)  
+![syringe symbol](../images/syringe-symbol.png)  
   
 2- Long press the microphone icon.  
-![](../images/treatment-menu.png)  
+![treatment menu](../images/treatment-menu.png)  
 A form will appear.  
   
 3- Type and submit the desired voice command.  
