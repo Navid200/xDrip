@@ -1,3 +1,8 @@
+---
+title: "xDrip Display Settings and Customization"
+description: "Explore xDrip’s display customization: units, glucose and time ranges, sensor expiry, graph smoothing, lock/always-on screens, trend arrows, and more."
+---
+
 # Display  
 [xDrip](../../) >> [Features](../Features_page) >> Display  
   
