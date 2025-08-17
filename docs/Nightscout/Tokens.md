@@ -5,7 +5,7 @@ description: "Learn how to generate and revoke Nightscout tokens—secure, role-
 
 
 # Nightscout Tokens  
-[xDrip](../../README.md) > [F.A.Q.](../FAQ_page.md) > Nightscout Tokens  
+[xDrip](../../) > [F.A.Q.](../FAQ_page.md) > Nightscout Tokens  
   
 You can create a token to share with a follower instead of giving them your API_SECRET.  
 If you ever decide to stop sharing with someone, removing a token is much easier than changing your API_SECRET.  
