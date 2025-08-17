@@ -1,5 +1,7 @@
 ---
 layout: GCNS
+title: "Troubleshooting Google Cloud Nightscout (GCNS)"
+description: "Solutions for common GCNS issues such as connection errors, certificate problems, FreeDNS issues, quota limits, and full disk in Google Cloud Nightscout."
 ---
 
 # Troubleshooting  
