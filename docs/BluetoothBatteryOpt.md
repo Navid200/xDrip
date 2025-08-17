@@ -1,3 +1,8 @@
+---
+title: "Disable Bluetooth Battery Optimization for xDrip"
+description: "Learn how to disable power-saving features on Android so that xDrip can reliably receive sensor readings via Bluetooth."
+---
+
 # Bluetooth Battery Optimization
 [xDrip](../) >> [Download & Installation](./Installation_page.md) >> xDrip Bluetooth Battery optimization  
   
