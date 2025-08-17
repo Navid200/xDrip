@@ -8,10 +8,10 @@ Engineering mode provides access to xDrip functions that are either not fully te
   
 **Enable Engineering Mode**  
 1- Tap on the dropper symbol on the main screen.  
-![](./images/syringe-symbol.png).  
+![syringe symbol](./images/syringe-symbol.png).  
   
 2- Next, tap on the microphone symbol at the bottom right corner of the form.  
-![](./images/treatment-menu.png)  
+![treatment menu](./images/treatment-menu.png)  
   
 3- When the microphone opens, say `Enable engineering mode`.  
   
