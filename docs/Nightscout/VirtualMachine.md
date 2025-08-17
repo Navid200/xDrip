@@ -22,7 +22,7 @@ This virtual machine is strictly for hosting Nightscout. Do not use it for work,
 Go to "Compute Engine"  &#8594; "VM Instances".  
   
 Select "Create Instance".  
-![](./images/CreateInstance.png)  
+![Create Instance](./images/CreateInstance.png)  
   
 Select all the items mentioned below.  Leave everything else as is.  
 <br/>  
@@ -30,17 +30,17 @@ Select all the items mentioned below.  Leave everything else as is.
 ---
   
 #### **Machine configuration**  
-Select a region that qualifies for free tier.  Those are ![](./images/Oregon.png), ![](./images/Iowa.png) or ![](./images/S_Carolina.png).  
+Select a region that qualifies for free tier.  Those are ![Oregon](./images/Oregon.png), ![Oregon](./images/Iowa.png) or ![S_Carolina](./images/S_Carolina.png).  
   
 Set machine type to "e2-micro".  
-![](./GCNS/images/MachineType.png)  
+![Machine Type](./GCNS/images/MachineType.png)  
 <br/>  
   
 ----  
   
 #### **OS and storage**  
 Under "OS and storage", click on Change and modify as shown below.  
-![](./images/Disk2.png)  
+![Disk2](./images/Disk2.png)  
   
 Click on "Select".  
 <br/>  
@@ -55,7 +55,7 @@ Under Data protection, choose "No backups".
   
 #### **Networking**  
 Under "Firewall", enable both http and https.  
-![](./images/Firewall2.png)  
+![Firewall2](./images/Firewall2.png)  
   
 Under "Network interfaces", click on "default".  In the fields that appear, under "Network Service Tier", select "Standard".  
 Click on "Done".  
@@ -97,7 +97,7 @@ Click on "Create" to create the virtual machine.  Google will now initialize you
     
 The estimate shown at the top right on the same page will not be 0.  As long as you satisfy the conditions listed in the above table, it's OK.  You can ignore that non-0 estimate.  
 You can also use the [calculator](https://cloud.google.com/products/calculator) to confirm the price.  
-![](./images/Estimate.png)  
+![Estimate](./images/Estimate.png)  
 <br/>  
 <br/>  
   
@@ -109,7 +109,7 @@ If you see a red exclamation mark after creating your virtual machine and hoveri
 1- Dismiss the request by clicking the trash can icon on the right.  
 2- Reattempt creation in a different region.  
 3- Unfortunately, you will need to reconfigure all settings from scratch for the new request.  
-![](./images/VM_Unavailable.png)   
+![VM_Unavailable](./images/VM_Unavailable.png)   
 <br/>  
   
 ---  
