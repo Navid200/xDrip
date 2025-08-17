@@ -23,7 +23,7 @@ You can access the nightly builds (least tested but more recent) from the `Relea
   
 #### **What to download**
 After accessing the release you want, you will see something like this after expanding `Assets`:  
-![](./images/apk.png)  
+![apk](./images/apk.png)  
     
 Download the file with .apk at the end.  If there are multiple files with .apk at the end, download the one without [`variant`](./Variants.md) included in the name.  
 The file will be downloaded to the "Download" folder on your phone.  
