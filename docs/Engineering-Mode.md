@@ -1,3 +1,8 @@
+---
+title: "Engineering Mode in xDrip (Testing Only)"
+description: "Engineering Mode is intended for testing and advanced troubleshooting in xDrip. It should remain disabled under normal use. Learn how to enable it temporarily and safely turn it off."
+---
+
 # Engineering Mode
 [xDrip](../) >> [Features](./Features_page.md) >> xDrip Engineering mode  
   
