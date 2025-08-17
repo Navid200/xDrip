@@ -8,7 +8,7 @@ description: "Quickly import xDrip settings by scanning a QR code or using an im
   
 xDrip can scan a QR code containing settings to import them.  
 To do this, go to `Settings` &#8722;> `Auto Configure`.  
-![](./images/AutoConfigure.png)  
+![AutoConfigure](./images/AutoConfigure.png)  
 
 Most Android devices come with a camera.  Rotate the phone to landscape mode and tap the top button (Camera) to use it for scanning.  Moving the phone back from the QR code can help the camera focus better.  
 After xDrip scans, it will show you the settings that are included in the QR code and asks you to confirm to import them.  
