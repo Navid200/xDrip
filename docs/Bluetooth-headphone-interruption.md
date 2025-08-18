@@ -1,3 +1,8 @@
+---
+title: "Fix Bluetooth Headphone Interruption in xDrip"
+description: "Resolve issues with xDrip pausing or stopping when Bluetooth headphones connect—tips to maintain continuous sensor data reception."
+---
+
 #  Bluetooth headphone interruption
 [xDrip](../) >> [Troubleshooting](./Troubleshooting_page.md) >> Bluetooth headphone interruption  
   
