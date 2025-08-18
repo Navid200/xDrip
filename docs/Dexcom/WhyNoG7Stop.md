@@ -1,4 +1,9 @@
-# Why Can’t I Start or Stop a G7?  
+---
+title: "Why You Can’t Manually Stop a Dexcom G7 in xDrip"
+description: "Understand why xDrip removes manual stop/start for the Dexcom G7: sessions auto-start and stopping it permanently disables the device, which continues transmitting anyway."
+---
+
+# Why You Can’t Manually Stop/Start a G7  
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Why no start or stop for G7!  
   
 A G7 (or One+) session starts automatically on the device as soon as you use the applicator to insert it. There is no need to manually start the session.   
