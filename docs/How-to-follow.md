@@ -8,8 +8,8 @@ description: "Explore the differences between xDrip Sync, Nightscout Follower, a
   
 xDrip can display someone elseâ€™s readings in real time as a follower.  
   
-### **[xDrip Sync Follower](./xDripSync.md)**  
-This option is easy to set up.  
+### **xDrip Sync Follower**  
+This option is easy to [set up](./xDripSync.md).  
 <br/>  
   
 ### **Nightscout Follower**  
@@ -17,6 +17,7 @@ This requires [Nightscout](./Nightscout_page.md) to be set up.  Afterward, youâ€
 If xDrip is your uploader, use these [settings](./Nightscout-Settings.md).  
   
 Follow these [instructions](./Follow/FollowNightscout.md) to set up the follower.  
+<br/>  
 <br/>  
   
 ### **Dex Share Follower**  
