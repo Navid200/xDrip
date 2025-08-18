@@ -1,3 +1,8 @@
+---
+title: "Generating Reports in xDrip"
+description: "Learn how to create detailed reports in xDrip for your endocrinologist, including statistical graphs and treatment data."
+---
+
 # Report  
 [xDrip](../) >> [Features](./Features_page.md) >> Report  
   
