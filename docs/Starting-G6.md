@@ -1,3 +1,8 @@
+---
+title: "Starting Dexcom G6 or One with xDrip"
+description: "Step-by-step guide to start a new Dexcom G6 or One sensor with xDrip. Includes transmitter activation, sensor insertion, and calibration instructions."
+---
+
 # Starting Dexcom G6 or Dexcom ONE
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Starting G6 or Dexcom ONE  
   
