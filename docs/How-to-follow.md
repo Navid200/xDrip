@@ -1,25 +1,27 @@
 ---
-title: "Comparison of xDrip Follower Options"
-description: "Explore the differences between xDrip Sync, Nightscout Follower, Dex Share Follower, and Web Follower modes to determine the best setup for your glucose monitoring needs."
+title: "xDrip Follower Options"
+description: "Explore the differences between xDrip Sync, Nightscout Follower, and Dex Share Follower to determine the best setup for your glucose monitoring needs."
 ---
   
-# Comparison of follower schemes  
+# Follower Schemes  
 [xDrip](../) >> [Features](./Features_page.md) >> [Follow](./Follow_page.md) >> Comparison of xDrip follower schemes  
   
-### **[xDrip Sync Follower](./xDripSync.md)** (needs internet except Desert Sync)  
-This is easy to set up.  
+xDrip can display someone else’s readings in real time as a follower.  
+  
+### **[xDrip Sync Follower](./xDripSync.md)**  
+This option is easy to set up.  
 <br/>  
   
-### **Nightscout Follower** (needs internet)  
-This requires Nightscout to be [set up](./Nightscout_page.md).  After Nightscout has been set up, you need to set up your uploader.  If xDrip is your uploader, these are the required [settings](./Nightscout-Settings.md).  
-
-These are the [follower instructions](./Follow/FollowNightscout.md).  
-<br/>  
+### **Nightscout Follower**  
+This requires [Nightscout](./Nightscout_page.md) to be set up.  Afterward, you’ll need to configure your uploader.  
+If xDrip is your uploader, use these [settings](./Nightscout-Settings.md).  
+  
+Follow these [instructions](./Follow/FollowNightscout.md) to set up the follower.  
 <br/>  
   
-### **Dex Share Follower** (needs internet)  
-This is an option if the master must be a Dexcom app.  
+### **Dex Share Follower**  
+Use this option if the master device must be running a Dexcom app.  
   
-On the follower, tap on `Settings` &#8722;> `Hardware Data Source` &#8722;> `Dex Share Follower`.  
-<br/>  
+On the follower device, go to:  
+`Settings` → `Hardware Data Source` → `Dex Share Follower`.    
   
