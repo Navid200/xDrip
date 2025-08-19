@@ -1,3 +1,8 @@
+---
+title: "Set xDrip as Your Screensaver"
+description: "Learn how to display your xDrip readings continuously on your locked phone screen while charging by setting it as your Android screensaver."
+---
+
 # Screensaver
 [xDrip](../) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> xDrip Screensaver  
   
