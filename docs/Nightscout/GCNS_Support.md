@@ -1,5 +1,7 @@
 ---
 layout: GCNS
+title: "Google Cloud Nightscout (GCNS) Support Options"
+description: "Explore how to get help with GCNS setup and maintenance—troubleshooting guidance, community forums, and best practices for your Google Cloud Nightscout deployment."
 ---
 
 # Google Cloud Nightscout Support
