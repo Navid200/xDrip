@@ -1,5 +1,5 @@
 ---  
-title: xDrip – Open-source Continuous Glucose Monitoring App  
+title: xDrip Guide and Troubleshooting Documentation 
 description: "Official xDrip documentation and guides for installation, configuration, troubleshooting, and advanced features."  
 ---  
   
