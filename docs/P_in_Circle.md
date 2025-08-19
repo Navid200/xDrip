@@ -1,3 +1,8 @@
+---
+title: "Understanding the Encircled P in xDrip Readings"
+description: "Learn what the encircled 'P' symbol means in your xDrip glucose readings and how to enable it through plugin-based calibration."
+---
+
 # Encircled P
 [xDrip](../) >> [FAQ](./FAQ_page.md) >> Encircled P in front of the reading  
   
