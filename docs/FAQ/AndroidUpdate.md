@@ -1,4 +1,10 @@
-# Android update disconnected xDrip!
+---
+title: "Fix xDrip Disconnect After Android Update"
+description: "After an Android update, xDrip may disconnect because optimization settings reset. Learn how to re-enable Bluetooth and xDrip battery exemptions."
+---
+
+
+# Fix xDrip Disconnect After Android update
 [xDrip](../../) >> [Troubleshooting](../Troubleshooting_page.md) >> Updated Android; xDrip disconnected!  
   
 After an Android update, some settings may change to default causing connectivity issues for xDrip.  
