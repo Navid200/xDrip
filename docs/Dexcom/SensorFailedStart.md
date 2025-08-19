@@ -1,3 +1,8 @@
+---
+title: "Fix ‘Sensor Failed Start’ in xDrip"
+description: "Understand why a Dexcom sensor session stops if the transmitter isn’t detached for 10 min. Learn to avoid the issue with troubleshooting steps and proper setup."
+---
+
 # Sensor failed start  
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Sensor failed start  
   
