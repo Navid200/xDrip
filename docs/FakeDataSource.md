@@ -1,3 +1,8 @@
+---
+title: "Use a Fake Data Source in xDrip for Testing"
+description: "Learn how to enable xDrip’s fake or mock data source—useful for testing without a sensor—accessible in Engineering Mode with voice or text commands."
+---
+
 # Fake or Mock Data Source (Advanced)
 [xDrip](../) >> [Features](./Features_page.md) >> Fake/Mock Data Source  
   
