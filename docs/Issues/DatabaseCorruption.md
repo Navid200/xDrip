@@ -1,32 +1,37 @@
+---
+title: "xDrip Database Corruption Troubleshooting"
+description: "Learn how to prevent and recover from database corruption in xDrip, including enabling missed reading alerts, setting up cloud backups, and configuring daily local backups."
+---
+
 # Database Corruption  
 
 Users have reported xDrip database corruption.  
 [Open issue](https://github.com/NightscoutFoundation/xDrip/issues/1280)  
 
-We don't know what causes the corruption, and don't have a fix yet.  
+The exact cause of this issue is unknown.  
 <br/>  
 
 ---  
 
-#### **What is the outcome if my database is corrupted?**  
-If this happens, you will lose your database losing all your old readings.  
-Your sensor may stop working until you attend to it.  
-There will be no way to recover the old readings.  
+#### **What happens if my database is corrupted?**  
+If this occurs, you will lose all your old readings.  
+Your sensor may stop working until you address the issue.  
+There will be no way to recover the lost readings.  
 <br/>  
   
 ---  
   
 #### **What should I do?**  
-1- Enable "Missed reading alert", which by default is disabled.  Then, you will have an alert if readings stop.  
+1- Enable "Missed reading alert" – This is disabled by default.  Enabling it ensures you receive an alert if readings stop.  
   
-2- Set up xDrip to automatically upload to the cloud.  You can use Nightsocut or Tidepool for that.  
-Then, your data will be safe regardless of what happens to your xDrip database.  
-Considering you could lose your phone, this would be strongly recommended even if there was no possibility of database corruption.  
+2- Set up automatic cloud uploads – You can use Nightscout or Tidepool for this.  
+This ensures your data is safe even if the xDrip database is corrupted.  
+Given the risk of losing your phone, this is strongly recommended regardless of database issues.  
   
-3- We have a daily automatic backup into Google Drive option.  [Google Drive Backup](https://navid200.github.io/xDrip/docs/GoogleDriveBackup.html)  
-You can enable this so that a backup of your database and all settings will automatically be made on a daily basis.  
+3- Enable daily automatic Google Drive backups – [Google Drive Backup](https://navid200.github.io/xDrip/docs/GoogleDriveBackup.html)  
+This option creates daily backups of your database and all settings to Google Drive automatically.  
   
-4- We have a daily automatic database backup onto the phone local storage option.  [Daily legacy database backup](https://navid200.github.io/xDrip/docs/Backup/SaveDaily.html)  
-You can enable this so that a database backup is made on a daily basis and saved on your phone.  
-This however can eventually fill up the disk on your phone.  Then, you can manually delete the old saved files to free up space.  
+4- Enable daily automatic local backups on the phone – [Daily legacy database backup](https://navid200.github.io/xDrip/docs/Backup/SaveDaily.html)  
+This option creates daily backups of your database on your phone.  
+Be aware that over time, these backups can fill up your phone’s storage.  You can manually delete older files to free up space.  
   
