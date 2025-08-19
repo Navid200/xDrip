@@ -31,13 +31,13 @@ The following table shows possible messages and their meanings:
   
 | Incorrect choice | Clue | Outcome |  
 | :--------------: | :----------: | :-----: |  
-| Nothing | [<img src="./images/AllGood_Icon.png">](./images/AllGood.png) | All good ✅ |  
-| Region | [<img src="./images/AllGood_Icon.png">](./images/Region.png) | Not free ❌ |  
-| Machine type | [<img src="./images/AllGood_Icon.png">](./images/NoMicro.png) | Not free ❌ |  
-| Disk type | [<img src="./images/AllGood_Icon.png">](./images/NotStandard.png) | Not free ❌ |  
-| Disk size | [<img src="./images/AllGood_Icon.png">](./images/DiskSize.png) | Unused resource <br/> Not free ❌ |  
-| Firewall | [<img src="./images/AllGood_Icon.png">](./images/Firewall.png) | Disconnect ❌ |  
-| Ubuntu | [<img src="./images/WrongUbuntu_Icon.png">](./images/WrongUbuntu.png) | Incompatibility ❌ |  
+| Nothing | [<img src="./images/AllGood_Icon.png" alt="Green check icon">](./images/AllGood.png) | All good ✅ |  
+| Region | [<img src="./images/AllGood_Icon.png" alt="Red X icon">](./images/Region.png) | Not free ❌ |  
+| Machine type | [<img src="./images/AllGood_Icon.png" alt="Red X icon">](./images/NoMicro.png) | Not free ❌ |  
+| Disk type | [<img src="./images/AllGood_Icon.png" alt="Red X icon">](./images/NotStandard.png) | Not free ❌ |  
+| Disk size | [<img src="./images/AllGood_Icon.png" alt="Red X icon">](./images/DiskSize.png) | Unused resource <br/> Not free ❌ |  
+| Firewall | [<img src="./images/AllGood_Icon.png" alt="Red X icon">](./images/Firewall.png) | Disconnect ❌ |  
+| Ubuntu | [<img src="./images/WrongUbuntu_Icon.png" alt="Red X icon">](./images/WrongUbuntu.png) | Incompatibility ❌ |  
   
 If the note directs you to create a new virtual machine, or if any item above the horizontal line on the status page is red, it means you made an incorrect selection during the virtual machine setup.  If this is a new virtual machine with no database yet, [delete the virtual machine](./DeleteVM.md) and repeat the [virtual machine step](./VirtualMachine.md).  
   
@@ -91,7 +91,7 @@ $ &nbsp; &nbsp; \" &nbsp; &nbsp; \' &nbsp; &nbsp; \\ &nbsp; &nbsp; SPACE &nbsp; 
 <br/>  
   
 You will be prompted to enter your **FreeDNS user ID and password**.  
-![](./images/FreeDNS_ID_and_Pass.png)  
+![FreeDNS ID and Pass](./images/FreeDNS_ID_and_Pass.png)  
 
 - Your user ID is **not** your email address.  
 - If you don't remember your FreeDNS user ID, log into [FreeDNS](https://freedns.afraid.org/menu/), where your user ID will be displayed in the right pane at the top.  
