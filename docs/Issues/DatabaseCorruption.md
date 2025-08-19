@@ -28,10 +28,13 @@ There will be no way to recover the lost readings.
 This ensures your data is safe even if the xDrip database is corrupted.  
 Given the risk of losing your phone, this is strongly recommended regardless of database issues.  
   
-3- Enable daily automatic Google Drive backups – [Google Drive Backup](https://navid200.github.io/xDrip/docs/GoogleDriveBackup.html)  
+3- Configure Glucose Retention – After all data has been uploaded to Nightscout, set [Glucose retention](../Backup/GlucoseRetention.md) to a value other than `0` so the database is automatically pruned.  
+A reasonable value could be `365`, which deletes data older than one year.  
+  
+4- Optional: Enable daily automatic Google Drive backups – [Google Drive Backup](https://navid200.github.io/xDrip/docs/GoogleDriveBackup.html)  
 This option creates daily backups of your database and all settings to Google Drive automatically.  
   
-4- Enable daily automatic local backups on the phone – [Daily legacy database backup](https://navid200.github.io/xDrip/docs/Backup/SaveDaily.html)  
+5- Optional: Enable daily automatic local backups on the phone – [Daily legacy database backup](https://navid200.github.io/xDrip/docs/Backup/SaveDaily.html)  
 This option creates daily backups of your database on your phone.  
 Be aware that over time, these backups can fill up your phone’s storage.  You can manually delete older files to free up space.  
   
