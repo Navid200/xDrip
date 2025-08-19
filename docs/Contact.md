@@ -1,3 +1,8 @@
+---
+title: "xDrip Support"
+description: "Need assistance with xDrip? Learn how to get help, report issues, and provide feedback through GitHub Discussions."
+---
+
 # Support
 [xDrip](../) >> xDrip Support  
   
