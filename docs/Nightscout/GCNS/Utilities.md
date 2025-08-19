@@ -1,5 +1,7 @@
 ---
 layout: GCNS
+title: "Google Cloud Nightscout Utilities (GCNS)"
+description: "Overview of utilities for managing Google Cloud Nightscout—including backup, customization, logs, and status tools to help maintain your GCNS instance."
 ---
 
 # Utilities  
