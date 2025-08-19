@@ -1,3 +1,8 @@
+---
+title: "xDrip Troubleshooting Guide"
+description: "Quickly find solutions to common xDrip issues—from installation and alerts to sensor connection, sync failures, and system quirks."
+---
+
 # xDrip Troubleshooting  
 [xDrip](../) >> xDrip Troubleshooting  
   
