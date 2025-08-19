@@ -1,9 +1,10 @@
 ---
-title: "What not to do"
+title: "xDrip: Essential G6 Don’ts for Safe Use"
+description: "Important guidelines on what *not* to do: handling transmitters, avoiding pre-soaking, proper sensor startup, calibration limits, and safely retiring old devices."
 ---
 
-# What not to do!
-[xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> What not to do  
+# What not to do with G6!
+[xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> What not to do with G6  
   
 **Don't remove a transmitter from the box until you intend to use it.**  
 As soon as you place the transmitter in a sensor, or even if you just touch the contacts long enough, the counter (on the transmitter) starts counting the number of days.  Since the number of days you can use a transmitter is [limited](./Transmitter-lifetime.md), don't start the counter unless you intend to start using the transmitter.  The best practice is to keep the transmitter in the box until you intend to use it.  
