@@ -1,3 +1,8 @@
+---
+title: "Fix Apps Restarting When xDrip is Active"
+description: "On Android 12, xDrip may cause other apps to restart. Upgrade to Android 13 or disable the Number Wall on the lock screen to resolve the issue."
+---
+
 # xDrip causes other apps to restart
 [xDrip](../) >> [Troubleshooting](./Troubleshooting_page.md) >> xDrip causes other apps to restart  
   
