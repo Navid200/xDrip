@@ -12,7 +12,7 @@ A video tutorial is included to complement the instructions.
   
 **Backup**  
 Open a [terminal](./Terminal.md), and select "Backup MongoDB and variables" from the **Data** submenu.  
-A compressed archive file will be created with the name you chose in the current directory, containing the MongoDB database and variables.  
+A compressed archive file will be created in the current directory, with the name you choose, containing both the MongoDB database and your variables.  
   
 **Transfer the backup**  
 To prevent loss if the virtual machine is deleted, transfer the backup off the machine.  
