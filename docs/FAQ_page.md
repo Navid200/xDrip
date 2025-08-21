@@ -55,7 +55,6 @@ description: "Common questions and answers about installing, using, and troubles
 #### [Sensor failed start](./Dexcom/SensorFailedStart.md)
 #### [How to trigger a pair request](./MissedPairRequest.md)
 #### [How to Start a G6](./Starting-G6.md)
-#### [What is Native algorithm - mode?](./Native-Algorithm.md)
 #### [Can I calibrate G6?](./Calibrate-G6.md)
 #### [Why did G6 do that?](./What-not-to-do.md)
  [Dexcom Intermittent connectivity](./Intermittent.md)  
