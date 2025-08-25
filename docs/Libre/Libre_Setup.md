@@ -6,7 +6,7 @@ description: "Guide to using xDrip with Libre devices."
 # xDrip & Libre  
 [xDrip](../) >> [Features](./Features_page.md) >> xDrip & Libre setup  
   
-Most of the content on this page is from a page provide by Phil Thompson on facebook.  
+Most of the content on this page is from a page provided by Phil Thompson on facebook.  
   
 You should keep xDrip [updated](../Updates.md).  You should never use a version older than the current stable release.  
 [Release Notes](../ReleaseNotes.md) provide a short summary of the changes in each release and highlight the current stable release.  
