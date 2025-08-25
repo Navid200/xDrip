@@ -6,7 +6,7 @@ description: "Guide to using xDrip with Libre devices."
 # xDrip & Libre  
 [xDrip](../) >> [Features](./Features_page.md) >> xDrip & Libre setup  
   
-Most of the on this page is from a page provide by Phil Thompson on facebook.  
+Most of the content on this page is from a page provide by Phil Thompson on facebook.  
   
 You should keep xDrip [updated](../Updates.md).  You should never use a version older than the current stable release.  
 [Release Notes](../ReleaseNotes.md) provide a short summary of the changes in each release and highlight the current stable release.  
@@ -28,7 +28,7 @@ xDrip+, OOP2 and the System Bluetooth app all need to be unrestricted / allowed 
 excluded from Battery Management.  
   
 If you are using Libre 2+, you will need an xDrip release of, or more up-to-date than, [2025.06.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.06.20).  
-[How to Download & INstall](../Installation_page.md)  
+[How to Download & Install](../Installation_page.md)  
 <br/>  
 <br/>  
   
