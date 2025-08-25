@@ -6,7 +6,7 @@ description: "Guide to using xDrip with Libre devices."
 # xDrip & Libre  
 [xDrip](../) >> [Features](./Features_page.md) >> xDrip & Libre  
   
-#### [How to use xDrip with Libre]()  
+#### [How to use xDrip with Libre](./Libre_Setup.md)  
    
 
   
