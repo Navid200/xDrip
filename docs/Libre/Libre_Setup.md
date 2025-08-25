@@ -30,8 +30,8 @@ If you are using Libre 2+, you will need xDrip release [2025.06.20](https://gith
 See: [How to Download & Install](../Installation_page.md)  
 <br/>  
   
-A common mistake with Libre Direct connection is to try to pair or bond the sensor using Bluetooth, the xDrip+ System Status page / BT device (swipe sideways) shows this as Bluetooth Pairing:  
-this should be set to Disabled, you can tap it to toggle it off/on or reinstall if it is stuck.  
+A common mistake with Libre Direct connection is to try to pair or bond the sensor using Bluetooth, the xDrip+ System Status page / BT device (swipe sideways) shows this as Bluetooth Pairing.  
+This should be set to Disabled, you can tap it to toggle it off/on or reinstall if it is stuck.  
 Typical error message is "Not bonded". Correct display is "Disabled, tap to enable".  
   
 If you are still stuck, post your xDrip+ status screens - classic and Bluetooth - and the OOP2 screenshot in the [Facebook Group](https://www.facebook.com/groups/xDripG5/?sorting_setting=CHRONOLOGICAL) or [xDrip GitHub Discussions](https://github.com/NightscoutFoundation/xDrip/discussions).  
