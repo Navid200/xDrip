@@ -67,7 +67,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
 | [2024.06.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.06.01) | Snooze menu fix - Dex menu cleanup |  
 | [2024.05.29](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.29) | Android 6 is retired |  
 | [2024.05.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.28) | G7 firmware - G7 auto start - G7 Bluetooth scan fix |  
-| [2024.05.22](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.22) | Forecast x axis fix - future treatment 3-min threshold - Huawei wake - G7 timestamp fix &nbsp; &nbsp; ❌ |  
+| [2024.05.22](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.22) | Forecast x axis fix - future treatment 3-min threshold - Huawei wake - G7 timestamp fix &nbsp; &nbsp; ❌👎 |  
 | [2024.05.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.15) | Ascend to Medium option for ascending volume profile |  
 | [2024.05.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.05.12) | Android 14 vehicle mode fix - correct G6 start time broadcast - delete alert confirmation - G6/G7 log cleanup - graph smoothing settings cleanup |  
 | [2024.04.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.04.19) | **Previous Stable release** <br/> Correct G7 start time broadcast |  
