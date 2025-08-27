@@ -13,7 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
-| [2025.08.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.08.16) | [Override silent mode setting for each alert](https://github.com/NightscoutFoundation/xDrip/discussions/4130) - Companion app iCan Russian - Companion app equil-G |  
+| [2025.08.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.08.16) | [Override silent mode setting for each alert](https://github.com/NightscoutFoundation/xDrip/discussions/4130) - Companion app iCan Russian - Companion app equil-G &nbsp; &nbsp; ❌👎 |  
 | [2025.08.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.08.08) | Compact ongoing notification |  
 | [2025.07.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.07.25) | Nightscout sensor age improvement for G7 - Carb entry fix - Reminder cleanup |  
 | [2025.07.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.07.16) | Libre 2+ sensor age - no follower cal except xSync - follower chime menu - notification logs |  
@@ -54,7 +54,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
 | [2024.09.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.16) | Status page screenshot button |  
 | [2024.09.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.15c) | xDrip Sync update |  
 | [2024.09.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.09.04) | Some cleanup |  
-| [2024.08.31](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.31) | New device &nbsp; &nbsp; ❌ |  
+| [2024.08.31](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.31) | New device &nbsp; &nbsp; ❌👎 |  
 | [2024.08.30](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.30) | New companion app |  
 | [2024.08.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.26) | Cleanup |  
 | [2024.08.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2024.08.07) | Sensor failed 7 fix - Sensor expiry alert resolution - Ongoing notification time |  
