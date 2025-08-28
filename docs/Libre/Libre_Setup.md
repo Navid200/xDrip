@@ -4,7 +4,7 @@ description: "Guide to using xDrip with Libre devices."
 ---  
   
 # xDrip & Libre 2/2+  
-[xDrip](../) >> [Features](./Features_page.md) >> xDrip & Libre 2/2+ setup  
+[xDrip](../../) >> [Features](../Features_page.md) >> xDrip & Libre 2/2+ setup  
   
 Most of the information on this page is based on content originally provided by Phil Thompson on Facebook.  
   
