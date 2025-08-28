@@ -1,10 +1,10 @@
 ---  
-title: xDrip & Libre setup   
+title: xDrip & Libre 2/2+ setup   
 description: "Guide to using xDrip with Libre devices."  
 ---  
   
-# xDrip & Libre  
-[xDrip](../) >> [Features](./Features_page.md) >> xDrip & Libre setup  
+# xDrip & Libre 2/2+  
+[xDrip](../) >> [Features](./Features_page.md) >> xDrip & Libre 2/2+ setup  
   
 Most of the information on this page is based on content originally provided by Phil Thompson on Facebook.  
   
