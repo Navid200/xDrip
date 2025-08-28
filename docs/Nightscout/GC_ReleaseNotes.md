@@ -11,7 +11,7 @@ The development and stable branches are explained [here](./Branches.md).
   
 | Release | Notes | Status page |  
 |---------|-------| ----------- |  
-| 2025.08.20 | **<span style="color:orange">Stable release</span>** <br/> Ubuntu 24.04.3 |  
+| 2025.08.20 | **<span style="color:orange">Stable release</span>** <br/> Ubuntu 24.04.3 | |  
 | 2025.05.19 | **<span style="color:orange">Stable release</span>** <br/> NS 15.0.3 | |  
 | 2025.03.17 | Cleanup of the installation routine | |  
 | 2025.02.27 | Upgrade Ubuntu to 24.04.2 | |  
