@@ -4,7 +4,7 @@ description: "Step-by-step guide to configure xDrip+ as a web follower for Libre
 ---
   
 # Web Follower Libre 3
-[xDrip](../) >> [Features](./Features_page.md) >> [Follow](./Follow_page.md) >> xDrip Web Follower for Libre 3  
+[xDrip](../) >> [Features](./Features_page.md) >> [Libre](./Libre/Libre_Page.md) >> xDrip Web Follower for Libre 3  
   
 1- Set up the official link-up follower app.  
 2- Register an email address and password.  
