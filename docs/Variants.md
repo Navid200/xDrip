@@ -9,6 +9,9 @@ description: "Learn how to install and manage xDrip variants to track multiple u
 You cannot install multiple instances of the same app on a single phone. However, xDrip variants have different names, allowing you to install xDrip alongside one or more variants. This effectively lets you run multiple instances of xDrip on the same device, each dedicated to tracking a different individual.  
   
 **Note:** You cannot use the xDrip in-app update mechanism to update a variant.  To update a variant, you must manually download the latest version and install it over the existing variant.  
+<br/>  
+  
+---  
   
 **Downloading Nightly Variants**  
 You can download nightly variants [here](https://drive.google.com/drive/folders/0B6mvYVNVC-fOWkxnVF80dlFabjQ?resourcekey=0-ebguuiPuB1wUI9Rp2zjMNg). To view the list:  
