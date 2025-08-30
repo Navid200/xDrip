@@ -4,7 +4,7 @@ description: "Explore the differences between xDrip Sync, Nightscout Follower, a
 ---
   
 # Follower Schemes  
-[xDrip](../) >> [Features](./Features_page.md) >> [Follow](./Follow_page.md) >> Comparison of xDrip follower schemes  
+[xDrip](../) >> [Features](./Features_page.md) >> Comparison of xDrip follower schemes  
   
 xDrip can display someone else’s readings in real time as a follower.  
   
