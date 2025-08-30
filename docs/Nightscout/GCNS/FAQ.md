@@ -11,7 +11,6 @@ description: "Answers to common questions about setting up and managing Google C
 #### [How can I change the hostname?](../ChangeHostname.md)
 #### [What is the cost?](../NS_FreeTier.md)
 #### [Will this be free?](../NS_FreeTier.md)
-#### [Will this work in Australia or China?](../AustraliaChina.md)
 #### [Why have I been charged?](../NS_FreeTier.md)
 #### [How to deal with "Existing Certificate"?](../ExistingCertificate.md)
 #### [Why can I not use Android 7?](./LetsEncrypt_Android7.md)
