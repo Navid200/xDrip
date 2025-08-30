@@ -10,7 +10,7 @@ description: "Explore xDrip's comprehensive features, including settings, alerts
 ### [Alerts](./Alerts_page.md)
 ### [Statistics](./Statistics.md)
 ### [Display](./Display/Display.md)
-### [Follow](./Follow_page.md)
+### [Follow](./How-to-follow.md)
 ### [Update xDrip](./Updates.md)
 ### [Backup](./Backup.md)
 ### [Calibration](./Calibration.md)
