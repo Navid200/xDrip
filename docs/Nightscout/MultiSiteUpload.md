@@ -1,5 +1,5 @@
 # Inconsistent Multi-Site Nightscout Upload  
-[xDrip](../../README.md) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> Multi-Site Upload Failure  
+[xDrip](../../) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> Multi-Site Upload Failure  
   
 Uploading to a single Nightscout site is generally recommended.  
   
