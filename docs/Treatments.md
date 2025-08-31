@@ -1,6 +1,6 @@
 ---
-title: "Logging Treatments in xDrip"
-description: "Learn how to log insulin, carbs, and BG meter readings in xDrip using manual entry, voice input, or Bluetooth integration."
+title: "xDrip Treatments"
+description: "Learn how to log, edit, and manage treatments in xDrip, including insulin, carbs, and notes. Includes documentation and help for safe diabetes management."
 ---
 
 # Treatments
