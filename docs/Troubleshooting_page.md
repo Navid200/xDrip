@@ -1,6 +1,6 @@
 ---
 title: "xDrip Troubleshooting | Guide & Documentation"
-description: "xDrip troubleshooting guide and documentation. Find xDrip help, setup info, and fixes for sensor, alerts, and connection issues."
+description: "Comprehensive xDrip troubleshooting guide and documentation. Find xDrip help and info for fixing connection, sensor, and app issues."
 ---
 
 # xDrip Troubleshooting  
