@@ -1,8 +1,8 @@
 ---
 title: "xDrip Features Overview"
-description: "Explore xDrip's comprehensive features, including settings, alerts, statistics, display options, backup, calibration, Nightscout integration, emergency messages, and more."
+description: "Explore the features of xDrip. Learn about alerts, graphs, treatments, sensors, and integrations. Find help, documentation, and info for using xDrip effectively."
 ---
-
+  
 # Features  
 [xDrip](../) >> xDrip Features  
   
