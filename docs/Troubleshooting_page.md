@@ -1,6 +1,6 @@
 ---
-title: "xDrip Troubleshooting Guide"
-description: "Quickly find solutions to common xDrip issues—from installation and alerts to sensor connection, sync failures, and system quirks."
+title: "xDrip [PageTopic] | Guide & Documentation"
+description: "Learn about xDrip [PageTopic]. This guide covers xDrip documentation, setup info, and help for [related issues or features]."
 ---
 
 # xDrip Troubleshooting  
