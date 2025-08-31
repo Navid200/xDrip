@@ -1,6 +1,6 @@
 ---
-title: "xDrip’s Main Settings Menu"
-description: "Learn how to access xDrip’s main settings via the hamburger menu for quick configuration and customization."
+title: "xDrip Main Settings"
+description: "Overview of xDrip main settings. Guide and documentation for configuring alerts, data sources, notifications, and other key options."
 ---
   
 # xDrip Main Settings
