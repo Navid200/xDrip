@@ -1,6 +1,6 @@
 ---
-title: "Sensor Expiry Alerts and Expiry Display in xDrip"
-description: "Learn how to enable xDrip’s sensor expiry alerts and show the expiry time on the main screen for better CGM management."
+title: "xDrip Sensor Expiry"
+description: "Guide to monitoring sensor expiry in xDrip, including alerts and on-screen notes."
 ---
 
 # Sensor Expiry
