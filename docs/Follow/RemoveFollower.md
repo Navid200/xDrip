@@ -4,7 +4,7 @@ description: "Learn how to stop another device from following your data in xDrip
 ---
 
 # Remove xDrip Sync follower
-[xDrip](../../) >> [Features](../Features_page.md) >> [Follow](../Follow_page.md) >> Remove xDrip sync follower  
+[xDrip](../../) >> [Features](../Features_page.md) >> [Follow](../How-to-follow.md) >> Remove xDrip sync follower  
   
 If you no longer want a follower to be able to follow you, you must disable it on the follower’s side.  
 If that isn’t possible, the only option is to change the group security sync key, as explained below.  
