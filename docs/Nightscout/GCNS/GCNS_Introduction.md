@@ -1,8 +1,8 @@
 ---
+title: "Google Cloud Nightscout Introduction"
+description: "Introduction to Google Cloud Nightscout (GCNS) setup and usage. Documentation and help for Nightscout using the GCNS platform."
 layout: GCNS
-title: "Google Cloud Nightscout (GCNS) Introduction"
-description: "Google Cloud Nightscout for continuous diabetes monitoring. Includes billing info, installation overview, and setup tips."
---- 
+---
   
 # Introduction  
 [Google Cloud Nightscout](../GoogleCloud.md) >> Google Cloud Nightscout Introduction  
