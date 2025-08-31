@@ -1,9 +1,9 @@
 ---
-title: "Why xDrip Sends Treatment Reminders Automatically"
-description: "Understand why xDrip creates reminders for upcoming treatments and ensure device clocks are synced when using multiple phones or pumps."
+title: "xDrip Treatment Reminder reason"
+description: "Find out why xDrip may send a treatment reminder in xDrip for insulin, carbs, and other therapy actions. Includes help, documentation, and guidance for personalized reminders."
 ---
 
-# Treatment Reminder
+# Why a Treatment Reminder
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Why do I get treatment reminders?  
   
 xDrip automatically creates a reminder for a treatment that is more than 1 minute in the future.  
