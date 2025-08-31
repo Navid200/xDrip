@@ -1,6 +1,6 @@
 ---
-title: "Using Voice Commands in xDrip"
-description: "Learn how to access advanced xDrip features—like Engineering Mode or clearing the Dexcom queue—using voice commands via the microphone interface."
+title: "xDrip Voice Commands"
+description: "Learn how to use voice commands in xDrip for hands-free operation. Documentation and guidance on enabling, configuring, and using voice commands."
 ---
 
 # xDrip voice commands  
