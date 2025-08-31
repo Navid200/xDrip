@@ -1,7 +1,7 @@
 ---
+title: "Google Cloud Nightscout Utilities"
+description: "Guide to using utilities in Google Cloud Nightscout (GCNS). Documentation and help for managing menus, scripts, and settings for Nightscout integration."
 layout: GCNS
-title: "Google Cloud Nightscout Utilities (GCNS)"
-description: "Overview of utilities for managing Google Cloud Nightscout—including backup, customization, logs, and status tools to help maintain your GCNS instance."
 ---
 
 # Utilities  
