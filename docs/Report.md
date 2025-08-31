@@ -1,6 +1,6 @@
 ---
-title: "Generating Reports in xDrip"
-description: "Learn how to create detailed reports in xDrip for your endocrinologist, including statistical graphs and treatment data."
+title: "xDrip Reports"
+description: "Guide to generating and interpreting reports in xDrip. Track glucose trends, analyze statistics, and find help and documentation for using reports."
 ---
 
 # Report  
