@@ -1,6 +1,6 @@
 ---
-title: "xDrip [PageTopic] | Guide & Documentation"
-description: "Learn about xDrip [PageTopic]. This guide covers xDrip documentation, setup info, and help for [related issues or features]."
+title: "xDrip Troubleshooting | Guide & Documentation"
+description: "xDrip troubleshooting guide and documentation. Find xDrip help, setup info, and fixes for sensor, alerts, and connection issues."
 ---
 
 # xDrip Troubleshooting  
