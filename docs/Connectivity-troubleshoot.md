@@ -1,6 +1,6 @@
 ---
-title: "Fix Dexcom G6/One Connectivity Issues in xDrip"
-description: "Step-by-step solutions for connectivity issues with Dexcom G6 or One in xDrip—recommended settings, pairing fixes, queue clearing, and troubleshooting intermittent disconnects."
+title: "xDrip Dexcom G6/One Connectivity Troubleshooting"
+description: "Guide to troubleshooting Dexcom G6/One connectivity issues in xDrip. Documentation and help for resolving Bluetooth, sensor, and phone connection problems."
 ---
 
 # Dexcom G6/One Connectivity troubleshooting
