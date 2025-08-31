@@ -1,6 +1,6 @@
 ---
-title: "Disable the Number Wall on xDrip Lock Screen"
-description: "If the number wall still appears after disabling it, make sure xDrip’s Android accessibility service is turned off to hide it correctly."
+title: "xDrip Number Wall Disable"
+description: "Learn how to disable the number wall in xDrip for glucose readings. Includes guidance, documentation, and help for customizing the display."
 ---
 
 # Why doesn't Number wall on lock screen disable?
