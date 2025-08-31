@@ -1,6 +1,6 @@
 ---
 title: "xDrip Features Overview"
-description: "Explore the features of xDrip. Learn about alerts, graphs, treatments, sensors, and integrations. Find help, documentation, and info for using xDrip effectively."
+description: "Overview of xDrip features. Documentation and help for alarms, connectivity, display options, and integration with Nightscout."
 ---
   
 # Features  
