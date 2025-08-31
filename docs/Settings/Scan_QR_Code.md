@@ -1,6 +1,6 @@
 ---
-title: "Scan QR Code to Import xDrip Settings"
-description: "Quickly import xDrip settings by scanning a QR code or using an image file. Simplify your setup process with this feature."
+title: "xDrip Scan QR Code"
+description: "Guide for scanning QR codes in xDrip to set up sensors or devices. Includes documentation and help to ensure correct sensor configuration."
 ---
   
 # Scan QR Code
