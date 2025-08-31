@@ -1,4 +1,6 @@
 ---
+title: "How to use Google Cloud Nightscout Menus"
+description: "Guide to using Google Cloud Nightscout (GCNS) menus. Learn how to navigate and configure Nightscout without Linux commands. Documentation and help included."
 layout: GCNS
 ---
 
