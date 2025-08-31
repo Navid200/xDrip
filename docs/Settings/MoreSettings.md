@@ -1,6 +1,6 @@
 ---
-title: "More Settings in xDrip"
-description: "Learn about the additional configuration options available in xDrip’s More Settings menu, including advanced and specialized features."
+title: "xDrip Additional Settings"
+description: "Learn about additional settings in xDrip for customizing behavior, notifications, and display. Includes help and documentation for advanced configuration."
 ---
   
 # xDrip more settings  
