@@ -1,6 +1,6 @@
 ---
-title: "Set xDrip as Your Screensaver"
-description: "Learn how to display your xDrip readings continuously on your locked phone screen while charging by setting it as your Android screensaver."
+title: "xDrip Screensaver"
+description: "Guide to xDrip screensaver settings. Documentation and help for enabling, customizing, and managing screen timeout and display features."
 ---
 
 # Screensaver
