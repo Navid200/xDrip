@@ -1,7 +1,7 @@
 ---
+title: "Nightscout Installation Guide on your VM"
+description: "Step-by-step guide for installing Nightscout (NS). Includes documentation, tips, and help for setup and configuration."
 layout: GCNS
-title: "Install Nightscout on Your Google Cloud VM"
-description: "Update Linux and install Nightscout on your Google Cloud VM using FreeDNS and project setup in just a few smart steps."
 ---
 
 # Linux/Nightscout install  
