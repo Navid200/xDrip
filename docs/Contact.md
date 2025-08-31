@@ -1,6 +1,6 @@
 ---
-title: "xDrip Support"
-description: "Need assistance with xDrip? Learn how to get help, report issues, and provide feedback through GitHub Discussions."
+title: "Contact the xDrip Community"
+description: "Find help and support by contacting the xDrip community. Documentation links, troubleshooting guidance, and community resources for xDrip users."
 ---
 
 # Support
