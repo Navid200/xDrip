@@ -1,6 +1,6 @@
 ---
-title: "xDrip Requirements & Safety Notice"
-description: "Important safety information: xDrip is not a medical controller—consult a medical professional before using it, and understand device requirements."
+title: "xDrip Requirements"
+description: "Understand the device, Android, and sensor requirements for running xDrip. Includes setup tips and troubleshooting help to ensure proper operation."
 ---
 
 # Requirements  
