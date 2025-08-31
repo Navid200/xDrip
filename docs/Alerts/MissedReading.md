@@ -1,6 +1,6 @@
 ---
-title: "Enable Missed Reading Alerts in xDrip"
-description: "Learn how to activate missed reading alerts in xDrip and understand how override Do Not Disturb and audio volume behavior apply."
+title: "xDrip Alerts: Missed Reading"
+description: "Guide to handling missed readings in xDrip. Documentation and help for configuring notifications when sensor readings are skipped or delayed."
 ---
 
 # Missed Reading Alert
