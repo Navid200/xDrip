@@ -1,6 +1,6 @@
 ---
-title: "Activate a New G6 or Dexcom One Transmitter in xDrip"
-description: "Learn how to activate a new Dexcom G6 or One transmitter—either by snapping it into a sensor or manually holding the contacts—and ensure proper contact cleaning."
+title: "Dexcom G6/One Transmitter Activation"
+description: "Instructions for activating a new Dexcom G6 transmitter in xDrip. Includes documentation and help for successful sensor setup."
 ---
 
 # New G6 or Dexcom One transmitter activation  
