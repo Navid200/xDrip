@@ -1,6 +1,6 @@
 ---
-title: "Daily Database Backup in xDrip"
-description: "Enable xDrip’s daily database backup under 'Less common settings'—useful if you suspect corruption, though not needed under normal conditions."
+title: "xDrip save database Daily"
+description: "Learn how to back up your xDrip data daily. Guide and documentation for preventing data loss and ensuring accurate historical records."
 ---
 
 # Save database daily
