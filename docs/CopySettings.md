@@ -1,6 +1,6 @@
 ---
-title: "Copy or Export xDrip Settings via QR or File"
-description: "Learn how to transfer your xDrip settings using the 'Show Settings QR Codes' feature or by saving/loading the settings XML file."
+title: "Copy xDrip Settings"
+description: "Learn how to copy and share settings in xDrip. Documentation and help for exporting, backing up, and restoring app configurations."
 ---
 
 # Copying settings  
