@@ -1,6 +1,6 @@
 ---
-title: "xDrip Display Settings and Customization"
-description: "Explore xDrip’s display customization: units, glucose and time ranges, sensor expiry, graph smoothing, lock/always-on screens, trend arrows, and more."
+title: "xDrip Display Settings"
+description: "Guide to configuring xDrip display options, including graphs, colors, and themes. Documentation and help for customizing the main and detail screens."
 ---
 
 # Display  
