@@ -1,6 +1,6 @@
 ---
-title: "Enable Flashlight Alerts in xDrip"
-description: "Learn how to activate your phone's flashlight to strobe during glucose alerts in xDrip when charging."
+title: "xDrip Alerts: Turn Light On"
+description: "Learn how to configure xDrip alerts to turn on a light when glucose readings reach thresholds. Includes guidance, help, and documentation for alert settings."
 ---
   
 # Turn light on for alert
