@@ -1,8 +1,10 @@
 ---
+title: "Google Cloud Nightscout API_SECRET Inadvisable Characters"
+description: "Learn about inadvisable characters in the API_SECRET for Google Cloud Nightscout and how to resolve the warning on the status page."
 layout: GCNS
 ---
 
-# Google Nightscout API_SECRET inadvisable characters
+# Google Could Nightscout API_SECRET inadvisable characters
 [Google Cloud Nightscout](./GoogleCloud.md) >> API_SECRET inadvisable characters  
   
 If you see a star on the status page under Google Cloud, either your API_SECRET has less than 12 characters or you have inadvisable characters in it.  
