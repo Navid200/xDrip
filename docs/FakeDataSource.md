@@ -1,6 +1,6 @@
 ---
-title: "Use a Fake Data Source in xDrip for Testing"
-description: "Learn how to enable xDrip’s fake or mock data source—useful for testing without a sensor—accessible in Engineering Mode with voice or text commands."
+title: "xDrip Fake Data Source"
+description: "Guide to using the fake data source in xDrip for testing. Documentation and help for generating test glucose values without a real sensor."
 ---
 
 # Fake or Mock Data Source (Advanced)
