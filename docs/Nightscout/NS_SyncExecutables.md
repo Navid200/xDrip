@@ -15,20 +15,13 @@ If you created your setup prior to January 2023 and never updated it, you will n
 <br/>  
 <br/>   
   
----  
+If a menu does not open when you open a terminal, please skip to the "Bootstrap" section below.  
   
-#### **If you created your setup before January 2023 and never updated**  
-Our platform has evolved significantly since it was first released.  You don't need to start from scratch.  But, you may need to go through a few more steps in order to update.  After you update, there will be no difference between your setup and one that has just been created.  
-
-If you are still using noip.com, you will be asked, below, to create a FreeDNS account and a new hostname in order to switch from noip.com to FreeDNS.  
-  
-If a menu does not open when you open a terminal, please skip to the section titled "Bootstrap" below.  
-  
-If a menu opens when you open a terminal, from the menu, or Google Cloud setup submenu, select "Update scripts" or "Update platform".  After completion and closing the terminal and opening a new one, if a menu does not automatically open up, please skip to the section titled "Bootstrap" below.  
+If a menu opens when you open a terminal, from the menu, or Google Cloud setup submenu, select "Update scripts" or "Update platform".  After completion and closing the terminal and opening a new one, if a menu does not automatically open up, please skip to the "Bootstrap" section below.  
   
 View the Status page by selecting `Status`.  If it looks like [this](./images/Status.png), the platform has updated to the latest.  If not, please update platform from the Google Cloud setup submenu again.  
   
-If the status page still looks different, for example, if the username, repository name and branch name are blank, as shown below, please proceed to the section titled "Bootstrap" below.  
+If the status page still looks different, for example, if the username, repository name and branch name are blank, as shown below, please proceed to the "Bootstrap" section below.  
 ![](./images/NoRepoStat.png)  
 <br/>  
   
