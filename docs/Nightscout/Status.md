@@ -10,5 +10,5 @@ Avoid shrinking the SSH window too much, as the menus may not function properly.
 This information can be helpful when troubleshooting your Nightscout setup.  
 <br/>  
 
-If the status page displays any red items, refer to the [Status Key](./StatusKey.md) to understand their meaning and how to resolve them.  
+If the status page displays any red items, refer to [this page](./StatusKey.md) to understand their meaning and how to resolve them.  
   
