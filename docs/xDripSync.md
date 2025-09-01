@@ -4,7 +4,7 @@ description: "Step-by-step instructions for configuring xDrip Sync between a mas
 ---
   
 # xDrip Sync Setup  
-[xDrip](../) >> [Features](./Features_page.md) >> [Follow](./Follow_page.md) >> [How to follow with xDrip](./How-to-follow.md) >> xDrip Sync Setup  
+[xDrip](../) >> [Features](./Features_page.md) >> [How to follow with xDrip](./How-to-follow.md) >> xDrip Sync Setup  
   
 This page explains how to set up xDrip Sync.  You will need both the master and follower phones.  All phones must be updated to at least the latest stable release of xDrip.  
 <br/>  
