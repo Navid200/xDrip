@@ -1,4 +1,6 @@
 ---
+title: "Find Your FreeDNS User ID for Nightscout Setup"
+description: "Learn how to locate your FreeDNS user ID needed during Nightscout Phase 2 setup. Documentation and help for Google Cloud Nightscout users managing dynamic DNS."
 layout: GCNS
 ---
 
