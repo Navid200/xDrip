@@ -15,18 +15,12 @@ To edit your Nightscout variables, open a [terminal](./Terminal.md).
 ---  
   
 **Using a web browser**  
-Select "Edit variables in a browser" in the Nightscout setup submenu and enter.  
-Be patient.  In a minute, you will be presented with a URL on screen.  Please don't use ctrl C to copy.  Ctrl C in Linux will terminate a process.  
-  
-![](./images/ServerURL.png)  
-  
-To copy, after highlighting it by clicking and dragging, right click and choose Copy.  
-![](./images/Copy.png)  
-
-Open a web browser, and paste it into the address bar of the browser.  You will see the variable edit page as shown next.  
+Select "Edit variables in a browser" in the Nightscout setup submenu.  
+Be patient.  You will be presented with a link to click on.  
+You will see the variable edit page as shown next.  
 ![](./images/Server.png)  
   
-You will have 15 minutes, from when you clicked in the menu, to use the browser to edit the variables.  You can add variables, edit or delete them.  
+You will have 15 minutes to use the browser to edit the variables.  You can add variables, edit or delete them.  
 After you are done, you can just close the browser.  You will need to restart the server (Nightscout).  After a restart, the edited variables will be in effect.  
   
 ---  
