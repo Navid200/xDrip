@@ -1,4 +1,6 @@
 ---
+title: "Google Cloud Nightscout Status Page"
+description: "View the Google Cloud Nightscout status page to see your VM's configuration and troubleshoot issues. Includes documentation and help for interpreting status warnings."
 layout: GCNS
 ---
 
