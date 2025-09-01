@@ -1,4 +1,6 @@
 ---
+title: "Google Cloud Nightscout Logs"
+description: "Learn how to access and view logs for troubleshooting your Google Cloud Nightscout installation. Includes documentation and help for monitoring setup steps and detecting errors."
 layout: GCNS
 ---
 
