@@ -5,10 +5,10 @@ layout: GCNS
 ## Google Cloud Nightscout Status
 [Google Cloud Nightscout](./GoogleCloud.md) >> Status page  
   
-Choose Status from the [menu](./Menu.md).  You will see a page showing details about your machine and what's on it.  
+Avoid shrinking the SSH window too much, as the menus may not function properly.  From the [menu](./Menu.md), select Status.  A page will appear showing details about your machine and its configuration.  
 ![](./images/Status.png)  
-The content can be useful when troubleshooting your Nightscout.  
+This information can be helpful when troubleshooting your Nightscout setup.  
 <br/>  
 
-If your status page contains red items, use [this](./StatusKey.md) to see what they mean and how to address them.  
+If the status page displays any red items, refer to the [Status Key](./StatusKey.md) to understand their meaning and how to resolve them.  
   
