@@ -1,4 +1,6 @@
 ---
+title: "Customize Google Cloud Nightscout"
+description: "Learn how to install or update Nightscout from a GitHub fork on Google Cloud. Includes documentation and help for safe customization and undoing changes."
 layout: GCNS
 ---
 
