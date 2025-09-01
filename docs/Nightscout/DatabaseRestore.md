@@ -1,4 +1,6 @@
 ---
+title: "Restore Nightscout Database on Google Cloud"
+description: "Step-by-step guide to restoring your Nightscout MongoDB data or variables on Google Cloud from backup files. Includes documentation and help for safe data recovery."
 layout: GCNS
 ---
 
