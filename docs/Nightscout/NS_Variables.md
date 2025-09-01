@@ -1,4 +1,6 @@
 ---
+title: "Google Cloud Nightscout Variables"
+description: "Learn how to safely edit and manage Nightscout variables in Google Cloud—via browser or terminal—and apply changes with a server reboot. Documentation and help included."
 layout: GCNS
 ---
 
