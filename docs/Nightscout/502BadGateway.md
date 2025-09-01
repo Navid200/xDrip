@@ -17,7 +17,7 @@ Do you encounter this error when attempting to access your Nightscout in a brows
 ---  
   
 It’s not unusual to see this error.  It could occur if you have just restarted your virtual machine.  
-Please be patient and give it a minute.  
+Please be patient and give it a minute or two.  
 <br/>  
 
 ---  
