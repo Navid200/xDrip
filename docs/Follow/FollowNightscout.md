@@ -1,5 +1,5 @@
 # Follow Nightscout
-[xDrip](../../) >> [Features](../Features_page.md) >> [Follow](../Follow_page.md) >> Nightscout  
+[xDrip](../../) >> [Features](../Features_page.md) >> [Follow](../How-to-follow.md) >> Nightscout  
   
 You can easily set up xDrip to follow Nightscout by configuring the following settings:  
   
