@@ -1,4 +1,6 @@
 ---
+title: "Update Google Cloud Nightscout"
+description: "Learn how to update your Nightscout installation on Google Cloud: run platform updates or scripts via the setup menu, and troubleshoot using the Status page. Documentation and help included."
 layout: GCNS
 ---
 
