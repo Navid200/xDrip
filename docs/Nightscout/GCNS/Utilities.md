@@ -16,6 +16,5 @@ layout: GCNS
 #### [Customize Nightscout](../Customize.md) (Advanced)
 #### [Update platform](../NS_SyncExecutables.md)
 #### [Copy Database](../NS_Transfer.md)
-#### [Copy Heroku variables](../CopyHerokuVars.md)
 
   
