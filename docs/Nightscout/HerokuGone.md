@@ -1,54 +1,44 @@
 ---
+title: "Transfer Nightscout Data to Google Cloud"
+description: "Learn how to import mongodump to your Google Cloud Nightscout setup. Includes documentation and help for safe data migration."
 layout: GCNS
 ---
 
-# Import data from Heroku Atlas
-[Google Cloud Nightscout](./GoogleCloud.md) >> Import data from Atlas  
+# Import data from other servers
+[Google Cloud Nightscout](./GoogleCloud.md) >> Import data from other servers  
   
-Regardless of where your Nightscout is, it uses MongoDB.  MongoDB can create a mongodump, which is a binary export of a database's contents.  
+Regardless of where your Nightscout server is, it uses MongoDB.  MongoDB can create a **mongodump**, which is a binary export of a database’s contents.  
   
-In order to transfer a database, you need to have already completed Nightscout [installation](./NS_Install.md).  
-<br/>   
-  
----  
-  
-#### **Transfer to virtual machine**  
-You need to transfer the output of mongodump to the virtual machine.  The output is a folder by default titled "dump".  Compress the folder into a single file.  
-[Upload](./Upload_Download.md) the compressed file to your virtual machine.  
-  
-<br/>
-  
----  
-  
-#### **mongorestore**  
-We first need to unzip the file we uploaded to the virtual machine.  
-Go to your home directory, where the dump.zip file should be after the upload.  Type and enter the following.  
-  
-```
-unzip dump.zip
-```
-  
-If you see the following message, it means that the unzip command is not installed.  
-![unzipNotInstalled](./images/unzipNotInstalled.png)  
-  
-If unzip is not installed, type and enter the following two commands in sequence to install it.  
-
-```  
-sudo apt-get update
-sudo apt-get install unzip
-```  
-  
-If unzip was not installed and you installed it, run the unzip command again.  The dump folder should be in your home directory.  
-  
-Now, enter the following in the terminal replacing UserName with the user name you copied from the Atlas database access page.  
-  
-```  
-mongorestore -d Nightscout ./dump/UserName 
-```  
+Before transferring a database, make sure you have already completed the Nightscout [installation](./NS_Install.md).  
 <br/>  
   
-If it succeeds, you will see something as shown below.  
+---  
+  
+#### **Transfer to the virtual machine**  
+You need to transfer the output of mongodump to the virtual machine.  By default, the output is a folder named **dump**. Compress this folder into a single file, then [Upload](./Upload_Download.md) the compressed file to your virtual machine.  
+<br/>  
+  
+---  
+  
+#### **Restore**  
+Unzip the file you uploaded to the virtual machine. From your home directory, where the `dump.zip` file should be located, run:    
+`unzip dump.zip`  
+  
+If you see the following message, it means the `unzip` command is not installed:  
+![unzipNotInstalled](./images/unzipNotInstalled.png)  
+  
+To install it, run:  
+`sudo apt-get update`  
+`sudo apt-get install unzip`  
+  
+Then re-run the `unzip` command.  A folder named **dump** should now appear in your home directory.  
+  
+Restore the data with mongorestore. Replace UserName with the actual user name from the original database:  
+`mongorestore -d Nightscout ./dump/UserName`  
+<br/>  
+  
+If the restore succeeds, you’ll see output similar to this:  
 ![RestoreSuccess](./images/RestoreSuccess.png)  
   
-Wait a minute.  Reload Nightscout in a browser.  Your imported data from Atlas should be present now.  
+Wait about a minute, then reload Nightscout in your browser. Your imported data should now be available.  
   
