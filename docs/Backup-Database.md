@@ -1,3 +1,8 @@
+---
+title: "Database Backup in xDrip"
+description: "Learn how to export your xDrip database and settings using the legacy database backup feature. Documentation and help for safely preserving your glucose data history."
+---
+
 # Legacy database backup  
 [xDrip](../) >> [Features](./Features_page.md) >> [Backup](./Backup.md) >> Legacy xDrip database backup  
   
