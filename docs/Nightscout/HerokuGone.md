@@ -5,76 +5,16 @@ layout: GCNS
 # Import data from Heroku Atlas
 [Google Cloud Nightscout](./GoogleCloud.md) >> Import data from Atlas  
   
-Even though Heroku is not free any longer, you can still transfer your database for free as it is on Atlas and not Heroku.  This page explains how to do it.  
-In order to transfer a database from Atlas, you need to have already completed Nightscout [installation](./NS_Install.md).  
-<br/>  
+Regardless of where your Nightscout is, it uses MongoDB.  MongoDB can create a mongodump, which is a binary export of a database's contents.  
   
----  
-  
-#### **Get mongodump.exe, for Windows**  
-First, you need to use mongodump to get a backup of your database.  Let's assume you want to do that using Windows.  Download the Database tools MSI installer zip file from [this](https://www.mongodb.com/docs/database-tools/installation/installation-windows/) page.  
-Let's say you download to your desktop.  Extract all.  
-Now, you will have the mongodump.exe file inside the uncompressed folder at: Desktop/mongodb-database-tools-windows-x86_64-100.7.0/mongodb-database-tools-windows-x86_64-100.7.0/bin/mongodump.exe.  We will use this later.  
-<br/>  
-  
----  
-  
-#### **Get mongodump command parameters**  
-You will need the email address and password associated with your Atlas account.  We all had to sign up in 2020.  
-Go to [mongodb](https://www.mongodb.com/home) and sign in.  In the left pane, click on Database Access.  
-![Atlas_dbAccess](./images/Atlas_dbAccess.png)  
-  
-You will be taken to the Database Access page.  Take note of the user name (enclosed in orange in the following image).  You will need it later.  
-![Atlas_dbAccess2](./images/Atlas_dbAccess2.png)  
-On the right, click on "Edit".  
-  
-You will be taken to the page shown below.  
-![Atlas_pass](./images/Atlas_pass.png)  
-If you don't remember the password (this is not the password you use to log into Atlas) or if your password contains special characters, click on Edit Password and change the password.  Take note of the password because you will need it later.  
-<br/>  
-  
----  
-  
-#### **Get mongodump command string**  
-In the left pane, click on "Database" to go back to the main page.  Click on the 3-dot menu button and click on "Command Line Tools" as shown in the following image.  
-![Atlas_CLTools](./images/Atlas_CLTools.png)  
-  
-Under "Binary Import and Export Tools", copy the mongodump string.  You can do that by clicking on the copy symbol on the right side of the string, as marked in the image below.  
-![mongodump](./images/mongodump.png)  
-<br/>  
-  
----    
-  
-#### **mongodump**  
-Open a "Windows Terminal" after right clicking on Start.  
-Type and enter cd Desktop.  Type cd and press TAB to fill the folder name.  Press ENTER.  Again, Type cd and press TAB and ENTER.  
-Now, type and enter cd bin.  
-Type and enter ls.  You should see the commands, including mongodump.exe that we will use, as shown below.  
-![WinMongodumpExe](./images/WinMongodumpExe.png)  
-  
-Paste the mongodump string you copied, from the binary import and export tools, into the terminal.  It will be similar to what is shown in the followiong figure.  
-![dumpPaste](./images/dumpPaste.png)  
-  
-There are three changes you need to make to this string before executing it.  
-1- Replace mongodump with ./mongodump.exe  
-2- Replace \<PASSWORD\>, including the brackets, with your Atlas database admin password, which excludes special characters.  
-3- Replace \<DATABASE\>, including brackets, with the user name you copied from the Atlas database access page.  
-  
-What you will have in the terminal after these three changes should look like the following.  
-![dumpPasteMod](./images/dumpPasteMod.png)  
-Press Enter.  
-  
-Wait for the export process to complete.  It could take a few minutes.  If it succeeds, you will see something as shown below.  
-![ExportSuccess](./images/ExportSuccess.png)  
-<br/>  
+In order to transfer a database, you need to have already completed Nightscout [installation](./NS_Install.md).  
+<br/>   
   
 ---  
   
 #### **Transfer to virtual machine**  
-We now need to transfer the output of mongodump to the virtual machine.  The output is a folder located where we ran the mongodump command.  Use windows explorer and navigate to Desktop\mongodb-database-tools-windows-x86_64-100.7.0\mongodb-database-tools-windows-x86_64-100.7.0\bin.  You should see what is shown in the following figure.  
-![WinMongoDumpOut](./images/WinMongoDumpOut.png)  
-  
-Right click the dump folder and select "Compress to ZIP file".  Now, we have a ZIP file.  Please [upload](./Upload_Download.md) it to your virtual machine.  
+You need to transfer the output of mongodump to the virtual machine.  The output is a folder by default titled "dump".  Compress the folder into a single file.  
+[Upload](./Upload_Download.md) the compressed file to your virtual machine.  
   
 <br/>
   
