@@ -1,4 +1,6 @@
 ---
+title: "Google Cloud Nightscout Storage PD Capacity"
+description: "Understand Storage PD capacity charges in Google Cloud Nightscout. Learn about persistent disk costs, free tiers, and tips to reduce unexpected billing."
 layout: GCNS
 ---
 
