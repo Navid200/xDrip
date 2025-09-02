@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Restart Nightscout
+# Restart Nightscout
 [Google Cloud Nightscout](./GoogleCloud.md) >> Restart Nightscout   
   
 To restart Nightscout, reboot the virtual machine by following these steps:  
