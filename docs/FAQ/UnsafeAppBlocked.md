@@ -1,5 +1,5 @@
 ---
-title: "How to Bypass 'Unsafe App Blocked' When Installing xDrip"
+title: "Bypass 'Unsafe App Blocked' When Installing xDrip"
 description: "Learn how to install xDrip on Android when you encounter the 'Unsafe App Blocked' message—step-by-step instructions for manual APK installation."
 ---
 
