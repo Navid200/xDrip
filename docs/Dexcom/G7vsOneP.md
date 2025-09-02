@@ -1,3 +1,8 @@
+---
+title: "Dexcom G7 vs One+ Comparison"
+description: "Side-by-side comparison of Dexcom G7 and One+ features. Includes documentation and help to choose between sensor options."
+---
+
 # A comparison between G7 and One+  
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> G7 versus One+   
   
