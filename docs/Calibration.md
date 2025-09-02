@@ -1,5 +1,5 @@
 ---
-title: "xDrip Calibration Overview: When and How to Calibrate"
+title: "xDrip Calibration: When and How to Calibrate"
 description: "Understand what calibration means in xDrip, factors that affect accuracy, factory-calibrated G6 behavior, and guidance on when and how to perform manual calibrations safely."
 ---
   
