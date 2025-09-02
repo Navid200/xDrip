@@ -1,3 +1,8 @@
+---
+title: "Using xDrip with Dexcom Receiver or t:slim Pump"
+description: "Learn how xDrip can run at the same time as a Dexcom receiver or t:slim pump. Documentation on compatibility and simultaneous data collection."
+---
+
 # xDrip coexists with Dexcom receiver or t:slim pump  
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> xDrip and G6 Receiver  
   
