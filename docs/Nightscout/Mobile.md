@@ -3,7 +3,7 @@ layout: GCNS
 permalink: "/docs/Nightscout/Mobile.html"
 ---
 
-## Virtual machine mobile access
+# Virtual machine mobile access
 [Google Cloud Nightscout](./GoogleCloud.md) >> Mobile  
   
 This is about how to use a mobile device to access your Google Cloud Nighscout.   
