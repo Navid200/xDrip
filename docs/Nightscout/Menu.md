@@ -3,7 +3,7 @@ layout: GCNS
 permalink: "/docs/Nightscout/Menu.html"
 ---
 
-## Google Cloud Nightscout menu
+# Google Cloud Nightscout menu
 [Google Cloud Nightscout](./GoogleCloud.md) >> Menu  
   
 When you open a [terminal](./Terminal.md), the main menu will automatically come up.  
