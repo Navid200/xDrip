@@ -4,7 +4,7 @@ description: "View the Google Cloud Nightscout status page to see your VM's conf
 layout: GCNS
 ---
 
-## Google Cloud Nightscout Status
+# Google Cloud Nightscout Status
 [Google Cloud Nightscout](./GoogleCloud.md) >> Status page  
   
 Avoid shrinking the SSH window too much, as the menus may not function properly.  From the [menu](./Menu.md), select Status.  A page will appear showing details about your machine and its configuration.  
