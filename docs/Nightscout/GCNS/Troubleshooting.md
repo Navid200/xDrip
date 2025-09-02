@@ -21,7 +21,6 @@ description: "Solutions for common GCNS issues such as connection errors, certif
 #### [502 Bad Gateway](../502BadGateway.md)
 #### [Free Trial has ended!](../FreeTrialEnd.md)
 #### [Malfunctioning applications](../Auth_Default_Roles.md)
-#### [Development branch of Nightscout fails](../NightscoutDevBranch.md)
 #### [IP address change](../StopVM.md)
 #### [Cannot connect - full disk](../FullDisk.md)
 #### [FreeDNS IP mismatch & failed certificate](../FreeDNS_Min_Login.md)
