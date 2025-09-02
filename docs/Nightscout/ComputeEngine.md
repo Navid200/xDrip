@@ -10,7 +10,7 @@ description: "Guide to navigate the Google Cloud Console to access the Compute E
 Go to [Google Cloud](https://cloud.google.com/).  
 Sign in.  
 Click on "Console".  
-![Console](./images/Console.png)  
+![Console icon](./images/Console.png)  
 <br/>  
   
 From the main menu (top left corner), select VM instances through the Compute Engine submenu.  
