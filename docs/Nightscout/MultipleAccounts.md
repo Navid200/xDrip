@@ -1,4 +1,6 @@
 ---
+title: "Multiple Nightscout Accounts on Google Cloud"
+description: "Learn why each Nightscout instance must use a separate Google account to qualify for free tier discounts on Google Cloud. Avoid unexpected charges when running multiple accounts."
 layout: GCNS
 ---
 
