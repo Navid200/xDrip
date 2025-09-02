@@ -10,7 +10,7 @@ description: "See how to access Google Cloud billing."
 Go to [Google Cloud](https://cloud.google.com/).  
 Sign in.  
 Click on "Console".  
-![Console](./images/Console.png)  
+![Console icon](./images/Console.png)  
   
 Select "Billing" from the main menu at the top left corner.  
 ![Billing](GCNS/images/GCNS_Billing.png)  
