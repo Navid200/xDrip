@@ -3,7 +3,7 @@ layout: GCNS
 permalink: "/docs/Nightscout/NS_Transfer.html"
 ---
 
-## Data transfer from another Nightscout
+# Data transfer from another Nightscout
 [Google Cloud Nightscout](./GoogleCloud.md) >> Data Transfer  
   
 This is how you can transfer your past readings from another repository, for example, from Heroku.    
