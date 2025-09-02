@@ -1,4 +1,6 @@
 ---
+title: "Why Google Cloud Nightscout Requires an Email Address"
+description: "Understand why your email address is requested during Google Cloud Nightscout installation. Learn about its role in setup, notifications, and account recovery."
 layout: GCNS
 ---
 
