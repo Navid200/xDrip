@@ -1,5 +1,5 @@
 ---
-title: "Google Cloud Nightscout: Cloud Identity-Aware Proxy SSH Error"
+title: "Google Cloud Nightscout: Cloud Identity-Aware SSH Error"
 description: "Learn how to resolve the 'Connection via Cloud Identity-Aware Proxy Failed' error when using SSH to connect to your Google Cloud Nightscout virtual machine."
 layout: GCNS
 ---
