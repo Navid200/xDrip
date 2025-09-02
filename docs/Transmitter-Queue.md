@@ -1,3 +1,8 @@
+---
+title: "Dexcom Transmitter Queue in xDrip"
+description: "Learn how to view and clear the transmitter queue in xDrip, and understand its impact on sensor commands like Start, Stop, and Calibrate. Includes guidance on avoiding command conflicts and ensuring proper connectivity."
+---
+
 # Dexcom Transmitter Queue  
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Dexcom Transmitter Queue  
   
