@@ -28,5 +28,5 @@ You cannot use both a t:slim pump and the Dexcom receiver as they use the same t
   
 <br/>  
   
-\*    You can use both xDrip and the Dexcom app if only Dexcom app is collecting from the transmitter. In that case, you can set up xDrip to receive readings from the Dexcom app using the [Companion App feature](./CompanionApp.md).  
+\*    You can use both xDrip and the Dexcom app if only Dexcom app is collecting from the transmitter. In that case, you can set up xDrip to receive readings from the Dexcom app using the [Companion App feature](./Follow/CompanionApp.md).  
   
