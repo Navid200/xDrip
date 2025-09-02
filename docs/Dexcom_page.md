@@ -21,7 +21,7 @@ You are welcome to use xDrip, but always consult with a medical professional (su
 #### [G6, Dex1 or G7 recommended settings](./G6-Recommended-Settings.md)
 #### [Can xDrip coexist with t:slim or receiver?](./Receiver-or-tslim-and-xDrip.md)
 #### [Clarity](./Dexcom/Clarity.md)
- [Both xDrip and Dexcom app](./xDrip-and-Dexcom-app.md)  
+ [Dexcom device compatibility](./Receiver-or-tslim-and-xDrip.md)  
   
 #### **What is ...?**
 #### [Dex Status](./StatusG5G6.md)
