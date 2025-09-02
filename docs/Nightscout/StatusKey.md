@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Status page keywords
+# Status page keywords
 [Google Cloud Nightscout](./GoogleCloud.md) >> Google cloud Nightscout status page keywords  
 
 **<span style="color:red">Please complete all installation phases before using this page.</span>**  
