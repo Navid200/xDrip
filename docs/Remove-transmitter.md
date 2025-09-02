@@ -1,3 +1,8 @@
+---
+title: "Removing a G6 Transmitter Without Damaging the Sensor"
+description: "Learn how to safely remove a Dexcom G6 transmitter from the sensor without causing damage, allowing for sensor reuse. Includes step-by-step instructions and precautions."
+---
+
 # Removing a G6 transmitter without damaging the sensor
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Remove G6 transmitter  
   
