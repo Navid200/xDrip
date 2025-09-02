@@ -1,6 +1,6 @@
 ---
 layout: GCNS
-title: "Nightscout: Changing Hostname via FreeDNS (Google Cloud)"
+title: "Nightscout Google Cloud: Changing Hostname"
 description: "Step-by-step instructions to change your Nightscout hostname on Google Cloud: create a FreeDNS subdomain, run Install Nightscout Phase 2, restart the server, and update your uploader and followers."
 ---
 
