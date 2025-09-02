@@ -1,6 +1,6 @@
 ---
 layout: GCNS
-title: "Google Cloud Nightscout (GCNS) – Frequently Asked Questions"
+title: "Google Cloud Nightscout Frequently Asked Questions"
 description: "Answers to common questions about setting up and managing Google Cloud Nightscout (GCNS), including hostname changes, costs, and compatibility."
 ---
   
