@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Google Cloud cost  
+# Google Cloud cost  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Unexpected costs    
   
 #### **Why have I been charged?**  
