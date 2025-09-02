@@ -1,3 +1,8 @@
+---
+title: "Dexcom Clarity Limitations with xDrip"
+description: "Understand that xDrip cannot upload to Dexcom Clarity and explore alternative options if Clarity data is required. Documentation and help for users needing Clarity access."
+---
+
 # xDrip and Clarity
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Clarity  
   
