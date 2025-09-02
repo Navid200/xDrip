@@ -1,3 +1,8 @@
+---
+title: "xDrip Always-on Display (AOD)"
+description: "Learn how to enable the xDrip widget on your phone's always-on display using Android accessibility settings. Includes help and documentation for positioning and movement control."
+---
+
 # Always-on Display
 [xDrip](../../) >> [Features](../Features_page.md) >> [Display](./Display.md) >> xDrip Always-on display    
   
