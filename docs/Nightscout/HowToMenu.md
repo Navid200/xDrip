@@ -4,7 +4,7 @@ description: "Guide to using Google Cloud Nightscout (GCNS) menus. Learn how to 
 layout: GCNS
 ---
 
-## How to use Google Cloud Nightscout menus
+# How to use Google Cloud Nightscout menus
 [Google Cloud Nightscout](./GoogleCloud.md) >> How to use Google Cloud Nightscout menus  
   
 Menus are available in Google Cloud Nightscout so you can accomplish everything you need without manually entering Linux commands.  The following image shows an example menu:  
