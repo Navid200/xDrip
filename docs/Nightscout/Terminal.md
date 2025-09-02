@@ -3,7 +3,7 @@ layout: GCNS
 permalink: "/docs/Nightscout/Terminal.html"
 ---
 
-## Virtual machine terminal
+# Virtual machine terminal
 [Google Cloud Nightscout](./GoogleCloud.md) >> Terminal  
   
 You can access a Linux terminal on your virtual machine if you have completed the setup of your [virtual machine](./VirtualMachine.md).  
