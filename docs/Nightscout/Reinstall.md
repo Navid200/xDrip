@@ -2,7 +2,7 @@
 layout: GCNS
 ---
   
-## Google Cloud Nightscout Reinstall
+# Google Cloud Nightscout Reinstall
 [Google Cloud Nightscout](./GoogleCloud.md) >> How to reinstall     
 <br/>  
   
