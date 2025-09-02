@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Multiple Nightscout accounts  
+# Multiple Nightscout accounts  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Multiple accounts  
 
 In order to qualify for free tier, you need to have each one of your Nightscout accounts set up in a dedicated Google account.  
