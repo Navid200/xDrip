@@ -1,3 +1,8 @@
+---
+title: "Reporting Unknown Dexcom Firmware Versions in xDrip"
+description: "Learn how to identify and report unknown Dexcom firmware versions displayed in xDrip's system status. Includes guidance on checking release notes and submitting firmware information."
+---
+
 # Report Firmware
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Report firmware  
   
