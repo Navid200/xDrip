@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Stopping or starting the virtual machine  
+# Stopping or starting the virtual machine  
 [Google Cloud Nightscout](./GoogleCloud.md) >> Stop and start virtual machine  
   
 You may need to stop a virtual machine if you cannot meet the free tier requirements, which allow only one virtual machine to be running at a time.  
