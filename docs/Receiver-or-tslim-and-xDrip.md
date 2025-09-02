@@ -1,22 +1,23 @@
 ---
-title: "Using xDrip with Dexcom Receiver or t:slim Pump"
+title: "Dexcom Device Compatibility and Limitations"
 description: "Learn how xDrip can run at the same time as a Dexcom receiver or t:slim pump. Documentation on compatibility and simultaneous data collection."
 ---
 
-# xDrip coexists with Dexcom receiver or t:slim pump  
-[xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> xDrip and G6 Receiver  
+# Dexcom Device Compatibility and Limitations  
+[xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Dexcom Device Compatibility and Limitations  
   
-If you have a t:slim pump, you can start your sensors on the pump, not on xDrip.  
-There is no need to start the same sensor also on xDrip.  
-In case of G6 or Dexcom One, there is no need to enter the calibration code in xDrip as well.  The only item that needs the G6 or Dex1 calibration code is the transmitter.  
-After the warm-up period has completed, xDrip will pick up the session.  If it doesn't, tap on restart collector on the classic status page.    
+If you have a t:slim pump, start your G6 sensor on the pump—not in xDrip.  
+There is no need to start the same sensor in xDrip as well.  
+For G6 or Dexcom One, you also don’t need to enter the calibration code in xDrip. The transmitter is the only component that requires the calibration code.  
+After the warm-up period, xDrip will detect and pick up the session. If it doesn’t, tap **Restart Collector** on the Classic Status page.  
+If you use a Dexcom receiver alongside xDrip, you can. Just avoid sending duplicate commands to the transmitter.  
+If you must use the Dexcom receiver, start the sensor on the receiver and allow xDrip to pick up the session after warm-up.  
   
-Don't stop sensor on xDrip thinking that it would only stop xDrip.  It will stop the sensor session on the transmitter.    
+Do not stop the sensor in xDrip thinking it only affects xDrip—it will stop the entire sensor session on the transmitter.  
   
-If you have a Dexcom receiver and like to use it alongside xDrip, you can.  But, again, don't send redundant commands to the transmitter. 
-If you absolutely have to use the Dexcom receiver, again, start the sensor on the receiver.  Let xDrip pick up the session after warm-up.    
+For G7 sensors, connect with xDrip first. If you connect with the pump or receiver first, xDrip will not be able to connect.   
   
-You cannot use both a t:slim pump and the Dexcom receiver as they use the same transmitter slot.  It's for the same reason you cannot use both xDrip and the Dexcom app to collect from the same transmitter.  
+You cannot use both a t:slim pump and a Dexcom receiver at the same time since they require the same transmitter slot. For the same reason, you also cannot use xDrip and the Dexcom app simultaneously to collect from the transmitter.  
 <br/>  
   
 | Combination  | Resolution |
