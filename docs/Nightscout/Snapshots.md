@@ -2,7 +2,7 @@
 layout: GCNS
 ---
 
-## Google Cloud snapshots
+# Google Cloud snapshots
 [Google Cloud Nightscout](./GoogleCloud.md) >> Snapshots  
   
 Creating a snapshot of your virtual machine (VM) disk on Google Cloud (note: this is [not free](./SnapshotCost.md)) can be a helpful tool for managing your environment.  If you encounter issues while experimenting, you can restore the snapshot to revert the disk to its state at the time the snapshot was created. However, keep in mind that any data added to the database after the snapshot was taken will be lost. Therefore, use this utility with that consequence in mind.   
