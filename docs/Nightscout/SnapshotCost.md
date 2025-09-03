@@ -1,4 +1,6 @@
 ---
+title: "Snapshot Cost on Google Cloud"
+description: "Learn what the 'Snapshot Cost' entry means in the Nightscout cost table for Google Cloud — how snapshots impact billing and ways to manage these charges effectively."
 layout: GCNS
 ---
 
