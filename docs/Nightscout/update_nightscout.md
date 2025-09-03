@@ -1,4 +1,6 @@
 ---
+title: "Update Google Cloud Nightscout"
+description: "Learn how to check your current Nightscout version and update your Google Cloud Nightscout instance step by step. Includes guidance on troubleshooting delays and installation requirements."
 layout: GCNS
 ---
 
