@@ -1,4 +1,6 @@
 ---
+title: "Google Cloud Nightscout Reinstall"
+description: "Learn how to safely reinstall your Nightscout instance on Google Cloud as a final troubleshooting step—when all else fails. Includes documentation, help, and best practices for avoiding data loss."
 layout: GCNS
 ---
   
