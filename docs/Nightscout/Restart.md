@@ -1,4 +1,6 @@
 ---
+title: "Restart Nightscout on Google Cloud"
+description: "Learn how to safely restart your Google Cloud Nightscout instance using the setup menu or SSH. Includes documentation and help for minimizing downtime and ensuring proper service recovery."
 layout: GCNS
 ---
 
