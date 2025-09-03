@@ -16,7 +16,7 @@ If you're experiencing issues with xDrip, check the list below for potential pro
 #### [Dexcom transmitter keeps disconnecting](./Intermittent.md)
 #### [Android update & disconnects](./FAQ/AndroidUpdate.md)
 #### [Bluetooth headphone interruption](./Bluetooth-headphone-interruption.md)
-#### [Alert re-raise malfunction](./Alert-re‐raise-malfunction.md)
+#### [Alert re-raise malfunction](./Alert_re_raise_malfunction.md)
 #### [xDrip sync not working](./xDrip-Sync-not-working.md)
 #### [xDrip causes apps to restart](./RestartingApps.md)
 #### [Number wall on lock screen does not disable](./NumberWallDisable.md)
