@@ -1,6 +1,7 @@
 ---
+title: "Access Google Cloud Nightscout VM Terminal"
+description: "Learn how to open a Linux terminal for your Nightscout VM on Google Cloud using SSH via the Console. Includes documentation to troubleshoot connectivity and menu navigation."
 layout: GCNS
-permalink: "/docs/Nightscout/Terminal.html"
 ---
 
 # Virtual machine terminal
