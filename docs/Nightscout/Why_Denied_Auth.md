@@ -16,5 +16,5 @@ The default "denied" setting is not due to any specific security vulnerabilities
 Setting the variable to "readable" would allow anyone with your hostname to view your readings without requiring a password or token. While there is no need to feel ashamed of having diabetes, it’s important to consider potential consequences. For instance, insurance companies might raise life insurance premiums if they are aware of your condition. Although concealing diabetes is not the solution, there are valid reasons to avoid publicly broadcasting it.  
   
 #### **Can I change the setting to "readable"?**
-Yes, you can [change the setting to "readable" if needed](./Auth_Default_Roles.md).  However, it's advisable to revert the setting to "denied" when possible to maintain control.  
+Yes, you can [change the setting to "readable" if needed](./Auth_Default_Roles.md).  However, it's advisable to revert the setting to "denied" when possible to maintain privacy.  
   
