@@ -1,3 +1,8 @@
+---
+title: "xDrip Transmitter Connectivity with Dexcom"
+description: "Understand how xDrip manages Bluetooth connectivity to Dexcom transmitters. Learn how sample-and-hold timing works, how to interpret 'Last Connected' timings, and how to identify disconnects."
+---
+
 # Transmitter Bluetooth Connectivity  
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> xDrip and Dexcom Proper Connectivity  
   
