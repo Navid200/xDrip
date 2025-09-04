@@ -1,3 +1,8 @@
+---
+title: "Restarting a Dexcom G6 Sensor"
+description: "Step-by-step guide to restarting a Dexcom G6 sensor using xDrip. Includes instructions for stopping the sensor, removing and reinserting the transmitter, and calibrating after the warm-up period."
+---
+
 # Restart G6 Sensor  
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Restart G6 or Dexcom ONE sensor  
   
