@@ -1,3 +1,8 @@
+---
+title: "xDrip Multi-Site Upload to Nightscout"
+description: "Learn how to configure xDrip for multi-site upload to Nightscout. Documentation and help for sending glucose data from multiple devices to one Nightscout instance."
+---
+
 # Inconsistent Multi-Site Nightscout Upload  
 [xDrip](../../) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> Multi-Site Upload Failure  
   
