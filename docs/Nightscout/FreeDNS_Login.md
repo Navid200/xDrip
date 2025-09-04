@@ -1,4 +1,6 @@
 ---
+title: "FreeDNS Login"
+description: "Learn how to log in to your FreeDNS account and locate your user ID for Google Cloud Nightscout. Includes step-by-step instructions and documentation to help maintain your Nightscout setup."
 layout: GCNS
 ---
 
