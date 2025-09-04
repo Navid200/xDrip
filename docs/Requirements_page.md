@@ -12,6 +12,5 @@ You are the one responsible for making decisions, and you should always consult 
   
 ![ImpWarn](./images/ImpWarn.png)  
   
-#### [No medical decisions](./Medical.md)
 #### [Location Access](./Location.md)
   
