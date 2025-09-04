@@ -1,3 +1,8 @@
+---
+title: "Dexcom Battery Voltage Logs in xDrip"
+description: "Learn how to access and interpret battery voltage logs for Dexcom transmitters in xDrip. This guide helps monitor transmitter health and identify potential connectivity issues."
+---
+
 # Battery voltage logs  
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Battery voltage logs  
   
