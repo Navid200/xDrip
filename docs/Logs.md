@@ -3,7 +3,7 @@ title: "xDrip Logs"
 description: "Learn how to access and manage the Error & Event log in xDrip, view different log categories, save logs to a file, and safely share them without exposing sensitive data."
 ---
   
-# Logs
+# xDrip Logs
 [xDrip](../) >> [Features](./Features_page.md) >> xDrip Logs  
   
 To view the logs, tap the ellipsis (three dots) menu button in the top right corner and choose `View Events Log`.  
