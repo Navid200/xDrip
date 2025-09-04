@@ -1,4 +1,6 @@
 ---
+title: "FreeDNS Login Requirements for Google Cloud Nightscout"
+description: "FreeDNS accounts must be logged into at least once every 6 months or risk becoming dormant. Learn how this affects your Google Cloud Nightscout hostname and how to restore access if your account becomes inactive."
 layout: GCNS
 ---
 
