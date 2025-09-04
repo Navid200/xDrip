@@ -1,3 +1,8 @@
+---
+title: "xDrip Follow: Nightscout"
+description: "How to configure xDrip to follow a Nightscout instance. Step-by-step guide to setting up continuous data synchronization and viewing glucose values from remote devices."
+---
+
 # Follow Nightscout
 [xDrip](../../) >> [Features](../Features_page.md) >> [Follow](../How-to-follow.md) >> Nightscout  
   
