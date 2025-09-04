@@ -8,7 +8,7 @@ layout: GCNS
 [Google Cloud Nightscout](./GoogleCloud.md) >> Menu  
   
 When you open a [terminal](./Terminal.md), the main menu will automatically come up.  
-![](./images/Menu.png)  
+![Main menu](./images/Menu.png)  
   
 If no menu appears when you open a terminal, you may need to [update](./NS_SyncExecutables.md) your installation files.  
 If the window is too small, some menu items may not display correctly.  It’s best to avoid reducing the window size too much.  
@@ -26,15 +26,15 @@ To return to the menu after, you can open a new terminal, or enter `menu` in the
 There are 4 submenus.  Options 3, 4, 5 and 6 on the main menu take you to those submenus.  
   
 Google Cloud setup, main menu option 3  
-![](./images/GCS_submenu.png)  
+![GCS_submenu](./images/GCS_submenu.png)  
   
 Nightscout setup, main menu option 4  
-![](./images/NSS_submenu.png)   
+![NSS_submenu](./images/NSS_submenu.png)   
   
 xDrip setup, main menu option 5  
-![](./images/xDS_submenu.png)  
+![xDS_submenu](./images/xDS_submenu.png)  
   
 Data, main menu option 6  
-![](./images/D_submenu.png)  
+![D_submenu](./images/D_submenu.png)  
   
   
