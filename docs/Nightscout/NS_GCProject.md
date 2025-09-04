@@ -42,13 +42,13 @@ By default, a new project titled "My First Project" is created for you.  You can
 <br/>  
   
 Click on "Console".  
-![Console](./images/Console.png)  
+![Console button](./images/Console.png)  
   
 Go to dashboard.  
 ![Dashboard](./images/Dashboard.png)  
   
 Select "Compute Engine".  
-![Dash](./images/Dash.png)  
+![Compute engine](./images/Dash.png)  
   
 Enable.  
 ![Enable](./images/Enable.png)  
