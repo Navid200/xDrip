@@ -1,6 +1,7 @@
 ---
+title: "Google Cloud Nightscout Menu"
+description: "Learn how to use the Google Cloud Nightscout terminal menu to manage your instance. Includes guidance on accessing submenus, using SSH, and returning to the menu from the shell."
 layout: GCNS
-permalink: "/docs/Nightscout/Menu.html"
 ---
 
 # Google Cloud Nightscout menu
