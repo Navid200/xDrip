@@ -1,3 +1,8 @@
+---
+title: "Dexcom G7 Grace Period Explained"
+description: "Discover the Dexcom G7 sensor's grace period and how it affects readings near the end of its sensor session. Clarifies some aspects of the G7 sensor behavior."
+---
+
 # G7 or One+ Grace period
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Dexcom G7 grace perriod  
   
