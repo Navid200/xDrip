@@ -1,4 +1,6 @@
 ---
+title: "FreeDNS Blocked Domains and Nightscout Access"
+description: "Learn how to choose less-blocked FreeDNS domains for your Google Cloud Nightscout hostname. This guide helps you avoid connectivity issues in schools or workplaces by selecting low-risk domains."
 layout: GCNS
 ---
 
