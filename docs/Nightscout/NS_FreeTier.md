@@ -1,4 +1,6 @@
 ---
+title: "Google Cloud Nightscout Cost and Free Tier Issues"
+description: "Understand the costs of running Google Cloud Nightscout and why your VM may not qualify for the free tier. Covers regions, multiple accounts, snapshots, and network tier settings."
 layout: GCNS
 ---
 
