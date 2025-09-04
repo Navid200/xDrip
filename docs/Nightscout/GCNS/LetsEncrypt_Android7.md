@@ -10,7 +10,7 @@ Google Cloud Nightscout uses Let’s Encrypt. Unfortunately, free support for An
 You may see the following error on your uploader:  
 `javax.net.ssl.SSLHandshakeException: Java.security.cert.CertPathValidatorException: Trust anchor for certification path not found.`  
 
-In the case of a follower app or web browser, you may see a message like: 
+In the case of a follower app or web browser, you may see a message like:  
 `... can't open the page.`  
   
 To access your site, use a device running Android 8 or newer.  
