@@ -1,6 +1,6 @@
 ---
 layout: GCNS
-title: "Google Cloud Nightscout Branches: Development vs Stable"
+title: "Google Cloud Nightscout Branches"
 description: "Understand the differences between Nightscout branches on Google Cloud, how to switch between development (vps-dev) and stable (vps-2), and determine which one you’re currently using."
 ---
 
