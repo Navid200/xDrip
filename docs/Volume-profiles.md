@@ -1,3 +1,8 @@
+---
+title: "xDrip Volume Profiles for Glucose Alerts"
+description: "Configure xDrip's volume profiles to control alert sounds for glucose readings. Choose from High, Medium, Ascending, Vibrate Only, or Silent to suit your preferences."
+---
+
 # Volume Profiles  
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip Alerts](./Alerts_page.md) >> xDrip Volume Profiles  
   
