@@ -1,4 +1,6 @@
 ---
+title: "Google Cloud Snapshot Management and Cost"
+description: "Learn how to manage disk snapshots for your Google Cloud Nightscout setup. Understand how they affect billing and how to minimize snapshot-related charges."
 layout: GCNS
 ---
 
