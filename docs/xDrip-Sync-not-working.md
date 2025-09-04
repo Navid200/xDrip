@@ -7,7 +7,7 @@ description: "Fix xDrip sync issues by ensuring 'Use xDrip Cloud' is enabled and
 [xDrip](../) >> [Troubleshooting](./Troubleshooting_page.md) >> xDrip Sync not working  
 <br/>  
   
-[Update xDrip](./Updates.md) to ensure you are using at least the stable release.  
+[Update xDrip](./Updates.md) to ensure you are at least using the stable release.  
 <br/>  
   
 ---  
