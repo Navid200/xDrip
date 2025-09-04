@@ -1,4 +1,9 @@
-## Automatic Calibration
+---
+title: "Auto Calibration in xDrip"
+description: "Learn how to enable and configure auto calibration in xDrip to improve sensor accuracy. Includes guidance on settings, compatibility, and best practices for optimal performance."
+---
+
+# Automatic Calibration
 [xDrip](../) >> [Features](./Features_page.md) >> [Calibration](./Calibration.md) >> Automatic Calibration  
   
 You can enter blood glucose measurements from your blood glucose meter into xDrip to keep records.  
