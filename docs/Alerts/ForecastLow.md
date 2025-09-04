@@ -1,3 +1,8 @@
+---
+title: "Forecast Low Alert in xDrip"
+description: "Learn how the Forecast Low alert works in xDrip. Documentation explains how it predicts impending low glucose events and notifies you in advance to take preventive action."
+---
+
 # Forecasted Low alert
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Forecasted Low alert  
   
