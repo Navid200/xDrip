@@ -1,4 +1,6 @@
 ---
+title: "Google Cloud Nightscout: Too Many Certificates Error"
+description: "Learn how to resolve the 'Too Many Certificates' error during Nightscout installation on Google Cloud. Step-by-step guidance to overcome SSL certificate limits."
 layout: GCNS
 ---
 
