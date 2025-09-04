@@ -3,7 +3,7 @@ title: "xDrip Legend"
 description: "Understand the xDrip main screen element colors, including glucose readings, treatment indicators, prediction curves, and backfilled data markers. Learn how to customize display colors and interpret visual cues."
 ---
   
-# Legend  
+# xDrip Legend  
 [xDrip](../) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> xDrip Legend  
   
 You can customize some xDrip colors at: `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `xDrip+ Color Settings`  
