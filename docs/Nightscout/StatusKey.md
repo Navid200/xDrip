@@ -1,5 +1,6 @@
 ---
-layout: GCNS
+title: "Google Cloud Nightscout Status Key Explained"
+description: "Learn how to read and understand the status indicators on your Nightscout instance. Guide and documentation for troubleshooting and system monitoring."
 ---
 
 # Status page keywords
