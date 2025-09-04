@@ -1,4 +1,6 @@
 ---
+title: "Nightscout Security on Google Cloud"
+description: "Learn about the security architecture of Google Cloud Nightscout, including VPS hardening, automatic patching, and attack surface protection. Documentation and insights from the lead developer."
 layout: GCNS
 ---
 
