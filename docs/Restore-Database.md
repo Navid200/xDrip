@@ -1,3 +1,8 @@
+---
+title: "Restore xDrip Database"
+description: "Learn how to restore your xDrip database from a backup. Documentation covers step-by-step instructions to safely recover your data and resume normal app operation."
+---
+
 # Restore database  
 [xDrip](../) >> [Features](./Features_page.md) >> [Backup](./Backup.md) >> Restore database  
   
