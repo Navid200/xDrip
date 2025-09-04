@@ -3,8 +3,8 @@ title: "xDrip Reports"
 description: "Guide to generating and interpreting reports in xDrip. Track glucose trends, analyze statistics, and find help and documentation for using reports."
 ---
 
-# Report  
-[xDrip](../) >> [Features](./Features_page.md) >> Report  
+# xDrip Reports  
+[xDrip](../) >> [Features](./Features_page.md) >> xDrip Reports  
   
 This explains how you can create a report for your endocrinologist.  
 
