@@ -1,5 +1,5 @@
 ---  
-title: xDrip – Open Source Android CGM App | Installation, Setup, and Troubleshooting Guides 
+title: xDrip – CGM App | Installation, Setup, and Troubleshooting Guides 
 description: "Learn how to install, configure, and troubleshoot xDrip, the open-source Android app for continuous glucose monitoring (CGM). Official documentation, FAQs, and Nightscout integration guides."  
 ---  
   
