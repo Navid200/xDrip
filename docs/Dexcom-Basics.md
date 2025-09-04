@@ -5,7 +5,7 @@ Even if you don't use xDrip, some of these are still relevant.
   
 ### Transmitter Expiry
 When you receive a new transmitter, pay attention to the dates printed on the box. The first date is the date of manufacture. The second date is either a Ship-By or a Use-By Date.  
-![](./images/tx_box_dates.png)
+![tx_box_dates](./images/tx_box_dates.png)
 
 If the Ship-By or Use-By date is passed, you should not accept the transmitter. It would be like receiving a box of insulin with a passed expiry date.  
 In addition, the warranty is valid only if you start using the transmitter less than 5 months from the date it was sent to you.
@@ -25,7 +25,7 @@ If you want to use xDrip, you should ideally uninstall the Dexcom app first. If 
   
 ### Phone Time Accuracy
 Sync your phone clock to the network (Android Settings &#8722;> System &#8722;> Date & Time).  
-![](./images/phone_time.png)  
+![phone_time](./images/phone_time.png)  
 If you don't, the transmitter could malfunction and it will not be easy to figure out why.  
 <br/>  
   
@@ -64,10 +64,10 @@ Don't look under the list of paired devices expecting to see your transmitter. T
 Access the System Status page from the top left menu. There, you can swipe left and right to access two different system status pages, when collecting from a Dexcom transmitter, with headings "Classic Status Page" and "Dex Status".  
 
 The Classic Status page shows the xDrip version including date.  
-![](./images/classic-status-pg.png)  
+![classic-status-pg](./images/classic-status-pg.png)  
 
 The Dex Status Page contains important parameters including transmitter ID, time from last connection, firmware version, number of days on the transmitter, and transmitter battery voltages.  
-![](./images/system-status-pg.png)  
+![system-status-pg](./images/system-status-pg.png)  
 <br/>  
   
 ---  
