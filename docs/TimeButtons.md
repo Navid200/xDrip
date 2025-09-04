@@ -1,3 +1,8 @@
+---
+title: "xDrip Time Buttons Feature"
+description: "Learn how to use the Time Buttons feature in xDrip to quickly adjust glucose data timestamps. A handy tool for fine-tuning uploaded readings."
+---
+
 # xDrip Time Buttons  
 [xDrip](../) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> Time Range  
   
