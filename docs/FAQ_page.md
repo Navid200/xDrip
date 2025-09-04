@@ -32,7 +32,7 @@ description: "Common questions and answers about installing, using, and troubles
  [Which xDrip version do I have?](./xDrip-Version.md)  
   
 #### **How**
-#### [To receive an alert if I have no readings](./Alerts/MissedReading)
+#### [To receive an alert if I have no readings](./Alerts/MissedReading.md)
 #### [Show when the sensor expires](./Sensor-Expiry.md)
 #### [To remove an xDrip sync follower](./Follow/RemoveFollower.md)
 #### [Can I create a simple report for my doctor](./Report.md)
