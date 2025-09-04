@@ -44,11 +44,6 @@ Using the Premium Network Tier may result in charges.  You can learn how to chec
 <br/>  
   
 ---  
-
-#### **[Multiple Nightscout accounts](./MultipleAccounts.md)**
-<br/>  
-  
----  
   
 #### **Free Trial**
 When you first sign up for Google Cloud, you can enable the free trial program, which gives you $300 in credits for a 3-month period. During this time, any costs will be covered by this credit. You can monitor your spending through the billing dashboard.  
