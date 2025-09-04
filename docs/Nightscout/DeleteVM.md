@@ -1,4 +1,6 @@
 ---
+title: "Delete Google Cloud Virtual Machine"
+description: "Learn how to delete your Google Cloud Nightscout virtual machine safely. Includes guidance on backing up data, restoring from backups, and troubleshooting persistent VM deletions."
 layout: GCNS
 ---
 
