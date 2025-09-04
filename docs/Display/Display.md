@@ -4,7 +4,7 @@ description: "Guide to configuring xDrip display options, including graphs, colo
 ---
 
 # Display  
-[xDrip](../../) >> [Features](../Features_page) >> Display  
+[xDrip](../../) >> [Features](../Features_page.md) >> Display  
   
 You can customize what xDrip shows.  
   
