@@ -1,4 +1,6 @@
 ---
+title: "Stop or Start Your Nightscout Virtual Machine on Google Cloud"
+description: "Learn how to stop and start your Nightscout virtual machine on Google Cloud. Important considerations include IP address changes and free tier limitations."
 layout: GCNS
 ---
 
