@@ -1,3 +1,8 @@
+---
+title: "xDrip Persistent High Alert"
+description: "Configure xDrip's Persistent High Alert to notify you when your glucose level remains above a specified threshold for a set duration. This feature helps in timely intervention for prolonged high glucose levels."
+---
+
 # Persistent High alert
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip Alerts](../Alerts_page.md) >> Persistent High alert  
   
