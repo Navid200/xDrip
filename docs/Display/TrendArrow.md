@@ -1,3 +1,8 @@
+---
+title: "Trend Arrow in xDrip"
+description: "Learn how to interpret trend arrows in xDrip to understand your glucose level changes. Documentation covers customization options and troubleshooting tips for accurate readings."
+---
+
 # Trend Arrow
 [xDrip](../../) >> [Features](../Features_page.md) >> [Display](./Display.md) >> xDrip Trend Arrow  
   
