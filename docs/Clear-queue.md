@@ -1,3 +1,8 @@
+---
+title: "xDrip: Clearing the Transmitter Queue"
+description: "Learn how to clear xDrip’s transmitter command queue when pending actions build up. This guide explains when clearing the queue is useful and how to reset it safely."
+---
+
 # Clear Transmitter Queue  
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Clear xDrip Transmitter Queue  
   
