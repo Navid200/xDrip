@@ -1,3 +1,8 @@
+---
+title: "Customizing Glucose Range Display in xDrip"
+description: "Learn how to adjust the vertical glucose range on your xDrip graph. This guide covers setting custom Y-axis min/max values and understanding automatic range adjustments based on high readings."
+---
+
 # Glucose y (vertical) axis range
 [xDrip](../../) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Glucose range  
   
