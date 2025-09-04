@@ -1,4 +1,6 @@
 ---
+title: "Nightscout Login Parameters on Google Cloud"
+description: "Reference the four key Nightscout login parameters — Hostname, API_SECRET, FreeDNS ID, and FreeDNS password — available on the private Status page for Google Cloud Nightscout users."
 layout: GCNS
 ---
 
