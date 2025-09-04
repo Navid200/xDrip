@@ -43,7 +43,7 @@ If the note directs you to create a new virtual machine, or if any item above th
   
 If you did not get a notification to recreate the machine due to an incorrect Ubuntu version and nothing is red above the horizontal line on the status page, click **OK** to close it.  Any red notes below the horizontal line are expected at this stage and can be ignored.  
 You will see this menu:  
-![Menu](./images/Menu.png)  
+![Main Menu](./images/Menu.png)  
   
 <video width="400" controlsList="nodownload" src="./video/Install1.mp4" controls>  
 </video>  
