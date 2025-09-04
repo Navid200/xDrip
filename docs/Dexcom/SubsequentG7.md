@@ -1,3 +1,8 @@
+---
+title: "Starting a Subsequent Dexcom G7 or One+ Sensor"
+description: "Step-by-step guide for transitioning to a new Dexcom G7 or One+ sensor with xDrip. Includes instructions for establishing connectivity, transitioning between sensors, and managing overlapping sensor periods."
+---
+
 # Starting a subsequent G7 or One+  
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Starting a subsequent Dexcom G7 or One+  
   
