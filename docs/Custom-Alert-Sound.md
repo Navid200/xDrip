@@ -1,3 +1,8 @@
+---
+title: "Customize Alert Sounds in xDrip"
+description: "Learn how to use custom alert sounds in xDrip. This guide covers selecting custom audio files, setting different sounds for glucose thresholds, and ensuring notifications are audible."
+---
+
 # Custom Alert Sound  
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip Alerts](./Alerts_page.md) >> xDrip Custom Alert Sound  
   
