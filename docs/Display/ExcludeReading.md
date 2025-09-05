@@ -1,3 +1,8 @@
+---
+title: "Exclude Problematic Readings in xDrip"
+description: "Learn how to exclude individual glucose readings in xDrip that are erroneous or inconsistent. This guide walks you through locating, selecting, and removing outlier readings to keep your data clean."
+---
+
 # Exclude a reading
 [xDrip](../../) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Exclude an xDrip reading - mark a reading as bad - bad reading  
   
