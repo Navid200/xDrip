@@ -1,3 +1,8 @@
+---
+title: "Starting and Stopping a Dexcom G6 Sensor in xDrip"
+description: "Learn the correct way to start or stop a Dexcom G6 sensor in xDrip. This guide explains the transmitter queue, timing delays, and why commands may not take effect immediately, helping you avoid common mistakes."
+---
+
 # Stop or start a G6 or Dexcom One sensor
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Stop or start G6/Dex1 Sensor  
   
