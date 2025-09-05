@@ -1,3 +1,8 @@
+---
+title: "xDrip Dexcom Basics"
+description: "Essential information for using xDrip with Dexcom sensors. This guide covers transmitter expiry, app compatibility, phone settings, and connectivity tips to ensure optimal performance."
+---
+
 # xDrip Dexcom Basics
 [xDrip](../) >> [Features](Features_page.md) >> [Dexcom](./Dexcom_page.md) >> xDrip Dexcom Basics  
 
