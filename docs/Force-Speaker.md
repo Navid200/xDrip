@@ -1,3 +1,8 @@
+---
+title: "xDrip: Force Speaker for Alerts"
+description: "Enable 'Force Speaker' in xDrip to ensure glucose alerts use the alarm channel instead of the media channel—preventing alerts from blasting through headphones or music apps."
+---
+
 # Force Speaker
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip Alerts](./Alerts_page.md) >> Force speaker  
   
