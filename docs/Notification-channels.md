@@ -1,3 +1,8 @@
+---
+title: "Managing Notification Channels in xDrip"
+description: "Learn how to configure notification channels in xDrip to customize alert behaviors. This guide explains how to enable channels, adjust settings per alert type, and ensure your notifications function as intended."
+---
+
 # Notification Channels  
 [xDrip](../) >> [Features](./Features_page.md) >> [Alerts](./Alerts_page.md) >> Notification Channels  
   
