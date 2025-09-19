@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.09.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.19) | Font Settings - Forecasted low summary |   
 | [2025.09.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.05) | Simplera CGM under CareLink - Realme and Honor wake workaround |  
 | [2025.08.29](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.08.29) | Override silent mode log fix - statistics time range label |  
 | [2025.08.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.08.16) | [Override silent mode setting for each alert](https://github.com/NightscoutFoundation/xDrip/discussions/4130) - Companion app iCan Russian - Companion app equil-G &nbsp; &nbsp; ❌👎 |  
