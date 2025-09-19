@@ -8,9 +8,10 @@ layout: GCNS
 [Google Cloud Nightscout](./GoogleCloud.md) >> Unexpected costs    
   
 #### **Why have I been charged?**  
-Nightscout on Google Cloud is free with a few exceptions. A credit card is required to set up billing.  
-This page explains the details and highlights incorrect settings that could lead to expenses.  
-To determine the exact reason for any charges, create a [cost table](./CostTable.md).  
+Google Cloud Nightscout is free in some months, but in others you may see a small charge of about $0.03.  
+A credit card is required to set up billing.  
+This page explains the details and points out incorrect settings that could lead to higher costs.  
+To find the exact reason for any charges, create a [cost table](./CostTable.md).   
 <br/>  
   
 ---  
