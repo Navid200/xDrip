@@ -15,7 +15,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
 |---------|-------|  
 | [2025.09.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.26) | New Libre 2 sensor - VitaTok companion |  
 | [2025.09.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.19) | Font Settings - Forecasted low summary |   
-| [2025.09.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.05) | Simplera CGM under CareLink - Realme and Honor wake workaround |  
+| [2025.09.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.05) | **<span style="color:orange">Stable</span>** <br/> Simplera CGM under CareLink - Realme and Honor wake workaround |  
 | [2025.08.29](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.08.29) | Override silent mode log fix - statistics time range label |  
 | [2025.08.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.08.16) | [Override silent mode setting for each alert](https://github.com/NightscoutFoundation/xDrip/discussions/4130) - Companion app iCan Russian - Companion app equil-G &nbsp; &nbsp; ❌👎 |  
 | [2025.08.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.08.08) | Compact ongoing notification |  
@@ -26,7 +26,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
 | [2025.06.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.06.17) | Dex last connected color - Small phone layout fix - Y min/max menu orientation - Tidepool authentication - Sync follower missed reading alert - Database import fix |  
 | [2025.06.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.06.03) | Better G7 TXID handling - Treatment notes improvement |  
 | [2025.05.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.05.23) | [Forecast Low threshold](https://github.com/NightscoutFoundation/xDrip/discussions/4012) - Accu-Chek glucometer |  
-| [2025.05.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.05.09) | **<span style="color:orange">Stable</span>** <br/> Update alert |  
+| [2025.05.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.05.09) | **Previous Stable release** <br/> Update alert |  
 | [2025.04.30](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.04.30) | Update check load balance |  
 | [2025.04.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.04.25) | Nightscout treatments upload to multiple sites - Nightscout cleanup |  
 | [2025.04.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.04.15) | CamAPS Canada and iCan Health companions - G5 retired - xDrip Sync update |  
