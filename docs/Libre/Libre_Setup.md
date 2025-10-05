@@ -8,6 +8,7 @@ description: "Guide to using xDrip with Libre devices."
   
 Most of the information on this page is based on content originally provided by Phil Thompson on Facebook.  
   
+Use [this xDrip release](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.26) or newer.  
 You should keep xDrip [updated](../Updates.md) and never use a version older than the current stable release.  
 The [Release Notes](../ReleaseNotes.md) provide a short summary of the changes in each release and highlight the current stable version.  
   
@@ -16,7 +17,7 @@ Set [Hardware Data Source](../HardwareDataSource.md) to `Libre Bluetooth`.
 The connection to the sensor is established by an NFC scan, not by a Bluetooth scan or pairing.  
 This is enabled in NFC settings of xDrip+. Make sure faster multiblock is turned off.  
 
-Libre 2/2+ needs OOP2 helper app for decoding.  Download it here: [link](https://drive.google.com/file/d/1hkbs60Bv2udTlMS81UStCdY4RaHR0V57/view?usp=sharing ).  
+Libre 2/2+ needs OOP2 helper app for decoding.  Download it here: [link](https://drive.google.com/file/d/1106h2s12b3Ev9gKCTU2G75q8h9ChHjcz/view?usp=sharing).  
   
 Running Librelink / Libre 2 app at the same time as xDrip+ is not supported.  
   
