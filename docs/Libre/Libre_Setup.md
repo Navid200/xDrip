@@ -8,7 +8,6 @@ description: "Guide to using xDrip with Libre devices."
   
 Most of the information on this page is based on content originally provided by Phil Thompson on Facebook.  
   
-Use [this xDrip release](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.26) or newer.  
 You should keep xDrip [updated](../Updates.md) and never use a version older than the current stable release.  
 The [Release Notes](../ReleaseNotes.md) provide a short summary of the changes in each release and highlight the current stable version.  
   
@@ -27,7 +26,7 @@ Setting "calibration" to OFF is recommended, at least initially.
   
 xDrip+, OOP2 and the System Bluetooth app all need to be unrestricted — allowed to run in background and excluded from Battery Management.  
   
-If you are using Libre 2+, you will need xDrip release [2025.06.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.06.20) or newer.  
+If you are using Libre 2+, you will need xDrip release [2025.06.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.26) or newer.  
 See: [How to Download & Install](../Installation_page.md)  
 <br/>  
   
