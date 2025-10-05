@@ -10,6 +10,7 @@ Most of the information on this page is based on content originally provided by 
   
 You should keep xDrip [updated](../Updates.md) and never use a version older than the current stable release.  
 The [Release Notes](../ReleaseNotes.md) provide a short summary of the changes in each release and highlight the current stable version.  
+<br/>  
   
 Set [Hardware Data Source](../HardwareDataSource.md) to `Libre Bluetooth`.  
   
