@@ -6,6 +6,8 @@ description: "Questions for newcomers to the xDrip facebook support group"
 # Questions for newcomers to the facebook support group  
 [xDrip](../) >> Questions for newcomers to the facebook support group  
   
+[facebook xDrip support group](https://www.facebook.com/groups/xDripG5)  
+  
 ## Question 1  
 Who in your family has Type 1 diabetes? Or who are you helping with Type 1 diabetes?  
   
