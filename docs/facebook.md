@@ -1,6 +1,6 @@
 ---
-title: "xDrip facebook group[ questions"
-description: "Questions for newcomers to the xDrip facebook support group"
+title: "xDrip facebook group questions"
+description: "Questions for newcomers to the facebook xDrip support group"
 ---
 
 # Questions for newcomers to the facebook support group  
