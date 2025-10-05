@@ -27,7 +27,7 @@ Setting "calibration" to OFF is recommended, at least initially.
   
 xDrip+, OOP2 and the System Bluetooth app all need to be unrestricted — allowed to run in background and excluded from Battery Management.  
   
-If you are using Libre 2+, you will need xDrip release [2025.06.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.26) or newer.  
+If you are using Libre 2+, you will need xDrip release [2025.09.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.26) or newer.  
 See: [How to Download & Install](../Installation_page.md)  
 <br/>  
   
