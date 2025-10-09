@@ -34,6 +34,6 @@ For optimal performance with xDrip and Dexcom devices, follow these recommended 
 
 * If you experience disconnections, refer to the troubleshooting guide corresponding to your sensor:  
 [G6/One](./Connectivity-troubleshoot.md)  
-[G7One+/Stelo](./Dexcom/G7_Troubleshooting.md)  
+[G7/One+/Stelo](./Dexcom/G7_Troubleshooting.md)  
   
   
