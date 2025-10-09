@@ -1,9 +1,9 @@
 ---
-title: "xDrip Web Follower Setup for Libre 3"
+title: "xDrip Web Follower Setup for Libre"
 description: "Step-by-step guide to configure xDrip+ as a web follower for Libre 3 sensors using the LibreLinkUp app, enabling real-time glucose monitoring without NFC scanning."
 ---
   
-# Web Follower Libre 3
+# Web Follower Libre
 [xDrip](../) >> [Features](./Features_page.md) >> [Libre](./Libre/Libre_Page.md) >> xDrip Web Follower for Libre 3  
   
 1- Set up the official link-up follower app.  
