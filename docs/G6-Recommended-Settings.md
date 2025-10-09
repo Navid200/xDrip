@@ -33,7 +33,7 @@ For optimal performance with xDrip and Dexcom devices, follow these recommended 
 * Restart your phone.  
 
 * If you experience disconnections, refer to the troubleshooting guide corresponding to your sensor:  
-[G6/Onehere](./Connectivity-troubleshoot.md)  
+[G6/One](./Connectivity-troubleshoot.md)  
 [G7One+/Stelo](./Dexcom/G7_Troubleshooting.md)  
   
   
