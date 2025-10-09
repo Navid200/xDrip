@@ -34,3 +34,4 @@ If your setup has stopped working, add a space after the configuration script se
 Shortly after, remove the space.  
 Doing that causes a full reset of the internal state, causing it to resume operation.  
   
+  
