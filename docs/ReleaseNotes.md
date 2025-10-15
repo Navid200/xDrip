@@ -13,7 +13,8 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
-| [2025.10.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.10.04) | Auto config improvements - IoB improvement|. 
+| [2025.10.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.10.15) | G7 cal log cleanup - new translation strings |  
+| [2025.10.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.10.04) | Auto config improvements - IoB improvement|  
 | [2025.09.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.26) | New Libre 2 sensor - VitaTok companion |  
 | [2025.09.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.19) | Font Settings - Forecasted low summary |   
 | [2025.09.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.05) | **<span style="color:orange">Stable</span>** <br/> Simplera CGM under CareLink - Realme and Honor wake workaround |  
