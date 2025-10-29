@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.10.29](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.10.29) | Reminders fix - Tidepool queue |  
 | [2025.10.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.10.15) | G7 cal log cleanup - new translation strings |  
 | [2025.10.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.10.04) | Auto config improvements - IoB improvement|  
 | [2025.09.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.09.26) | New Libre 2 sensor - VitaTok companion |  
