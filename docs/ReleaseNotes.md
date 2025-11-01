@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.11.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.11.01) | Crash reporter/reminders/general cleanup |  
 | [2025.10.29](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.10.29) | Reminders fix - Tidepool queue |  
 | [2025.10.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.10.15) | G7 cal log cleanup - new translation strings |  
 | [2025.10.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.10.04) | Auto config improvements - IoB improvement|  
