@@ -1,61 +1,51 @@
 <!doctype html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-    <link rel="icon" href="{{ '/assets/favicon_gcns.ico' | relative_url }}">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-    {% include head-custom.html %}
+    {% comment %}
+      Base URL of the new site
+      All redirects will use this
+    {% endcomment %}
+    {% assign new_base = "https://google-cloud-nightscout.github.io/" %}
 
-<!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
-    {% include tracking-header.html %}
+    {% comment %}
+      Determine the target URL
+      - If this page is GoogleCloud.md (the old main page), redirect to new /
+      - Otherwise, redirect to new site preserving relative path without Nightscout/
+    {% endcomment %}
+    {% if page.path == "docs/Nightscout/GoogleCloud.md" %}
+      {% assign target = new_base %}
+    {% else %}
+      {% assign target = new_base | append: "docs/" | append: page.path | remove: "Nightscout/" | replace: ".md", ".html" %}
+    {% endif %}
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"/>
-    
+    {% comment %}
+      Canonical for search engines
+    {% endcomment %}
+    <link rel="canonical" href="{{ target }}" />
+
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description | default: 'Redirecting to Google Cloud Nightscout site.' }}">
+
+    {% comment %}
+      Fast redirect for users
+    {% endcomment %}
+    <meta http-equiv="refresh" content="1; url={{ target }}">
+
+    {% comment %}
+      Optional message if redirect fails
+    {% endcomment %}
+    <style>
+      body { font-family: sans-serif; text-align: center; padding: 3em; color: #333; }
+      a { color: #0066cc; }
+    </style>
+
   </head>
   <body>
-    <div id="header">
-      <ul>
-        <li class="imag_L"><a class="two" href="https://navid200.github.io/xDrip/docs/Nightscout/GoogleCloud.html"><img src="{{ site.baseurl }}/assets/img/GCNS.png" alt="Google Cloud Nightscout home"></a></li>           
-      </ul>
-      <ul>
-        {% include search-lunr.html %}
-      </ul>
-      <ul>
-        <li class="release"><a class="one" href="https://navid200.github.io/xDrip/docs/Nightscout/GC_ReleaseNotes.html">Release Notes</a></li>       
-        <li class="cont"><a class="one" href="https://navid200.github.io/xDrip/docs/Nightscout/GCNS_Support.html">Support</a></li>          
-      </ul>
-    </div>
-    
-    <div id="lunrsearchresults">
-      <ul class="mb-0"></ul>
-    </div>
-
-    <!-- <div id="docsearch"></div> -->
-    
-    <div class="wrapper_GCNS">
-      <section>
-        {{ content }}
-      </section>
-    </div>
-    <script src="{{site.baseurl}}/assets/js/theme.js"></script>
-    <script>
-      function FunctionCopyText() {
-        // Get the text field
-        var copyText = document.getElementById("myInputText");
-        // Copy the text inside the text field
-        navigator.clipboard.writeText(copyText.value);
-      }
-    </script>
-    
+    <p>Redirecting to the new Google Cloud Nightscout site…</p>
+    <p>If you are not redirected automatically, <a href="{{ target }}">click here</a>.</p>
   </body>
 </html>
