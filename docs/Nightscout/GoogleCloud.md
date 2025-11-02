@@ -1,8 +1,7 @@
----  
-layout: GCNS  
-title: Google Cloud Nightscout  
-description: "Step‑by‑step guide to setting up Nightscout on Google Cloud using FreeDNS, a VM, and Linux installation via xDrip."  
----  
+---
+layout: none
+redirect_to: "https://google-cloud-nightscout.github.io/"
+---
   
 # Google Cloud Nightscout  
 [xDrip](../../) >> [Features](../Features_page.md) >> [Nightscout](../Nightscout_page.md) >> Google Cloud Nightscout  
