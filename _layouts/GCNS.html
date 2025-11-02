@@ -58,15 +58,6 @@ Redirect GCNS pages to the new site.
     
   </head>
   <body>
-    
-    {% assign page_path = page.path | replace: 'docs/Nightscout/', '' %}
-    <script>
-      window.location.replace("https://google-cloud-nightscout.github.io/{{ page_path }}");
-    </script>
-    <noscript>
-      <meta http-equiv="refresh" content="0; url=https://google-cloud-nightscout.github.io/{{ page_path }}">
-    </noscript>
-
     <div id="header">
       <ul>
         <li class="imag_L"><a class="two" href="https://navid200.github.io/xDrip/docs/Nightscout/GoogleCloud.html"><img src="{{ site.baseurl }}/assets/img/GCNS.png" alt="Google Cloud Nightscout home"></a></li>           
