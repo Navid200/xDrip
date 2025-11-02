@@ -3,41 +3,6 @@
   <head>
     <link rel="icon" href="{{ '/assets/favicon_gcns.ico' | relative_url }}">
     <meta charset="utf-8">
-
-    {%- comment -%}
-Redirect GCNS pages to the new site.
-- GoogleCloud.md => root "/"
-- everything else => /docs/<same-relative-path-without-Nightscout, .md -> .html>
-{%- endcomment -%}
-
-{% assign new_base = "https://google-cloud-nightscout.github.io" %}
-{%- assign rel = page.path | replace_first: "docs/Nightscout/", "" -%}
-
-{%- if rel == "GoogleCloud.md" -%}
-  {% assign target = new_base | append: "/" %}
-{%- else -%}
-  {% assign rel_html = rel | replace: ".md", ".html" %}
-  {% assign target = new_base | append: "/docs/" | append: rel_html %}
-{%- endif -%}
-
-<!-- instant redirect + JS fallback that preserves query/hash -->
-<meta http-equiv="refresh" content="0; url={{ target }}">
-<script>
-  (function(){
-    try {
-      var q = window.location.search || "";
-      var h = window.location.hash || "";
-      window.location.replace("{{ target }}" + q + h);
-    } catch(e) { console.error(e); }
-  })();
-</script>
-<noscript>
-  <meta http-equiv="refresh" content="0; url={{ target }}">
-  <p style="text-align:center;margin-top:2em;">Moved: <a href="{{ target }}">{{ target }}</a></p>
-</noscript>
-
-
-    
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 {% seo %}
@@ -90,17 +55,6 @@ Redirect GCNS pages to the new site.
         // Copy the text inside the text field
         navigator.clipboard.writeText(copyText.value);
       }
-    </script>
-    
-    <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3"></script>
-    <script type="text/javascript">
-      docsearch({
-        appId: "T3Y3GMH5ZO",
-        apiKey: "625050bf1bdb755ed6550b581c3b3859",
-        indexName: "navid200io",
-        container: "#docsearch",
-        debug: false 
-      });
     </script>
     
   </body>
