@@ -1,61 +1,37 @@
 <!doctype html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="en">
   <head>
-    <link rel="icon" href="{{ '/assets/favicon_gcns.ico' | relative_url }}">
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Redirecting…</title>
+    <script>
+      (function() {
+        // Get the current path
+        var oldPath = window.location.pathname;
 
-{% seo %}
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
-    {% include head-custom.html %}
+        // Remove /xDriptest/ from the path
+        oldPath = oldPath.replace("/xDriptest/", "/");
+        // Remove /Nightscout/ from the path
+        oldPath = oldPath.replace("/Nightscout/", "/");
 
-<!-- Jquery on header to make sure everything works, the rest  of the scripts in footer for fast loading -->
-    <script
-    src="https://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="{{site.baseurl}}/assets/css/main.css">
-    {% include tracking-header.html %}
+        // Construct new URL
+        var newURL = "https://google-cloud-nightscout.github.io" + oldPath;
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3"/>
-    
+        // Redirect automatically
+        window.location.replace(newURL);
+      })();
+    </script>
   </head>
   <body>
-    <div id="header">
-      <ul>
-        <li class="imag_L"><a class="two" href="https://navid200.github.io/xDrip/docs/Nightscout/GoogleCloud.html"><img src="{{ site.baseurl }}/assets/img/GCNS.png" alt="Google Cloud Nightscout home"></a></li>           
-      </ul>
-      <ul>
-        {% include search-lunr.html %}
-      </ul>
-      <ul>
-        <li class="release"><a class="one" href="https://navid200.github.io/xDrip/docs/Nightscout/GC_ReleaseNotes.html">Release Notes</a></li>       
-        <li class="cont"><a class="one" href="https://navid200.github.io/xDrip/docs/Nightscout/GCNS_Support.html">Support</a></li>          
-      </ul>
-    </div>
-    
-    <div id="lunrsearchresults">
-      <ul class="mb-0"></ul>
-    </div>
-
-    <!-- <div id="docsearch"></div> -->
-    
-    <div class="wrapper_GCNS">
-      <section>
-        {{ content }}
-      </section>
-    </div>
-    <script src="{{site.baseurl}}/assets/js/theme.js"></script>
-    <script>
-      function FunctionCopyText() {
-        // Get the text field
-        var copyText = document.getElementById("myInputText");
-        // Copy the text inside the text field
-        navigator.clipboard.writeText(copyText.value);
-      }
-    </script>
-    
+    <noscript>
+      <p>
+        Automatic redirect is not working because JavaScript is disabled in your browser.</p>
+      <p>
+        The Google Cloud Nightscout guide has moved to 
+        <a href="https://google-cloud-nightscout.github.io/">https://google-cloud-nightscout.github.io/</a>.</p>
+      <p>
+        Please visit that site to update your bookmarks.
+      </p>
+    </noscript>
   </body>
 </html>
+ 
