@@ -27,7 +27,6 @@ You need the advice of a competent medical professional to control your, or your
 
 ---  
    
-#### [Google Cloud Nightscout](./docs/Nightscout/GoogleCloud.md)
     
 <script type="application/ld+json">
 {
