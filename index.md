@@ -23,9 +23,6 @@ You need the advice of a competent medical professional to control your, or your
 ### [Settings](./docs/Settings.md)
 ### [Troubleshooting](./docs/Troubleshooting_page.md)
 ### [Frequently Asked Questions](./docs/FAQ_page.md)
-<br/>  
-
----  
    
     
 <script type="application/ld+json">
