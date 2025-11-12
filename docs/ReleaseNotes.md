@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.11.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.11.12) | Stats customization - Aidex Glucotech companion |  
 | [2025.11.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.11.05) | Tidepool/barcode/watch updater/cal cleanup |  
 | [2025.11.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.11.01) | Crash reporter/reminders/general cleanup |  
 | [2025.10.29](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.10.29) | Reminders fix - Tidepool queue |  
