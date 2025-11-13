@@ -93,15 +93,15 @@ public class LockScreenWallPaper {
 
     @SuppressLint("WrongConstant")
     public static void setBitmap(final Bitmap bitmap) {
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.N) {
-            try {
-                final WallpaperManager wallpaperManager = WallpaperManager.getInstance(xdrip.getAppContext());
-                final Bitmap wallpaper = BitmapUtil.getTiled(bitmap, getScreenWidth(), getScreenHeight(), isLockScreenBitmapTiled(), Pref.getString(NumberWallPreview.ViewModel.PREF_numberwall_background, null));
-                wallpaperManager.setBitmap(wallpaper, null, false, FLAG_LOCK);
-                wallpaper.recycle();
-            } catch (Exception e) {
-                UserError.Log.e(TAG, "Failed to set wallpaper: " + e);
-            }
+        try {
+            final WallpaperManager wallpaperManager = WallpaperManager.getInstance(xdrip.getAppContext());
+            final int wallpaperWidth = (int) (getScreenWidth() * 1.15); // Enlarge the canvas horizontally by 15%
+            final int wallpaperHeight = (int) (getScreenHeight() * 1.15); // Enlarge the canvas vertically by 15%
+            final Bitmap wallpaper = BitmapUtil.getTiled(bitmap, wallpaperWidth, wallpaperHeight, isLockScreenBitmapTiled(), Pref.getString(NumberWallPreview.ViewModel.PREF_numberwall_background, null));
+            wallpaperManager.setBitmap(wallpaper, null, false, FLAG_LOCK);
+            wallpaper.recycle();
+        } catch (Exception e) {
+            UserError.Log.e(TAG, "Failed to set wallpaper: " + e);
         }
     }
 
