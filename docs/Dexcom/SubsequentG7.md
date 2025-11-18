@@ -6,17 +6,17 @@ description: "Step-by-step guide for transitioning to a new Dexcom G7 or One+ se
 # Starting a subsequent G7 or One+  
 [xDrip](../../) >> [Features](../Features_page.md) >> [xDrip & Dexcom](../Dexcom_page.md) >> Starting a subsequent Dexcom G7 or One+  
   
-This guide outlines the recommended steps for starting your next device after you’ve been using one already.  
+This guide outlines the recommended steps for starting your next device after you’ve already been using one.  
 If you are starting a G7 or One+ for the first time, refer to the instructions [here](./G7.md).  
 <br/>  
   
 ---  
   
 #### **Starting a New Device**  
-When the status page shows 10 days for transmitter days or when the optional sensor expiry notification on the main screen indicates that the sensor will expire in about 12 hours, insert a new sensor following the section titled “Starting the Sensor” [here](./G7.md).    
+When the status page shows 10 days for transmitter days, or when the optional sensor-expiry notification on the main screen indicates the sensor will expire in about 12 hours, insert a new sensor following the “Starting the Sensor” section [here](./G7.md).  
 ![G7EndsIn](./images/G7EndsIn.png)  
   
-You can use a secondary phone (different from your primary xDrip phone) or a [variant](../Variants.md) to establish connectivity with your new device and verify that it is functioning correctly. To do this, follow the instructions under the heading “Establishing Connectivity” [here](./G7.md) using the secondary phone.  If you are using a variant on the same phone that is currently connected to your old sensor via the main xDrip app, follow the same instructions—except do not delete the Bluetooth devices from the list.  
+You can use a secondary phone (different from your primary xDrip phone) or a [variant](../Variants.md) to establish connectivity with your new device and verify that it is functioning correctly. To do this, follow the instructions under “Establishing Connectivity” [here](./G7.md) using the secondary phone.  If you are using a variant on the same phone that is currently connected to your old sensor via the main xDrip app, follow the same instructions—except **do not delete the Bluetooth devices** from the list.  
   
 Once you’ve confirmed the new device is working, you can [disconnect the secondary phone or variant](../Stop-xDrip.md).  There is no requirement to maintain connectivity for the sensor to remain operational.  
 <br/>  
