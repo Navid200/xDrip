@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.11.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.11.26) | Companion app Linx vista |  
 | [2025.11.22](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.11.22) | Edit alert invalid number handling |  
 | [2025.11.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.11.12) | Stats customization - Aidex Glucotech companion |  
 | [2025.11.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.11.05) | Tidepool/barcode/watch updater/cal cleanup |  
