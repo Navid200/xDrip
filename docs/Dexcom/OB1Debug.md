@@ -11,6 +11,8 @@ Enabling this will expand the type of logs generated.  This can help the develop
 #### **Enable**  
 To enable, use xDrip [auto configure](../Settings/Scan_QR_Code.md) to scan this QR code:  
 ![OB1Debug](./images/OB1Debug.png)  
+
+Alternatively, you can use `Ob1G5CollectionService:v,Ob1G5StateMachine:v` at Settings > Less common settings > Extra Logging Settings > Extra tags for logging.  
   
 After that, if you view the [logs](../Logs.md), you will see a lot more logs generated per minute.  
 It will be pointless to upload the logs as soon as you have enabled the OB1 collector debugging.  You need to wait for the problem to occur.  Then, you can upload the logs.  
