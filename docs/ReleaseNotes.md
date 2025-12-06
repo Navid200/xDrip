@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.12.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.06) | Pebble partial fix |  
 | [2025.12.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.02) | Libre 2 identifier update |  
 | [2025.11.28](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.11.28) | Correction to "If the sensor was started today question" procedure |  
 | [2025.11.26](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.11.26) | Companion app LinX vista |  
