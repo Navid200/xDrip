@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.12.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.10) | Silenced G7 battery warning - 24-hour sensor expiry note - Sensor expiry note cleanup |  
 | [2025.12.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.07) | Pebble fix |  
 | [2025.12.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.06) | Pebble partial fix |  
 | [2025.12.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.02) | Libre 2 identifier update |  
