@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.12.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.18) | Y axis auto pan |  
 | [2025.12.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.17) | Linx Smart 2 companion - Minimed companion app IoB |  
 | [2025.12.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.13) | Forecasted low (critical) note costom color - Diaexpert companion |  
 | [2025.12.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.10) | Silenced G7 battery warning - 24-hour sensor expiry note - Sensor expiry note cleanup |  
