@@ -24,6 +24,7 @@ If you later disable the feature, the graph returns to the default range, but yo
   
 The following image shows the exact same readings displayed at the two extremes of the Y-axis range.  
 ![GlucoseRange](./images/GlucoseRange.png)  
+<br/>  
   
 ---  
   
