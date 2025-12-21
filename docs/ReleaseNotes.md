@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.12.21](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.21) | SmartGuide fix |  
 | [2025.12.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.20) | Auto-pan removed - SmartGuide fix - media player cleanup |  
 | [2025.12.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.19b) | SmartGuide - New G6 firmware |  
 | [2025.12.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.18) | Y axis auto pan |  
