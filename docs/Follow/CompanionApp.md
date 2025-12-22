@@ -20,7 +20,10 @@ A note will appear:
   
 Tap OK.  
 You will be taken to Android Notification Access page.  
-Select xDrip and grant access.  If you're unable to grant access, follow [this guide](../RestrictedSettings.md) to give restricted access to xDrip.  Once complete, disable and re-enable Companion App Mode.  This time, you should be able to grant permission.  
+Select xDrip.  Tap on "Allow notification access".  
+![AllowNotificationAccess](../images/AllowNotificationAccess.png)  
+  
+If you're unable to grant access, follow [this guide](../RestrictedSettings.md) to give restricted access to xDrip.  Once complete, disable and re-enable Companion App Mode.  This time, you should be able to grant permission.  
   
 3- Ensure xDrip uses the same [unit of measurement](../Display/Units_HiLow.md) (mmol/L or mg/dL) as your companion app.  
 <br/>  
