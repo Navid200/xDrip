@@ -8,11 +8,6 @@ description: "Recommended xDrip settings for collection from Dexcom devices incl
   
 For optimal performance with xDrip and Dexcom devices, follow these recommended settings:  
   
-**G7/One+/Stelo**  
-Use Settings > Auto configure to scan the following QR code.  This is a one-time setup to enable xDrip to collect data from G7; it does not need to be repeated for each sensor.  
-![](./Dexcom/images/G7_keks_QR.png)  
-<br/>  
-  
 * Choose `Settings` > `Hardware Data Source` > `Dex`.  
   
 * Verify `Settings` &#8722;> [`Dex Debug Settings`](./images/g6-recommended-settings.png)  
@@ -25,8 +20,8 @@ Use Settings > Auto configure to scan the following QR code.  This is a one-time
 
 * Disable &nbsp; &nbsp; &nbsp; `Settings` &#8722;> `Less common settings` &#8722;> `Advanced Calibration` &#8722;> `Automatic Calibration`  
   
-<br/>    
-
+<br/>  
+  
 * Use Android Settings to sync your phone’s time with the network as explained in "[Basics](./Dexcom-Basics.md#phone-time-accuracy)".  
 
 * Follow the instructions [here](./BatteryOpt.md) to disable battery optimization for xDrip.  
@@ -34,10 +29,16 @@ Use Settings > Auto configure to scan the following QR code.  This is a one-time
 * Follow the instructions [here](./BluetoothBatteryOpt.md) to disable Bluetooth battery optimization.  
   
 * For Android 11 or newer, enable background location access as explained [here](./Location.md).  
-
-* Restart your phone.  
-
-* If you experience disconnections, refer to the troubleshooting guide corresponding to your sensor:  
+<br/>
+  
+**For G7/One+/Stelo**  
+Use Settings > Auto configure to scan the following QR code.  This is a one-time setup to enable xDrip to collect data from G7; it does not need to be repeated for each sensor.  
+![](./Dexcom/images/G7_keks_QR.png)  
+<br/>  
+  
+---  
+  
+If you experience disconnections, refer to the troubleshooting guide corresponding to your sensor:  
 [G6/One](./Connectivity-troubleshoot.md)  
 [G7/One+/Stelo](./Dexcom/G7_Troubleshooting.md)  
   
