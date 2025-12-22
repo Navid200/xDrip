@@ -8,6 +8,11 @@ description: "Recommended xDrip settings for collection from Dexcom devices incl
   
 For optimal performance with xDrip and Dexcom devices, follow these recommended settings:  
   
+**G7/One+/Stelo**  
+Use Settings > Auto configure to scan the following QR code.  This is a one-time setup to enable xDrip to collect data from G7; it does not need to be repeated for each sensor.  
+![](./Dexcom/images/G7_keks_QR.png)  
+<br/>  
+  
 * Choose `Settings` > `Hardware Data Source` > `Dex`.  
   
 * Verify `Settings` &#8722;> [`Dex Debug Settings`](./images/g6-recommended-settings.png)  
