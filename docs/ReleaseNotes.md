@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2025.12.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.24) | More logging |  
 | [2025.12.22](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.22) | Cleanup |  
 | [2025.12.21](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.21) | SmartGuide fix |  
 | [2025.12.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2025.12.20) | Auto-pan removed - SmartGuide fix - media player cleanup |  
