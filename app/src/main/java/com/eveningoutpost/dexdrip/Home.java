@@ -15,6 +15,7 @@ import static com.eveningoutpost.dexdrip.utilitymodels.Constants.SECOND_IN_MS;
 import static com.eveningoutpost.dexdrip.utils.DexCollectionType.GluPro;
 import static com.eveningoutpost.dexdrip.utils.DexCollectionType.LibreAlarm;
 import static com.eveningoutpost.dexdrip.utils.DexCollectionType.Medtrum;
+import static com.eveningoutpost.dexdrip.utils.DexCollectionType.getDexCollectionType;
 import static com.eveningoutpost.dexdrip.xdrip.gs;
 
 import android.Manifest;
@@ -813,7 +814,7 @@ public class Home extends ActivityWithMenu implements ActivityCompat.OnRequestPe
 
                 } else if (calibration_type.equals("auto")) {
                     if ((!Pref.getBooleanDefaultFalse("bluetooth_meter_for_calibrations_auto"))
-                            && (DexCollectionType.getDexCollectionType() != DexCollectionType.Follower)
+                            && (getDexCollectionType() != DexCollectionType.Follower)
                             && (JoH.pratelimit("ask_about_auto_calibration", 86400 * 30))) {
                         final AlertDialog.Builder builder = new AlertDialog.Builder(this);
                         builder.setTitle(gs(R.string.enable_automatic_calibration));
@@ -2107,8 +2108,10 @@ public class Home extends ActivityWithMenu implements ActivityCompat.OnRequestPe
             float tempwidth = (float) moveViewPort.width() / 4;
             holdViewport.left = moveViewPort.right - tempwidth;
             holdViewport.right = moveViewPort.right + (moveViewPort.width() / 24);
-            holdViewport.top = moveViewPort.top;
-            holdViewport.bottom = moveViewPort.bottom;
+            if (!bgGraphBuilder.autoYPan) {
+                holdViewport.top = moveViewPort.top;
+                holdViewport.bottom = moveViewPort.bottom;
+            }
             chart.setCurrentViewport(holdViewport);
             previewChart.setCurrentViewport(holdViewport);
             UserError.Log.e(TAG, "SMALL HEIGHT VIEWPORT WARNING");
@@ -2293,8 +2296,10 @@ public class Home extends ActivityWithMenu implements ActivityCompat.OnRequestPe
             case "time tick":
                 if (msSince(lastViewPortPan) < 45 * SECOND_IN_MS) {
                     UserError.Log.d(TAG, "Skipping VIEWPORT adjustment as panning and data just arrived: " + holdViewport.toString());
-                    holdViewport.top = maxViewPort.top;
-                    holdViewport.bottom = maxViewPort.bottom;
+                    if (!bgGraphBuilder.autoYPan) {
+                        holdViewport.top = maxViewPort.top;
+                        holdViewport.bottom = maxViewPort.bottom;
+                    }
                     chart.setCurrentViewport(holdViewport); // reuse existing
                     return;
                 }
@@ -2314,8 +2319,10 @@ public class Home extends ActivityWithMenu implements ActivityCompat.OnRequestPe
         double hour_width = maxViewPort.width() / bgGraphBuilder.hoursShownOnChart();
         holdViewport.left = maxViewPort.right - hour_width * hours_to_show;
         holdViewport.right = maxViewPort.right;
-        holdViewport.top = maxViewPort.top;
-        holdViewport.bottom = maxViewPort.bottom;
+        if (!bgGraphBuilder.autoYPan) {
+            holdViewport.top = maxViewPort.top;
+            holdViewport.bottom = maxViewPort.bottom;
+        }
 
         // if locked, center display on current bg values, not predictions
         if (homeShelf.get("time_locked_always")) {
@@ -2328,6 +2335,10 @@ public class Home extends ActivityWithMenu implements ActivityCompat.OnRequestPe
             UserError.Log.d(TAG, "MAX VIEWPORT " + maxViewPort);
         }
 
+        if (bgGraphBuilder.autoYPan) {
+        //    updateYWindow();
+            applyYViewport(bgGraphBuilder.computeYViewport());
+        }
         chart.setCurrentViewport(holdViewport);
 
     }
@@ -2372,6 +2383,14 @@ public class Home extends ActivityWithMenu implements ActivityCompat.OnRequestPe
 
         ui.bump();
         return false;
+    }
+
+    private void applyYViewport(Viewport v) {
+        // Apply viewport to chart
+        holdViewport.top = v.top;
+        holdViewport.bottom = v.bottom;
+        chart.setCurrentViewport(holdViewport);
+        chart.setMaximumViewport(previewChart.getMaximumViewport());
     }
 
     private void updateHealthInfo(String caller) {
@@ -2438,7 +2457,7 @@ public class Home extends ActivityWithMenu implements ActivityCompat.OnRequestPe
             btnRedo.setVisibility(View.INVISIBLE);
         }
 
-        final DexCollectionType collector = DexCollectionType.getDexCollectionType();
+        final DexCollectionType collector = getDexCollectionType();
         // TODO unify code using DexCollectionType methods
         boolean isBTWixelOrLimiTTer = CollectionServiceStarter.isBTWixelOrLimiTTer(getApplicationContext());
         // port this lot to DexCollectionType to avoid multiple lookups of the same preference
@@ -2637,7 +2656,7 @@ public class Home extends ActivityWithMenu implements ActivityCompat.OnRequestPe
 
         if (!isSensorActive) {
             // Define a variable (notConnectedToG6Yet) that is only true if Native G6 is chosen, but, transmitter days is unknown or not synced yet.
-            boolean notConnectedToG6Yet = DexCollectionType.getDexCollectionType() == DexcomG5 && Pref.getBooleanDefaultFalse("ob1_g5_use_transmitter_alg") && Pref.getBooleanDefaultFalse("using_g6") && (DexTimeKeeper.getTransmitterAgeInDays(getTransmitterID()) == -1 || !DexSyncKeeper.isReady(getTransmitterID()));
+            boolean notConnectedToG6Yet = getDexCollectionType() == DexcomG5 && Pref.getBooleanDefaultFalse("ob1_g5_use_transmitter_alg") && Pref.getBooleanDefaultFalse("using_g6") && (DexTimeKeeper.getTransmitterAgeInDays(getTransmitterID()) == -1 || !DexSyncKeeper.isReady(getTransmitterID()));
             if (notConnectedToG6Yet || shortTxId()) { // Only if G6 has been selected and transmitter is not synced yet, or if G7 has been selected.
                 notificationText.setText(R.string.wait_to_connect);
             } else { // Only if G6 is not selected or G6 transmitter is synced.
@@ -2709,7 +2728,7 @@ public class Home extends ActivityWithMenu implements ActivityCompat.OnRequestPe
         }
 
         // we can't use the Dex related code below so we handle things here
-        if (DexCollectionType.getDexCollectionType() == GluPro) {
+        if (getDexCollectionType() == GluPro) {
             displayCurrentInfo();
             return;
         }
@@ -3021,7 +3040,7 @@ public class Home extends ActivityWithMenu implements ActivityCompat.OnRequestPe
 
     // TODO consider moving this out of Home
     public static long stale_data_millis() {
-        if (DexCollectionType.getDexCollectionType() == LibreAlarm)
+        if (getDexCollectionType() == LibreAlarm)
             return (60000 * 13);
         return (60000 * 11);
     }
