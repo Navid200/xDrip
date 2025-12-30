@@ -53,15 +53,16 @@ If there is a command stuck in the queue, [clear the queue](./Clear-queue.md).
 The transmitter needs to be detached from your body for at least 10 minutes before you proceed.  More on this [here](./Dexcom/StartG6Sensor.md).  
 If there is bleeding, after inserting a new sensor, use Q-tips to absorb the blood.  Keep doing that, and don't allow any blood to get to the contacts, until bleeding stops.  
   
-6.  If you are starting a new transmitter, enter the new transmitter serial number (Transmitter ID): `Settings` &#8722;> `Dexcom Transmitter ID`.     
+6.  If you are starting a new transmitter, enter the new transmitter serial number (Transmitter ID): `Settings` &#8722;> `Dexcom Transmitter ID`.
+If the serial number has -1 at the end, only enter the first six characters leaving out -1.  
   
-7.  Clean the transmitter contacts (not if you are restarting sensor) using rubbing alcohol.  Wait for it (10 seconds) to dry.  Snap the transmitter into the sensor.  If you are starting a new transmitter, snapping it into the sensor on your body is required to activate it.  
+8.  Clean the transmitter contacts (not if you are restarting sensor) using rubbing alcohol.  Wait for it (10 seconds) to dry.  Snap the transmitter into the sensor.  If you are starting a new transmitter, snapping it into the sensor on your body is required to activate it.  
   
-8.  Monitor the G5/G6/G7 system status page. Every 5 minutes, a read cycle completes.  
+9.  Monitor the G5/G6/G7 system status page. Every 5 minutes, a read cycle completes.  
 If you don't have [proper connectivity](./Proper-connectivity.md), don't proceed before figuring out why. Perhaps, your settings are incorrect.  
 If you are starting a new transmitter, be patient and wait for the battery voltages to be populated before you proceed. It may take up to half an hour.  
   
-9.  Start sensor.  Enter the 4-digit calibration code from the sensor adhesive cover when asked. Keep the code. In 2 hours, your readings will start with no need for initial calibrations.
+10.  Start sensor.  Enter the 4-digit calibration code from the sensor adhesive cover when asked. Keep the code. In 2 hours, your readings will start with no need for initial calibrations.
   
 <br/>  
   
