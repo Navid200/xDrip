@@ -21,6 +21,7 @@ You will need the serial number of the transmitter, which is shown on the bottom
 ![G6TXandBox](./Dexcom/images/G6TXandBox.png)  
 The serial number of the transmitter shown above is 8QMMM9.  
 Take a note of your transmitter serial number.  You will need it possibly for the next 110 days.  
+<br/>  
   
 ![G6SerialWithDash1](./Dexcom/images/G6SerialWithDash1.png)  
 If you see -1 at the end of the serial number, use only the first six characters and omit -1.  The transmitter ID to enter for the transmitter shown above is 8KSKDK.  
@@ -57,7 +58,6 @@ The transmitter needs to be detached from your body for at least 10 minutes befo
 If there is bleeding, after inserting a new sensor, use Q-tips to absorb the blood.  Keep doing that, and don't allow any blood to get to the contacts, until bleeding stops.  
   
 6.  If you are starting a new transmitter, enter the new transmitter serial number (Transmitter ID): `Settings` &#8722;> `Dexcom Transmitter ID`.  
-If the serial number has -1 at the end, only enter the first six characters leaving out -1.  
   
 7.  Clean the transmitter contacts (not if you are restarting sensor) using rubbing alcohol.  Wait for it (10 seconds) to dry.  Snap the transmitter into the sensor.  If you are starting a new transmitter, snapping it into the sensor on your body is required to activate it.  
   
