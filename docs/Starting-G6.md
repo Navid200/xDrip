@@ -22,6 +22,9 @@ You will need the serial number of the transmitter, which is shown on the bottom
 The serial number of the transmitter shown above is 8QMMM9.  
 Take a note of your transmitter serial number.  You will need it possibly for the next 110 days.  
   
+![G6SerialWithDash1](./Dexcom/images/G6SerialWithDash1.png)  
+If you see -1 at the end of the serial number, use only the first six characters and omit -1.  The transmitter ID to enter for the transmitter shown above is 8KSKDK.  
+  
 <br/>  
   
 ---  
