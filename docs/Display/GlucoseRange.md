@@ -6,18 +6,18 @@ description: "Learn how to adjust the vertical glucose range on your xDrip graph
 # Glucose Y (vertical) axis
 [xDrip](../../) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Glucose axis  
   
-You can adjust the glucose range shown on screen as long as no readings fall outside that range.  If a reading exceeds the configured limits, depending on the setting explained below, the graph will automatically pan or temporarily expand the range to keep the latest readings visible.  
+You can adjust the glucose range shown on screen as long as no readings fall outside that range. If a reading exceeds the configured limits, depending on the setting explained below, the graph will automatically pan or temporarily expand the range to keep the latest readings visible.  
+  
+The Y-axis settings can be accessed at:  
+`Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Graph Settings` &#8722;> `Y-axis`  
+  
+![CustomizeYaxisRange](./images/CustomizeYaxisRange.png)  
 <br/>  
   
 ---  
   
-#### **How**  
-You can access this setting at:  
-`Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Graph Settings` &#8722;> `Y-axis`  
-  
-![CustomizeYaxisRange](./images/CustomizeYaxisRange.png)    
-  
-When "Customize Y-axis range" is enabled, two additional settings on the same page become available, allowing you to adjust Minimum and Maximum limits.  
+#### **Customize the range**  
+When "Customize Y-axis range" is enabled, two additional settings on the same page become available, allowing you to adjust minimum and maximum limits.  
 Changes take effect immediately on the graph.  
   
 If you later disable the feature, the graph returns to the default range, but your custom values are not erased. Re-enabling the feature restores the previously selected settings.  
@@ -38,5 +38,5 @@ Be careful not to overlook variations if the range expands due to very high read
 ---  
   
 #### **Auto-pan**
-You can enable Auto-pan to avoid range expansion when high readings occur. Instead, auto-pan shifts the view to keep high readings visible. This preserves the visual appearance of variations as they appeared before.  
+You can enable Auto-pan, on the same page, to avoid range expansion when high readings occur. Instead, auto-pan shifts the view to keep high readings visible. This preserves the visual appearance of variations as they appeared before.  
   
