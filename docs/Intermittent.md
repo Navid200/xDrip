@@ -19,9 +19,9 @@ xDrip scans every five minutes to maintain connectivity and provide consistent r
   
 If occasional disconnects continue, try the following adjustments one at a time:  
   
-* Enable "Special Pairing Workaround"—this may help even if you are not using a Samsung device.
+* Enable `Special Pairing Workaround`—this may help even if you are not using a Samsung device.
   
-* Try disabling `Minimize Scanning'.  
+* Try disabling `Minimize Scanning`.  
   
 * For Samsung devices, try enabling `Trust Auto-Connect` on the [Bluetooth settings page](./images/ble-recommended-stngs.png).  
     
