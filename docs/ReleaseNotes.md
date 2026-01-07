@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2026.01.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.07) | Companion app IoB improvements |  
 | [2026.01.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.04) | CareLink - Dex - Pebble maintenance improvements |  
 | [2026.01.03 b](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.03b) | CareLink fix |  
 | [2026.01.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.03) | Y axis auto pan option |  
