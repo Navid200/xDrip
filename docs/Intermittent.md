@@ -17,11 +17,9 @@ xDrip scans every five minutes to maintain connectivity and provide consistent r
 3. Check for similar settings for your phone brand: [https://dontkillmyapp.com/xiaomi](https://dontkillmyapp.com/xiaomi).  
 <br/>  
   
-If occasional disconnects continue, try the following adjustments:  
+If occasional disconnects continue, try the following adjustments one at a time:  
   
 * Enable "Special Pairing Workaround"—this may help even if you are not using a Samsung device.  
-  
-* If disconnections persist, try enabling `Avoid Scanning`.  
   
 * For Samsung devices, try enabling `Trust Auto-Connect` on the [Bluetooth settings page](./images/ble-recommended-stngs.png).  
     
