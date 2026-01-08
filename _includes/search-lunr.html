@@ -57,6 +57,7 @@ if(res_l>40) {res_l=40}
                 var ref = results[i]['ref'];
                 var url = documents[ref]['url'];
                 var title = documents[ref]['title'];
+                if (!title) continue;
                 var body = documents[ref]['body'].substring(0,160)+'...';
                 document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML = document.querySelectorAll('#lunrsearchresults ul')[0].innerHTML + "<li class='lunrsearchresult'><a href='" + url + "'> <span class='title'>" + title + "</span></small></a></li>";
             }
