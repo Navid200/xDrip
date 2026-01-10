@@ -8,7 +8,7 @@ description: "Troubleshoot and resolve intermittent Bluetooth disconnections in 
   
 If you have no connectivity at all, [G6 troubleshooting](./Connectivity-troubleshoot.md) or [G7 troubleshooting](./Dexcom/G7_Troubleshooting.md) may help. This page is intended for cases where you experience intermittent disconnections despite having connectivity and readings.  
   
-xDrip scans every five minutes to maintain connectivity and provide consistent readings.  While not actively scanning, it runs in the background to conserve battery life.  Newer versions of Android incorporate features to extend battery life by reducing background activity, and phone manufacturers often implement additional power-saving methods.  Unfortunately, these behaviors can interfere with xDrip’s operation.  As a result, initial connectivity issues are common when installing xDrip on Android 10 or newer.  
+xDrip scans every five minutes to maintain connectivity and provide consistent readings.  While not actively scanning, it runs in the background to conserve battery life.  Newer versions of Android incorporate features to extend battery life by reducing background activity, and phone manufacturers often implement additional power-saving methods.  Unfortunately, these behaviors can interfere with xDrip’s operation.  As a result, initial connectivity issues are common when installing xDrip on Android 11 or newer.  
   
 1. Ensure you are using at least the current stable release—[update](./Updates.md) if necessary.  
   
