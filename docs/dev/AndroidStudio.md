@@ -7,10 +7,15 @@ We are currently using Android Studio Giraffe.
 Go to [archives](https://developer.android.com/studio/archive)  
 Agree to the terms.  
 Choose: Android Studio Giraffe | 2022.3.1 Patch 3 November 7, 2023.  
-Download the installer depending on your operating system.   
+Download the installer depending on your operating system.  
+<br/>  
+  
+Never upgrade Gradle when Android Studio recommends it.  
+<br/>  
   
 #### **JDK**  
 Leave the setting alone.  The default version (jbr-17) is OK.  
+<br/>  
 
 #### **Lombok plugin**  
 Download the plugin from the xDrip repository [here](https://github.com/NightscoutFoundation/xDrip/blob/master/etc/Lombok/lombok-giraffe.jar).  
