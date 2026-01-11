@@ -46,11 +46,13 @@ Tap on "Restart Collector" on the classic status page.
 <br/>  
   
 7- Resolve "Deep Sleeping Errors," "Checking Auth Errors," "Scanning Errors," or "Initializing Errors" on the Dex status page.  
+- Take a note of the 4-digit transmitter ID from Settings.  
+- Change the last digit of the transmitter ID to a different number.  
 - [Disable collection in xDrip](../Stop-xDrip.md).  
 - If you use a pump or Dexcom receiver or watch that connects directly to G7, temporarily disable them.  
 - Wait 15 minutes for G7 to enter rapid reconnect mode.  
 - Delete any devices whose names start with DXCM, DX01, or DX02 from the list of connected or previously connected Bluetooth devices.  
-- Re-enable the xDrip Dex Collector by selecting Dex as the hardware data source.  
+- Re-enable the xDrip Dex Collector by selecting Dex as the hardware data source, then restore the correct transmitter ID from your note.  
 - Go to the Dex status page, wait up to a minute for a pairing request, and approve it.  If you don't get a pair request, restart the phone.  
 - Once the connection is established and you have received three consecutive readings, you can re-enable your pump, receiver or watch to connect directly again.  
 <br/>  
