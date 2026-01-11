@@ -69,3 +69,5 @@ Tap on "Restart Collector" on the classic status page.
   
 If you receive readings but experience random disconnections, please refer to this [link](../Intermittent.md) for further guidance on stabilizing the connection.  
   
+
+  
