@@ -1,7 +1,11 @@
+---
+title: "Android Studio Setup for xDrip Development"
+description: "Learn how to set up Android Studio for xDrip development, including the correct Android Studio version, Gradle upgrade warnings, JDK settings, and installing the Lombok plugin."
+---
+
+
 ## Android Studio  
 [xDrip](../../) >> [Development](./dev.md) >> Android Studio  
-  
-[Reference](https://github.com/NightscoutFoundation/xDrip/blob/master/Documentation/Quick_Start.md)  
   
 We are currently using Android Studio Giraffe.  
 Go to [archives](https://developer.android.com/studio/archive)  
