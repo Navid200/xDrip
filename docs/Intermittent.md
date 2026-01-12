@@ -17,6 +17,8 @@ xDrip scans every five minutes to maintain connectivity and provide consistent r
 3. Check for similar settings for your phone brand: [https://dontkillmyapp.com/xiaomi](https://dontkillmyapp.com/xiaomi).  
 <br/>
   
+---  
+  
 #### **Pixel**  
 If you use a Pixel phone, disabling battery optimization requires more than enabling “Allow background usage.”  
 You must tap the note shown in the image below and select “Unrestricted.”  
@@ -24,9 +26,19 @@ You must tap the note shown in the image below and select “Unrestricted.”
   
 <br/>  
   
+---  
+  
 #### **Xiaomi**
 If you use a Xiaomi phone, you may need to disable battery optimization after every reboot, as the phone may re-enable it automatically.  
 <br/>  
+  
+---  
+  
+#### **Unihertz**
+If you use a Unihertz phone, go to `Android Settings` -> `Smart Assist` -> `Power Save Manager` and tick xDrip on the whitelist.  
+<br/>  
+  
+---  
   
 If occasional disconnects continue, try the following adjustments one at a time:  
   
