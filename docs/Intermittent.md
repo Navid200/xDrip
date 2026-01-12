@@ -15,6 +15,12 @@ xDrip scans every five minutes to maintain connectivity and provide consistent r
 2. Start with the [recommended settings](./G6-Recommended-Settings.md).  
   
 3. Check for similar settings for your phone brand: [https://dontkillmyapp.com/xiaomi](https://dontkillmyapp.com/xiaomi).  
+<br/>
+  
+#### **Pixel**  
+If you use a Pixel phone, disabling battery optimization requires more than enabling “Allow background usage.”  
+You must tap the note shown in the image below and select “Unrestricted.”  
+![](./Dexcom/images/PixelBatteryOprimization.png)  
 <br/>  
   
 If occasional disconnects continue, try the following adjustments one at a time:  
