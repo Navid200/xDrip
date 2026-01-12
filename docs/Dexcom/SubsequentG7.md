@@ -33,7 +33,7 @@ When your current sensor stops working (after its 10.5-day period ends or earlie
   
 ---  
   
-#### **Overlapping Sensors**  
+#### **Overlapping Sensors more than 12 hours**  
 You don’t have to wait until your current sensor reaches day 10 to insert a new one. If needed, you can start your next sensor while your current sensor still has a few days remaining.  
 Keep in mind:  
 - If the overlap between two sensors is 12 hours, 10 sensors will last 100.5 days.
