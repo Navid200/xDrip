@@ -23,6 +23,10 @@ You must tap the note shown in the image below and select “Unrestricted.”
 ![](./Dexcom/images/PixelBatteryOprimization.png)  
 <br/>  
   
+#### **Xiaomi**
+If you use a Xiaomi phone, you may need to disable battery optimization after every reboot, as the phone may re-enable it automatically.  
+<br/>  
+  
 If occasional disconnects continue, try the following adjustments one at a time:  
   
 * Enable `Special Pairing Workaround`—this may help even if you are not using a Samsung device.
