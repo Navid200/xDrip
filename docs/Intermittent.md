@@ -21,6 +21,7 @@ xDrip scans every five minutes to maintain connectivity and provide consistent r
 If you use a Pixel phone, disabling battery optimization requires more than enabling “Allow background usage.”  
 You must tap the note shown in the image below and select “Unrestricted.”  
 ![](./Dexcom/images/PixelBatteryOprimization.png)  
+  
 <br/>  
   
 #### **Xiaomi**
