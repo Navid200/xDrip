@@ -40,6 +40,12 @@ If you use a Unihertz phone, go to `Android Settings` -> `Smart Assist` -> `Powe
   
 ---  
   
+#### **Cubot**
+If you use a Cubot phone, such as the KingKong Mini, look for the included DuraSpeed app. Open it and remove xDrip from its power-saving restrictions.  
+<br/>  
+  
+---  
+  
 If occasional disconnects continue, try the following adjustments one at a time:  
   
 * Enable `Special Pairing Workaround`—this may help even if you are not using a Samsung device.
