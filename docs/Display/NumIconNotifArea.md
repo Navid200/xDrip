@@ -13,4 +13,10 @@ To enable this feature, navigate to:
 After restarting your phone, the glucose reading should appear in the notification area, as shown below.   
 ![NumIconNotArea](./images/NumIconNotArea.png)  
   
+---  
+  
+#### **Hidden setting**
+Make sure the following Android setting is disabled:  
+
+Android Settings > Notifications > Hide silent notifications in status bar  
   
