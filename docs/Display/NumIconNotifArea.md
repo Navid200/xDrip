@@ -12,6 +12,7 @@ To enable this feature, navigate to:
   
 After restarting your phone, the glucose reading should appear in the notification area, as shown below.   
 ![NumIconNotArea](./images/NumIconNotArea.png)  
+<br/>  
   
 ---  
   
