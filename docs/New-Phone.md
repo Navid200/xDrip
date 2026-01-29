@@ -1,14 +1,14 @@
 ---
-title: "xDrip: Transfer to a New Phone Safely"
+title: "xDrip: Transfer to a New Phone"
 description: "Learn how to back up and restore your xDrip data when switching to a new phone—avoid data loss by restoring the database before collecting any new readings."
 ---
   
 # Transfer to a new phone  
 [xDrip](../) >> [Download & Installation](./Installation_page.md) >> Transfer to a new phone  
   
-Be very careful. xDrip cannot import a database; it can only restore one. This means that when restoring a database, xDrip will replace the existing one, effectively deleting all current data and replacing it with the restored database.   
+xDrip cannot import a database; it can only restore one. This means that when restoring a database, xDrip will replace the existing one, effectively deleting all current data and replacing it with the restored database.   
   
-To avoid data loss, restore the database on the new phone **before** setting it up as a collector. If you start collecting data on the new phone before restoring the database, any newly collected data will be **overwritten** when you perform the restoration.   
+To avoid data loss, restore the database on the new phone **before** setting it up as a collector. If you start collecting data on the new phone before restoring the database, any newly collected data will be **overwritten** when you perform the restoration.  
   
 **Steps to Transfer:**  
 1. Create a [backup](./Backup-Database.md) on the old phone.  
