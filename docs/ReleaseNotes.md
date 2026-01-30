@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2026.01.30](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.30) | Glucose colors on lock screen - Hard reset improvements - Auto pan default - Instinct |  
 | [2026.01.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.25) | Extended widget option - SmartGuide maintenance improvement |  
 | [2026.01.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.18) | New G7 firmware |  
 | [2026.01.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.09) | Pen insulin Nightscout upload fix - alternate decimal separators |  
