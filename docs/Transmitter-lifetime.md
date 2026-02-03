@@ -1,16 +1,26 @@
+---
+title: "Dexcom Transmitter Lifetime"
+description: "Learn how xDrip tracks Dexcom transmitter lifetime, what Transmitter Days mean, and when you can start or restart a sensor."
+layout: ""
+---  
+  
 # Transmitter Lifetime
 [xDrip](../) >> [Features](./Features_page.md) >> [Dexcom](./Dexcom_page.md) >> Transmitter Lifetime  
   Transmitter Days  
   
-You can hard reset an old G6 if its firmware is 1.6.5.25 or older.  
+Only start the transmitter counter if you intend to use the transmitter. The counter begins as soon as the transmitter is inserted into a sensor. It can even start if you hold the transmitter in your hand while touching the contacts for an extended period.  
+For this reason, it is best to keep the transmitter in its box until you are ready to start using it.  
   
-You cannot hard reset the other G6 or Dexcom One transmitters.  So, only start the counter if you intend to use the transmitter.  The counter starts counting as soon as you insert the transmitter in a sensor.   It could even start if you hold the trasnsmitter in your hand touching the contacts for a while.  So, it's best to keep the transmitter in the box until you intend to start using it.  
+The last day you can start (or restart) a sensor on a transmitter is when the System Status page shows 99 for transmitter days.  
+The transmitter days color on the Status page is important:  
+- When you first start using a transmitter, no color is shown.  
+- The value turns brown when there are 30 days remaining before the last day you can start a sensor.  
+- The value turns red when you can no longer start a new sensor.  However, if you already have a session in progress, it will continue to run even though the value is red.  
   
-The last day you can start (or restart) a sensor on a transmitter is when the system status page shows 99 for "Transmitter Days" as shown in the following image.  
+The image below shows Transmitter Days at 99 with the warning color applied.  
 ![G6TX_LastsDay](./images/G6TX_LastsDay.png)  
   
-After you successfully start a sensor, it will work for 10 days as shown in the following image.  
+The image below shows Transmitter Days at 109 in red, indicating that you can no longer start a new sensor.  
 ![G6TX_LastsDay10](./images/G6TX_LastsDay10.png)  
   
-Hard resetting a transmitter does nothing to the battery.  If the battery is dying, you will need to replace the battery.  
   
