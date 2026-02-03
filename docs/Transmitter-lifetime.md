@@ -1,7 +1,6 @@
----
-title: "Dexcom Transmitter Lifetime"
-description: "Learn how xDrip tracks Dexcom transmitter lifetime, what Transmitter Days mean, and when you can start or restart a sensor."
-layout: ""
+---  
+title: "Dexcom Transmitter Lifetime"  
+description: "Learn how xDrip tracks Dexcom transmitter lifetime, what Transmitter Days mean, and when you can start or restart a sensor."  
 ---  
   
 # Transmitter Lifetime
