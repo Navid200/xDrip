@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2026.03.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.01) | NightLite |  
 | [2026.02.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.02.25) | 640G 1-minute fix - reread TX |  
 | [2026.02.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.02.18) | Data retention default - BLE manager - 640G/Eversense 1-minute interval 👎|  
 | [2026.02.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.02.13) | New languages - update dialog - Bluetooth improvements |  
