@@ -2,22 +2,18 @@ name: Convert branch to test release
 
 on:
   workflow_dispatch:
-
 jobs:
   convert:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout branch
         uses: actions/checkout@v4
         with:
           ref: ${{ github.ref }}
-
       - name: Modify files for test release
         run: |
           # Change package name in google-services.json
           sed -i 's/com.eveningoutpost.dexdrip/com.eveningoutpost.dexdrip.test/g' app/google-services.json
-
       - name: Commit changes
         run: |
           git config user.name "github-actions"
