@@ -46,3 +46,5 @@ If you experience disconnections, refer to the troubleshooting guide correspondi
 [G6/One](./Connectivity-troubleshoot.md)  
 [G7/One+/Stelo](./Dexcom/G7_Troubleshooting.md)  
   
+
+  
