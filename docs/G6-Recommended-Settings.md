@@ -34,6 +34,10 @@ For optimal performance with xDrip and Dexcom devices, follow these recommended 
 **For G7/One+/Stelo**  
 Use Settings > Auto configure to scan the following QR code.  This is a one-time setup to enable xDrip to collect data from G7; it does not need to be repeated for each sensor.  
 ![](./Dexcom/images/G7_keks_QR.png)  
+  
+You should see this prompt:  
+![keks_QR_confirm](./Dexcom/images/keks_QR_confirm.png)  
+Approve it.  
 <br/>  
   
 ---  
