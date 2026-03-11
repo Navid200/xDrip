@@ -11,7 +11,7 @@
 #"Need permission to access audio files"
 #"Need contacts permission to select message recipients"
 #"Need storage permission to access all ringtones"
-#"xDrip+ needs whitelisting for proper performance"
+#"xDrip needs whitelisting for proper performance"
 
 #"Backup detected"
 #It looks like you maybe have a settings backup, shall we try to restore it?
@@ -72,7 +72,7 @@
 #"Running test with number: 123"
 #"Unusual internal context problem - please report"
 #"Cannot start - please report context problem"
-#"xDrip+ will not work below Android version 4.2"
+#"xDrip will not work below Android version 4.2"
 #"This app needs battery optimization whitelisting or it will not work well. Please reset app preferences"
 #"Setting disabled :)"
 #"YES, Please"

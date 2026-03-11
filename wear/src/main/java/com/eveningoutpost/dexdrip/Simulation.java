@@ -29,7 +29,7 @@ import java.util.Locale;
 
 import static com.eveningoutpost.dexdrip.ListenerService.SendData;
 
-// xDrip+ spoken treatments jamorham
+// xDrip spoken treatments jamorham
 
 public class Simulation extends Activity {
 

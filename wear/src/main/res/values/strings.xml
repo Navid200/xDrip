@@ -235,7 +235,7 @@
     <string name="title_use_black_divider">Match Divider</string>
     <string name="summary_has_demigod_mode">Running on a patched rom giving us full control</string>
     <string name="title_has_demigod_mode">DemiGod Mode</string>
-    <string name="xdrip_scanning_nfc">xDrip+ Scanning NFC</string>
+    <string name="xdrip_scanning_nfc">xDrip Scanning NFC</string>
     <string name="still_processing_previous_backfill_request">Still processing previous back-fill request!</string>
     <string name="please_wait">Please wait..</string>
     <string name="didnt_find_any_glucose_readings_in_that_time_period">Didn\'t find any glucose readings in that time period</string>
@@ -270,6 +270,6 @@
     <string name="ob1_session_restarted_title">Sensor session restarted</string>
     <string name="ob1_session_restarted_msg">The sensor session was preemptively restarted and set to 3 days, please check if next readings are off and calibrate if needed</string>
     <string name="ob1_session_restarted_note">Transmitter session was restarted</string>
-    <string name="xdrip_oop2_not_installed">xDrip+ needs OOP2 to handle Libre2/LibreUS sensors.</string>
+    <string name="xdrip_oop2_not_installed">xDrip needs OOP2 to handle Libre2/LibreUS sensors.</string>
     <string name="please_update_OOP2_or_move_to_calibrate_based_on_raw_mode">please update OOP2 or move to calibrate based on raw mode</string>
 </resources>
