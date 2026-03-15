@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2026.03.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.15b) | Android 16 chip notification |  
 | [2026.03.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.06) | WearOS auto update switch - QR scan fix - Libre sensor identification |  
 | [2026.03.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.01) | NightLite - Libre sensor identification |  
 | [2026.02.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.02.25) | 640G 1-minute fix - reread TX |  
