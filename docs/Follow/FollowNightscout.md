@@ -23,7 +23,14 @@ Go to `Settings` &#8722;> `Nightscout Follow URL` and enter the Nightscout Follo
 <br/>  
   
 ---  
-
+  
+#### **Configure sample period**   
+If data is uploaded to Nightscout once a minute, your follower will receive all readings. However, by default, readings are updated only once every 5 minutes.  
+You can change this to one-minute updates by setting "Sample period" to 1 min.  When enabled, the xDrip follower checks for new readings every minute. This may increase power consumption, so use this setting only if necessary.  
+<br/>  
+  
+---  
+  
 #### **Configure Wake Delay**  
 As a Nightscout Follower, xDrip will attempt to read data from Nightscout twice.  If it cannot retrieve a new reading after two attempts, it will assume the master device is disconnected and go to sleep to conserve battery and data.  
 Delays in the master device uploading data to Nightscout may cause failed attempts.  
@@ -46,12 +53,5 @@ Your follower will still receive all readings, but there might be a delay of up 
   
 **Best setting for delay**  
 Most users can keep the default setting of 0.  If you notice delays, experiment with different values to find the smallest value that eliminates the red delay indicator.  
-<br/>  
-  
----  
-  
-#### **Configure sample period**   
-If data is uploaded to Nightscout once a minute, your follower will receive all readings. However, by default, readings are updated only once every 5 minutes.  
-You can change this to one-minute updates by setting "Sample period" to 1 min.  When enabled, the xDrip follower checks for new readings every minute. This may increase power consumption, so use this setting only if necessary.  
   
   
