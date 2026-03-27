@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2026.03.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.27) | Dex improvements |  
 | [2026.03.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.25) | New G7 firmware - 1min NS follower - new tests |  
 | [2026.03.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.19) | Maintenance improvements |  
 | [2026.03.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.15b) | Android 16 chip notification |  
