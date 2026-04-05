@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2026.04.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.04.05) | Dexcom TX ID helper |  
 | [2026.04.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.04.01) | Maintenance improvements |  
 | [2026.03.27](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.27) | Dex improvements |  
 | [2026.03.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.25) | New G7 firmware - 1min NS follower - new tests |  
