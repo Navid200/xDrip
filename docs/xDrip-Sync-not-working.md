@@ -18,7 +18,7 @@ Ensure `Disable all sync features` is disabled (no check mark beside it) on the 
   
 ---  
   
-Ensure `Hanset Group Security Sync Key` on the master matches the one on the followers.  
+Ensure `Handset Group Security Sync Key` on the master matches the one on the followers.  
 <br/>  
   
 ---  
