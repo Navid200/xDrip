@@ -11,14 +11,6 @@ The following image provides an example:
 ![RapidReconnect2](./images/RapidReconnect2.png).  
 <br/>  
   
-As soon as a handshake occurs, the G7 stops the additional transmissions. However, xDrip cannot distinguish between the original once-every-5-minute reading and the additional transmissions. As a result, xDrip may pair and handshake with one of the additional transmissions. The issue with this scenario is that when xDrip wakes up 5 minutes later, no G7 transmission will occur, as illustrated in the next figure.  
-![RapidReconnect3](./images/RapidReconnect3.png)  
-<br/>  
-  
-To expedite connectivity, follow these steps:  
-1- Monitor the Dex status page after approving the pairing request and check for a "Connect request" note or an indication that xDrip is scanning.  
-2- If neither appears, navigate to the classic status page and tap `Restart Collector` to trigger scanning.  
-3- Return to the Dex status page and wait until the red “Hunting Transmitter” note disappears.  
-  
-Once the red note is gone, you can leave the Dex status page. Connectivity should now be successfully established.  
+As soon as a handshake occurs, the G7 stops the additional transmissions.  xDrip gets the timestamp from the reading.  The timestamp corresponds to the once every 5 minute sequence. As a result, when xDrip pairs and handshakes with one of the additional transmissions, it wakes up correctly for the next once every 5 minute sequence, as illustrated in the next figure.  
+![RapidReconnect3](./images/RapidReconnect3.png)    
   
