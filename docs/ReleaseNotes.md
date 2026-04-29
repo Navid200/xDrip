@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2026.04.29](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.04.29) | Get only latest readings from Contour Next meter instead of all |  
 | [2026.04.22](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.04.22) | Maintenance improvements |  
 | [2026.04.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.04.05b) | Dexcom TX ID helper |  
 | [2026.04.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.04.01) | Maintenance improvements |  
