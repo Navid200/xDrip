@@ -19,11 +19,11 @@ After enabling engineering mode, enter "enable fake data source" as a [voice com
 #### **Tweaks**  
 You can control the fake data source as summarized in the following table.  
 
-| Command | Effect | On-screen note |  
-| ----------- | ------ | ------------------ |  
-| Enable fake data source | def f and def Amp | Using fake data source!!! |  
-| Speed up fake data source | f = 3.3 X def f | Using fake data source!!! F |  
-| Amplify fake data source | Amp = 3.3 X def Amp | Using fake data source!!! Amp |  
-| Fake data source one minute  | One reading every minute | Using fake data source!!! |    
+| Command | Effect | On-screen note | Notes |  
+| ----------- | ------ | ------------------ | ---- |  
+| Enable fake data source | def f and def Amp | Using fake data source!!! | |  
+| Speed up fake data source | f = 3.3 X def f | Using fake data source!!! F | Must be enabled first |  
+| Amplify fake data source | Amp = 3.3 X def Amp | Using fake data source!!! Amp | Must be enabled first |  
+| Fake data source one minute  | One reading every minute | Using fake data source!!! | Must be enabled first |  
   
   
