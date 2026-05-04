@@ -12,18 +12,21 @@ description: "Fix xDrip sync issues by ensuring 'Use xDrip Cloud' is enabled and
   
 ---  
   
-Ensure `Disable all sync features` is disabled (no check mark beside it) on the master and followers.  
+Ensure `Disable all sync features` is unchecked (disabled) on both the master and all follower devices.  
 ![DisableAllSyncFeatures](./images/DisableAllSyncFeatures.png)  
 <br/>  
   
 ---  
   
-Ensure `Handset Group Security Sync Key` on the master matches the one on the followers.  
+Tap on `Handset Group Security Sync Key` to reveal the security key.  
+![xDripSyncKey](./Follow/images/xDripSyncKey.png)  
+  
+Keep this key private.  Ensure the key on the master matches the key on the follower(s) exactly.  If they do not match, edit one to match the other.  
 <br/>  
   
 ---  
   
-The setting `Use xDrip Cloud` should be enabled on both the master and all follower devices.  
+The `Use xDrip Cloud` setting should be enabled on both the master and all follower devices.  
 If you experience disconnects, try disabling this setting on both the master and followers, then [report the problem](./Contact.md).  
 <br>  
   
