@@ -316,6 +316,7 @@ public class Notifications extends IntentService {
         final long start = end - (60000 * 60 * 3) - (60000 * 10);
         BgGraphBuilder bgGraphBuilder = new BgGraphBuilder(context, start, end);
         //BgGraphBuilder bgGraphBuilder = new BgGraphBuilder(context);
+        final boolean snoozedBefore = bg_ongoing && ActiveBgAlert.currentlySnoozed();
         if (bg_ongoing) {
             bgOngoingNotification(bgGraphBuilder);
         }
@@ -323,7 +324,7 @@ public class Notifications extends IntentService {
             Log.d("NOTIFICATIONS", "Notifications are currently disabled!!");
             return false;
         }
-        
+
         boolean unclearReading = BgReading.getAndRaiseUnclearReading(context);
 
         boolean forced_wear = Home.get_forced_wear();
@@ -343,6 +344,10 @@ public class Notifications extends IntentService {
         evaluateLowPredictionAlarm();
         reportNoiseChanges();
 
+        // Rebuild ongoing notification if snooze status changed during alert evaluation
+        if (bg_ongoing && snoozedBefore != ActiveBgAlert.currentlySnoozed()) {
+            bgOngoingNotification(bgGraphBuilder);
+        }
 
         Sensor sensor = Sensor.currentSensor();
         // TODO need to check performance of rest of this method when in follower mode
@@ -664,7 +669,8 @@ public class Notifications extends IntentService {
                 final SpannableString deltaString = new SpannableString("Delta: " + ((dg != null) ? (dg.spannableString(dg.unitized_delta + (dg.from_plugin ? " " + context.getString(R.string.p_in_circle) : "")))
                         : bgGraphBuilder.unitizedDeltaString(true, true)));
 
-                b.setContentText(deltaString);
+                final String summaryString = deltaString + buildSnoozeLine(context);
+                b.setContentText(summaryString);
 
                 notifiationBitmap = new BgSparklineBuilder(mContext)
                         .setBgGraphBuilder(bgGraphBuilder)
@@ -690,12 +696,12 @@ public class Notifications extends IntentService {
                 RemoteViews collapsedViews = new RemoteViews(context.getPackageName(), R.layout.notification_bg_collapsed);
                 collapsedViews.setImageViewBitmap(R.id.notification_image, iconBitmap);
                 collapsedViews.setTextViewText(R.id.notification_title, titleString);
-                collapsedViews.setTextViewText(R.id.notification_summary, deltaString);
+                collapsedViews.setTextViewText(R.id.notification_summary, summaryString);
 
                 RemoteViews expandedViews = new RemoteViews(context.getPackageName(), R.layout.notification_bg_expanded);
                 expandedViews.setImageViewBitmap(R.id.notification_image, notifiationBitmap);
                 expandedViews.setTextViewText(R.id.notification_title, titleString);
-                expandedViews.setTextViewText(R.id.notification_summary, deltaString);
+                expandedViews.setTextViewText(R.id.notification_summary, summaryString);
 
                 b.setStyle(customViewStyle)
                         .setCustomContentView(collapsedViews)
@@ -722,13 +728,33 @@ public class Notifications extends IntentService {
             extras.putString("android.shortCriticalText", critical.replace("\u2192"+"\uFE0E","›"));
             b.addExtras(extras);
             b.setContentTitle(titleString);
-            b.setStyle(new Notification.BigTextStyle().bigText(deltaString));
+            b.setStyle(new Notification.BigTextStyle().bigText(deltaString + buildSnoozeLine(context)));
             b.setCustomContentView(null);
             b.setCustomBigContentView(null);
         }
 
         // strips channel ID if disabled
         return XdripNotification.build(b);
+    }
+
+    private String buildSnoozeLine(final Context context) {
+        final ActiveBgAlert aba = ActiveBgAlert.getOnly();
+        if (aba == null || !aba.is_snoozed) return "";
+        final AlertType alertType = ActiveBgAlert.alertTypegetOnly();
+        if (alertType == null) return "";
+        final BgReading bgReading = BgReading.last();
+        if (bgReading != null && JoH.msSince(bgReading.timestamp) < 15 * 60 * 1000) {
+            final double bg = bgReading.calculated_value;
+            if (alertType.above && bg < alertType.threshold) return "";
+            if (!alertType.above) {
+                final double offset = ActivityRecognizedService.raise_limit_due_to_vehicle_mode()
+                        ? ActivityRecognizedService.getVehicle_mode_adjust_mgdl() : 0;
+                if (bg > alertType.threshold + offset) return "";
+            }
+        }
+        final String time = new java.text.SimpleDateFormat("HH:mm", java.util.Locale.getDefault())
+                .format(new java.util.Date(aba.next_alert_at));
+        return "\n" + String.format(context.getString(R.string.notification_alert_snoozed_until), alertType.name, time);
     }
 
     private synchronized void bgOngoingNotification(final BgGraphBuilder bgGraphBuilder) {

@@ -202,6 +202,12 @@ import lombok.val;
 public class Home extends ActivityWithMenu implements ActivityCompat.OnRequestPermissionsResultCallback {
     private final static String TAG = "jamorham " + Home.class.getSimpleName();
     private final static boolean d = false;
+    private static final long VOLUME_BUTTON_DOUBLE_PRESS_WINDOW_MS = 1500;
+    private long volumeDownFirstPressTime = 0;
+    private long volumeUpFirstPressTime = 0;
+    private long volumeMuteFirstPressTime = 0;
+    private String volumeDownFirstPressUuid = null;
+    private String volumeUpFirstPressUuid = null;
     private static final int MAX_INSULIN_PROFILES = 3;
     public final int maxInsulinProfiles = MultipleInsulins.isEnabled() ? MAX_INSULIN_PROFILES : 0;
     public final static String START_SPEECH_RECOGNITION = "START_APP_SPEECH_RECOGNITION";
@@ -3644,15 +3650,93 @@ public class Home extends ActivityWithMenu implements ActivityCompat.OnRequestPe
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         switch (event.getKeyCode()) {
             case KeyEvent.KEYCODE_VOLUME_DOWN:
+                if (Pref.getBooleanDefaultFalse("buttons_silence_alert")) {
+                    final ActiveBgAlert abaDown = ActiveBgAlert.getOnly();
+                    if (abaDown != null && abaDown.is_snoozed && ActiveBgAlert.alertTypegetOnly() == null) {
+                        ActiveBgAlert.ClearData();
+                        SnoozeActivity.recheckAlerts();
+                        if (d) UserError.Log.d(TAG, "Cleared orphaned ActiveBgAlert (no AlertType)");
+                        break;
+                    }
+                    if (abaDown != null) {
+                        final long now = System.currentTimeMillis();
+                        if (now - volumeDownFirstPressTime <= VOLUME_BUTTON_DOUBLE_PRESS_WINDOW_MS
+                                && abaDown.alert_uuid.equals(volumeDownFirstPressUuid)) {
+                            volumeDownFirstPressTime = 0;
+                            volumeDownFirstPressUuid = null;
+                            AlertPlayer.getPlayer().Snooze(xdrip.getAppContext(), -1);
+                            SnoozeActivity.recheckAlerts();
+                            JoH.static_toast_long(getString(R.string.snoozing_due_volume_down_button_press));
+                            UserError.Log.ueh(TAG, "Snoozing alert due to double volume DOWN button press");
+                        } else {
+                            volumeDownFirstPressTime = now;
+                            volumeDownFirstPressUuid = abaDown.alert_uuid;
+                            JoH.static_toast_long(getString(R.string.volume_down_confirm_snooze));
+                        }
+                        return true;
+                    } else {
+                        volumeDownFirstPressTime = 0;
+                        volumeDownFirstPressUuid = null;
+                        volumeUpFirstPressTime = 0;
+                        volumeUpFirstPressUuid = null;
+                        if (d) UserError.Log.d(TAG, "no active alert to snooze");
+                    }
+                } else {
+                    if (d) UserError.Log.d(TAG, "No action as preference is disabled");
+                }
+                break;
             case KeyEvent.KEYCODE_VOLUME_UP:
+                if (Pref.getBooleanDefaultFalse("buttons_silence_alert")) {
+                    final ActiveBgAlert abaUp = ActiveBgAlert.getOnly();
+                    if (abaUp != null && abaUp.is_snoozed && ActiveBgAlert.alertTypegetOnly() == null) {
+                        ActiveBgAlert.ClearData();
+                        SnoozeActivity.recheckAlerts();
+                        if (d) UserError.Log.d(TAG, "Cleared orphaned ActiveBgAlert (no AlertType)");
+                        break;
+                    }
+                    if (abaUp != null) {
+                        final long now = System.currentTimeMillis();
+                        if (now - volumeUpFirstPressTime <= VOLUME_BUTTON_DOUBLE_PRESS_WINDOW_MS
+                                && abaUp.alert_uuid.equals(volumeUpFirstPressUuid)) {
+                            volumeUpFirstPressTime = 0;
+                            volumeUpFirstPressUuid = null;
+                            AlertPlayer.getPlayer().Snooze(xdrip.getAppContext(), -1);
+                            SnoozeActivity.recheckAlerts();
+                            JoH.static_toast_long(getString(R.string.snoozing_due_volume_up_button_press));
+                            UserError.Log.ueh(TAG, "Snoozing alert due to double volume UP button press");
+                        } else {
+                            volumeUpFirstPressTime = now;
+                            volumeUpFirstPressUuid = abaUp.alert_uuid;
+                            JoH.static_toast_long(getString(R.string.volume_up_confirm_snooze));
+                        }
+                        return true;
+                    } else {
+                        volumeDownFirstPressTime = 0;
+                        volumeDownFirstPressUuid = null;
+                        volumeUpFirstPressTime = 0;
+                        volumeUpFirstPressUuid = null;
+                        if (d) UserError.Log.d(TAG, "no active alert to snooze");
+                    }
+                } else {
+                    if (d) UserError.Log.d(TAG, "No action as preference is disabled");
+                }
+                break;
             case KeyEvent.KEYCODE_VOLUME_MUTE:
                 if (JoH.quietratelimit("button-press", 5)) {
                     if (Pref.getBooleanDefaultFalse("buttons_silence_alert")) {
                         final ActiveBgAlert activeBgAlert = ActiveBgAlert.getOnly();
+                        if (activeBgAlert != null && activeBgAlert.is_snoozed && ActiveBgAlert.alertTypegetOnly() == null) {
+                            ActiveBgAlert.ClearData();
+                            SnoozeActivity.recheckAlerts();
+                            if (d) UserError.Log.d(TAG, "Cleared orphaned ActiveBgAlert (no AlertType)");
+                            break;
+                        }
                         if (activeBgAlert != null) {
                             AlertPlayer.getPlayer().Snooze(xdrip.getAppContext(), -1);
-                            JoH.static_toast_long(getString(R.string.snoozing_due_button_press));
-                            UserError.Log.ueh(TAG, "Snoozing alert due to volume button press");
+                            SnoozeActivity.recheckAlerts();
+                            JoH.static_toast_long(getString(R.string.snoozing_due_mute_button_press));
+                            UserError.Log.ueh(TAG, "Snoozing alert due to MUTE button press");
+                            return true;
                         } else {
                             if (d) UserError.Log.d(TAG, "no active alert to snooze");
                         }
