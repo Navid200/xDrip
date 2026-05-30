@@ -10,7 +10,7 @@ description: "Learn how to set up Android Studio for xDrip development, includin
 We are currently using Android Studio Panda.  
 Go to [archives](https://developer.android.com/studio/archive)  
 Agree to the terms.  
-Choose: Android Studio Panda | 2022.3.1 Patch 3 November 7, 2023.  
+Choose: Android Studio Panda, Patch 1, February 13, 2026.  
 Download the installer depending on your operating system.  
 <br/>  
   
