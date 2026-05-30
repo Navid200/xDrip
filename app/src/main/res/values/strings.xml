@@ -27,7 +27,7 @@
     <string name="snooze_hint">Snooze alert for x minutes</string>
     <string name="ok">OK</string>
     <string name="cancel">Cancel</string>
-    <string name="no">No</string>
+    <string name="no">Nod</string>
     <string name="pref_sensor_location_dont_ask_again">Don\'t ask me that again</string>
 
     <string name="title_activity_error">"Error and Event List"</string>
