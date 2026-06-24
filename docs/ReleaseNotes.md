@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2026.06.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.06.24) | xDrip - mmol/L conversion accuracy - auto-test improvements |  
 | [2026.06.17](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.06.17) | Dex G6 sensor start improvement |  
 | [2026.06.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.06.13) | Language submenu - more accurate missed reading alert - self-hosted - China Sisensing companion - user-installed CA certificates for Nightscout |  
 | [2026.06.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.06.02) | Dex collector improvements |  
