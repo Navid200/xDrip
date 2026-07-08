@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2026.07.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.08) | Dexcom new firmware and improvements |  
 | [2026.07.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.03) | Nightscout self healing |  
 | [2026.07.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.01) | Nightscout master battery level on follower status page - Nightscout maintenance improvements; ❌ |  
 | [2026.06.24](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.06.24) | xDrip - mmol/L conversion accuracy - auto-test improvements |  
