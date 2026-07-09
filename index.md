@@ -7,7 +7,7 @@ description: "Learn how to install, configure, and troubleshoot xDrip, the open-
   
 Welcome to the xDrip documentation.  
 
-xDrip is an open-source Android app (compatible with Android 7–17) that turns your phone into a continuous glucose monitoring (CGM) system. It is [developed and maintained](https://github.com/NightscoutFoundation/xDrip) by volunteers from the diabetes community.    
+xDrip is an open-source Android app (compatible with Android 8–17) that turns your phone into a continuous glucose monitoring (CGM) system. It is [developed and maintained](https://github.com/NightscoutFoundation/xDrip) by volunteers from the diabetes community.    
 ![xDrip main screen](./docs/images/xDinaction.png)  
   
 It lets you customize your alerts, follow (monitor) your child, parent or partner, perform statistical analysis, set targets, control and interact with different CGM devices, and a lot more.  
