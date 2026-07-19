@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2026.07.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.19) | Maintenance improvements |  
 | [2026.07.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.15) | Sensor expiry notification fix |  
 | [2026.07.12](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.12) | Android 7 is retired; ❌ |  
 | [2026.07.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.07.08) | Dexcom new firmware and improvements |  
