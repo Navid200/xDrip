@@ -19,10 +19,14 @@ Note: This should occur at the 10-day mark, rather than waiting for the full 10.
 ![G7EndsIn](./images/G7EndsIn.png)  
 <br/>  
   
+---  
+  
 #### **New sensor verification**  
 You can use a secondary phone or an [xDrip variant](../Variants.md) on the same phone to establish connectivity with your new sensor and verify that it is functioning correctly. To do this, follow the “Establishing Connectivity” instructions [here](./G7.md) using the secondary phone.  If you are using a variant on the same phone that is currently connected to your old sensor via the main xDrip app, follow the same instructions—except **do not delete the Bluetooth devices** from the Bluetooth list.  
   
-Once you’ve confirmed the new sensor is operational, you can [disconnect the secondary phone or variant](../Stop-xDrip.md).  
+![OldNewSideBySide](./images/OldNewSideBySide.png)  
+  
+Once you’ve confirmed the new sensor is operational, you can [disconnect the secondary phone or variant](../Stop-xDrip.md).  Or, you can keep it connected as long as you disconnect it 15 minutes before switching your main xDrip to it.  
 <br/>  
   
 ---  
