@@ -3,7 +3,7 @@
   
 You can display the glucose reading in the notification area, even when xDrip is minimized.  
 To enable this feature, navigate to:  
-`Settings` → `xDrip+ Display Settings` → `Number icon in Notification Area`.  
+`Settings` → `Display` → `Number icon in Notification Area`.  
 ![Menu_NumIconNotifArea](./images/Menu_NumIconNotifArea.png)  
   
 1- Test the feature.  
