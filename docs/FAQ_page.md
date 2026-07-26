@@ -19,6 +19,7 @@ description: "Common questions and answers about installing, using, and troubles
 #### [Why is xDrip not in Google Play Store?](./App-store.md)
 #### [Why is location service required?](./Location.md)
 #### [Why can I not enter a treatment?](./FAQ/TreatmentEtryFail.md)
+#### [Why did number icon disappear](./FAQ/NumberIconDisappeared.md)
 #### [Why do I get a notification for each reading?](./Frequent_notifications.md)
 #### [Why nothing happens when I check for updates?](./NoUpdate.md)
 #### [Why is there no way to stop a G7?](./Dexcom/WhyNoG7Stop.md)
