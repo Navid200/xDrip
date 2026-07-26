@@ -1,7 +1,7 @@
 # Number icon in notification area
 [xDrip](../../) >> [Features](../Features_page.md) >> [Display](./Display.md) >> Number icon in notification area  
   
-On certain phones, you can display the glucose reading in the notification area, even when xDrip is minimized.  
+You can display the glucose reading in the notification area, even when xDrip is minimized.  
 To enable this feature, navigate to:  
 `Settings` → `xDrip+ Display Settings` → `Number icon in Notification Area`.  
 ![Menu_NumIconNotifArea](./images/Menu_NumIconNotifArea.png)  
