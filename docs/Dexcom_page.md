@@ -28,6 +28,7 @@ You are welcome to use xDrip, but always consult with a medical professional (su
 #### [Session in progress](./Session-in-progress.md)
 #### [Proper Connectivity](./Proper-connectivity.md)
 #### [G7 rapid reconnect](./Dexcom/G7OnceAMinuteScan.md)
+#### [The differences between G6 and G7](./G7ComparedToG6.md)
 #### [Transmitter Queue](./Transmitter-Queue.md)
 #### [The differences between G6 and Dexcom One](./Dexcom/G6vsOne.md)
 #### [The differences between G7 and One+](./Dexcom/G7vsOneP.md)
