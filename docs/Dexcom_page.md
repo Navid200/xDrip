@@ -23,12 +23,12 @@ You are welcome to use xDrip, but always consult with a medical professional (su
 #### [Clarity](./Dexcom/Clarity.md)
  [Dexcom device compatibility](./Receiver-or-tslim-and-xDrip.md)  
   
-#### **What is ...?**
+#### **What is/are ...?**
 #### [Dex Status](./StatusG5G6.md)
 #### [Session in progress](./Session-in-progress.md)
 #### [Proper Connectivity](./Proper-connectivity.md)
 #### [G7 rapid reconnect](./Dexcom/G7OnceAMinuteScan.md)
-#### [The differences between G6 and G7](./G7ComparedToG6.md)
+#### [The differences between G6 and G7](./Dexcom/G7ComparedToG6.md)
 #### [Transmitter Queue](./Transmitter-Queue.md)
 #### [The differences between G6 and Dexcom One](./Dexcom/G6vsOne.md)
 #### [The differences between G7 and One+](./Dexcom/G7vsOneP.md)
