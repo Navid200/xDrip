@@ -172,6 +172,13 @@ public class AlertPlayer {
         }
     }
 
+    public synchronized void startAlert(Context context, String soundUri, boolean overrideSilent) {
+        if (notSilencedDueToCall()) {
+            // Logic: if overrideSilent is true, we force it to the ALARM stream (forceSpeaker)
+            playFile(context, soundUri, 1.0f, overrideSilent, false);
+        }
+    }
+
     public synchronized void startAlert(Context ctx, boolean trendingToAlertEnd, AlertType newAlert, String bgValue) {
         startAlert(ctx, trendingToAlertEnd, newAlert, bgValue, Pref.getBooleanDefaultFalse("start_snoozed")); // for start snoozed by default!
     }

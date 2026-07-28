@@ -30,7 +30,6 @@ public class XdripNotification {
 
         builder.setGroup(null);
         builder.setGroupSummary(false);
-        builder.setCategory(Notification.CATEGORY_STATUS);
         builder.setWhen(0);
         builder.setShowWhen(false);
         builder.setOnlyAlertOnce(true);

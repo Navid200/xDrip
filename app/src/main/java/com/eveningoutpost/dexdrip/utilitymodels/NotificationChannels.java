@@ -50,7 +50,7 @@ public class NotificationChannels {
     public static final String ONGOING_CHANNEL = "ongoingChannel";
     public static final String ICON_TEST_CHANNEL = "numberIconTestChannel";
     public static final String GENERAL_CHANNEL = "generalChannel"; // This should be used for all existing notifications that have null for their channel.
-    public static final String SENSOR_EXPIRY_CHANNEL = "sensorExpiryChannel";
+    public static final String OTHER_ALERTS_CHANNEL = "otherAlertsChannel"; // This is the channel for all Other alerts.
 
     // get a localized string for each channel / group name
     public static String getString(String id) {
@@ -275,21 +275,13 @@ public class NotificationChannels {
         getNotifManager().createNotificationChannel(channel);
     }
 
-    public static void setupGeneralChannel() {
+    public static void setupOtherAlertsChannel() {
         NotificationChannel channel = new NotificationChannel(
-                GENERAL_CHANNEL,
-                "General",
-                NotificationManager.IMPORTANCE_DEFAULT);
-        channel.enableVibration(true);
-        getNotifManager().createNotificationChannel(channel);
-    }
-
-    public static void setupSensorExpiryChannel() {
-        NotificationChannel channel = new NotificationChannel(
-                SENSOR_EXPIRY_CHANNEL,
-                "Sensor expiry",
-                NotificationManager.IMPORTANCE_DEFAULT);
-        channel.enableVibration(true);
+                OTHER_ALERTS_CHANNEL,
+                "Other alerts",
+                NotificationManager.IMPORTANCE_HIGH);
+        channel.enableVibration(false);
+        channel.setSound(null, null); // Silent channel as we handle the sound ourselves
         getNotifManager().createNotificationChannel(channel);
     }
 

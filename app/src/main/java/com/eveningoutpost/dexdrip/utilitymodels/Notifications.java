@@ -58,6 +58,7 @@ import java.util.List;
 import static com.eveningoutpost.dexdrip.models.JoH.safeParseSoundUri;
 import static com.eveningoutpost.dexdrip.utilitymodels.ColorCache.X;
 import static com.eveningoutpost.dexdrip.utilitymodels.ColorCache.getCol;
+import static com.eveningoutpost.dexdrip.utilitymodels.NotificationChannels.OTHER_ALERTS_CHANNEL;
 
 import lombok.val;
 
@@ -940,7 +941,7 @@ public class Notifications extends IntentService {
         final String type = "bg_predict_alert";
         if (on) {
             if ((Pref.getLong("alerts_disabled_until", 0) < JoH.tsl()) && (Pref.getLong("low_alerts_disabled_until", 0) < JoH.tsl())) {
-                OtherAlert(context, type, msg, lowPredictAlertNotificationId, NotificationChannels.BG_PREDICTED_LOW_CHANNEL, false, 20 * 60);
+                OtherAlert(context, type, msg, lowPredictAlertNotificationId, NotificationChannels.BG_PREDICTED_LOW_CHANNEL, true, 20 * 60);
                 if (Pref.getBooleanDefaultFalse("speak_alerts")) {
                    if (JoH.pratelimit("low-predict-speak", 1800)) SpeechUtil.say(msg, 4000);
                 }
@@ -966,7 +967,7 @@ public class Notifications extends IntentService {
                 }
                 if (snooze_time < 1) snooze_time = 1;       // not less than 1 minute
                 if (snooze_time > 1440) snooze_time = 1440; // not more than 1 day
-                OtherAlert(context, type, msg, persistentHighAlertNotificationId, NotificationChannels.BG_PERSISTENT_HIGH_CHANNEL, false, snooze_time * 60);
+                OtherAlert(context, type, msg, persistentHighAlertNotificationId, NotificationChannels.BG_PERSISTENT_HIGH_CHANNEL, true, snooze_time * 60);
                 if (Pref.getBooleanDefaultFalse("speak_alerts")) {
                     if (JoH.pratelimit("persist-high-speak", 1800)) {
                         SpeechUtil.say(msg, 4000);
@@ -985,7 +986,7 @@ public class Notifications extends IntentService {
     public static void RiseDropAlert(Context context, boolean on, String type, String message, int notificatioId) {
         if(on) {
          // This alerts will only happen once. Want to have maxint, but not create overflow.
-            OtherAlert(context, type, message, notificatioId, NotificationChannels.BG_RISE_DROP_CHANNEL, false, Integer.MAX_VALUE / 100000);
+            OtherAlert(context, type, message, notificatioId, NotificationChannels.BG_RISE_DROP_CHANNEL, true, Integer.MAX_VALUE / 100000);
         } else {
             NotificationManager mNotifyMgr = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
             mNotifyMgr.cancel(notificatioId);
@@ -997,7 +998,7 @@ public class Notifications extends IntentService {
         OtherAlert(context, type, message, message, notificatioId, channelId, addDeleteIntent, reraiseSec);
     }
 
-    private static void OtherAlert(Context context, String type, String title, String message, int notificatioId, String channelId, boolean addDeleteIntent, long reraiseSec) {
+    private static void OtherAlert(Context context, String type, String title, String message, int notificatioId, String deprecatedChannelId, boolean addDeleteIntent, long reraiseSec) {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
         String otherAlertsSound = prefs.getString(type+"_sound",prefs.getString("other_alerts_sound", "content://settings/system/notification_sound"));
         boolean otherAlertsOverrideSilent = prefs.getBoolean("other_alerts_override_silent", false);
@@ -1024,7 +1025,7 @@ public class Notifications extends IntentService {
             Log.d(TAG,"OtherAlert forced_wear localOnly=" + localOnly);
             Intent intent = new Intent(context, Home.class);
             NotificationCompat.Builder mBuilder =
-                    new NotificationCompat.Builder(context, channelId)
+                    new NotificationCompat.Builder(context, OTHER_ALERTS_CHANNEL)
                             .setVisibility(Pref.getBooleanDefaultFalse("public_notifications") ? Notification.VISIBILITY_PUBLIC : Notification.VISIBILITY_PRIVATE)
                             .setSmallIcon(R.drawable.ic_action_communication_invert_colors_on)
                             .setContentTitle(title)
@@ -1038,18 +1039,21 @@ public class Notifications extends IntentService {
                 deleteIntent.putExtra("raisedTimeStamp", JoH.tsl());
                 mBuilder.setDeleteIntent(PendingIntent.getService(context, 0, deleteIntent, PendingIntent.FLAG_UPDATE_CURRENT));
             }
-            mBuilder.setVibrate(vibratePattern);
-            mBuilder.setLights(0xff00ff00, 300, 1000);
-            if (AlertPlayer.notSilencedDueToCall()) {
-                if (extraAlertsOverrideSilent) {
-                    mBuilder.setSound(safeParseSoundUri(otherAlertsSound), AudioAttributes.USAGE_ALARM);
-                } else {
-                    mBuilder.setSound(safeParseSoundUri(otherAlertsSound));
-                    if (isSoundBlockedBySystem(context)) {
-                        Log.ueh(TAG, "No " + type + " in silent mode");
-                    }
-                }
-            }
+ //           mBuilder.setVibrate(vibratePattern);
+ //           mBuilder.setLights(0xff00ff00, 300, 1000);
+ //           if (AlertPlayer.notSilencedDueToCall()) {
+ //               if (extraAlertsOverrideSilent) {
+ //                   mBuilder.setSound(safeParseSoundUri(otherAlertsSound), AudioAttributes.USAGE_ALARM);
+ //               } else {
+ //                   mBuilder.setSound(safeParseSoundUri(otherAlertsSound));
+ //                   if (isSoundBlockedBySystem(context)) {
+ //                       Log.ueh(TAG, "No " + type + " in silent mode");
+ //                   }
+ //               }
+ //           }
+
+            AlertPlayer.getPlayer().startAlert(context, otherAlertsSound, extraAlertsOverrideSilent);
+
             NotificationManager mNotifyMgr = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
             //mNotifyMgr.cancel(notificatioId);
             //Log.d(TAG, "Notify");

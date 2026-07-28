@@ -145,8 +145,7 @@ public class xdrip extends Application {
         Poller.init();
         BgGraphBuilder.setLogging();
         NotificationChannels.setupTestChannel();
-        NotificationChannels.setupGeneralChannel();
-        NotificationChannels.setupSensorExpiryChannel();
+        NotificationChannels.setupOtherAlertsChannel();
     }
 
 

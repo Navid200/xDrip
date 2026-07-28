@@ -18,16 +18,14 @@ public class XdripNotificationCompat extends NotificationCompat {
         try {
             id = NotificationChannels.getChan(builder).getId();
         } catch (Exception e) {
-            // Fallback to generic alert channel if the guesser fails
-            id = NotificationChannels.BG_ALERT_CHANNEL;
+            // Fallback to general channel if the guesser fails
+            id = NotificationChannels.GENERAL_CHANNEL;
         }
         builder.setChannelId(id);
 
         // Ensure alerts are independent and not summaries
         builder.setGroup(null);
         builder.setGroupSummary(false);
-
-        builder.setCategory(NotificationCompat.CATEGORY_ALARM);
 
         final Notification n = builder.build();
 

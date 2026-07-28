@@ -27,6 +27,9 @@ public class SnoozeOnNotificationDismissService extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
+        // Since xDrip now plays alert sounds internally via AlertPlayer for SDK 26+,
+        // we must explicitly stop the audio when the notification is dismissed.
+        AlertPlayer.getPlayer().stopAlert(getApplicationContext(), false, false);
         final String alertType = (intent != null) ? intent.getStringExtra("alertType") : "null intent"; // Replace by constant
         Log.e(TAG, "SnoozeOnNotificationDismissService called source = " + alertType);
         if(alertType.equals("bg_alerts")  ) {
