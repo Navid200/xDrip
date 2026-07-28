@@ -673,4 +673,11 @@ public class AlertPlayer {
         // unknown mode, not sure let's play just in any case.
         return true;
     }
+
+    public synchronized void startOtherAlert(Context context, String soundUri, boolean overrideSilent, String tag) {
+        if (notSilencedDueToCall()) {
+            // Matches the 5-argument playFile you found
+            playFile(context, soundUri, 1.0f, overrideSilent, overrideSilent);
+        }
+    }
 }
