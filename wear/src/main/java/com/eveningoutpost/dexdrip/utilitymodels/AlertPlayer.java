@@ -591,4 +591,10 @@ public class AlertPlayer {
         // unknown mode, not sure let's play just in any case.
         return true;
     }
+
+    public synchronized void startOtherAlert(Context context, String soundUri, boolean forceSpeaker, String tag) {
+        if (notSilencedDueToCall()) {
+            PlayFile(context, soundUri, 1.0f);
+        }
+    }
 }

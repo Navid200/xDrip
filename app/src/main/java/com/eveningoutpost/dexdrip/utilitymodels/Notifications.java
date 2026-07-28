@@ -1037,7 +1037,7 @@ public class Notifications extends IntentService {
                 Intent deleteIntent = new Intent(context, SnoozeOnNotificationDismissService.class);
                 deleteIntent.putExtra("alertType", type);
                 deleteIntent.putExtra("raisedTimeStamp", JoH.tsl());
-                mBuilder.setDeleteIntent(PendingIntent.getService(context, 0, deleteIntent, PendingIntent.FLAG_UPDATE_CURRENT));
+                mBuilder.setDeleteIntent(PendingIntent.getService(context, 0, deleteIntent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE));
             }
  //           mBuilder.setVibrate(vibratePattern);
  //           mBuilder.setLights(0xff00ff00, 300, 1000);
@@ -1052,7 +1052,7 @@ public class Notifications extends IntentService {
  //               }
  //           }
 
-            AlertPlayer.getPlayer().startAlert(context, otherAlertsSound, extraAlertsOverrideSilent);
+            AlertPlayer.getPlayer().startOtherAlert(context, otherAlertsSound, extraAlertsOverrideSilent, type);
 
             NotificationManager mNotifyMgr = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
             //mNotifyMgr.cancel(notificatioId);
