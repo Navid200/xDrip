@@ -674,10 +674,27 @@ public class AlertPlayer {
         return true;
     }
 
-    public synchronized void startOtherAlert(Context context, String soundUri, boolean overrideSilent, String tag) {
-        if (notSilencedDueToCall()) {
-            // Matches the 5-argument playFile you found
-            playFile(context, soundUri, 1.0f, overrideSilent, overrideSilent);
+    public synchronized void startOtherAlert(Context context, String soundUri, boolean overrideSilent, float minVolume, String type) {
+        if (!notSilencedDueToCall()) return;
+
+        int profile = getAlertProfile(context);
+        if (profile == ALERT_PROFILE_SILENT || profile == ALERT_PROFILE_VIBRATE_ONLY) {
+            Log.ueh(TAG, "No " + type + " in silent profile");
+            return;
         }
+
+        int stream = overrideSilent ? AudioManager.STREAM_ALARM : AudioManager.STREAM_MUSIC;
+        int maxVol = getMaxVolume(stream);
+        float vf = maxVol > 0 ? (float) getVolume(stream) / maxVol : minVolume;
+
+        if (vf < minVolume && (overrideSilent || vf > 0)) vf = minVolume;
+
+        if (vf <= 0) {
+            Log.ueh(TAG, "No " + type + " in silent mode");
+            return;
+        }
+
+        playFile(context, soundUri, vf, overrideSilent, overrideSilent);
+        ping("alarm");
     }
 }

@@ -268,7 +268,7 @@ public class NotificationChannels {
     public static void setupTestChannel() {
         NotificationChannel channel = new NotificationChannel(
                 ICON_TEST_CHANNEL,
-                "xDrip Icon Test",
+                "Icon test", // TODO Use a string.
                 NotificationManager.IMPORTANCE_DEFAULT);
         channel.enableVibration(true);
         channel.setSound(null, null); // Keep it silent
@@ -278,9 +278,19 @@ public class NotificationChannels {
     public static void setupOtherAlertsChannel() {
         NotificationChannel channel = new NotificationChannel(
                 OTHER_ALERTS_CHANNEL,
-                "Other alerts",
+                "Other alerts", // TODO Use a string.
                 NotificationManager.IMPORTANCE_HIGH);
-        channel.enableVibration(false);
+        channel.enableVibration(true);
+        channel.setSound(null, null); // Silent channel as we handle the sound ourselves
+        getNotifManager().createNotificationChannel(channel);
+    }
+
+    public static void setupGlucoseLevelAlertChannel() {
+        NotificationChannel channel = new NotificationChannel(
+                BG_ALERT_CHANNEL,
+                "BG level alerts", // TODO Use a string.
+                NotificationManager.IMPORTANCE_HIGH);
+        channel.enableVibration(true);
         channel.setSound(null, null); // Silent channel as we handle the sound ourselves
         getNotifManager().createNotificationChannel(channel);
     }

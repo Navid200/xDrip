@@ -33,27 +33,24 @@ public class NumberGraphic {
     private static final long[] vibratePattern = {0, 300, 300, 300, 300, 300};
 
     public static void testNotification(String text) {
-        {
-            final Notification.Builder mBuilder = new Notification.Builder(xdrip.getAppContext(), NotificationChannels.ICON_TEST_CHANNEL);
+        final Notification.Builder mBuilder = new Notification.Builder(xdrip.getAppContext(), NotificationChannels.ICON_TEST_CHANNEL);
 
-            mBuilder.setSmallIcon(Icon.createWithBitmap(getSmallIconBitmap(text)));
+        mBuilder.setSmallIcon(Icon.createWithBitmap(getSmallIconBitmap(text)));
 
-            mBuilder.setContentTitle("Test Number Graphic");
-            mBuilder.setContentText("Check the number is visible");
-            mBuilder.setTimeoutAfter(Constants.SECOND_IN_MS * 30);
-            mBuilder.setOngoing(false);
-            mBuilder.setVibrate(vibratePattern);
+        mBuilder.setContentTitle("Test Number Graphic");
+        mBuilder.setContentText("Check the number is visible");
+        mBuilder.setTimeoutAfter(Constants.SECOND_IN_MS * 30);
+        mBuilder.setOngoing(false);
 
-            int mNotificationId = Constants.NUMBER_TEXT_TEST_ID;
-            final NotificationManager mNotifyMgr = (NotificationManager) xdrip.getAppContext().getSystemService(NOTIFICATION_SERVICE);
-            mNotifyMgr.notify(mNotificationId, mBuilder.build());
-            JoH.runOnUiThreadDelayed(new Runnable() {
-                @Override
-                public void run() {
-                    mNotifyMgr.notify(mNotificationId, mBuilder.build());
-                }
-            }, 1000);
-        }
+        int mNotificationId = Constants.NUMBER_TEXT_TEST_ID;
+        final NotificationManager mNotifyMgr = (NotificationManager) xdrip.getAppContext().getSystemService(NOTIFICATION_SERVICE);
+        mNotifyMgr.notify(mNotificationId, mBuilder.build());
+        JoH.runOnUiThreadDelayed(new Runnable() {
+            @Override
+            public void run() {
+                mNotifyMgr.notify(mNotificationId, mBuilder.build());
+            }
+        }, 1000);
     }
 
     public static boolean numberIconEnabled() {

@@ -106,7 +106,7 @@ public class Notifications extends IntentService {
     final static int doubleCalibrationNotificationId = 003;
     final static int extraCalibrationNotificationId = 004;
     public static final int exportCompleteNotificationId = 005;
-    final static int ongoingNotificationId = 8811;
+    public static int ongoingNotificationId = 8811;
     public static final int exportAlertNotificationId = 006;
     public static final int uncleanAlertNotificationId = 007;
     public static final int missedAlertNotificationId = 010;
@@ -126,7 +126,7 @@ public class Notifications extends IntentService {
 
     public Notifications() {
         super("Notifications");
-        Log.i("Notifications", "Creating Notifications Intent Service");
+        Log.i(TAG, "Creating Notifications Intent Service");
     }
 
     @Override
@@ -136,7 +136,7 @@ public class Notifications extends IntentService {
 
         boolean unclearReading;
         try {
-            Log.d("Notifications", "Running Notifications Intent Service");
+            Log.d(TAG, "Running Notifications Intent Service");
             final Context context = getApplicationContext();
 
             if (Pref.getBoolean("motion_tracking_enabled", false)) {
@@ -320,7 +320,7 @@ public class Notifications extends IntentService {
             bgOngoingNotification(bgGraphBuilder);
         }
         if (prefs.getLong("alerts_disabled_until", 0) > new Date().getTime()) {
-            Log.d("NOTIFICATIONS", "Notifications are currently disabled!!");
+            Log.d(TAG, "Notifications are currently disabled!!");
             return false;
         }
         
@@ -396,7 +396,7 @@ public class Notifications extends IntentService {
             if (calibrations.size() >= 1 && (Math.abs(JoH.msSince(Math.max(calibrations.get(0).timestamp,
                     PersistentStore.getLong("last-calibration-pipe-timestamp")))) > (calibration_reminder_secs * 1000))
                     && (CalibrationRequest.isSlopeFlatEnough(BgReading.last(true)))) {
-                Log.d("NOTIFICATIONS", "Calibration difference in hours: " + ((new Date().getTime() - calibrations.get(0).timestamp)) / (1000 * 60 * 60));
+                Log.d(TAG, "Calibration difference in hours: " + ((new Date().getTime() - calibrations.get(0).timestamp)) / (1000 * 60 * 60));
                 if ((!PowerStateReceiver.is_power_connected()) || (Pref.getBooleanDefaultFalse("calibration_alerts_while_charging"))) {
                     if (JoH.pratelimit("calibration-request-notification", Math.max(CALIBRATION_REQUEST_MIN_FREQUENCY, calibration_reminder_secs)) || Pref.getBooleanDefaultFalse("calibration_alerts_repeat")) {
                         calibrationRequest();
@@ -461,7 +461,7 @@ public class Notifications extends IntentService {
                 
             }
         }
-        Log.d("Notifications" , "calcuatleArmTimeBg returning: "+ new Date(wakeTimeBg) +" in " +  (wakeTimeBg - now)/60000d + " minutes");
+        Log.d(TAG, "calcuatleArmTimeBg returning: "+ new Date(wakeTimeBg) +" in " +  (wakeTimeBg - now)/60000d + " minutes");
         return wakeTimeBg;
     }
     
@@ -473,7 +473,7 @@ public class Notifications extends IntentService {
         Long wakeTimeUnclear = calcuatleArmTimeUnclearalert(ctx, now, unclearAlert);
         Long wakeTime = Math.min(wakeTimeBg, wakeTimeUnclear);
         
-        Log.d("Notifications" , "calcuatleArmTime returning: "+ new Date(wakeTime) +" in " +  (wakeTime - now)/60000d + " minutes");
+        Log.d(TAG, "calcuatleArmTime returning: "+ new Date(wakeTime) +" in " +  (wakeTime - now)/60000d + " minutes");
         return wakeTime;
 
 /*
@@ -506,20 +506,20 @@ public class Notifications extends IntentService {
 
         // TODO make this neater - immediate wake time not needed as handled in JoH wakeup?
         if(wakeTime < now ) {
-            Log.e("Notifications" , "ArmTimer recieved a negative time, will fire in 6 minutes");
+            Log.e(TAG, "ArmTimer recieved a negative time, will fire in 6 minutes");
             wakeTime = now + 6 * 60000;
         } else if  (wakeTime >=  now + 6 * 60000) {
-        	 Log.i("Notifications" , "ArmTimer recieved a biger time, will fire in 6 minutes");
+        	 Log.i(TAG, "ArmTimer recieved a biger time, will fire in 6 minutes");
              wakeTime = now + 6 * 60000;
         }  else if (wakeTime == now) {
-            Log.e("Notifications", "should arm right now, waiting one more second to avoid infinitue loop");
+            Log.e(TAG, "should arm right now, waiting one more second to avoid infinitue loop");
             wakeTime = now + 1000;
         }
         
         //AlarmManager alarm = (AlarmManager) getSystemService(ALARM_SERVICE);
 
         // TODO use JoH wakeup
-        Log.d("Notifications" , "ArmTimer waking at: "+ new Date(wakeTime ) +" in " +
+        Log.d(TAG, "ArmTimer waking at: "+ new Date(wakeTime ) +" in " +
             (wakeTime - now) /60000d + " minutes");
 
         if (wakeIntent == null) {
@@ -786,7 +786,7 @@ public class Notifications extends IntentService {
         final String this_noise_string=BgGraphBuilder.noiseString(BgGraphBuilder.last_noise);
         if (!BgGraphBuilder.noiseString(BgGraphBuilder.last_noise).equals(last_noise_string))
         {
-            Log.uel("Noise","Changed from: "+last_noise_string+" to "+this_noise_string);
+            Log.uel(TAG,"Changed from: "+last_noise_string+" to "+this_noise_string);
             last_noise_string = this_noise_string;
         }
     }
@@ -1039,25 +1039,15 @@ public class Notifications extends IntentService {
                 deleteIntent.putExtra("raisedTimeStamp", JoH.tsl());
                 mBuilder.setDeleteIntent(PendingIntent.getService(context, 0, deleteIntent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE));
             }
- //           mBuilder.setVibrate(vibratePattern);
- //           mBuilder.setLights(0xff00ff00, 300, 1000);
- //           if (AlertPlayer.notSilencedDueToCall()) {
- //               if (extraAlertsOverrideSilent) {
- //                   mBuilder.setSound(safeParseSoundUri(otherAlertsSound), AudioAttributes.USAGE_ALARM);
- //               } else {
- //                   mBuilder.setSound(safeParseSoundUri(otherAlertsSound));
- //                   if (isSoundBlockedBySystem(context)) {
- //                       Log.ueh(TAG, "No " + type + " in silent mode");
- //                   }
- //               }
- //           }
+            mBuilder.setVibrate(vibratePattern);
 
-            AlertPlayer.getPlayer().startOtherAlert(context, otherAlertsSound, extraAlertsOverrideSilent, type);
+            float minVolume = (type.equals("bg_missed_alerts") || type.equals("persistent_high_alert")) ? 0.6f : 0.4f;
+            AlertPlayer.getPlayer().startOtherAlert(context, otherAlertsSound, extraAlertsOverrideSilent, minVolume, type);
 
             NotificationManager mNotifyMgr = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
             //mNotifyMgr.cancel(notificatioId);
             //Log.d(TAG, "Notify");
-            Log.ueh("Other Alert",message);
+            Log.ueh(TAG, message);
             mNotifyMgr.notify(notificatioId, XdripNotificationCompat.build(mBuilder));
 
             if (Pref.getBooleanDefaultFalse("pref_amazfit_enable_key")

@@ -146,6 +146,7 @@ public class xdrip extends Application {
         BgGraphBuilder.setLogging();
         NotificationChannels.setupTestChannel();
         NotificationChannels.setupOtherAlertsChannel();
+        NotificationChannels.setupGlucoseLevelAlertChannel();
     }
 
 

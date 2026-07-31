@@ -43,11 +43,14 @@ public class SnoozeOnNotificationDismissService extends IntentService {
             UserError.Log.wtf(TAG, "Attempt to cancel alert (" + alertType + ") within minimum limit of: " + JoH.niceTimeScalar(MINIMUM_CANCEL_DELAY));
             Home.startHomeWithExtra(xdrip.getAppContext(),"confirmsnooze","simpleconfirm");
         }
-        Log.e(TAG, "SnoozeOnNotificationDismissService called source = " + alertType + " shown for: " + JoH.niceTimeScalar(time_showing));
+        Log.e(TAG, "Dismiss Snooze: " + alertType + " shown for: " + JoH.niceTimeScalar(time_showing));
         if (alertType.equals("bg_alerts") && (time_showing > MINIMUM_CANCEL_DELAY)) {
             snoozeBgAlert();
             return;
         }
+
+        AlertPlayer.getPlayer().stopAlert(getApplicationContext(), false, false, false); // Silence the media player
+
         if (alertType.equals("bg_unclear_readings_alert") ||
                 alertType.equals("bg_missed_alerts")) {
             SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(getApplicationContext());
@@ -58,14 +61,6 @@ public class SnoozeOnNotificationDismissService extends IntentService {
             }
             return;
         }
-
-        if (alertType.equals("bg_predict_alert") ||
-                alertType.equals("persistent_high_alert")) {
-            Log.wtf(TAG, "SnoozeOnNotificationDismissService called for unsupported type!!! source = " + alertType);
-
-        }
-
-        Log.e(TAG, "SnoozeOnNotificationDismissService called for unknown source = " + alertType);
     }
     
     private void snoozeBgAlert() {
