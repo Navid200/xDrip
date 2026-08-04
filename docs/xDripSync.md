@@ -3,8 +3,8 @@ title: "xDrip sync setup"
 description: "Step-by-step instructions for configuring xDrip Sync between a master phone and follower devices, including QR-code and manual setup options, and enabling xDrip Cloud."
 ---
   
-# xDrip Sync Setup  
-[xDrip](../) >> [Features](./Features_page.md) >> [How to follow with xDrip](./How-to-follow.md) >> xDrip Sync Setup  
+# xDrip sync setup  
+[xDrip](../) >> [Features](./Features_page.md) >> [How to follow with xDrip](./How-to-follow.md) >> xDrip sync setup  
   
 This page explains how to set up xDrip Sync.  You will need both the master and follower phones.  All phones must be updated to at least the latest stable release of xDrip.  
 <br/>  
