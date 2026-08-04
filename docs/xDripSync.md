@@ -38,7 +38,7 @@ A short video demonstration is available [here](https://youtu.be/LcgjfbYcWkE).
 
 #### **Manual setup**    
 If the scan does not work, you can set up the follower manually:   
-Under `Settings` &#8722;> `Hardware Data Source`, select `xDrip+ Sync Follower`.  
+Under `Settings` &#8722;> `Hardware Data Source`, select `xDrip Sync Follower`.  
 Then, go to `Settings` &#8722;> `xDrip+ Sync Settings` and tap `Handset Group Security Sync Key`.  Make sure the key matches the one shown on the same page of the master phone.  
 <br/>  
   
