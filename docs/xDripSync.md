@@ -1,5 +1,5 @@
 ---
-title: "xDrip Sync Setup"
+title: "xDrip sync setup"
 description: "Step-by-step instructions for configuring xDrip Sync between a master phone and follower devices, including QR-code and manual setup options, and enabling xDrip Cloud."
 ---
   
