@@ -12,7 +12,7 @@ This page explains how to set up xDrip Sync.  You will need both the master and 
 ---  
 
 #### **Setup with QR code**    
-On the master phone, go to `Settings` &#8722;> `xDrip Sync Settings`, and tap `Be Master for Followers`.  
+On the master phone, go to `Settings` &#8722;> `xDrip sync`, and tap `Be master for followers`.  
   
 Then tap `Settings` &#8722;> `Show Settings QR codes`.  
 ![ShowSettingsQR](./images/ShowSettingsQR.png)  
@@ -23,7 +23,7 @@ Select `xDrip plus security key settings only`.
 The QR code will now be displayed on the master phone.  
   
 On the follower phone, tap `Settings` &#8722;> `Hardware Data Source` and choose `xDrip Sync Follower`.  
-Then, tap `Settings` &#8722;> `Auto configure`.  
+Then, tap `Settings` &#8722;> `Auto configure` &#8722;> `Camera`.  
 ![AutoConfigureTap](./images/AutoConfigureTap.png)  
   
 Scan the QR code shown on the master phone’s screen.  
