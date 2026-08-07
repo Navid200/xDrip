@@ -9,6 +9,7 @@ description: "Learn why you see a message claiming that xDrip was built for an o
 After installing xDrip, you may encounter the following message:    
 ![OlderVersionOfAndroid](./images/OlderVersionOfAndroid.png)  
 This is an expected message. To remove this warning, we would have to update xDrip in a way that would prevent it from running on older smartphones.  
+<br/>  
   
 #### **Modern testing & active development**  
 Do not let this message fool you: xDrip is actively maintained and fully optimized for the latest versions of Android.  
@@ -16,6 +17,8 @@ Do not let this message fool you: xDrip is actively maintained and fully optimiz
 #### **Rigorous Testing:**  Our developers and community members use xDrip every day on the latest flagship devices (such as the newest Google Pixel and Samsung Galaxy phones).  
 #### **Frequent Updates:**  We release regular "Nightly" builds to ensure that as soon as a new Android version is released, xDrip is updated to handle any technical changes or battery optimization requirements.  
 #### **Up-to-Date Performance:**  While we keep the "target" version low for compatibility, the code inside is modern and designed to work seamlessly with the latest hardware and software.  
+<br/>  
+  
 #### **Our philosophy**  
 Diabetes affects everyone, not just those who can afford the newest flagship devices.  We are committed to ensuring xDrip remains accessible to as many people as possible.  By maintaining compatibility with older Android versions, we ensure that users aren't forced to upgrade their hardware just to manage their health.  
 
