@@ -4,7 +4,7 @@ description: "Learn why you see a message claiming that xDrip was built for an o
 ---
 
 # xDrip was built for an older version of Android
-[xDrip](../../) >> [FAQ](./images/FAQ_page.md) >> Why do I see this message?  
+[xDrip](../../) >> [FAQ](../FAQ_page.md) >> Why do I see this message?  
   
 After installing xDrip, you may encounter the following message:    
 ![OlderVersionOfAndroid](./images/OlderVersionOfAndroid.png)  
