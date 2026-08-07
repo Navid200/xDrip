@@ -6,15 +6,13 @@ description: "Common questions and answers about installing, using, and troubles
 # xDrip frequently asked questions  
 [xDrip](../) >> xDrip Frequently Asked Questions  
   
-#### **What**
+#### [Is xDrip built for an older version of Android?](./FAQ/OlderVersionOfAndroid.md)
 #### [What can I do to avoid database corruption?](./Issues/DatabaseCorruption.md)
 #### [What is Noise?](./Noise.md)
 #### [What is Nightscout?](./Nightscout_page.md)
 #### [What is Engineering mode?](./Engineering-Mode.md)
 #### [&#x24c5; Encircled P in front of the reading](./P_in_Circle.md)
- [What is Calibration and when should I calibrate?](./Calibration.md)  
-  
-#### **Why**
+#### [What is Calibration and when should I calibrate?](./Calibration.md)  
 #### [Why my alert makes no sound?](./Silent-alert.md)
 #### [Why is xDrip not in Google Play Store?](./App-store.md)
 #### [Why is location service required?](./Location.md)
@@ -25,15 +23,11 @@ description: "Common questions and answers about installing, using, and troubles
 #### [Why is there no way to stop a G7?](./Dexcom/WhyNoG7Stop.md)
 #### [Why do I get Treatment Reminders?](./Alerts/TreatmentReminders.md)
 #### [Unsafe app blocked](./FAQ/UnsafeAppBlocked.md)  
- [Why a compressed graph](./Display/CompressedScreen.md)
-  
-#### **Where**
+#### [Why a compressed graph](./Display/CompressedScreen.md)
 #### [Logs?](./Logs.md)
 #### [Settings](./Settings.md)
 #### [Treatment menu](./Treatments.md)
- [Which xDrip version do I have?](./xDrip-Version.md)  
-  
-#### **How**
+#### [Which xDrip version do I have?](./xDrip-Version.md)  
 #### [To receive an alert if I have no readings](./Alerts/MissedReading.md)
 #### [Show when the sensor expires](./Sensor-Expiry.md)
 #### [To remove an xDrip sync follower](./Follow/RemoveFollower.md)
