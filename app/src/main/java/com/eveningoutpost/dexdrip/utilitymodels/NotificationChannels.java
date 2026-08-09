@@ -14,6 +14,7 @@ import androidx.core.app.NotificationCompat;
 import com.eveningoutpost.dexdrip.R;
 import com.eveningoutpost.dexdrip.models.JoH;
 import com.eveningoutpost.dexdrip.models.UserError;
+import com.eveningoutpost.dexdrip.ui.NumberGraphic;
 import com.eveningoutpost.dexdrip.xdrip;
 
 import java.lang.reflect.Field;
@@ -51,6 +52,7 @@ public class NotificationChannels {
     public static final String ICON_TEST_CHANNEL = "numberIconTestChannel";
     public static final String GENERAL_CHANNEL = "generalChannel"; // This should be used for all existing notifications that have null for their channel.
     public static final String SENSOR_EXPIRY_CHANNEL = "sensorExpiryChannel";
+    public static final String OTHER_ALERTS_CHANNEL = "otherAlertsChannel"; // This is the channel for all Other alerts.
 
     // get a localized string for each channel / group name
     public static String getString(String id) {
@@ -74,7 +76,7 @@ public class NotificationChannels {
         map.put(BG_PREDICTED_LOW_CHANNEL, xdrip.getAppContext().getString(R.string.low_predicted));
         map.put(BG_PERSISTENT_HIGH_CHANNEL, xdrip.getAppContext().getString(R.string.persistent_high_alert));
         map.put(CALIBRATION_CHANNEL, xdrip.getAppContext().getString(R.string.calibration_alerts));
-        map.put(ONGOING_CHANNEL, "Ongoing Notification");
+        map.put(ONGOING_CHANNEL, "Ongoing notification"); // TODO Navid Use a string.
     }
 
 
@@ -226,8 +228,7 @@ public class NotificationChannels {
         No alert should use this method.
          */
         final String id = ONGOING_CHANNEL;
-        final int importance = Pref.getBooleanDefaultFalse("use_number_icon") ?
-                NotificationManager.IMPORTANCE_DEFAULT : NotificationManager.IMPORTANCE_LOW;
+        final int importance = NotificationManager.IMPORTANCE_LOW;
 
         // Simplify: Create the channel directly using the static ID
         final NotificationChannel channel = new NotificationChannel(
@@ -240,13 +241,13 @@ public class NotificationChannels {
         channel.enableVibration(false);
         channel.setShowBadge(false);
 
-        getNotifManager().createNotificationChannel(channel);
+        getNotifManager().createNotificationChannel(channel); // This is where we dynamically create the ongoing notification channel.
         return channel;
     }
 
     private static String getBaseDisplayName(String channelId) {
         if ("bgAlertChannel".equals(channelId)) {
-            return "Glucose Level Alert";
+            return "Glucose level alert"; // TODO Navid use a string.
         }
         return getString(channelId);
     }
@@ -265,32 +266,34 @@ public class NotificationChannels {
         }
     }
 
-    public static void setupTestChannel() {
-        NotificationChannel channel = new NotificationChannel(
-                ICON_TEST_CHANNEL,
-                "xDrip Icon Test",
-                NotificationManager.IMPORTANCE_DEFAULT);
-        channel.enableVibration(true);
-        channel.setSound(null, null); // Keep it silent
-        getNotifManager().createNotificationChannel(channel);
+    private static void setupSilentChannel(String id, String name, int importance, int lightColor, boolean useVibration, long[] vibratePattern, boolean showBadge) {
+        AudioAttributes attr = new AudioAttributes.Builder()
+                .setUsage(AudioAttributes.USAGE_NOTIFICATION)
+                .setContentType(AudioAttributes.CONTENT_TYPE_UNKNOWN).build();
+        NotificationChannel chan = new NotificationChannel(id, name, importance);
+        chan.setSound(null, attr);
+        chan.setShowBadge(showBadge);
+        if (lightColor != 0) {
+            chan.enableLights(true);
+            chan.setLightColor(lightColor);
+        }
+        chan.enableVibration(useVibration);
+        if (useVibration && vibratePattern != null) {
+            chan.setVibrationPattern(vibratePattern);
+        }
+        getNotifManager().createNotificationChannel(chan);
     }
 
-    public static void setupGeneralChannel() {
-        NotificationChannel channel = new NotificationChannel(
-                GENERAL_CHANNEL,
-                "General",
-                NotificationManager.IMPORTANCE_DEFAULT);
-        channel.enableVibration(true);
-        getNotifManager().createNotificationChannel(channel);
-    }
 
-    public static void setupSensorExpiryChannel() {
-        NotificationChannel channel = new NotificationChannel(
-                SENSOR_EXPIRY_CHANNEL,
-                "Sensor expiry",
-                NotificationManager.IMPORTANCE_DEFAULT);
-        channel.enableVibration(true);
-        getNotifManager().createNotificationChannel(channel);
+    public static void setupAllChannels() {
+        // Create the required notification channels that do not need to be created dynamically
+        final long[] vibratePatternGeneral = {0, 1000, 300, 1000, 300, 1000};
+        setupSilentChannel(ICON_TEST_CHANNEL, "Icon test", NotificationManager.IMPORTANCE_DEFAULT, 0, true, NumberGraphic.vibratePattern, false); // TODO Navid Use a string.
+        // setupSilentChannel(ONGOING_CHANNEL, "Ongoing notification", NotificationManager.IMPORTANCE_DEFAULT, 0, false, null, false); // This has to be created dynamically not here. Otherwise, the notification will be grouped with others!
+        setupSilentChannel(BG_ALERT_CHANNEL, "Glucose level alerts", NotificationManager.IMPORTANCE_HIGH, 0xffff0000, true, Notifications.vibratePattern, true); // TODO Navid Use a string.
+        setupSilentChannel(OTHER_ALERTS_CHANNEL, "Other alerts", NotificationManager.IMPORTANCE_HIGH, 0xffffbf00, true, Notifications.vibratePattern, true); // TODO Navid Use a string.
+        setupSilentChannel(SENSOR_EXPIRY_CHANNEL, "Sensor expiry", NotificationManager.IMPORTANCE_HIGH, 0xffffbf00, true,  Notifications.vibratePattern, true); // TODO Navid Use a string.
+        setupSilentChannel(GENERAL_CHANNEL, "General", NotificationManager.IMPORTANCE_DEFAULT, 0xff00ff00, true, vibratePatternGeneral, true); // TODO Navid Use a string.
     }
 
 }

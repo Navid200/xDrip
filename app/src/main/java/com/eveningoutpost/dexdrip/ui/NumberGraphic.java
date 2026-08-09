@@ -30,7 +30,7 @@ import static com.eveningoutpost.dexdrip.ui.helpers.BitmapUtil.getScreenDpi;
 public class NumberGraphic {
 
     private static final String TAG = NumberGraphic.class.getSimpleName();
-    private static final long[] vibratePattern = {0, 300, 300, 300, 300, 300};
+    public static final long[] vibratePattern = {0, 300, 300, 300, 300, 300};
 
     public static void testNotification(String text) {
         {

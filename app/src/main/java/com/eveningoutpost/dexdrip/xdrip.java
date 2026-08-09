@@ -144,9 +144,7 @@ public class xdrip extends Application {
         PluggableCalibration.invalidateCache();
         Poller.init();
         BgGraphBuilder.setLogging();
-        NotificationChannels.setupTestChannel();
-        NotificationChannels.setupGeneralChannel();
-        NotificationChannels.setupSensorExpiryChannel();
+        NotificationChannels.setupAllChannels(); // Create all notification channels that do not need to be created dynamically
     }
 
 

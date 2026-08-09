@@ -55,24 +55,24 @@ import lombok.Getter;
 // A helper class to create the mediaplayer on the UI thread.
 // This is needed in order for the callbackst to work.
 class MediaPlayerCreaterHelper {
-    
+
     private final static String TAG = AlertPlayer.class.getSimpleName();
     private final Object creationThreadLock = new Object();
     private volatile boolean mplayerCreated_ = false;
     private volatile MediaPlayer mediaPlayer_ = null;
-    
+
     synchronized MediaPlayer createMediaPlayer(Context ctx) {
         if (isUiThread()) {
             return new MediaPlayer();
         }
-        
+
         mplayerCreated_ = false;
         mediaPlayer_ = null;
         Handler mainHandler = new Handler(ctx.getMainLooper());
 
         // TODO use JoH run on ui thread
         Runnable myRunnable = new Runnable() {
-            @Override 
+            @Override
             public void run() {
                 synchronized(creationThreadLock) {
                     try {
@@ -82,7 +82,7 @@ class MediaPlayerCreaterHelper {
                         mplayerCreated_ = true;
                         creationThreadLock.notifyAll();
                     }
-                    
+
                 }
             }
         };
@@ -95,13 +95,13 @@ class MediaPlayerCreaterHelper {
                 while(mplayerCreated_ == false) {
                     creationThreadLock.wait(30 * Constants.SECOND_IN_MS);
                 }
-            } 
-        }catch (InterruptedException e){
-             Log.e(TAG, "Cought exception", e);
+            }
+        } catch (InterruptedException e) {
+            Log.e(TAG, "Caught exception", e);
         }
         return mediaPlayer_;
     }
-    
+
     boolean isUiThread() {
         return Looper.myLooper() == Looper.getMainLooper();
     }
@@ -320,7 +320,7 @@ public class AlertPlayer {
             Log.d(TAG,"ClockTick: Playing the alert again");
             long nextAlertTime = alert.getNextAlertTime(ctx);
             activeBgAlert.updateNextAlertAt(nextAlertTime);
-            
+
             VibrateNotifyMakeNoise(ctx, alert, bgValue, minutesFromStartPlaying);
             AlertTracker.evaluate();
         }
@@ -498,7 +498,7 @@ public class AlertPlayer {
         return ALERT_PROFILE_ASCENDING;
 
     }
-    
+
     public static boolean isAscendingMode(Context ctx){
         Log.d(TAG, "(getAlertProfile(ctx) == ALERT_PROFILE_ASCENDING): " + (getAlertProfile(ctx) == ALERT_PROFILE_ASCENDING));
         return getAlertProfile(ctx) == ALERT_PROFILE_ASCENDING;
@@ -510,7 +510,7 @@ public class AlertPlayer {
 
     protected void VibrateNotifyMakeNoise(Context context, AlertType alert, String bgValue, int minsFromStartPlaying) {
         Log.d(TAG, "VibrateNotifyMakeNoise called minsFromStartedPlaying = " + minsFromStartPlaying);
-        Log.d("ALARM", "setting vibrate alarm");
+        Log.d(TAG, "setting vibrate alarm");
         int profile = getAlertProfile(context);
         if (alert.uuid.equals(AlertType.LOW_ALERT_55)) {
             // boost alerts...
@@ -544,7 +544,7 @@ public class AlertPlayer {
                 .setPriority(Pref.getBooleanDefaultFalse("high_priority_notifications") ? Notification.PRIORITY_MAX : Notification.PRIORITY_HIGH)
                 .setDeleteIntent(snoozeIntent(context, minsFromStartPlaying));
         if (Pref.getBoolean("show_buttons_in_alerts", true)) {
-             builder.addAction(
+            builder.addAction(
                     R.drawable.alert_icon,
                     context.getString(R.string.snooze_alert),
                     snoozeIntent(context, minsFromStartPlaying)
@@ -594,7 +594,7 @@ public class AlertPlayer {
             // seems to be needed. This pattern basically does not vibrate:
             builder.setVibrate(new long[]{1, 0});
         }
-        Log.ueh("Alerting", contentLog);
+        Log.ueh(TAG, contentLog);
         final NotificationManager mNotifyMgr = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         //mNotifyMgr.cancel(Notifications.exportAlertNotificationId); // this appears to confuse android wear version 2.0.0.141773014.gms even though it shouldn't - can we survive without this?
         mNotifyMgr.notify(Notifications.exportAlertNotificationId, XdripNotificationCompat.build(builder));
@@ -665,5 +665,30 @@ public class AlertPlayer {
         }
         // unknown mode, not sure let's play just in any case.
         return true;
+    }
+
+    public synchronized void startOtherAlert(Context context, String soundUri, boolean overrideSilent, float minVolume, String type) {
+        // This is where we create a sound for an Other alert because the notification itself is always silent.
+        if (!notSilencedDueToCall()) return;
+
+        int profile = getAlertProfile(context);
+        if (profile == ALERT_PROFILE_SILENT || profile == ALERT_PROFILE_VIBRATE_ONLY) {
+            Log.ueh(TAG, "Silent " + type + " due to silent profile");
+            return;
+        }
+
+        int stream = overrideSilent ? AudioManager.STREAM_ALARM : AudioManager.STREAM_MUSIC;
+        int maxVol = getMaxVolume(stream);
+        float vf = maxVol > 0 ? (float) getVolume(stream) / maxVol : minVolume;
+
+        if (vf < minVolume && (overrideSilent || vf > 0)) vf = minVolume;
+
+        if (vf <= 0) {
+            Log.ueh(TAG, "Silent " + type + " due to silent mode");
+            return;
+        }
+
+        playFile(context, soundUri, vf, overrideSilent, overrideSilent);
+        ping("alarm");
     }
 }
