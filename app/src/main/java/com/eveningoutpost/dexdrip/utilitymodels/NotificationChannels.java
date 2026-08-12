@@ -37,19 +37,9 @@ public class NotificationChannels {
     public static final String TAG = NotificationChannels.class.getSimpleName();
     private static HashMap<String, String> map;
 
-    public static final String LOW_BRIDGE_BATTERY_CHANNEL = "lowBridgeBattery";
-    public static final String LOW_TRANSMITTER_BATTERY_CHANNEL = "lowTransmitterBattery";
-    public static final String NIGHTSCOUT_UPLOADER_CHANNEL = "nightscoutUploaderChannel";
-    public static final String PARAKEET_STATUS_CHANNEL = "parakeetStatusChannel";
     public static final String REMINDER_CHANNEL = "reminderChannel";
     public static final String BG_ALERT_CHANNEL = "bgAlertChannel";
-    public static final String BG_MISSED_ALERT_CHANNEL = "bgMissedAlertChannel";
-    public static final String BG_RISE_DROP_CHANNEL = "bgRiseDropChannel";
-    public static final String BG_PREDICTED_LOW_CHANNEL = "bgPredictedLowChannel";
-    public static final String BG_PERSISTENT_HIGH_CHANNEL = "bgPersistentHighChannel";
-    public static final String CALIBRATION_CHANNEL = "calibrationChannel";
     public static final String ONGOING_CHANNEL = "ongoingChannel";
-    public static final String ICON_TEST_CHANNEL = "numberIconTestChannel";
     public static final String GENERAL_CHANNEL = "generalChannel"; // This should be used for all existing notifications that have null for their channel.
     public static final String SENSOR_EXPIRY_CHANNEL = "sensorExpiryChannel";
     public static final String OTHER_ALERTS_CHANNEL = "otherAlertsChannel"; // This is the channel for all Other alerts.
@@ -65,18 +55,12 @@ public class NotificationChannels {
     private static synchronized void initialize_name_map() {
         if (map != null) return;
         map = new HashMap<>();
-        map.put(LOW_BRIDGE_BATTERY_CHANNEL, xdrip.getAppContext().getString(R.string.low_bridge_battery));
-        map.put(LOW_TRANSMITTER_BATTERY_CHANNEL, xdrip.getAppContext().getString(R.string.transmitter_battery));
-        map.put(NIGHTSCOUT_UPLOADER_CHANNEL, "Nightscout");
-        map.put(PARAKEET_STATUS_CHANNEL, xdrip.getAppContext().getString(R.string.parakeet_related_alerts));
         map.put(REMINDER_CHANNEL, xdrip.getAppContext().getString(R.string.reminders));
-        map.put(BG_ALERT_CHANNEL, xdrip.getAppContext().getString(R.string.glucose_alerts_settings));
-        map.put(BG_MISSED_ALERT_CHANNEL, xdrip.getAppContext().getString(R.string.missed_reading_alert));
-        map.put(BG_RISE_DROP_CHANNEL, xdrip.getAppContext().getString(R.string.bg_rising_fast));
-        map.put(BG_PREDICTED_LOW_CHANNEL, xdrip.getAppContext().getString(R.string.low_predicted));
-        map.put(BG_PERSISTENT_HIGH_CHANNEL, xdrip.getAppContext().getString(R.string.persistent_high_alert));
-        map.put(CALIBRATION_CHANNEL, xdrip.getAppContext().getString(R.string.calibration_alerts));
-        map.put(ONGOING_CHANNEL, "Ongoing notification"); // TODO Navid Use a string.
+        map.put(BG_ALERT_CHANNEL, "Glucose level alerts"); // TODO Navid Add a string.
+        map.put(ONGOING_CHANNEL, "Ongoing notification"); // TODO Navid Add a string.
+        map.put(SENSOR_EXPIRY_CHANNEL, "Sensor expiry"); // TODO Navid Add a string.
+        map.put(GENERAL_CHANNEL, "General"); // TODO Navid Add a string.
+        map.put(OTHER_ALERTS_CHANNEL, "Other alerts"); // TODO Navid Add a string.
     }
 
 
@@ -266,7 +250,7 @@ public class NotificationChannels {
         }
     }
 
-    private static void setupSilentChannel(String id, String name, int importance, int lightColor, boolean useVibration, long[] vibratePattern, boolean showBadge) {
+    private static void setupChannel(String id, String name, int importance, int lightColor, boolean useVibration, long[] vibratePattern, boolean showBadge) {
         AudioAttributes attr = new AudioAttributes.Builder()
                 .setUsage(AudioAttributes.USAGE_NOTIFICATION)
                 .setContentType(AudioAttributes.CONTENT_TYPE_UNKNOWN).build();
@@ -287,13 +271,12 @@ public class NotificationChannels {
 
     public static void setupAllChannels() {
         // Create the required notification channels that do not need to be created dynamically
-        final long[] vibratePatternGeneral = {0, 1000, 300, 1000, 300, 1000};
-        setupSilentChannel(ICON_TEST_CHANNEL, "Icon test", NotificationManager.IMPORTANCE_DEFAULT, 0, true, NumberGraphic.vibratePattern, false); // TODO Navid Use a string.
-        // setupSilentChannel(ONGOING_CHANNEL, "Ongoing notification", NotificationManager.IMPORTANCE_DEFAULT, 0, false, null, false); // This has to be created dynamically not here. Otherwise, the notification will be grouped with others!
-        setupSilentChannel(BG_ALERT_CHANNEL, "Glucose level alerts", NotificationManager.IMPORTANCE_HIGH, 0xffff0000, true, Notifications.vibratePattern, true); // TODO Navid Use a string.
-        setupSilentChannel(OTHER_ALERTS_CHANNEL, "Other alerts", NotificationManager.IMPORTANCE_HIGH, 0xffffbf00, true, Notifications.vibratePattern, true); // TODO Navid Use a string.
-        setupSilentChannel(SENSOR_EXPIRY_CHANNEL, "Sensor expiry", NotificationManager.IMPORTANCE_HIGH, 0xffffbf00, true,  Notifications.vibratePattern, true); // TODO Navid Use a string.
-        setupSilentChannel(GENERAL_CHANNEL, "General", NotificationManager.IMPORTANCE_DEFAULT, 0xff00ff00, true, vibratePatternGeneral, true); // TODO Navid Use a string.
+        // The ongoing channel is the only channel that we create dynamically. Otherwise, the ongoing notification will be grouped with the other notifications (alerts)!
+        setupChannel(BG_ALERT_CHANNEL, getString(BG_ALERT_CHANNEL), NotificationManager.IMPORTANCE_HIGH, 0xffff0000, false, null, true);
+        setupChannel(OTHER_ALERTS_CHANNEL, getString(OTHER_ALERTS_CHANNEL), NotificationManager.IMPORTANCE_HIGH, 0xffffbf00, false, null, true);
+        setupChannel(SENSOR_EXPIRY_CHANNEL, getString(SENSOR_EXPIRY_CHANNEL), NotificationManager.IMPORTANCE_HIGH, 0xffffbf00, false,  null, true);
+        setupChannel(GENERAL_CHANNEL, getString(GENERAL_CHANNEL), NotificationManager.IMPORTANCE_DEFAULT, 0xff00ff00, false, null, true);
+        setupChannel(REMINDER_CHANNEL, getString(REMINDER_CHANNEL), NotificationManager.IMPORTANCE_DEFAULT, 0xff00ff00, false, null, true);
     }
 
 }

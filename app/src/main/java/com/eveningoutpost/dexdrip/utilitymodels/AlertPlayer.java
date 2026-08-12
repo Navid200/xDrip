@@ -585,15 +585,15 @@ public class AlertPlayer {
         }
         if (profile != ALERT_PROFILE_SILENT && alert.vibrate) {
             if (notSilencedDueToCall()) {
-                builder.setVibrate(Notifications.vibratePattern);
+                if (alert.override_silent_mode || isLoudPhone(context)) {
+                    JoH.vibrateInternal(Notifications.vibratePattern);
+                }
             } else {
                 Log.i(TAG, "Vibration silenced due to ongoing call");
             }
-        } else {
-            // In order to still show on all android wear watches, either a sound or a vibrate pattern
-            // seems to be needed. This pattern basically does not vibrate:
-            builder.setVibrate(new long[]{1, 0});
         }
+        // Let's keep this dummy pattern so the notification still mirrors to watches
+        builder.setVibrate(new long[]{1, 0});
         Log.ueh(TAG, contentLog);
         final NotificationManager mNotifyMgr = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         //mNotifyMgr.cancel(Notifications.exportAlertNotificationId); // this appears to confuse android wear version 2.0.0.141773014.gms even though it shouldn't - can we survive without this?
@@ -667,13 +667,13 @@ public class AlertPlayer {
         return true;
     }
 
-    public synchronized void startOtherAlert(Context context, String soundUri, boolean overrideSilent, float minVolume, String type) {
+    public synchronized void startGenericAlert(Context context, String soundUri, boolean overrideSilent, float minVolume, String type) {
         // This is where we create a sound for an Other alert because the notification itself is always silent.
         if (!notSilencedDueToCall()) return;
 
         int profile = getAlertProfile(context);
-        if (profile == ALERT_PROFILE_SILENT || profile == ALERT_PROFILE_VIBRATE_ONLY) {
-            Log.ueh(TAG, "Silent " + type + " due to silent profile");
+        if (profile == ALERT_PROFILE_SILENT) {
+            Log.ueh(TAG, "Silent " + type + " due to Silent profile");
             return;
         }
 
@@ -687,6 +687,10 @@ public class AlertPlayer {
             Log.ueh(TAG, "Silent " + type + " due to silent mode");
             return;
         }
+
+        JoH.vibrateInternal(Notifications.vibratePattern);
+
+        if (profile == ALERT_PROFILE_VIBRATE_ONLY) return;
 
         playFile(context, soundUri, vf, overrideSilent, overrideSilent);
         ping("alarm");

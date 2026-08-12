@@ -836,7 +836,7 @@ public class Notifications extends IntentService {
     }
 
     private void calibrationNotificationCreate(String title, String content, Intent intent, int notificationId) {
-        NotificationCompat.Builder mBuilder = notificationBuilder(title, content, intent, NotificationChannels.CALIBRATION_CHANNEL);
+        NotificationCompat.Builder mBuilder = notificationBuilder(title, content, intent, NotificationChannels.GENERAL_CHANNEL);
         mBuilder.setVisibility(Pref.getBooleanDefaultFalse("public_notifications") ? Notification.VISIBILITY_PUBLIC : Notification.VISIBILITY_PRIVATE);
         mBuilder.setVibrate(vibratePattern);
         mBuilder.setLights(0xff00ff00, 300, 1000);
@@ -923,12 +923,12 @@ public class Notifications extends IntentService {
     public static void bgMissedAlert(Context context) {
         final String type = "bg_missed_alerts";
         long otherAlertReraiseSec = MissedReadingService.getOtherAlertReraiseSec(context, type);
-        OtherAlert(context, type, context.getString(R.string.bg_reading_missed) + "  (@" + JoH.hourMinuteString() + ")", missedAlertNotificationId, NotificationChannels.BG_MISSED_ALERT_CHANNEL, true, otherAlertReraiseSec);
+        OtherAlert(context, type, context.getString(R.string.bg_reading_missed) + "  (@" + JoH.hourMinuteString() + ")", missedAlertNotificationId, OTHER_ALERTS_CHANNEL, true, otherAlertReraiseSec);
     }
 
     public static void ob1SessionRestartRequested() {
         Context context = xdrip.getAppContext();
-        OtherAlert(context, "ob1_session_restart", context.getString(R.string.ob1_session_restarted_title), context.getString(R.string.ob1_session_restarted_msg), ob1SessionRestartNotificationId, NotificationChannels.CALIBRATION_CHANNEL, true, 0);
+        OtherAlert(context, "ob1_session_restart", context.getString(R.string.ob1_session_restarted_title), context.getString(R.string.ob1_session_restarted_msg), ob1SessionRestartNotificationId, OTHER_ALERTS_CHANNEL, true, 0);
     }
 
     public static void RisingAlert(Context context, boolean on) {
@@ -942,7 +942,7 @@ public class Notifications extends IntentService {
         final String type = "bg_predict_alert";
         if (on) {
             if ((Pref.getLong("alerts_disabled_until", 0) < JoH.tsl()) && (Pref.getLong("low_alerts_disabled_until", 0) < JoH.tsl())) {
-                OtherAlert(context, type, msg, lowPredictAlertNotificationId, NotificationChannels.BG_PREDICTED_LOW_CHANNEL, true, 20 * 60);
+                OtherAlert(context, type, msg, lowPredictAlertNotificationId, NotificationChannels.GENERAL_CHANNEL, true, 20 * 60);
                 if (Pref.getBooleanDefaultFalse("speak_alerts")) {
                     if (JoH.pratelimit("low-predict-speak", 1800)) SpeechUtil.say(msg, 4000);
                 }
@@ -968,7 +968,7 @@ public class Notifications extends IntentService {
                 }
                 if (snooze_time < 1) snooze_time = 1;       // not less than 1 minute
                 if (snooze_time > 1440) snooze_time = 1440; // not more than 1 day
-                OtherAlert(context, type, msg, persistentHighAlertNotificationId, NotificationChannels.BG_PERSISTENT_HIGH_CHANNEL, true, snooze_time * 60);
+                OtherAlert(context, type, msg, persistentHighAlertNotificationId, NotificationChannels.GENERAL_CHANNEL, true, snooze_time * 60);
                 if (Pref.getBooleanDefaultFalse("speak_alerts")) {
                     if (JoH.pratelimit("persist-high-speak", 1800)) {
                         SpeechUtil.say(msg, 4000);
@@ -987,7 +987,7 @@ public class Notifications extends IntentService {
     public static void RiseDropAlert(Context context, boolean on, String type, String message, int notificatioId) {
         if(on) {
             // This alerts will only happen once. Want to have maxint, but not create overflow.
-            OtherAlert(context, type, message, notificatioId, NotificationChannels.BG_RISE_DROP_CHANNEL, true, Integer.MAX_VALUE / 100000);
+            OtherAlert(context, type, message, notificatioId, OTHER_ALERTS_CHANNEL, true, Integer.MAX_VALUE / 100000);
         } else {
             NotificationManager mNotifyMgr = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
             mNotifyMgr.cancel(notificatioId);
@@ -1043,7 +1043,7 @@ public class Notifications extends IntentService {
             mBuilder.setVibrate(vibratePattern);
 
             float minVolume = (type.equals("bg_missed_alerts") || type.equals("persistent_high_alert")) ? MIN_ALARM_VOLUME : MIN_VOLUME;
-            AlertPlayer.getPlayer().startOtherAlert(context, otherAlertsSound, extraAlertsOverrideSilent, minVolume, type);
+            AlertPlayer.getPlayer().startGenericAlert(context, otherAlertsSound, extraAlertsOverrideSilent, minVolume, type);
 
             NotificationManager mNotifyMgr = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
             //mNotifyMgr.cancel(notificatioId);

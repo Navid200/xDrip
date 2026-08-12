@@ -34,15 +34,14 @@ public class NumberGraphic {
 
     public static void testNotification(String text) {
         {
-            final Notification.Builder mBuilder = new Notification.Builder(xdrip.getAppContext(), NotificationChannels.ICON_TEST_CHANNEL);
+            final Notification.Builder mBuilder = new Notification.Builder(xdrip.getAppContext(), NotificationChannels.GENERAL_CHANNEL);
 
             mBuilder.setSmallIcon(Icon.createWithBitmap(getSmallIconBitmap(text)));
-
             mBuilder.setContentTitle("Test Number Graphic");
             mBuilder.setContentText("Check the number is visible");
             mBuilder.setTimeoutAfter(Constants.SECOND_IN_MS * 30);
             mBuilder.setOngoing(false);
-            mBuilder.setVibrate(vibratePattern);
+            JoH.vibrateInternal(vibratePattern);
 
             int mNotificationId = Constants.NUMBER_TEXT_TEST_ID;
             final NotificationManager mNotifyMgr = (NotificationManager) xdrip.getAppContext().getSystemService(NOTIFICATION_SERVICE);
