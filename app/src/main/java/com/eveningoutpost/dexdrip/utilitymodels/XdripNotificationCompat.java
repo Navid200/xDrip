@@ -16,14 +16,15 @@ public class XdripNotificationCompat extends NotificationCompat {
     public static Notification build(NotificationCompat.Builder builder) {
         Notification n = builder.build();
         String id = n.getChannelId();
-        if (id == null || (!id.equals(NotificationChannels.BG_ALERT_CHANNEL) && !id.equals(NotificationChannels.OTHER_ALERTS_CHANNEL))) {
-            try { id = NotificationChannels.getChan(builder).getId(); }
-            catch (Exception e) { id = NotificationChannels.GENERAL_CHANNEL; }
+
+        if (id == null) {
+            id = NotificationChannels.GENERAL_CHANNEL;
             builder.setChannelId(id);
-            n = builder.build();
         }
+
         builder.setGroup(null);
         builder.setGroupSummary(false);
+        n = builder.build();
 
         UserError.Log.d(TAG, "NotifCompat: chan=" + id +
                 " group=" + NotificationCompat.getGroup(n) +

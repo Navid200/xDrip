@@ -38,6 +38,7 @@ import com.eveningoutpost.dexdrip.models.Calibration;
 import com.eveningoutpost.dexdrip.models.CalibrationRequest;
 import com.eveningoutpost.dexdrip.models.JoH;
 import com.eveningoutpost.dexdrip.models.Sensor;
+import com.eveningoutpost.dexdrip.models.UserError;
 import com.eveningoutpost.dexdrip.models.UserError.Log;
 import com.eveningoutpost.dexdrip.models.UserNotification;
 import com.eveningoutpost.dexdrip.R;
@@ -1004,6 +1005,9 @@ public class Notifications extends IntentService {
         String otherAlertsSound = prefs.getString(type+"_sound",prefs.getString("other_alerts_sound", "content://settings/system/notification_sound"));
         boolean otherAlertsOverrideSilent = prefs.getBoolean("other_alerts_override_silent", false);
         boolean extraAlertsOverrideSilent = prefs.getBoolean(type+"_override_silent", otherAlertsOverrideSilent); // Inherit from other alerts if the alert itself does not have a dedicated setting
+        // Let's create a local variable representing if there should be vibration for this alert or not.
+        // If 'type' does not correspond to a real setting, which will be the case for "other alerts", the Other_alerts_vibrate_on_alert setting will be used.
+        Boolean otherAlertsVibrateOnAlert = prefs.getBoolean(type+"_vibrate_on_alert", prefs.getBoolean("other_alerts_vibrate_on_alert", true));
 
         Log.d(TAG,"OtherAlert called " + type + " " + message + " reraiseSec = " + reraiseSec);
         UserNotification userNotification = UserNotification.GetNotificationByType(type); //"bg_unclear_readings_alert"
@@ -1040,10 +1044,17 @@ public class Notifications extends IntentService {
                 deleteIntent.putExtra("raisedTimeStamp", JoH.tsl());
                 mBuilder.setDeleteIntent(PendingIntent.getService(context, 0, deleteIntent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE));
             }
+            if (extraAlertsOverrideSilent) {
+                UserError.Log.d(TAG, "Setting full screen intent");
+                mBuilder.setCategory(NotificationCompat.CATEGORY_ALARM);
+                mBuilder.setFullScreenIntent(AlertPlayer.getPlayer().notificationIntent(context, new Intent(context, Home.class)), true);
+            }
+            // Vibration is handled programmatically via JoH.vibrateInternal for the phone hardware.
+            // This builder line remains strictly to ensure mirroring smartwatches still vibrate.
             mBuilder.setVibrate(vibratePattern);
 
             float minVolume = (type.equals("bg_missed_alerts") || type.equals("persistent_high_alert")) ? MIN_ALARM_VOLUME : MIN_VOLUME;
-            AlertPlayer.getPlayer().startGenericAlert(context, otherAlertsSound, extraAlertsOverrideSilent, minVolume, type);
+            AlertPlayer.getPlayer().startGenericAlert(context, otherAlertsSound, extraAlertsOverrideSilent, minVolume, type, otherAlertsVibrateOnAlert, vibratePattern);
 
             NotificationManager mNotifyMgr = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
             //mNotifyMgr.cancel(notificatioId);

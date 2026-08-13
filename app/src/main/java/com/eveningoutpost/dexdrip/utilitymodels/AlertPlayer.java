@@ -459,8 +459,8 @@ public class AlertPlayer {
         }
     }
 
-    private PendingIntent notificationIntent(Context ctx, Intent intent){
-        return PendingIntent.getActivity(ctx, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT);
+    public PendingIntent notificationIntent(Context ctx, Intent intent){
+        return PendingIntent.getActivity(ctx, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
 
     }
     private PendingIntent snoozeIntent(Context ctx, int minsSinceStartPlaying){
@@ -667,7 +667,7 @@ public class AlertPlayer {
         return true;
     }
 
-    public synchronized void startGenericAlert(Context context, String soundUri, boolean overrideSilent, float minVolume, String type) {
+    public synchronized void startGenericAlert(Context context, String soundUri, boolean overrideSilent, float minVolume, String type, boolean vibrate, long[] vibratePattern) {
         // This is where we create a sound for an Other alert because the notification itself is always silent.
         if (!notSilencedDueToCall()) return;
 
@@ -688,7 +688,9 @@ public class AlertPlayer {
             return;
         }
 
-        JoH.vibrateInternal(Notifications.vibratePattern);
+        if (vibrate) {
+            JoH.vibrateInternal(vibratePattern);
+        }
 
         if (profile == ALERT_PROFILE_VIBRATE_ONLY) return;
 

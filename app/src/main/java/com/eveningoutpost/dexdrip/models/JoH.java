@@ -1605,15 +1605,14 @@ public class JoH {
         }
         final NotificationCompat.Builder mBuilder = notificationBuilder(title, content, intent, channelId);
         final long[] vibratePattern = {0, 1000, 300, 1000, 300, 1000};
-        if (vibrate) {
-            vibrateInternal(vibratePattern);
-            mBuilder.setVibrate(new long[]{1, 0}); // Dummy pattern for watch support
-        }
         if (deleteIntent != null) mBuilder.setDeleteIntent(deleteIntent);
         mBuilder.setLights(0xff00ff00, 300, 1000);
-        if (sound) {
+        if (sound || vibrate) {
+            if (vibrate) {
+                mBuilder.setVibrate(vibratePattern); // Keeping builder line for watch support
+            }
             final String uriString = (sound_uri != null) ? sound_uri.toString() : android.media.RingtoneManager.getDefaultUri(android.media.RingtoneManager.TYPE_NOTIFICATION).toString();
-            AlertPlayer.getPlayer().startGenericAlert(xdrip.getAppContext(), uriString, false, MIN_VOLUME, "general_notification");
+            AlertPlayer.getPlayer().startGenericAlert(xdrip.getAppContext(), uriString, false, MIN_VOLUME, "general_notification", vibrate, vibratePattern);
         }
 
         if (bigmsg != null) {

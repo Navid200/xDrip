@@ -1198,7 +1198,7 @@ public class Reminders extends ActivityWithRecycler implements SensorEventListen
                     Treatments.create_note("Reminder"+": " + reminder.getTitle(), tsl());
                 }
 
-                JoH.showNotification(reminder.getTitle(), xdrip.getAppContext().getString(R.string.reminder_due) + " " + JoH.hourMinuteString(reminder.next_due), pendingIntent, NOTIFICATION_ID, NotificationChannels.REMINDER_CHANNEL, true, true, deleteIntent, JoH.isOngoingCall() ? null : (reminder.sound_uri != null) ? Uri.parse(reminder.sound_uri) : Uri.parse(JoH.getResourceURI(R.raw.reminder_default_notification)), null);
+                JoH.showNotification(reminder.getTitle(), xdrip.getAppContext().getString(R.string.reminder_due) + " " + JoH.hourMinuteString(reminder.next_due), pendingIntent, NOTIFICATION_ID, NotificationChannels.OTHER_ALERTS_CHANNEL, true, true, deleteIntent, JoH.isOngoingCall() ? null : (reminder.sound_uri != null) ? Uri.parse(reminder.sound_uri) : Uri.parse(JoH.getResourceURI(R.raw.reminder_default_notification)), null);
 
                 //    JoH.showNotification(reminder.getTitle(), "Reminder due " + JoH.hourMinuteString(reminder.next_due), pendingIntent, NOTIFICATION_ID, true, true, deleteIntent, JoH.isOngoingCall() ? null : (reminder.sound_uri != null) ? Uri.parse(reminder.sound_uri) : Uri.parse(JoH.getResourceURI(R.raw.reminder_default_notification)));
                 UserError.Log.ueh("Reminder Alert", reminder.getTitle() + " due: " + dateTimeText(reminder.next_due) + ((reminder.snoozed_till > reminder.next_due) ? " snoozed till: " + dateTimeText(reminder.snoozed_till) : ""));
