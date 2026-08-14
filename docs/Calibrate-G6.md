@@ -8,7 +8,7 @@ description: "Step-by-step guidance on when and how to calibrate G6 or Dexcom ON
   
 See [Calibration](./Calibration.md) for details about what calibration is and when and why you should calibrate.  
   
-Restarting G6 can have negative impact on accuracy and calibration: ./Restart-G6-sensor.md  
+Restarting G6 can have negative impact on accuracy and calibration: [link](./Restart-G6-sensor.md)  
   
 You should not over-calibrate G6 or ONE.  Even the manufacturer tells you [that](https://www.dexcom.com/faqs/is-my-dexcom-sensor-accurate).  
 
