@@ -7,7 +7,9 @@ description: "Step-by-step guidance on when and how to calibrate G6 or Dexcom ON
 [xDrip](../) >> [Features](./Features_page.md) >> [xDrip & Dexcom](./Dexcom_page.md) >> Calibrate G6 or Dexcom ONE with xDrip  
   
 See [Calibration](./Calibration.md) for details about what calibration is and when and why you should calibrate.  
-
+  
+Restarting G6 can have negative impact on accuracy and calibration: ./Restart-G6-sensor.md  
+  
 You should not over-calibrate G6 or ONE.  Even the manufacturer tells you [that](https://www.dexcom.com/faqs/is-my-dexcom-sensor-accurate).  
 
 You should use an xDrip release not older than the current stable release.  You can see how to update [here](./Updates.md).  
