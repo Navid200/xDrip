@@ -1054,7 +1054,7 @@ public class Notifications extends IntentService {
             mBuilder.setVibrate(vibratePattern);
 
             float minVolume = (type.equals("bg_missed_alerts") || type.equals("persistent_high_alert")) ? MIN_ALARM_VOLUME : MIN_VOLUME;
-            AlertPlayer.getPlayer().startGenericAlert(context, otherAlertsSound, extraAlertsOverrideSilent, minVolume, type, otherAlertsVibrateOnAlert, vibratePattern);
+            AlertPlayer.getPlayer().startGenericAlert(context, true, otherAlertsSound, extraAlertsOverrideSilent, minVolume, type, otherAlertsVibrateOnAlert, vibratePattern);
 
             NotificationManager mNotifyMgr = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
             //mNotifyMgr.cancel(notificatioId);

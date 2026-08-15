@@ -369,6 +369,7 @@ public class AlertPlayer {
             setDataSourceSucceeded = setMediaDataSource(ctx, mediaPlayer, Uri.parse(fileName));
         }
         if (!setDataSourceSucceeded) {
+            UserError.Log.uel(TAG, "Uri access failed");
             setDataSourceSucceeded = setMediaDataSource(ctx, mediaPlayer, R.raw.default_alert);
         }
         if (!setDataSourceSucceeded) {
@@ -667,34 +668,36 @@ public class AlertPlayer {
         return true;
     }
 
-    public synchronized void startGenericAlert(Context context, String soundUri, boolean overrideSilent, float minVolume, String type, boolean vibrate, long[] vibratePattern) {
-        // This is where we create a sound for an Other alert because the notification itself is always silent.
-        if (!notSilencedDueToCall()) return;
+    public synchronized void startGenericAlert(Context context, boolean sound, String soundUri, boolean overrideSilent, float minVolume, String type, boolean vibrate, long[] vibratePattern) {
+        // This is where we create a sound or vibration for Other alerts or any other notification.
+
+        if (!notSilencedDueToCall() || (!sound & !vibrate))
+            return; // Nothing to do if there is a phone call or there is neither sound nor vibration.
 
         int profile = getAlertProfile(context);
         if (profile == ALERT_PROFILE_SILENT) {
             Log.ueh(TAG, "Silent " + type + " due to Silent profile");
-            return;
-        }
-
-        int stream = overrideSilent ? AudioManager.STREAM_ALARM : AudioManager.STREAM_MUSIC;
-        int maxVol = getMaxVolume(stream);
-        float vf = maxVol > 0 ? (float) getVolume(stream) / maxVol : minVolume;
-
-        if (vf < minVolume && (overrideSilent || vf > 0)) vf = minVolume;
-
-        if (vf <= 0) {
-            Log.ueh(TAG, "Silent " + type + " due to silent mode");
-            return;
+            return; // We will be quiet if the Silent volume profile is in effect.
         }
 
         if (vibrate) {
             JoH.vibrateInternal(vibratePattern);
         }
 
-        if (profile == ALERT_PROFILE_VIBRATE_ONLY) return;
+        if (sound && profile != ALERT_PROFILE_VIBRATE_ONLY) {
 
-        playFile(context, soundUri, vf, overrideSilent, overrideSilent);
-        ping("alarm");
+            int stream = overrideSilent ? AudioManager.STREAM_ALARM : AudioManager.STREAM_MUSIC;
+            int maxVol = getMaxVolume(stream);
+            float vf = maxVol > 0 ? (float) getVolume(stream) / maxVol : minVolume;
+
+            if (vf < minVolume && (overrideSilent || vf > 0)) vf = minVolume;
+
+            if (vf <= 0) {
+                Log.ueh(TAG, "Silent " + type + " due to silent mode");
+                return;
+            }
+            playFile(context, soundUri, vf, overrideSilent, overrideSilent);
+            ping("alarm");
+        }
     }
 }

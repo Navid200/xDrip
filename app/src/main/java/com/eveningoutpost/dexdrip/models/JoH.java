@@ -1612,7 +1612,7 @@ public class JoH {
                 mBuilder.setVibrate(vibratePattern); // Keeping builder line for watch support
             }
             final String uriString = (sound_uri != null) ? sound_uri.toString() : android.media.RingtoneManager.getDefaultUri(android.media.RingtoneManager.TYPE_NOTIFICATION).toString();
-            AlertPlayer.getPlayer().startGenericAlert(xdrip.getAppContext(), uriString, false, MIN_VOLUME, "general_notification", vibrate, vibratePattern);
+            AlertPlayer.getPlayer().startGenericAlert(xdrip.getAppContext(), sound, uriString, false, MIN_VOLUME, "general_notification", vibrate, vibratePattern);
         }
 
         if (bigmsg != null) {
