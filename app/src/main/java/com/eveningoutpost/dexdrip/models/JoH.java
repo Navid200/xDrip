@@ -3,7 +3,6 @@ package com.eveningoutpost.dexdrip.models;
 import static android.bluetooth.BluetoothDevice.PAIRING_VARIANT_PIN;
 import static android.content.Context.ALARM_SERVICE;
 import static com.eveningoutpost.dexdrip.stats.StatsActivity.SHOW_STATISTICS_PRINT_COLOR;
-import static com.eveningoutpost.dexdrip.utilitymodels.Constants.MIN_VOLUME;
 import static com.eveningoutpost.dexdrip.utilitymodels.NotificationChannels.GENERAL_CHANNEL;
 
 import android.annotation.SuppressLint;
@@ -1612,7 +1611,7 @@ public class JoH {
                 mBuilder.setVibrate(vibratePattern); // Keeping builder line for watch support
             }
             final String uriString = (sound_uri != null) ? sound_uri.toString() : android.media.RingtoneManager.getDefaultUri(android.media.RingtoneManager.TYPE_NOTIFICATION).toString();
-            AlertPlayer.getPlayer().startGenericAlert(xdrip.getAppContext(), sound, uriString, false, MIN_VOLUME, "general_notification", vibrate, vibratePattern);
+            AlertPlayer.getPlayer().startGenericAlert(xdrip.getAppContext(), sound, uriString, false, 0f, "general_notification", vibrate, vibratePattern);
         }
 
         if (bigmsg != null) {

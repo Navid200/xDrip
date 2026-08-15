@@ -59,7 +59,7 @@ import java.util.List;
 import static com.eveningoutpost.dexdrip.utilitymodels.ColorCache.X;
 import static com.eveningoutpost.dexdrip.utilitymodels.ColorCache.getCol;
 import static com.eveningoutpost.dexdrip.utilitymodels.Constants.MIN_ALARM_VOLUME;
-import static com.eveningoutpost.dexdrip.utilitymodels.Constants.MIN_VOLUME;
+import static com.eveningoutpost.dexdrip.utilitymodels.Constants.MIN_ALERT_VOLUME;
 import static com.eveningoutpost.dexdrip.utilitymodels.NotificationChannels.OTHER_ALERTS_CHANNEL;
 
 import lombok.val;
@@ -1053,7 +1053,7 @@ public class Notifications extends IntentService {
             // This builder line remains strictly to ensure mirroring smartwatches still vibrate.
             mBuilder.setVibrate(vibratePattern);
 
-            float minVolume = (type.equals("bg_missed_alerts") || type.equals("persistent_high_alert")) ? MIN_ALARM_VOLUME : MIN_VOLUME;
+            float minVolume = (type.equals("bg_missed_alerts") || type.equals("persistent_high_alert")) ? MIN_ALARM_VOLUME : MIN_ALERT_VOLUME;
             AlertPlayer.getPlayer().startGenericAlert(context, true, otherAlertsSound, extraAlertsOverrideSilent, minVolume, type, otherAlertsVibrateOnAlert, vibratePattern);
 
             NotificationManager mNotifyMgr = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
