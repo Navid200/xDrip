@@ -586,7 +586,7 @@ public class AlertPlayer {
         }
         if (profile != ALERT_PROFILE_SILENT && alert.vibrate) {
             if (notSilencedDueToCall()) {
-                if (alert.override_silent_mode || isLoudPhone(context)) {
+                if (alert.override_silent_mode || (manager != null && manager.getRingerMode() != AudioManager.RINGER_MODE_SILENT)) {
                     JoH.vibrateInternal(Notifications.vibratePattern);
                 }
             } else {
