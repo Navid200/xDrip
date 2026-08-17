@@ -168,13 +168,13 @@ public class Notifications extends IntentService {
         //bg_vibrate = prefs.getBoolean("bg_vibrate", true);
         //bg_lights = prefs.getBoolean("bg_lights", true);
         //bg_sound = prefs.getBoolean("bg_play_sound", true);
-        bg_notification_sound = prefs.getString("bg_notification_sound", "content://settings/system/notification_sound");
+        bg_notification_sound = prefs.getString("bg_notification_sound", "default");
         bg_sound_in_silent = prefs.getBoolean("bg_sound_in_silent", false);
 
         calibration_notifications = prefs.getBoolean("calibration_notifications", false);
         calibration_snooze = Integer.parseInt(prefs.getString("calibration_snooze", "20"));
         calibration_override_silent = prefs.getBoolean("calibration_alerts_override_silent", false);
-        calibration_notification_sound = prefs.getString("calibration_notification_sound", "content://settings/system/notification_sound");
+        calibration_notification_sound = prefs.getString("calibration_notification_sound", "default");
         doMgdl = (prefs.getString("units", "mgdl").compareTo("mgdl") == 0);
         smart_snoozing = prefs.getBoolean("smart_snoozing", true);
         smart_alerting = prefs.getBoolean("smart_alerting", true);
@@ -1002,7 +1002,7 @@ public class Notifications extends IntentService {
 
     private static void OtherAlert(Context context, String type, String title, String message, int notificatioId, String deprecatedChannelId, boolean addDeleteIntent, long reraiseSec) {
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
-        String otherAlertsSound = prefs.getString(type+"_sound",prefs.getString("other_alerts_sound", "content://settings/system/notification_sound"));
+        String otherAlertsSound = prefs.getString(type+"_sound",prefs.getString("other_alerts_sound", "default"));
         boolean otherAlertsOverrideSilent = prefs.getBoolean("other_alerts_override_silent", false);
         boolean extraAlertsOverrideSilent = prefs.getBoolean(type+"_override_silent", otherAlertsOverrideSilent); // Inherit from other alerts if the alert itself does not have a dedicated setting
         // Let's create a local variable representing if there should be vibration for this alert or not.

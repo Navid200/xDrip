@@ -365,15 +365,19 @@ public class AlertPlayer {
         });
 
         boolean setDataSourceSucceeded = false;
-        if (fileName != null && fileName.length() > 0) {
+        if (fileName != null && fileName.length() > 0 && !fileName.equals("default") && !fileName.startsWith("content://settings/system/")) {
             setDataSourceSucceeded = setMediaDataSource(ctx, mediaPlayer, Uri.parse(fileName));
+            if (!setDataSourceSucceeded) {
+                UserError.Log.uel(TAG, "Custom URI failed. Path: " + fileName);
+            }
         }
         if (!setDataSourceSucceeded) {
-            UserError.Log.uel(TAG, "Uri access failed");
+            // This means "default" or "content://settings/system/" is the value we have received.
+            // So, we use the default mp3 file from the repository.
             setDataSourceSucceeded = setMediaDataSource(ctx, mediaPlayer, R.raw.default_alert);
         }
         if (!setDataSourceSucceeded) {
-            Log.wtf(TAG, "setMediaDataSource failed - cannot play!");
+            Log.wtf(TAG, "FATAL: Default_alert failed to load!");
             return;
         }
 

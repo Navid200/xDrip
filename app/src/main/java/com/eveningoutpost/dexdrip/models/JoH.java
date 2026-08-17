@@ -905,7 +905,7 @@ public class JoH {
         // If file doesn't exist, fallback to parsing
         if (!file.exists()) {
             UserError.Log.wtf(TAG, "File does not exist: " + file.getAbsolutePath()+ " using fallback sound");
-            return Uri.parse("content://settings/system/notification_sound");
+            return Uri.parse("default");
         }
         val context = xdrip.getAppContext();
         return FileProvider.getUriForFile(
