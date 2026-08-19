@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2026.08.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.19) | Nocturne |  
 | [2026.08.14](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.14) | Broadcast receiver fix - Pebble and general maintenance improvements |  
 | [2026.08.08](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.08) | Pebble improvements - Wear OS crash fix - xDrip sync improvements - maintenance improvements |  
 | [2026.08.05](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.08.05) | Vixxa 1 companion - Tidepool authentication fix |  
