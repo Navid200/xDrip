@@ -102,7 +102,7 @@ import lombok.val;
 public class Reminders extends ActivityWithRecycler implements SensorEventListener {
 
     private static final String TAG = "Reminders";
-    private static final int NOTIFICATION_ID = 765;
+    public static final int NOTIFICATION_ID = 765;
     private static final String REMINDER_WAKEUP = "REMINDER_WAKEUP";
     private static final int MY_PERMISSIONS_REQUEST_STORAGE = 139;
     private static final int REQUEST_CODE_CHOOSE_FILE = 2;

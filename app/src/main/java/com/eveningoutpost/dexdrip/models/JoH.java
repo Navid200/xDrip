@@ -3,6 +3,7 @@ package com.eveningoutpost.dexdrip.models;
 import static android.bluetooth.BluetoothDevice.PAIRING_VARIANT_PIN;
 import static android.content.Context.ALARM_SERVICE;
 import static com.eveningoutpost.dexdrip.stats.StatsActivity.SHOW_STATISTICS_PRINT_COLOR;
+import static com.eveningoutpost.dexdrip.utilitymodels.Constants.SENSORY_EXPIRY_NOTIFICATION_ID;
 import static com.eveningoutpost.dexdrip.utilitymodels.NotificationChannels.GENERAL_CHANNEL;
 
 import android.annotation.SuppressLint;
@@ -68,6 +69,7 @@ import com.activeandroid.ActiveAndroid;
 import com.eveningoutpost.dexdrip.BuildConfig;
 import com.eveningoutpost.dexdrip.Home;
 import com.eveningoutpost.dexdrip.R;
+import com.eveningoutpost.dexdrip.Reminders;
 import com.eveningoutpost.dexdrip.utilitymodels.AlertPlayer;
 import com.eveningoutpost.dexdrip.utilitymodels.Constants;
 import com.eveningoutpost.dexdrip.utilitymodels.PersistentStore;
@@ -1602,6 +1604,15 @@ public class JoH {
         if (channelId == null) {
             channelId = GENERAL_CHANNEL;
         }
+        String type = "general_notification";
+        switch (notificationId) {
+            case Reminders.NOTIFICATION_ID:
+                type = "reminder";
+                break;
+            case SENSORY_EXPIRY_NOTIFICATION_ID:
+                type = "sensor_expiry";
+                break;
+        }
         final NotificationCompat.Builder mBuilder = notificationBuilder(title, content, intent, channelId);
         final long[] vibratePattern = {0, 1000, 300, 1000, 300, 1000};
         if (deleteIntent != null) mBuilder.setDeleteIntent(deleteIntent);
@@ -1611,7 +1622,7 @@ public class JoH {
                 mBuilder.setVibrate(vibratePattern); // Keeping builder line for watch support
             }
             final String uriString = (sound_uri != null) ? sound_uri.toString() : android.media.RingtoneManager.getDefaultUri(android.media.RingtoneManager.TYPE_NOTIFICATION).toString();
-            AlertPlayer.getPlayer().startGenericAlert(xdrip.getAppContext(), sound, uriString, false, 0f, "general_notification", vibrate, vibratePattern);
+            AlertPlayer.getPlayer().triggerSoundAndVibration(xdrip.getAppContext(), sound, uriString, false, 0f, type, vibrate, vibratePattern);
         }
 
         if (bigmsg != null) {
@@ -1628,14 +1639,29 @@ public class JoH {
         mNotifyMgr.notify(notificationId, XdripNotificationCompat.build(mBuilder));
     }
 
+    private static Vibrator getVibrator() {
+        return (Vibrator) xdrip.getAppContext().getSystemService(Context.VIBRATOR_SERVICE);
+    }
+
     public static void vibrateInternal(long[] pattern) {
         try {
-            final Vibrator v = (Vibrator) xdrip.getAppContext().getSystemService(Context.VIBRATOR_SERVICE);
+            final Vibrator v = getVibrator();
             if (v != null && v.hasVibrator()) {
                 v.vibrate(VibrationEffect.createWaveform(pattern, -1));
             }
         } catch (Exception e) {
             UserError.Log.e(TAG, "Failed to vibrate: " + e);
+        }
+    }
+
+    public static void cancelVibrate() {
+        final Vibrator v = getVibrator();
+        if (v != null) {
+            try {
+                v.cancel();
+            } catch (Exception e) {
+                // ignore
+            }
         }
     }
 

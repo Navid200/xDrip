@@ -1,6 +1,7 @@
 package com.eveningoutpost.dexdrip.utilitymodels;
 
 import static com.eveningoutpost.dexdrip.Home.startWatchUpdaterService;
+import static com.eveningoutpost.dexdrip.models.JoH.cancelVibrate;
 import static com.eveningoutpost.dexdrip.models.JoH.delayedMediaPlayerRelease;
 import static com.eveningoutpost.dexdrip.models.JoH.setMediaDataSource;
 import static com.eveningoutpost.dexdrip.models.JoH.stopAndReleasePlayer;
@@ -115,6 +116,7 @@ public class AlertPlayer {
     private final static String TAG = AlertPlayer.class.getSimpleName();
     private volatile MediaPlayer mediaPlayer = null;
     private final AudioManager manager = (AudioManager)xdrip.getAppContext().getSystemService(Context.AUDIO_SERVICE);
+    private static String activeTag = ""; // The alert that is currently playing or vibrating
     volatile int volumeBeforeAlert = -1;
     volatile int volumeForThisAlert = -1;
 
@@ -198,6 +200,7 @@ public class AlertPlayer {
     }
 
     public synchronized void stopAlert(Context ctx, boolean ClearData, boolean clearIfSnoozeFinished, boolean cancelNotification) {
+        activeTag = "";
 
         Log.d(TAG, "stopAlert: stop called ClearData " + ClearData + "  ThreadID " + Thread.currentThread().getId());
         if (ClearData) {
@@ -352,6 +355,7 @@ public class AlertPlayer {
 
         mediaPlayer.setOnCompletionListener(mp -> {
             Log.i(TAG, "playFile: onCompletion called (finished playing) ");
+            activeTag = "";
             delayedMediaPlayerRelease(mp);
             JoH.threadSleep(300);
             revertCurrentVolume(streamType);
@@ -514,6 +518,26 @@ public class AlertPlayer {
     }
 
     protected void VibrateNotifyMakeNoise(Context context, AlertType alert, String bgValue, int minsFromStartPlaying) {
+        String tag = "high_glucose_level";
+        if (!alert.above) {
+            tag = "low_glucose_level";
+        }
+        int priority = getPriority(tag);
+        int currentPriority = getPriority(activeTag);
+
+        if (currentPriority > priority) {
+            UserError.Log.e(TAG,tag + " ignored. " + activeTag + " (P" + currentPriority + ") is active.");
+            return;
+        }
+
+        if (currentPriority > 0) {
+            UserError.Log.e(TAG, tag + " stopping audio/vibe for " + activeTag);
+            stopAndReleasePlayer(mediaPlayer);
+            cancelVibrate();
+        }
+
+        activeTag = tag;
+
         Log.d(TAG, "VibrateNotifyMakeNoise called minsFromStartedPlaying = " + minsFromStartPlaying);
         Log.d(TAG, "setting vibrate alarm");
         int profile = getAlertProfile(context);
@@ -672,36 +696,86 @@ public class AlertPlayer {
         return true;
     }
 
-    public synchronized void startGenericAlert(Context context, boolean sound, String soundUri, boolean overrideSilent, float minVolume, String type, boolean vibrate, long[] vibratePattern) {
-        // This is where we create a sound or vibration for Other alerts or any other notification.
+    public synchronized void triggerSoundAndVibration(Context context, boolean sound, String soundUri, boolean overrideSilent, float minVolume, String type, boolean vibrate, long[] vibratePattern) {
+        // This is where we create sound and vibration for Other alerts as well as for some other notification.
 
-        if (!notSilencedDueToCall() || (!sound & !vibrate))
-            return; // Nothing to do if there is a phone call or there is neither sound nor vibration.
+        int priority = getPriority(type);
+        int currentPriority = getPriority(activeTag);
+
+        if (currentPriority > priority) {
+            UserError.Log.e(TAG, type + " (P" + priority + ") ignored. " + activeTag + " (P" + currentPriority + ") is active.");
+            return;
+        }
+        if (currentPriority > 0) {
+            UserError.Log.e(TAG, type + " (P" + priority + ") stopping audio/vibe for " + activeTag + " (P" + currentPriority + ")");
+            stopAndReleasePlayer(mediaPlayer);
+            JoH.cancelVibrate();
+        }
+
+        activeTag = type;
+
+        if (!notSilencedDueToCall()) {
+            activeTag = "";
+            return;
+        }
 
         int profile = getAlertProfile(context);
         if (profile == ALERT_PROFILE_SILENT) {
-            Log.ueh(TAG, "Silent " + type + " due to Silent profile");
-            return; // We will be quiet if the Silent volume profile is in effect.
+            activeTag = "";
+            return;
         }
 
-        if (vibrate) {
+        AudioManager am = (AudioManager) context.getSystemService(Context.AUDIO_SERVICE);
+        boolean isSilentMode = am != null && am.getRingerMode() == AudioManager.RINGER_MODE_SILENT;
+        boolean isVibrateMode = am != null && am.getRingerMode() == AudioManager.RINGER_MODE_VIBRATE;
+
+        if (vibrate && (overrideSilent || !isSilentMode)) {
             JoH.vibrateInternal(vibratePattern);
         }
 
-        if (sound && profile != ALERT_PROFILE_VIBRATE_ONLY) {
-
+        if (sound && profile != ALERT_PROFILE_VIBRATE_ONLY && (overrideSilent || (!isSilentMode && !isVibrateMode))) {
             int stream = overrideSilent ? AudioManager.STREAM_ALARM : AudioManager.STREAM_MUSIC;
             int maxVol = getMaxVolume(stream);
-            float vf = maxVol > 0 ? (float) getVolume(stream) / maxVol : minVolume;
+            float volumeFrac = maxVol > 0 ? (float) getVolume(stream) / maxVol : minVolume;
 
-            if (vf < minVolume && (overrideSilent || vf > 0)) vf = minVolume;
-
-            if (vf <= 0) {
-                Log.ueh(TAG, "Silent " + type + " due to silent mode");
-                return;
+            if (volumeFrac < minVolume && (overrideSilent || volumeFrac > 0)) {
+                volumeFrac = minVolume;
             }
-            playFile(context, soundUri, vf, overrideSilent, overrideSilent);
-            ping("alarm");
+
+            if (volumeFrac > 0) {
+                playFile(context, soundUri, volumeFrac, overrideSilent, overrideSilent);
+                ping("alarm");
+            } else {
+                activeTag = "";
+            }
+        } else {
+            // No sound will play, so reset priority now so the gate doesn't stay locked.
+            activeTag = "";
         }
+    }
+
+    /**
+     * Determines priority for audio and vibration preemption.
+     * Higher values prevent lower-priority sounds and haptics from
+     * interrupting, but this does not affect snoozing or dismissing.
+     * @param tag The identifier for the alert type.
+     * @return Priority value; higher takes precedence.
+     */
+    private int getPriority(String tag) {
+        if (tag == null || tag.isEmpty()) return 0;
+        String t = tag.toLowerCase();
+        if (t.contains("bg_missed_alerts")) return 95;
+        if (t.contains("low_glucose_level")) return 90;
+        if (t.contains("persistent_high_alert")) return 87;
+        if (t.contains("high_glucose_level")) return 85;
+        if (t.contains("bg_predict_alert")) return 80;
+        if (t.contains("BlueReader Alarm")) return 75;
+        if (t.contains("bg_fall_alert") || t.contains("bg_rise_alert")) return 70;
+        if (t.contains("bg_unclear_readings_alert")) return 60;
+        if (t.contains("reminder")) return 50;
+        if (t.contains("sensor_expiry")) return 40;
+        if (t.contains("ob1_session_restart")) return 20;
+        if (t.contains("general_notification")) return 10;
+        return 5;
     }
 }
