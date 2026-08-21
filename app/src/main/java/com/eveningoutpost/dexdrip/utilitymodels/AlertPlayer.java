@@ -216,7 +216,7 @@ public class AlertPlayer {
             stopAndReleasePlayer(mediaPlayer);
             mediaPlayer = null;
         }
-        revertCurrentVolume(streamType);
+        revertCurrentVolume(streamType); // Make sure activeTag is set to empty before this line.
         releaseAudioFocus();
         ping("alarm");
     }
@@ -358,7 +358,7 @@ public class AlertPlayer {
             activeTag = "";
             delayedMediaPlayerRelease(mp);
             JoH.threadSleep(300);
-            revertCurrentVolume(streamType);
+            revertCurrentVolume(streamType); // Make sure activeTag is set to empty before this line.
             releaseAudioFocus();
         });
 
@@ -410,7 +410,10 @@ public class AlertPlayer {
             UserError.Log.wtf(TAG, "Cannot get max volume to adjust current volume!");
             return;
         }
-        volumeBeforeAlert = getVolume(streamType);
+        if (volumeBeforeAlert == -1) {
+            // Only record the volume before alert if an alert in progress hasn't done it already.
+            volumeBeforeAlert = getVolume(streamType);
+        }
         volumeForThisAlert = (int) (maxVolume * volumeFrac);
         Log.d(TAG, "before playing volumeBeforeAlert " + volumeBeforeAlert + " volumeForThisAlert " + volumeForThisAlert);
         // adjust volume if we are allowed and it needs adjusting
@@ -423,6 +426,10 @@ public class AlertPlayer {
     }
 
     private synchronized void revertCurrentVolume(final int streamType) {
+        if (!activeTag.isEmpty()) {
+            // Only revert the volume if we are the last alert.
+            return;
+        }
         final int currentVolume = getVolume(streamType);
         Log.d(TAG, "revertCurrentVolume volumeBeforeAlert " + volumeBeforeAlert + " volumeForThisAlert " + volumeForThisAlert
                 + " currentVolume " + currentVolume);
