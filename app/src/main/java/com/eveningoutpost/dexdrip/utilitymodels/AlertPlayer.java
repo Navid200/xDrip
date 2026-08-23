@@ -776,7 +776,7 @@ public class AlertPlayer {
         if (t.contains("persistent_high_alert")) return 87;
         if (t.contains("high_glucose_level")) return 85;
         if (t.contains("bg_predict_alert")) return 80;
-        if (t.contains("BlueReader Alarm")) return 75;
+        if (t.contains("bluereader alarm")) return 75;
         if (t.contains("bg_fall_alert") || t.contains("bg_rise_alert")) return 70;
         if (t.contains("bg_unclear_readings_alert")) return 60;
         if (t.contains("reminder")) return 50;
