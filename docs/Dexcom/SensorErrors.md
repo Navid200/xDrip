@@ -40,12 +40,11 @@ I do not experience this on a regular basis.  In the past, I have found that aft
   
 The last few times I experienced this, I tried pressing on top of the sensor and gently massaging it to slightly move the filament. My theory was that this might re-establish contact between the filament and the interstitial fluid.  
 I was pleasantly surprised to find that the readings returned.  
-
-**Please note:**
-- There is no guarantee this will always work.  
-- This may negatively impact accuracy.
-- This may interfere with the accuracy of the factory calibration.  
   
+**Please note:**  
+There is no guarantee this will always work.  
+This may negatively impact accuracy.  
+This may interfere with the accuracy of the factory calibration.  
 <br/>  
   
 ---  
