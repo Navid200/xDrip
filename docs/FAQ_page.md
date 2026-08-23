@@ -4,7 +4,7 @@ description: "Common questions and answers about installing, using, and troubles
 ---  
   
 # xDrip frequently asked questions  
-[xDrip](../) >> xDrip Frequently Asked Questions  
+[xDrip](../) >> xDrip frequently asked questions  
   
 #### [Is xDrip built for an older version of Android?](./FAQ/OlderVersionOfAndroid.md)
 #### [What can I do to avoid database corruption?](./Issues/DatabaseCorruption.md)
