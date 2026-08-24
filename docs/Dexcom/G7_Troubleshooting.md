@@ -59,10 +59,11 @@ Tap on "Restart Collector" on the classic status page.
   
 8- "Sensor Failed 7" on Dex Status Page  
 ![SensorFailed7](./images/SensorFailed7.png)  
-- Avoid  lying down on the sensor.  
+- Avoid  lying down on the sensor (to prevent compression issues).  
 - Relax the limb where the sensor is placed.  
 - Stay hydrated.  
-- It may take up to 3 hours for readings to return.  
+- It may take up to 3 hours for readings to return.
+- [This workaround](./SensorErrors.md) may help, but you must read the entire page first to understand the potential risks and impact on accuracy.  
 <br/>  
   
 ---  
