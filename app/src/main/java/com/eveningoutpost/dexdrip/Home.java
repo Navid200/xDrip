@@ -1,7 +1,6 @@
 package com.eveningoutpost.dexdrip;
 
 import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
-import static android.os.Build.VERSION_CODES.N;
 import static com.eveningoutpost.dexdrip.g5model.Ob1G5StateMachine.shortTxId;
 import static com.eveningoutpost.dexdrip.models.JoH.msSince;
 import static com.eveningoutpost.dexdrip.models.JoH.quietratelimit;
@@ -371,7 +370,7 @@ public class Home extends ActivityWithMenu implements ActivityCompat.OnRequestPe
             }
         }
 
-        if (Build.VERSION.SDK_INT < N) {
+        if (Build.VERSION.SDK_INT < 17) {
             JoH.static_toast_long(gs(R.string.xdrip_will_not_work_below_android_version_42));
             finish();
         }
@@ -3399,11 +3398,10 @@ public class Home extends ActivityWithMenu implements ActivityCompat.OnRequestPe
         new AsyncTask<Void, Void, String>() {
             @Override
             protected String doInBackground(Void... params) {
-                int permissionCheck = ContextCompat.checkSelfPermission(Home.this,
-                        Manifest.permission.READ_EXTERNAL_STORAGE);
-                if (permissionCheck != PackageManager.PERMISSION_GRANTED) {
+                if (ContextCompat.checkSelfPermission(Home.this, Manifest.permission.READ_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED ||
+                        ContextCompat.checkSelfPermission(Home.this, Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED) {
                     ActivityCompat.requestPermissions(Home.this,
-                            new String[]{Manifest.permission.READ_EXTERNAL_STORAGE},
+                            new String[]{Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE},
                             0);
                     return null;
                 } else {

@@ -367,21 +367,25 @@
                     android:title="@string/title_enlarge_fonts_on_large_screens" />
             </PreferenceScreen>
 
-            <SwitchPreference
-                android:defaultValue="false"
-                android:key="force_english"
-                android:summary="@string/using_local_language"
-                android:summaryOn="@string/forcing_alternate_language"
-                android:switchTextOff="@string/short_off_text_for_switches"
-                android:switchTextOn="@string/short_on_text_for_switches"
-                android:title="@string/force_english_text" />
-            <ListPreference
-                android:defaultValue="en"
-                android:entries="@array/LocaleChoices"
-                android:entryValues="@array/LocaleChoicesValues"
-                android:key="forced_language"
-                android:summary="@string/need_alternate_language"
-                android:title="@string/chosse_language" />
+            <PreferenceScreen
+                android:key="xdrip_language_settings"
+                android:title="@string/title_language">
+                <SwitchPreference
+                    android:defaultValue="false"
+                    android:key="force_english"
+                    android:summary="@string/using_local_language"
+                    android:summaryOn="@string/forcing_alternate_language"
+                    android:switchTextOff="@string/short_off_text_for_switches"
+                    android:switchTextOn="@string/short_on_text_for_switches"
+                    android:title="@string/force_english_text" />
+                <ListPreference
+                    android:defaultValue="en"
+                    android:entries="@array/LocaleChoices"
+                    android:entryValues="@array/LocaleChoicesValues"
+                    android:key="forced_language"
+                    android:summary="@string/need_alternate_language"
+                    android:title="@string/chosse_language" />
+            </PreferenceScreen>
 
             <SwitchPreference
                 android:defaultValue="true"
@@ -746,22 +750,6 @@
                     android:switchTextOff="@string/short_off_text_for_switches"
                     android:switchTextOn="@string/short_on_text_for_switches"
                     android:title="@string/title_use_number_icon" />
-                <SwitchPreference
-                    android:defaultValue="false"
-                    android:dependency="number_icon_tested"
-                    android:key="use_number_icon_large"
-                    android:summary="@string/summary_use_number_icon_large"
-                    android:switchTextOff="@string/short_off_text_for_switches"
-                    android:switchTextOn="@string/short_on_text_for_switches"
-                    android:title="@string/title_use_number_icon_large" />
-                <SwitchPreference
-                    android:defaultValue="false"
-                    android:dependency="use_number_icon_large"
-                    android:key="number_icon_large_arrow"
-                    android:summary="@string/summary_number_icon_large_arrow"
-                    android:switchTextOff="@string/short_off_text_for_switches"
-                    android:switchTextOn="@string/short_on_text_for_switches"
-                    android:title="@string/title_number_icon_large_arrow" />
             </PreferenceScreen>
             <SwitchPreference
                 android:defaultValue="false"

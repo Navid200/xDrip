@@ -106,8 +106,10 @@ public class UiBasedCollector extends NotificationListenerService {
         coOptedPackages.add("com.microtech.aidexx.equil.mmoll");
         coOptedPackages.add("com.microtech.aidexx.diaexport.mmoll"); //for microtech germany version, typo is intentional!
         coOptedPackages.add("com.microtech.aidexx.smart.mmoll"); //for microtech Brazil version
+        coOptedPackages.add("com.microtech.aidexx.grx1.mmoll");
         coOptedPackages.add("com.ottai.seas");
         coOptedPackages.add("com.microtech.aidexx"); //for microtech china version
+        coOptedPackages.add("com.sisensing.eco"); //for SiSensing Eco China version
         coOptedPackages.add("com.ottai.tag"); // //for ottai china version
         coOptedPackages.add("com.senseonics.eversense365.us");
         coOptedPackages.add("com.kakaohealthcare.pasta"); // A Health app for sensors that we already collect from
@@ -129,8 +131,10 @@ public class UiBasedCollector extends NotificationListenerService {
         coOptedPackagesAll.add("com.microtech.aidexx.equil.mmoll");
         coOptedPackagesAll.add("com.microtech.aidexx.diaexport.mmoll");
         coOptedPackagesAll.add("com.microtech.aidexx.smart.mmoll"); //for microtech Brazil version
+        coOptedPackagesAll.add("com.microtech.aidexx.grx1.mmoll");
         coOptedPackagesAll.add("com.ottai.seas");
         coOptedPackagesAll.add("com.microtech.aidexx"); //for microtech china version
+        coOptedPackagesAll.add("com.sisensing.eco"); //for SiSensing Eco China version
         coOptedPackagesAll.add("com.ottai.tag"); // //for ottai china version
         coOptedPackagesAll.add("com.senseonics.eversense365.us");
         coOptedPackagesAll.add("com.kakaohealthcare.pasta"); // Experiment
@@ -298,6 +302,7 @@ public class UiBasedCollector extends NotificationListenerService {
                 .replace("\u00a0", " ")
                 .replace("\u2060", "")
                 .replace("\\", "/")
+                .replace("当前血糖:", "")
                 .replace("mmol/L", "")
                 .replace("mmol/l", "")
                 .replace("mg/dL", "")

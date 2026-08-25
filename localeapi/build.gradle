@@ -3,8 +3,8 @@ android {
     compileSdkVersion 34
 
     defaultConfig {
-        minSdkVersion 21
-        targetSdkVersion 23
+        minSdkVersion 26
+        targetSdkVersion 26
         multiDexEnabled false
     }
 
@@ -15,6 +15,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+    namespace 'com.twofortyfouram.locale.api'
 }
 
 dependencies {
