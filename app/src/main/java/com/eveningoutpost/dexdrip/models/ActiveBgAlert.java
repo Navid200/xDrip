@@ -53,6 +53,11 @@ public class ActiveBgAlert extends Model {
         return activeBgAlert != null && !activeBgAlert.is_snoozed;
     }
 
+    public static boolean currentlySnoozed() {
+        final ActiveBgAlert aba = getOnly();
+        return aba != null && aba.is_snoozed;
+    }
+
     public static boolean alertSnoozeOver() {
         ActiveBgAlert activeBgAlert = getOnly();
         if (activeBgAlert == null) {
@@ -66,6 +71,7 @@ public class ActiveBgAlert extends Model {
     public void snooze(int minutes) {
         next_alert_at = new Date().getTime() + minutes * 60000;
         is_snoozed = true;
+        last_alerted_at = new Date().getTime();
         Log.ueh("Snoozed Alert","Snoozed until: "+JoH.dateTimeText(next_alert_at));
         save();
     }
@@ -124,8 +130,6 @@ public class ActiveBgAlert extends Model {
         AlertType alert = AlertType.get_alert(aba.alert_uuid);
         if(alert == null) {
             Log.d(TAG, "alertTypegetOnly did not find the active alert as part of existing alerts. returning null");
-            // removing the alert to be in a better state.
-            ClearData();
             return null;
         }
         if(!alert.uuid.equals(aba.alert_uuid)) {
@@ -203,4 +207,3 @@ public class ActiveBgAlert extends Model {
         patched = true;
     }
 }
-
