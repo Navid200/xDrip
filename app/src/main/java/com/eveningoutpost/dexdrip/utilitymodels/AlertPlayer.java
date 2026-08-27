@@ -116,7 +116,7 @@ public class AlertPlayer {
     private final static String TAG = AlertPlayer.class.getSimpleName();
     private volatile MediaPlayer mediaPlayer = null;
     private final AudioManager manager = (AudioManager)xdrip.getAppContext().getSystemService(Context.AUDIO_SERVICE);
-    private static String activeTag = ""; // The alert that is currently playing or vibrating
+    private static volatile String activeTag = ""; // Tag for the currently active sound or vibration event
     volatile int volumeBeforeAlert = -1;
     volatile int volumeForThisAlert = -1;
 
@@ -364,6 +364,7 @@ public class AlertPlayer {
 
         mediaPlayer.setOnErrorListener((mp, what, extra) -> {
             Log.e(TAG, "playFile: onError called (what: " + what + ", extra: " + extra);
+            activeTag = "";
             // possibly media player error; release is handled in onCompletionListener
             return false;
         });
