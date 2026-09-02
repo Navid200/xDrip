@@ -370,16 +370,23 @@ public class AlertPlayer {
         });
 
         boolean setDataSourceSucceeded = false;
-        if (fileName != null && fileName.length() > 0 && !fileName.equals("default") && !fileName.startsWith("content://settings/system/")) {
+        if (fileName != null && fileName.length() > 0 && !fileName.equals("default") && !fileName.equals("default_notification") && !fileName.startsWith("content://settings/system/")) {
             setDataSourceSucceeded = setMediaDataSource(ctx, mediaPlayer, Uri.parse(fileName));
             if (!setDataSourceSucceeded) {
                 UserError.Log.uel(TAG, "Custom URI failed. Path: " + fileName);
             }
         }
         if (!setDataSourceSucceeded) {
-            // This means "default" or "content://settings/system/" is the value we have received.
-            // So, we use the default mp3 file from the repository.
-            setDataSourceSucceeded = setMediaDataSource(ctx, mediaPlayer, R.raw.default_alert);
+            // This means "default", "default_notification", or "content://settings/system/" is the value we have received.
+            // If it's a low-priority event (P < 80) or explicitly requested, use the soft default notification sound.
+            if ("default_notification".equals(fileName) || (getPriority(activeTag) < 80 && "default".equals(fileName))) {
+                setDataSourceSucceeded = setMediaDataSource(ctx, mediaPlayer, R.raw.default_notification);
+            }
+
+            if (!setDataSourceSucceeded) {
+                // Otherwise, we use the default alarm from the repository.
+                setDataSourceSucceeded = setMediaDataSource(ctx, mediaPlayer, R.raw.default_alert);
+            }
         }
         if (!setDataSourceSucceeded) {
             Log.wtf(TAG, "FATAL: Default_alert failed to load!");
