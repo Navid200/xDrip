@@ -13,8 +13,7 @@ You have two options depending on which one of the two G6 transmitter slots can 
 Bluejay, by default, uses the medical slot of a G6.  If you have another device or app occupying the phone slot, for example CamAPS, and cannot use xDrip to collect from your G6, you can set up xDrip to receive readings from your Bluejay.  
   
 You first need to set up your Bluejay as an independent collector.  
-Then, you should select "640G / EverSense" as the xDrip hardware data source.  
-![](images/HDS_Eversense.png)  
+Then, you should select "Inter-app broadcast" as the xDrip hardware data source.  
   
 The following image shows the xDrip BlueJay Advanced Settings page.    
 ![](./images/BluejayAdvancedSettings.png)  
