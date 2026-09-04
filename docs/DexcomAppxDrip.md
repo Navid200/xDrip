@@ -1,7 +1,7 @@
 # Dexcom app to xDrip  
-[xDrip](../) >> [Features](./Features_page.md) >> [How to follow with xDrip](./How-to-follow.md) >> Dexcom app  
+[xDrip](../) >> [Features](./Features_page.md) >> Dexcom app  
   
-If you have to use the Dexcom app as your collector and want to use xDrip as a follower, if you run both on the same phone, you can use local broadcast to not have to need WiFi or data.  
+If you have to use the Dexcom app as your collector and want to use xDrip, if you run both on the same phone, you can use local broadcast to not have to need WiFi or data.  
   
 Instead of the Dexcom app, you will need to use the [Build your own Dexcom app](https://docs.google.com/forms/d/e/1FAIpQLScD76G0Y-BlL4tZljaFkjlwuqhT83QlFM5v6ZEfO7gCU98iJQ/viewform?usp=sf_link).  
 When setting it up, select the Dexcom device you have.  
