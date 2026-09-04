@@ -1,7 +1,6 @@
 package com.eveningoutpost.dexdrip.utilitymodels;
 
 import static com.eveningoutpost.dexdrip.Home.startWatchUpdaterService;
-import static com.eveningoutpost.dexdrip.models.JoH.cancelVibrate;
 import static com.eveningoutpost.dexdrip.models.JoH.delayedMediaPlayerRelease;
 import static com.eveningoutpost.dexdrip.models.JoH.setMediaDataSource;
 import static com.eveningoutpost.dexdrip.models.JoH.stopAndReleasePlayer;
@@ -111,12 +110,10 @@ class MediaPlayerCreaterHelper {
 public class AlertPlayer {
 
     private volatile static AlertPlayer alertPlayerInstance;
-    @Getter
-    private volatile static long lastVolumeChange = 0;
     private final static String TAG = AlertPlayer.class.getSimpleName();
     private volatile MediaPlayer mediaPlayer = null;
     private final AudioManager manager = (AudioManager)xdrip.getAppContext().getSystemService(Context.AUDIO_SERVICE);
-    private static volatile String activeTag = ""; // Tag for the currently active sound or vibration event
+    public static volatile String activeTag = ""; // Tag for the currently active sound or vibration event
     volatile int volumeBeforeAlert = -1;
     volatile int volumeForThisAlert = -1;
 
@@ -331,17 +328,31 @@ public class AlertPlayer {
     }
 
 
-    protected synchronized void playFile(final Context ctx, final String fileName, final float volumeFrac, final boolean forceSpeaker, final boolean overrideSilentMode) {
+    protected synchronized void playFile(final Context ctx, final String fileName, final float volumeFrac, final boolean forceSpeaker, final boolean overrideSilentMode, final int priority, final String tag) {
+        int currentPriority = getPriority(activeTag);
+
+        // Case 1: BLOCKING (New sound is lower priority than the one currently making noise)
+        if (mediaPlayer != null && mediaPlayer.isPlaying() && currentPriority > priority) {
+            UserError.Log.e(TAG, tag + " ignored. " + activeTag + " (P" + currentPriority + ") is playing.");
+            return;
+        }
+
+        // Case 2: PREEMPTING (New sound is higher/equal priority and something is already active)
+        if (!activeTag.isEmpty()) {
+            UserError.Log.e(TAG, tag + " stopping audio/vibe for " + activeTag);
+            if (mediaPlayer != null) {
+                stopAndReleasePlayer(mediaPlayer);
+            }
+            JoH.cancelVibrate();
+        }
+
         Log.i(TAG, "playFile: called fileName = " + fileName);
         if (volumeFrac <= 0) {
             UserError.Log.e(TAG, "Not playing file " + fileName + " as requested volume is " + volumeFrac);
             return;
         }
 
-        if (mediaPlayer != null) {
-            Log.i(TAG, "ERROR, playFile sound already playing");
-            stopAndReleasePlayer(mediaPlayer);
-        }
+        activeTag = tag; // Set tag here so volume management knows an alert is active
 
         mediaPlayer = new MediaPlayerCreaterHelper().createMediaPlayer(ctx);
         if (mediaPlayer == null) {
@@ -379,7 +390,7 @@ public class AlertPlayer {
         if (!setDataSourceSucceeded) {
             // This means "default", "default_notification", or "content://settings/system/" is the value we have received.
             // If it's a low-priority event (P < 80) or explicitly requested, use the soft default notification sound.
-            if ("default_notification".equals(fileName) || (getPriority(activeTag) < 80 && "default".equals(fileName))) {
+            if ("default_notification".equals(fileName) || (priority < 80 && "default".equals(fileName))) {
                 setDataSourceSucceeded = setMediaDataSource(ctx, mediaPlayer, R.raw.default_notification);
             }
 
@@ -473,7 +484,6 @@ public class AlertPlayer {
             return;
         }
         try {
-            lastVolumeChange = JoH.tsl();
             manager.setStreamVolume(streamType, volume, 0);
             Log.d(TAG, "Adjusted volume to: " + volume);
         } catch (SecurityException e) {
@@ -538,20 +548,6 @@ public class AlertPlayer {
             tag = "low_glucose_level";
         }
         int priority = getPriority(tag);
-        int currentPriority = getPriority(activeTag);
-
-        if (currentPriority > priority) {
-            UserError.Log.e(TAG,tag + " ignored. " + activeTag + " (P" + currentPriority + ") is active.");
-            return;
-        }
-
-        if (currentPriority > 0) {
-            UserError.Log.e(TAG, tag + " stopping audio/vibe for " + activeTag);
-            stopAndReleasePlayer(mediaPlayer);
-            cancelVibrate();
-        }
-
-        activeTag = tag;
 
         Log.d(TAG, "VibrateNotifyMakeNoise called minsFromStartedPlaying = " + minsFromStartPlaying);
         Log.d(TAG, "setting vibrate alarm");
@@ -621,7 +617,7 @@ public class AlertPlayer {
 
             if (notSilencedDueToCall()) {
                 if (overrideSilent || isLoudPhone(context)) {
-                    playFile(context, alert.mp3_file, volumeFrac, forceSpeaker, overrideSilent);
+                    playFile(context, alert.mp3_file, volumeFrac, forceSpeaker, overrideSilent, priority, tag);
                 }
             } else {
                 Log.i(TAG, "Silenced Alert Noise due to ongoing call");
@@ -630,7 +626,7 @@ public class AlertPlayer {
         if (profile != ALERT_PROFILE_SILENT && alert.vibrate) {
             if (notSilencedDueToCall()) {
                 if (alert.override_silent_mode || (manager != null && manager.getRingerMode() != AudioManager.RINGER_MODE_SILENT)) {
-                    JoH.vibrateInternal(Notifications.vibratePattern);
+                    JoH.vibrateInternal(Notifications.vibratePattern, priority, tag);
                 }
             } else {
                 Log.i(TAG, "Vibration silenced due to ongoing call");
@@ -715,19 +711,6 @@ public class AlertPlayer {
         // This is where we create sound and vibration for Other alerts as well as for some other notification.
 
         int priority = getPriority(type);
-        int currentPriority = getPriority(activeTag);
-
-        if (currentPriority > priority) {
-            UserError.Log.e(TAG, type + " (P" + priority + ") ignored. " + activeTag + " (P" + currentPriority + ") is active.");
-            return;
-        }
-        if (currentPriority > 0) {
-            UserError.Log.e(TAG, type + " (P" + priority + ") stopping audio/vibe for " + activeTag + " (P" + currentPriority + ")");
-            stopAndReleasePlayer(mediaPlayer);
-            JoH.cancelVibrate();
-        }
-
-        activeTag = type;
 
         if (!notSilencedDueToCall()) {
             activeTag = "";
@@ -745,7 +728,7 @@ public class AlertPlayer {
         boolean isVibrateMode = am != null && am.getRingerMode() == AudioManager.RINGER_MODE_VIBRATE;
 
         if (vibrate && (overrideSilent || !isSilentMode)) {
-            JoH.vibrateInternal(vibratePattern);
+            JoH.vibrateInternal(vibratePattern, priority, type);
         }
 
         if (sound && profile != ALERT_PROFILE_VIBRATE_ONLY && (overrideSilent || (!isSilentMode && !isVibrateMode))) {
@@ -758,7 +741,7 @@ public class AlertPlayer {
             }
 
             if (volumeFrac > 0) {
-                playFile(context, soundUri, volumeFrac, overrideSilent, overrideSilent);
+                playFile(context, soundUri, volumeFrac, overrideSilent, overrideSilent, priority, type);
                 ping("alarm");
             } else {
                 activeTag = "";
@@ -776,7 +759,7 @@ public class AlertPlayer {
      * @param tag The identifier for the alert type.
      * @return Priority value; higher takes precedence.
      */
-    private int getPriority(String tag) {
+    public static int getPriority(String tag) {
         if (tag == null || tag.isEmpty()) return 0;
         String t = tag.toLowerCase();
         if (t.contains("bg_missed_alerts")) return 95;

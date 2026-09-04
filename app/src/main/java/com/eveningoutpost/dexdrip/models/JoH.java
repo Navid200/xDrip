@@ -1658,7 +1658,21 @@ public class JoH {
         return (Vibrator) xdrip.getAppContext().getSystemService(Context.VIBRATOR_SERVICE);
     }
 
-    public static void vibrateInternal(long[] pattern) {
+    public static void vibrateInternal(long[] pattern, int priority, String tag) {
+        int currentPriority = AlertPlayer.getPriority(AlertPlayer.activeTag);
+
+        // Case 1: BLOCKING (New vibration is lower priority than the one currently active)
+        if (!AlertPlayer.activeTag.isEmpty() && currentPriority > priority) {
+            UserError.Log.e(TAG, tag + " vibration ignored. " + AlertPlayer.activeTag + " (P" + currentPriority + ") is active.");
+            return;
+        }
+
+        // Note: We do not set activeTag here to avoid "stuck" locks.
+        // playFile will handle setting and clearing the lock.
+        // When the day comes that we add custom vibration patterns, we will need to add intelligence here to address vibration collisions as well.
+
+        cancelVibrate(); // Stop existing vibration
+
         try {
             final Vibrator v = getVibrator();
             if (v != null && v.hasVibrator()) {

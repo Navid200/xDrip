@@ -12,6 +12,7 @@ import android.graphics.drawable.Icon;
 
 import com.eveningoutpost.dexdrip.models.JoH;
 import com.eveningoutpost.dexdrip.models.UserError;
+import com.eveningoutpost.dexdrip.utilitymodels.AlertPlayer;
 import com.eveningoutpost.dexdrip.utilitymodels.ColorCache;
 import com.eveningoutpost.dexdrip.utilitymodels.Constants;
 import com.eveningoutpost.dexdrip.utilitymodels.NotificationChannels;
@@ -34,6 +35,8 @@ public class NumberGraphic {
 
     public static void testNotification(String text) {
         {
+            String tag = "general_notification"; // Let's give this the same priority as a general notification.
+            int priority = AlertPlayer.getPriority(tag);
             final Notification.Builder mBuilder = new Notification.Builder(xdrip.getAppContext(), NotificationChannels.GENERAL_CHANNEL);
 
             mBuilder.setSmallIcon(Icon.createWithBitmap(getSmallIconBitmap(text)));
@@ -41,7 +44,7 @@ public class NumberGraphic {
             mBuilder.setContentText("Check the number is visible");
             mBuilder.setTimeoutAfter(Constants.SECOND_IN_MS * 30);
             mBuilder.setOngoing(false);
-            JoH.vibrateInternal(vibratePattern);
+            JoH.vibrateInternal(vibratePattern, priority, tag);
 
             int mNotificationId = Constants.NUMBER_TEXT_TEST_ID;
             final NotificationManager mNotifyMgr = (NotificationManager) xdrip.getAppContext().getSystemService(NOTIFICATION_SERVICE);
