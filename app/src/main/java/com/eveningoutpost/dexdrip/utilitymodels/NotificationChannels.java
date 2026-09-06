@@ -54,10 +54,10 @@ public class NotificationChannels {
     private static synchronized void initialize_name_map() {
         if (map != null) return;
         map = new HashMap<>();
-        map.put(BG_ALERT_CHANNEL, "Glucose level alerts"); // TODO Navid Add a string.
-        map.put(ONGOING_CHANNEL, "Ongoing notification"); // TODO Navid Add a string.
-        map.put(GENERAL_CHANNEL, "General"); // TODO Navid Add a string.
-        map.put(OTHER_ALERTS_CHANNEL, "Other alerts"); // TODO Navid Add a string.
+        map.put(BG_ALERT_CHANNEL, xdrip.getAppContext().getString(R.string.glucose_level_notifications));
+        map.put(ONGOING_CHANNEL, xdrip.getAppContext().getString(R.string.ongoing_notification));
+        map.put(GENERAL_CHANNEL, xdrip.getAppContext().getString(R.string.general_notifications));
+        map.put(OTHER_ALERTS_CHANNEL, xdrip.getAppContext().getString(R.string.other_alert_notifications));
     }
 
 
@@ -227,9 +227,6 @@ public class NotificationChannels {
     }
 
     private static String getBaseDisplayName(String channelId) {
-        if ("bgAlertChannel".equals(channelId)) {
-            return "Glucose level alert"; // TODO Navid use a string.
-        }
         return getString(channelId);
     }
 

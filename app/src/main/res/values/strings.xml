@@ -1619,6 +1619,10 @@
     <string name="title_ongoing_notification_channel">Use ongoing notification channel</string>
     <string name="summary_notification_channels_grouping">Whether notifications should be grouped together. Incompatible with \'Number Item in Notification Area\' option</string>
     <string name="title_notification_channels_grouping">Group notifications together</string>
+    <string name="glucose_level_notifications">Glucose level alerts</string>
+    <string name="ongoing_notification">Ongoing notification</string>
+    <string name="general_notifications">General</string>
+    <string name="other_alert_notifications">Other alerts</string>
     <string name="summary_delay_ascending_3min">For ascending volume profile, delay the start of the alert sound by 3 minutes. The vibration (if enabled) starts as soon as the alert triggers regardless of this setting.</string>
     <string name="title_ascending_volume">Ascending Volume settings</string>
     <string name="title_delay_ascending_3min">Delay Ascending Volume</string>
