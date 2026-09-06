@@ -21,6 +21,7 @@ import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Set;
 
 import lombok.val;
 
@@ -265,12 +266,33 @@ public class NotificationChannels {
     }
 
 
+    /**
+     * Creates required notification channels and cleans up legacy ones.
+     */
     public static void setupAllChannels() {
         // Create the required notification channels that do not need to be created dynamically
         // The ongoing channel is the only channel that we create dynamically. Otherwise, the ongoing notification will be grouped with the other notifications (alerts)!
         setupChannel(BG_ALERT_CHANNEL, getString(BG_ALERT_CHANNEL), NotificationManager.IMPORTANCE_HIGH, 0xffff0000, false, null, true);
         setupChannel(OTHER_ALERTS_CHANNEL, getString(OTHER_ALERTS_CHANNEL), NotificationManager.IMPORTANCE_HIGH, 0xffffbf00, false, null, true);
         setupChannel(GENERAL_CHANNEL, getString(GENERAL_CHANNEL), NotificationManager.IMPORTANCE_DEFAULT, 0xff00ff00, false, null, true);
+
+        // Delete legacy or zombie channels that are no longer part of our map
+        cleanupOldChannels();
+    }
+
+    private static void cleanupOldChannels() {
+        if (map == null) initialize_name_map();
+
+        final NotificationManager manager = getNotifManager();
+        if (manager == null) return;
+
+        final Set<String> activeIds = map.keySet();
+
+        for (NotificationChannel channel : manager.getNotificationChannels()) {
+            if (!activeIds.contains(channel.getId())) {
+                manager.deleteNotificationChannel(channel.getId());
+            }
+        }
     }
 
 }
