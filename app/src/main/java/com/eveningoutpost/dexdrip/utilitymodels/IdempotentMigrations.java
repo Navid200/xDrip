@@ -178,6 +178,7 @@ public class IdempotentMigrations {
         Pref.setBoolean("notification_channels_grouping", false);
         Pref.setBoolean("use_number_icon_large", false);
         Pref.setBoolean("number_icon_large_arrow", false);
+        Pref.setBoolean("ongoing_notification_channel", true);
 
     }
 
