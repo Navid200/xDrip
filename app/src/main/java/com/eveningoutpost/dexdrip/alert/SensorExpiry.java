@@ -7,7 +7,7 @@ import static com.eveningoutpost.dexdrip.models.JoH.niceTimeScalarNatural;
 import static com.eveningoutpost.dexdrip.models.JoH.showNotification;
 import static com.eveningoutpost.dexdrip.models.JoH.tsl;
 import static com.eveningoutpost.dexdrip.utilitymodels.Constants.SENSORY_EXPIRY_NOTIFICATION_ID;
-import static com.eveningoutpost.dexdrip.utilitymodels.NotificationChannels.SENSOR_EXPIRY_CHANNEL;
+import static com.eveningoutpost.dexdrip.utilitymodels.NotificationChannels.GENERAL_CHANNEL;
 
 import com.eveningoutpost.dexdrip.Home;
 import com.eveningoutpost.dexdrip.R;
@@ -66,7 +66,7 @@ public class SensorExpiry extends BaseAlert {
     private static void showExpiryNotification(final String message) {
         val notificationId = SENSORY_EXPIRY_NOTIFICATION_ID;
         cancelNotification(notificationId);
-        showNotification(xdrip.gs(R.string.sensor_expiring), message, null, notificationId, SENSOR_EXPIRY_CHANNEL, true, true, null, null, null, true);
+        showNotification(xdrip.gs(R.string.sensor_expiring), message, null, notificationId, GENERAL_CHANNEL, true, true, null, null, null, true);
     }
 
     /**
