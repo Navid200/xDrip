@@ -405,6 +405,7 @@ public class AlertPlayer {
             activeTag = ""; // Clear the lock
             if (mediaPlayer != null) {
                 stopAndReleasePlayer(mediaPlayer);
+                mediaPlayer = null;
             }
             return;
         }
@@ -436,6 +437,7 @@ public class AlertPlayer {
         releaseAudioFocus();
         if (mediaPlayer != null) {
             stopAndReleasePlayer(mediaPlayer);
+            mediaPlayer = null;
         }
     }
 
