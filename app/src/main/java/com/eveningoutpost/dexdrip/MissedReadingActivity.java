@@ -84,7 +84,7 @@ public class MissedReadingActivity extends ActivityWithMenu {
          * by default uses the same sound file as the other alerts alert.
         **/
         if (Pref.getString("bg_missed_alerts_sound", null) == null) { // If missed reading sound file has never been set
-            Pref.setString("bg_missed_alerts_sound", Pref.getString("other_alerts_sound", "content://settings/system/alarm_alert")); // Set it to the other alerts sound
+            Pref.setString("bg_missed_alerts_sound", Pref.getString("other_alerts_sound", "default")); // Set it to the other alerts sound
         }
         alertMp3File = (EditText) findViewById(R.id.bg_missed_alerts_sound);
         
