@@ -9,7 +9,7 @@ description: "Learn how to adjust the vertical glucose range on your xDrip graph
 You can adjust the glucose range shown on screen as long as no readings fall outside that range. If a reading exceeds the configured limits, depending on the setting explained below, the graph will automatically pan or temporarily expand the range to keep the latest readings visible.  
   
 The Y-axis settings can be accessed at:  
-`Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Graph Settings` &#8722;> `Y-axis`  
+`Settings` &#8722;> `Display` &#8722;> `Graph Settings` &#8722;> `Y-axis`  
   
 ![CustomizeYaxisRange](./images/CustomizeYaxisRange.png)  
 <br/>  
