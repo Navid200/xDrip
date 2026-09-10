@@ -7,7 +7,7 @@ description: "Learn how to configure xDrip+ to display your blood glucose readin
 [xDrip](../) >> [Display](./Display/Display.md) >> Lock screen  
   
 You can set xDrip to show your blood glucose reading and an image on the lock screen when the phone is not being charged.  
-To do this, go to `Settings` &#8722;> `xDrip+ Display Setting` &#8722;> `Number wall on lock screen`.  
+To do this, go to `Settings` &#8722;> `xDrip Display Setting` &#8722;> `Number wall on lock screen`.  
   
 ![NumberWallOnLockScreen](./Display/images/NumberWallOnLockScreen.png)  
   
