@@ -16,6 +16,6 @@ Or, do you get this Android notification?
   
 If you don't want to, or cannot, install Google Play services, enable (put a check mark beside) the following setting in xDrip.  
   
-`Settings` &#8722;> `xDrip+ Sync settings` &#8722;> `Disable all sync features`  
+`Settings` &#8722;> `xDrip sync` &#8722;> `Disable all sync features`  
 ![DisableAllSyncFeatures](./images/DisableAllSyncFeatures.png)  
   
