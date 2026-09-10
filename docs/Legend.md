@@ -17,7 +17,7 @@ The following image shows a sample main screen with the default treatment/predic
 If you enable backfilled data (`Settings` &#8722;> `Display` &#8722;> `Graph Settings` &#8722;> `Show backfilled Data`), a reading that is backfilled is highlighted as shown in the following figure.  
 ![BackfillLegend](./images/BackfillLegend.png)  
   
-If you are using xDrip as a collector from G6 or G7 and enable `Settings` &#8722;> `Display` &#8722;> `Graph Settings` &#8722;> `G6/G7 Predictions`, you will see the prediction points as shown below.  
+If you are using xDrip as a collector from G6 or G7 and enable `Settings` &#8722;> `Display` &#8722;> `Graph Settings` &#8722;> `Dex Prediction`, you will see the prediction points as shown below.  
 ![G6PredictLegend](./images/G6PredictLegend.png)  
   
 Enabling [Forecast Low alert](./Alerts/ForecastLow.md) will show the extrapolated curve when a low is predicted as shown in the following figure.  
