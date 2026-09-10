@@ -9,23 +9,15 @@ description: "Learn how to troubleshoot xDrip to find out why an alert is silent
 Different factors could result in an xDrip alert not making any sound.  The following is a list of such combinations.  
 Some Android settings may not be located exactly as shown on all phone brands.  
   
-1- The alert is on the [Glucose Level Alerts List](./Glucose-level-alerts.md) and you have chosen the silent [volume profile](./Volume-profiles.md).  
+1- You have chosen the silent [volume profile](./Volume-profiles.md).  
   
-2- The alert is not on the [Glucose Level Alerts List](./Glucose-level-alerts.md) and the phone `ring & notification` volume is set to 0.  
-  
-3- The [notification channels](./Notification-channels.md) setting is enabled and the Android notification channel corresponding to the alert has been set to be silent.  
-  
-4- Android is not set to allow xDrip notifications to make sound.  To remedy this, enable the following two settings.  
-`Android Settings` &#8722;> `Apps & notifications` &#8722;> `Notifications` &#8722;> `xDrip+` &#8722;> `All xDrip+ notifications`  
-`Android Settings` &#8722;> `Apps & notifications` &#8722;> `Notifications` &#8722;> `xDrip+` &#8722;> `Uncategorized` &#8722;> `Allow interruptions`  
-  
-5- The phone is in `Do Not Disturb` mode, and Android is not set to exclude Alarms from do not disturb.  To remedy this, enable Android `Settings` &#8722;> `Sound` &#8722;> `Do Not Disturb` &#8722;> `Alarm & other interruptions` &#8722;> `Alarms`  
+2- The phone is in `Do Not Disturb` mode, and Android is not set to exclude Alarms from do not disturb.  To remedy this, enable Android `Settings` &#8722;> `Sound` &#8722;> `Do Not Disturb` &#8722;> `Alarm & other interruptions` &#8722;> `Alarms`  
 ![ExcludeAlarms](./Alerts/images/ExcludeAlarms.png)  
   
-6- The phone is in `Do Not Disturb` mode and the `override silent mode` and `Force speaker` settings are not enabled for the alert.  The missed reading alert inherits its sound file and override silent mode from the `Other Alerts` (`Settings` &#8722;> `Alarms and Alerts` &#8722;> `Other Alerts`).  
+3- The phone is in `Do Not Disturb` mode and the `override silent mode` and `Force speaker` settings are not enabled for the alert.  
 ![OverrideAndForce](./Alerts/images/OverrideAndForce.png)  
 
-7- The phone is in `Do Not Disturb` mode, and Android is not set to allow xDrip to override DND.  To remedy this, change the setting at `Android Settings` &#8722;> `Apps` &#8722;> `xDrip+` &#8722;> `Notifications` &#8722;> `Override Do Not Disturb`.  
+4- The phone is in `Do Not Disturb` mode, and Android is not set to allow xDrip to override DND.  To remedy this, change the setting at `Android Settings` &#8722;> `Apps` &#8722;> `xDrip` &#8722;> `Notifications` &#8722;> `Override Do Not Disturb`.  
 ![AndrdxDripDND](./Alerts/images/AndrdxDripDND.png)  
   
 <br/>  
