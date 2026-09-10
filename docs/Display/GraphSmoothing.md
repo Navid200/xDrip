@@ -4,10 +4,10 @@
 You can enable a low-pass filter to reduce transients. It is important to note that a low-pass filter will always introduce some degree of delay. Applying this filter to all data, including the current reading, would cause undesirable delays. Therefore, the filter is only applied to older readings and does not affect the current or recent readings. Consequently, it does not impact alert triggers or the data broadcast to Nightscout or AAPS.   
   
 To enable the filter, navigate to:   
-`Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Graph Settings` &#8722;> `Graph Smoothing` &#8722;> `Enable`  
+`Settings` &#8722;> `Display` &#8722;> `Graph Settings` &#8722;> `Graph Smoothing` &#8722;> `Enable`  
 ![GraphSmoothingEnable](./images/GraphSmoothingEnable.png)  
   
-After enabling graph smoothing, you can also view the unfiltered readings if desired. To do this, enable: `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `Graph Settings` &#8722;> `Graph Smoothing` &#8722;> `Show unsmoothed`.  
+After enabling graph smoothing, you can also view the unfiltered readings if desired. To do this, enable: `Settings` &#8722;> `Display` &#8722;> `Graph Settings` &#8722;> `Graph Smoothing` &#8722;> `Show unsmoothed`.  
 <br/>  
 
 ---  
