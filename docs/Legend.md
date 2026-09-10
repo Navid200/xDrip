@@ -6,7 +6,7 @@ description: "Understand the xDrip main screen element colors, including glucose
 # xDrip Legend  
 [xDrip](../) >> [Features](./Features_page.md) >> [Display](./Display/Display.md) >> xDrip Legend  
   
-You can customize some xDrip colors at: `Settings` &#8722;> `xDrip+ Display Settings` &#8722;> `xDrip Color Settings`  
+You can customize some xDrip colors at: `Settings` &#8722;> `Display` &#8722;> `Color settings`  
   
 The following image shows the page, without the example chart at the top.  
 ![legend](./images/legend.png)  
