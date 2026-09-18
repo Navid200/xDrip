@@ -18,6 +18,12 @@ Ensure `Disable all sync features` is unchecked (disabled) on both the master an
   
 ---  
   
+Enable "Be master for followers" only on the master.  This same setting must be disabled on all followers.  
+![](./Follow/images/BeMasterForFollowers.png)  
+<br/>  
+  
+---  
+  
 Tap on `Handset Group Security Sync Key` to reveal the security key.  An example is shown below:  
 ![xDripSyncKey](./Follow/images/xDripSyncKey.png)  
   
