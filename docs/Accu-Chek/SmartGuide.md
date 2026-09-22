@@ -21,7 +21,7 @@ Keep the twist cap as you will need it later.
   
 #### **Establishing connectivity**  
   
-1- Only one app can collect from the transmitter at any time.  If you have installed the official app or any other app that collects data from the transmitter, uninstall it.  
+1- Only one app can collect from the transmitter at any time.  If you have the official app running, unpair or uninstall it.  
   
 2- Ensure xDrip is updated to at least the current stable release.  
   
