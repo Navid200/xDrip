@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2026.09.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.25) | Alerts and general cleanup |  
 | [2026.09.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.18) | Alerts and general cleanup |  
 | [2026.09.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.09) | Other alerts media player, new vibration setting - follower sensor expiry - maintenance improvements |  
 | [2026.09.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.04) | Treatment time validation - 640G/Eversense renamed |  
