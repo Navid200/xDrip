@@ -1044,47 +1044,20 @@ public class Preferences extends BasePreferenceActivity implements SearchPrefere
                         .getString(preference.getKey(), ""));
     }
 
-    private static void bindPreferenceSummaryToValueAndWarnIfMuted(Preference preference) { // Volume profile summary and mute alert warning
-        preference.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
-            @Override
-            public boolean onPreferenceChange(final Preference pref, final Object newValue) {
-                String val = (newValue != null) ? newValue.toString().toLowerCase() : "";
-
-                // 1. If Silent or Vibrate only is chosen, intercept with dialog
-                if (val.contains("silent") || val.contains("vibrate")) {
-                    new android.app.AlertDialog.Builder(pref.getContext())
-                            .setTitle("Muted alert warning")
-                            .setMessage("'Silent' or 'Vibrate only' profiles will make no sound regardless of the 'Override silent mode' setting.")
-
-                            // If approved: manually save the value and refresh the screen summary
-                            .setPositiveButton("OK", (dialog, which) -> {
-                                if (pref instanceof ListPreference) {
-                                    ListPreference listPref = (ListPreference) pref;
-                                    listPref.setValue((String) newValue);
-
-                                    // Cleanly update the main screen summary text matching xDrip's native logic
-                                    int index = listPref.findIndexOfValue((String) newValue);
-                                    pref.setSummary(index >= 0 ? listPref.getEntries()[index] : null);
-                                }
-                            })
-
-                            // If canceled or tapped out, do nothing.
-                            .setNegativeButton("Cancel", null)
-                            .show();
-
-                    return false; // Stop the automatic native save immediately
-                }
-
-                // 2. For High, Medium, Ascending, fall back to standard xDrip behavior
+    private static void bindPreferenceSummaryToValueAndWarnIfMuted(final Activity activity, final Preference preference) { // Volume profile summary and mute alert warning
+        bindPreferenceSummaryToValue(preference);
+        if (preference == null) return;
+        preference.setOnPreferenceChangeListener((pref, newValue) -> {
+            final String value = String.valueOf(newValue);
+            if (!"Silent".equals(value) && !"vibrate only".equals(value)) {
                 return sBindPreferenceSummaryToValueListener.onPreferenceChange(pref, newValue);
             }
+            GenericConfirmDialog.show(activity, xdrip.gs(R.string.alert_volume_profile), xdrip.gs(R.string.volume_profile_will_be_muted), () -> {
+                ((ListPreference) pref).setValue(value);
+                sBindPreferenceSummaryToValueListener.onPreferenceChange(pref, value);
+            });
+            return false;   // defer the save to the confirm callback
         });
-
-        // Run the initial summary update on app startup so the current profile is visible
-        sBindPreferenceSummaryToValueListener.onPreferenceChange(preference,
-                PreferenceManager
-                        .getDefaultSharedPreferences(preference.getContext())
-                        .getString(preference.getKey(), ""));
     }
 
     public static void applyPrefSettingRange(String pref_key, String def, Double min, Double max) { // Correct a preference glucose setting if the value is out of range
@@ -1182,7 +1155,7 @@ public class Preferences extends BasePreferenceActivity implements SearchPrefere
             bindPreferenceSummaryToValue(units_pref);
 
             addPreferencesFromResource(R.xml.pref_notifications);
-            bindPreferenceSummaryToValueAndWarnIfMuted(findPreference("bg_alert_profile"));
+            bindPreferenceSummaryToValueAndWarnIfMuted(getActivity(), findPreference("bg_alert_profile"));
 
             bindPreferenceSummaryToValue(findPreference("calibration_notification_sound"));
             bindPreferenceSummaryToValueAndEnsureNumeric(findPreference("calibration_snooze"));
