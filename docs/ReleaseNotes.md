@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2026.10.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.10) | Silent alert logs - new Dex firmware |  
 | [2026.10.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.09) | Broadcast source corrections - null check |  
 | [2026.10.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.02) | DBLG2 companion - alerts cleanup |  
 | [2026.09.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.25) | Alerts and general cleanup |  
