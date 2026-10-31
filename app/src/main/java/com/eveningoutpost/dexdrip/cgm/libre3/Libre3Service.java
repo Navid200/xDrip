@@ -214,7 +214,8 @@ public class Libre3Service extends ForegroundService {
         if (current != null) {
             si.addAll(current.megaStatus());
         } else {
-            si.add(new StatusItem(gs(R.string.libre3_sensor), state == null ? gs(R.string.libre3_none) : state.serial()));
+            si.add(new StatusItem(gs(R.string.libre3_sensor),
+                    state == null ? gs(R.string.libre3_none) : state.serial()));
         }
         if (!stage.isEmpty()) {
             si.add(new StatusItem(gs(R.string.libre3_stage), stage));
@@ -225,7 +226,8 @@ public class Libre3Service extends ForegroundService {
         if (state != null && state.activationMs() > 0) {
             si.add(new StatusItem(gs(R.string.libre3_started), dateTimeText(state.activationMs())));
             long left = state.activationMs() + Libre3.getWearMs() - tsl();
-            si.add(new StatusItem(gs(R.string.libre3_remaining), left > 0 ? niceTimeScalar(left) : gs(R.string.libre3_expired)));
+            si.add(new StatusItem(gs(R.string.libre3_remaining),
+                    left > 0 ? niceTimeScalar(left) : gs(R.string.libre3_expired)));
         }
         if (lastReadingAt > 0) {
             si.add(new StatusItem(gs(R.string.libre3_last_reading), niceTimeScalar(msSince(lastReadingAt))));
