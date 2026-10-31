@@ -437,13 +437,15 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             listener.onStage("Paired at " + result.lastStage() + (result.usedCache() ? ", cached key" : ", fresh key"));
             listener.onPaired(state);
             reconnectAttempt = 0;
-            crypto = new DataPlaneCrypto(result.kEnc(), result.ivEnc());
             for (UUID uuid : AFTER_PAIRING) {
                 BluetoothGattCharacteristic characteristic = chars.get(uuid);
                 if (characteristic != null) {
                     enableNotifications(characteristic).await();
                 }
             }
+            // Frames queued meanwhile wait on this worker; with keys set only now, none is read and no backfill is
+            // asked for unless every channel, history included, is on
+            crypto = new DataPlaneCrypto(result.kEnc(), result.ivEnc());
             listener.onStage("Streaming");
         } catch (GeneralSecurityException | IOException e) {
             if (cached == null) {
