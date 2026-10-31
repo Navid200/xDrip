@@ -71,6 +71,14 @@ public final class Libre3Nfc {
     }
 
     /**
+     * Any other Libre scanned while the native Libre 3 collector is selected is ignored, so the existing NFC code
+     * does not store its readings on the Libre 3 sensor.
+     */
+    public static boolean ignores(SensorType sensorType, DexCollectionType collector) {
+        return sensorType != SensorType.Libre3 && collector == DexCollectionType.Libre3Native;
+    }
+
+    /**
      * A fresh sensor is started with the account's receiver ID, or the per-install ID when no account is given. A
      * running sensor can only be taken over with the account it was started with.
      */

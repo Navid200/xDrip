@@ -92,7 +92,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
         assertThat(handled).isFalse();
     }
 
-    /** A Libre 2 scanned while the Libre 3 collector is selected stays with the existing NFC code. */
+    /** A Libre 2 scanned while the Libre 3 collector is selected is not taken here. */
     @Test
     public void handles_libre2UnderLibre3Native_false() {
         // :: Act
@@ -110,6 +110,38 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
 
         // :: Verify
         assertThat(handled).isTrue();
+    }
+
+    // ==================================================== ignores ====================================================
+
+    /** A Libre 2 scanned while the Libre 3 collector is selected is ignored, so its readings never reach that sensor. */
+    @Test
+    public void ignores_libre2UnderLibre3Native_true() {
+        // :: Act
+        boolean ignored = Libre3Nfc.ignores(SensorType.Libre2, DexCollectionType.Libre3Native);
+
+        // :: Verify
+        assertThat(ignored).isTrue();
+    }
+
+    /** A Libre 3 scanned while the Libre 3 collector is selected is not ignored. */
+    @Test
+    public void ignores_libre3UnderLibre3Native_false() {
+        // :: Act
+        boolean ignored = Libre3Nfc.ignores(SensorType.Libre3, DexCollectionType.Libre3Native);
+
+        // :: Verify
+        assertThat(ignored).isFalse();
+    }
+
+    /** Under another Libre collector the existing NFC code handles every sensor as before. */
+    @Test
+    public void ignores_libre2UnderLibreReceiver_false() {
+        // :: Act
+        boolean ignored = Libre3Nfc.ignores(SensorType.Libre2, DexCollectionType.LibreReceiver);
+
+        // :: Verify
+        assertThat(ignored).isFalse();
     }
 
     // ==================================================== decide =====================================================

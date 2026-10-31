@@ -2160,6 +2160,7 @@
     <string name="libre3_warn_activate_account">This starts the sensor for xDrip. The Abbott app will not get its readings, but can take the sensor back later with the same account.</string>
     <string name="libre3_warn_activate_accountless">No account ID is set, so this starts the sensor for this xDrip install only. The sensor can never move to the Abbott app, and is lost if xDrip is reinstalled.</string>
     <string name="libre3_warn_takeover">This takes the running sensor over from the Abbott app. The Abbott app stops getting its readings and alarms.</string>
+    <string name="libre3_error_not_libre3">This is not a Libre 3. Choose another data source in settings to use it.</string>
     <string name="libre3_error_takeover_needs_account">This sensor is already running. Enter the LibreView account ID it was started with in the Libre 3 settings, then scan again.</string>
     <string name="libre3_error_bad_reply">The sensor did not accept the command. Check that the app (%1$s) and the account ID (%2$s) are the ones the sensor was started with.</string>
     <string name="libre3_error_patch_info">The Libre 3 sensor info could not be read. Please scan again.</string>

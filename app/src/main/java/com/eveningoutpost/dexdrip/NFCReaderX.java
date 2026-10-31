@@ -691,6 +691,11 @@ public class NFCReaderX {
                             Libre3Nfc.onScan(context, nfcvTag, rawPatchInfo);
                             return null;
                         }
+                        if (Libre3Nfc.ignores(sensorType, DexCollectionType.getDexCollectionType())) {
+                            Log.uel(TAG, "Not a Libre 3, ignored while Libre 3 (native) is the data source");
+                            JoH.static_toast_long(gs(R.string.libre3_error_not_libre3));
+                            return null;
+                        }
                         if (sensorType == SensorType.Libre3) {
                             Libre3.parsePatchInfo(patchInfo);
                         }
