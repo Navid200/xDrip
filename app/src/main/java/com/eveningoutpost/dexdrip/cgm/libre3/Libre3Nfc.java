@@ -189,8 +189,8 @@ public final class Libre3Nfc {
             JoH.static_toast_long(gs(R.string.libre3_error_nfc_failed));
             return;
         }
-        UserError.Log.uel(TAG, "Libre 3 " + decision.code + " sent, fold " + decision.fold + ", receiver "
-                + decision.receiverId.littleEndianHex() + ", reply " + (reply == null ? 0 : reply.length) + " bytes");
+        UserError.Log.uel(TAG, "Libre 3 " + decision.code + " sent, fold " + decision.fold + ", reply "
+                + (reply == null ? 0 : reply.length) + " bytes");
         String error = onResponse(info, decision, reply == null ? new byte[0] : reply, commandMs);
         if (error != null) {
             UserError.Log.uel(TAG, error);
