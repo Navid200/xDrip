@@ -175,6 +175,37 @@ public class Libre3SensorStateTest {
         assertThat(state.lastMgdl()).isEqualTo(149);
     }
 
+    // ============================================= Rejected life counts ==============================================
+
+    /** A refused life count more than a day older than the newest one is dropped, so the set stays small. */
+    @Test
+    public void addRejectedLifeCount_dayOlderThanNewest_dropped() {
+        // :: Setup
+        Libre3SensorState state = new Libre3SensorState(SERIAL, ADDRESS, PIN);
+
+        // :: Act
+        state.addRejectedLifeCount(1000);
+        state.addRejectedLifeCount(1001);
+        state.addRejectedLifeCount(2441);
+
+        // :: Verify
+        assertThat(state.rejectedLifeCounts()).containsExactly(1001, 2441);
+    }
+
+    /** A refused life count older than the newest one, but within a day, is kept. */
+    @Test
+    public void addRejectedLifeCount_olderWithinDay_kept() {
+        // :: Setup
+        Libre3SensorState state = new Libre3SensorState(SERIAL, ADDRESS, PIN);
+        state.addRejectedLifeCount(2441);
+
+        // :: Act
+        state.addRejectedLifeCount(1001);
+
+        // :: Verify
+        assertThat(state.rejectedLifeCounts()).containsExactly(1001, 2441);
+    }
+
     // ================================================= Sensor cycle ==================================================
 
     /** Libre3SensorStateLoaderTests.swift:74-86: the cycle read over NFC is kept, so a reconnect knows it. */

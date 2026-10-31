@@ -6,6 +6,7 @@ import org.json.JSONObject;
 
 import java.util.Collections;
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 import lwld.libre3.data.Lifecycle;
@@ -26,6 +27,8 @@ public final class Libre3SensorState {
 
     private static final int PIN_SIZE = 4;
     private static final int KAUTH_SIZE = 16;
+    /** Refused life counts kept behind the newest one; history is not asked for further back. */
+    private static final int KEEP_REJECTED_MINUTES = 24 * 60;
 
     private final String serial;
     private final String bleAddress;
@@ -253,8 +256,16 @@ public final class Libre3SensorState {
         this.rejectedLifeCounts = new HashSet<>(rejectedLifeCounts);
     }
 
+    /** Adds a refused life count and drops those more than a day older than the newest. */
     public void addRejectedLifeCount(int lifeCount) {
         rejectedLifeCounts.add(lifeCount);
+        int oldest = Collections.max(rejectedLifeCounts) - KEEP_REJECTED_MINUTES;
+        Iterator<Integer> it = rejectedLifeCounts.iterator();
+        while (it.hasNext()) {
+            if (it.next() < oldest) {
+                it.remove();
+            }
+        }
     }
 
     @Override
