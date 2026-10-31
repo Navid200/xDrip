@@ -80,7 +80,8 @@ public final class Libre3Nfc {
 
     /**
      * A fresh sensor is started with the account's receiver ID, or the per-install ID when no account is given. A
-     * running sensor can only be taken over with the account it was started with.
+     * running sensor is taken over the same way: with the account it was started with, or without one with the
+     * per-install ID, which only a sensor this install started accepts.
      */
     public static Decision decide(PatchInfo info, String account, ReceiverId.Fold fold, String uniqueId) {
         String trimmed = account == null ? "" : account.trim();
@@ -94,7 +95,8 @@ public final class Libre3Nfc {
                     gs(R.string.libre3_warn_activate_accountless), null);
         }
         if (!hasAccount) {
-            return new Decision(null, null, fold, "", null, gs(R.string.libre3_error_takeover_needs_account));
+            return new Decision(NfcCommand.Code.SWITCH_RECEIVER, ReceiverId.accountless(uniqueId), fold, "",
+                    gs(R.string.libre3_warn_takeover_accountless), null);
         }
         return new Decision(NfcCommand.Code.SWITCH_RECEIVER, ReceiverId.fromAccount(trimmed, fold), fold, trimmed,
                 gs(R.string.libre3_warn_takeover), null);

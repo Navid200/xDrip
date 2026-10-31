@@ -191,17 +191,22 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
         assertThat(decision.warning).contains("Abbott app");
     }
 
-    /** A running sensor cannot be taken over without the account it was started with, so nothing is sent. */
+    /**
+     * Without an account a running sensor is taken over with this install's ID, so a sensor this install started can
+     * be picked up again after a lost reply or "Forget sensor". The user is warned first.
+     */
     @Test
-    public void decide_activeWithoutAccount_asksForAccount() {
+    public void decide_activeWithoutAccount_takesOverWithInstallId() {
         // :: Act
         Libre3Nfc.Decision decision = Libre3Nfc.decide(patchInfo(ACTIVE), "",
                 ReceiverId.Fold.FREESTYLE_LIBRE3, UNIQUE_ID);
 
         // :: Verify
-        assertThat(decision.error).contains("account ID");
-        assertThat(decision.code).isNull();
-        assertThat(decision.receiverId).isNull();
+        assertThat(decision.error).isNull();
+        assertThat(decision.code).isEqualTo(NfcCommand.Code.SWITCH_RECEIVER);
+        assertThat(decision.receiverId).isEqualTo(ReceiverId.accountless(UNIQUE_ID));
+        assertThat(decision.account).isEmpty();
+        assertThat(decision.warning).contains("started by this xDrip install");
     }
 
     // ==================================================== pending ====================================================
