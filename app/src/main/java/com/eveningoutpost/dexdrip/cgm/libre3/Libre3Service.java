@@ -54,7 +54,18 @@ public class Libre3Service extends ForegroundService {
     private String bleSerial;
     private long wakeupTime;
 
-    private final Libre3Ble.Listener listener = new Libre3Ble.Listener() {
+    /**
+     * One Bluetooth session's listener. It keeps the readings of its own sensor, so a value still arriving from an old
+     * session after a new sensor was scanned is checked against the old sensor and not stored on the new one.
+     */
+    static final class Session implements Libre3Ble.Listener {
+
+        private final Libre3Readings readings;
+
+        Session(Libre3Readings readings) {
+            this.readings = readings;
+        }
+
         @Override
         public void onStage(String newStage) {
             stage = newStage;
@@ -72,8 +83,7 @@ public class Libre3Service extends ForegroundService {
 
         @Override
         public void onReading(RealtimeReading reading) {
-            Libre3Readings current = readings;
-            if (current != null && current.onRealtime(reading, tsl())) {
+            if (readings.onRealtime(reading, tsl())) {
                 lastReadingAt = tsl();
             }
         }
@@ -81,19 +91,13 @@ public class Libre3Service extends ForegroundService {
         @Override
         public void onStatus(PatchStatus status) {
             UserError.Log.d(TAG, "Status: life " + status.currentLifeCount() + " state " + status.state());
-            Libre3Readings current = readings;
-            if (current != null) {
-                current.onStatus(status);
-            }
+            readings.onStatus(status);
         }
 
         @Override
         public void onHistory(List<HistoricalPage.Entry> entries) {
             UserError.Log.d(TAG, "History entries: " + entries.size());
-            Libre3Readings current = readings;
-            if (current != null) {
-                current.onHistory(entries, tsl());
-            }
+            readings.onHistory(entries, tsl());
         }
 
         @Override
@@ -101,7 +105,7 @@ public class Libre3Service extends ForegroundService {
             lastError = message;
             UserError.Log.uel(TAG, "Libre 3 error: " + message);
         }
-    };
+    }
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
@@ -144,8 +148,9 @@ public class Libre3Service extends ForegroundService {
         }
         stopBle();
         Libre3.ensureSensor(state);
-        readings = new Libre3Readings(state);
-        ble = new Libre3Ble(xdrip.getAppContext(), state, identities, listener);
+        Libre3Readings sessionReadings = new Libre3Readings(state);
+        readings = sessionReadings;
+        ble = new Libre3Ble(xdrip.getAppContext(), state, identities, new Session(sessionReadings));
         bleSerial = state.serial();
         UserError.Log.uel(TAG, "Connecting to Libre 3 " + state.serial());
         ble.start();
