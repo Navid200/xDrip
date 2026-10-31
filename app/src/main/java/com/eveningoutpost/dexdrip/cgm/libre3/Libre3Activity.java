@@ -76,10 +76,7 @@ public class Libre3Activity extends ActivityWithMenu {
                 sb.append(item.name).append(": ").append(item.value).append('\n');
             }
         }
-        int count = Libre3Credential.get(this).load().size();
-        sb.append(gs(R.string.libre3_credential)).append(": ")
-                .append(count > 0 ? gs(R.string.libre3_credential_ready) : gs(R.string.libre3_none));
-        status.setText(sb.toString());
+        status.setText(sb.toString().trim());
     }
 
     private void downloadCredential() {

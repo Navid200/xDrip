@@ -48,6 +48,7 @@ public class Libre3Service extends ForegroundService {
     private static volatile String stage = "";
     private static volatile String lastError = "";
     private static volatile long lastReadingAt;
+    private static volatile Libre3Readings readings;
 
     private Libre3Ble ble;
     private String bleSerial;
@@ -68,17 +69,28 @@ public class Libre3Service extends ForegroundService {
 
         @Override
         public void onReading(RealtimeReading reading) {
-            lastReadingAt = tsl();
+            Libre3Readings current = readings;
+            if (current != null && current.onRealtime(reading, tsl())) {
+                lastReadingAt = tsl();
+            }
         }
 
         @Override
         public void onStatus(PatchStatus status) {
             UserError.Log.d(TAG, "Status: life " + status.currentLifeCount() + " state " + status.state());
+            Libre3Readings current = readings;
+            if (current != null) {
+                current.onStatus(status);
+            }
         }
 
         @Override
         public void onHistory(List<HistoricalPage.Entry> entries) {
             UserError.Log.d(TAG, "History entries: " + entries.size());
+            Libre3Readings current = readings;
+            if (current != null) {
+                current.onHistory(entries, tsl());
+            }
         }
 
         @Override
@@ -129,6 +141,7 @@ public class Libre3Service extends ForegroundService {
         }
         stopBle();
         Libre3.ensureSensor(state);
+        readings = new Libre3Readings(state);
         ble = new Libre3Ble(xdrip.getAppContext(), state, identities, listener);
         bleSerial = state.serial();
         UserError.Log.uel(TAG, "Connecting to Libre 3 " + state.serial());
@@ -140,6 +153,7 @@ public class Libre3Service extends ForegroundService {
             ble.stop();
             ble = null;
             bleSerial = null;
+            readings = null;
         }
     }
 
@@ -166,7 +180,12 @@ public class Libre3Service extends ForegroundService {
     public static List<StatusItem> megaStatus() {
         List<StatusItem> si = new ArrayList<>();
         Libre3SensorState state = Libre3.loadState();
-        si.add(new StatusItem(gs(R.string.libre3_sensor), state == null ? gs(R.string.libre3_none) : state.serial()));
+        Libre3Readings current = readings;
+        if (current != null) {
+            si.addAll(current.megaStatus());
+        } else {
+            si.add(new StatusItem(gs(R.string.libre3_sensor), state == null ? gs(R.string.libre3_none) : state.serial()));
+        }
         if (!stage.isEmpty()) {
             si.add(new StatusItem(gs(R.string.libre3_stage), stage));
         }
@@ -181,6 +200,10 @@ public class Libre3Service extends ForegroundService {
         if (lastReadingAt > 0) {
             si.add(new StatusItem(gs(R.string.libre3_last_reading), niceTimeScalar(msSince(lastReadingAt))));
         }
+        boolean credential = !Libre3Credential.get(xdrip.getAppContext()).load().isEmpty();
+        si.add(new StatusItem(gs(R.string.libre3_credential),
+                credential ? gs(R.string.libre3_credential_ready) : gs(R.string.libre3_none),
+                credential ? StatusItem.Highlight.NORMAL : StatusItem.Highlight.BAD));
         si.add(new StatusItem(gs(R.string.libre3_title), gs(R.string.libre3_open), StatusItem.Highlight.NORMAL,
                 "button-press", Libre3::startControlActivity));
         return si;

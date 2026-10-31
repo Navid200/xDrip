@@ -2193,4 +2193,9 @@
     <string name="libre3_fold_summary">The app the account uses</string>
     <string name="libre3_smoothing_title">Smooth Libre 3 readings</string>
     <string name="libre3_smoothing_summary">Off shows the raw per-minute values</string>
+    <string name="libre3_product">Product</string>
+    <string name="libre3_sensor_state">Sensor state</string>
+    <string name="libre3_last_life_count">Last life count</string>
+    <string name="libre3_backfilled">Backfilled</string>
+    <string name="libre3_fast_data">Fast data</string>
 </resources>
