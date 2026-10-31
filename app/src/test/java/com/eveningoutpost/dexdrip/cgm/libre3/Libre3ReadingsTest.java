@@ -185,7 +185,7 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
         assertThat(storedAt(995)).isNull();
     }
 
-    /** A reading whose time is more than a minute ahead of now is not stored. */
+    /** A reading whose time is more than fifteen minutes ahead of now is not stored. */
     @Test
     public void onRealtime_inFuture_notStored() {
         // :: Act
@@ -193,6 +193,20 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
 
         // :: Verify
         assertThat(storedAt(1445)).isNull();
+    }
+
+    /**
+     * A reading up to fifteen minutes ahead of now is stored, so a start time that is a few minutes ahead of this
+     * phone's clock does not refuse every reading of the sensor.
+     */
+    @Test
+    public void onRealtime_tenMinutesAhead_stored() {
+        // :: Act
+        boolean stored = readings.onRealtime(reading(1020, 120), now);
+
+        // :: Verify
+        assertThat(stored).isTrue();
+        assertThat(storedAt(1020).calculated_value).isEqualTo(120.0);
     }
 
     /**

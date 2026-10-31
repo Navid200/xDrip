@@ -140,7 +140,8 @@ public final class Libre3Nfc {
         long reported = littleEndianSeconds(response.activationTimeRaw()) * 1000;
         long activationMs = reported > 0 ? reported : commandMs;
         Libre3SensorState previous = Libre3.loadState();
-        if (previous != null && previous.serial().equals(info.serial()) && previous.activationMs() > 0) {
+        boolean sameSensor = previous != null && previous.serial().equals(info.serial());
+        if (reported <= 0 && sameSensor && previous.activationMs() > 0) {
             activationMs = previous.activationMs();
         }
         Libre3SensorState state = new Libre3SensorState(info.serial(), response.bleAddress(), response.blePin());

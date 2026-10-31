@@ -309,7 +309,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
         assertThat(Libre3.loadState().activationMs()).isEqualTo(NOW);
     }
 
-    /** Scanning the same started sensor again keeps the start time first stored for it. */
+    /** Scanning the same started sensor again with a reply that reports no start time keeps the stored start. */
     @Test
     public void onResponse_sameSerialAgain_keepsFirstStart() {
         // :: Setup
@@ -322,6 +322,24 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
 
         // :: Verify
         assertThat(Libre3.loadState().activationMs()).isEqualTo(NOW);
+    }
+
+    /**
+     * Scanning the same sensor again when the reply reports a start time takes that time, so a wrong start time
+     * stored before can be put right by a new scan.
+     */
+    @Test
+    public void onResponse_sameSerialReportedStart_takesReportedStart() {
+        // :: Setup
+        PatchInfo info = patchInfo(FRESH);
+        Libre3Nfc.Decision decision = Libre3Nfc.decide(info, ACCOUNT, ReceiverId.Fold.FREESTYLE_LIBRE3, UNIQUE_ID);
+        Libre3Nfc.onResponse(info, decision, Hex.toBytes(ACTIVATED_REPLY), NOW);
+
+        // :: Act
+        Libre3Nfc.onResponse(info, decision, Hex.toBytes(SWITCH_REPLY), NOW + 3_600_000);
+
+        // :: Verify
+        assertThat(Libre3.loadState().activationMs()).isEqualTo(0x69ee2bfcL * 1000);
     }
 
     private static PatchInfo patchInfo(String hex) {

@@ -39,8 +39,8 @@ public final class Libre3Readings {
     private static final int MIN_MGDL = 39;
     private static final int MAX_MGDL = 501;
     private static final long KEEP_RECENT_MS = 60 * MINUTE_IN_MS;
-    /** A realtime reading is the sensor's current minute; this allows for its clock drifting from the phone's. */
-    private static final long MAX_REALTIME_AGE_MS = 15 * MINUTE_IN_MS;
+    /** A realtime reading is the sensor's current minute; this allows for the start time being off either way. */
+    private static final long MAX_CLOCK_OFFSET_MS = 15 * MINUTE_IN_MS;
 
     private final Libre3SensorState state;
     /** Recent accepted realtime values as {timestamp, mg/dL}, oldest first, for smoothing. */
@@ -73,7 +73,7 @@ public final class Libre3Readings {
         if (reason == null && !reading.displayable()) {
             reason = "not displayable";
         }
-        if (reason == null && timestamp(lifeCount) < nowMs - MAX_REALTIME_AGE_MS) {
+        if (reason == null && timestamp(lifeCount) < nowMs - MAX_CLOCK_OFFSET_MS) {
             reason = "time is more than 15 minutes ago, start time looks wrong";
         }
         if (reason != null) {
@@ -175,8 +175,8 @@ public final class Libre3Readings {
         if (state.activationMs() <= 0) {
             return "start time unknown";
         }
-        if (timestamp(lifeCount) > nowMs + MINUTE_IN_MS) {
-            return "time is in the future";
+        if (timestamp(lifeCount) > nowMs + MAX_CLOCK_OFFSET_MS) {
+            return "time is more than 15 minutes ahead, start time looks wrong";
         }
         return null;
     }
