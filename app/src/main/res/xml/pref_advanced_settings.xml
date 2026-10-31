@@ -1604,6 +1604,32 @@
                     android:summary="@string/retrieve_blukon_history_summary"
                     android:title="@string/retrieve_blukon_history_title" />
 
+                <PreferenceScreen
+                    android:key="libre3_settings"
+                    android:summary="@string/libre3_settings_summary"
+                    android:title="@string/libre3_settings">
+
+                    <EditTextPreference
+                        android:defaultValue=""
+                        android:key="libre3_account_id"
+                        android:summary="@string/libre3_account_id_summary"
+                        android:title="@string/libre3_account_id_title" />
+
+                    <ListPreference
+                        android:defaultValue="FREESTYLE_LIBRE3"
+                        android:entries="@array/Libre3FoldEntries"
+                        android:entryValues="@array/Libre3FoldValues"
+                        android:key="libre3_fold"
+                        android:summary="@string/libre3_fold_summary"
+                        android:title="@string/libre3_fold_title" />
+
+                    <CheckBoxPreference
+                        android:defaultValue="false"
+                        android:key="libre3_smoothing"
+                        android:summary="@string/libre3_smoothing_summary"
+                        android:title="@string/libre3_smoothing_title" />
+                </PreferenceScreen>
+
                 <CheckBoxPreference
                     android:defaultValue="false"
                     android:enabled="true"

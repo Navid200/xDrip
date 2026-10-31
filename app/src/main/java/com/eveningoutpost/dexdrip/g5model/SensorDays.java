@@ -4,6 +4,7 @@ package com.eveningoutpost.dexdrip.g5model;
 import android.text.SpannableString;
 
 import com.eveningoutpost.dexdrip.cgm.glupro.GluProService;
+import com.eveningoutpost.dexdrip.cgm.libre3.Libre3;
 import com.eveningoutpost.dexdrip.models.Sensor;
 import com.eveningoutpost.dexdrip.R;
 import com.eveningoutpost.dexdrip.utilitymodels.Constants;
@@ -35,6 +36,7 @@ import static com.eveningoutpost.dexdrip.utilitymodels.Constants.DAY_IN_MS;
 import static com.eveningoutpost.dexdrip.utilitymodels.Constants.HOUR_IN_MS;
 import static com.eveningoutpost.dexdrip.utilitymodels.Constants.MINUTE_IN_MS;
 import static com.eveningoutpost.dexdrip.utils.DexCollectionType.GluPro;
+import static com.eveningoutpost.dexdrip.utils.DexCollectionType.Libre3Native;
 import static com.eveningoutpost.dexdrip.utils.DexCollectionType.None;
 import static com.eveningoutpost.dexdrip.utils.DexCollectionType.getBestCollectorHardwareName;
 import static com.eveningoutpost.dexdrip.utils.DexCollectionType.getDexCollectionType;
@@ -53,6 +55,7 @@ public class SensorDays {
     private static final int USE_DEXCOM_STRATEGY = 5;
     private static final int USE_LIBRE_STRATEGY = 6;
     private static final int USE_GLUPRO_STRATEGY = 7;
+    private static final int USE_LIBRE3_STRATEGY = 8;
 
     private static final long CAL_THRESHOLD1 = DAY_IN_MS * 4;
     private static final long CAL_THRESHOLD2 = Constants.HOUR_IN_MS * 18;
@@ -132,6 +135,11 @@ public class SensorDays {
             ths.period = GluProService.getRunTime();
             ths.warmupMs = HOUR_IN_MS;
 
+        } else if (type == Libre3Native) {
+            ths.strategy = USE_LIBRE3_STRATEGY;
+            ths.period = Libre3.getWearMs();
+            ths.warmupMs = Libre3.getWarmupMs();
+
         } else {
             // unknown type
         }
@@ -182,6 +190,8 @@ public class SensorDays {
                 return getLibreStart();
             case USE_GLUPRO_STRATEGY:
                 return com.eveningoutpost.dexdrip.cgm.glupro.GluPro.getStart();
+            case USE_LIBRE3_STRATEGY:
+                return Libre3.getStart();
             default:
                 return 0; // very large error default will be caught by sanity check
         }

@@ -27,6 +27,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 
+import com.eveningoutpost.dexdrip.cgm.libre3.Libre3Nfc;
 import com.eveningoutpost.dexdrip.importedlibraries.usbserial.util.HexDump;
 import com.eveningoutpost.dexdrip.models.ActiveBluetoothDevice;
 import com.eveningoutpost.dexdrip.models.GlucoseData;
@@ -129,7 +130,8 @@ public class NFCReaderX {
     }
 
     public static boolean useNFC() {
-        return Pref.getBooleanDefaultFalse("use_nfc_scan") && (DexCollectionType.hasLibre());
+        return Pref.getBooleanDefaultFalse("use_nfc_scan")
+                && (DexCollectionType.hasLibre() || DexCollectionType.getDexCollectionType() == DexCollectionType.Libre3Native);
     }
 
     @SuppressLint("NewApi")
@@ -447,6 +449,8 @@ public class NFCReaderX {
 
         private byte[] data = new byte[360];
         private byte[] patchInfo = null;
+        /** The patch info reply as received, before the Libre 3 frame is trimmed. */
+        private byte[] rawPatchInfo = null;
 
 
         @Override
@@ -647,6 +651,7 @@ public class NFCReaderX {
 
                                 final byte[] cmd = new byte[]{0x02, (byte) 0xa1, manufacturerCode};
                                 patchInfo = nfcvTag.transceive(cmd);
+                                rawPatchInfo = patchInfo;
                                 if (patchInfo != null) {
                                     // We need to throw away the first byte.
                                     patchInfo = Arrays.copyOfRange(patchInfo, 1, patchInfo.length);
@@ -682,6 +687,10 @@ public class NFCReaderX {
 
                         SensorType sensorType = LibreOOPAlgorithm.getSensorType(patchInfo);
                         Log.uel(TAG, "Libre sensor of type " + sensorType.name() + " detected.");
+                        if (Libre3Nfc.handles(sensorType, DexCollectionType.getDexCollectionType())) {
+                            Libre3Nfc.onScan(context, nfcvTag, rawPatchInfo);
+                            return null;
+                        }
                         if (sensorType == SensorType.Libre3) {
                             Libre3.parsePatchInfo(patchInfo);
                         }

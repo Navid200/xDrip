@@ -22,6 +22,7 @@
         <item>SmartGuide</item>
         <item>GlucoRx/Aidex App</item>
         <item>CareLink Follower</item>
+        <item>@string/libre3_native_source</item>
         <item>@string/disable_collection</item>
     </string-array>
 
@@ -47,7 +48,18 @@
         <item>GluPro</item>
         <item>AidexReceiver</item>
         <item>CLFollower</item>
+        <item>Libre3Native</item>
         <item>Disabled</item>
+    </string-array>
+
+     <string-array name="Libre3FoldEntries">
+        <item>@string/libre3_fold_fsl3</item>
+        <item>@string/libre3_fold_lba</item>
+    </string-array>
+
+    <string-array name="Libre3FoldValues" translatable="false">
+        <item>FREESTYLE_LIBRE3</item>
+        <item>LIBRE_BY_ABBOTT</item>
     </string-array>
 
      <string-array name="EnableStreamingMethods">

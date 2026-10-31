@@ -1,0 +1,132 @@
+package com.eveningoutpost.dexdrip.cgm.libre3;
+
+import android.content.Context;
+
+import com.eveningoutpost.dexdrip.models.UserError;
+
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.nio.file.Files;
+import java.security.GeneralSecurityException;
+import java.util.Collections;
+import java.util.List;
+
+import lwld.libre3.crypto.AppIdentity;
+import lwld.libre3.crypto.IdentityBundle;
+import okhttp3.OkHttpClient;
+import okhttp3.Request;
+import okhttp3.Response;
+import okhttp3.ResponseBody;
+
+/**
+ * The app credential the sensor pairs with, kept as the downloaded xz bundle in the app's private files. A download
+ * replaces the stored bundle only after it unpacks against the pinned digest, so a bad one never loses a good one.
+ * The bundle's contents are never logged.
+ *
+ * @author Asbjørn Aarrestad - 2026.10
+ */
+public final class Libre3Credential {
+
+    private static final String TAG = "Libre3Native";
+    private static final String FILE_NAME = "identities.xz";
+
+    private final File dir;
+    private final String digest;
+
+    /**
+     * @param dir    where the bundle is kept
+     * @param digest the SHA-256 the unpacked bundle must have
+     */
+    public Libre3Credential(File dir, String digest) {
+        this.dir = dir;
+        this.digest = digest;
+    }
+
+    /** The credential for the pinned release, in the app's private files. */
+    public static Libre3Credential get(Context context) {
+        return new Libre3Credential(new File(context.getFilesDir(), "libre3"), IdentityBundle.DIGEST);
+    }
+
+    /**
+     * Keeps the bundle if it unpacks against the digest.
+     *
+     * @throws GeneralSecurityException when it does not; the stored bundle is left as it was
+     */
+    public synchronized void store(byte[] xz) throws GeneralSecurityException {
+        IdentityBundle.unpack(xz, digest);
+        File tmp = new File(dir, FILE_NAME + ".tmp");
+        try {
+            if (!dir.isDirectory() && !dir.mkdirs()) {
+                throw new IOException("Cannot create " + dir);
+            }
+            try (FileOutputStream out = new FileOutputStream(tmp)) {
+                out.write(xz);
+            }
+            if (!tmp.renameTo(new File(dir, FILE_NAME))) {
+                throw new IOException("Cannot rename the downloaded credential");
+            }
+        } catch (IOException e) {
+            tmp.delete();
+            throw new GeneralSecurityException("Could not save the credential: " + e.getMessage(), e);
+        }
+    }
+
+    /** The stored identities, or none when nothing usable is stored. */
+    public synchronized List<AppIdentity> load() {
+        File file = new File(dir, FILE_NAME);
+        if (!file.isFile()) {
+            return Collections.emptyList();
+        }
+        try {
+            return IdentityBundle.unpack(Files.readAllBytes(file.toPath()), digest);
+        } catch (IOException | GeneralSecurityException e) {
+            UserError.Log.e(TAG, "Stored Libre 3 credential is unusable: " + e.getMessage());
+            return Collections.emptyList();
+        }
+    }
+
+    /**
+     * Fetches the pinned release from each gateway in turn and keeps the first that unpacks.
+     *
+     * @throws GeneralSecurityException when no gateway gave a bundle that unpacks
+     */
+    public void download(OkHttpClient client) throws GeneralSecurityException {
+        String last = "no gateway";
+        for (String gateway : IdentityBundle.GATEWAYS) {
+            try {
+                store(fetch(client, gateway + IdentityBundle.SOURCE_TX));
+                UserError.Log.uel(TAG, "Libre 3 credential downloaded from " + gateway);
+                return;
+            } catch (IOException | GeneralSecurityException e) {
+                last = gateway + ": " + e.getMessage();
+                UserError.Log.e(TAG, "Libre 3 credential download failed from " + last);
+            }
+        }
+        throw new GeneralSecurityException("Credential download failed (" + last + ")");
+    }
+
+    private static byte[] fetch(OkHttpClient client, String url) throws IOException {
+        Request request = new Request.Builder().url(url).build();
+        try (Response response = client.newCall(request).execute()) {
+            ResponseBody body = response.body();
+            if (!response.isSuccessful() || body == null) {
+                throw new IOException("HTTP " + response.code());
+            }
+            ByteArrayOutputStream out = new ByteArrayOutputStream();
+            byte[] buffer = new byte[8192];
+            try (InputStream in = body.byteStream()) {
+                int n;
+                while ((n = in.read(buffer)) != -1) {
+                    if (out.size() + n > IdentityBundle.MAX_BYTES) {
+                        throw new IOException("Larger than " + IdentityBundle.MAX_BYTES + " bytes");
+                    }
+                    out.write(buffer, 0, n);
+                }
+            }
+            return out.toByteArray();
+        }
+    }
+}
