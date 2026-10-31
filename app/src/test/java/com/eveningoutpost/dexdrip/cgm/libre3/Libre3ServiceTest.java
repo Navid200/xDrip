@@ -14,6 +14,7 @@ import org.junit.Test;
 import org.robolectric.RuntimeEnvironment;
 
 import lwld.libre3.Libre3SensorState;
+import lwld.libre3.data.PatchStatus;
 import lwld.libre3.data.RealtimeReading;
 import lwld.libre3.nfc.PatchInfo;
 import lwld.libre3.util.Hex;
@@ -80,6 +81,91 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         // :: Verify
         BgReading stored = BgReading.getForPreciseTimestamp(current.activationMs() + 1000 * MINUTE_IN_MS, 1000);
         assertThat(stored.calculated_value).isEqualTo(120.0);
+    }
+
+    // ===================================================== Stall =====================================================
+
+    /** A session that never reported a stage or a value is stalled, so the next wake-up restarts it. */
+    @Test
+    public void stalled_noProgress_true() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+
+        // :: Act
+        boolean stalled = session.stalled(tsl());
+
+        // :: Verify
+        assertThat(stalled).isTrue();
+    }
+
+    /** A stage reported eleven minutes ago is recent enough: the session is still working. */
+    @Test
+    public void stalled_stageElevenMinutesAgo_false() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+        session.onStage("Connecting");
+
+        // :: Act
+        boolean stalled = session.stalled(tsl() + 11 * MINUTE_IN_MS);
+
+        // :: Verify
+        assertThat(stalled).isFalse();
+    }
+
+    /** No stage or value for thirteen minutes means the session is stuck, e.g. a retry timer that Doze held back. */
+    @Test
+    public void stalled_stageThirteenMinutesAgo_true() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+        session.onStage("Reconnecting in 300 s: disconnected, reason 8");
+
+        // :: Act
+        boolean stalled = session.stalled(tsl() + 13 * MINUTE_IN_MS);
+
+        // :: Verify
+        assertThat(stalled).isTrue();
+    }
+
+    /** A reading counts as progress even when it is not stored. */
+    @Test
+    public void stalled_readingJustNow_false() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+        session.onReading(reading(1, 120));
+
+        // :: Act
+        boolean stalled = session.stalled(tsl());
+
+        // :: Verify
+        assertThat(stalled).isFalse();
+    }
+
+    /** A sensor status counts as progress, as during warm-up when no glucose value is stored. */
+    @Test
+    public void stalled_statusJustNow_false() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+        session.onStatus(PatchStatus.parse(new byte[PatchStatus.SIZE]));
+
+        // :: Act
+        boolean stalled = session.stalled(tsl());
+
+        // :: Verify
+        assertThat(stalled).isFalse();
+    }
+
+    /** An error alone is not progress: a session that only failed, like one without a Bluetooth adapter, is stalled. */
+    @Test
+    public void stalled_onlyError_true() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+        session.onError("No Bluetooth adapter");
+
+        // :: Act
+        boolean stalled = session.stalled(tsl());
+
+        // :: Verify
+        assertThat(stalled).isTrue();
     }
 
     // ==================================================== helpers ====================================================

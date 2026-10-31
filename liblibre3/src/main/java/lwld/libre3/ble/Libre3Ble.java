@@ -187,6 +187,7 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             BluetoothAdapter adapter = BluetoothAdapter.getDefaultAdapter();
             if (adapter == null) {
                 listener.onError("No Bluetooth adapter");
+                scheduleReconnect("no Bluetooth adapter");
                 return;
             }
             connectTo(adapter.getRemoteDevice(state.bleAddress()));
@@ -207,8 +208,11 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             handler.postDelayed(scanTimeout, SCAN_TIMEOUT_MS);
             BluetoothLeScannerCompat.getScanner().startScan(filters, settings, scanCallback);
         } catch (SecurityException e) {
+            handler.removeCallbacks(scanTimeout);
             listener.onError("No permission to scan: " + e.getMessage());
+            scheduleReconnect("no permission to scan");
         } catch (RuntimeException e) {
+            handler.removeCallbacks(scanTimeout);
             listener.onError("Scan failed: " + e);
             scheduleReconnect("scan failed");
         }
@@ -250,6 +254,7 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             connect(device).useAutoConnect(false).retry(3, 100).enqueue();
         } catch (SecurityException e) {
             listener.onError("No permission to connect: " + e.getMessage());
+            scheduleReconnect("no permission to connect");
         }
     }
 

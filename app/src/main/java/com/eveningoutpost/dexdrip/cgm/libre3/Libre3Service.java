@@ -51,6 +51,7 @@ public class Libre3Service extends ForegroundService {
     private static volatile Libre3Readings readings;
 
     private Libre3Ble ble;
+    private Session session;
     private String bleSerial;
     private long wakeupTime;
 
@@ -60,14 +61,28 @@ public class Libre3Service extends ForegroundService {
      */
     static final class Session implements Libre3Ble.Listener {
 
+        /** Longer than the longest retry wait plus a scan and a connect, so a working session is never cut. */
+        private static final long STALL_MS = 12 * MINUTE_IN_MS;
+
         private final Libre3Readings readings;
+        /** When the session last reported a stage or a value; 0 when it never did. */
+        private volatile long lastProgressAt;
 
         Session(Libre3Readings readings) {
             this.readings = readings;
         }
 
+        /**
+         * @return true when the session has not moved on for {@link #STALL_MS}, e.g. a retry timer that Doze held
+         * back or a failure that never asked for a retry
+         */
+        boolean stalled(long nowMs) {
+            return lastProgressAt == 0 || nowMs - lastProgressAt > STALL_MS;
+        }
+
         @Override
         public void onStage(String newStage) {
+            lastProgressAt = tsl();
             stage = newStage;
             UserError.Log.d(TAG, "Stage: " + newStage);
         }
@@ -83,6 +98,7 @@ public class Libre3Service extends ForegroundService {
 
         @Override
         public void onReading(RealtimeReading reading) {
+            lastProgressAt = tsl();
             if (readings.onRealtime(reading, tsl())) {
                 lastReadingAt = tsl();
             }
@@ -90,6 +106,7 @@ public class Libre3Service extends ForegroundService {
 
         @Override
         public void onStatus(PatchStatus status) {
+            lastProgressAt = tsl();
             UserError.Log.d(TAG, "Status: life " + status.currentLifeCount() + " state " + status.state());
             readings.onStatus(status);
         }
@@ -138,7 +155,10 @@ public class Libre3Service extends ForegroundService {
             return;
         }
         if (ble != null && state.serial().equals(bleSerial)) {
-            return;
+            if (!session.stalled(tsl())) {
+                return;
+            }
+            UserError.Log.uel(TAG, "Libre 3 connection made no progress, restarting it");
         }
         List<AppIdentity> identities = Libre3Credential.get(this).load();
         if (identities.isEmpty()) {
@@ -150,7 +170,8 @@ public class Libre3Service extends ForegroundService {
         Libre3.ensureSensor(state);
         Libre3Readings sessionReadings = new Libre3Readings(state);
         readings = sessionReadings;
-        ble = new Libre3Ble(xdrip.getAppContext(), state, identities, new Session(sessionReadings));
+        session = new Session(sessionReadings);
+        ble = new Libre3Ble(xdrip.getAppContext(), state, identities, session);
         bleSerial = state.serial();
         UserError.Log.uel(TAG, "Connecting to Libre 3 " + state.serial());
         ble.start();
@@ -160,6 +181,7 @@ public class Libre3Service extends ForegroundService {
         if (ble != null) {
             ble.stop();
             ble = null;
+            session = null;
             bleSerial = null;
             readings = null;
         }
