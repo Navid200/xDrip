@@ -443,6 +443,9 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
         } catch (GeneralSecurityException | IOException e) {
             if (cached == null) {
                 identityIndex++;
+            } else if (e instanceof GeneralSecurityException) {
+                // the sensor no longer holds this key; the next connection pairs afresh
+                state.setKAuth(null);
             }
             listener.onError(e.getMessage());
             disconnect().enqueue();

@@ -195,41 +195,39 @@ public class PairingFlowTest {
         assertThat(sensor.tailSeen).isEqualTo(BLE_PIN);
     }
 
-    /** A sensor that refuses StartAuthorization gets the full handshake in the same session. */
+    /**
+     * A sensor that refuses StartAuthorization rejects the cached key: no full handshake on the same connection, so
+     * the caller can drop the key and pair afresh next time.
+     */
     @Test
-    public void reconnect_startAuthorizationRefused_fallsBackToFullSequence() throws Exception {
+    public void reconnect_startAuthorizationRefused_throwsWithoutFullSequence() {
         // :: Setup
         FakeSensor sensor = new FakeSensor();
         PairingFlow flow = flow(sensor, "0000000000000000000000000000000000000000000000000000000000002222");
 
         // :: Act
-        PairingResult result = flow.reconnect(Hex.toBytes("404142434445464748494a4b4c4d4e4f"), BLE_PIN);
+        ThrowingRunnable reconnect = () -> flow.reconnect(Hex.toBytes("404142434445464748494a4b4c4d4e4f"), BLE_PIN);
 
         // :: Verify
-        List<Integer> expected = new ArrayList<>();
-        expected.add(0x11);
-        expected.addAll(FULL_ORDER);
-        assertThat(sensor.commands).isEqualTo(expected);
-        assertThat(result.usedCache()).isFalse();
-        assertThat(result.kAuth()).isEqualTo(sensor.kAuth);
+        GeneralSecurityException e = assertThrows(GeneralSecurityException.class, reconnect);
+        assertThat(e).hasMessageThat().contains("ChallengeLoadDone");
+        assertThat(sensor.commands).containsExactly(0x11);
     }
 
-    /** A cached key the sensor no longer holds fails Phase 6 and falls back to the full handshake. */
+    /** A cached key the sensor no longer holds is rejected without a full handshake on the same connection. */
     @Test
-    public void reconnect_staleKey_fallsBackToFullSequence() throws Exception {
+    public void reconnect_staleKey_throwsWithoutFullSequence() {
         // :: Setup
         FakeSensor sensor = new FakeSensor();
         sensor.acceptedKAuth = Hex.toBytes("404142434445464748494a4b4c4d4e4f");
         PairingFlow flow = flow(sensor, "0000000000000000000000000000000000000000000000000000000000002222");
 
         // :: Act
-        PairingResult result = flow.reconnect(Hex.toBytes("ffeeddccbbaa99887766554433221100"), BLE_PIN);
+        ThrowingRunnable reconnect = () -> flow.reconnect(Hex.toBytes("ffeeddccbbaa99887766554433221100"), BLE_PIN);
 
         // :: Verify
-        assertThat(sensor.commands.subList(0, 2)).containsExactly(0x11, 0x08).inOrder();
-        assertThat(sensor.commands.subList(2, sensor.commands.size())).isEqualTo(FULL_ORDER);
-        assertThat(result.usedCache()).isFalse();
-        assertThat(result.kAuth()).isEqualTo(sensor.kAuth);
+        assertThrows(GeneralSecurityException.class, reconnect);
+        assertThat(sensor.commands).containsExactly(0x11, 0x08).inOrder();
     }
 
     /** A link failure on the cached path is not a rejection: it surfaces and the cache is not abandoned. */

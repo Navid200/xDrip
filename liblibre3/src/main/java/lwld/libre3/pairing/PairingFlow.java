@@ -93,28 +93,25 @@ public final class PairingFlow {
     }
 
     /**
-     * Reconnects with a cached kAuth, falling back to {@link #firstPair} when the sensor refuses StartAuthorization,
-     * refuses the challenge, or answers with a Phase 6 reply the cached key cannot open.
+     * Reconnects with a cached kAuth. A sensor that refuses StartAuthorization, refuses the challenge, or answers
+     * with a Phase 6 reply the cached key cannot open has rejected the key; there is no full handshake on the same
+     * connection, so the caller drops the key and pairs afresh on the next one.
      *
      * @throws IOException              when the link fails, naming the stage; the cached key is not to blame
-     * @throws GeneralSecurityException when the fallback first pair fails its checks
+     * @throws GeneralSecurityException when the sensor rejects the cached key
      */
     public PairingResult reconnect(byte[] cachedKAuth, byte[] blePin) throws IOException, GeneralSecurityException {
         requireLength("cached kAuth", cachedKAuth, KEY_SIZE);
         requireLength("BLE PIN", blePin, PIN_SIZE);
         command("StartAuthorization", START_AUTHORIZATION);
         if (response("ChallengeLoadDone") != CHALLENGE_LOAD_DONE) {
-            return firstPair(blePin);
+            throw new GeneralSecurityException("Cached key refused at ChallengeLoadDone");
         }
-        try {
-            PairingResult result = challenge(cachedKAuth, blePin, true);
-            if (result != null) {
-                return result;
-            }
-        } catch (GeneralSecurityException rejected) {
-            // the sensor no longer holds this key
+        PairingResult result = challenge(cachedKAuth, blePin, true);
+        if (result == null) {
+            throw new GeneralSecurityException("Cached key refused at PatchChallengeLoadDone");
         }
-        return firstPair(blePin);
+        return result;
     }
 
     /** @return null when a cached-key challenge is refused before Phase 6 */
