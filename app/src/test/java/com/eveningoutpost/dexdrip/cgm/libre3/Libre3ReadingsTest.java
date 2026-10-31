@@ -50,9 +50,11 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
         Libre3.forgetSensor();
         now = tsl();
         state = new Libre3SensorState("0RRC989AQ", "CC:22:DF:B8:F9:58", PIN);
-        state.setActivationMs(now - DAY_IN_MS);
+        // Life counts 990-1010 are the last twenty minutes, as realtime readings from a running sensor are
+        state.setActivationMs(now - 1010 * MINUTE_IN_MS);
         state.applySensorCycle(PatchInfo.parse(Hex.toBytes(PATCH_INFO)));
         state.setKAuth(KAUTH);
+        Libre3.saveState(state);
         Libre3.ensureSensor(state);
         readings = new Libre3Readings(state);
     }
@@ -179,6 +181,33 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
 
         // :: Verify
         assertThat(storedAt(1445)).isNull();
+    }
+
+    /**
+     * A realtime reading is the sensor's current minute, so one whose time is more than fifteen minutes before now
+     * means the start time is wrong: it is not stored, and history does not store that minute either.
+     */
+    @Test
+    public void onRealtime_farInPast_notStoredAndRejected() {
+        // :: Setup
+        state.setActivationMs(now - DAY_IN_MS);
+
+        // :: Act
+        readings.onRealtime(reading(1000, 120), now);
+
+        // :: Verify
+        assertThat(storedAt(1000)).isNull();
+        assertThat(state.rejectedLifeCounts()).contains(1000);
+    }
+
+    /** A reading whose time is fifteen minutes before now is still stored. */
+    @Test
+    public void onRealtime_fifteenMinutesOld_stored() {
+        // :: Act
+        readings.onRealtime(reading(995, 120), now);
+
+        // :: Verify
+        assertThat(storedAt(995).calculated_value).isEqualTo(120.0);
     }
 
     /** A stored reading becomes the last life count and value, which the next backfill starts after. */
@@ -345,6 +374,69 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
 
         // :: Verify
         assertThat(text).contains("App credential: none");
+    }
+
+    // ================================================ sensor replaced ================================================
+
+    /**
+     * After another sensor was started or taken over, a reading still arriving from the old session is not stored and
+     * does not overwrite the new sensor.
+     */
+    @Test
+    public void onRealtime_otherSensorStored_notStoredAndNewSensorKept() {
+        // :: Setup
+        Libre3.saveState(new Libre3SensorState("0RRCNEW00", "CC:22:DF:B8:F9:59", PIN));
+
+        // :: Act
+        boolean stored = readings.onRealtime(reading(1000, 120), now);
+
+        // :: Verify
+        assertThat(stored).isFalse();
+        assertThat(storedAt(1000)).isNull();
+        assertThat(Libre3.loadState().serial()).isEqualTo("0RRCNEW00");
+    }
+
+    /** A rescan of the same sensor that gave it a new PIN is not overwritten by the old session either. */
+    @Test
+    public void onRealtime_sameSensorNewPin_newPinKept() {
+        // :: Setup
+        byte[] newPin = {0x01, 0x02, 0x03, 0x04};
+        Libre3.saveState(new Libre3SensorState("0RRC989AQ", "CC:22:DF:B8:F9:58", newPin));
+
+        // :: Act
+        readings.onRealtime(reading(1000, 120), now);
+
+        // :: Verify
+        assertThat(Libre3.loadState().blePin()).isEqualTo(newPin);
+    }
+
+    /** After the sensor was forgotten, a reading from the old session does not bring it back. */
+    @Test
+    public void onRealtime_forgotten_sensorStaysForgotten() {
+        // :: Setup
+        Libre3.forgetSensor();
+
+        // :: Act
+        readings.onRealtime(reading(1000, 120), now);
+
+        // :: Verify
+        assertThat(Libre3.loadState()).isNull();
+        assertThat(storedAt(1000)).isNull();
+    }
+
+    /** History arriving from the old session after another sensor was stored fills nothing. */
+    @Test
+    public void onHistory_otherSensorStored_nothingStored() {
+        // :: Setup
+        readings.onRealtime(reading(1000, 120), now);
+        Libre3.saveState(new Libre3SensorState("0RRCNEW00", "CC:22:DF:B8:F9:59", PIN));
+
+        // :: Act
+        int stored = readings.onHistory(entries(982, 130), now);
+
+        // :: Verify
+        assertThat(stored).isEqualTo(0);
+        assertThat(storedAt(982)).isNull();
     }
 
     // ==================================================== helpers ====================================================

@@ -38,6 +38,8 @@ public final class Libre3Readings {
     private static final int MIN_MGDL = 40;
     private static final int MAX_MGDL = 500;
     private static final long KEEP_RECENT_MS = 60 * MINUTE_IN_MS;
+    /** A realtime reading is the sensor's current minute; this allows for its clock drifting from the phone's. */
+    private static final long MAX_REALTIME_AGE_MS = 15 * MINUTE_IN_MS;
 
     private final Libre3SensorState state;
     /** Recent accepted realtime values as {timestamp, mg/dL}, oldest first, for smoothing. */
@@ -70,16 +72,22 @@ public final class Libre3Readings {
         if (reason == null && !reading.displayable()) {
             reason = "not displayable";
         }
+        if (reason == null && timestamp(lifeCount) < nowMs - MAX_REALTIME_AGE_MS) {
+            reason = "time is more than 15 minutes ago, start time looks wrong";
+        }
         if (reason != null) {
             state.addRejectedLifeCount(lifeCount);
-            Libre3.saveState(state);
+            Libre3.updateState(state);
             UserError.Log.uel(TAG, "Libre 3 reading at life count " + lifeCount + " not stored: " + reason);
             return false;
         }
         int mgdl = reading.mgdl();
         long timestamp = timestamp(lifeCount);
         state.updateLastGlucose(lifeCount, mgdl);
-        Libre3.saveState(state);
+        if (!Libre3.updateState(state)) {
+            UserError.Log.e(TAG, "Libre 3 " + state.serial() + " is no longer the stored sensor, reading not stored");
+            return false;
+        }
         double value = Pref.getBooleanDefaultFalse(Libre3.PREF_SMOOTHING) ? smoothed(timestamp, mgdl) : mgdl;
         remember(timestamp, mgdl);
         if (!Pref.getBooleanDefaultFalse("libre_one_minute") && lifeCount % 5 != 0) {
@@ -95,6 +103,10 @@ public final class Libre3Readings {
      * @return how many were stored
      */
     public synchronized int onHistory(List<HistoricalPage.Entry> entries, long nowMs) {
+        if (!Libre3.isStored(state)) {
+            UserError.Log.e(TAG, "Libre 3 " + state.serial() + " is no longer the stored sensor, history not stored");
+            return 0;
+        }
         Integer current = state.lastLifeCount();
         int stored = 0;
         for (HistoricalPage.Entry entry : entries) {

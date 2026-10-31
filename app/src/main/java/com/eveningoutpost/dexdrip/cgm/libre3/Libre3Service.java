@@ -63,7 +63,10 @@ public class Libre3Service extends ForegroundService {
 
         @Override
         public void onPaired(Libre3SensorState state) {
-            Libre3.saveState(state);
+            if (!Libre3.updateState(state)) {
+                UserError.Log.e(TAG, "Libre 3 " + state.serial() + " paired but is no longer the stored sensor");
+                return;
+            }
             UserError.Log.uel(TAG, "Libre 3 " + state.serial() + " paired");
         }
 

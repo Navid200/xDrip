@@ -16,6 +16,8 @@ import com.eveningoutpost.dexdrip.utilitymodels.Pref;
 import com.eveningoutpost.dexdrip.utils.UniqueId;
 import com.eveningoutpost.dexdrip.xdrip;
 
+import java.util.Arrays;
+
 import lwld.libre3.Libre3SensorState;
 import lwld.libre3.pairing.ReceiverId;
 
@@ -73,12 +75,34 @@ public final class Libre3 {
         }
     }
 
-    public static void saveState(Libre3SensorState state) {
+    /** Stores this sensor, replacing any other. Only an NFC start or takeover does this. */
+    public static synchronized void saveState(Libre3SensorState state) {
         PersistentStore.setString(STATE_KEY, state.toJson());
     }
 
+    /**
+     * Saves the state only while it is still the stored sensor, so a session that has ended cannot overwrite a
+     * sensor started since, or bring back one that was forgotten.
+     *
+     * @return false when another sensor, or none, is stored
+     */
+    public static synchronized boolean updateState(Libre3SensorState state) {
+        if (!isStored(state)) {
+            return false;
+        }
+        saveState(state);
+        return true;
+    }
+
+    /** True while this state is the stored sensor: same serial and same BLE PIN. */
+    public static synchronized boolean isStored(Libre3SensorState state) {
+        Libre3SensorState stored = loadState();
+        return stored != null && stored.serial().equals(state.serial())
+                && Arrays.equals(stored.blePin(), state.blePin());
+    }
+
     /** Drops the stored sensor, so the next one needs an NFC start or takeover. */
-    public static void forgetSensor() {
+    public static synchronized void forgetSensor() {
         PersistentStore.removeItem(STATE_KEY);
         PersistentStore.removeItem(RECORD_SERIAL_KEY);
         PersistentStore.removeItem(RECORD_UUID_KEY);
