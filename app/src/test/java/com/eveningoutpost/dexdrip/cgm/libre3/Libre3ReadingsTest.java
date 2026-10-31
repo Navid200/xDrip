@@ -100,29 +100,41 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
         assertThat(storedAt(1000).calculated_value).isEqualTo(125.0);
     }
 
-    /** A reading with no value, a zero value or LO is not stored, and its life count is remembered as rejected. */
+    /** A reading with no value or a zero value is not stored, and its life count is remembered as rejected. */
     @Test
-    public void onRealtime_noValueZeroOrLow_notStoredAndRejected() {
+    public void onRealtime_noValueOrZero_notStoredAndRejected() {
         // :: Act
         readings.onRealtime(reading(1000, null), now);
         readings.onRealtime(reading(1005, 0), now);
-        readings.onRealtime(reading(1010, 39), now);
 
         // :: Verify
         assertThat(storedAt(1000)).isNull();
         assertThat(storedAt(1005)).isNull();
-        assertThat(storedAt(1010)).isNull();
-        assertThat(state.rejectedLifeCounts()).containsAtLeast(1000, 1005, 1010);
+        assertThat(state.rejectedLifeCounts()).containsAtLeast(1000, 1005);
     }
 
-    /** HI is not stored either. */
+    /** LO is stored as 39 mg/dL, so xDrip shows LOW and the low alerts see it. */
     @Test
-    public void onRealtime_high_notStored() {
+    public void onRealtime_low_storedAsLow() {
         // :: Act
-        readings.onRealtime(reading(1000, 501), now);
+        boolean stored = readings.onRealtime(reading(1000, 20), now);
 
         // :: Verify
-        assertThat(storedAt(1000)).isNull();
+        assertThat(stored).isTrue();
+        assertThat(storedAt(1000).calculated_value).isEqualTo(39.0);
+        assertThat(storedAt(1000).displayValue(null)).isEqualTo("LOW");
+    }
+
+    /** HI is stored as 501 mg/dL, so xDrip shows HIGH and the high alerts see it. */
+    @Test
+    public void onRealtime_high_storedAsHigh() {
+        // :: Act
+        boolean stored = readings.onRealtime(reading(1000, 600), now);
+
+        // :: Verify
+        assertThat(stored).isTrue();
+        assertThat(storedAt(1000).calculated_value).isEqualTo(501.0);
+        assertThat(storedAt(1000).displayValue(null)).isEqualTo("HIGH");
     }
 
     /** A reading during warm-up is not stored. */
@@ -248,6 +260,19 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
 
         // :: Verify
         assertThat(storedAt(990)).isNull();
+    }
+
+    /** A LO history entry in a gap is stored as 39 mg/dL. */
+    @Test
+    public void onHistory_lowGapEntry_storedAsLow() {
+        // :: Setup
+        readings.onRealtime(reading(1000, 120), now);
+
+        // :: Act
+        readings.onHistory(entries(990, 20), now);
+
+        // :: Verify
+        assertThat(storedAt(990).calculated_value).isEqualTo(39.0);
     }
 
     /** A history entry beyond the current life count is not stored. */

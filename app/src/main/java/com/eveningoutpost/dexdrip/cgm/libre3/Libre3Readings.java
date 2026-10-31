@@ -35,8 +35,9 @@ public final class Libre3Readings {
     private static final String TAG = "Libre3Native";
     private static final String SOURCE = "Libre3";
 
-    private static final int MIN_MGDL = 40;
-    private static final int MAX_MGDL = 500;
+    // LO and HI arrive as 39 and 501, which xDrip shows as LOW and HIGH
+    private static final int MIN_MGDL = 39;
+    private static final int MAX_MGDL = 501;
     private static final long KEEP_RECENT_MS = 60 * MINUTE_IN_MS;
     /** A realtime reading is the sensor's current minute; this allows for its clock drifting from the phone's. */
     private static final long MAX_REALTIME_AGE_MS = 15 * MINUTE_IN_MS;
