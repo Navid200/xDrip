@@ -23,6 +23,10 @@ import java.util.List;
 
 import lwld.libre3.crypto.AppIdentity;
 import lwld.libre3.util.Hex;
+import okhttp3.OkHttpClient;
+import okhttp3.Protocol;
+import okhttp3.Response;
+import okhttp3.ResponseBody;
 
 /**
  * Tests for {@link Libre3Credential}: a downloaded bundle is kept only once it unpacks against its digest, and a bad
@@ -112,6 +116,67 @@ public class Libre3CredentialTest extends RobolectricTestWithConfig {
 
         // :: Verify
         assertThat(identities).isEmpty();
+    }
+
+    // =================================================== download ====================================================
+
+    /** When no gateway gives a bundle, the reason is kept so the status page can show it. */
+    @Test
+    public void download_noGatewayWorks_recordsError() throws Exception {
+        // :: Setup
+        Libre3Credential credential = new Libre3Credential(dir(), sha256(bundle()));
+        OkHttpClient client = answering(404, new byte[0]);
+
+        // :: Act
+        ThrowingRunnable download = () -> credential.download(client);
+
+        // :: Verify
+        assertThrows(GeneralSecurityException.class, download);
+        assertThat(credential.lastDownloadError()).contains("HTTP 404");
+    }
+
+    /** A download that works clears the earlier failure and keeps the credential. */
+    @Test
+    public void download_works_clearsError() throws Exception {
+        // :: Setup
+        byte[] json = bundle();
+        Libre3Credential credential = new Libre3Credential(dir(), sha256(json));
+        assertThrows(GeneralSecurityException.class, () -> credential.download(answering(404, new byte[0])));
+
+        // :: Act
+        credential.download(answering(200, xz(json)));
+
+        // :: Verify
+        assertThat(credential.lastDownloadError()).isEmpty();
+        assertThat(credential.load()).hasSize(1);
+    }
+
+    /** Before any download there is no error to show. */
+    @Test
+    public void lastDownloadError_neverDownloaded_empty() throws Exception {
+        // :: Setup
+        Libre3Credential credential = new Libre3Credential(dir(), sha256(bundle()));
+
+        // :: Act
+        String error = credential.lastDownloadError();
+
+        // :: Verify
+        assertThat(error).isEmpty();
+    }
+
+    // ==================================================== helpers ====================================================
+
+    /** A client that never touches the network: every request gets this answer. */
+    private static OkHttpClient answering(int code, byte[] body) {
+        return new OkHttpClient.Builder()
+                .addInterceptor(chain -> new Response.Builder()
+                        .request(chain.request())
+                        .protocol(Protocol.HTTP_1_1)
+                        .code(code)
+                        .message("test")
+                        .body(ResponseBody.create(body, null))
+                        .build())
+                .build();
     }
 
     private static File dir() {

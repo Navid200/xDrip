@@ -9,6 +9,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.security.GeneralSecurityException;
 import java.util.Collections;
@@ -33,6 +34,7 @@ public final class Libre3Credential {
 
     private static final String TAG = "Libre3Native";
     private static final String FILE_NAME = "identities.json";
+    private static final String ERROR_FILE = "download-error.txt";
 
     private final File dir;
     private final String digest;
@@ -91,23 +93,48 @@ public final class Libre3Credential {
     }
 
     /**
-     * Fetches the pinned release from each gateway in turn and keeps the first that unpacks.
+     * Fetches the pinned release from each gateway in turn and keeps the first that unpacks. Why the last download
+     * failed is kept for {@link #lastDownloadError}, and cleared when one works.
      *
      * @throws GeneralSecurityException when no gateway gave a bundle that unpacks
      */
     public void download(OkHttpClient client) throws GeneralSecurityException {
-        String last = "no gateway";
+        StringBuilder errors = new StringBuilder();
         for (String gateway : IdentityBundle.GATEWAYS) {
             try {
                 store(fetch(client, gateway + IdentityBundle.SOURCE_TX));
+                new File(dir, ERROR_FILE).delete();
                 UserError.Log.uel(TAG, "Libre 3 credential downloaded from " + gateway);
                 return;
             } catch (IOException | GeneralSecurityException e) {
-                last = gateway + ": " + e.getMessage();
-                UserError.Log.e(TAG, "Libre 3 credential download failed from " + last);
+                String error = gateway + ": " + e.getMessage();
+                UserError.Log.e(TAG, "Libre 3 credential download failed from " + error);
+                errors.append(errors.length() == 0 ? "" : "; ").append(error);
             }
         }
-        throw new GeneralSecurityException("Credential download failed (" + last + ")");
+        String failure = errors.length() == 0 ? "no gateway" : errors.toString();
+        saveError(failure);
+        throw new GeneralSecurityException("Credential download failed (" + failure + ")");
+    }
+
+    /** Why the last download failed, or empty when it worked or none was tried. */
+    public synchronized String lastDownloadError() {
+        try {
+            File file = new File(dir, ERROR_FILE);
+            return file.isFile() ? new String(Files.readAllBytes(file.toPath()), StandardCharsets.UTF_8) : "";
+        } catch (IOException e) {
+            return "";
+        }
+    }
+
+    private synchronized void saveError(String error) {
+        try {
+            if (dir.isDirectory() || dir.mkdirs()) {
+                Files.write(new File(dir, ERROR_FILE).toPath(), error.getBytes(StandardCharsets.UTF_8));
+            }
+        } catch (IOException e) {
+            UserError.Log.e(TAG, "Could not save the credential download error: " + e.getMessage());
+        }
     }
 
     private static byte[] fetch(OkHttpClient client, String url) throws IOException {

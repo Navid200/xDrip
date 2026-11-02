@@ -232,10 +232,15 @@ public class Libre3Service extends ForegroundService {
         if (lastReadingAt > 0) {
             si.add(new StatusItem(gs(R.string.libre3_last_reading), niceTimeScalar(msSince(lastReadingAt))));
         }
-        boolean credential = !Libre3Credential.get(xdrip.getAppContext()).load().isEmpty();
+        Libre3Credential stored = Libre3Credential.get(xdrip.getAppContext());
+        boolean credential = !stored.load().isEmpty();
         si.add(new StatusItem(gs(R.string.libre3_credential),
                 credential ? gs(R.string.libre3_credential_ready) : gs(R.string.libre3_none),
                 credential ? StatusItem.Highlight.NORMAL : StatusItem.Highlight.BAD));
+        String downloadError = stored.lastDownloadError();
+        if (!credential && !downloadError.isEmpty()) {
+            si.add(new StatusItem(gs(R.string.libre3_download_failed), downloadError, StatusItem.Highlight.BAD));
+        }
         si.add(new StatusItem(gs(R.string.libre3_title), gs(R.string.libre3_open), StatusItem.Highlight.NORMAL,
                 "button-press", Libre3::startControlActivity));
         return si;

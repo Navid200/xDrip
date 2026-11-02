@@ -3,21 +3,30 @@ package com.eveningoutpost.dexdrip.cgm.libre3;
 import static com.eveningoutpost.dexdrip.models.JoH.tsl;
 import static com.eveningoutpost.dexdrip.utilitymodels.Constants.MINUTE_IN_MS;
 import static com.google.common.truth.Truth.assertThat;
+import static org.junit.Assert.assertThrows;
 
 import com.eveningoutpost.dexdrip.RobolectricTestWithConfig;
 import com.eveningoutpost.dexdrip.models.BgReading;
 import com.eveningoutpost.dexdrip.utilitymodels.Pref;
+import com.eveningoutpost.dexdrip.utilitymodels.StatusItem;
 import com.eveningoutpost.dexdrip.xdrip;
 
 import org.junit.After;
 import org.junit.Test;
 import org.robolectric.RuntimeEnvironment;
 
+import java.security.GeneralSecurityException;
+import java.util.List;
+
 import lwld.libre3.Libre3SensorState;
 import lwld.libre3.data.PatchStatus;
 import lwld.libre3.data.RealtimeReading;
 import lwld.libre3.nfc.PatchInfo;
 import lwld.libre3.util.Hex;
+import okhttp3.OkHttpClient;
+import okhttp3.Protocol;
+import okhttp3.Response;
+import okhttp3.ResponseBody;
 
 /**
  * Tests for {@link Libre3Service.Session}: each Bluetooth session hands its values to the readings of its own sensor.
@@ -168,6 +177,22 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         assertThat(stalled).isTrue();
     }
 
+    // ================================================== megaStatus ===================================================
+
+    /** Without a credential, the status page says why the last download failed. */
+    @Test
+    public void megaStatus_downloadFailed_showsReason() {
+        // :: Setup
+        Libre3Credential credential = Libre3Credential.get(xdrip.getAppContext());
+        assertThrows(GeneralSecurityException.class, () -> credential.download(answering404()));
+
+        // :: Act
+        List<StatusItem> status = Libre3Service.megaStatus();
+
+        // :: Verify
+        assertThat(status.stream().anyMatch(item -> item.value.contains("HTTP 404"))).isTrue();
+    }
+
     // ==================================================== helpers ====================================================
 
     /** Stores a running sensor as the current one, as an NFC scan does. */
@@ -178,6 +203,19 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         Libre3.saveState(state);
         Libre3.ensureSensor(state);
         return state;
+    }
+
+    /** A client that never touches the network: every request is answered 404. */
+    private static OkHttpClient answering404() {
+        return new OkHttpClient.Builder()
+                .addInterceptor(chain -> new Response.Builder()
+                        .request(chain.request())
+                        .protocol(Protocol.HTTP_1_1)
+                        .code(404)
+                        .message("test")
+                        .body(ResponseBody.create(new byte[0], null))
+                        .build())
+                .build();
     }
 
     private static RealtimeReading reading(int lifeCount, int mgdl) {
