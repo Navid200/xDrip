@@ -190,7 +190,7 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
     @Test
     public void onStartCommand_noCredential_opensLibre3Screen() {
         // :: Setup
-        DexCollectionType.setDexCollectionType(DexCollectionType.Libre3Native);
+        selectSource(DexCollectionType.Libre3Native);
 
         // :: Act
         Robolectric.buildService(Libre3Service.class).create().startCommand(0, 1);
@@ -204,7 +204,7 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
     @Test
     public void onStartCommand_wakeUp_opensOnce() {
         // :: Setup
-        DexCollectionType.setDexCollectionType(DexCollectionType.Libre3Native);
+        selectSource(DexCollectionType.Libre3Native);
         ServiceController<Libre3Service> service = Robolectric.buildService(Libre3Service.class).create();
         service.startCommand(0, 1);
         shadowOf(RuntimeEnvironment.getApplication()).getNextStartedActivity();
@@ -220,7 +220,7 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
     @Test
     public void onStartCommand_otherSource_opensNothing() {
         // :: Setup
-        DexCollectionType.setDexCollectionType(DexCollectionType.Disabled);
+        selectSource(DexCollectionType.Disabled);
 
         // :: Act
         Robolectric.buildService(Libre3Service.class).create().startCommand(0, 1);
@@ -255,6 +255,15 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         Libre3.saveState(state);
         Libre3.ensureSensor(state);
         return state;
+    }
+
+    /**
+     * Selects the source with the one-minute setting off: DexCollectionType reads that setting once, when the class
+     * loads, and keeps it for every later test in the run.
+     */
+    private static void selectSource(DexCollectionType type) {
+        Pref.removeItem("libre_one_minute");
+        DexCollectionType.setDexCollectionType(type);
     }
 
     /** A client that never touches the network: every request is answered 404. */
