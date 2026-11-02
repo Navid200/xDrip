@@ -2184,6 +2184,7 @@
     <string name="libre3_download_credential">Download app credential</string>
     <string name="libre3_downloading">Downloading app credential</string>
     <string name="libre3_download_failed">App credential download failed</string>
+    <string name="libre3_offer_download">The sensor pairs with an app credential, and none is downloaded yet. Download it now?</string>
     <string name="libre3_forget_sensor">Forget sensor</string>
     <string name="libre3_forget_sensor_confirm">xDrip stops talking to this sensor. To use it again, scan it with NFC. A sensor started without an account can only come back to this xDrip install.</string>
     <string name="libre3_settings">Libre 3 (native)</string>

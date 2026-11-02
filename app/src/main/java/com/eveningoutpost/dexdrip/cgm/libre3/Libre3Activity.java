@@ -30,6 +30,7 @@ public class Libre3Activity extends ActivityWithMenu {
     private static final String TAG = "Libre3Native";
 
     private TextView status;
+    private boolean offeredDownload;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +68,21 @@ public class Libre3Activity extends ActivityWithMenu {
     public void onResume() {
         super.onResume();
         refresh();
+        offerDownload();
+    }
+
+    /** Without a credential, asks once per visit whether to download it now. */
+    private void offerDownload() {
+        if (offeredDownload || !Libre3Credential.get(this).load().isEmpty()) {
+            return;
+        }
+        offeredDownload = true;
+        new AlertDialog.Builder(this)
+                .setTitle(R.string.libre3_download_credential)
+                .setMessage(R.string.libre3_offer_download)
+                .setPositiveButton(R.string.yes, (dialog, which) -> downloadCredential())
+                .setNegativeButton(R.string.no, null)
+                .show();
     }
 
     private void refresh() {

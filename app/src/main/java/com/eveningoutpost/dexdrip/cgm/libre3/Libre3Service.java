@@ -54,6 +54,7 @@ public class Libre3Service extends ForegroundService {
     private Session session;
     private String bleSerial;
     private long wakeupTime;
+    private boolean offeredCredential;
 
     /**
      * One Bluetooth session's listener. It keeps the readings of its own sensor, so a value still arriving from an old
@@ -133,6 +134,7 @@ public class Libre3Service extends ForegroundService {
                 stopSelf();
                 return START_NOT_STICKY;
             }
+            offerCredential();
             startIfNeeded();
             scheduleWakeUp();
         } finally {
@@ -145,6 +147,14 @@ public class Libre3Service extends ForegroundService {
     public void onDestroy() {
         stopBle();
         super.onDestroy();
+    }
+
+    /** Without a credential, opens the Libre 3 screen once per start of the collector, so it can offer the download. */
+    private void offerCredential() {
+        if (!offeredCredential && Libre3Credential.get(this).load().isEmpty()) {
+            offeredCredential = true;
+            Libre3.startControlActivity();
+        }
     }
 
     private void startIfNeeded() {

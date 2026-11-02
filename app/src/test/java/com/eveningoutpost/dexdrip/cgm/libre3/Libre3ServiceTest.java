@@ -4,16 +4,22 @@ import static com.eveningoutpost.dexdrip.models.JoH.tsl;
 import static com.eveningoutpost.dexdrip.utilitymodels.Constants.MINUTE_IN_MS;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
+import static org.robolectric.Shadows.shadowOf;
+
+import android.content.Intent;
 
 import com.eveningoutpost.dexdrip.RobolectricTestWithConfig;
 import com.eveningoutpost.dexdrip.models.BgReading;
 import com.eveningoutpost.dexdrip.utilitymodels.Pref;
 import com.eveningoutpost.dexdrip.utilitymodels.StatusItem;
+import com.eveningoutpost.dexdrip.utils.DexCollectionType;
 import com.eveningoutpost.dexdrip.xdrip;
 
 import org.junit.After;
 import org.junit.Test;
+import org.robolectric.Robolectric;
 import org.robolectric.RuntimeEnvironment;
+import org.robolectric.android.controller.ServiceController;
 
 import java.security.GeneralSecurityException;
 import java.util.List;
@@ -51,6 +57,7 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
 
     @After
     public void tearDown() {
+        Pref.removeItem("dex_collection_method");
         Pref.removeItem("libre_one_minute");
         Libre3.forgetSensor();
     }
@@ -175,6 +182,51 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
 
         // :: Verify
         assertThat(stalled).isTrue();
+    }
+
+    // =================================================== Start ======================================================
+
+    /** Without a credential, starting the collector opens the Libre 3 screen, which offers the download. */
+    @Test
+    public void onStartCommand_noCredential_opensLibre3Screen() {
+        // :: Setup
+        DexCollectionType.setDexCollectionType(DexCollectionType.Libre3Native);
+
+        // :: Act
+        Robolectric.buildService(Libre3Service.class).create().startCommand(0, 1);
+
+        // :: Verify
+        Intent started = shadowOf(RuntimeEnvironment.getApplication()).getNextStartedActivity();
+        assertThat(started.getComponent().getClassName()).isEqualTo(Libre3Activity.class.getName());
+    }
+
+    /** The five-minute wake-ups do not open the screen again; only a new start of the collector does. */
+    @Test
+    public void onStartCommand_wakeUp_opensOnce() {
+        // :: Setup
+        DexCollectionType.setDexCollectionType(DexCollectionType.Libre3Native);
+        ServiceController<Libre3Service> service = Robolectric.buildService(Libre3Service.class).create();
+        service.startCommand(0, 1);
+        shadowOf(RuntimeEnvironment.getApplication()).getNextStartedActivity();
+
+        // :: Act
+        service.startCommand(0, 2);
+
+        // :: Verify
+        assertThat(shadowOf(RuntimeEnvironment.getApplication()).getNextStartedActivity()).isNull();
+    }
+
+    /** A collector that is not the chosen source stops without opening anything. */
+    @Test
+    public void onStartCommand_otherSource_opensNothing() {
+        // :: Setup
+        DexCollectionType.setDexCollectionType(DexCollectionType.Disabled);
+
+        // :: Act
+        Robolectric.buildService(Libre3Service.class).create().startCommand(0, 1);
+
+        // :: Verify
+        assertThat(shadowOf(RuntimeEnvironment.getApplication()).getNextStartedActivity()).isNull();
     }
 
     // ================================================== megaStatus ===================================================
