@@ -22,16 +22,17 @@ import okhttp3.Response;
 import okhttp3.ResponseBody;
 
 /**
- * The app credential the sensor pairs with, kept as the downloaded xz bundle in the app's private files. A download
- * replaces the stored bundle only after it unpacks against the pinned digest, so a bad one never loses a good one.
- * The bundle's contents are never logged.
+ * The app credential the sensor pairs with, kept as the bundle's verified JSON in the app's private files. Keeping
+ * the JSON rather than the xz means loading it checks the digest again without unpacking a 64 MiB dictionary. A
+ * download replaces the stored bundle only after it unpacks against the pinned digest, so a bad one never loses a
+ * good one. The bundle's contents are never logged.
  *
  * @author Asbjørn Aarrestad - 2026.10
  */
 public final class Libre3Credential {
 
     private static final String TAG = "Libre3Native";
-    private static final String FILE_NAME = "identities.xz";
+    private static final String FILE_NAME = "identities.json";
 
     private final File dir;
     private final String digest;
@@ -56,14 +57,15 @@ public final class Libre3Credential {
      * @throws GeneralSecurityException when it does not; the stored bundle is left as it was
      */
     public synchronized void store(byte[] xz) throws GeneralSecurityException {
-        IdentityBundle.unpack(xz, digest);
+        byte[] json = IdentityBundle.decompress(xz);
+        IdentityBundle.verify(json, digest);
         File tmp = new File(dir, FILE_NAME + ".tmp");
         try {
             if (!dir.isDirectory() && !dir.mkdirs()) {
                 throw new IOException("Cannot create " + dir);
             }
             try (FileOutputStream out = new FileOutputStream(tmp)) {
-                out.write(xz);
+                out.write(json);
             }
             if (!tmp.renameTo(new File(dir, FILE_NAME))) {
                 throw new IOException("Cannot rename the downloaded credential");
@@ -81,7 +83,7 @@ public final class Libre3Credential {
             return Collections.emptyList();
         }
         try {
-            return IdentityBundle.unpack(Files.readAllBytes(file.toPath()), digest);
+            return IdentityBundle.verify(Files.readAllBytes(file.toPath()), digest);
         } catch (IOException | GeneralSecurityException e) {
             UserError.Log.e(TAG, "Stored Libre 3 credential is unusable: " + e.getMessage());
             return Collections.emptyList();

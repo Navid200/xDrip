@@ -56,23 +56,18 @@ public final class IdentityBundle {
      * @throws GeneralSecurityException on any failure: size, decompression, digest, shape or key
      */
     public static List<AppIdentity> unpack(byte[] xz, String expectedDigest) throws GeneralSecurityException {
+        return verify(decompress(xz), expectedDigest);
+    }
+
+    /**
+     * Decompresses the download without checking it; {@link #verify} does that.
+     *
+     * @throws GeneralSecurityException when it is too large or does not decompress
+     */
+    public static byte[] decompress(byte[] xz) throws GeneralSecurityException {
         if (xz.length > MAX_BYTES) {
             throw new GeneralSecurityException("Identity bundle is larger than " + MAX_BYTES + " bytes");
         }
-        byte[] json = decompress(xz);
-        String digest = Hex.of(MessageDigest.getInstance("SHA-256").digest(json));
-        if (!MessageDigest.isEqual(digest.getBytes(StandardCharsets.US_ASCII),
-                expectedDigest.getBytes(StandardCharsets.US_ASCII))) {
-            throw new GeneralSecurityException("Identity bundle does not match its pinned digest");
-        }
-        try {
-            return parse(new JSONObject(new String(json, StandardCharsets.UTF_8)));
-        } catch (JSONException e) {
-            throw new GeneralSecurityException("Identity bundle is not the expected JSON", e);
-        }
-    }
-
-    private static byte[] decompress(byte[] xz) throws GeneralSecurityException {
         ByteArrayOutputStream out = new ByteArrayOutputStream();
         try (InputStream in = new XZInputStream(new ByteArrayInputStream(xz), XZ_MEMORY_LIMIT_KIB)) {
             byte[] buffer = new byte[8192];
@@ -88,6 +83,25 @@ public final class IdentityBundle {
             throw new GeneralSecurityException("Identity bundle does not decompress: " + e.getMessage(), e);
         }
         return out.toByteArray();
+    }
+
+    /**
+     * @param json           the decompressed bundle
+     * @param expectedDigest lower-case hex SHA-256 the JSON must hash to
+     * @return the identities, in file order
+     * @throws GeneralSecurityException on a digest, shape or key failure
+     */
+    public static List<AppIdentity> verify(byte[] json, String expectedDigest) throws GeneralSecurityException {
+        String digest = Hex.of(MessageDigest.getInstance("SHA-256").digest(json));
+        if (!MessageDigest.isEqual(digest.getBytes(StandardCharsets.US_ASCII),
+                expectedDigest.getBytes(StandardCharsets.US_ASCII))) {
+            throw new GeneralSecurityException("Identity bundle does not match its pinned digest");
+        }
+        try {
+            return parse(new JSONObject(new String(json, StandardCharsets.UTF_8)));
+        } catch (JSONException e) {
+            throw new GeneralSecurityException("Identity bundle is not the expected JSON", e);
+        }
     }
 
     private static List<AppIdentity> parse(JSONObject file) throws JSONException, GeneralSecurityException {

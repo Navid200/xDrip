@@ -73,6 +73,34 @@ public class Libre3CredentialTest extends RobolectricTestWithConfig {
         assertThat(credential.load()).hasSize(1);
     }
 
+    /** What one instance kept loads in the next, as after an app restart. */
+    @Test
+    public void load_newInstance_loadsStored() throws Exception {
+        // :: Setup
+        byte[] json = bundle();
+        new Libre3Credential(dir(), sha256(json)).store(xz(json));
+
+        // :: Act
+        List<AppIdentity> identities = new Libre3Credential(dir(), sha256(json)).load();
+
+        // :: Verify
+        assertThat(identities).hasSize(1);
+    }
+
+    /** A kept credential is checked against the digest on every load, so a changed pin does not use it. */
+    @Test
+    public void load_otherDigest_empty() throws Exception {
+        // :: Setup
+        byte[] json = bundle();
+        new Libre3Credential(dir(), sha256(json)).store(xz(json));
+
+        // :: Act
+        List<AppIdentity> identities = new Libre3Credential(dir(), sha256(new byte[1])).load();
+
+        // :: Verify
+        assertThat(identities).isEmpty();
+    }
+
     /** Before anything was downloaded there are no identities, and no error. */
     @Test
     public void load_nothingStored_empty() throws Exception {

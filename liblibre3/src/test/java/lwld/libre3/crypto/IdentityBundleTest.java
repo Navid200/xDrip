@@ -61,6 +61,33 @@ public class IdentityBundleTest {
         assertThat(identities.get(0).certificate()).isEqualTo(Hex.toBytes(CERT));
     }
 
+    /** Decompressing gives back the JSON exactly, so it can be kept and verified later without unpacking again. */
+    @Test
+    public void decompress_valid_returnsJson() throws Exception {
+        // :: Setup
+        byte[] json = bundle(1, entry("a", SCALAR, CERT));
+
+        // :: Act
+        byte[] out = IdentityBundle.decompress(xz(json));
+
+        // :: Verify
+        assertThat(out).isEqualTo(json);
+    }
+
+    /** Verifying the decompressed JSON gives the same identities as unpacking the download. */
+    @Test
+    public void verify_valid_returnsIdentities() throws Exception {
+        // :: Setup
+        byte[] json = bundle(1, entry("a", SCALAR, CERT));
+
+        // :: Act
+        List<AppIdentity> identities = IdentityBundle.verify(json, sha256(json));
+
+        // :: Verify
+        assertThat(identities).hasSize(1);
+        assertThat(identities.get(0).label()).isEqualTo("a");
+    }
+
     /** The pinned source matches the xDrip4iOS release it was taken from. */
     @Test
     public void constants_matchPinnedRelease() {
@@ -89,6 +116,20 @@ public class IdentityBundleTest {
 
         // :: Verify
         assertThrows(GeneralSecurityException.class, unpack);
+    }
+
+    /** Kept JSON that no longer hashes to the pinned digest is rejected. */
+    @Test
+    public void verify_wrongDigest_throws() throws Exception {
+        // :: Setup
+        byte[] json = bundle(1, entry("a", SCALAR, CERT));
+        String digest = sha256("other".getBytes(StandardCharsets.UTF_8));
+
+        // :: Act
+        ThrowingRunnable verify = () -> IdentityBundle.verify(json, digest);
+
+        // :: Verify
+        assertThrows(GeneralSecurityException.class, verify);
     }
 
     /** A cut-off download is rejected, not half-read. */
