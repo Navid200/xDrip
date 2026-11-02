@@ -41,8 +41,8 @@ public final class IdentityBundle {
     public static final int MAX_BYTES = 1_000_000;
 
     private static final int MAX_IDENTITIES = 16;
-    /** Enough for any XZ preset; refuses a header that asks for more. */
-    private static final int XZ_MEMORY_LIMIT_KIB = 64 * 1024;
+    /** xz -9, as the published bundle uses, needs 65640 KiB to unpack; a header asking for more is refused. */
+    private static final int XZ_MEMORY_LIMIT_KIB = 66 * 1024;
     private static final Pattern KEY_HEX = Pattern.compile("[0-9a-fA-F]{64}");
     private static final Pattern CERT_HEX = Pattern.compile("[0-9a-fA-F]{324}");
 
@@ -85,7 +85,7 @@ public final class IdentityBundle {
                 }
             }
         } catch (IOException e) {
-            throw new GeneralSecurityException("Identity bundle does not decompress", e);
+            throw new GeneralSecurityException("Identity bundle does not decompress: " + e.getMessage(), e);
         }
         return out.toByteArray();
     }

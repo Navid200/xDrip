@@ -20,6 +20,7 @@ import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
 import java.util.Arrays;
 import java.util.List;
+import java.util.zip.CRC32;
 
 import lwld.libre3.util.Hex;
 
@@ -38,6 +39,10 @@ public class IdentityBundleTest {
     private static final String CERT = "03000102030405060708090a0b0c0d0e0f1000005f92a79201000000000000000004a85b3aad"
             + "6f3a346d85523141cb434e1caf4c642b2b3cc952cb07a635cb6a1df1bcbdadb66bae8eb25eca92f8b08b67be02cc736150dd7ffcd3"
             + "f019c875f9ffde" + repeat('0', 128);
+
+    /** LZMA2 dictionary property bytes: 28 is 64 MiB, 30 is 128 MiB. */
+    private static final int DICT_64_MIB = 28;
+    private static final int DICT_128_MIB = 30;
 
     // ================================================= Valid bundle ==================================================
 
@@ -99,6 +104,35 @@ public class IdentityBundleTest {
 
         // :: Verify
         assertThrows(GeneralSecurityException.class, unpack);
+    }
+
+    /** The published bundle is packed with a 64 MiB dictionary (xz -9), which needs a little over 64 MiB to unpack. */
+    @Test
+    public void unpack_64MibDictionary_unpacks() throws Exception {
+        // :: Setup
+        byte[] json = bundle(1, entry("a", SCALAR, CERT));
+        byte[] packed = withDictionaryProperty(xz(json), DICT_64_MIB);
+
+        // :: Act
+        List<AppIdentity> identities = IdentityBundle.unpack(packed, sha256(json));
+
+        // :: Verify
+        assertThat(identities).hasSize(1);
+    }
+
+    /** A header asking for a larger dictionary is refused, and the message says it is about memory. */
+    @Test
+    public void unpack_128MibDictionary_throwsNamingMemory() throws Exception {
+        // :: Setup
+        byte[] json = bundle(1, entry("a", SCALAR, CERT));
+        byte[] packed = withDictionaryProperty(xz(json), DICT_128_MIB);
+
+        // :: Act
+        ThrowingRunnable unpack = () -> IdentityBundle.unpack(packed, sha256(json));
+
+        // :: Verify
+        GeneralSecurityException e = assertThrows(GeneralSecurityException.class, unpack);
+        assertThat(e).hasMessageThat().contains("memory");
     }
 
     /** A small download that expands past the cap is rejected before it is hashed or parsed. */
@@ -262,6 +296,25 @@ public class IdentityBundleTest {
             xz.write(plain);
         }
         return out.toByteArray();
+    }
+
+    /**
+     * Rewrites the LZMA2 dictionary size in the first block header and its CRC32. The data is small, so it decodes
+     * the same with any dictionary; only the memory the header asks for changes.
+     */
+    private static byte[] withDictionaryProperty(byte[] packed, int property) {
+        byte[] out = packed.clone();
+        int header = 12;
+        int size = ((out[header] & 0xff) + 1) * 4;
+        assertThat(out[header + 2]).isEqualTo((byte) 0x21);
+        out[header + 4] = (byte) property;
+        CRC32 crc = new CRC32();
+        crc.update(out, header, size - 4);
+        long value = crc.getValue();
+        for (int i = 0; i < 4; i++) {
+            out[header + size - 4 + i] = (byte) (value >> (8 * i));
+        }
+        return out;
     }
 
     private static String sha256(byte[] data) throws NoSuchAlgorithmException {
