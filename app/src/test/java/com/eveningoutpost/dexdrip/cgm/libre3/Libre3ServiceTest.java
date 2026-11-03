@@ -157,6 +157,42 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         assertThat(logRows("BLE: Error (0x85): GATT ERROR")).isEmpty();
     }
 
+    /** Each retry is counted by its reason, so a tester's report says at a glance why the session kept retrying. */
+    @Test
+    public void onStage_retries_countedByReason() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+
+        // :: Act
+        session.onStage("Connecting");
+        session.onStage("Reconnecting in 5 s: connect failed, reason 10");
+        session.onStage("Reconnecting in 10 s: sensor not seen");
+        session.onStage("Reconnecting in 15 s: connect failed, reason 10");
+
+        // :: Verify
+        assertThat(session.retryCounts())
+                .containsExactly("connect failed, reason 10", 2, "sensor not seen", 1)
+                .inOrder();
+    }
+
+    /** Only the newest 20 stages are kept, oldest first, so a long session does not grow without bound. */
+    @Test
+    public void onStage_manyStages_keepsNewest20() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+
+        // :: Act
+        for (int i = 0; i < 25; i++) {
+            session.onStage("s" + i);
+        }
+
+        // :: Verify
+        List<String> stages = session.recentStages();
+        assertThat(stages).hasSize(20);
+        assertThat(stages.get(0)).endsWith(" s5");
+        assertThat(stages.get(19)).endsWith(" s24");
+    }
+
     // ===================================================== Stall =====================================================
 
     /** A session that never reported a stage or a value is stalled, so the next wake-up restarts it. */

@@ -27,7 +27,10 @@ import com.eveningoutpost.dexdrip.utils.framework.WakeLockTrampoline;
 import com.eveningoutpost.dexdrip.xdrip;
 
 import java.util.ArrayList;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 import lwld.libre3.Libre3SensorState;
 import lwld.libre3.ble.Libre3Ble;
@@ -50,6 +53,8 @@ public class Libre3Service extends ForegroundService {
     private static volatile String lastError = "";
     private static volatile long lastReadingAt;
     private static volatile Libre3Readings readings;
+    /** The running Bluetooth session, for the diagnostics report; null when none runs. */
+    private static volatile Session current;
 
     private Libre3Ble ble;
     private Session session;
@@ -65,13 +70,46 @@ public class Libre3Service extends ForegroundService {
 
         /** Longer than the longest retry wait plus a scan and a connect, so a working session is never cut. */
         private static final long STALL_MS = 12 * MINUTE_IN_MS;
+        private static final int RECENT_STAGES = 20;
+        private static final String RETRY_PREFIX = "Reconnecting in ";
 
         private final Libre3Readings readings;
         /** When the session last reported a stage or a value; 0 when it never did. */
         private volatile long lastProgressAt;
+        private final long startedAt = tsl();
+        /** Written by the Bluetooth worker, read by the diagnostics report; guarded by this. */
+        private final LinkedList<String> recentStages = new LinkedList<>();
+        private final Map<String, Integer> retryCounts = new LinkedHashMap<>();
 
         Session(Libre3Readings readings) {
             this.readings = readings;
+        }
+
+        long startedAt() {
+            return startedAt;
+        }
+
+        /** @return the newest stages, oldest first, each with its time */
+        synchronized List<String> recentStages() {
+            return new ArrayList<>(recentStages);
+        }
+
+        /** @return how often the session retried, by reason, in the order the reasons were first seen */
+        synchronized Map<String, Integer> retryCounts() {
+            return new LinkedHashMap<>(retryCounts);
+        }
+
+        private synchronized void remember(String newStage) {
+            recentStages.add(dateTimeText(tsl()) + " " + newStage);
+            while (recentStages.size() > RECENT_STAGES) {
+                recentStages.removeFirst();
+            }
+            final int reasonAt = newStage.indexOf(": ");
+            if (newStage.startsWith(RETRY_PREFIX) && reasonAt >= 0) {
+                final String reason = newStage.substring(reasonAt + 2);
+                final Integer count = retryCounts.get(reason);
+                retryCounts.put(reason, count == null ? 1 : count + 1);
+            }
         }
 
         /**
@@ -86,6 +124,7 @@ public class Libre3Service extends ForegroundService {
         public void onStage(String newStage) {
             lastProgressAt = tsl();
             stage = newStage;
+            remember(newStage);
             UserError.Log.d(TAG, "Stage: " + newStage);
         }
 
@@ -198,10 +237,17 @@ public class Libre3Service extends ForegroundService {
         Libre3Readings sessionReadings = new Libre3Readings(state);
         readings = sessionReadings;
         session = new Session(sessionReadings);
+        current = session;
         ble = new Libre3Ble(xdrip.getAppContext(), state, identities, session);
         bleSerial = state.serial();
         UserError.Log.uel(TAG, "Connecting to Libre 3 " + state.serial());
         ble.start();
+    }
+
+    /** @return the running Bluetooth session, or null when none runs */
+    @Nullable
+    static Session currentSession() {
+        return current;
     }
 
     private void stopBle() {
@@ -209,6 +255,7 @@ public class Libre3Service extends ForegroundService {
             ble.stop();
             ble = null;
             session = null;
+            current = null;
             bleSerial = null;
             readings = null;
         }
