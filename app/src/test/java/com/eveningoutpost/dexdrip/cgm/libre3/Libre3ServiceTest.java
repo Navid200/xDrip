@@ -1,14 +1,18 @@
 package com.eveningoutpost.dexdrip.cgm.libre3;
 
 import static com.eveningoutpost.dexdrip.models.JoH.tsl;
+import static com.eveningoutpost.dexdrip.utilitymodels.Constants.DAY_IN_MS;
 import static com.eveningoutpost.dexdrip.utilitymodels.Constants.MINUTE_IN_MS;
+import static com.eveningoutpost.dexdrip.xdrip.gs;
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 import static org.robolectric.Shadows.shadowOf;
 
 import android.content.Intent;
 
+import com.eveningoutpost.dexdrip.R;
 import com.eveningoutpost.dexdrip.RobolectricTestWithConfig;
+import com.eveningoutpost.dexdrip.g5model.SensorDays;
 import com.eveningoutpost.dexdrip.models.BgReading;
 import com.eveningoutpost.dexdrip.utilitymodels.Pref;
 import com.eveningoutpost.dexdrip.utilitymodels.StatusItem;
@@ -50,6 +54,10 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
     public void setUp() {
         super.setUp();
         xdrip.setContextAlways(RuntimeEnvironment.application);
+        // DexCollectionType reads the one-minute setting once, when the class loads, and keeps it for every later test
+        // in the run: load it here with the setting off, before any test turns it on
+        Pref.removeItem("libre_one_minute");
+        DexCollectionType.getDexCollectionType();
         Libre3.forgetSensor();
         Pref.setBoolean("libre_one_minute", true);
         now = tsl();
@@ -60,6 +68,7 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         Pref.removeItem("dex_collection_method");
         Pref.removeItem("libre_one_minute");
         Libre3.forgetSensor();
+        SensorDays.clearCache();
     }
 
     // ==================================================== Session ====================================================
@@ -245,7 +254,46 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         assertThat(status.stream().anyMatch(item -> item.value.contains("HTTP 404"))).isTrue();
     }
 
+    /** Right after "Forget sensor" the old session's stage is gone: the page says there is no sensor. */
+    @Test
+    public void megaStatus_afterForget_showsNoSensor() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+        session.onStage("Reconnecting in 55 s: connect failed, reason 10");
+
+        // :: Act
+        Libre3.forgetSensor();
+        List<StatusItem> status = Libre3Service.megaStatus();
+
+        // :: Verify
+        assertThat(value(status, R.string.libre3_sensor)).isEqualTo(gs(R.string.libre3_none));
+        assertThat(value(status, R.string.libre3_stage)).isEqualTo(gs(R.string.libre3_stage_no_sensor));
+    }
+
+    /** The sensor end on the status page is the same text as on the home screen. */
+    @Test
+    public void megaStatus_runningSensor_endsAsOnHomeScreen() {
+        // :: Setup
+        selectSource(DexCollectionType.Libre3Native);
+        SensorDays.clearCache();
+        sensor("0RRC989AQ", now - 2 * DAY_IN_MS - 10 * MINUTE_IN_MS);
+
+        // :: Act
+        List<StatusItem> status = Libre3Service.megaStatus();
+
+        // :: Verify
+        assertThat(value(status, R.string.libre3_remaining)).isEqualTo("Ends in 13 days");
+        assertThat(value(status, R.string.libre3_remaining)).isEqualTo(SensorDays.get().getSpannable().toString());
+    }
+
     // ==================================================== helpers ====================================================
+
+    /** The value of the status row with this name, or null when the page has no such row. */
+    private static String value(List<StatusItem> status, int name) {
+        return status.stream().filter(item -> gs(name).equals(item.name)).map(item -> item.value).findFirst()
+                .orElse(null);
+    }
+
 
     /** Stores a running sensor as the current one, as an NFC scan does. */
     private static Libre3SensorState sensor(String serial, long activationMs) {

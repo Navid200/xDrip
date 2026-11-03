@@ -10,6 +10,7 @@ import com.eveningoutpost.dexdrip.models.BgReading;
 import com.eveningoutpost.dexdrip.models.UserError;
 import com.eveningoutpost.dexdrip.utilitymodels.Pref;
 import com.eveningoutpost.dexdrip.utilitymodels.StatusItem;
+import com.eveningoutpost.dexdrip.utils.DexCollectionType;
 import com.eveningoutpost.dexdrip.xdrip;
 
 import org.junit.After;
@@ -47,6 +48,10 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
     public void setUp() {
         super.setUp();
         xdrip.setContextAlways(RuntimeEnvironment.application);
+        // DexCollectionType reads the one-minute setting once, when the class loads, and keeps it for every later test
+        // in the run: load it here with the setting off, before any test turns it on
+        Pref.removeItem("libre_one_minute");
+        DexCollectionType.getDexCollectionType();
         Libre3.forgetSensor();
         now = tsl();
         state = new Libre3SensorState("0RRC989AQ", "CC:22:DF:B8:F9:58", PIN);

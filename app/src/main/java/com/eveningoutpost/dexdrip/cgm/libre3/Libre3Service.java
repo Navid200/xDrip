@@ -16,6 +16,7 @@ import android.text.SpannableString;
 import androidx.annotation.Nullable;
 
 import com.eveningoutpost.dexdrip.R;
+import com.eveningoutpost.dexdrip.g5model.SensorDays;
 import com.eveningoutpost.dexdrip.models.JoH;
 import com.eveningoutpost.dexdrip.models.UserError;
 import com.eveningoutpost.dexdrip.utilitymodels.Constants;
@@ -220,15 +221,17 @@ public class Libre3Service extends ForegroundService {
     public static List<StatusItem> megaStatus() {
         List<StatusItem> si = new ArrayList<>();
         Libre3SensorState state = Libre3.loadState();
-        Libre3Readings current = readings;
+        // a forgotten sensor's session can still be in the statics until the collector restart has run
+        Libre3Readings current = state == null ? null : readings;
         if (current != null) {
             si.addAll(current.megaStatus());
         } else {
             si.add(new StatusItem(gs(R.string.libre3_sensor),
                     state == null ? gs(R.string.libre3_none) : state.serial()));
         }
-        if (!stage.isEmpty()) {
-            si.add(new StatusItem(gs(R.string.libre3_stage), stage));
+        String shownStage = state == null ? gs(R.string.libre3_stage_no_sensor) : stage;
+        if (!shownStage.isEmpty()) {
+            si.add(new StatusItem(gs(R.string.libre3_stage), shownStage));
         }
         if (!lastError.isEmpty()) {
             si.add(new StatusItem(gs(R.string.libre3_last_error), lastError, StatusItem.Highlight.BAD));
@@ -236,8 +239,11 @@ public class Libre3Service extends ForegroundService {
         if (state != null && state.activationMs() > 0) {
             si.add(new StatusItem(gs(R.string.libre3_started), dateTimeText(state.activationMs())));
             long left = state.activationMs() + Libre3.getWearMs() - tsl();
-            si.add(new StatusItem(gs(R.string.libre3_remaining),
-                    left > 0 ? niceTimeScalar(left) : gs(R.string.libre3_expired)));
+            // the home screen's text, so both say the same
+            String ends = left > 0 ? SensorDays.get().getSpannable().toString() : gs(R.string.libre3_expired);
+            if (!ends.isEmpty()) {
+                si.add(new StatusItem(gs(R.string.libre3_remaining), ends));
+            }
         }
         if (lastReadingAt > 0) {
             si.add(new StatusItem(gs(R.string.libre3_last_reading), niceTimeScalar(msSince(lastReadingAt))));
