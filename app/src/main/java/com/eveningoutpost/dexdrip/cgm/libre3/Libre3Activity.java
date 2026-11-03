@@ -16,11 +16,13 @@ import com.eveningoutpost.dexdrip.utilitymodels.CollectionServiceStarter;
 import com.eveningoutpost.dexdrip.utilitymodels.OkHttpWrapper;
 import com.eveningoutpost.dexdrip.utilitymodels.StatusItem;
 import com.eveningoutpost.dexdrip.utils.ActivityWithMenu;
+import com.eveningoutpost.dexdrip.utils.LocationHelper;
 
 import java.security.GeneralSecurityException;
 
 /**
- * The Libre 3 screen: what the collector knows, downloading the app credential, and forgetting the sensor.
+ * The Libre 3 screen: what the collector knows, asking for location, downloading the app credential, and forgetting
+ * the sensor.
  * Starting or taking over a sensor is done by scanning it with NFC.
  *
  * @author Asbjørn Aarrestad - 2026.10
@@ -73,7 +75,24 @@ public class Libre3Activity extends ActivityWithMenu {
     public void onResume() {
         super.onResume();
         refresh();
-        offerDownload();
+        if (locationReady()) {
+            offerDownload();
+        }
+    }
+
+    /**
+     * The Bluetooth scan needs location permission and location turned on; asks for whichever is missing, as the
+     * other Bluetooth collectors do. The credential offer waits, so two dialogs never stack.
+     *
+     * @return true when nothing was asked
+     */
+    private boolean locationReady() {
+        try {
+            return LocationHelper.requestLocationForBluetooth(this) && LocationHelper.isLocationEnabled(this);
+        } catch (Exception e) {
+            UserError.Log.e(TAG, "Exception requesting location: " + e.getMessage());
+            return true;
+        }
     }
 
     /** Without a credential, asks once per visit whether to download it now. */

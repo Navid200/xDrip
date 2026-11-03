@@ -11,6 +11,8 @@ import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.location.LocationManager;
+import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.SystemClock;
@@ -109,6 +111,10 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
         void onHistory(List<HistoricalPage.Entry> entries);
 
         void onError(String message);
+
+        /** A scan needs location permission and location turned on; neither is there. */
+        default void onLocationNeeded() {
+        }
 
         /** A redacted line of the Bluetooth log. Without an override it goes to logcat only. */
         default void onLog(int priority, String message) {
@@ -300,7 +306,14 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
     private void startScan() {
         if (!hasLocationPermission()) {
             listener.onError("Location permission is needed to find the sensor");
+            listener.onLocationNeeded();
             scheduleReconnect("no location permission");
+            return;
+        }
+        if (!isLocationEnabled()) {
+            listener.onError("Location is off; Android finds no Bluetooth sensor without it");
+            listener.onLocationNeeded();
+            scheduleReconnect("location is off");
             return;
         }
         List<ScanFilter> filters = new ArrayList<>();
@@ -332,6 +345,19 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
         int granted = PackageManager.PERMISSION_GRANTED;
         return context.checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) == granted
                 || context.checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) == granted;
+    }
+
+    /** Location turned off hides scan results the same way as a missing permission. */
+    private boolean isLocationEnabled() {
+        LocationManager locationManager = (LocationManager) getContext().getSystemService(Context.LOCATION_SERVICE);
+        if (locationManager == null) {
+            return true;
+        }
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.P) {
+            return locationManager.isLocationEnabled();
+        }
+        return locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER)
+                || locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
     }
 
     private void stopScan() {

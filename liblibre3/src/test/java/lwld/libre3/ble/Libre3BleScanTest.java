@@ -5,6 +5,8 @@ import static org.robolectric.Shadows.shadowOf;
 
 import android.Manifest;
 import android.app.Application;
+import android.content.Context;
+import android.location.LocationManager;
 
 import org.junit.After;
 import org.junit.Test;
@@ -56,6 +58,36 @@ public class Libre3BleScanTest {
         assertThat(recorder.errors).containsExactly("Location permission is needed to find the sensor");
     }
 
+    /** Without location permission the collector is told, so it can ask the user. */
+    @Test
+    public void start_noLocationPermission_asksForLocation() {
+        // :: Setup
+        ble = scanningBle();
+
+        // :: Act
+        ble.start();
+
+        // :: Verify
+        assertThat(recorder.locationNeeded).isEqualTo(1);
+    }
+
+    /** With location turned off Android finds nothing either, so the scan is not started and the error says why. */
+    @Test
+    public void start_locationOff_reportsLocationOff() {
+        // :: Setup
+        grant(Manifest.permission.ACCESS_FINE_LOCATION);
+        setLocationEnabled(false);
+        ble = scanningBle();
+
+        // :: Act
+        ble.start();
+
+        // :: Verify
+        assertThat(recorder.stages).containsExactly("Reconnecting in 5 s: location is off");
+        assertThat(recorder.errors).containsExactly("Location is off; Android finds no Bluetooth sensor without it");
+        assertThat(recorder.locationNeeded).isEqualTo(1);
+    }
+
     /** With fine location the scan starts. */
     @Test
     public void start_fineLocation_scans() {
@@ -69,6 +101,7 @@ public class Libre3BleScanTest {
         // :: Verify
         assertThat(recorder.stages.get(0)).startsWith("Scanning for");
         assertThat(recorder.errors).isEmpty();
+        assertThat(recorder.locationNeeded).isEqualTo(0);
     }
 
     /** Coarse location is enough for an app that targets Android 8. */
@@ -128,10 +161,17 @@ public class Libre3BleScanTest {
         shadowOf(application).grantPermissions(permission);
     }
 
+    private static void setLocationEnabled(boolean enabled) {
+        LocationManager locationManager = (LocationManager) RuntimeEnvironment.getApplication()
+                .getSystemService(Context.LOCATION_SERVICE);
+        shadowOf(locationManager).setLocationEnabled(enabled);
+    }
+
     /** Keeps the stages and errors the collector would show. */
     private static final class Recorder implements Libre3Ble.Listener {
         final List<String> stages = new ArrayList<>();
         final List<String> errors = new ArrayList<>();
+        int locationNeeded;
 
         @Override
         public void onStage(String stage) {
@@ -157,6 +197,11 @@ public class Libre3BleScanTest {
         @Override
         public void onError(String message) {
             errors.add(message);
+        }
+
+        @Override
+        public void onLocationNeeded() {
+            locationNeeded++;
         }
     }
 }

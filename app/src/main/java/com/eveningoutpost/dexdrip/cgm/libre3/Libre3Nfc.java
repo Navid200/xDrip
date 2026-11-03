@@ -15,6 +15,9 @@ import com.eveningoutpost.dexdrip.utilitymodels.CollectionServiceStarter;
 import com.eveningoutpost.dexdrip.utils.DexCollectionType;
 
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
 import lwld.libre3.Libre3SensorState;
 import lwld.libre3.nfc.ActivationResponse;
@@ -76,6 +79,18 @@ public final class Libre3Nfc {
      */
     public static boolean ignores(SensorType sensorType, DexCollectionType collector) {
         return sensorType != SensorType.Libre3 && collector == DexCollectionType.Libre3Native;
+    }
+
+    /**
+     * @return the NFC settings that only the Libre 1/2 code reads, for the settings screen to hide under the Libre 3
+     * collector; empty under any other collector
+     */
+    public static List<String> unusedNfcSettings(DexCollectionType collector) {
+        if (collector != DexCollectionType.Libre3Native) {
+            return Collections.emptyList();
+        }
+        return Arrays.asList("libre2_enable_bluetooth_streaming", "nfc_show_age", "nfc_expiry_days",
+                "use_nfc_multiblock", "use_nfc_any_tag");
     }
 
     /**

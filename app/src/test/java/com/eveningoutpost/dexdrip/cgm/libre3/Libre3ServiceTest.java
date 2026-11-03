@@ -446,6 +446,50 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         assertThat(value(status, R.string.libre3_last_error)).isNull();
     }
 
+    /** A scan that needs location posts a notification that opens the Libre 3 screen, which asks for it. */
+    @Test
+    public void onLocationNeeded_notifies() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+
+        // :: Act
+        session.onLocationNeeded();
+
+        // :: Verify
+        Notification notification = notifications().getNotification(Constants.LIBRE3_LOCATION_NOTIFICATION_ID);
+        assertThat(shadowOf(notification.contentIntent).getSavedIntent().getComponent().getClassName())
+                .isEqualTo(Libre3Activity.class.getName());
+    }
+
+    /** Every retry asks again; a dismissed notification stays dismissed for the rest of the session. */
+    @Test
+    public void onLocationNeeded_afterDismissed_notPostedAgain() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+        session.onLocationNeeded();
+        JoH.cancelNotification(Constants.LIBRE3_LOCATION_NOTIFICATION_ID);
+
+        // :: Act
+        session.onLocationNeeded();
+
+        // :: Verify
+        assertThat(notifications().getNotification(Constants.LIBRE3_LOCATION_NOTIFICATION_ID)).isNull();
+    }
+
+    /** A reading shows the scan works again, so the notification goes away. */
+    @Test
+    public void onReading_afterLocationNeeded_removesNotification() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+        session.onLocationNeeded();
+
+        // :: Act
+        session.onReading(reading(1, 120));
+
+        // :: Verify
+        assertThat(notifications().getNotification(Constants.LIBRE3_LOCATION_NOTIFICATION_ID)).isNull();
+    }
+
     /** The sensor end on the status page is the same text as on the home screen. */
     @Test
     public void megaStatus_runningSensor_endsAsOnHomeScreen() {

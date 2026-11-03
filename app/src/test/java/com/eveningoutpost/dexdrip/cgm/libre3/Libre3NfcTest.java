@@ -2,8 +2,11 @@ package com.eveningoutpost.dexdrip.cgm.libre3;
 
 import static com.google.common.truth.Truth.assertThat;
 
+import android.content.res.XmlResourceParser;
+
 import com.activeandroid.query.Select;
 import com.eveningoutpost.dexdrip.NFCReaderX;
+import com.eveningoutpost.dexdrip.R;
 import com.eveningoutpost.dexdrip.RobolectricTestWithConfig;
 import com.eveningoutpost.dexdrip.models.LibreOOPAlgorithm.SensorType;
 import com.eveningoutpost.dexdrip.models.UserError;
@@ -14,7 +17,9 @@ import com.eveningoutpost.dexdrip.xdrip;
 import org.junit.After;
 import org.junit.Test;
 import org.robolectric.RuntimeEnvironment;
+import org.xmlpull.v1.XmlPullParser;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import lwld.libre3.Libre3SensorState;
@@ -146,6 +151,42 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
 
         // :: Verify
         assertThat(ignored).isFalse();
+    }
+
+    // =============================================== unusedNfcSettings ===============================================
+
+    /**
+     * Under the Libre 3 collector the NFC settings screen hides what only the Libre 1/2 code reads. The filter length
+     * stays: the Libre 3 readings are smoothed with it.
+     */
+    @Test
+    public void unusedNfcSettings_libre3Native_libre12Only() {
+        // :: Act
+        List<String> unused = Libre3Nfc.unusedNfcSettings(DexCollectionType.Libre3Native);
+
+        // :: Verify
+        assertThat(unused).containsExactly("libre2_enable_bluetooth_streaming", "nfc_show_age", "nfc_expiry_days",
+                "use_nfc_multiblock", "use_nfc_any_tag");
+    }
+
+    /** Under another Libre collector the screen shows everything, as before. */
+    @Test
+    public void unusedNfcSettings_libreReceiver_none() {
+        // :: Act
+        List<String> unused = Libre3Nfc.unusedNfcSettings(DexCollectionType.LibreReceiver);
+
+        // :: Verify
+        assertThat(unused).isEmpty();
+    }
+
+    /** Every hidden key is on the NFC settings screen, so a renamed setting cannot slip back into view. */
+    @Test
+    public void unusedNfcSettings_libre3Native_allOnScreen() throws Exception {
+        // :: Act
+        List<String> keys = preferenceKeys(R.xml.pref_data_source);
+
+        // :: Verify
+        assertThat(keys).containsAtLeastElementsIn(Libre3Nfc.unusedNfcSettings(DexCollectionType.Libre3Native));
     }
 
     // ==================================================== decide =====================================================
@@ -367,5 +408,20 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
 
     private static PatchInfo patchInfo(String hex) {
         return PatchInfo.parse(Hex.toBytes(hex));
+    }
+
+    /** The android:key of every preference in the XML resource. */
+    private static List<String> preferenceKeys(int xml) throws Exception {
+        List<String> keys = new ArrayList<>();
+        XmlResourceParser parser = RuntimeEnvironment.getApplication().getResources().getXml(xml);
+        for (int event = parser.getEventType(); event != XmlPullParser.END_DOCUMENT; event = parser.next()) {
+            if (event == XmlPullParser.START_TAG) {
+                String key = parser.getAttributeValue("http://schemas.android.com/apk/res/android", "key");
+                if (key != null) {
+                    keys.add(key);
+                }
+            }
+        }
+        return keys;
     }
 }

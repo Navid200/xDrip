@@ -4,8 +4,12 @@ import static com.eveningoutpost.dexdrip.xdrip.gs;
 import static com.google.common.truth.Truth.assertThat;
 import static org.robolectric.Shadows.shadowOf;
 
+import android.Manifest;
 import android.app.AlertDialog;
+import android.content.Context;
+import android.location.LocationManager;
 import android.os.Looper;
+import android.widget.TextView;
 
 import com.eveningoutpost.dexdrip.R;
 import com.eveningoutpost.dexdrip.RobolectricTestWithConfig;
@@ -19,7 +23,8 @@ import org.robolectric.shadows.ShadowAlertDialog;
 import org.robolectric.shadows.ShadowDialog;
 
 /**
- * Tests for {@link Libre3Activity}: without an app credential the screen offers to download it, once per visit.
+ * Tests for {@link Libre3Activity}: the screen asks for location, which the Bluetooth scan needs, and without an app
+ * credential it offers to download it, once per visit.
  *
  * @author Asbjørn Aarrestad - 2026.11
  */
@@ -37,6 +42,9 @@ public class Libre3ActivityTest extends RobolectricTestWithConfig {
     /** Opening the screen without a credential asks whether to download it now. */
     @Test
     public void onResume_noCredential_offersDownload() {
+        // :: Setup
+        grantLocation();
+
         // :: Act
         Robolectric.buildActivity(Libre3Activity.class).setup();
         shadowOf(Looper.getMainLooper()).idle();
@@ -52,6 +60,7 @@ public class Libre3ActivityTest extends RobolectricTestWithConfig {
     @Test
     public void onResume_again_offersOnce() {
         // :: Setup
+        grantLocation();
         ActivityController<Libre3Activity> screen = Robolectric.buildActivity(Libre3Activity.class).setup();
         shadowOf(Looper.getMainLooper()).idle();
         ShadowAlertDialog.getLatestAlertDialog().dismiss();
@@ -62,5 +71,55 @@ public class Libre3ActivityTest extends RobolectricTestWithConfig {
 
         // :: Verify
         assertThat(ShadowDialog.getShownDialogs()).hasSize(1);
+    }
+
+    // =================================================== Location ====================================================
+
+    /** Without location permission the screen asks for it first, and the download offer waits for the next visit. */
+    @Test
+    public void onResume_noLocationPermission_asksForIt() {
+        // :: Act
+        Robolectric.buildActivity(Libre3Activity.class).setup();
+        shadowOf(Looper.getMainLooper()).idle();
+
+        // :: Verify
+        assertThat(ShadowDialog.getShownDialogs()).hasSize(1);
+        assertThat(latestMessage()).isEqualTo(gs(R.string.without_location_scan_doesnt_work));
+    }
+
+    /** With location turned off the screen asks to turn it on. */
+    @Test
+    public void onResume_locationOff_asksToTurnItOn() {
+        // :: Setup
+        grantLocation();
+        setLocationEnabled(false);
+
+        // :: Act
+        Robolectric.buildActivity(Libre3Activity.class).setup();
+        shadowOf(Looper.getMainLooper()).idle();
+
+        // :: Verify
+        assertThat(ShadowDialog.getShownDialogs()).hasSize(1);
+        assertThat(latestMessage()).isEqualTo(gs(R.string.location_not_found_message));
+    }
+
+    // ==================================================== helpers ====================================================
+
+    /** The message of the newest dialog, whichever AlertDialog class built it. */
+    private static String latestMessage() {
+        TextView message = ShadowDialog.getLatestDialog().findViewById(android.R.id.message);
+        return message.getText().toString();
+    }
+
+    private static void grantLocation() {
+        shadowOf(RuntimeEnvironment.getApplication()).grantPermissions(Manifest.permission.ACCESS_FINE_LOCATION,
+                Manifest.permission.ACCESS_BACKGROUND_LOCATION);
+        setLocationEnabled(true);
+    }
+
+    private static void setLocationEnabled(boolean enabled) {
+        LocationManager locationManager = (LocationManager) RuntimeEnvironment.getApplication()
+                .getSystemService(Context.LOCATION_SERVICE);
+        shadowOf(locationManager).setLocationEnabled(enabled);
     }
 }

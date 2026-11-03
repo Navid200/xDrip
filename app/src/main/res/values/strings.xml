@@ -2170,6 +2170,7 @@
     <string name="libre3_stage_no_sensor">No sensor; scan one with NFC</string>
     <string name="libre3_stage_sensor_ended">Sensor ended; scan a new one with NFC</string>
     <string name="libre3_stage_no_credential">No app credential; download it on the Libre 3 screen</string>
+    <string name="libre3_location_needed">Location is needed to find the sensor; tap to allow it</string>
     <string name="libre3_sensor">Sensor</string>
     <string name="libre3_none">none</string>
     <string name="libre3_stage">Stage</string>

@@ -10,6 +10,7 @@ import static com.eveningoutpost.dexdrip.utilitymodels.Constants.SECOND_IN_MS;
 import static com.eveningoutpost.dexdrip.xdrip.gs;
 
 import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.os.IBinder;
 import android.os.PowerManager;
@@ -84,6 +85,7 @@ public class Libre3Service extends ForegroundService {
         /** When the session last reported a stage or a value; 0 when it never did. */
         private volatile long lastProgressAt;
         private final long startedAt = tsl();
+        private volatile boolean locationNotified;
         /** Written by the Bluetooth worker, read by the diagnostics report; guarded by this. */
         private final LinkedList<String> recentStages = new LinkedList<>();
         private final Map<String, Integer> retryCounts = new LinkedHashMap<>();
@@ -149,6 +151,9 @@ public class Libre3Service extends ForegroundService {
         public void onReading(RealtimeReading reading) {
             lastProgressAt = tsl();
             lastError = "";
+            if (locationNotified) {
+                JoH.cancelNotification(Constants.LIBRE3_LOCATION_NOTIFICATION_ID);
+            }
             if (readings.onRealtime(reading, tsl())) {
                 lastReadingAt = tsl();
             }
@@ -171,6 +176,24 @@ public class Libre3Service extends ForegroundService {
         public void onError(String message) {
             lastError = message;
             UserError.Log.uel(TAG, "Libre 3 error: " + message);
+        }
+
+        /**
+         * Notifies once per session: the scan retries every few seconds, and a dismissed notification must stay
+         * dismissed. The Libre 3 screen asks for the permission and for location to be turned on.
+         */
+        @Override
+        public void onLocationNeeded() {
+            if (locationNotified) {
+                return;
+            }
+            locationNotified = true;
+            final Context context = xdrip.getAppContext();
+            final Intent intent = new Intent(context, Libre3Activity.class);
+            final PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent,
+                    PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
+            JoH.showNotification(gs(R.string.libre3_title), gs(R.string.libre3_location_needed), pendingIntent,
+                    Constants.LIBRE3_LOCATION_NOTIFICATION_ID, false, false, false);
         }
 
         /**
