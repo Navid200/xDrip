@@ -75,6 +75,38 @@ public class Libre3BleLogTest {
         assertThat(priority).isEqualTo(Log.DEBUG);
     }
 
+    // =================================================== reasonText ===================================================
+
+    /** A connect failure names its reason in words, so a report says "timeout" and not only "10". */
+    @Test
+    public void reasonText_timeout_namesIt() {
+        // :: Act
+        String text = Libre3Ble.reasonText(10);
+
+        // :: Verify
+        assertThat(text).isEqualTo("reason 10 (timeout)");
+    }
+
+    /** A link loss, the usual cause when the phone goes out of range, is named. */
+    @Test
+    public void reasonText_linkLoss_namesIt() {
+        // :: Act
+        String text = Libre3Ble.reasonText(3);
+
+        // :: Verify
+        assertThat(text).isEqualTo("reason 3 (link loss)");
+    }
+
+    /** A code the library does not name keeps only its number. */
+    @Test
+    public void reasonText_unnamedCode_numberOnly() {
+        // :: Act
+        String text = Libre3Ble.reasonText(42);
+
+        // :: Verify
+        assertThat(text).isEqualTo("reason 42");
+    }
+
     // ==================================================== helpers ====================================================
 
     /** Keeps the log lines the collector would store. */

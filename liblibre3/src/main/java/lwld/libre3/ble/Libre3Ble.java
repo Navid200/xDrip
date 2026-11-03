@@ -173,6 +173,23 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
         return nordicMessage;
     }
 
+    /** @return a connection observer's reason code, with its name when the library gives it one */
+    public static String reasonText(int reason) {
+        String name;
+        switch (reason) {
+            case ConnectionObserver.REASON_UNKNOWN: name = "unknown"; break;
+            case ConnectionObserver.REASON_SUCCESS: name = "success"; break;
+            case ConnectionObserver.REASON_TERMINATE_LOCAL_HOST: name = "closed by the phone"; break;
+            case ConnectionObserver.REASON_TERMINATE_PEER_USER: name = "closed by the sensor"; break;
+            case ConnectionObserver.REASON_LINK_LOSS: name = "link loss"; break;
+            case ConnectionObserver.REASON_NOT_SUPPORTED: name = "sensor services missing"; break;
+            case ConnectionObserver.REASON_CANCELLED: name = "cancelled"; break;
+            case ConnectionObserver.REASON_TIMEOUT: name = "timeout"; break;
+            default: return "reason " + reason;
+        }
+        return "reason " + reason + " (" + name + ")";
+    }
+
     @Override
     public int getMinLogPriority() {
         return Log.DEBUG;
@@ -195,6 +212,7 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             return;
         }
         boolean byAddress = reconnectAttempt % 2 == 0 && BluetoothAdapter.checkBluetoothAddress(state.bleAddress());
+        log(Log.DEBUG, "Attempt " + (reconnectAttempt + 1) + (byAddress ? ", by address" : ", by scan"));
         if (byAddress) {
             BluetoothAdapter adapter = BluetoothAdapter.getDefaultAdapter();
             if (adapter == null) {
@@ -220,6 +238,8 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             filters.add(new ScanFilter.Builder().setDeviceAddress(state.bleAddress()).build());
         }
         ScanSettings settings = new ScanSettings.Builder().setScanMode(ScanSettings.SCAN_MODE_LOW_LATENCY).build();
+        log(Log.DEBUG, "Scan filters: name " + localName() + (filters.size() > 1 ? ", address " + state.bleAddress()
+                : "") + "; low latency, " + SCAN_TIMEOUT_MS / 1000 + " s");
         try {
             listener.onStage("Scanning for " + localName());
             handler.postDelayed(scanTimeout, SCAN_TIMEOUT_MS);
@@ -264,9 +284,19 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             BluetoothDevice device = result.getDevice();
             String name = result.getScanRecord() != null ? result.getScanRecord().getDeviceName() : null;
             if (localName().equals(name) || state.bleAddress().equalsIgnoreCase(device.getAddress())) {
+                log(Log.DEBUG, "Scan found the sensor: name " + name + ", address " + device.getAddress() + ", RSSI "
+                        + result.getRssi() + " dBm");
                 stopScan();
                 connectTo(device);
             }
+        }
+
+        /** Without it a failed scan would wait out its timeout and read as "sensor not seen". */
+        @Override
+        public void onScanFailed(int errorCode) {
+            stopScan();
+            listener.onError("Scan failed, error " + errorCode);
+            scheduleReconnect("scan failed, error " + errorCode);
         }
     };
 
@@ -308,7 +338,7 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
 
         @Override
         public void onDeviceFailedToConnect(@NonNull BluetoothDevice device, int reason) {
-            scheduleReconnect("connect failed, reason " + reason);
+            scheduleReconnect("connect failed, " + reasonText(reason));
         }
 
         @Override
@@ -328,7 +358,7 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             if (running) {
                 worker.execute(assembler::reset);
             }
-            scheduleReconnect("disconnected, reason " + reason);
+            scheduleReconnect("disconnected, " + reasonText(reason));
         }
     };
 
