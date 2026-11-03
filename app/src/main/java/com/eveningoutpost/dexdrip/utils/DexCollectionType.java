@@ -75,6 +75,7 @@ public enum DexCollectionType {
     private static final HashSet<DexCollectionType> isPassive = new HashSet<>();
     private static final HashSet<DexCollectionType> canNotStartStopOrCal = new HashSet<>();
     private static final HashSet<DexCollectionType> alwaysNativeCal = new HashSet<>();
+    private static final HashSet<DexCollectionType> noCalibration = new HashSet<>();
     private static final HashSet<DexCollectionType> usesBattery = new HashSet<>();
     private static final HashSet<DexCollectionType> usesDexcomRaw = new HashSet<>();
     private static final HashSet<DexCollectionType> usesTransmitterBattery = new HashSet<>();
@@ -102,6 +103,7 @@ public enum DexCollectionType {
         Collections.addAll(isPassive, NSEmulator, NSFollow, SHFollow, WebFollow, LibreReceiver, UiBased, CLFollow, AidexReceiver);
         Collections.addAll(canNotStartStopOrCal, NSFollow, SHFollow, WebFollow, UiBased, CLFollow, Disabled); // Collectors that cannot start/stop sensor or submit calibration
         Collections.addAll(alwaysNativeCal, Follower, GluPro); // always allow calibration entry
+        Collections.addAll(noCalibration, Libre3Native); // factory calibrated, xDrip never calibrates it
         Collections.addAll(usesBattery, BluetoothWixel, DexbridgeWixel, WifiBlueToothWixel, WifiDexBridgeWixel, Follower, LimiTTer, LibreAlarm, LimiTTerWifi, LibreWifi); // the wifi uploader battery is separate
         Collections.addAll(usesDexcomRaw, BluetoothWixel, DexbridgeWixel, WifiWixel, WifiBlueToothWixel, DexcomG5, WifiDexBridgeWixel, Mock);
         Collections.addAll(usesTransmitterBattery, WifiWixel, BluetoothWixel, DexbridgeWixel, WifiBlueToothWixel, WifiDexBridgeWixel); // G4 transmitter battery
@@ -144,6 +146,10 @@ public enum DexCollectionType {
 
     public static boolean isAlwaysNativeCal() {
         return alwaysNativeCal.contains(getDexCollectionType());
+    }
+
+    public static boolean isNoCalibration() {
+        return noCalibration.contains(getDexCollectionType());
     }
 
     public static boolean hasBtWixel() {

@@ -62,6 +62,23 @@ public class DexCollectionTypeTest extends RobolectricTestWithConfig {
 
     }
 
+    // ===== isNoCalibration ==============================================================================================
+
+    /** Libre 3 is the only collector xDrip never calibrates. */
+    @Test
+    public void isNoCalibration_onlyLibre3Native() {
+        for (val type : DexCollectionType.values()) {
+            // :: Setup
+            DexCollectionType.setDexCollectionType(type);
+
+            // :: Act
+            boolean noCalibration = DexCollectionType.isNoCalibration();
+
+            // :: Verify
+            assertWithMessage(type.name()).that(noCalibration).isEqualTo(type == DexCollectionType.Libre3Native);
+        }
+    }
+
     // ===== getBestBridgeBatteryPercent ==================================================================================
 
     /**

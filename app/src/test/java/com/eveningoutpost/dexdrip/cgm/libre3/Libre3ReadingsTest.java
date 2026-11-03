@@ -7,6 +7,7 @@ import static com.google.common.truth.Truth.assertThat;
 
 import com.eveningoutpost.dexdrip.RobolectricTestWithConfig;
 import com.eveningoutpost.dexdrip.models.BgReading;
+import com.eveningoutpost.dexdrip.models.Calibration;
 import com.eveningoutpost.dexdrip.models.Sensor;
 import com.eveningoutpost.dexdrip.models.UserError;
 import com.eveningoutpost.dexdrip.utilitymodels.Pref;
@@ -71,6 +72,8 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
         Pref.removeItem("libre_one_minute");
         Pref.removeItem("libre_filter_length");
         Pref.removeItem(Libre3.PREF_SMOOTHING);
+        Pref.removeItem("bypass_calibration_quality_check");
+        Pref.removeItem("dex_collection_method");
         UserError.ExtraLogTags.readPreference("");
         Libre3.forgetSensor();
         BgReading.deleteALL();
@@ -546,6 +549,59 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
         // :: Verify
         assertThat(stored).isEqualTo(0);
         assertThat(storedAt(982)).isNull();
+    }
+
+    // ================================================== calibration ==================================================
+
+    /** Libre 3 is never calibrated: a finger-stick calibration is refused and the reading keeps the sensor's value. */
+    @Test
+    public void calibration_libre3_refusedAndReadingUnchanged() {
+        // :: Setup
+        DexCollectionType.setDexCollectionType(DexCollectionType.Libre3Native);
+        readings.onRealtime(reading(1010, 120), now);
+
+        // :: Act
+        Calibration calibration = Calibration.create(100, RuntimeEnvironment.application);
+
+        // :: Verify
+        assertThat(calibration).isNull();
+        assertThat(Calibration.getCalibrationsForSensor(Sensor.currentSensor(), 3)).isEmpty();
+        assertThat(storedAt(1010).calculated_value).isEqualTo(120.0);
+    }
+
+    /** A finger-stick kept as a note only is still stored for the graph, and the reading keeps the sensor's value. */
+    @Test
+    public void calibration_libre3NoteOnly_storedAndReadingUnchanged() {
+        // :: Setup
+        DexCollectionType.setDexCollectionType(DexCollectionType.Libre3Native);
+        readings.onRealtime(reading(1010, 120), now);
+
+        // :: Act
+        Calibration note = Calibration.create(100, 0, RuntimeEnvironment.application, true, 0);
+
+        // :: Verify
+        assertThat(note).isNotNull();
+        assertThat(note.bg).isEqualTo(100.0);
+        assertThat(storedAt(1010).calculated_value).isEqualTo(120.0);
+    }
+
+    /** The initial double calibration is refused for Libre 3 too, even with the data quality check bypassed. */
+    @Test
+    public void initialCalibration_libre3_refusedAndReadingsUnchanged() {
+        // :: Setup
+        DexCollectionType.setDexCollectionType(DexCollectionType.Libre3Native);
+        Pref.setBoolean("bypass_calibration_quality_check", true);
+        readings.onRealtime(reading(1000, 110), now);
+        readings.onRealtime(reading(1005, 115), now);
+        readings.onRealtime(reading(1010, 120), now);
+
+        // :: Act
+        Calibration.initialCalibration(100, 105, RuntimeEnvironment.application);
+
+        // :: Verify
+        assertThat(Calibration.getCalibrationsForSensor(Sensor.currentSensor(), 3)).isEmpty();
+        assertThat(storedAt(1000).calculated_value).isEqualTo(110.0);
+        assertThat(storedAt(1010).calculated_value).isEqualTo(120.0);
     }
 
     // ==================================================== helpers ====================================================

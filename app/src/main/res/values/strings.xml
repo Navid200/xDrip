@@ -2204,4 +2204,5 @@
     <string name="libre3_last_life_count">Last life count</string>
     <string name="libre3_backfilled">Backfilled</string>
     <string name="libre3_fast_data">Fast data</string>
+    <string name="sensor_is_factory_calibrated">This sensor is factory calibrated; xDrip does not calibrate it</string>
 </resources>
