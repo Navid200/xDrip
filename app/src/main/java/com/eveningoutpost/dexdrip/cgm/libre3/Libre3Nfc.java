@@ -96,11 +96,19 @@ public final class Libre3Nfc {
     /**
      * A fresh sensor is started with the account's receiver ID, or the per-install ID when no account is given. A
      * running sensor is taken over the same way: with the account it was started with, or without one with the
-     * per-install ID, which only a sensor this install started accepts.
+     * per-install ID, which only a sensor this install started accepts. The running sensor xDrip already uses is not
+     * taken over again, since that would only reset its pairing; "Forget sensor" lets the user do it on purpose.
+     *
+     * @param stored the sensor xDrip uses now, or null
      */
-    public static Decision decide(PatchInfo info, String account, ReceiverId.Fold fold, String uniqueId) {
+    public static Decision decide(PatchInfo info, Libre3SensorState stored, String account, ReceiverId.Fold fold,
+                                  String uniqueId) {
         String trimmed = account == null ? "" : account.trim();
         boolean hasAccount = !trimmed.isEmpty();
+        if (info.recommended() != NfcCommand.Code.ACTIVATE && stored != null
+                && stored.serial().equals(info.serial())) {
+            return new Decision(null, null, fold, "", null, gs(R.string.libre3_already_in_use));
+        }
         if (info.recommended() == NfcCommand.Code.ACTIVATE) {
             if (hasAccount) {
                 return new Decision(NfcCommand.Code.ACTIVATE, ReceiverId.fromAccount(trimmed, fold), fold, trimmed,
@@ -186,7 +194,7 @@ public final class Libre3Nfc {
         }
         UserError.Log.uel(TAG, "Libre 3 scanned: " + info.serial() + " region " + info.region()
                 + " security " + info.securityVersion());
-        Decision decision = decide(info, Libre3.accountId(), Libre3.fold(), Libre3.uniqueId());
+        Decision decision = decide(info, Libre3.loadState(), Libre3.accountId(), Libre3.fold(), Libre3.uniqueId());
         if (decision.error != null) {
             UserError.Log.uel(TAG, decision.error);
             showMessage(activity, decision.error);

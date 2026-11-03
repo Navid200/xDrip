@@ -1,8 +1,13 @@
 package com.eveningoutpost.dexdrip.cgm.libre3;
 
+import static com.eveningoutpost.dexdrip.xdrip.gs;
 import static com.google.common.truth.Truth.assertThat;
+import static org.robolectric.Shadows.shadowOf;
 
+import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.res.XmlResourceParser;
+import android.os.Looper;
 
 import com.activeandroid.query.Select;
 import com.eveningoutpost.dexdrip.NFCReaderX;
@@ -16,7 +21,9 @@ import com.eveningoutpost.dexdrip.xdrip;
 
 import org.junit.After;
 import org.junit.Test;
+import org.robolectric.Robolectric;
 import org.robolectric.RuntimeEnvironment;
+import org.robolectric.shadows.ShadowDialog;
 import org.xmlpull.v1.XmlPullParser;
 
 import java.util.ArrayList;
@@ -44,6 +51,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
     private static final String SERIAL = "0RRC989AQ";
     private static final String ACCOUNT = "2977dec2-492a-11ea-9702-0242ac110002";
     private static final String UNIQUE_ID = "0123456789abcdef0123456789abcdef";
+    private static final byte[] KAUTH = Hex.toBytes("00112233445566778899aabbccddeeff");
     private static final long NOW = 1_800_000_000_000L;
 
     @Override
@@ -57,6 +65,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
     public void tearDown() {
         Pref.removeItem("use_nfc_scan");
         Pref.removeItem(DexCollectionType.DEX_COLLECTION_METHOD);
+        Libre3.forgetSensor();
     }
 
     // ==================================================== useNFC =====================================================
@@ -195,7 +204,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
     @Test
     public void decide_freshWithAccount_activatesWithAccountId() {
         // :: Act
-        Libre3Nfc.Decision decision = Libre3Nfc.decide(patchInfo(FRESH), ACCOUNT,
+        Libre3Nfc.Decision decision = Libre3Nfc.decide(patchInfo(FRESH), null, ACCOUNT,
                 ReceiverId.Fold.FREESTYLE_LIBRE3, UNIQUE_ID);
 
         // :: Verify
@@ -210,7 +219,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
     @Test
     public void decide_freshWithoutAccount_activatesAccountless() {
         // :: Act
-        Libre3Nfc.Decision decision = Libre3Nfc.decide(patchInfo(FRESH), " ",
+        Libre3Nfc.Decision decision = Libre3Nfc.decide(patchInfo(FRESH), null, " ",
                 ReceiverId.Fold.FREESTYLE_LIBRE3, UNIQUE_ID);
 
         // :: Verify
@@ -225,7 +234,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
     @Test
     public void decide_activeWithAccount_switchesWithChosenFold() {
         // :: Act
-        Libre3Nfc.Decision decision = Libre3Nfc.decide(patchInfo(ACTIVE), ACCOUNT,
+        Libre3Nfc.Decision decision = Libre3Nfc.decide(patchInfo(ACTIVE), null, ACCOUNT,
                 ReceiverId.Fold.LIBRE_BY_ABBOTT, UNIQUE_ID);
 
         // :: Verify
@@ -243,7 +252,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
     @Test
     public void decide_activeWithoutAccount_takesOverWithInstallId() {
         // :: Act
-        Libre3Nfc.Decision decision = Libre3Nfc.decide(patchInfo(ACTIVE), "",
+        Libre3Nfc.Decision decision = Libre3Nfc.decide(patchInfo(ACTIVE), null, "",
                 ReceiverId.Fold.FREESTYLE_LIBRE3, UNIQUE_ID);
 
         // :: Verify
@@ -254,13 +263,71 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
         assertThat(decision.warning).contains("started by this xDrip install");
     }
 
+    /** The running sensor xDrip already uses is not taken over again: that would only reset its pairing. */
+    @Test
+    public void decide_runningSensorInUse_refusedAsAlreadyInUse() {
+        // :: Act
+        Libre3Nfc.Decision decision = Libre3Nfc.decide(patchInfo(ACTIVE), stored(SERIAL), ACCOUNT,
+                ReceiverId.Fold.FREESTYLE_LIBRE3, UNIQUE_ID);
+
+        // :: Verify
+        assertThat(decision.code).isNull();
+        assertThat(decision.error).isEqualTo(gs(R.string.libre3_already_in_use));
+    }
+
+    /** A running sensor other than the one xDrip uses is still taken over. */
+    @Test
+    public void decide_runningSensorOtherInUse_takesOver() {
+        // :: Act
+        Libre3Nfc.Decision decision = Libre3Nfc.decide(patchInfo(ACTIVE), stored("0AAA111BB"), ACCOUNT,
+                ReceiverId.Fold.FREESTYLE_LIBRE3, UNIQUE_ID);
+
+        // :: Verify
+        assertThat(decision.error).isNull();
+        assertThat(decision.code).isEqualTo(NfcCommand.Code.SWITCH_RECEIVER);
+    }
+
+    /** A sensor that has never run is started, even when xDrip has a sensor stored under its serial. */
+    @Test
+    public void decide_freshSensorWithStoredSerial_activates() {
+        // :: Act
+        Libre3Nfc.Decision decision = Libre3Nfc.decide(patchInfo(FRESH), stored(SERIAL), ACCOUNT,
+                ReceiverId.Fold.FREESTYLE_LIBRE3, UNIQUE_ID);
+
+        // :: Verify
+        assertThat(decision.error).isNull();
+        assertThat(decision.code).isEqualTo(NfcCommand.Code.ACTIVATE);
+    }
+
+    // ==================================================== onScan =====================================================
+
+    /** Scanning the sensor in use shows that it is in use, asks nothing, and leaves its pairing as it was. */
+    @Test
+    public void onScan_sensorInUse_showsAlreadyInUseAndKeepsPairing() {
+        // :: Setup
+        Libre3SensorState state = stored(SERIAL);
+        state.setKAuth(KAUTH);
+        Libre3.saveState(state);
+        Activity activity = Robolectric.buildActivity(Activity.class).setup().get();
+
+        // :: Act
+        Libre3Nfc.onScan(activity, null, Hex.toBytes(ACTIVE)); // nothing is sent, so no tag is needed
+        shadowOf(Looper.getMainLooper()).idle();
+
+        // :: Verify
+        assertThat(ShadowDialog.getShownDialogs()).hasSize(1);
+        AlertDialog dialog = (AlertDialog) ShadowDialog.getLatestDialog();
+        assertThat(String.valueOf(shadowOf(dialog).getMessage())).isEqualTo(gs(R.string.libre3_already_in_use));
+        assertThat(Libre3.loadState().kAuth()).isEqualTo(KAUTH);
+    }
+
     // ==================================================== pending ====================================================
 
     /** The second scan of the same sensor within five minutes picks up the choice confirmed after the first. */
     @Test
     public void pending_sameSerialWithinFiveMinutes_returnsDecision() {
         // :: Setup
-        Libre3Nfc.Decision decision = Libre3Nfc.decide(patchInfo(ACTIVE), ACCOUNT,
+        Libre3Nfc.Decision decision = Libre3Nfc.decide(patchInfo(ACTIVE), null, ACCOUNT,
                 ReceiverId.Fold.FREESTYLE_LIBRE3, UNIQUE_ID);
         Libre3Nfc.confirm(SERIAL, decision, NOW);
 
@@ -275,7 +342,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
     @Test
     public void pending_otherSerial_returnsNull() {
         // :: Setup
-        Libre3Nfc.confirm(SERIAL, Libre3Nfc.decide(patchInfo(ACTIVE), ACCOUNT,
+        Libre3Nfc.confirm(SERIAL, Libre3Nfc.decide(patchInfo(ACTIVE), null, ACCOUNT,
                 ReceiverId.Fold.FREESTYLE_LIBRE3, UNIQUE_ID), NOW);
 
         // :: Act
@@ -289,7 +356,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
     @Test
     public void pending_afterFiveMinutes_returnsNull() {
         // :: Setup
-        Libre3Nfc.confirm(SERIAL, Libre3Nfc.decide(patchInfo(ACTIVE), ACCOUNT,
+        Libre3Nfc.confirm(SERIAL, Libre3Nfc.decide(patchInfo(ACTIVE), null, ACCOUNT,
                 ReceiverId.Fold.FREESTYLE_LIBRE3, UNIQUE_ID), NOW);
 
         // :: Act
@@ -306,7 +373,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
     public void onResponse_unparseableReply_errorNamesFoldAndAccount() {
         // :: Setup
         PatchInfo info = patchInfo(ACTIVE);
-        Libre3Nfc.Decision decision = Libre3Nfc.decide(info, ACCOUNT, ReceiverId.Fold.LIBRE_BY_ABBOTT, UNIQUE_ID);
+        Libre3Nfc.Decision decision = Libre3Nfc.decide(info, null, ACCOUNT, ReceiverId.Fold.LIBRE_BY_ABBOTT, UNIQUE_ID);
 
         // :: Act
         String error = Libre3Nfc.onResponse(info, decision, new byte[]{0x00, 0x01}, NOW);
@@ -322,7 +389,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
     public void onResponse_unparseableReply_logsWithoutAccount() {
         // :: Setup
         PatchInfo info = patchInfo(ACTIVE);
-        Libre3Nfc.Decision decision = Libre3Nfc.decide(info, ACCOUNT, ReceiverId.Fold.LIBRE_BY_ABBOTT, UNIQUE_ID);
+        Libre3Nfc.Decision decision = Libre3Nfc.decide(info, null, ACCOUNT, ReceiverId.Fold.LIBRE_BY_ABBOTT, UNIQUE_ID);
 
         // :: Act
         Libre3Nfc.onResponse(info, decision, new byte[]{0x00, 0x01}, NOW);
@@ -341,7 +408,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
     public void onResponse_switchReply_storesSensorWithReportedStart() {
         // :: Setup
         PatchInfo info = patchInfo(ACTIVE);
-        Libre3Nfc.Decision decision = Libre3Nfc.decide(info, ACCOUNT, ReceiverId.Fold.LIBRE_BY_ABBOTT, UNIQUE_ID);
+        Libre3Nfc.Decision decision = Libre3Nfc.decide(info, null, ACCOUNT, ReceiverId.Fold.LIBRE_BY_ABBOTT, UNIQUE_ID);
 
         // :: Act
         String error = Libre3Nfc.onResponse(info, decision, Hex.toBytes(SWITCH_REPLY), NOW);
@@ -363,7 +430,8 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
     public void onResponse_activateReply_storesCommandTimeAsStart() {
         // :: Setup
         PatchInfo info = patchInfo(FRESH);
-        Libre3Nfc.Decision decision = Libre3Nfc.decide(info, ACCOUNT, ReceiverId.Fold.FREESTYLE_LIBRE3, UNIQUE_ID);
+        Libre3Nfc.Decision decision = Libre3Nfc.decide(info, null, ACCOUNT,
+                ReceiverId.Fold.FREESTYLE_LIBRE3, UNIQUE_ID);
 
         // :: Act
         String error = Libre3Nfc.onResponse(info, decision, Hex.toBytes(ACTIVATED_REPLY), NOW);
@@ -378,7 +446,8 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
     public void onResponse_sameSerialAgain_keepsFirstStart() {
         // :: Setup
         PatchInfo info = patchInfo(FRESH);
-        Libre3Nfc.Decision decision = Libre3Nfc.decide(info, ACCOUNT, ReceiverId.Fold.FREESTYLE_LIBRE3, UNIQUE_ID);
+        Libre3Nfc.Decision decision = Libre3Nfc.decide(info, null, ACCOUNT,
+                ReceiverId.Fold.FREESTYLE_LIBRE3, UNIQUE_ID);
         Libre3Nfc.onResponse(info, decision, Hex.toBytes(ACTIVATED_REPLY), NOW);
 
         // :: Act
@@ -396,7 +465,8 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
     public void onResponse_sameSerialReportedStart_takesReportedStart() {
         // :: Setup
         PatchInfo info = patchInfo(FRESH);
-        Libre3Nfc.Decision decision = Libre3Nfc.decide(info, ACCOUNT, ReceiverId.Fold.FREESTYLE_LIBRE3, UNIQUE_ID);
+        Libre3Nfc.Decision decision = Libre3Nfc.decide(info, null, ACCOUNT,
+                ReceiverId.Fold.FREESTYLE_LIBRE3, UNIQUE_ID);
         Libre3Nfc.onResponse(info, decision, Hex.toBytes(ACTIVATED_REPLY), NOW);
 
         // :: Act
@@ -408,6 +478,10 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
 
     private static PatchInfo patchInfo(String hex) {
         return PatchInfo.parse(Hex.toBytes(hex));
+    }
+
+    private static Libre3SensorState stored(String serial) {
+        return new Libre3SensorState(serial, "CC:22:DF:B8:F9:58", new byte[]{0x32, 0x25, (byte) 0xec, 0x72});
     }
 
     /** The android:key of every preference in the XML resource. */

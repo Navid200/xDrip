@@ -2165,6 +2165,7 @@
     <string name="libre3_error_bad_reply">The sensor did not accept the command. Check that the app (%1$s) and the account ID (%2$s) are the ones the sensor was started with.</string>
     <string name="libre3_error_patch_info">The Libre 3 sensor info could not be read. Please scan again.</string>
     <string name="libre3_error_nfc_failed">Lost contact with the sensor. Please scan again and hold the phone still.</string>
+    <string name="libre3_already_in_use">xDrip already uses this sensor, so nothing was sent. To pair it again, tap Forget sensor on the Libre 3 screen, then scan it.</string>
     <string name="libre3_scan_again">Press OK, then scan the sensor again within five minutes.</string>
     <string name="libre3_nfc_done">Libre 3 sensor ready, connecting by Bluetooth</string>
     <string name="libre3_stage_no_sensor">No sensor; scan one with NFC</string>
