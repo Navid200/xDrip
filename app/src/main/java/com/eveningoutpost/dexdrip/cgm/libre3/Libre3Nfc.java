@@ -127,13 +127,16 @@ public final class Libre3Nfc {
      * Stores the sensor from the reply to a sent command. A switch reply carries the original start time; a fresh
      * start carries none, so the time the command was sent is used. The same sensor seen again keeps its first start.
      *
-     * @return null when stored, else an error naming the app and account that were tried
+     * @return null when stored, else an error naming the app and account that were tried; the log line for it leaves
+     * the account ID out, since the log is shared in bug reports
      */
     public static String onResponse(PatchInfo info, Decision decision, byte[] reply, long commandMs) {
         ActivationResponse response;
         try {
             response = ActivationResponse.parse(reply);
         } catch (IllegalArgumentException e) {
+            UserError.Log.uel(TAG, "Libre 3 command not accepted: app " + foldName(decision.fold) + ", "
+                    + (decision.account.isEmpty() ? "no account" : "with account") + ", " + e.getMessage());
             return gs(R.string.libre3_error_bad_reply, foldName(decision.fold),
                     decision.account.isEmpty() ? gs(R.string.libre3_no_account) : decision.account);
         }
@@ -193,7 +196,6 @@ public final class Libre3Nfc {
                 + (reply == null ? 0 : reply.length) + " bytes");
         String error = onResponse(info, decision, reply == null ? new byte[0] : reply, commandMs);
         if (error != null) {
-            UserError.Log.uel(TAG, error);
             showMessage(activity, error);
             return;
         }

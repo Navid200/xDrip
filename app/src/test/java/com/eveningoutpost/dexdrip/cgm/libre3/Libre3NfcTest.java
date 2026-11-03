@@ -2,9 +2,11 @@ package com.eveningoutpost.dexdrip.cgm.libre3;
 
 import static com.google.common.truth.Truth.assertThat;
 
+import com.activeandroid.query.Select;
 import com.eveningoutpost.dexdrip.NFCReaderX;
 import com.eveningoutpost.dexdrip.RobolectricTestWithConfig;
 import com.eveningoutpost.dexdrip.models.LibreOOPAlgorithm.SensorType;
+import com.eveningoutpost.dexdrip.models.UserError;
 import com.eveningoutpost.dexdrip.utilitymodels.Pref;
 import com.eveningoutpost.dexdrip.utils.DexCollectionType;
 import com.eveningoutpost.dexdrip.xdrip;
@@ -12,6 +14,8 @@ import com.eveningoutpost.dexdrip.xdrip;
 import org.junit.After;
 import org.junit.Test;
 import org.robolectric.RuntimeEnvironment;
+
+import java.util.List;
 
 import lwld.libre3.Libre3SensorState;
 import lwld.libre3.nfc.NfcCommand;
@@ -270,6 +274,25 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
         assertThat(error).contains("Libre by Abbott");
         assertThat(error).contains(ACCOUNT);
         assertThat(Libre3.loadState()).isNull();
+    }
+
+    /** The refused command is logged without the account ID, since the log is shared in bug reports. */
+    @Test
+    public void onResponse_unparseableReply_logsWithoutAccount() {
+        // :: Setup
+        PatchInfo info = patchInfo(ACTIVE);
+        Libre3Nfc.Decision decision = Libre3Nfc.decide(info, ACCOUNT, ReceiverId.Fold.LIBRE_BY_ABBOTT, UNIQUE_ID);
+
+        // :: Act
+        Libre3Nfc.onResponse(info, decision, new byte[]{0x00, 0x01}, NOW);
+
+        // :: Verify
+        List<UserError> rows = new Select().from(UserError.class).where("shortError = ?", "Libre3Native").execute();
+        assertThat(rows).isNotEmpty();
+        for (UserError row : rows) {
+            assertThat(row.message).doesNotContain(ACCOUNT);
+        }
+        assertThat(rows.get(rows.size() - 1).message).contains("Libre by Abbott");
     }
 
     /** A takeover keeps the address, PIN, receiver ID, fold, cycle and the start time the sensor reports. */
