@@ -79,6 +79,22 @@ public class Libre3DiagnosticsTest extends RobolectricTestWithConfig {
         assertThat(text).contains("paired key no");
     }
 
+    /** A sensor whose facts were never read shows them as unknown, not as "null". */
+    @Test
+    public void text_sensorWithoutFacts_saysUnknown() {
+        // :: Setup
+        Libre3.saveState(new Libre3SensorState("0RRC989AQ", "CC:22:DF:B8:F9:58", PIN));
+
+        // :: Act
+        String text = Libre3Diagnostics.text(context);
+
+        // :: Verify
+        assertThat(text).contains("product type unknown, generation unknown, region unknown, warm-up unknown, "
+                + "wear unknown, identity none");
+        assertThat(text).contains("last life count unknown");
+        assertThat(text).doesNotContain("null");
+    }
+
     /** A paired sensor's PIN and key, and the account ID, are not in the report in any common spelling. */
     @Test
     public void text_pairedSensor_holdsNoSecrets() {

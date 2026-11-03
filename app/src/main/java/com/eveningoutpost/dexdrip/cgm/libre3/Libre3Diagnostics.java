@@ -44,6 +44,9 @@ public final class Libre3Diagnostics {
     private static final String LABEL = "Libre 3 diagnostics";
     private static final int LOG_LINES = 150;
     private static final String ACCOUNT_MASK = "<account ID>";
+    /** The report is read by a developer, so its own words stay English on a translated phone. */
+    private static final String NONE = "none";
+    private static final String UNKNOWN = "unknown";
 
     private Libre3Diagnostics() {
     }
@@ -69,11 +72,12 @@ public final class Libre3Diagnostics {
         }
         final Libre3SensorState state = Libre3.loadState();
         if (state != null) {
-            line(sb, "Sensor details: product type " + state.productType() + ", generation " + state.generation()
-                    + ", region " + state.region() + ", warm-up " + state.warmupMinutes() + " min, wear "
-                    + state.wearMinutes() + " min, identity "
-                    + (state.identityLabel() == null ? gs(R.string.libre3_none) : state.identityLabel())
-                    + ", paired key " + yesNo(state.kAuth() != null) + ", last life count " + state.lastLifeCount());
+            line(sb, "Sensor details: product type " + orUnknown(state.productType()) + ", generation "
+                    + orUnknown(state.generation()) + ", region " + orUnknown(state.region()) + ", warm-up "
+                    + minutes(state.warmupMinutes()) + ", wear " + minutes(state.wearMinutes()) + ", identity "
+                    + (state.identityLabel() == null ? NONE : state.identityLabel())
+                    + ", paired key " + yesNo(state.kAuth() != null) + ", last life count "
+                    + orUnknown(state.lastLifeCount()));
         }
         sb.append('\n');
 
@@ -85,7 +89,7 @@ public final class Libre3Diagnostics {
                         .append(retry.getValue());
             }
             line(sb, "Retries since " + dateTimeText(session.startedAt()) + ": "
-                    + (retries.length() == 0 ? gs(R.string.libre3_none) : retries.toString()));
+                    + (retries.length() == 0 ? NONE : retries.toString()));
             line(sb, "Recent stages:");
             for (String stage : session.recentStages()) {
                 line(sb, stage);
@@ -142,6 +146,15 @@ public final class Libre3Diagnostics {
     private static String batteryOptimisation(Context context) {
         final PowerManager pm = (PowerManager) context.getSystemService(Context.POWER_SERVICE);
         return pm != null && pm.isIgnoringBatteryOptimizations(context.getPackageName()) ? "ignored" : "active";
+    }
+
+    /** A fact the sensor has not told us yet. */
+    private static String orUnknown(Object value) {
+        return value == null ? UNKNOWN : value.toString();
+    }
+
+    private static String minutes(Integer value) {
+        return value == null ? UNKNOWN : value + " min";
     }
 
     private static String onOff(boolean on) {
