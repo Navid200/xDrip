@@ -1,6 +1,7 @@
 package com.eveningoutpost.dexdrip.cgm.libre3;
 
 import static com.eveningoutpost.dexdrip.models.JoH.tsl;
+import static com.eveningoutpost.dexdrip.utilitymodels.Constants.HOUR_IN_MS;
 import static com.google.common.truth.Truth.assertThat;
 
 import android.content.ClipboardManager;
@@ -135,6 +136,23 @@ public class Libre3DiagnosticsTest extends RobolectricTestWithConfig {
         // :: Verify
         assertThat(text).contains("paired line");
         assertThat(text).doesNotContain("other line");
+    }
+
+    /** Lines older than a day are left out, so an old problem does not crowd out the one being reported. */
+    @Test
+    public void text_logLineOlderThanADay_leftOut() {
+        // :: Setup
+        UserError old = new UserError(3, "Libre3Native", "yesterday's line");
+        old.timestamp = tsl() - 25 * HOUR_IN_MS;
+        old.save();
+        UserError.Log.uel("Libre3Native", "today's line");
+
+        // :: Act
+        String text = Libre3Diagnostics.text(context);
+
+        // :: Verify
+        assertThat(text).contains("today's line");
+        assertThat(text).doesNotContain("yesterday's line");
     }
 
     /** A log line that names the account ID, as the NFC error for a refused command does, is shown without it. */

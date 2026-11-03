@@ -2,6 +2,7 @@ package com.eveningoutpost.dexdrip.cgm.libre3;
 
 import static com.eveningoutpost.dexdrip.models.JoH.dateTimeText;
 import static com.eveningoutpost.dexdrip.models.JoH.tsl;
+import static com.eveningoutpost.dexdrip.utilitymodels.Constants.HOUR_IN_MS;
 import static com.eveningoutpost.dexdrip.xdrip.gs;
 
 import android.Manifest;
@@ -42,7 +43,9 @@ public final class Libre3Diagnostics {
 
     private static final String TAG = "Libre3Native";
     private static final String LABEL = "Libre 3 diagnostics";
-    private static final int LOG_LINES = 150;
+    /** About 40 kB, under the 65 kB a GitHub comment holds. */
+    private static final int LOG_LINES = 400;
+    private static final long LOG_SPAN_MS = 24 * HOUR_IN_MS;
     private static final String ACCOUNT_MASK = "<account ID>";
     /** The report is read by a developer, so its own words stay English on a translated phone. */
     private static final String NONE = "none";
@@ -113,11 +116,11 @@ public final class Libre3Diagnostics {
         JoH.static_toast_long(gs(R.string.libre3_diagnostics_copied));
     }
 
-    /** @return the collector's newest log rows, oldest first */
+    /** @return the collector's newest log rows from the last day, oldest first */
     private static List<UserError> recentLog() {
         final List<UserError> rows = new Select()
                 .from(UserError.class)
-                .where("shortError = ?", TAG)
+                .where("shortError = ? and timestamp > ?", TAG, tsl() - LOG_SPAN_MS)
                 .orderBy("timestamp desc")
                 .limit(LOG_LINES)
                 .execute();
