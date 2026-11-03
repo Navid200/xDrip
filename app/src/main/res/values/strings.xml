@@ -2187,6 +2187,8 @@
     <string name="libre3_offer_download">The sensor pairs with an app credential, and none is downloaded yet. Download it now?</string>
     <string name="libre3_forget_sensor">Forget sensor</string>
     <string name="libre3_forget_sensor_confirm">xDrip stops talking to this sensor. To use it again, scan it with NFC. A sensor started without an account can only come back to this xDrip install.</string>
+    <string name="libre3_copy_diagnostics">Copy diagnostics</string>
+    <string name="libre3_diagnostics_copied">Diagnostics copied; paste them in your report</string>
     <string name="libre3_settings">Libre 3 (native)</string>
     <string name="libre3_settings_summary">Account and app used to start or take over a Libre 3</string>
     <string name="libre3_account_id_title">LibreView account ID</string>

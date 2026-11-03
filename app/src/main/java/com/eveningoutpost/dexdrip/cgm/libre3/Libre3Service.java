@@ -54,7 +54,7 @@ public class Libre3Service extends ForegroundService {
     private static volatile long lastReadingAt;
     private static volatile Libre3Readings readings;
     /** The running Bluetooth session, for the diagnostics report; null when none runs. */
-    private static volatile Session current;
+    private static volatile Session runningSession;
 
     private Libre3Ble ble;
     private Session session;
@@ -237,7 +237,7 @@ public class Libre3Service extends ForegroundService {
         Libre3Readings sessionReadings = new Libre3Readings(state);
         readings = sessionReadings;
         session = new Session(sessionReadings);
-        current = session;
+        runningSession = session;
         ble = new Libre3Ble(xdrip.getAppContext(), state, identities, session);
         bleSerial = state.serial();
         UserError.Log.uel(TAG, "Connecting to Libre 3 " + state.serial());
@@ -247,7 +247,7 @@ public class Libre3Service extends ForegroundService {
     /** @return the running Bluetooth session, or null when none runs */
     @Nullable
     static Session currentSession() {
-        return current;
+        return runningSession;
     }
 
     private void stopBle() {
@@ -255,7 +255,7 @@ public class Libre3Service extends ForegroundService {
             ble.stop();
             ble = null;
             session = null;
-            current = null;
+            runningSession = null;
             bleSerial = null;
             readings = null;
         }

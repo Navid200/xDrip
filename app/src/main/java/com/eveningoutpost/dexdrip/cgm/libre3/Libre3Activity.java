@@ -58,6 +58,11 @@ public class Libre3Activity extends ActivityWithMenu {
         forget.setOnClickListener(v -> confirmForget());
         layout.addView(forget);
 
+        Button diagnostics = new Button(this);
+        diagnostics.setText(R.string.libre3_copy_diagnostics);
+        diagnostics.setOnClickListener(v -> Libre3Diagnostics.copyToClipboard(this));
+        layout.addView(diagnostics);
+
         ScrollView scroll = new ScrollView(this);
         scroll.addView(layout);
         setContentView(scroll);
