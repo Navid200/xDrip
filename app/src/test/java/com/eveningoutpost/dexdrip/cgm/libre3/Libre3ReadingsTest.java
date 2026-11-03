@@ -7,6 +7,7 @@ import static com.google.common.truth.Truth.assertThat;
 
 import com.eveningoutpost.dexdrip.RobolectricTestWithConfig;
 import com.eveningoutpost.dexdrip.models.BgReading;
+import com.eveningoutpost.dexdrip.models.Sensor;
 import com.eveningoutpost.dexdrip.models.UserError;
 import com.eveningoutpost.dexdrip.utilitymodels.Pref;
 import com.eveningoutpost.dexdrip.utilitymodels.StatusItem;
@@ -53,6 +54,7 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
         Pref.removeItem("libre_one_minute");
         DexCollectionType.getDexCollectionType();
         Libre3.forgetSensor();
+        BgReading.deleteALL();
         now = tsl();
         state = new Libre3SensorState("0RRC989AQ", "CC:22:DF:B8:F9:58", PIN);
         // Life counts 990-1010 are the last twenty minutes, as realtime readings from a running sensor are
@@ -71,6 +73,7 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
         Pref.removeItem(Libre3.PREF_SMOOTHING);
         UserError.ExtraLogTags.readPreference("");
         Libre3.forgetSensor();
+        BgReading.deleteALL();
     }
 
     // ================================================== onRealtime ===================================================
@@ -202,16 +205,18 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
 
     /**
      * A reading up to fifteen minutes ahead of now is stored, so a start time that is a few minutes ahead of this
-     * phone's clock does not refuse every reading of the sensor.
+     * phone's clock does not refuse every reading of the sensor. It is stored at now, so it never looks newer than it
+     * is.
      */
     @Test
-    public void onRealtime_tenMinutesAhead_stored() {
+    public void onRealtime_tenMinutesAhead_storedAtNow() {
         // :: Act
         boolean stored = readings.onRealtime(reading(1020, 120), now);
 
         // :: Verify
         assertThat(stored).isTrue();
-        assertThat(storedAt(1020).calculated_value).isEqualTo(120.0);
+        assertThat(storedAt(1020)).isNull();
+        assertThat(BgReading.getForPreciseTimestamp(now, 1000).calculated_value).isEqualTo(120.0);
     }
 
     /**
@@ -265,6 +270,21 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
 
         // :: Verify
         assertThat(storedAt(1000).calculated_value).isEqualTo(120.0);
+    }
+
+    /** A history entry at a reading stored under an earlier xDrip sensor is not stored a second time. */
+    @Test
+    public void onHistory_readingUnderEarlierSensor_notStoredAgain() {
+        // :: Setup
+        readings.onRealtime(reading(1000, 120), now);
+        Sensor.stopSensor();
+        Libre3.ensureSensor(state);
+
+        // :: Act
+        int stored = readings.onHistory(entries(1000, 180), now);
+
+        // :: Verify
+        assertThat(stored).isEqualTo(0);
     }
 
     /** A history entry for a life count whose realtime reading was rejected is not stored. */

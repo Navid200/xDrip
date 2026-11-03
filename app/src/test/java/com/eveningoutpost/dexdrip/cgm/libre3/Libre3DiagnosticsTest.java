@@ -8,6 +8,7 @@ import android.content.ClipboardManager;
 import android.content.Context;
 import android.util.Base64;
 
+import com.activeandroid.query.Delete;
 import com.eveningoutpost.dexdrip.RobolectricTestWithConfig;
 import com.eveningoutpost.dexdrip.models.UserError;
 import com.eveningoutpost.dexdrip.utilitymodels.Pref;
@@ -43,6 +44,8 @@ public class Libre3DiagnosticsTest extends RobolectricTestWithConfig {
         context = RuntimeEnvironment.getApplication();
         xdrip.setContextAlways(context);
         Libre3.forgetSensor();
+        // log rows from other test classes stay in the shared database
+        new Delete().from(UserError.class).execute();
     }
 
     @After

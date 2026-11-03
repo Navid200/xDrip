@@ -84,7 +84,7 @@ public final class Libre3Readings {
             return false;
         }
         int mgdl = reading.mgdl();
-        long timestamp = timestamp(lifeCount);
+        long timestamp = storedTimestamp(lifeCount, nowMs);
         state.updateLastGlucose(lifeCount, mgdl);
         if (!Libre3.updateState(state)) {
             UserError.Log.e(TAG, "Libre 3 " + state.serial() + " is no longer the stored sensor, reading not stored");
@@ -125,8 +125,9 @@ public final class Libre3Readings {
                 UserError.Log.d(TAG, "History at life count " + entry.lifeCount + " skipped: " + reason);
                 continue;
             }
-            long timestamp = timestamp(entry.lifeCount);
-            if (BgReading.getForPreciseTimestamp(timestamp, MINUTE_IN_MS) != null) {
+            long timestamp = storedTimestamp(entry.lifeCount, nowMs);
+            // any sensor's reading counts, so a source switch does not store a minute twice
+            if (BgReading.getForPreciseTimestamp(timestamp, MINUTE_IN_MS, false) != null) {
                 continue;
             }
             if (BgReading.bgReadingInsertFromGluPro(entry.mgdl, timestamp, SOURCE) != null) {
@@ -194,6 +195,11 @@ public final class Libre3Readings {
 
     private long timestamp(int lifeCount) {
         return state.activationMs() + lifeCount * MINUTE_IN_MS;
+    }
+
+    /** The time a value is stored at: never after now, so a start time a little ahead does not show a future value. */
+    private long storedTimestamp(int lifeCount, long nowMs) {
+        return Math.min(timestamp(lifeCount), nowMs);
     }
 
     private void remember(long timestamp, int mgdl) {
