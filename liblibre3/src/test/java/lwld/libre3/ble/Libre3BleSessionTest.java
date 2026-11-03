@@ -21,11 +21,13 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
+import java.util.concurrent.CopyOnWriteArrayList;
 import java.util.concurrent.TimeUnit;
 import java.util.function.BooleanSupplier;
 
 import lwld.libre3.Libre3SensorState;
 import lwld.libre3.data.DataPlaneCrypto;
+import lwld.libre3.data.PatchStatus;
 import lwld.libre3.pairing.FakeSensor;
 import lwld.libre3.util.Hex;
 
@@ -46,14 +48,21 @@ public class Libre3BleSessionTest {
     private static final long PUMP_TIMEOUT_MS = 10_000;
     /** The first attempt that waits for the sensor in the background, after six active ones. */
     private static final int FIRST_BACKGROUND_ATTEMPT = 6;
+    /** As many frames in a row as it takes to disconnect when they fail to decrypt. */
+    private static final int MAX_DROPPED_IN_A_ROW = 5;
 
-    private final RecordingListener recorder = new RecordingListener();
     private final FakeSensor sensor = new FakeSensor();
+    /** What escaped a thread; on Android it ends the app. */
+    private final List<Throwable> uncaught = new CopyOnWriteArrayList<>();
+    private RecordingListener recorder = new RecordingListener();
+    private Thread.UncaughtExceptionHandler previousHandler;
     private FakeGattSensor gatt;
     private Libre3Ble ble;
 
     @Before
     public void setUp() {
+        previousHandler = Thread.getDefaultUncaughtExceptionHandler();
+        Thread.setDefaultUncaughtExceptionHandler((thread, e) -> uncaught.add(e));
         shadowOf(BluetoothAdapter.getDefaultAdapter()).setEnabled(true);
         gatt = new FakeGattSensor(ADDRESS, sensor);
     }
@@ -63,6 +72,7 @@ public class Libre3BleSessionTest {
         if (ble != null) {
             ble.stop();
         }
+        Thread.setDefaultUncaughtExceptionHandler(previousHandler);
     }
 
     // =================================================== streaming ===================================================
@@ -188,6 +198,40 @@ public class Libre3BleSessionTest {
         assertThat(pairingSince(before)).isEqualTo("Pairing with identity test, cached key");
     }
 
+    // =============================================== listener failures ===============================================
+
+    /**
+     * A status the collector fails to store, say on a full disk, is reported as an error. It does not escape the
+     * worker, where it would end the app, and it is not counted as a frame that failed to decrypt.
+     */
+    @Test
+    public void statusListenerThrows_reportsErrorAndStaysConnected() throws Exception {
+        // :: Setup
+        recorder = new RecordingListener() {
+            @Override
+            public void onStatus(PatchStatus status) {
+                super.onStatus(status);
+                throw new IllegalStateException("disk full");
+            }
+        };
+        ble = cachedKeyBle();
+        ble.start();
+        awaitStreaming();
+
+        // :: Act
+        for (int sequence = 1; sequence <= MAX_DROPPED_IN_A_ROW; sequence++) {
+            gatt.notifyData(Gatt.PATCH_STATUS, statusFrame(sequence));
+        }
+        pumpUntil(() -> recorder.errors.size() + uncaught.size() == MAX_DROPPED_IN_A_ROW);
+        idleMainLooper();
+
+        // :: Verify
+        assertThat(uncaught).isEmpty();
+        assertThat(recorder.errors).containsExactlyElementsIn(Collections.nCopies(MAX_DROPPED_IN_A_ROW,
+                "Could not handle a PATCH_STATUS frame: java.lang.IllegalStateException: disk full"));
+        assertThat(recorder.stages.get(recorder.stages.size() - 1)).isEqualTo("Streaming");
+    }
+
     // ==================================================== helpers ====================================================
 
     /** A sensor at a known address whose cached key it still accepts. */
@@ -205,13 +249,21 @@ public class Libre3BleSessionTest {
      * bookkeeping is posted before the second is read, so it has run by the time the next main-looper task does.
      */
     private void stream() throws GeneralSecurityException {
+        awaitStreaming();
+        int seen = recorder.statuses.size();
+        gatt.notifyData(Gatt.PATCH_STATUS, statusFrame(seen + 1));
+        gatt.notifyData(Gatt.PATCH_STATUS, statusFrame(seen + 2));
+        pumpUntil(() -> recorder.statuses.size() == seen + 2);
+    }
+
+    private void awaitStreaming() {
         pumpUntil(() -> !recorder.stages.isEmpty()
                 && recorder.stages.get(recorder.stages.size() - 1).equals("Streaming"));
-        int seen = recorder.statuses.size();
-        DataPlaneCrypto keys = new DataPlaneCrypto(K_ENC, IV_ENC);
-        gatt.notifyData(Gatt.PATCH_STATUS, keys.encrypt(DataPlaneCrypto.PacketKind.KIND2, seen + 1, new byte[12]));
-        gatt.notifyData(Gatt.PATCH_STATUS, keys.encrypt(DataPlaneCrypto.PacketKind.KIND2, seen + 2, new byte[12]));
-        pumpUntil(() -> recorder.statuses.size() == seen + 2);
+    }
+
+    /** A patch status frame as the sensor encrypts it with the session keys from {@link FakeSensor}. */
+    private static byte[] statusFrame(int sequence) throws GeneralSecurityException {
+        return new DataPlaneCrypto(K_ENC, IV_ENC).encrypt(DataPlaneCrypto.PacketKind.KIND2, sequence, new byte[12]);
     }
 
     /** Whether a stage after the first {@code before} says the sensor streams again. */
@@ -245,7 +297,7 @@ public class Libre3BleSessionTest {
         while (!condition.getAsBoolean()) {
             if (System.nanoTime() > deadline) {
                 throw new AssertionError("Timed out; stages " + recorder.stages + ", errors " + recorder.errors
-                        + ", fake sensor failure " + gatt.failure);
+                        + ", fake sensor failure " + gatt.failure + ", uncaught " + uncaught);
             }
             idleMainLooper();
             try {

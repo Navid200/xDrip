@@ -771,6 +771,9 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
                 listener.onError("Disconnecting after " + MAX_DROPPED_IN_A_ROW + " dropped frames in a row");
                 disconnect().enqueue();
             }
+        } catch (RuntimeException e) {
+            // the collector failed with a frame that opened, say storing it; uncaught it would end the app
+            listener.onError("Could not handle a " + channel + " frame: " + e);
         }
     }
 
