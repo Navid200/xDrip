@@ -75,6 +75,10 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
     private static final long POLL_SLICE_MS = 250;
     private static final long MAX_RECONNECT_DELAY_MS = 300_000;
     private static final long RECONNECT_STEP_MS = 5_000;
+    /** Active attempts before the collector starts waiting in the background. */
+    private static final int ACTIVE_ATTEMPTS = 6;
+    private static final long BACKGROUND_WAIT_MS = 10 * 60_000;
+    private static final long BEFORE_BACKGROUND_MS = 60_000;
     /** xDrip4iOS waits this long between historic backfill requests. */
     private static final long BACKFILL_INTERVAL_MS = 22 * 60_000;
 
@@ -123,6 +127,10 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
     private volatile boolean running;
     private volatile DataPlaneCrypto crypto;
     private int reconnectAttempt;
+    /** Whether the pending or current connection was made by a background wait. */
+    private boolean background;
+    /** Set while a background wait is cancelled, so its disconnect callback does not count as a failed attempt. */
+    private boolean cancelling;
     private int identityIndex;
     /** Worker thread only. */
     private int outboundSequence;
@@ -211,19 +219,62 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
         if (!running) {
             return;
         }
-        boolean byAddress = reconnectAttempt % 2 == 0 && BluetoothAdapter.checkBluetoothAddress(state.bleAddress());
-        log(Log.DEBUG, "Attempt " + (reconnectAttempt + 1) + (byAddress ? ", by address" : ", by scan"));
-        if (byAddress) {
-            BluetoothAdapter adapter = BluetoothAdapter.getDefaultAdapter();
-            if (adapter == null) {
-                listener.onError("No Bluetooth adapter");
-                scheduleReconnect("no Bluetooth adapter");
-                return;
-            }
-            connectTo(adapter.getRemoteDevice(state.bleAddress()));
-        } else {
+        cancelling = false;
+        AttemptMode mode = attemptMode(reconnectAttempt, BluetoothAdapter.checkBluetoothAddress(state.bleAddress()));
+        log(Log.DEBUG, "Attempt " + (reconnectAttempt + 1) + ", " + mode.text);
+        if (mode == AttemptMode.BY_SCAN) {
             startScan();
+            return;
         }
+        BluetoothAdapter adapter = BluetoothAdapter.getDefaultAdapter();
+        if (adapter == null) {
+            listener.onError("No Bluetooth adapter");
+            scheduleReconnect("no Bluetooth adapter");
+            return;
+        }
+        BluetoothDevice device = adapter.getRemoteDevice(state.bleAddress());
+        if (mode == AttemptMode.IN_BACKGROUND) {
+            waitInBackground(device);
+        } else {
+            connectTo(device);
+        }
+    }
+
+    /** How an attempt looks for the sensor. */
+    public enum AttemptMode {
+        BY_ADDRESS("by address"), BY_SCAN("by scan"), IN_BACKGROUND("in the background");
+
+        private final String text;
+
+        AttemptMode(String text) {
+            this.text = text;
+        }
+    }
+
+    /**
+     * The first attempts take turns connecting by address and scanning. A sensor still not found is most likely out of
+     * range for a while, so from then on Android waits for it in the background at low power, with a scan between
+     * waits in case it can only be found by name.
+     *
+     * @param attempt    the attempt, counted from 0 since the last pairing
+     * @param hasAddress whether the sensor's Bluetooth address is known and valid
+     */
+    public static AttemptMode attemptMode(int attempt, boolean hasAddress) {
+        if (!hasAddress) {
+            return AttemptMode.BY_SCAN;
+        }
+        if (attempt < ACTIVE_ATTEMPTS) {
+            return attempt % 2 == 0 ? AttemptMode.BY_ADDRESS : AttemptMode.BY_SCAN;
+        }
+        return (attempt - ACTIVE_ATTEMPTS) % 2 == 0 ? AttemptMode.IN_BACKGROUND : AttemptMode.BY_SCAN;
+    }
+
+    /** @return how long to wait before this attempt; see {@link #attemptMode} for the arguments */
+    public static long reconnectDelayMs(int attempt, boolean hasAddress) {
+        if (!hasAddress || attempt < ACTIVE_ATTEMPTS) {
+            return Math.min(MAX_RECONNECT_DELAY_MS, attempt * RECONNECT_STEP_MS);
+        }
+        return attemptMode(attempt, true) == AttemptMode.IN_BACKGROUND ? BEFORE_BACKGROUND_MS : RECONNECT_STEP_MS;
     }
 
     private void startScan() {
@@ -306,6 +357,7 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
         }
         listener.onStage("Connecting");
         try {
+            background = false;
             connect(device).useAutoConnect(false).retry(3, 100).enqueue();
         } catch (SecurityException e) {
             listener.onError("No permission to connect: " + e.getMessage());
@@ -313,12 +365,42 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
         }
     }
 
+    /**
+     * Lets Android connect when the sensor comes back in range, at low power and without a direct connect first. The
+     * wait is cut off after {@link #BACKGROUND_WAIT_MS} so an active scan still runs now and then.
+     */
+    private void waitInBackground(BluetoothDevice device) {
+        listener.onStage("Waiting in the background for up to " + BACKGROUND_WAIT_MS / 60_000 + " min");
+        try {
+            background = true;
+            handler.postDelayed(backgroundTimeout, BACKGROUND_WAIT_MS);
+            connect(device).useAutoConnect(true, false).enqueue();
+        } catch (SecurityException e) {
+            handler.removeCallbacks(backgroundTimeout);
+            listener.onError("No permission to connect: " + e.getMessage());
+            scheduleReconnect("no permission to connect");
+        }
+    }
+
+    private final Runnable backgroundTimeout = () -> {
+        cancelBackground();
+        scheduleReconnect("not seen in the background");
+    };
+
+    /** Stops a background wait, or the library's own reconnect after a background connection was lost. */
+    private void cancelBackground() {
+        handler.removeCallbacks(backgroundTimeout);
+        background = false;
+        cancelling = true;
+        disconnect().enqueue();
+    }
+
     private void scheduleReconnect(String reason) {
         if (!running) {
             return;
         }
         reconnectAttempt++;
-        long delay = Math.min(MAX_RECONNECT_DELAY_MS, reconnectAttempt * RECONNECT_STEP_MS);
+        long delay = reconnectDelayMs(reconnectAttempt, BluetoothAdapter.checkBluetoothAddress(state.bleAddress()));
         listener.onStage("Reconnecting in " + delay / 1000 + " s: " + reason);
         handler.removeCallbacks(attemptRunnable);
         handler.postDelayed(attemptRunnable, delay);
@@ -333,11 +415,16 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
 
         @Override
         public void onDeviceConnected(@NonNull BluetoothDevice device) {
-            listener.onStage("Connected");
+            handler.removeCallbacks(backgroundTimeout);
+            listener.onStage(background ? "Connected from the background wait" : "Connected");
         }
 
         @Override
         public void onDeviceFailedToConnect(@NonNull BluetoothDevice device, int reason) {
+            if (cancelling) {
+                return;
+            }
+            handler.removeCallbacks(backgroundTimeout);
             scheduleReconnect("connect failed, " + reasonText(reason));
         }
 
@@ -357,6 +444,13 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             crypto = null;
             if (running) {
                 worker.execute(assembler::reset);
+            }
+            if (cancelling) {
+                return;
+            }
+            if (background) {
+                // the library would reconnect on its own; the attempts below take over instead
+                cancelBackground();
             }
             scheduleReconnect("disconnected, " + reasonText(reason));
         }
@@ -424,6 +518,9 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             throw new IOException("Write failed with status " + e.getStatus());
         } catch (DeviceDisconnectedException | BluetoothDisabledException | InvalidRequestException e) {
             throw new IOException("Write failed: " + e.getClass().getSimpleName());
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            throw new IOException("Interrupted while writing");
         }
     }
 
@@ -515,6 +612,9 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
                  | InvalidRequestException e) {
             listener.onError("Enabling data notifications failed: " + e.getClass().getSimpleName());
             disconnect().enqueue();
+        } catch (InterruptedException e) {
+            // stop() shuts the worker down
+            Thread.currentThread().interrupt();
         }
     }
 

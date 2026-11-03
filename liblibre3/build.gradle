@@ -36,7 +36,8 @@ android {
 }
 
 dependencies {
-    implementation "no.nordicsemi.android:ble:2.6.1"
+    // the version the app already runs, through ipluginda; 2.11 can wait in the background without a direct connect
+    implementation "no.nordicsemi.android:ble:2.11.0"
     implementation 'no.nordicsemi.android:ble-common:2.6.1'
     implementation "no.nordicsemi.android.support.v18:scanner:1.5.1"
 
