@@ -2,6 +2,7 @@ package lwld.libre3.ble;
 
 import static android.bluetooth.BluetoothGattCharacteristic.WRITE_TYPE_DEFAULT;
 
+import android.Manifest;
 import android.annotation.SuppressLint;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
@@ -9,6 +10,7 @@ import android.bluetooth.BluetoothGatt;
 import android.bluetooth.BluetoothGattCharacteristic;
 import android.bluetooth.BluetoothGattService;
 import android.content.Context;
+import android.content.pm.PackageManager;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.SystemClock;
@@ -197,6 +199,11 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
     }
 
     private void startScan() {
+        if (!hasLocationPermission()) {
+            listener.onError("Location permission is needed to find the sensor");
+            scheduleReconnect("no location permission");
+            return;
+        }
         List<ScanFilter> filters = new ArrayList<>();
         filters.add(new ScanFilter.Builder().setDeviceName(localName()).build());
         if (BluetoothAdapter.checkBluetoothAddress(state.bleAddress())) {
@@ -216,6 +223,14 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             listener.onError("Scan failed: " + e);
             scheduleReconnect("scan failed");
         }
+    }
+
+    /** Without it Android returns no scan results and no error, so the sensor would only seem to be missing. */
+    private boolean hasLocationPermission() {
+        Context context = getContext();
+        int granted = PackageManager.PERMISSION_GRANTED;
+        return context.checkSelfPermission(Manifest.permission.ACCESS_FINE_LOCATION) == granted
+                || context.checkSelfPermission(Manifest.permission.ACCESS_COARSE_LOCATION) == granted;
     }
 
     private void stopScan() {
