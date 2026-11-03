@@ -81,6 +81,8 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
     private static final long BEFORE_BACKGROUND_MS = 60_000;
     /** xDrip4iOS waits this long between historic backfill requests. */
     private static final long BACKFILL_INTERVAL_MS = 22 * 60_000;
+    /** Data-plane frames in a row that may fail before the connection is dropped and paired again. */
+    private static final int MAX_DROPPED_IN_A_ROW = 5;
 
     private static final List<UUID> REQUIRED = Arrays.asList(Gatt.SEC_CERT_DATA, Gatt.SEC_CHALLENGE_DATA,
             Gatt.SEC_COMMAND_RESPONSE, Gatt.PATCH_CONTROL, Gatt.PATCH_STATUS, Gatt.GLUCOSE_DATA, Gatt.HISTORIC_DATA);
@@ -136,6 +138,10 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
     private int outboundSequence;
     /** Worker thread only; 0 when none was sent on this connection. */
     private long lastBackfillAt;
+    /** Worker thread only. Whether a frame decrypted on this connection, which is what ends the reconnect attempts. */
+    private boolean decryptedOnConnection;
+    /** Worker thread only. Frames in a row that did not decrypt or parse on this connection. */
+    private int droppedInARow;
 
     /**
      * @param identities the app identities to pair with, in file order; the one named in the state is tried first
@@ -570,6 +576,8 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
         crypto = null;
         outboundSequence = 0;
         lastBackfillAt = 0;
+        decryptedOnConnection = false;
+        droppedInARow = 0;
         AppIdentity identity = currentIdentity();
         if (identity == null) {
             listener.onError("No Libre 3 app identity loaded");
@@ -583,12 +591,15 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             listener.onStage("Pairing with identity " + identity.label() + (cached != null ? ", cached key" : ""));
             PairingResult result = cached != null
                     ? flow.reconnect(cached, state.blePin())
-                    : flow.firstPair(state.blePin());
+                    : flow.firstPair(state.blePin(), state.sensorKey());
             state.setKAuth(result.kAuth());
             state.setIdentityLabel(identity.label());
+            if (result.sensorKey65() != null) {
+                // the first pairing pins the key; a later one only gets here with the same key
+                state.setSensorKey(result.sensorKey65());
+            }
             listener.onStage("Paired at " + result.lastStage() + (result.usedCache() ? ", cached key" : ", fresh key"));
             listener.onPaired(state);
-            reconnectAttempt = 0;
             for (UUID uuid : AFTER_PAIRING) {
                 BluetoothGattCharacteristic characteristic = chars.get(uuid);
                 if (characteristic != null) {
@@ -615,6 +626,9 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
         } catch (InterruptedException e) {
             // stop() shuts the worker down
             Thread.currentThread().interrupt();
+        } catch (RuntimeException e) {
+            listener.onError("Pairing failed: " + e.getClass().getSimpleName() + ": " + e.getMessage());
+            disconnect().enqueue();
         }
     }
 
@@ -644,8 +658,19 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
                     listener.onHistory(HistoricalPage.parse(plain));
                     break;
             }
+            droppedInARow = 0;
+            if (!decryptedOnConnection) {
+                decryptedOnConnection = true;
+                handler.post(() -> reconnectAttempt = 0);
+            }
         } catch (GeneralSecurityException | IllegalArgumentException e) {
             listener.onError("Dropped a " + channel + " frame: " + e.getMessage());
+            droppedInARow++;
+            if (droppedInARow == MAX_DROPPED_IN_A_ROW) {
+                // keys that no longer fit; reconnecting pairs again
+                listener.onError("Disconnecting after " + MAX_DROPPED_IN_A_ROW + " dropped frames in a row");
+                disconnect().enqueue();
+            }
         }
     }
 

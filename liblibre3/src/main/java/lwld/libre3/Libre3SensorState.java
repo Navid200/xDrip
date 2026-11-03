@@ -17,7 +17,8 @@ import lwld.libre3.util.Hex;
 /**
  * What is kept about one sensor between connections: its address and PIN from activation, the cycle read over NFC,
  * the receiver ID it was started or taken over with, the cached kAuth and the last reading. The PIN and kAuth are
- * secrets: {@link #toString()} leaves them out, and the JSON is for private app storage only. Ported from
+ * secrets: {@link #toString()} leaves them out, and the JSON is for private app storage only. It is shared between
+ * the Bluetooth worker and the status screen, so every access holds its lock. Ported from
  * RoundWhiteDiscKit {@code Libre3SensorState.swift} and {@code Libre3SensorStateLoader.swift} (MIT); the JSON keys
  * it shares with them are kept.
  *
@@ -27,6 +28,7 @@ public final class Libre3SensorState {
 
     private static final int PIN_SIZE = 4;
     private static final int KAUTH_SIZE = 16;
+    private static final int SENSOR_KEY_SIZE = 65;
     /** Refused life counts kept behind the newest one; history is not asked for further back. */
     private static final int KEEP_REJECTED_MINUTES = 24 * 60;
 
@@ -44,6 +46,8 @@ public final class Libre3SensorState {
     private PatchInfo.Region region;
     private String identityLabel;
     private byte[] kAuth;
+    /** The static key from the sensor's certificate at its first pairing; public, not a secret. */
+    private byte[] sensorKey;
     private Integer lastLifeCount;
     private Integer lastMgdl;
     private Set<Integer> rejectedLifeCounts = new HashSet<>();
@@ -60,7 +64,7 @@ public final class Libre3SensorState {
     }
 
     /** Keeps the warm-up, wear, product, generation and region the sensor reported over NFC. */
-    public void applySensorCycle(PatchInfo info) {
+    public synchronized void applySensorCycle(PatchInfo info) {
         warmupMinutes = Math.max(0, info.warmupMinutes());
         wearMinutes = Math.max(0, info.wearMinutes());
         productType = info.productType();
@@ -68,18 +72,18 @@ public final class Libre3SensorState {
         region = info.region();
     }
 
-    public void updateLastGlucose(int lifeCount, int mgdl) {
+    public synchronized void updateLastGlucose(int lifeCount, int mgdl) {
         lastLifeCount = lifeCount;
         lastMgdl = mgdl;
     }
 
     /** The stored cycle; without one, the default warm-up and no wear end, as a reconnect without NFC has. */
-    public Lifecycle lifecycle() {
+    public synchronized Lifecycle lifecycle() {
         return new Lifecycle(warmupMinutes != null ? warmupMinutes : Lifecycle.DEFAULT_WARMUP_MINUTES,
                 wearMinutes != null ? wearMinutes : Integer.MAX_VALUE);
     }
 
-    public String toJson() {
+    public synchronized String toJson() {
         try {
             JSONObject json = new JSONObject()
                     .put("serialNumber", serial)
@@ -102,6 +106,9 @@ public final class Libre3SensorState {
             json.putOpt("identityLabel", identityLabel);
             if (kAuth != null) {
                 json.put("kAuth", Hex.of(kAuth));
+            }
+            if (sensorKey != null) {
+                json.put("sensorKey", Hex.of(sensorKey));
             }
             json.putOpt("lastGlucoseLifeCount", lastLifeCount);
             json.putOpt("lastGlucoseMgDL", lastMgdl);
@@ -140,6 +147,9 @@ public final class Libre3SensorState {
             if (json.has("kAuth")) {
                 state.setKAuth(Hex.toBytes(json.getString("kAuth")));
             }
+            if (json.has("sensorKey")) {
+                state.setSensorKey(Hex.toBytes(json.getString("sensorKey")));
+            }
             state.lastLifeCount = optInt(json, "lastGlucoseLifeCount");
             state.lastMgdl = optInt(json, "lastGlucoseMgDL");
             JSONArray rejected = json.optJSONArray("rejectedLifeCounts");
@@ -175,89 +185,102 @@ public final class Libre3SensorState {
         return blePin.clone();
     }
 
-    public ReceiverId receiverId() {
+    public synchronized ReceiverId receiverId() {
         return receiverId;
     }
 
-    public void setReceiverId(ReceiverId receiverId) {
+    public synchronized void setReceiverId(ReceiverId receiverId) {
         this.receiverId = receiverId;
     }
 
-    public ReceiverId.Fold fold() {
+    public synchronized ReceiverId.Fold fold() {
         return fold;
     }
 
-    public void setFold(ReceiverId.Fold fold) {
+    public synchronized void setFold(ReceiverId.Fold fold) {
         this.fold = fold;
     }
 
-    public long activationMs() {
+    public synchronized long activationMs() {
         return activationMs;
     }
 
-    public void setActivationMs(long activationMs) {
+    public synchronized void setActivationMs(long activationMs) {
         this.activationMs = activationMs;
     }
 
-    public Integer warmupMinutes() {
+    public synchronized Integer warmupMinutes() {
         return warmupMinutes;
     }
 
-    public Integer wearMinutes() {
+    public synchronized Integer wearMinutes() {
         return wearMinutes;
     }
 
-    public Integer productType() {
+    public synchronized Integer productType() {
         return productType;
     }
 
-    public Integer generation() {
+    public synchronized Integer generation() {
         return generation;
     }
 
-    public PatchInfo.Region region() {
+    public synchronized PatchInfo.Region region() {
         return region;
     }
 
-    public String identityLabel() {
+    public synchronized String identityLabel() {
         return identityLabel;
     }
 
-    public void setIdentityLabel(String identityLabel) {
+    public synchronized void setIdentityLabel(String identityLabel) {
         this.identityLabel = identityLabel;
     }
 
-    public byte[] kAuth() {
+    public synchronized byte[] kAuth() {
         return kAuth == null ? null : kAuth.clone();
     }
 
     /** @param kAuth 16 bytes, or null to forget it and force a first pair */
-    public void setKAuth(byte[] kAuth) {
+    public synchronized void setKAuth(byte[] kAuth) {
         if (kAuth != null && kAuth.length != KAUTH_SIZE) {
             throw new IllegalArgumentException("kAuth must be " + KAUTH_SIZE + " bytes");
         }
         this.kAuth = kAuth == null ? null : kAuth.clone();
     }
 
-    public Integer lastLifeCount() {
+    public synchronized Integer lastLifeCount() {
         return lastLifeCount;
     }
 
-    public Integer lastMgdl() {
+    public synchronized Integer lastMgdl() {
         return lastMgdl;
     }
 
-    /** Life counts whose reading was refused, so a backfill does not store them again. */
-    public Set<Integer> rejectedLifeCounts() {
-        return Collections.unmodifiableSet(rejectedLifeCounts);
+    /** @return the sensor's static key from its first pairing, {@code 04 || X || Y}, or null before one */
+    public synchronized byte[] sensorKey() {
+        return sensorKey == null ? null : sensorKey.clone();
     }
 
-    public void setRejectedLifeCounts(Set<Integer> rejectedLifeCounts) {
+    /** @param sensorKey 65 bytes, or null to accept whatever key the next first pairing shows */
+    public synchronized void setSensorKey(byte[] sensorKey) {
+        if (sensorKey != null && sensorKey.length != SENSOR_KEY_SIZE) {
+            throw new IllegalArgumentException("Sensor key must be " + SENSOR_KEY_SIZE + " bytes");
+        }
+        this.sensorKey = sensorKey == null ? null : sensorKey.clone();
+    }
+
+    /** Life counts whose reading was refused, so a backfill does not store them again; a copy. */
+    public synchronized Set<Integer> rejectedLifeCounts() {
+        return Collections.unmodifiableSet(new HashSet<>(rejectedLifeCounts));
+    }
+
+    public synchronized void setRejectedLifeCounts(Set<Integer> rejectedLifeCounts) {
         this.rejectedLifeCounts = new HashSet<>(rejectedLifeCounts);
     }
 
     /** Adds a refused life count and drops those more than a day older than the newest. */
-    public void addRejectedLifeCount(int lifeCount) {
+    public synchronized void addRejectedLifeCount(int lifeCount) {
         rejectedLifeCounts.add(lifeCount);
         int oldest = Collections.max(rejectedLifeCounts) - KEEP_REJECTED_MINUTES;
         Iterator<Integer> it = rejectedLifeCounts.iterator();
@@ -269,7 +292,7 @@ public final class Libre3SensorState {
     }
 
     @Override
-    public String toString() {
+    public synchronized String toString() {
         return "Libre3SensorState(serial=" + serial + ", address=" + bleAddress
                 + ", receiver=" + (receiverId == null ? "none" : receiverId.littleEndianHex())
                 + ", fold=" + fold + ", region=" + region + ", warmup=" + warmupMinutes + ", wear=" + wearMinutes

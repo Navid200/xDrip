@@ -10,6 +10,7 @@ import org.robolectric.RobolectricTestRunner;
 
 import java.util.Arrays;
 import java.util.HashSet;
+import java.util.Set;
 
 import lwld.libre3.data.Lifecycle;
 import lwld.libre3.nfc.PatchInfo;
@@ -31,6 +32,8 @@ public class Libre3SensorStateTest {
     private static final byte[] PIN = {0x32, 0x25, (byte) 0xec, 0x72};
     private static final String KAUTH_HEX = "00112233445566778899aabbccddeeff";
     private static final String ACTIVE = "00a50001000200010060541e020401040c04305252433938394151c6ca";
+    private static final String SENSOR_KEY_HEX = "04" + "11111111111111111111111111111111111111111111111111111111111111111111111111111111"
+            + "111111111111111111111111111111111111111111111111";
 
     // =================================================== fromJson ====================================================
 
@@ -109,6 +112,7 @@ public class Libre3SensorStateTest {
         state.setKAuth(Hex.toBytes(KAUTH_HEX));
         state.updateLastGlucose(1073, 151);
         state.setRejectedLifeCounts(new HashSet<>(Arrays.asList(1070, 1071)));
+        state.setSensorKey(Hex.toBytes(SENSOR_KEY_HEX));
 
         // :: Act
         String json = state.toJson();
@@ -135,6 +139,7 @@ public class Libre3SensorStateTest {
         assertThat(restored.lastLifeCount()).isEqualTo(1073);
         assertThat(restored.lastMgdl()).isEqualTo(151);
         assertThat(restored.rejectedLifeCounts()).containsExactly(1070, 1071);
+        assertThat(Hex.of(restored.sensorKey())).isEqualTo(SENSOR_KEY_HEX);
     }
 
     /** A freshly activated sensor with only the required fields round-trips with the rest left unknown. */
@@ -155,6 +160,7 @@ public class Libre3SensorStateTest {
         assertThat(restored.kAuth()).isNull();
         assertThat(restored.lastLifeCount()).isNull();
         assertThat(restored.rejectedLifeCounts()).isEmpty();
+        assertThat(restored.sensorKey()).isNull();
     }
 
     // ================================================= Last glucose ==================================================
@@ -204,6 +210,37 @@ public class Libre3SensorStateTest {
 
         // :: Verify
         assertThat(state.rejectedLifeCounts()).containsExactly(1001, 2441);
+    }
+
+    /** The refused life counts handed out are a copy, so a reader is not hit by a later add on another thread. */
+    @Test
+    public void rejectedLifeCounts_laterAdd_notInEarlierCopy() {
+        // :: Setup
+        Libre3SensorState state = new Libre3SensorState(SERIAL, ADDRESS, PIN);
+        state.addRejectedLifeCount(1001);
+        Set<Integer> before = state.rejectedLifeCounts();
+
+        // :: Act
+        state.addRejectedLifeCount(1002);
+
+        // :: Verify
+        assertThat(before).containsExactly(1001);
+    }
+
+    // ================================================== Sensor key ===================================================
+
+    /** A sensor key that is not an uncompressed 65-byte point is refused, so a broken one is never pinned. */
+    @Test
+    public void setSensorKey_wrongSize_throws() {
+        // :: Setup
+        Libre3SensorState state = new Libre3SensorState(SERIAL, ADDRESS, PIN);
+
+        // :: Act
+        ThrowingRunnable set = () -> state.setSensorKey(new byte[64]);
+
+        // :: Verify
+        assertThrows(IllegalArgumentException.class, set);
+        assertThat(state.sensorKey()).isNull();
     }
 
     // ================================================= Sensor cycle ==================================================

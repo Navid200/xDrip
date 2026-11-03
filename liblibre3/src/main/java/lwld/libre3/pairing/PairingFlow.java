@@ -22,8 +22,9 @@ import lwld.libre3.crypto.SessionKeys;
  * certificates and ephemeral keys to derive kAuth; a reconnect skips straight to the challenge with a cached kAuth
  * and falls back to a first pair in the same session when the sensor turns that key down. A link failure is not a
  * refusal: it surfaces as an {@link IOException} naming the stage, and the cached key stays good. The sensor
- * certificate is not verified against Abbott's signing keys. Ported from RoundWhiteDiscKit
- * {@code Pairing/PairingFlow.swift} (MIT).
+ * certificate is not verified against Abbott's signing keys; instead the caller can pin the static key a sensor showed
+ * at its first pairing, so a later first pair with another device is refused before the PIN is sent. Ported from
+ * RoundWhiteDiscKit {@code Pairing/PairingFlow.swift} (MIT).
  *
  * @author Asbjørn Aarrestad - 2026.10
  */
@@ -68,6 +69,20 @@ public final class PairingFlow {
      * @throws GeneralSecurityException when the sensor's keys or Phase 6 reply do not check out
      */
     public PairingResult firstPair(byte[] blePin) throws IOException, GeneralSecurityException {
+        return firstPair(blePin, null);
+    }
+
+    /**
+     * Runs the full handshake, refusing a sensor whose static key is not the pinned one.
+     *
+     * @param blePin          the 4-byte BLE PIN from activation
+     * @param pinnedSensorKey the static key this sensor showed at its first pairing, or null to accept any
+     * @throws IOException              when the link fails or the sensor answers out of turn, naming the stage
+     * @throws GeneralSecurityException when the sensor shows another key than the pinned one, before the PIN is sent,
+     *                                  or its keys or Phase 6 reply do not check out
+     */
+    public PairingResult firstPair(byte[] blePin, byte[] pinnedSensorKey)
+            throws IOException, GeneralSecurityException {
         requireLength("BLE PIN", blePin, PIN_SIZE);
         command("StartAuthentication", START_AUTHENTICATION);
         command("LoadCertificate", LOAD_CERTIFICATE);
@@ -77,6 +92,10 @@ public final class PairingFlow {
         command("GetCertificate", GET_CERTIFICATE);
         expectResponse("CertificateReady", CERTIFICATE_READY);
         SensorCert sensorCert = SensorCert.parse(readNotify("SensorCertificate", Gatt.SEC_CERT_DATA, SensorCert.SIZE));
+        if (pinnedSensorKey != null && !MessageDigest.isEqual(pinnedSensorKey, sensorCert.publicKey65())) {
+            throw new GeneralSecurityException("Libre 3 pairing refused: the device shows another key than the sensor"
+                    + " paired before");
+        }
         command("ValidateCertificate", VALIDATE_CERTIFICATE);
 
         AsymmetricCipherKeyPair phoneEphemeral = ephemeral.get();
@@ -89,7 +108,7 @@ public final class PairingFlow {
 
         command("StartAuthorization", START_AUTHORIZATION);
         expectResponse("ChallengeLoadDone", CHALLENGE_LOAD_DONE);
-        return challenge(kAuth, blePin, false);
+        return challenge(kAuth, blePin, sensorCert.publicKey65(), false);
     }
 
     /**
@@ -107,15 +126,18 @@ public final class PairingFlow {
         if (response("ChallengeLoadDone") != CHALLENGE_LOAD_DONE) {
             throw new GeneralSecurityException("Cached key refused at ChallengeLoadDone");
         }
-        PairingResult result = challenge(cachedKAuth, blePin, true);
+        PairingResult result = challenge(cachedKAuth, blePin, null, true);
         if (result == null) {
             throw new GeneralSecurityException("Cached key refused at PatchChallengeLoadDone");
         }
         return result;
     }
 
-    /** @return null when a cached-key challenge is refused before Phase 6 */
-    private PairingResult challenge(byte[] kAuth, byte[] blePin, boolean cached)
+    /**
+     * @param sensorKey65 the sensor's static key from a first pair, or null on a reconnect
+     * @return null when a cached-key challenge is refused before Phase 6
+     */
+    private PairingResult challenge(byte[] kAuth, byte[] blePin, byte[] sensorKey65, boolean cached)
             throws IOException, GeneralSecurityException {
         byte[] challenge = readNotify("Challenge", Gatt.SEC_CHALLENGE_DATA, CHALLENGE_SIZE);
         byte[] sensorR1 = Arrays.copyOfRange(challenge, 0, 16);
@@ -137,7 +159,7 @@ public final class PairingFlow {
         if (!MessageDigest.isEqual(reply.phoneR2(), phoneR2) || !MessageDigest.isEqual(reply.sensorR1(), sensorR1)) {
             throw new GeneralSecurityException("Phase 6 reply does not echo the challenge");
         }
-        return new PairingResult(kAuth, reply.kEnc(), reply.ivEnc(), cached, "Phase6");
+        return new PairingResult(kAuth, reply.kEnc(), reply.ivEnc(), sensorKey65, cached, "Phase6");
     }
 
     private void command(String stage, int opcode) throws IOException {

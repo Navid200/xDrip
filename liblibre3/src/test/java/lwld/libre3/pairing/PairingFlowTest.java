@@ -105,6 +105,73 @@ public class PairingFlowTest {
         assertThat(text).doesNotContain(Hex.of(IV_ENC));
     }
 
+    /** A first pair hands back the sensor's static key, so the collector can hold later pairings to it. */
+    @Test
+    public void firstPair_returnsSensorStaticKey() throws Exception {
+        // :: Setup
+        FakeSensor sensor = new FakeSensor();
+        PairingFlow flow = flow(sensor, "0000000000000000000000000000000000000000000000000000000000002222");
+
+        // :: Act
+        PairingResult result = flow.firstPair(BLE_PIN);
+
+        // :: Verify
+        assertThat(result.sensorKey65()).isEqualTo(sensor.staticKey65());
+    }
+
+    /** A sensor showing the key it showed before pairs as usual. */
+    @Test
+    public void firstPair_sameKeyAsBefore_pairs() throws Exception {
+        // :: Setup
+        FakeSensor sensor = new FakeSensor();
+        PairingFlow flow = flow(sensor, "0000000000000000000000000000000000000000000000000000000000002222");
+
+        // :: Act
+        PairingResult result = flow.firstPair(BLE_PIN, sensor.staticKey65());
+
+        // :: Verify
+        assertThat(result.kEnc()).isEqualTo(K_ENC);
+        assertThat(sensor.tailSeen).isEqualTo(BLE_PIN);
+    }
+
+    /**
+     * A device showing another key than the sensor paired before is refused before the challenge, so it never gets
+     * the PIN.
+     */
+    @Test
+    public void firstPair_otherKeyThanBefore_throwsBeforePinIsSent() {
+        // :: Setup
+        FakeSensor sensor = new FakeSensor();
+        PairingFlow flow = flow(sensor, "0000000000000000000000000000000000000000000000000000000000002222");
+        byte[] before = sensor.staticKey65();
+        before[64] ^= 1;
+
+        // :: Act
+        ThrowingRunnable pair = () -> flow.firstPair(BLE_PIN, before);
+
+        // :: Verify
+        GeneralSecurityException e = assertThrows(GeneralSecurityException.class, pair);
+        assertThat(e).hasMessageThat().contains("key");
+        assertThat(sensor.commands).doesNotContain(0x11);
+        assertThat(sensor.tailSeen).isNull();
+    }
+
+    /** A reconnect exchanges no certificate, so it has no sensor key to hand back. */
+    @Test
+    public void reconnect_returnsNoSensorKey() throws Exception {
+        // :: Setup
+        FakeSensor sensor = new FakeSensor();
+        byte[] cached = Hex.toBytes("404142434445464748494a4b4c4d4e4f");
+        sensor.acceptedKAuth = cached;
+        PairingFlow flow = flow(sensor, "0000000000000000000000000000000000000000000000000000000000002222");
+
+        // :: Act
+        PairingResult result = flow.reconnect(cached, BLE_PIN);
+
+        // :: Verify
+        assertThat(result.sensorKey65()).isNull();
+    }
+
     /** A PIN that is not four bytes is rejected before anything reaches the sensor. */
     @Test
     public void firstPair_pinNotFourBytes_throwsBeforeAnyWrite() {
@@ -320,6 +387,10 @@ public class PairingFlowTest {
             } catch (GeneralSecurityException e) {
                 throw new AssertionError(e);
             }
+        }
+
+        byte[] staticKey65() {
+            return EphemeralExchange.publicKey65(staticKey);
         }
 
         int writeCount(UUID characteristic) {
