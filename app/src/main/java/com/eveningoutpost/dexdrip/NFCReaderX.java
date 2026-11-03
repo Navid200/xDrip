@@ -131,7 +131,7 @@ public class NFCReaderX {
 
     public static boolean useNFC() {
         return Pref.getBooleanDefaultFalse("use_nfc_scan")
-                && (DexCollectionType.hasLibre() || DexCollectionType.getDexCollectionType() == DexCollectionType.Libre3Native);
+                && DexCollectionType.hasNfcScan(DexCollectionType.getDexCollectionType());
     }
 
     @SuppressLint("NewApi")

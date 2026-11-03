@@ -2046,7 +2046,7 @@ public class Preferences extends BasePreferenceActivity implements SearchPrefere
                 });
             //}
 
-            if (!DexCollectionType.hasLibre(collectionType)) {
+            if (!DexCollectionType.hasNfcScan(collectionType)) {
                 collectionCategory.removePreference(nfcSettings);
             } else {
                 // has libre
@@ -2562,7 +2562,7 @@ public class Preferences extends BasePreferenceActivity implements SearchPrefere
                         AllPrefsFragment.this.prefs.edit().putBoolean("calibration_notifications", false).apply();
                     }
 
-                    if (DexCollectionType.hasLibre(collectionType)) {
+                    if (DexCollectionType.hasNfcScan(collectionType)) {
                         collectionCategory.addPreference(nfcSettings);
                         NFCReaderX.handleHomeScreenScanPreference(xdrip.getAppContext(), prefs.getBoolean("nfc_scan_homescreen", false) && prefs.getBoolean("use_nfc_scan", false));
                         if (!engineering_mode)

@@ -11,7 +11,7 @@ import org.junit.Test;
 
 /**
  * Tests for the Libre 3 collector's registration in {@link DexCollectionType}: the settings name it is stored under,
- * the Bluetooth and newer-collector sets, its service, and its default sample period.
+ * the Bluetooth and newer-collector sets, its NFC settings, its service, and its default sample period.
  *
  * @author Asbjørn Aarrestad - 2026.10
  */
@@ -58,6 +58,38 @@ public class DexCollectionTypeLibre3Test extends RobolectricTestWithConfig {
 
         // :: Verify
         assertThat(service).isEqualTo(Libre3Service.class);
+    }
+
+    // ==================================================== NFC scan ===================================================
+
+    /** A Libre 3 sensor is started by an NFC scan, so the NFC settings show for it as for the older Libre collectors. */
+    @Test
+    public void hasNfcScan_libre3Native_true() {
+        // :: Act
+        boolean nfc = DexCollectionType.hasNfcScan(DexCollectionType.Libre3Native);
+
+        // :: Verify
+        assertThat(nfc).isTrue();
+    }
+
+    /** The older Libre collectors keep their NFC settings. */
+    @Test
+    public void hasNfcScan_libreAlarm_true() {
+        // :: Act
+        boolean nfc = DexCollectionType.hasNfcScan(DexCollectionType.LibreAlarm);
+
+        // :: Verify
+        assertThat(nfc).isTrue();
+    }
+
+    /** A collector without an NFC sensor does not get the NFC settings. */
+    @Test
+    public void hasNfcScan_dexcomG5_false() {
+        // :: Act
+        boolean nfc = DexCollectionType.hasNfcScan(DexCollectionType.DexcomG5);
+
+        // :: Verify
+        assertThat(nfc).isFalse();
     }
 
     // ================================================= Sample period =================================================

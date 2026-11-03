@@ -166,6 +166,11 @@ public enum DexCollectionType {
         return usesLibre.contains(t);
     }
 
+    /** Whether the collector's sensor is scanned with NFC, so the NFC settings apply to it. */
+    public static boolean hasNfcScan(DexCollectionType t) {
+        return hasLibre(t) || t == Libre3Native;
+    }
+
     public static boolean hasBattery() {
         return usesBattery.contains(getDexCollectionType());
     }
