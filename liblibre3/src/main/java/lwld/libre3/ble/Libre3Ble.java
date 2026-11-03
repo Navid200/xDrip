@@ -248,11 +248,16 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
         cancelling = false;
         AttemptMode mode = attemptMode(reconnectAttempt, BluetoothAdapter.checkBluetoothAddress(state.bleAddress()));
         log(Log.DEBUG, "Attempt " + (reconnectAttempt + 1) + ", " + mode.text);
+        BluetoothAdapter adapter = BluetoothAdapter.getDefaultAdapter();
+        if (adapter != null && !adapter.isEnabled()) {
+            // the library fails such a connect without telling the connection observer, so nothing would retry it
+            scheduleReconnect("Bluetooth is off");
+            return;
+        }
         if (mode == AttemptMode.BY_SCAN) {
             startScan();
             return;
         }
-        BluetoothAdapter adapter = BluetoothAdapter.getDefaultAdapter();
         if (adapter == null) {
             listener.onError("No Bluetooth adapter");
             scheduleReconnect("no Bluetooth adapter");

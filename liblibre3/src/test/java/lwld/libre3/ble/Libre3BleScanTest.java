@@ -5,10 +5,12 @@ import static org.robolectric.Shadows.shadowOf;
 
 import android.Manifest;
 import android.app.Application;
+import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
 import android.location.LocationManager;
 
 import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
@@ -34,6 +36,12 @@ public class Libre3BleScanTest {
 
     private final Recorder recorder = new Recorder();
     private Libre3Ble ble;
+
+    /** Robolectric's adapter starts off; these tests are about the scan, so Bluetooth is on. */
+    @Before
+    public void setUp() {
+        shadowOf(BluetoothAdapter.getDefaultAdapter()).setEnabled(true);
+    }
 
     @After
     public void tearDown() {
