@@ -96,9 +96,14 @@ public final class Libre3Readings {
             UserError.Log.d(TAG, "Life count " + lifeCount + " not stored: not on the 5-minute interval");
             return false;
         }
-        if (BgReading.bgReadingInsertFromGluPro(value, timestamp, SOURCE) == null) {
+        boolean isNew = BgReading.getForPreciseTimestamp(timestamp, MINUTE_IN_MS) == null;
+        BgReading bgr = BgReading.bgReadingInsertFromGluPro(value, timestamp, SOURCE);
+        if (bgr == null) {
             UserError.Log.d(TAG, "Life count " + lifeCount + " not stored: xDrip refused the reading");
             return false;
+        }
+        if (isNew) {
+            bgr.find_slope(); // the shared insert sets no slope, so the trend arrow would stay flat
         }
         UserError.Log.d(TAG, "Life count " + lifeCount + " stored: " + JoH.qs(value, 0) + " mg/dL");
         return true;

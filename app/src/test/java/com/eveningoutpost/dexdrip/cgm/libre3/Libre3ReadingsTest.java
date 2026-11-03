@@ -76,6 +76,7 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
         Pref.removeItem("dex_collection_method");
         UserError.ExtraLogTags.readPreference("");
         Libre3.forgetSensor();
+        Calibration.deleteAll(); // a stored note calibration would block later tests from deleting the sensor
         BgReading.deleteALL();
     }
 
@@ -376,6 +377,39 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
         // :: Verify
         // (100 × (1 − 1/25) + 130 × 1) / (0.96 + 1) = 115.3
         assertThat(storedAt(1001).calculated_value).isEqualTo(115.0);
+    }
+
+    // ===================================================== slope =====================================================
+
+    /** A stored reading carries the slope from the reading before it, so the trend arrow is not flat. */
+    @Test
+    public void slope_secondReading_storedWithSlopeFromPrevious() {
+        // :: Setup
+        readings.onRealtime(reading(1005, 120), now);
+
+        // :: Act
+        readings.onRealtime(reading(1010, 130), now);
+
+        // :: Verify
+        BgReading previous = storedAt(1005);
+        BgReading current = storedAt(1010);
+        assertThat(current.calculated_value_slope)
+                .isWithin(1e-12).of(10d / (current.timestamp - previous.timestamp));
+    }
+
+    /** A reading already stored at that minute by another source keeps the slope it had. */
+    @Test
+    public void slope_existingReadingAtSameMinute_leftAsItWas() {
+        // :: Setup
+        readings.onRealtime(reading(1005, 120), now);
+        BgReading.bgReadingInsertFromGluPro(125, state.activationMs() + 1010 * MINUTE_IN_MS, "other");
+
+        // :: Act
+        readings.onRealtime(reading(1010, 130), now);
+
+        // :: Verify
+        assertThat(storedAt(1010).calculated_value).isEqualTo(125.0);
+        assertThat(storedAt(1010).calculated_value_slope).isEqualTo(0.0);
     }
 
     // =================================================== fastData ====================================================
