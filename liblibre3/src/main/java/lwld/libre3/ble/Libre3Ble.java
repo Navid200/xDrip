@@ -156,8 +156,22 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
     }
 
     public void start() {
+        start(0);
+    }
+
+    /**
+     * Starts from a later attempt, so a connection restarted after it stalled goes on waiting at low power instead of
+     * scanning actively again. Main thread.
+     */
+    public void start(int fromAttempt) {
+        reconnectAttempt = fromAttempt;
         running = true;
         attempt();
+    }
+
+    /** @return the attempt the next connect is, counted from 0 since data last decrypted; main thread */
+    public int reconnectAttempt() {
+        return reconnectAttempt;
     }
 
     /** Disconnects for good; a stopped instance is not restarted. */

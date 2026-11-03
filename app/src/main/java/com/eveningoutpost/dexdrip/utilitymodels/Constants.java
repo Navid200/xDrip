@@ -68,6 +68,7 @@ public class Constants {
     public static final int SENSORY_EXPIRY_NOTIFICATION_ID = 2003;
     public static final int OUT_OF_RANGE_GLUCOSE_ENTRY_ID = 2004; // Preference setting out of range
     public static final int XDRIP_UPDATE_NOTIFICATION_ID = 2005;
+    public static final int LIBRE3_CREDENTIAL_NOTIFICATION_ID = 2006;
 
     // increments from this start number
     public static final int INCOMPATIBLE_BASE_ID = 5000;

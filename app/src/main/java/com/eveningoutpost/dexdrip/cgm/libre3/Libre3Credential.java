@@ -2,7 +2,9 @@ package com.eveningoutpost.dexdrip.cgm.libre3;
 
 import android.content.Context;
 
+import com.eveningoutpost.dexdrip.models.JoH;
 import com.eveningoutpost.dexdrip.models.UserError;
+import com.eveningoutpost.dexdrip.utilitymodels.Constants;
 
 import java.io.ByteArrayOutputStream;
 import java.io.File;
@@ -72,6 +74,7 @@ public final class Libre3Credential {
             if (!tmp.renameTo(new File(dir, FILE_NAME))) {
                 throw new IOException("Cannot rename the downloaded credential");
             }
+            JoH.cancelNotification(Constants.LIBRE3_CREDENTIAL_NOTIFICATION_ID);
         } catch (IOException e) {
             tmp.delete();
             throw new GeneralSecurityException("Could not save the credential: " + e.getMessage(), e);

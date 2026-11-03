@@ -9,6 +9,7 @@ import static com.eveningoutpost.dexdrip.utilitymodels.Constants.MINUTE_IN_MS;
 import static com.eveningoutpost.dexdrip.utilitymodels.Constants.SECOND_IN_MS;
 import static com.eveningoutpost.dexdrip.xdrip.gs;
 
+import android.app.PendingIntent;
 import android.content.Intent;
 import android.os.IBinder;
 import android.os.PowerManager;
@@ -143,9 +144,11 @@ public class Libre3Service extends ForegroundService {
             UserError.Log.uel(TAG, "Libre 3 " + state.serial() + " paired");
         }
 
+        /** A reading shows the connection works again, so the last error no longer shows on the status page. */
         @Override
         public void onReading(RealtimeReading reading) {
             lastProgressAt = tsl();
+            lastError = "";
             if (readings.onRealtime(reading, tsl())) {
                 lastReadingAt = tsl();
             }
@@ -221,11 +224,18 @@ public class Libre3Service extends ForegroundService {
         super.onDestroy();
     }
 
-    /** Without a credential, opens the Libre 3 screen once per start of the collector, so it can offer the download. */
+    /**
+     * Without a credential, notifies once per start of the collector. The notification opens the Libre 3 screen, which
+     * offers the download, and goes away when the credential is kept.
+     */
     private void offerCredential() {
         if (!offeredCredential && Libre3Credential.get(this).load().isEmpty()) {
             offeredCredential = true;
-            Libre3.startControlActivity();
+            final Intent intent = new Intent(this, Libre3Activity.class);
+            final PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent,
+                    PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
+            JoH.showNotification(gs(R.string.libre3_title), gs(R.string.libre3_stage_no_credential), pendingIntent,
+                    Constants.LIBRE3_CREDENTIAL_NOTIFICATION_ID, false, false, false);
         }
     }
 
@@ -244,11 +254,14 @@ public class Libre3Service extends ForegroundService {
             stage = gs(R.string.libre3_stage_sensor_ended);
             return;
         }
+        Libre3.ensureSensor(state);
+        int fromAttempt = 0;
         if (ble != null && state.serial().equals(bleSerial)) {
             if (!session.stalled(tsl())) {
                 return;
             }
             UserError.Log.uel(TAG, "Libre 3 connection made no progress, restarting it");
+            fromAttempt = ble.reconnectAttempt();
         }
         List<AppIdentity> identities = Libre3Credential.get(this).load();
         if (identities.isEmpty()) {
@@ -257,7 +270,6 @@ public class Libre3Service extends ForegroundService {
             return;
         }
         stopBle();
-        Libre3.ensureSensor(state);
         Libre3Readings sessionReadings = new Libre3Readings(state);
         readings = sessionReadings;
         session = new Session(sessionReadings);
@@ -265,7 +277,7 @@ public class Libre3Service extends ForegroundService {
         ble = new Libre3Ble(xdrip.getAppContext(), state, identities, session);
         bleSerial = state.serial();
         UserError.Log.uel(TAG, "Connecting to Libre 3 " + state.serial());
-        ble.start();
+        ble.start(fromAttempt);
     }
 
     /** Whether the sensor's wear ended more than {@link #ENDED_GRACE_MS} ago, so it no longer sends readings. */

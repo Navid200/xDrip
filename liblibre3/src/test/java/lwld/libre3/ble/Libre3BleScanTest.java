@@ -86,6 +86,35 @@ public class Libre3BleScanTest {
         assertThat(recorder.errors).isEmpty();
     }
 
+    // =================================================== restart =====================================================
+
+    /** A failed attempt counts, so a restarted connection can go on from it. */
+    @Test
+    public void reconnectAttempt_afterFailedAttempt_one() {
+        // :: Setup
+        ble = scanningBle();
+        ble.start();
+
+        // :: Act
+        int attempt = ble.reconnectAttempt();
+
+        // :: Verify
+        assertThat(attempt).isEqualTo(1);
+    }
+
+    /** Started from a later attempt, it waits as long as that attempt would, not as long as the first. */
+    @Test
+    public void start_fromFourthAttempt_waitsAsFifth() {
+        // :: Setup
+        ble = scanningBle();
+
+        // :: Act
+        ble.start(4);
+
+        // :: Verify
+        assertThat(recorder.stages).containsExactly("Reconnecting in 25 s: no location permission");
+    }
+
     // ==================================================== helpers ====================================================
 
     /** A sensor without a usable Bluetooth address, so the first attempt is a scan by name. */

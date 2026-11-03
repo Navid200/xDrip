@@ -9,14 +9,19 @@ import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
 import static org.robolectric.Shadows.shadowOf;
 
-import android.content.Intent;
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.content.Context;
 import android.util.Log;
 
 import com.eveningoutpost.dexdrip.R;
 import com.eveningoutpost.dexdrip.RobolectricTestWithConfig;
 import com.eveningoutpost.dexdrip.g5model.SensorDays;
 import com.eveningoutpost.dexdrip.models.BgReading;
+import com.eveningoutpost.dexdrip.models.JoH;
+import com.eveningoutpost.dexdrip.models.Sensor;
 import com.eveningoutpost.dexdrip.models.UserError;
+import com.eveningoutpost.dexdrip.utilitymodels.Constants;
 import com.eveningoutpost.dexdrip.utilitymodels.Pref;
 import com.eveningoutpost.dexdrip.utilitymodels.StatusItem;
 import com.eveningoutpost.dexdrip.utils.DexCollectionType;
@@ -27,6 +32,7 @@ import org.junit.Test;
 import org.robolectric.Robolectric;
 import org.robolectric.RuntimeEnvironment;
 import org.robolectric.android.controller.ServiceController;
+import org.robolectric.shadows.ShadowNotificationManager;
 
 import java.security.GeneralSecurityException;
 import java.util.ArrayList;
@@ -281,9 +287,12 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
 
     // =================================================== Start ======================================================
 
-    /** Without a credential, starting the collector opens the Libre 3 screen, which offers the download. */
+    /**
+     * Without a credential, starting the collector posts a notification that opens the Libre 3 screen, which offers the
+     * download. It does not open the screen over whatever the user is doing.
+     */
     @Test
-    public void onStartCommand_noCredential_opensLibre3Screen() {
+    public void onStartCommand_noCredential_notifies() {
         // :: Setup
         selectSource(DexCollectionType.Libre3Native);
 
@@ -291,24 +300,44 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         Robolectric.buildService(Libre3Service.class).create().startCommand(0, 1);
 
         // :: Verify
-        Intent started = shadowOf(RuntimeEnvironment.getApplication()).getNextStartedActivity();
-        assertThat(started.getComponent().getClassName()).isEqualTo(Libre3Activity.class.getName());
+        Notification notification = notifications().getNotification(Constants.LIBRE3_CREDENTIAL_NOTIFICATION_ID);
+        assertThat(shadowOf(notification.contentIntent).getSavedIntent().getComponent().getClassName())
+                .isEqualTo(Libre3Activity.class.getName());
+        assertThat(shadowOf(RuntimeEnvironment.getApplication()).getNextStartedActivity()).isNull();
     }
 
-    /** The five-minute wake-ups do not open the screen again; only a new start of the collector does. */
+    /** A dismissed notification stays dismissed on the five-minute wake-ups; only a new collector start posts it. */
     @Test
-    public void onStartCommand_wakeUp_opensOnce() {
+    public void onStartCommand_wakeUp_notifiesOnce() {
         // :: Setup
         selectSource(DexCollectionType.Libre3Native);
         ServiceController<Libre3Service> service = Robolectric.buildService(Libre3Service.class).create();
         service.startCommand(0, 1);
-        shadowOf(RuntimeEnvironment.getApplication()).getNextStartedActivity();
+        JoH.cancelNotification(Constants.LIBRE3_CREDENTIAL_NOTIFICATION_ID);
 
         // :: Act
         service.startCommand(0, 2);
 
         // :: Verify
-        assertThat(shadowOf(RuntimeEnvironment.getApplication()).getNextStartedActivity()).isNull();
+        assertThat(notifications().getNotification(Constants.LIBRE3_CREDENTIAL_NOTIFICATION_ID)).isNull();
+    }
+
+    /**
+     * A wake-up gives the scanned Libre 3 an xDrip sensor again after "Stop sensor", so its readings are kept rather
+     * than dropped until the next NFC scan.
+     */
+    @Test
+    public void onStartCommand_xdripSensorStopped_startsItAgain() {
+        // :: Setup
+        selectSource(DexCollectionType.Libre3Native);
+        sensor("0RRC989AQ", now - 2 * DAY_IN_MS);
+        Sensor.stopSensor();
+
+        // :: Act
+        Robolectric.buildService(Libre3Service.class).create().startCommand(0, 1);
+
+        // :: Verify
+        assertThat(Sensor.currentSensor()).isNotNull();
     }
 
     /** With extra logging on, a restart of the collector shows in the log as the service ending and starting. */
@@ -402,6 +431,21 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         assertThat(value(status, R.string.libre3_stage)).isEqualTo(gs(R.string.libre3_stage_no_sensor));
     }
 
+    /** A reading after an error shows the connection works again, so the status page drops the old error. */
+    @Test
+    public void megaStatus_readingAfterError_noLastError() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+        session.onError("Pairing failed: timeout");
+
+        // :: Act
+        session.onReading(reading(1, 120));
+        List<StatusItem> status = Libre3Service.megaStatus();
+
+        // :: Verify
+        assertThat(value(status, R.string.libre3_last_error)).isNull();
+    }
+
     /** The sensor end on the status page is the same text as on the home screen. */
     @Test
     public void megaStatus_runningSensor_endsAsOnHomeScreen() {
@@ -429,6 +473,10 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
             }
         }
         return rows;
+    }
+
+    private static ShadowNotificationManager notifications() {
+        return shadowOf((NotificationManager) xdrip.getAppContext().getSystemService(Context.NOTIFICATION_SERVICE));
     }
 
     /** The value of the status row with this name, or null when the page has no such row. */

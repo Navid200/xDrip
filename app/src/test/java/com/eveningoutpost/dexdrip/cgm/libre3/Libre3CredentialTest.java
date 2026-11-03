@@ -2,8 +2,14 @@ package com.eveningoutpost.dexdrip.cgm.libre3;
 
 import static com.google.common.truth.Truth.assertThat;
 import static org.junit.Assert.assertThrows;
+import static org.robolectric.Shadows.shadowOf;
+
+import android.app.Notification;
+import android.app.NotificationManager;
+import android.content.Context;
 
 import com.eveningoutpost.dexdrip.RobolectricTestWithConfig;
+import com.eveningoutpost.dexdrip.utilitymodels.Constants;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -58,6 +64,23 @@ public class Libre3CredentialTest extends RobolectricTestWithConfig {
         List<AppIdentity> identities = credential.load();
         assertThat(identities).hasSize(1);
         assertThat(identities.get(0).label()).isEqualTo("a");
+    }
+
+    /** Once the credential is kept, the notification asking for it goes away. */
+    @Test
+    public void store_validBundle_removesNotification() throws Exception {
+        // :: Setup
+        byte[] json = bundle();
+        Libre3Credential credential = new Libre3Credential(dir(), sha256(json));
+        NotificationManager manager = (NotificationManager) RuntimeEnvironment.getApplication()
+                .getSystemService(Context.NOTIFICATION_SERVICE);
+        manager.notify(Constants.LIBRE3_CREDENTIAL_NOTIFICATION_ID, new Notification());
+
+        // :: Act
+        credential.store(xz(json));
+
+        // :: Verify
+        assertThat(shadowOf(manager).getNotification(Constants.LIBRE3_CREDENTIAL_NOTIFICATION_ID)).isNull();
     }
 
     /** A download that does not unpack is refused and the earlier good bundle stays in place. */
