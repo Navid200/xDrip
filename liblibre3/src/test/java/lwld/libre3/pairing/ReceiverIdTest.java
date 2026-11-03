@@ -20,7 +20,7 @@ public class ReceiverIdTest {
     /** DiaBLE's documented sample account, not a real one. */
     private static final String SAMPLE_ACCOUNT = "2977dec2-492a-11ea-9702-0242ac110002";
 
-    // ========================================= fromAccount ==================================================
+    // ================================================== fromAccount ==================================================
 
     /** Libre3ReceiverIDTests.swift:10-25: the sample account folds to the FreeStyle Libre 3 app's ID. */
     @Test
@@ -80,7 +80,7 @@ public class ReceiverIdTest {
         }
     }
 
-    // ========================================= accountless ==================================================
+    // ================================================== accountless ==================================================
 
     /** NFCActivationCommandTests.swift:5-23: the unique ID behind an accepted fresh-pair activation. */
     @Test
@@ -114,7 +114,7 @@ public class ReceiverIdTest {
         assertThat(upper.value()).isNotEqualTo(ReceiverId.accountless(SAMPLE_ACCOUNT).value());
     }
 
-    // ========================================= fromLittleEndianHex ==========================================
+    // ============================================== fromLittleEndianHex ==============================================
 
     /** NFCActivationCommandTests.swift:25-31: colon-separated wire bytes parse back to the ID. */
     @Test

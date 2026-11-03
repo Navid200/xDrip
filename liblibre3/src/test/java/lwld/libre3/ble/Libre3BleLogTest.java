@@ -75,7 +75,7 @@ public class Libre3BleLogTest {
         assertThat(priority).isEqualTo(Log.DEBUG);
     }
 
-    // =================================================== reasonText ===================================================
+    // =================================================== reasonText ==================================================
 
     /** A connect failure names its reason in words, so a report says "timeout" and not only "10". */
     @Test
