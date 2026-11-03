@@ -689,6 +689,8 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
                     : flow.firstPair(state.blePin(), state.sensorKey());
             state.setKAuth(result.kAuth());
             state.setIdentityLabel(identity.label());
+            // the identity that paired now comes first; the next connection starts from it
+            identityIndex = 0;
             if (result.sensorKey65() != null) {
                 // the first pairing pins the key; a later one only gets here with the same key
                 state.setSensorKey(result.sensorKey65());

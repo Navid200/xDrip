@@ -16,7 +16,9 @@ import org.robolectric.RobolectricTestRunner;
 import org.robolectric.RuntimeEnvironment;
 
 import java.security.GeneralSecurityException;
+import java.time.Duration;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -156,6 +158,36 @@ public class Libre3BleSessionTest {
         assertThat(recorder.errors).contains("Cached key refused at ChallengeLoadDone");
     }
 
+    // ============================================== choice of identity ===============================================
+
+    /**
+     * When the first identity fails to pair and a later one pairs, a reconnect starts from the one that paired, with
+     * its cached key, instead of trying the one that failed again.
+     */
+    @Test
+    public void drop_afterLaterIdentityPaired_reconnectsWithItsCachedKey() throws Exception {
+        // :: Setup
+        ble = new Libre3Ble(RuntimeEnvironment.getApplication(),
+                new Libre3SensorState("0RRC989AQ", ADDRESS, new byte[]{1, 2, 3, 4}),
+                Arrays.asList(FakeSensor.unknownIdentity("other"), FakeSensor.identity("test")), recorder);
+        ble.start();
+        pumpUntil(() -> reconnects(recorder.stages).size() == 1);
+        // the retry after 5 s scans and is refused without location permission; the one after 10 s is by address
+        shadowOf(Looper.getMainLooper()).idleFor(Duration.ofSeconds(5));
+        shadowOf(Looper.getMainLooper()).idleFor(Duration.ofSeconds(10));
+        stream();
+        int before = recorder.stages.size();
+
+        // :: Act
+        gatt.drop(GATT_CONN_TIMEOUT);
+        pumpUntil(() -> pairingSince(before) != null);
+
+        // :: Verify
+        assertThat(recorder.stages.subList(0, before)).containsAtLeast("Pairing with identity other",
+                "Pairing with identity test", "Streaming").inOrder();
+        assertThat(pairingSince(before)).isEqualTo("Pairing with identity test, cached key");
+    }
+
     // ==================================================== helpers ====================================================
 
     /** A sensor at a known address whose cached key it still accepts. */
@@ -185,6 +217,16 @@ public class Libre3BleSessionTest {
     /** Whether a stage after the first {@code before} says the sensor streams again. */
     private boolean streamingSince(int before) {
         return recorder.stages.subList(before, recorder.stages.size()).contains("Streaming");
+    }
+
+    /** @return the first pairing stage after the first {@code before}, or null when none came yet */
+    private String pairingSince(int before) {
+        for (String stage : recorder.stages.subList(before, recorder.stages.size())) {
+            if (stage.startsWith("Pairing with identity")) {
+                return stage;
+            }
+        }
+        return null;
     }
 
     private static List<String> reconnects(List<String> stages) {
