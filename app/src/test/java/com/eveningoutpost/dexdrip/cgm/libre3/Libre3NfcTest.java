@@ -1,12 +1,17 @@
 package com.eveningoutpost.dexdrip.cgm.libre3;
 
+import static com.eveningoutpost.dexdrip.models.JoH.tsl;
 import static com.eveningoutpost.dexdrip.xdrip.gs;
 import static com.google.common.truth.Truth.assertThat;
+import static org.mockito.ArgumentMatchers.any;
+import static org.mockito.Mockito.mock;
+import static org.mockito.Mockito.when;
 import static org.robolectric.Shadows.shadowOf;
 
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.res.XmlResourceParser;
+import android.nfc.tech.NfcV;
 import android.os.Looper;
 
 import com.activeandroid.query.Select;
@@ -24,8 +29,10 @@ import org.junit.Test;
 import org.robolectric.Robolectric;
 import org.robolectric.RuntimeEnvironment;
 import org.robolectric.shadows.ShadowDialog;
+import org.robolectric.shadows.ShadowToast;
 import org.xmlpull.v1.XmlPullParser;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -59,6 +66,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
         super.setUp();
         xdrip.setContextAlways(RuntimeEnvironment.application);
         Libre3.forgetSensor();
+        Libre3Nfc.clearPending(); // static, so a choice confirmed in one test would carry into the next
     }
 
     @After
@@ -66,6 +74,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
         Pref.removeItem("use_nfc_scan");
         Pref.removeItem(DexCollectionType.DEX_COLLECTION_METHOD);
         Libre3.forgetSensor();
+        Libre3Nfc.clearPending();
     }
 
     // ==================================================== useNFC =====================================================
@@ -319,6 +328,57 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
         AlertDialog dialog = (AlertDialog) ShadowDialog.getLatestDialog();
         assertThat(String.valueOf(shadowOf(dialog).getMessage())).isEqualTo(gs(R.string.libre3_already_in_use));
         assertThat(Libre3.loadState().kAuth()).isEqualTo(KAUTH);
+    }
+
+    /** A message for a screen that has closed comes as a toast, since a dialog there would crash xDrip. */
+    @Test
+    public void onScan_screenClosed_messageAsToast() {
+        // :: Setup
+        Libre3.saveState(stored(SERIAL));
+        Activity activity = Robolectric.buildActivity(Activity.class).setup().get();
+        activity.finish();
+
+        // :: Act
+        Libre3Nfc.onScan(activity, null, Hex.toBytes(ACTIVE));
+        shadowOf(Looper.getMainLooper()).idle();
+
+        // :: Verify
+        assertThat(ShadowDialog.getShownDialogs()).isEmpty();
+        assertThat(ShadowToast.getTextOfLatestToast()).isEqualTo(gs(R.string.libre3_already_in_use));
+    }
+
+    /** The takeover question is not shown on a screen that has closed, and nothing is confirmed. */
+    @Test
+    public void onScan_screenClosedBeforeQuestion_nothingConfirmed() {
+        // :: Setup
+        Activity activity = Robolectric.buildActivity(Activity.class).setup().get();
+        activity.finish();
+
+        // :: Act
+        Libre3Nfc.onScan(activity, null, Hex.toBytes(ACTIVE));
+        shadowOf(Looper.getMainLooper()).idle();
+
+        // :: Verify
+        assertThat(ShadowDialog.getShownDialogs()).isEmpty();
+        assertThat(Libre3Nfc.pending(SERIAL, tsl())).isNull();
+    }
+
+    /** Lost contact while sending keeps the confirmed choice, so the next scan sends it without asking again. */
+    @Test
+    public void onScan_contactLost_keepsConfirmedChoice() throws Exception {
+        // :: Setup
+        Libre3Nfc.confirm(SERIAL, Libre3Nfc.decide(patchInfo(ACTIVE), null, Libre3.accountId(), Libre3.fold(),
+                Libre3.uniqueId()), tsl());
+        NfcV tag = mock(NfcV.class);
+        when(tag.transceive(any(byte[].class))).thenThrow(new IOException("Tag was lost."));
+        Activity activity = Robolectric.buildActivity(Activity.class).setup().get();
+
+        // :: Act
+        Libre3Nfc.onScan(activity, tag, Hex.toBytes(ACTIVE));
+
+        // :: Verify
+        assertThat(Libre3Nfc.pending(SERIAL, tsl())).isNotNull();
+        assertThat(Libre3.loadState()).isNull();
     }
 
     // ==================================================== pending ====================================================

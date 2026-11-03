@@ -140,7 +140,7 @@ public final class Libre3Nfc {
         return pendingDecision;
     }
 
-    private static synchronized void clearPending() {
+    static synchronized void clearPending() {
         pendingSerial = null;
         pendingDecision = null;
         pendingAt = 0;
@@ -205,16 +205,17 @@ public final class Libre3Nfc {
             askFirst(activity, info.serial(), decision);
             return;
         }
-        clearPending();
         long commandMs = (now / 1000 - 1) * 1000;
         byte[] reply;
         try {
             reply = tag.transceive(NfcCommand.command(decision.code, commandMs / 1000, decision.receiverId));
         } catch (IOException | SecurityException e) {
+            // the choice stays confirmed, so scanning again sends it without asking again
             UserError.Log.e(TAG, "Libre 3 NFC command failed: " + e.getMessage());
             JoH.static_toast_long(gs(R.string.libre3_error_nfc_failed));
             return;
         }
+        clearPending();
         UserError.Log.uel(TAG, "Libre 3 " + decision.code + " sent, fold " + decision.fold + ", reply "
                 + (reply == null ? 0 : reply.length) + " bytes");
         String error = onResponse(info, decision, reply == null ? new byte[0] : reply, commandMs);
@@ -228,21 +229,38 @@ public final class Libre3Nfc {
     }
 
     private static void askFirst(Activity activity, String serial, Decision decision) {
-        activity.runOnUiThread(() -> new AlertDialog.Builder(activity)
-                .setTitle(decision.code == NfcCommand.Code.ACTIVATE
-                        ? R.string.libre3_title_activate : R.string.libre3_title_takeover)
-                .setMessage(decision.warning + "\n\n" + gs(R.string.libre3_scan_again))
-                .setPositiveButton(R.string.ok, (dialog, which) -> confirm(serial, decision, tsl()))
-                .setNegativeButton(R.string.cancel, null)
-                .show());
+        activity.runOnUiThread(() -> {
+            if (closed(activity)) {
+                UserError.Log.e(TAG, "Libre 3 question not shown: the screen has closed");
+                return;
+            }
+            new AlertDialog.Builder(activity)
+                    .setTitle(decision.code == NfcCommand.Code.ACTIVATE
+                            ? R.string.libre3_title_activate : R.string.libre3_title_takeover)
+                    .setMessage(decision.warning + "\n\n" + gs(R.string.libre3_scan_again))
+                    .setPositiveButton(R.string.ok, (dialog, which) -> confirm(serial, decision, tsl()))
+                    .setNegativeButton(R.string.cancel, null)
+                    .show();
+        });
     }
 
     private static void showMessage(Activity activity, String message) {
-        activity.runOnUiThread(() -> new AlertDialog.Builder(activity)
-                .setTitle(R.string.libre3_title)
-                .setMessage(message)
-                .setPositiveButton(R.string.ok, null)
-                .show());
+        activity.runOnUiThread(() -> {
+            if (closed(activity)) {
+                JoH.static_toast_long(message);
+                return;
+            }
+            new AlertDialog.Builder(activity)
+                    .setTitle(R.string.libre3_title)
+                    .setMessage(message)
+                    .setPositiveButton(R.string.ok, null)
+                    .show();
+        });
+    }
+
+    /** A dialog on a screen that is closing or gone would crash xDrip. */
+    private static boolean closed(Activity activity) {
+        return activity.isFinishing() || activity.isDestroyed();
     }
 
     private static String foldName(ReceiverId.Fold fold) {
