@@ -26,9 +26,11 @@ import java.security.GeneralSecurityException;
 import java.security.MessageDigest;
 import java.util.Arrays;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicBoolean;
 
 import lwld.libre3.crypto.AppIdentity;
 import lwld.libre3.util.Hex;
+import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
 import okhttp3.Protocol;
 import okhttp3.Response;
@@ -174,6 +176,58 @@ public class Libre3CredentialTest extends RobolectricTestWithConfig {
         assertThat(credential.load()).hasSize(1);
     }
 
+    /** A fault in a reply is kept as the reason, like any failed download, instead of crashing xDrip. */
+    @Test
+    public void download_replyFault_recordsError() throws Exception {
+        // :: Setup
+        Libre3Credential credential = new Libre3Credential(dir(), sha256(bundle()));
+        OkHttpClient client = faultThenAnswering(() -> {
+            throw new IllegalStateException("broken reply");
+        }, 404, new byte[0]);
+
+        // :: Act
+        ThrowingRunnable download = () -> credential.download(client);
+
+        // :: Verify
+        assertThrows(GeneralSecurityException.class, download);
+        assertThat(credential.lastDownloadError()).contains("broken reply");
+    }
+
+    /** Running out of memory while unpacking is kept as the reason instead of crashing xDrip. */
+    @Test
+    public void download_outOfMemory_recordsError() throws Exception {
+        // :: Setup
+        Libre3Credential credential = new Libre3Credential(dir(), sha256(bundle()));
+        OkHttpClient client = faultThenAnswering(() -> {
+            throw new OutOfMemoryError("Failed to allocate");
+        }, 404, new byte[0]);
+
+        // :: Act
+        ThrowingRunnable download = () -> credential.download(client);
+
+        // :: Verify
+        assertThrows(GeneralSecurityException.class, download);
+        assertThat(credential.lastDownloadError()).contains("OutOfMemoryError");
+    }
+
+    /** A fault at the first gateway still lets the next one deliver the credential. */
+    @Test
+    public void download_firstGatewayFaults_nextOneKept() throws Exception {
+        // :: Setup
+        byte[] json = bundle();
+        Libre3Credential credential = new Libre3Credential(dir(), sha256(json));
+        OkHttpClient client = faultThenAnswering(() -> {
+            throw new IllegalStateException("broken reply");
+        }, 200, xz(json));
+
+        // :: Act
+        credential.download(client);
+
+        // :: Verify
+        assertThat(credential.load()).hasSize(1);
+        assertThat(credential.lastDownloadError()).isEmpty();
+    }
+
     /** Before any download there is no error to show. */
     @Test
     public void lastDownloadError_neverDownloaded_empty() throws Exception {
@@ -192,13 +246,30 @@ public class Libre3CredentialTest extends RobolectricTestWithConfig {
     /** A client that never touches the network: every request gets this answer. */
     private static OkHttpClient answering(int code, byte[] body) {
         return new OkHttpClient.Builder()
-                .addInterceptor(chain -> new Response.Builder()
-                        .request(chain.request())
-                        .protocol(Protocol.HTTP_1_1)
-                        .code(code)
-                        .message("test")
-                        .body(ResponseBody.create(body, null))
-                        .build())
+                .addInterceptor(chain -> answer(chain, code, body))
+                .build();
+    }
+
+    /** A client that never touches the network: the first request runs into the fault, later ones get the answer. */
+    private static OkHttpClient faultThenAnswering(Runnable fault, int code, byte[] body) {
+        AtomicBoolean faulted = new AtomicBoolean();
+        return new OkHttpClient.Builder()
+                .addInterceptor(chain -> {
+                    if (!faulted.getAndSet(true)) {
+                        fault.run();
+                    }
+                    return answer(chain, code, body);
+                })
+                .build();
+    }
+
+    private static Response answer(Interceptor.Chain chain, int code, byte[] body) {
+        return new Response.Builder()
+                .request(chain.request())
+                .protocol(Protocol.HTTP_1_1)
+                .code(code)
+                .message("test")
+                .body(ResponseBody.create(body, null))
                 .build();
     }
 

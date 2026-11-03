@@ -110,14 +110,21 @@ public final class Libre3Credential {
                 UserError.Log.uel(TAG, "Libre 3 credential downloaded from " + gateway);
                 return;
             } catch (IOException | GeneralSecurityException e) {
-                String error = gateway + ": " + e.getMessage();
-                UserError.Log.e(TAG, "Libre 3 credential download failed from " + error);
-                errors.append(errors.length() == 0 ? "" : "; ").append(error);
+                failed(errors, gateway, e.getMessage());
+            } catch (RuntimeException | OutOfMemoryError e) {
+                // a fault in a reply or in unpacking it must not crash xDrip, and the next gateway may still work
+                failed(errors, gateway, e.toString());
             }
         }
         String failure = errors.length() == 0 ? "no gateway" : errors.toString();
         saveError(failure);
         throw new GeneralSecurityException("Credential download failed (" + failure + ")");
+    }
+
+    private static void failed(StringBuilder errors, String gateway, String reason) {
+        String error = gateway + ": " + reason;
+        UserError.Log.e(TAG, "Libre 3 credential download failed from " + error);
+        errors.append(errors.length() == 0 ? "" : "; ").append(error);
     }
 
     /** Why the last download failed, or empty when it worked or none was tried. */
