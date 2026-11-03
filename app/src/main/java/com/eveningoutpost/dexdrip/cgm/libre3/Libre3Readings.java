@@ -48,6 +48,8 @@ public final class Libre3Readings {
     private final ArrayDeque<long[]> recent = new ArrayDeque<>();
 
     private PatchStatus lastStatus;
+    /** Why the last realtime reading was refused, or null when it was accepted. */
+    private String lastRefusal;
     private String lastFastData;
     private int backfilled;
 
@@ -80,9 +82,16 @@ public final class Libre3Readings {
         if (reason != null) {
             state.addRejectedLifeCount(lifeCount);
             Libre3.updateState(state);
-            UserError.Log.uel(TAG, "Libre 3 reading at life count " + lifeCount + " not stored: " + reason);
+            String message = "Libre 3 reading at life count " + lifeCount + " not stored: " + reason;
+            if (reason.equals(lastRefusal)) {
+                UserError.Log.d(TAG, message); // the event log already has this reason, from the first in this run
+            } else {
+                UserError.Log.uel(TAG, message);
+            }
+            lastRefusal = reason;
             return false;
         }
+        lastRefusal = null;
         int mgdl = reading.mgdl();
         long timestamp = storedTimestamp(lifeCount, nowMs);
         state.updateLastGlucose(lifeCount, mgdl);

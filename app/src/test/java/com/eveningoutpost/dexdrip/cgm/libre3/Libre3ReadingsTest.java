@@ -5,6 +5,7 @@ import static com.eveningoutpost.dexdrip.utilitymodels.Constants.DAY_IN_MS;
 import static com.eveningoutpost.dexdrip.utilitymodels.Constants.MINUTE_IN_MS;
 import static com.google.common.truth.Truth.assertThat;
 
+import com.activeandroid.query.Delete;
 import com.eveningoutpost.dexdrip.RobolectricTestWithConfig;
 import com.eveningoutpost.dexdrip.models.BgReading;
 import com.eveningoutpost.dexdrip.models.Calibration;
@@ -56,6 +57,7 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
         DexCollectionType.getDexCollectionType();
         Libre3.forgetSensor();
         BgReading.deleteALL();
+        new Delete().from(UserError.class).execute(); // log rows outlive each test, and the log tests count them
         now = tsl();
         state = new Libre3SensorState("0RRC989AQ", "CC:22:DF:B8:F9:58", PIN);
         // Life counts 990-1010 are the last twenty minutes, as realtime readings from a running sensor are
@@ -461,6 +463,44 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
         assertThat(logged("Life count 999 not stored: not on the 5-minute interval")).isTrue();
     }
 
+    /** The same refusal minute after minute, as through warm-up, is one line in the event log, not one a minute. */
+    @Test
+    public void onRealtime_sameRefusalRepeated_oneUserEvent() {
+        // :: Act
+        readings.onRealtime(reading(1001, null), now);
+        readings.onRealtime(reading(1002, null), now);
+        readings.onRealtime(reading(1003, null), now);
+
+        // :: Verify
+        assertThat(refusalEvents()).isEqualTo(1);
+    }
+
+    /** A new reason for refusing is logged as a user event, so a change such as a wrong start time is not missed. */
+    @Test
+    public void onRealtime_refusalReasonChanges_userEventForEach() {
+        // :: Act
+        readings.onRealtime(reading(1001, null), now);
+        readings.onRealtime(reading(1002, 120, 0x8001), now);
+
+        // :: Verify
+        assertThat(refusalEvents()).isEqualTo(2);
+    }
+
+    /** A refusal after a reading was accepted is logged as a user event again. */
+    @Test
+    public void onRealtime_refusedAgainAfterAccepted_userEventAgain() {
+        // :: Setup
+        Pref.setBoolean("libre_one_minute", true);
+
+        // :: Act
+        readings.onRealtime(reading(1001, null), now);
+        readings.onRealtime(reading(1002, 120), now);
+        readings.onRealtime(reading(1003, null), now);
+
+        // :: Verify
+        assertThat(refusalEvents()).isEqualTo(2);
+    }
+
     /** Each history page is summed up in one line: how many entries, which life counts, how many were stored. */
     @Test
     public void onHistory_page_logsSummary() {
@@ -647,6 +687,17 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
             }
         }
         return false;
+    }
+
+    /** How many refused readings were logged as user events, the lines the event log shows without extra logging. */
+    private static int refusalEvents() {
+        int count = 0;
+        for (UserError entry : UserError.all()) {
+            if (entry.severity == 5 && entry.message.startsWith("Libre 3 reading at life count")) {
+                count++;
+            }
+        }
+        return count;
     }
 
     private BgReading storedAt(int lifeCount) {
