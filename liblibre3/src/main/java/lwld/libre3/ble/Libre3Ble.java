@@ -103,6 +103,11 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
         void onHistory(List<HistoricalPage.Entry> entries);
 
         void onError(String message);
+
+        /** A redacted line of the Bluetooth log. Without an override it goes to logcat only. */
+        default void onLog(int priority, String message) {
+            Log.println(priority, TAG, message);
+        }
     }
 
     private final Libre3SensorState state;
@@ -169,8 +174,13 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
     }
 
     @Override
+    public int getMinLogPriority() {
+        return Log.DEBUG;
+    }
+
+    @Override
     public void log(int priority, @NonNull String message) {
-        Log.println(priority, TAG, redact(message));
+        listener.onLog(priority, redact(message));
     }
 
     // ----------------------------------------------- connect and scan ------------------------------------------------
