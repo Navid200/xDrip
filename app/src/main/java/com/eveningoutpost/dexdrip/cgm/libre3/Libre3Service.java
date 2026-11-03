@@ -181,10 +181,19 @@ public class Libre3Service extends ForegroundService {
         }
     }
 
+    /** Logged with extra logging on, so a restart of the collector shows as the service ending and starting. */
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        UserError.Log.d(TAG, "Service created");
+    }
+
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         final PowerManager.WakeLock wl = JoH.getWakeLock(TAG + "-osc", 60_000);
         try {
+            UserError.Log.d(TAG, ble == null ? "Start command, no session running"
+                    : "Start command, session running for " + bleSerial);
             if (!shouldServiceRun()) {
                 UserError.Log.d(TAG, "Stopping service due to shouldServiceRun() result");
                 stopSelf();
@@ -201,6 +210,7 @@ public class Libre3Service extends ForegroundService {
 
     @Override
     public void onDestroy() {
+        UserError.Log.d(TAG, "Service destroyed");
         stopBle();
         super.onDestroy();
     }

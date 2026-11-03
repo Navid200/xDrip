@@ -374,6 +374,51 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
         assertThat(logged).isTrue();
     }
 
+    // ====================================================== log ======================================================
+
+    /** With extra logging on, a stored reading is logged with its value. */
+    @Test
+    public void onRealtime_stored_logsValue() {
+        // :: Setup
+        UserError.ExtraLogTags.readPreference("Libre3Native:d");
+        Pref.setBoolean("libre_one_minute", true);
+
+        // :: Act
+        readings.onRealtime(reading(1001, 120), now);
+
+        // :: Verify
+        assertThat(logged("Life count 1001 stored: 120 mg/dL")).isTrue();
+    }
+
+    /** With one-minute readings off, a reading between the five-minute ones says why it was not stored. */
+    @Test
+    public void onRealtime_offInterval_logsWhy() {
+        // :: Setup
+        UserError.ExtraLogTags.readPreference("Libre3Native:d");
+        Pref.setBoolean("libre_one_minute", false);
+
+        // :: Act
+        readings.onRealtime(reading(999, 120), now);
+
+        // :: Verify
+        assertThat(logged("Life count 999 not stored: not on the 5-minute interval")).isTrue();
+    }
+
+    /** Each history page is summed up in one line: how many entries, which life counts, how many were stored. */
+    @Test
+    public void onHistory_page_logsSummary() {
+        // :: Setup
+        UserError.ExtraLogTags.readPreference("Libre3Native:d");
+        Pref.setBoolean("libre_one_minute", false);
+        readings.onRealtime(reading(1000, 120), now);
+
+        // :: Act
+        readings.onHistory(entries(982, 130), now);
+
+        // :: Verify
+        assertThat(logged("History: 6 entries, life counts 982 to 1007, 4 stored")).isTrue();
+    }
+
     // ================================================== megaStatus ===================================================
 
     /** The status rows show the sensor, its product, state, last reading, backfill count and fast data. */
@@ -484,6 +529,15 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
     }
 
     // ==================================================== helpers ====================================================
+
+    private static boolean logged(String message) {
+        for (UserError entry : UserError.all()) {
+            if ("Libre3Native".equals(entry.shortError) && message.equals(entry.message)) {
+                return true;
+            }
+        }
+        return false;
+    }
 
     private BgReading storedAt(int lifeCount) {
         return BgReading.getForPreciseTimestamp(state.activationMs() + lifeCount * MINUTE_IN_MS, 1000);

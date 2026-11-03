@@ -310,6 +310,22 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         assertThat(shadowOf(RuntimeEnvironment.getApplication()).getNextStartedActivity()).isNull();
     }
 
+    /** With extra logging on, a restart of the collector shows in the log as the service ending and starting. */
+    @Test
+    public void lifecycle_withExtraTag_logsCreateAndDestroy() {
+        // :: Setup
+        UserError.ExtraLogTags.readPreference("Libre3Native:d");
+        selectSource(DexCollectionType.Libre3Native);
+
+        // :: Act
+        Robolectric.buildService(Libre3Service.class).create().startCommand(0, 1).destroy();
+
+        // :: Verify
+        assertThat(logRows("Service created")).hasSize(1);
+        assertThat(logRows("Start command, no session running")).hasSize(1);
+        assertThat(logRows("Service destroyed")).hasSize(1);
+    }
+
     /** A collector that is not the chosen source stops without opening anything. */
     @Test
     public void onStartCommand_otherSource_opensNothing() {

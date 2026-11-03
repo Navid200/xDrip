@@ -6,6 +6,7 @@ import static com.eveningoutpost.dexdrip.xdrip.gs;
 
 import com.eveningoutpost.dexdrip.R;
 import com.eveningoutpost.dexdrip.models.BgReading;
+import com.eveningoutpost.dexdrip.models.JoH;
 import com.eveningoutpost.dexdrip.models.UserError;
 import com.eveningoutpost.dexdrip.utilitymodels.Pref;
 import com.eveningoutpost.dexdrip.utilitymodels.StatusItem;
@@ -92,9 +93,15 @@ public final class Libre3Readings {
         double value = Pref.getBooleanDefaultFalse(Libre3.PREF_SMOOTHING) ? smoothed(timestamp, mgdl) : mgdl;
         remember(timestamp, mgdl);
         if (!Pref.getBooleanDefaultFalse("libre_one_minute") && lifeCount % 5 != 0) {
+            UserError.Log.d(TAG, "Life count " + lifeCount + " not stored: not on the 5-minute interval");
             return false;
         }
-        return BgReading.bgReadingInsertFromGluPro(value, timestamp, SOURCE) != null;
+        if (BgReading.bgReadingInsertFromGluPro(value, timestamp, SOURCE) == null) {
+            UserError.Log.d(TAG, "Life count " + lifeCount + " not stored: xDrip refused the reading");
+            return false;
+        }
+        UserError.Log.d(TAG, "Life count " + lifeCount + " stored: " + JoH.qs(value, 0) + " mg/dL");
+        return true;
     }
 
     /**
@@ -125,6 +132,10 @@ public final class Libre3Readings {
             if (BgReading.bgReadingInsertFromGluPro(entry.mgdl, timestamp, SOURCE) != null) {
                 stored++;
             }
+        }
+        if (!entries.isEmpty()) {
+            UserError.Log.d(TAG, "History: " + entries.size() + " entries, life counts " + entries.get(0).lifeCount
+                    + " to " + entries.get(entries.size() - 1).lifeCount + ", " + stored + " stored");
         }
         if (stored > 0) {
             backfilled += stored;
