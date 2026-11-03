@@ -124,6 +124,22 @@ public class Libre3Service extends ForegroundService {
             lastError = message;
             UserError.Log.uel(TAG, "Libre 3 error: " + message);
         }
+
+        /**
+         * Kept in xDrip's log only with extra logging on for this tag. Never as an error or a warning: an out-of-range
+         * sensor fails a connect every few minutes, and those must not fill a normal user's error list.
+         */
+        @Override
+        public void onLog(int priority, String message) {
+            final String line = "BLE: " + message;
+            if (priority == android.util.Log.VERBOSE) {
+                UserError.Log.v(TAG, line);
+            } else if (priority == android.util.Log.DEBUG) {
+                UserError.Log.d(TAG, line);
+            } else {
+                UserError.Log.i(TAG, line);
+            }
+        }
     }
 
     @Override

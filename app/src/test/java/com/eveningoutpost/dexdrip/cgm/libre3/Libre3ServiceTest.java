@@ -9,11 +9,13 @@ import static org.junit.Assert.assertThrows;
 import static org.robolectric.Shadows.shadowOf;
 
 import android.content.Intent;
+import android.util.Log;
 
 import com.eveningoutpost.dexdrip.R;
 import com.eveningoutpost.dexdrip.RobolectricTestWithConfig;
 import com.eveningoutpost.dexdrip.g5model.SensorDays;
 import com.eveningoutpost.dexdrip.models.BgReading;
+import com.eveningoutpost.dexdrip.models.UserError;
 import com.eveningoutpost.dexdrip.utilitymodels.Pref;
 import com.eveningoutpost.dexdrip.utilitymodels.StatusItem;
 import com.eveningoutpost.dexdrip.utils.DexCollectionType;
@@ -26,6 +28,7 @@ import org.robolectric.RuntimeEnvironment;
 import org.robolectric.android.controller.ServiceController;
 
 import java.security.GeneralSecurityException;
+import java.util.ArrayList;
 import java.util.List;
 
 import lwld.libre3.Libre3SensorState;
@@ -69,6 +72,7 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         Pref.removeItem("libre_one_minute");
         Libre3.forgetSensor();
         SensorDays.clearCache();
+        UserError.ExtraLogTags.readPreference("");
     }
 
     // ==================================================== Session ====================================================
@@ -106,6 +110,51 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         // :: Verify
         BgReading stored = BgReading.getForPreciseTimestamp(current.activationMs() + 1000 * MINUTE_IN_MS, 1000);
         assertThat(stored.calculated_value).isEqualTo(120.0);
+    }
+
+    /** With extra logging on for the collector, a Bluetooth debug line is kept in xDrip's log, where a tester can send it. */
+    @Test
+    public void onLog_debugWithExtraTag_isStored() {
+        // :: Setup
+        UserError.ExtraLogTags.readPreference("Libre3Native:d");
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+
+        // :: Act
+        session.onLog(Log.DEBUG, "gatt.connect()");
+
+        // :: Verify
+        assertThat(logRows("BLE: gatt.connect()")).hasSize(1);
+    }
+
+    /** Without extra logging a Bluetooth debug line is not kept. */
+    @Test
+    public void onLog_debugWithoutExtraTag_isNotStored() {
+        // :: Setup
+        UserError.ExtraLogTags.readPreference("");
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+
+        // :: Act
+        session.onLog(Log.DEBUG, "gatt.connect()");
+
+        // :: Verify
+        assertThat(logRows("BLE: gatt.connect()")).isEmpty();
+    }
+
+    /**
+     * Without extra logging a Bluetooth error line is not kept either: an out-of-range sensor fails a connect every few
+     * minutes, and those must not fill a normal user's error list.
+     */
+    @Test
+    public void onLog_errorWithoutExtraTag_isNotStored() {
+        // :: Setup
+        UserError.ExtraLogTags.readPreference("");
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+
+        // :: Act
+        session.onLog(Log.ERROR, "Error (0x85): GATT ERROR");
+
+        // :: Verify
+        assertThat(logRows("BLE: Error (0x85): GATT ERROR")).isEmpty();
     }
 
     // ===================================================== Stall =====================================================
@@ -287,6 +336,17 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
     }
 
     // ==================================================== helpers ====================================================
+
+    /** The collector's rows in xDrip's log with this message. */
+    private static List<UserError> logRows(String message) {
+        List<UserError> rows = new ArrayList<>();
+        for (UserError row : UserError.all()) {
+            if ("Libre3Native".equals(row.shortError) && message.equals(row.message)) {
+                rows.add(row);
+            }
+        }
+        return rows;
+    }
 
     /** The value of the status row with this name, or null when the page has no such row. */
     private static String value(List<StatusItem> status, int name) {
