@@ -281,6 +281,8 @@ public class Libre3Service extends ForegroundService {
         int fromAttempt = 0;
         if (ble != null && state.serial().equals(bleSerial)) {
             if (!session.stalled(tsl())) {
+                // a retry or scan timer the phone slept through runs now instead of when the phone wakes for other work
+                ble.runOverdue();
                 return;
             }
             UserError.Log.uel(TAG, "Libre 3 connection made no progress, restarting it");

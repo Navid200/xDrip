@@ -140,6 +140,10 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
     /** Set while a background wait is cancelled, so its disconnect callback does not count as a failed attempt. */
     private boolean cancelling;
     private int identityIndex;
+    /** Main thread. The retry, scan or background timer that is pending, if any; they never run at the same time. */
+    private Runnable timer;
+    /** Main thread. When {@link #timer} is due, in real time. */
+    private long timerDueAt;
     /** Worker thread only. */
     private int outboundSequence;
     /** Worker thread only; 0 when none was sent on this connection. */
@@ -180,10 +184,27 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
         return reconnectAttempt;
     }
 
+    /**
+     * Runs the pending retry, scan end or background end now if its time has passed. Their timers count uptime, which
+     * stops while the phone sleeps, so a 5-second wait can last until the phone wakes for something else; the
+     * collector's wake-up alarm calls this. Main thread.
+     */
+    public void runOverdue() {
+        Runnable due = timer;
+        long late = SystemClock.elapsedRealtime() - timerDueAt;
+        if (!running || due == null || late < 0) {
+            return;
+        }
+        log(Log.DEBUG, "Wait ran out " + late / 1000 + " s ago while the phone slept; running it now");
+        cancelTimer(due);
+        due.run();
+    }
+
     /** Disconnects for good; a stopped instance is not restarted. */
     public void stop() {
         running = false;
         handler.removeCallbacksAndMessages(null);
+        timer = null;
         stopScan();
         disconnect().enqueue();
         worker.shutdownNow();
@@ -242,6 +263,7 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
 
     @SuppressLint("MissingPermission")
     private void attempt() {
+        cancelTimer(attemptRunnable);
         if (!running) {
             return;
         }
@@ -331,14 +353,14 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
                 : "") + "; low latency, " + SCAN_TIMEOUT_MS / 1000 + " s");
         try {
             listener.onStage("Scanning for " + localName());
-            handler.postDelayed(scanTimeout, SCAN_TIMEOUT_MS);
+            startTimer(scanTimeout, SCAN_TIMEOUT_MS);
             BluetoothLeScannerCompat.getScanner().startScan(filters, settings, scanCallback);
         } catch (SecurityException e) {
-            handler.removeCallbacks(scanTimeout);
+            cancelTimer(scanTimeout);
             listener.onError("No permission to scan: " + e.getMessage());
             scheduleReconnect("no permission to scan");
         } catch (RuntimeException e) {
-            handler.removeCallbacks(scanTimeout);
+            cancelTimer(scanTimeout);
             listener.onError("Scan failed: " + e);
             scheduleReconnect("scan failed");
         }
@@ -366,7 +388,7 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
     }
 
     private void stopScan() {
-        handler.removeCallbacks(scanTimeout);
+        cancelTimer(scanTimeout);
         try {
             BluetoothLeScannerCompat.getScanner().stopScan(scanCallback);
         } catch (RuntimeException ignored) {
@@ -424,10 +446,10 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
         listener.onStage("Waiting in the background for up to " + BACKGROUND_WAIT_MS / 60_000 + " min");
         try {
             background = true;
-            handler.postDelayed(backgroundTimeout, BACKGROUND_WAIT_MS);
+            startTimer(backgroundTimeout, BACKGROUND_WAIT_MS);
             connect(device).useAutoConnect(true, false).enqueue();
         } catch (SecurityException e) {
-            handler.removeCallbacks(backgroundTimeout);
+            cancelTimer(backgroundTimeout);
             listener.onError("No permission to connect: " + e.getMessage());
             scheduleReconnect("no permission to connect");
         }
@@ -440,7 +462,7 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
 
     /** Stops a background wait, or the library's own reconnect after a background connection was lost. */
     private void cancelBackground() {
-        handler.removeCallbacks(backgroundTimeout);
+        cancelTimer(backgroundTimeout);
         background = false;
         cancelling = true;
         disconnect().enqueue();
@@ -453,11 +475,26 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
         reconnectAttempt++;
         long delay = reconnectDelayMs(reconnectAttempt, BluetoothAdapter.checkBluetoothAddress(state.bleAddress()));
         listener.onStage("Reconnecting in " + delay / 1000 + " s: " + reason);
-        handler.removeCallbacks(attemptRunnable);
-        handler.postDelayed(attemptRunnable, delay);
+        cancelTimer(attemptRunnable);
+        startTimer(attemptRunnable, delay);
     }
 
     private final Runnable attemptRunnable = this::attempt;
+
+    /** Main thread. Posts a timer and remembers when it is due, for {@link #runOverdue}. */
+    private void startTimer(Runnable runnable, long delayMs) {
+        timer = runnable;
+        timerDueAt = SystemClock.elapsedRealtime() + delayMs;
+        handler.postDelayed(runnable, delayMs);
+    }
+
+    /** Main thread. Every timer is cancelled here, and each cancels its own as it runs, so none is run twice. */
+    private void cancelTimer(Runnable runnable) {
+        handler.removeCallbacks(runnable);
+        if (timer == runnable) {
+            timer = null;
+        }
+    }
 
     private final ConnectionObserver connectionObserver = new ConnectionObserver() {
         @Override
@@ -466,7 +503,7 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
 
         @Override
         public void onDeviceConnected(@NonNull BluetoothDevice device) {
-            handler.removeCallbacks(backgroundTimeout);
+            cancelTimer(backgroundTimeout);
             listener.onStage(background ? "Connected from the background wait" : "Connected");
         }
 
@@ -475,7 +512,7 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             if (cancelling) {
                 return;
             }
-            handler.removeCallbacks(backgroundTimeout);
+            cancelTimer(backgroundTimeout);
             scheduleReconnect("connect failed, " + reasonText(reason));
         }
 
