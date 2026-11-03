@@ -4,6 +4,7 @@ import static com.eveningoutpost.dexdrip.models.JoH.dateTimeText;
 import static com.eveningoutpost.dexdrip.models.JoH.msSince;
 import static com.eveningoutpost.dexdrip.models.JoH.niceTimeScalar;
 import static com.eveningoutpost.dexdrip.models.JoH.tsl;
+import static com.eveningoutpost.dexdrip.utilitymodels.Constants.HOUR_IN_MS;
 import static com.eveningoutpost.dexdrip.utilitymodels.Constants.MINUTE_IN_MS;
 import static com.eveningoutpost.dexdrip.utilitymodels.Constants.SECOND_IN_MS;
 import static com.eveningoutpost.dexdrip.xdrip.gs;
@@ -48,6 +49,11 @@ import lwld.libre3.data.RealtimeReading;
 public class Libre3Service extends ForegroundService {
 
     private static final String TAG = "Libre3Native";
+    /**
+     * How long after the wear end the collector keeps connecting. Libre 2 sends for 12 hours after its wear ends; that
+     * Libre 3 does the same is an assumption, so this errs on the side of a little extra Bluetooth over lost readings.
+     */
+    private static final long ENDED_GRACE_MS = 12 * HOUR_IN_MS;
 
     private static volatile String stage = "";
     private static volatile String lastError = "";
@@ -230,6 +236,14 @@ public class Libre3Service extends ForegroundService {
             stage = gs(R.string.libre3_stage_no_sensor);
             return;
         }
+        if (ended(state)) {
+            if (ble != null) {
+                UserError.Log.uel(TAG, "Libre 3 " + state.serial() + " ended, no longer connecting to it");
+            }
+            stopBle();
+            stage = gs(R.string.libre3_stage_sensor_ended);
+            return;
+        }
         if (ble != null && state.serial().equals(bleSerial)) {
             if (!session.stalled(tsl())) {
                 return;
@@ -252,6 +266,11 @@ public class Libre3Service extends ForegroundService {
         bleSerial = state.serial();
         UserError.Log.uel(TAG, "Connecting to Libre 3 " + state.serial());
         ble.start();
+    }
+
+    /** Whether the sensor's wear ended more than {@link #ENDED_GRACE_MS} ago, so it no longer sends readings. */
+    private static boolean ended(Libre3SensorState state) {
+        return state.activationMs() > 0 && tsl() > state.activationMs() + Libre3.getWearMs() + ENDED_GRACE_MS;
     }
 
     /** @return the running Bluetooth session, or null when none runs */

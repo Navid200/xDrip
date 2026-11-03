@@ -2,6 +2,7 @@ package com.eveningoutpost.dexdrip.cgm.libre3;
 
 import static com.eveningoutpost.dexdrip.models.JoH.tsl;
 import static com.eveningoutpost.dexdrip.utilitymodels.Constants.DAY_IN_MS;
+import static com.eveningoutpost.dexdrip.utilitymodels.Constants.HOUR_IN_MS;
 import static com.eveningoutpost.dexdrip.utilitymodels.Constants.MINUTE_IN_MS;
 import static com.eveningoutpost.dexdrip.xdrip.gs;
 import static com.google.common.truth.Truth.assertThat;
@@ -337,6 +338,36 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
 
         // :: Verify
         assertThat(shadowOf(RuntimeEnvironment.getApplication()).getNextStartedActivity()).isNull();
+    }
+
+    /** Half a day after the sensor's wear ends, the collector stops looking for it, so Bluetooth stops draining. */
+    @Test
+    public void onStartCommand_sensorEndedHalfADayAgo_stopsLooking() {
+        // :: Setup
+        selectSource(DexCollectionType.Libre3Native);
+        sensor("0RRC989AQ", now - 15 * DAY_IN_MS - 13 * HOUR_IN_MS);
+
+        // :: Act
+        Robolectric.buildService(Libre3Service.class).create().startCommand(0, 1);
+
+        // :: Verify
+        assertThat(value(Libre3Service.megaStatus(), R.string.libre3_stage))
+                .isEqualTo(gs(R.string.libre3_stage_sensor_ended));
+    }
+
+    /** Within half a day of the wear end the collector keeps trying, in case the sensor still sends. */
+    @Test
+    public void onStartCommand_sensorEndedElevenHoursAgo_keepsLooking() {
+        // :: Setup
+        selectSource(DexCollectionType.Libre3Native);
+        sensor("0RRC989AQ", now - 15 * DAY_IN_MS - 11 * HOUR_IN_MS);
+
+        // :: Act
+        Robolectric.buildService(Libre3Service.class).create().startCommand(0, 1);
+
+        // :: Verify
+        assertThat(value(Libre3Service.megaStatus(), R.string.libre3_stage))
+                .isNotEqualTo(gs(R.string.libre3_stage_sensor_ended));
     }
 
     // ================================================== megaStatus ===================================================

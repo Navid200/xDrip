@@ -2168,6 +2168,7 @@
     <string name="libre3_scan_again">Press OK, then scan the sensor again within five minutes.</string>
     <string name="libre3_nfc_done">Libre 3 sensor ready, connecting by Bluetooth</string>
     <string name="libre3_stage_no_sensor">No sensor; scan one with NFC</string>
+    <string name="libre3_stage_sensor_ended">Sensor ended; scan a new one with NFC</string>
     <string name="libre3_stage_no_credential">No app credential; download it on the Libre 3 screen</string>
     <string name="libre3_sensor">Sensor</string>
     <string name="libre3_none">none</string>
