@@ -139,6 +139,8 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
     private boolean background;
     /** Set while a background wait is cancelled, so its disconnect callback does not count as a failed attempt. */
     private boolean cancelling;
+    /** Main thread. Whether data decrypted on the current connection, so a drop is retried at once. */
+    private boolean streamed;
     private int identityIndex;
     /** Main thread. The retry, scan or background timer that is pending, if any; they never run at the same time. */
     private Runnable timer;
@@ -268,6 +270,7 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             return;
         }
         cancelling = false;
+        streamed = false;
         AttemptMode mode = attemptMode(reconnectAttempt, BluetoothAdapter.checkBluetoothAddress(state.bleAddress()));
         log(Log.DEBUG, "Attempt " + (reconnectAttempt + 1) + ", " + mode.text);
         BluetoothAdapter adapter = BluetoothAdapter.getDefaultAdapter();
@@ -469,10 +472,14 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
     }
 
     private void scheduleReconnect(String reason) {
+        scheduleAttempt(reconnectAttempt + 1, reason);
+    }
+
+    private void scheduleAttempt(int attempt, String reason) {
         if (!running) {
             return;
         }
-        reconnectAttempt++;
+        reconnectAttempt = attempt;
         long delay = reconnectDelayMs(reconnectAttempt, BluetoothAdapter.checkBluetoothAddress(state.bleAddress()));
         listener.onStage("Reconnecting in " + delay / 1000 + " s: " + reason);
         cancelTimer(attemptRunnable);
@@ -540,7 +547,13 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
                 // the library would reconnect on its own; the attempts below take over instead
                 cancelBackground();
             }
-            scheduleReconnect("disconnected, " + reasonText(reason));
+            String why = "disconnected, " + reasonText(reason);
+            if (streamed) {
+                // most likely a short gap with the sensor still at its address, so the first attempt goes now
+                scheduleAttempt(0, why);
+            } else {
+                scheduleReconnect(why);
+            }
         }
     };
 
@@ -743,7 +756,10 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             droppedInARow = 0;
             if (!decryptedOnConnection) {
                 decryptedOnConnection = true;
-                handler.post(() -> reconnectAttempt = 0);
+                handler.post(() -> {
+                    reconnectAttempt = 0;
+                    streamed = true;
+                });
             }
         } catch (GeneralSecurityException | IllegalArgumentException e) {
             listener.onError("Dropped a " + channel + " frame: " + e.getMessage());

@@ -15,15 +15,9 @@ import org.robolectric.RuntimeEnvironment;
 import org.robolectric.shadows.ShadowSystemClock;
 
 import java.time.Duration;
-
-import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
 
 import lwld.libre3.Libre3SensorState;
-import lwld.libre3.data.HistoricalPage;
-import lwld.libre3.data.PatchStatus;
-import lwld.libre3.data.RealtimeReading;
 
 /**
  * Tests for how {@link Libre3Ble} connects and retries, against Robolectric's Bluetooth adapter.
@@ -35,7 +29,7 @@ public class Libre3BleConnectTest {
 
     private static final String ADDRESS = "AA:BB:CC:DD:EE:FF";
 
-    private final Recorder recorder = new Recorder();
+    private final RecordingListener recorder = new RecordingListener();
     private Libre3Ble ble;
 
     @After
@@ -201,37 +195,5 @@ public class Libre3BleConnectTest {
 
     private static void idleMainLooper() {
         shadowOf(Looper.getMainLooper()).idle();
-    }
-
-    /** Keeps the stages and errors the collector would show. */
-    private static final class Recorder implements Libre3Ble.Listener {
-        final List<String> stages = new ArrayList<>();
-        final List<String> errors = new ArrayList<>();
-
-        @Override
-        public void onStage(String stage) {
-            stages.add(stage);
-        }
-
-        @Override
-        public void onPaired(Libre3SensorState state) {
-        }
-
-        @Override
-        public void onReading(RealtimeReading reading) {
-        }
-
-        @Override
-        public void onStatus(PatchStatus status) {
-        }
-
-        @Override
-        public void onHistory(List<HistoricalPage.Entry> entries) {
-        }
-
-        @Override
-        public void onError(String message) {
-            errors.add(message);
-        }
     }
 }
