@@ -745,29 +745,9 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
         if (frame == null) {
             return;
         }
+        Runnable handOver;
         try {
-            byte[] plain = keys.decrypt(channel, frame);
-            switch (channel) {
-                case PATCH_STATUS:
-                    listener.onStatus(PatchStatus.parse(plain));
-                    break;
-                case GLUCOSE_DATA:
-                    RealtimeReading reading = RealtimeReading.parse(plain);
-                    requestBackfillAfterGap(keys, reading.lifeCount());
-                    listener.onReading(reading);
-                    break;
-                case HISTORIC_DATA:
-                    listener.onHistory(HistoricalPage.parse(plain));
-                    break;
-            }
-            droppedInARow = 0;
-            if (!decryptedOnConnection) {
-                decryptedOnConnection = true;
-                handler.post(() -> {
-                    reconnectAttempt = 0;
-                    streamed = true;
-                });
-            }
+            handOver = parse(keys, channel, keys.decrypt(channel, frame));
         } catch (GeneralSecurityException | IllegalArgumentException e) {
             listener.onError("Dropped a " + channel + " frame: " + e.getMessage());
             droppedInARow++;
@@ -776,9 +756,45 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
                 listener.onError("Disconnecting after " + MAX_DROPPED_IN_A_ROW + " dropped frames in a row");
                 disconnect().enqueue();
             }
+            return;
+        }
+        droppedInARow = 0;
+        if (!decryptedOnConnection) {
+            decryptedOnConnection = true;
+            handler.post(() -> {
+                reconnectAttempt = 0;
+                streamed = true;
+            });
+        }
+        try {
+            handOver.run();
         } catch (RuntimeException e) {
-            // the collector failed with a frame that opened, say storing it; uncaught it would end the app
+            // the collector failed with a frame that opened, say storing it; uncaught it would end the app, and it
+            // says nothing about the keys, so it is not counted as dropped
             listener.onError("Could not handle a " + channel + " frame: " + e);
+        }
+    }
+
+    /**
+     * Worker thread. Parses an opened frame.
+     *
+     * @return what hands the record to the collector
+     * @throws IllegalArgumentException if the frame does not parse
+     */
+    private Runnable parse(DataPlaneCrypto keys, DataPlaneCrypto.Channel channel, byte[] plain) {
+        switch (channel) {
+            case PATCH_STATUS:
+                PatchStatus status = PatchStatus.parse(plain);
+                return () -> listener.onStatus(status);
+            case GLUCOSE_DATA:
+                RealtimeReading reading = RealtimeReading.parse(plain);
+                return () -> {
+                    requestBackfillAfterGap(keys, reading.lifeCount());
+                    listener.onReading(reading);
+                };
+            default:
+                List<HistoricalPage.Entry> entries = HistoricalPage.parse(plain);
+                return () -> listener.onHistory(entries);
         }
     }
 

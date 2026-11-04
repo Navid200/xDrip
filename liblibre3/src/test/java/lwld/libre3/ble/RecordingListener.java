@@ -9,8 +9,8 @@ import lwld.libre3.data.PatchStatus;
 import lwld.libre3.data.RealtimeReading;
 
 /**
- * Keeps the stages, errors and statuses the collector would show. Safe to read from the test while the worker and the
- * main thread write to it.
+ * Keeps the stages, errors, statuses, readings and history the collector would get. Safe to read from the test while
+ * the worker and the main thread write to it.
  *
  * @author Asbjørn Aarrestad - 2026.11
  */
@@ -19,6 +19,8 @@ class RecordingListener implements Libre3Ble.Listener {
     final List<String> stages = new CopyOnWriteArrayList<>();
     final List<String> errors = new CopyOnWriteArrayList<>();
     final List<PatchStatus> statuses = new CopyOnWriteArrayList<>();
+    final List<RealtimeReading> readings = new CopyOnWriteArrayList<>();
+    final List<HistoricalPage.Entry> history = new CopyOnWriteArrayList<>();
     volatile int bluetoothOff;
 
     @Override
@@ -32,6 +34,7 @@ class RecordingListener implements Libre3Ble.Listener {
 
     @Override
     public void onReading(RealtimeReading reading) {
+        readings.add(reading);
     }
 
     @Override
@@ -41,6 +44,7 @@ class RecordingListener implements Libre3Ble.Listener {
 
     @Override
     public void onHistory(List<HistoricalPage.Entry> entries) {
+        history.addAll(entries);
     }
 
     @Override

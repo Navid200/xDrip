@@ -27,7 +27,9 @@ import java.util.function.BooleanSupplier;
 
 import lwld.libre3.Libre3SensorState;
 import lwld.libre3.data.DataPlaneCrypto;
+import lwld.libre3.data.HistoricalPage;
 import lwld.libre3.data.PatchStatus;
+import lwld.libre3.data.RealtimeReading;
 import lwld.libre3.pairing.FakeSensor;
 import lwld.libre3.util.Hex;
 
@@ -50,6 +52,11 @@ public class Libre3BleSessionTest {
     private static final int FIRST_BACKGROUND_ATTEMPT = 6;
     /** As many frames in a row as it takes to disconnect when they fail to decrypt. */
     private static final int MAX_DROPPED_IN_A_ROW = 5;
+    private static final String DROPPED_STATUS =
+            "Dropped a PATCH_STATUS frame: No descriptor opens the PATCH_STATUS frame";
+    private static final String DISCONNECTING = "Disconnecting after 5 dropped frames in a row";
+    /** The size of the first of the two notifies a reading arrives in. */
+    private static final int GLUCOSE_FIRST_HALF = 15;
 
     private final FakeSensor sensor = new FakeSensor();
     /** What escaped a thread; on Android it ends the app. */
@@ -92,6 +99,73 @@ public class Libre3BleSessionTest {
                 "Streaming").inOrder();
         assertThat(recorder.statuses).hasSize(2);
         assertThat(recorder.errors).isEmpty();
+    }
+
+    /** A reading arrives in two notifies, and only the joined frame decrypts; the collector gets it once, whole. */
+    @Test
+    public void reading_inTwoHalves_reachesCollector() throws Exception {
+        // :: Setup
+        ble = cachedKeyBle();
+        ble.start();
+        awaitStreaming();
+
+        // :: Act
+        notifyReading(1, 1073, 151);
+        pumpUntil(() -> !recorder.readings.isEmpty());
+        idleMainLooper();
+
+        // :: Verify
+        assertThat(recorder.readings).hasSize(1);
+        assertThat(recorder.readings.get(0).lifeCount()).isEqualTo(1073);
+        assertThat(recorder.readings.get(0).mgdl()).isEqualTo(151);
+        assertThat(recorder.errors).isEmpty();
+    }
+
+    /** A page of history reaches the collector with the life count and value of each of its six readings. */
+    @Test
+    public void historicPage_reachesCollector() throws Exception {
+        // :: Setup
+        ble = cachedKeyBle();
+        ble.start();
+        awaitStreaming();
+
+        // :: Act
+        gatt.notifyData(Gatt.HISTORIC_DATA, frame(DataPlaneCrypto.PacketKind.KIND4, 1, historicPage(1000, 100)));
+        pumpUntil(() -> !recorder.history.isEmpty());
+
+        // :: Verify
+        assertThat(recorder.history).hasSize(6);
+        assertThat(recorder.history.get(0).lifeCount).isEqualTo(1000);
+        assertThat(recorder.history.get(0).mgdl).isEqualTo(100);
+        assertThat(recorder.history.get(5).lifeCount).isEqualTo(1025);
+        assertThat(recorder.history.get(5).mgdl).isEqualTo(105);
+        assertThat(recorder.errors).isEmpty();
+    }
+
+    // ================================================ dropped frames =================================================
+
+    /**
+     * Frames that keep failing to decrypt mean the session keys no longer fit; the fifth in a row disconnects, so the
+     * next connection pairs again.
+     */
+    @Test
+    public void fiveUndecryptableFramesInARow_disconnects() throws Exception {
+        // :: Setup
+        ble = cachedKeyBle();
+        ble.start();
+        awaitStreaming();
+        int before = recorder.stages.size();
+
+        // :: Act
+        for (int sequence = 1; sequence <= MAX_DROPPED_IN_A_ROW; sequence++) {
+            gatt.notifyData(Gatt.PATCH_STATUS, foreignStatusFrame(sequence));
+        }
+        pumpUntil(() -> !reconnects(recorder.stages.subList(before, recorder.stages.size())).isEmpty());
+
+        // :: Verify
+        List<String> expected = new ArrayList<>(Collections.nCopies(MAX_DROPPED_IN_A_ROW, DROPPED_STATUS));
+        expected.add(DISCONNECTING);
+        assertThat(recorder.errors).containsExactlyElementsIn(expected).inOrder();
     }
 
     // ============================================ reconnect after a drop =============================================
@@ -232,6 +306,100 @@ public class Libre3BleSessionTest {
         assertThat(recorder.stages.get(recorder.stages.size() - 1)).isEqualTo("Streaming");
     }
 
+    /**
+     * A reading the collector fails with, say on a value it does not expect, is reported as not handled. It is not
+     * counted as a frame that failed to decrypt, so five in a row do not disconnect.
+     */
+    @Test
+    public void readingListenerThrowsIllegalArgument_notCountedAsDropped() throws Exception {
+        // :: Setup
+        recorder = new RecordingListener() {
+            @Override
+            public void onReading(RealtimeReading reading) {
+                super.onReading(reading);
+                throw new IllegalArgumentException("unexpected value");
+            }
+        };
+        ble = cachedKeyBle();
+        ble.start();
+        awaitStreaming();
+
+        // :: Act
+        for (int sequence = 1; sequence <= MAX_DROPPED_IN_A_ROW; sequence++) {
+            notifyReading(sequence, 1000 + sequence, 100);
+        }
+        pumpUntil(() -> recorder.errors.size() + uncaught.size() >= MAX_DROPPED_IN_A_ROW);
+        idleMainLooper();
+
+        // :: Verify
+        assertThat(uncaught).isEmpty();
+        assertThat(recorder.errors).containsExactlyElementsIn(Collections.nCopies(MAX_DROPPED_IN_A_ROW,
+                "Could not handle a GLUCOSE_DATA frame: java.lang.IllegalArgumentException: unexpected value"));
+        assertThat(recorder.stages.get(recorder.stages.size() - 1)).isEqualTo("Streaming");
+    }
+
+    /**
+     * A frame that decrypts shows the keys still fit, even when the collector then fails with it. The count of frames
+     * in a row that failed to decrypt starts over, so four more after it do not disconnect.
+     */
+    @Test
+    public void listenerThrowsBetweenUndecryptableFrames_countStartsOver() throws Exception {
+        // :: Setup
+        recorder = new RecordingListener() {
+            @Override
+            public void onStatus(PatchStatus status) {
+                super.onStatus(status);
+                throw new IllegalStateException("disk full");
+            }
+        };
+        ble = cachedKeyBle();
+        ble.start();
+        awaitStreaming();
+
+        // :: Act
+        for (int sequence = 1; sequence <= 4; sequence++) {
+            gatt.notifyData(Gatt.PATCH_STATUS, foreignStatusFrame(sequence));
+        }
+        gatt.notifyData(Gatt.PATCH_STATUS, statusFrame(5));
+        for (int sequence = 6; sequence <= 9; sequence++) {
+            gatt.notifyData(Gatt.PATCH_STATUS, foreignStatusFrame(sequence));
+        }
+        pumpUntil(() -> recorder.errors.size() >= 9 || recorder.errors.contains(DISCONNECTING));
+        idleMainLooper();
+
+        // :: Verify
+        assertThat(recorder.errors).doesNotContain(DISCONNECTING);
+        assertThat(recorder.errors).hasSize(9);
+        assertThat(recorder.stages.get(recorder.stages.size() - 1)).isEqualTo("Streaming");
+    }
+
+    /**
+     * Frames that decrypt show the link works, even when the collector fails with each of them; a drop after them is
+     * retried at once, as after any other streaming.
+     */
+    @Test
+    public void listenerThrows_dropAfterwardsReconnectsAtOnce() throws Exception {
+        // :: Setup
+        recorder = new RecordingListener() {
+            @Override
+            public void onStatus(PatchStatus status) {
+                super.onStatus(status);
+                throw new IllegalStateException("disk full");
+            }
+        };
+        ble = cachedKeyBle();
+        ble.start();
+        stream();
+        int before = recorder.stages.size();
+
+        // :: Act
+        gatt.drop(GATT_CONN_TIMEOUT);
+        pumpUntil(() -> recorder.stages.size() > before);
+
+        // :: Verify
+        assertThat(recorder.stages.get(before)).isEqualTo("Reconnecting in 0 s: disconnected, reason 10 (timeout)");
+    }
+
     // ==================================================== helpers ====================================================
 
     /** A sensor at a known address whose cached key it still accepts. */
@@ -263,7 +431,44 @@ public class Libre3BleSessionTest {
 
     /** A patch status frame as the sensor encrypts it with the session keys from {@link FakeSensor}. */
     private static byte[] statusFrame(int sequence) throws GeneralSecurityException {
-        return new DataPlaneCrypto(K_ENC, IV_ENC).encrypt(DataPlaneCrypto.PacketKind.KIND2, sequence, new byte[12]);
+        return frame(DataPlaneCrypto.PacketKind.KIND2, sequence, new byte[12]);
+    }
+
+    /** A patch status frame sealed with a key this session does not hold, so it never decrypts. */
+    private static byte[] foreignStatusFrame(int sequence) throws GeneralSecurityException {
+        return new DataPlaneCrypto(new byte[16], IV_ENC).encrypt(DataPlaneCrypto.PacketKind.KIND2, sequence,
+                new byte[12]);
+    }
+
+    /** A frame as the sensor encrypts it with the session keys from {@link FakeSensor}. */
+    private static byte[] frame(DataPlaneCrypto.PacketKind kind, int sequence, byte[] plain)
+            throws GeneralSecurityException {
+        return new DataPlaneCrypto(K_ENC, IV_ENC).encrypt(kind, sequence, plain);
+    }
+
+    /** Sends a reading the way the sensor does: the first 15 bytes of the frame in one notify, the rest in the next. */
+    private void notifyReading(int sequence, int lifeCount, int mgdl) throws GeneralSecurityException {
+        byte[] plain = new byte[RealtimeReading.SIZE];
+        putU16(plain, 0, lifeCount);
+        putU16(plain, 15, mgdl);
+        byte[] wire = frame(DataPlaneCrypto.PacketKind.KIND3, sequence, plain);
+        gatt.notifyData(Gatt.GLUCOSE_DATA, Arrays.copyOfRange(wire, 0, GLUCOSE_FIRST_HALF));
+        gatt.notifyData(Gatt.GLUCOSE_DATA, Arrays.copyOfRange(wire, GLUCOSE_FIRST_HALF, wire.length));
+    }
+
+    /** Six historic readings five minutes apart from {@code lifeCount}, rising 1 mg/dL at a time from {@code mgdl}. */
+    private static byte[] historicPage(int lifeCount, int mgdl) {
+        byte[] plain = new byte[HistoricalPage.SIZE];
+        putU16(plain, 0, lifeCount);
+        for (int i = 0; i < 6; i++) {
+            putU16(plain, 2 + 2 * i, mgdl + i);
+        }
+        return plain;
+    }
+
+    private static void putU16(byte[] bytes, int offset, int value) {
+        bytes[offset] = (byte) value;
+        bytes[offset + 1] = (byte) (value >> 8);
     }
 
     /** Whether a stage after the first {@code before} says the sensor streams again. */
