@@ -163,6 +163,11 @@ public final class Libre3Readings {
         lastStatus = status;
     }
 
+    /** @return why the last realtime reading was refused, or null when it was accepted */
+    public synchronized String lastRefusal() {
+        return lastRefusal;
+    }
+
     /** Status rows for this sensor. Never shows the PIN or kAuth. */
     public synchronized List<StatusItem> megaStatus() {
         List<StatusItem> si = new ArrayList<>();

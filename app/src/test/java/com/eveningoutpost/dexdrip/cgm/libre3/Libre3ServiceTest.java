@@ -449,6 +449,86 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         assertThat(value(status, R.string.libre3_last_error)).isNull();
     }
 
+    /** A reading xDrip refuses, here one in warm-up, shows on the status page with the reason. */
+    @Test
+    public void megaStatus_readingRefused_showsReason() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+
+        // :: Act
+        session.onReading(reading(1, 120));
+        List<StatusItem> status = Libre3Service.megaStatus();
+
+        // :: Verify
+        assertThat(value(status, R.string.libre3_reading_not_stored)).isEqualTo("warmup");
+    }
+
+    /** An accepted reading after refused ones takes the reason off the status page. */
+    @Test
+    public void megaStatus_acceptedAfterRefused_noReason() {
+        // :: Setup
+        Libre3Service.Session session =
+                new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now - 1010 * MINUTE_IN_MS)));
+        session.onReading(reading(1000, 20));
+
+        // :: Act
+        session.onReading(reading(1001, 120));
+        List<StatusItem> status = Libre3Service.megaStatus();
+
+        // :: Verify
+        assertThat(value(status, R.string.libre3_reading_not_stored)).isNull();
+    }
+
+    /** Right after "Forget sensor" the status page no longer shows why the old sensor's reading was refused. */
+    @Test
+    public void megaStatus_refusedThenForget_noReason() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+        session.onReading(reading(1, 120));
+
+        // :: Act
+        Libre3.forgetSensor();
+        List<StatusItem> status = Libre3Service.megaStatus();
+
+        // :: Verify
+        assertThat(value(status, R.string.libre3_reading_not_stored)).isNull();
+    }
+
+    // ================================================== nanoStatus ===================================================
+
+    /**
+     * While readings are refused, the line under the graph says why. The stage would say the sensor streams, with no
+     * new readings to show for it.
+     */
+    @Test
+    public void nanoStatus_readingRefused_showsReason() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+        session.onStage("Streaming");
+
+        // :: Act
+        session.onReading(reading(1, 120));
+
+        // :: Verify
+        assertThat(Libre3Service.nanoStatus().toString()).isEqualTo("Reading not stored: warmup");
+    }
+
+    /** Once the collector restarts after "Forget sensor", the old sensor's refusal is gone from under the graph. */
+    @Test
+    public void nanoStatus_refusedThenForgetAndRestart_noReason() {
+        // :: Setup
+        selectSource(DexCollectionType.Libre3Native);
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+        session.onReading(reading(1, 120));
+
+        // :: Act
+        Libre3.forgetSensor();
+        Robolectric.buildService(Libre3Service.class).create().startCommand(0, 1);
+
+        // :: Verify
+        assertThat(String.valueOf(Libre3Service.nanoStatus())).isNotEqualTo("Reading not stored: warmup");
+    }
+
     /** A scan that needs location posts a notification that opens the Libre 3 screen, which asks for it. */
     @Test
     public void onLocationNeeded_notifies() {

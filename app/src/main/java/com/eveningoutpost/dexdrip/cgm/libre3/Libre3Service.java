@@ -61,6 +61,8 @@ public class Libre3Service extends ForegroundService {
     private static volatile String stage = "";
     private static volatile String lastError = "";
     private static volatile long lastReadingAt;
+    /** Why the last reading was refused, or null when it was stored or none came. */
+    private static volatile String lastRefusal;
     private static volatile Libre3Readings readings;
     /** The running Bluetooth session, for the diagnostics report; null when none runs. */
     private static volatile Session runningSession;
@@ -158,6 +160,7 @@ public class Libre3Service extends ForegroundService {
             if (readings.onRealtime(reading, tsl())) {
                 lastReadingAt = tsl();
             }
+            lastRefusal = readings.lastRefusal();
         }
 
         @Override
@@ -331,6 +334,8 @@ public class Libre3Service extends ForegroundService {
     }
 
     private void stopBle() {
+        // the refusal was the stopped session's sensor's
+        lastRefusal = null;
         if (ble != null) {
             ble.stop();
             ble = null;
@@ -379,6 +384,10 @@ public class Libre3Service extends ForegroundService {
         if (!lastError.isEmpty()) {
             si.add(new StatusItem(gs(R.string.libre3_last_error), lastError, StatusItem.Highlight.BAD));
         }
+        String refusal = lastRefusal;
+        if (state != null && refusal != null) {
+            si.add(new StatusItem(gs(R.string.libre3_reading_not_stored), refusal, StatusItem.Highlight.BAD));
+        }
         if (state != null && state.activationMs() > 0) {
             si.add(new StatusItem(gs(R.string.libre3_started), dateTimeText(state.activationMs())));
             long left = state.activationMs() + Libre3.getWearMs() - tsl();
@@ -412,6 +421,11 @@ public class Libre3Service extends ForegroundService {
 
     // accessed via reflection
     public static SpannableString nanoStatus() {
+        String refusal = lastRefusal;
+        if (refusal != null) {
+            // the stage says the sensor streams, while no reading from it is stored
+            return new SpannableString(gs(R.string.libre3_reading_not_stored) + ": " + refusal);
+        }
         return stage.isEmpty() || isCollecting() ? null : new SpannableString(stage);
     }
 }

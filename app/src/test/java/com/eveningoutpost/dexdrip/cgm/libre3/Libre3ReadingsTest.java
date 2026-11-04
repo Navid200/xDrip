@@ -501,6 +501,29 @@ public class Libre3ReadingsTest extends RobolectricTestWithConfig {
         assertThat(refusalEvents()).isEqualTo(2);
     }
 
+    /** The reason the last reading was refused is kept, so the status can show a refusal that lasts. */
+    @Test
+    public void lastRefusal_readingRefused_givesReason() {
+        // :: Act
+        readings.onRealtime(reading(1001, null), now);
+
+        // :: Verify
+        assertThat(readings.lastRefusal()).isEqualTo("value null outside 39-501");
+    }
+
+    /** An accepted reading ends the refusal. */
+    @Test
+    public void lastRefusal_acceptedAfterRefused_null() {
+        // :: Setup
+        readings.onRealtime(reading(1001, null), now);
+
+        // :: Act
+        readings.onRealtime(reading(1002, 120), now);
+
+        // :: Verify
+        assertThat(readings.lastRefusal()).isNull();
+    }
+
     /** Each history page is summed up in one line: how many entries, which life counts, how many were stored. */
     @Test
     public void onHistory_page_logsSummary() {

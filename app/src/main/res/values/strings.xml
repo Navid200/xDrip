@@ -2176,6 +2176,7 @@
     <string name="libre3_none">none</string>
     <string name="libre3_stage">Stage</string>
     <string name="libre3_last_error">Last error</string>
+    <string name="libre3_reading_not_stored">Reading not stored</string>
     <string name="libre3_started">Started</string>
     <string name="libre3_remaining">Sensor life</string>
     <string name="libre3_expired">expired</string>
