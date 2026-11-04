@@ -12,6 +12,7 @@ import android.widget.TextView;
 import com.eveningoutpost.dexdrip.R;
 import com.eveningoutpost.dexdrip.models.JoH;
 import com.eveningoutpost.dexdrip.models.UserError;
+import com.eveningoutpost.dexdrip.nfc.NFControl;
 import com.eveningoutpost.dexdrip.utilitymodels.CollectionServiceStarter;
 import com.eveningoutpost.dexdrip.utilitymodels.OkHttpWrapper;
 import com.eveningoutpost.dexdrip.utilitymodels.StatusItem;
@@ -23,7 +24,7 @@ import java.security.GeneralSecurityException;
 /**
  * The Libre 3 screen: what the collector knows, asking for location, downloading the app credential, and forgetting
  * the sensor.
- * Starting or taking over a sensor is done by scanning it with NFC.
+ * Starting or taking over a sensor is done by scanning it with NFC; the screen reads scans itself while it is open.
  *
  * @author Asbjørn Aarrestad - 2026.10
  */
@@ -74,10 +75,18 @@ public class Libre3Activity extends ActivityWithMenu {
     @Override
     public void onResume() {
         super.onResume();
+        // a scan on this screen is read here, so the start or takeover question is asked on it
+        NFControl.initNFC(this, false);
         refresh();
         if (locationReady()) {
             offerDownload();
         }
+    }
+
+    @Override
+    public void onPause() {
+        super.onPause();
+        NFControl.initNFC(this, true); // disables
     }
 
     /**

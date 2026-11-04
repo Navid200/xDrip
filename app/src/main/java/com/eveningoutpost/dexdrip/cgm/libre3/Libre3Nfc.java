@@ -5,8 +5,10 @@ import static com.eveningoutpost.dexdrip.xdrip.gs;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.nfc.tech.NfcV;
 
+import com.eveningoutpost.dexdrip.NFCFilterX;
 import com.eveningoutpost.dexdrip.R;
 import com.eveningoutpost.dexdrip.models.JoH;
 import com.eveningoutpost.dexdrip.models.LibreOOPAlgorithm.SensorType;
@@ -181,7 +183,8 @@ public final class Libre3Nfc {
 
     /**
      * Takes a Libre 3 scan from NFCReaderX, on its background thread with the tag connected. Without a confirmed
-     * choice for this sensor it shows the warning and sends nothing.
+     * choice for this sensor it shows the warning and sends nothing; a scan made when not in xDrip opens the Libre 3
+     * screen to scan on instead.
      */
     public static void onScan(Activity activity, NfcV tag, byte[] rawPatchInfo) {
         PatchInfo info;
@@ -234,6 +237,13 @@ public final class Libre3Nfc {
                 UserError.Log.e(TAG, "Libre 3 question not shown: the screen has closed");
                 return;
             }
+            if (scanNotInXdrip(activity)) {
+                // the Libre 3 screen reads the next scan itself and asks there
+                UserError.Log.uel(TAG, "Libre 3 question moved to the Libre 3 screen");
+                activity.startActivity(new Intent(activity, Libre3Activity.class));
+                JoH.static_toast_long(gs(R.string.libre3_scan_on_libre3_screen));
+                return;
+            }
             new AlertDialog.Builder(activity)
                     .setTitle(decision.code == NfcCommand.Code.ACTIVATE
                             ? R.string.libre3_title_activate : R.string.libre3_title_takeover)
@@ -246,7 +256,7 @@ public final class Libre3Nfc {
 
     private static void showMessage(Activity activity, String message) {
         activity.runOnUiThread(() -> {
-            if (closed(activity)) {
+            if (closed(activity) || scanNotInXdrip(activity)) {
                 JoH.static_toast_long(message);
                 return;
             }
@@ -261,6 +271,14 @@ public final class Libre3Nfc {
     /** A dialog on a screen that is closing or gone would crash xDrip. */
     private static boolean closed(Activity activity) {
         return activity.isFinishing() || activity.isDestroyed();
+    }
+
+    /**
+     * A scan that no open xDrip screen reads comes on NFCFilterX, under "Scan when not in xDrip"; the scanning screen
+     * covers it, and it closes by itself.
+     */
+    private static boolean scanNotInXdrip(Activity activity) {
+        return activity instanceof NFCFilterX;
     }
 
     private static String foldName(ReceiverId.Fold fold) {

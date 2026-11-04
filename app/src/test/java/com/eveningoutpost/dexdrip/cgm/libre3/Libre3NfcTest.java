@@ -10,11 +10,13 @@ import static org.robolectric.Shadows.shadowOf;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Intent;
 import android.content.res.XmlResourceParser;
 import android.nfc.tech.NfcV;
 import android.os.Looper;
 
 import com.activeandroid.query.Select;
+import com.eveningoutpost.dexdrip.NFCFilterX;
 import com.eveningoutpost.dexdrip.NFCReaderX;
 import com.eveningoutpost.dexdrip.R;
 import com.eveningoutpost.dexdrip.RobolectricTestWithConfig;
@@ -141,7 +143,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
 
     // ==================================================== ignores ====================================================
 
-    /** A Libre 2 scanned while the Libre 3 collector is selected is ignored, so its readings never reach that sensor. */
+    /** A Libre 2 scanned while the Libre 3 collector is selected is ignored, so its readings never reach it. */
     @Test
     public void ignores_libre2UnderLibre3Native_true() {
         // :: Act
@@ -361,6 +363,44 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
         // :: Verify
         assertThat(ShadowDialog.getShownDialogs()).isEmpty();
         assertThat(Libre3Nfc.pending(SERIAL, tsl())).isNull();
+    }
+
+    /**
+     * A scan made when not in xDrip asks nothing there, since the scanning screen covers it and it closes by itself;
+     * the Libre 3 screen opens instead, to scan the sensor again on, and nothing is confirmed.
+     */
+    @Test
+    public void onScan_notInXdrip_opensLibre3Screen() {
+        // :: Setup
+        Activity filter = Robolectric.buildActivity(NFCFilterX.class).create().get(); // resuming it reads its intent
+
+        // :: Act
+        Libre3Nfc.onScan(filter, null, Hex.toBytes(ACTIVE));
+        shadowOf(Looper.getMainLooper()).idle();
+
+        // :: Verify
+        assertThat(ShadowDialog.getShownDialogs()).isEmpty();
+        Intent opened = shadowOf(filter).getNextStartedActivity();
+        assertThat(opened).isNotNull();
+        assertThat(opened.getComponent().getClassName()).isEqualTo(Libre3Activity.class.getName());
+        assertThat(ShadowToast.getTextOfLatestToast()).isEqualTo(gs(R.string.libre3_scan_on_libre3_screen));
+        assertThat(Libre3Nfc.pending(SERIAL, tsl())).isNull();
+    }
+
+    /** A message for a scan made when not in xDrip comes as a toast, since the scanning screen would hide a dialog. */
+    @Test
+    public void onScan_notInXdripSensorInUse_messageAsToast() {
+        // :: Setup
+        Libre3.saveState(stored(SERIAL));
+        Activity filter = Robolectric.buildActivity(NFCFilterX.class).create().get(); // resuming it reads its intent
+
+        // :: Act
+        Libre3Nfc.onScan(filter, null, Hex.toBytes(ACTIVE));
+        shadowOf(Looper.getMainLooper()).idle();
+
+        // :: Verify
+        assertThat(ShadowDialog.getShownDialogs()).isEmpty();
+        assertThat(ShadowToast.getTextOfLatestToast()).isEqualTo(gs(R.string.libre3_already_in_use));
     }
 
     /** Lost contact while sending keeps the confirmed choice, so the next scan sends it without asking again. */
