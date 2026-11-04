@@ -23,6 +23,7 @@ import com.eveningoutpost.dexdrip.g5model.SensorDays;
 import com.eveningoutpost.dexdrip.models.JoH;
 import com.eveningoutpost.dexdrip.models.UserError;
 import com.eveningoutpost.dexdrip.utilitymodels.Constants;
+import com.eveningoutpost.dexdrip.utilitymodels.Pref;
 import com.eveningoutpost.dexdrip.utilitymodels.StatusItem;
 import com.eveningoutpost.dexdrip.utils.DexCollectionType;
 import com.eveningoutpost.dexdrip.utils.framework.ForegroundService;
@@ -194,6 +195,19 @@ public class Libre3Service extends ForegroundService {
                     PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
             JoH.showNotification(gs(R.string.libre3_title), gs(R.string.libre3_location_needed), pendingIntent,
                     Constants.LIBRE3_LOCATION_NOTIFICATION_ID, false, false, false);
+        }
+
+        /**
+         * Turns Bluetooth on when the Turn Bluetooth on setting allows it, as the Dexcom collector does. At most once
+         * every 30 seconds: Bluetooth takes a few seconds to come on, and the retries come sooner than that.
+         */
+        @Override
+        public void onBluetoothOff() {
+            if (Pref.getBoolean("automatically_turn_bluetooth_on", true)
+                    && JoH.ratelimit("libre3-enabling-bluetooth", 30)) {
+                UserError.Log.uel(TAG, "Bluetooth is off; turning it on");
+                JoH.setBluetoothEnabled(xdrip.getAppContext(), true);
+            }
         }
 
         /**

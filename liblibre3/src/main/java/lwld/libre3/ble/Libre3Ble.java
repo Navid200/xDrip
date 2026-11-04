@@ -116,6 +116,10 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
         default void onLocationNeeded() {
         }
 
+        /** Bluetooth is off, so this attempt waits for the next one; the collector may turn it on in between. */
+        default void onBluetoothOff() {
+        }
+
         /** A redacted line of the Bluetooth log. Without an override it goes to logcat only. */
         default void onLog(int priority, String message) {
             Log.println(priority, TAG, message);
@@ -276,6 +280,7 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
         BluetoothAdapter adapter = BluetoothAdapter.getDefaultAdapter();
         if (adapter != null && !adapter.isEnabled()) {
             // the library fails such a connect without telling the connection observer, so nothing would retry it
+            listener.onBluetoothOff();
             scheduleReconnect("Bluetooth is off");
             return;
         }

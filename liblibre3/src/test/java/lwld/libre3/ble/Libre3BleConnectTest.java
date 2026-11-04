@@ -72,6 +72,34 @@ public class Libre3BleConnectTest {
         assertThat(recorder.errors).isEmpty();
     }
 
+    /** An attempt that finds Bluetooth off tells the collector, which may turn it on before the next attempt. */
+    @Test
+    public void start_bluetoothOff_tellsListener() {
+        // :: Setup
+        setBluetoothEnabled(false);
+        ble = addressedBle();
+
+        // :: Act
+        ble.start();
+
+        // :: Verify
+        assertThat(recorder.bluetoothOff).isEqualTo(1);
+    }
+
+    /** With Bluetooth on the collector is not told it is off. */
+    @Test
+    public void start_bluetoothOn_doesNotTellListener() {
+        // :: Setup
+        setBluetoothEnabled(true);
+        ble = addressedBle();
+
+        // :: Act
+        ble.start();
+
+        // :: Verify
+        assertThat(recorder.bluetoothOff).isEqualTo(0);
+    }
+
     /** With Bluetooth on the first attempt connects by address. */
     @Test
     public void start_bluetoothOn_connects() {

@@ -19,6 +19,7 @@ class RecordingListener implements Libre3Ble.Listener {
     final List<String> stages = new CopyOnWriteArrayList<>();
     final List<String> errors = new CopyOnWriteArrayList<>();
     final List<PatchStatus> statuses = new CopyOnWriteArrayList<>();
+    volatile int bluetoothOff;
 
     @Override
     public void onStage(String stage) {
@@ -45,5 +46,10 @@ class RecordingListener implements Libre3Ble.Listener {
     @Override
     public void onError(String message) {
         errors.add(message);
+    }
+
+    @Override
+    public void onBluetoothOff() {
+        bluetoothOff++;
     }
 }

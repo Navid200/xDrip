@@ -11,6 +11,7 @@ import static org.robolectric.Shadows.shadowOf;
 
 import android.app.Notification;
 import android.app.NotificationManager;
+import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
 import android.util.Log;
 
@@ -77,6 +78,8 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
     public void tearDown() {
         Pref.removeItem("dex_collection_method");
         Pref.removeItem("libre_one_minute");
+        Pref.removeItem("automatically_turn_bluetooth_on");
+        JoH.clearRatelimit("libre3-enabling-bluetooth");
         Libre3.forgetSensor();
         SensorDays.clearCache();
         UserError.ExtraLogTags.readPreference("");
@@ -506,7 +509,61 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         assertThat(value(status, R.string.libre3_remaining)).isEqualTo(SensorDays.get().getSpannable().toString());
     }
 
+    // ================================================= Bluetooth off =================================================
+
+    /** With Turn Bluetooth on at its default, an attempt that finds Bluetooth off turns it on, as for Dexcom. */
+    @Test
+    public void onBluetoothOff_settingDefault_turnsBluetoothOn() {
+        // :: Setup
+        setBluetoothEnabled(false);
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+
+        // :: Act
+        session.onBluetoothOff();
+
+        // :: Verify
+        assertThat(BluetoothAdapter.getDefaultAdapter().isEnabled()).isTrue();
+    }
+
+    /** With the setting off, Bluetooth stays off. */
+    @Test
+    public void onBluetoothOff_settingOff_leavesBluetoothOff() {
+        // :: Setup
+        Pref.setBoolean("automatically_turn_bluetooth_on", false);
+        setBluetoothEnabled(false);
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+
+        // :: Act
+        session.onBluetoothOff();
+
+        // :: Verify
+        assertThat(BluetoothAdapter.getDefaultAdapter().isEnabled()).isFalse();
+    }
+
+    /**
+     * Bluetooth takes a few seconds to come on and the retries come every few seconds, so it is turned on at most once
+     * every 30 seconds, as for Dexcom.
+     */
+    @Test
+    public void onBluetoothOff_againWithin30Seconds_doesNotTurnOnAgain() {
+        // :: Setup
+        setBluetoothEnabled(false);
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+        session.onBluetoothOff();
+        setBluetoothEnabled(false);
+
+        // :: Act
+        session.onBluetoothOff();
+
+        // :: Verify
+        assertThat(BluetoothAdapter.getDefaultAdapter().isEnabled()).isFalse();
+    }
+
     // ==================================================== helpers ====================================================
+
+    private static void setBluetoothEnabled(boolean enabled) {
+        shadowOf(BluetoothAdapter.getDefaultAdapter()).setEnabled(enabled);
+    }
 
     /** The collector's rows in xDrip's log with this message. */
     private static List<UserError> logRows(String message) {
