@@ -75,6 +75,8 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
 
     private static final long SCAN_TIMEOUT_MS = 30_000;
     private static final long POLL_SLICE_MS = 250;
+    /** How long a write, or turning on notifications, waits for the sensor to answer. */
+    private static final long GATT_TIMEOUT_MS = 5_000;
     private static final long MAX_RECONNECT_DELAY_MS = 300_000;
     private static final long RECONNECT_STEP_MS = 5_000;
     /** Active attempts before the collector starts waiting in the background. */
@@ -619,14 +621,14 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             throw new IOException("Characteristic " + characteristic + " is not available");
         }
         try {
-            writeCharacteristic(target, value, WRITE_TYPE_DEFAULT).await();
+            writeCharacteristic(target, value, WRITE_TYPE_DEFAULT).timeout(GATT_TIMEOUT_MS).await();
         } catch (RequestFailedException e) {
             throw new IOException("Write failed with status " + e.getStatus());
         } catch (DeviceDisconnectedException | BluetoothDisabledException | InvalidRequestException e) {
             throw new IOException("Write failed: " + e.getClass().getSimpleName());
         } catch (InterruptedException e) {
-            Thread.currentThread().interrupt();
-            throw new IOException("Interrupted while writing");
+            // Nordic's await throws this when the timeout runs out; while waiting it does not see interrupts
+            throw new IOException("No answer to a write within " + GATT_TIMEOUT_MS + " ms");
         }
     }
 
@@ -705,7 +707,7 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             for (UUID uuid : AFTER_PAIRING) {
                 BluetoothGattCharacteristic characteristic = chars.get(uuid);
                 if (characteristic != null) {
-                    enableNotifications(characteristic).await();
+                    enableNotifications(characteristic).timeout(GATT_TIMEOUT_MS).await();
                 }
             }
             // Frames queued meanwhile wait on this worker; with keys set only now, none is read and no backfill is
@@ -726,8 +728,9 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
             listener.onError("Enabling data notifications failed: " + e.getClass().getSimpleName());
             disconnect().enqueue();
         } catch (InterruptedException e) {
-            // stop() shuts the worker down
-            Thread.currentThread().interrupt();
+            // Nordic's await throws this when the timeout runs out; while waiting it does not see interrupts
+            listener.onError("Enabling data notifications got no answer within " + GATT_TIMEOUT_MS + " ms");
+            disconnect().enqueue();
         } catch (RuntimeException e) {
             listener.onError("Pairing failed: " + e.getClass().getSimpleName() + ": " + e.getMessage());
             disconnect().enqueue();

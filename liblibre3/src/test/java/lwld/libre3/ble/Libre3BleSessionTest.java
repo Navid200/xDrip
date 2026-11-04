@@ -400,6 +400,52 @@ public class Libre3BleSessionTest {
         assertThat(recorder.stages.get(before)).isEqualTo("Reconnecting in 0 s: disconnected, reason 10 (timeout)");
     }
 
+    // ============================================== unanswered requests ==============================================
+
+    /**
+     * A write the sensor never answers fails after 5 seconds and the phone disconnects, instead of waiting forever.
+     * Nordic's own timer runs in real time and its await's wait by the clock; whichever runs out first names the error.
+     */
+    @Test
+    public void writeNeverAnswered_failsAndDisconnects() {
+        // :: Setup
+        ble = cachedKeyBle();
+        gatt.unansweredWrites = Gatt.SEC_COMMAND_RESPONSE;
+        ble.start();
+        pumpUntil(() -> recorder.stages.contains("Pairing with identity test, cached key"));
+
+        // :: Act
+        pumpUntil(() -> !reconnects(recorder.stages).isEmpty(), Duration.ofSeconds(1));
+
+        // :: Verify
+        assertThat(recorder.errors).hasSize(1);
+        assertThat(recorder.errors.get(0)).isAnyOf(
+                "Libre 3 pairing failed at StartAuthorization: No answer to a write within 5000 ms",
+                "Libre 3 pairing failed at StartAuthorization: Write failed with status -5");
+    }
+
+    /**
+     * Data notifications the sensor never confirms fail after 5 seconds and the phone disconnects, instead of waiting
+     * forever without streaming. As with a write, whichever of Nordic's two timeouts runs out first names the error.
+     */
+    @Test
+    public void notificationsNeverConfirmed_failsAndDisconnects() {
+        // :: Setup
+        ble = cachedKeyBle();
+        gatt.unconfirmedNotifications = Gatt.PATCH_STATUS;
+        ble.start();
+        pumpUntil(() -> recorder.stages.stream().anyMatch(stage -> stage.startsWith("Paired at")));
+
+        // :: Act
+        pumpUntil(() -> !reconnects(recorder.stages).isEmpty(), Duration.ofSeconds(1));
+
+        // :: Verify
+        assertThat(recorder.errors).hasSize(1);
+        assertThat(recorder.errors.get(0)).isAnyOf("Enabling data notifications got no answer within 5000 ms",
+                "Enabling data notifications failed: RequestFailedException");
+        assertThat(recorder.stages).doesNotContain("Streaming");
+    }
+
     // ==================================================== helpers ====================================================
 
     /** A sensor at a known address whose cached key it still accepts. */
@@ -498,13 +544,18 @@ public class Libre3BleSessionTest {
 
     /** Runs the main looper in real time until the condition holds, without moving the clock. */
     private void pumpUntil(BooleanSupplier condition) {
+        pumpUntil(condition, Duration.ZERO);
+    }
+
+    /** Runs the main looper in real time until the condition holds, moving the clock by {@code step} each round. */
+    private void pumpUntil(BooleanSupplier condition, Duration step) {
         long deadline = System.nanoTime() + TimeUnit.MILLISECONDS.toNanos(PUMP_TIMEOUT_MS);
         while (!condition.getAsBoolean()) {
             if (System.nanoTime() > deadline) {
                 throw new AssertionError("Timed out; stages " + recorder.stages + ", errors " + recorder.errors
                         + ", fake sensor failure " + gatt.failure + ", uncaught " + uncaught);
             }
-            idleMainLooper();
+            shadowOf(Looper.getMainLooper()).idleFor(step);
             try {
                 Thread.sleep(2);
             } catch (InterruptedException e) {

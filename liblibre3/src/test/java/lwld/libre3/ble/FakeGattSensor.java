@@ -43,6 +43,10 @@ final class FakeGattSensor {
     private volatile int connections;
     /** The first thing that went wrong inside the fake sensor, shown when a test times out. */
     volatile Throwable failure;
+    /** A characteristic whose writes the sensor never answers; null for none. */
+    volatile UUID unansweredWrites;
+    /** A characteristic whose notifications the sensor never confirms enabling; null for none. */
+    volatile UUID unconfirmedNotifications;
 
     FakeGattSensor(String address, FakeSensor sensor) {
         this.sensor = sensor;
@@ -128,12 +132,18 @@ final class FakeGattSensor {
 
         @Override
         public void onDescriptorWrite(BluetoothGatt gatt, BluetoothGattDescriptor descriptor, int status) {
+            if (descriptor.getCharacteristic().getUuid().equals(unconfirmedNotifications)) {
+                return;
+            }
             deliver(gatt, () -> delegate.onDescriptorWrite(gatt, descriptor, status));
         }
 
         @Override
         public void onCharacteristicWrite(BluetoothGatt gatt, BluetoothGattCharacteristic characteristic,
                                           int status) {
+            if (characteristic.getUuid().equals(unansweredWrites)) {
+                return;
+            }
             byte[] value = characteristic.getValue().clone();
             deliver(gatt, () -> delegate.onCharacteristicWrite(gatt, characteristic, status));
             if (!Gatt.HANDSHAKE_NOTIFYING.contains(characteristic.getUuid())) {
