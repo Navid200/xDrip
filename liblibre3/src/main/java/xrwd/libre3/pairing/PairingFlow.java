@@ -22,9 +22,9 @@ import xrwd.libre3.crypto.SessionKeys;
  * certificates and ephemeral keys to derive kAuth; a reconnect skips straight to the challenge with a cached kAuth
  * and falls back to a first pair in the same session when the sensor turns that key down. A link failure is not a
  * refusal: it surfaces as an {@link IOException} naming the stage, and the cached key stays good. The sensor
- * certificate is not verified against Abbott's signing keys; instead the caller can pin the static key a sensor showed
- * at its first pairing, so a later first pair with another device is refused before the PIN is sent. Ported from
- * RoundWhiteDiscKit {@code Pairing/PairingFlow.swift} (MIT).
+ * certificate is not verified against the manufacturer's signing keys; instead the caller can pin the static key a
+ * sensor showed at its first pairing, so a later first pair with another device is refused before the PIN is sent.
+ * Ported from RoundWhiteDiscKit {@code Pairing/PairingFlow.swift} (MIT).
  *
  * @author Asbjørn Aarrestad - 2026.10
  */

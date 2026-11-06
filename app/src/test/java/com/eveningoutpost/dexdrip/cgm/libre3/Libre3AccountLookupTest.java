@@ -131,7 +131,7 @@ public class Libre3AccountLookupTest extends RobolectricTestWithConfig {
         assertThat(e.failure).isEqualTo(Failure.LOGIN);
     }
 
-    /** Status 4 is new terms to accept in the Abbott app. */
+    /** Status 4 is new terms to accept in the official app. */
     @Test
     public void accountId_status4_terms() {
         // :: Act
@@ -265,7 +265,7 @@ public class Libre3AccountLookupTest extends RobolectricTestWithConfig {
         assertThat(Pref.getString(Libre3.PREF_ACCOUNT_ID, "")).isEqualTo("existing");
     }
 
-    /** New terms send the user to the Abbott app. */
+    /** New terms send the user to the official app. */
     @Test
     public void fillAccountId_terms_saysTerms() {
         // :: Act

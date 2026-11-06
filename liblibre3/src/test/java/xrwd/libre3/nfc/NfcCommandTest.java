@@ -15,13 +15,13 @@ import xrwd.libre3.util.Hex;
  */
 public class NfcCommandTest {
 
-    // ================================================== abbottCrc16 ==================================================
+    // ===================================================== crc16 =====================================================
 
     /** NFCActivationCommandTests.swift:33-37: the CRC over time and receiver ID of an accepted fresh pair. */
     @Test
-    public void abbottCrc16_acceptedFreshPairBody_matches() {
+    public void crc16_acceptedFreshPairBody_matches() {
         // :: Act
-        int crc = NfcCommand.abbottCrc16(Hex.toBytes("fc2bee6978830d6f"));
+        int crc = NfcCommand.crc16(Hex.toBytes("fc2bee6978830d6f"));
 
         // :: Verify
         assertThat(crc).isEqualTo(0x71b4);
@@ -59,7 +59,7 @@ public class NfcCommandTest {
         assertThat(Hex.of(command)).isEqualTo("02a87a75a8fb6978830d6f4cd4");
     }
 
-    /** The patch-info read is the bare custom command with Abbott's manufacturer code. */
+    /** The patch-info read is the bare custom command with the sensor's manufacturer code. */
     @Test
     public void readPatchInfo_isA1WithManufacturerCode() {
         // :: Act

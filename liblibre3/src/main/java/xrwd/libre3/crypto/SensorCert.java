@@ -11,9 +11,9 @@ import xrwd.libre3.pairing.EphemeralExchange;
 
 /**
  * The 140-byte certificate the sensor sends in Phase 2: {@code 01 || 10-byte header || static key (65) ||
- * ECDSA-P256-SHA256 raw r||s over bytes 0..76}. The collector does not verify it (no Abbott signing key ships here);
- * {@link #verify} exists for when a key is supplied. Ported from RoundWhiteDiscKit {@code Pairing/SensorCert.swift}
- * (MIT).
+ * ECDSA-P256-SHA256 raw r||s over bytes 0..76}. The collector does not verify it (no manufacturer signing key ships
+ * here); {@link #verify} exists for when a key is supplied. Ported from RoundWhiteDiscKit
+ * {@code Pairing/SensorCert.swift} (MIT).
  *
  * @author Asbjørn Aarrestad - 2026.10
  */

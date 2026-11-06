@@ -22,7 +22,7 @@ public class ReceiverIdTest {
 
     // ================================================== fromAccount ==================================================
 
-    /** Libre3ReceiverIDTests.swift:10-25: the sample account folds to the FreeStyle Libre 3 app's ID. */
+    /** Libre3ReceiverIDTests.swift:10-25: the sample account folds to the first official app's ID. */
     @Test
     public void fromAccount_freeStyleLibre3_matchesDocumentedValue() {
         // :: Act
@@ -34,7 +34,7 @@ public class ReceiverIdTest {
         assertThat(id.littleEndianHex()).isEqualTo("8d6d411f");
     }
 
-    /** Libre3ReceiverIDTests.swift:10-25: the sample account folds to the Libre by Abbott app's ID. */
+    /** Libre3ReceiverIDTests.swift:10-25: the sample account folds to the second official app's ID. */
     @Test
     public void fromAccount_libreByAbbott_matchesDocumentedValue() {
         // :: Act
@@ -67,7 +67,7 @@ public class ReceiverIdTest {
         assertThat(id.value()).isEqualTo((0x32393737L + 0x64656332L + 0x00002d34L) & 0xffffffffL);
     }
 
-    /** Libre3ReceiverIDTests.swift:30-45: the FreeStyle Libre 3 fold equals the accountless fold on lower case. */
+    /** Libre3ReceiverIDTests.swift:30-45: the first app's fold equals the accountless fold on lower case. */
     @Test
     public void fromAccount_freeStyleLibre3_equalsAccountlessOnCapturedIds() {
         for (String uniqueId : new String[]{"5abb0ad8-dc2e-4ede-9e2d-67472a3e630e",

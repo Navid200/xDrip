@@ -27,7 +27,7 @@ import okhttp3.ResponseBody;
 
 /**
  * Finds the LibreView account ID with one LibreLinkUp login, so a user who does not know it can take over a sensor
- * started in the Abbott app. Ported from xDrip4iOS {@code Libre3AccountLookup.swift} (Paul Plant, GPL-3.0); unlike
+ * started in the official app. Ported from xDrip4iOS {@code Libre3AccountLookup.swift} (Paul Plant, GPL-3.0); unlike
  * it, this sends {@code product: llu.android}.
  * <p>
  * The email, password and the login's token are used for this one request and never kept or logged; only the
@@ -42,7 +42,7 @@ public final class Libre3AccountLookup {
     public enum Failure {
         /** LibreView did not accept the email and password. */
         LOGIN,
-        /** The account has new terms to accept in the Abbott app first. */
+        /** The account has new terms to accept in the official app first. */
         TERMS,
         /** Anything else: no connection, an unexpected answer, or an app version LibreView no longer accepts. */
         UNAVAILABLE

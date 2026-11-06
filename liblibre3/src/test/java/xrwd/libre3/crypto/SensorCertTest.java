@@ -21,7 +21,7 @@ import xrwd.libre3.util.Hex;
 
 /**
  * Tests for {@link SensorCert}: the 140-byte certificate the sensor sends in Phase 2. The signing key is generated in
- * the test; Abbott's patch-signing keys are deliberately not in this module.
+ * the test; the manufacturer's patch-signing keys are deliberately not in this module.
  *
  * @author Asbjørn Aarrestad - 2026.10
  */

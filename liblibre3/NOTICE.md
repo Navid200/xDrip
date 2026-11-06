@@ -3,9 +3,6 @@
 Parts of this module are ported from RoundWhiteDiscKit, which is under the MIT license below. The source files that
 hold ported code say which RoundWhiteDiscKit file they come from.
 
-RoundWhiteDiscKit is not an Abbott product, and neither is this module. FreeStyle Libre and Libre are trademarks of
-Abbott; they appear here only to name the sensors this module works with.
-
 ---
 
 MIT License

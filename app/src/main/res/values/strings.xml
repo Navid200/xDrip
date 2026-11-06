@@ -2157,11 +2157,11 @@
     <string name="libre3_no_account">none</string>
     <string name="libre3_title_activate">Start Libre 3 sensor</string>
     <string name="libre3_title_takeover">Take over Libre 3 sensor</string>
-    <string name="libre3_warn_activate_account">This starts the sensor for xDrip. The Abbott app will not get its readings, but can take the sensor back later with the same account.</string>
-    <string name="libre3_warn_activate_accountless">No account ID is set, so this starts the sensor for this xDrip install only. The sensor can never move to the Abbott app, and is lost if xDrip is reinstalled.</string>
-    <string name="libre3_warn_takeover">This takes the running sensor over from the Abbott app. The Abbott app stops getting its readings and alarms.</string>
+    <string name="libre3_warn_activate_account">This starts the sensor for xDrip. The official app will not get its readings, but can take the sensor back later with the same account.</string>
+    <string name="libre3_warn_activate_accountless">No account ID is set, so this starts the sensor for this xDrip install only. The sensor can never move to the official app, and is lost if xDrip is reinstalled.</string>
+    <string name="libre3_warn_takeover">This takes the running sensor over from the official app. The official app stops getting its readings and alarms.</string>
     <string name="libre3_error_not_libre3">This is not a Libre 3. Choose another data source in settings to use it.</string>
-    <string name="libre3_warn_takeover_accountless">This sensor is already running and no account ID is set. This only works for a sensor started by this xDrip install. For a sensor started by the Abbott app, enter its LibreView account ID in the Libre 3 settings first.</string>
+    <string name="libre3_warn_takeover_accountless">This sensor is already running and no account ID is set. This only works for a sensor started by this xDrip install. For a sensor started by the official app, enter its LibreView account ID in the Libre 3 settings first.</string>
     <string name="libre3_error_bad_reply">The sensor did not accept the command. Check that the app (%1$s) and the account ID (%2$s) are the ones the sensor was started with.</string>
     <string name="libre3_error_patch_info">The Libre 3 sensor info could not be read. Please scan again.</string>
     <string name="libre3_error_nfc_failed">Lost contact with the sensor. Please scan again and hold the phone still.</string>
@@ -2197,7 +2197,7 @@
     <string name="libre3_looking_up">Looking up account ID</string>
     <string name="libre3_lookup_done">Account ID filled in</string>
     <string name="libre3_lookup_bad_login">The login was not accepted</string>
-    <string name="libre3_lookup_terms">Open the Abbott app, accept its new terms, then try again</string>
+    <string name="libre3_lookup_terms">Open the official app, accept its new terms, then try again</string>
     <string name="libre3_lookup_failed">Account ID lookup failed; enter it in Libre 3 settings</string>
     <string name="libre3_offer_download">The sensor pairs with an app credential, and none is downloaded yet. Download it now?</string>
     <string name="libre3_forget_sensor">Forget sensor</string>
@@ -2208,7 +2208,7 @@
     <string name="libre3_settings_summary">Account and app used to start or take over a Libre 3</string>
     <string name="libre3_account_id_title">LibreView account ID</string>
     <string name="libre3_account_id_summary">Needed to take over a running sensor. Leave empty to start a new sensor for this xDrip only.</string>
-    <string name="libre3_fold_title">Abbott app</string>
+    <string name="libre3_fold_title">Official app</string>
     <string name="libre3_fold_summary">The app the account uses</string>
     <string name="libre3_smoothing_title">Smooth Libre 3 readings</string>
     <string name="libre3_smoothing_summary">Off shows the raw per-minute values</string>

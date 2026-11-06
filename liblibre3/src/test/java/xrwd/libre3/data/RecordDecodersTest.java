@@ -84,7 +84,7 @@ public class RecordDecodersTest {
         assertThat(reading.displayable()).isTrue();
     }
 
-    /** Values under 39 read as LO (39) and over 501 as HI (501), as Abbott's display does. */
+    /** Values under 39 read as LO (39) and over 501 as HI (501), as the official app shows them. */
     @Test
     public void realtime_outOfDisplayRange_clampsToLoHi() {
         // :: Act

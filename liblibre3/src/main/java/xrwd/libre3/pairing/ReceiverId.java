@@ -16,9 +16,9 @@ public final class ReceiverId {
 
     /** Which app's derivation turns a LibreView account ID into a receiver ID. */
     public enum Fold {
-        /** The FreeStyle Libre 3 app: multiply-xor over UTF-16 code units. */
+        /** The first of the two official apps: multiply-xor over UTF-16 code units. */
         FREESTYLE_LIBRE3,
-        /** The Libre by Abbott app: sum of big-endian 4-byte words of the UTF-8 bytes. */
+        /** The second official app: sum of big-endian 4-byte words of the UTF-8 bytes. */
         LIBRE_BY_ABBOTT
     }
 

@@ -10,7 +10,7 @@ import xrwd.libre3.pairing.ReceiverId;
  */
 public final class NfcCommand {
 
-    /** Abbott's ISO 15693 manufacturer code, sent after every custom command code. */
+    /** The sensor's ISO 15693 manufacturer code, sent after every custom command code. */
     private static final int MANUFACTURER_CODE = 0x7a;
 
     /** Reads the patch info; works in every sensor state. */
@@ -45,14 +45,14 @@ public final class NfcCommand {
         System.arraycopy(receiverId.littleEndian(), 0, out, 7, 4);
         byte[] body = new byte[8];
         System.arraycopy(out, 3, body, 0, 8);
-        int crc = abbottCrc16(body);
+        int crc = crc16(body);
         out[11] = (byte) crc;
         out[12] = (byte) (crc >> 8);
         return out;
     }
 
     /** CRC-16 with init 0xffff and polynomial 0x1021 over bit-reversed input bytes, no output reflection. */
-    public static int abbottCrc16(byte[] data) {
+    public static int crc16(byte[] data) {
         int crc = 0xffff;
         for (byte b : data) {
             crc ^= (Integer.reverse(b & 0xff) >>> 24) << 8;
