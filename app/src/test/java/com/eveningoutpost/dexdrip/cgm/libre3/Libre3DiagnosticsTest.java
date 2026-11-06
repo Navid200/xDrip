@@ -20,9 +20,9 @@ import org.robolectric.RuntimeEnvironment;
 
 import java.util.Locale;
 
-import lwld.libre3.Libre3SensorState;
-import lwld.libre3.nfc.PatchInfo;
-import lwld.libre3.util.Hex;
+import xrwd.libre3.Libre3SensorState;
+import xrwd.libre3.nfc.PatchInfo;
+import xrwd.libre3.util.Hex;
 
 /**
  * Tests for {@link Libre3Diagnostics}: the report a tester pastes into a bug report says what the collector saw, and

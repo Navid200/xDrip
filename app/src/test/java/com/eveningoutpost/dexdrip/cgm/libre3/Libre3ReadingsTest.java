@@ -22,12 +22,12 @@ import org.robolectric.RuntimeEnvironment;
 
 import java.util.List;
 
-import lwld.libre3.Libre3SensorState;
-import lwld.libre3.data.HistoricalPage;
-import lwld.libre3.data.PatchStatus;
-import lwld.libre3.data.RealtimeReading;
-import lwld.libre3.nfc.PatchInfo;
-import lwld.libre3.util.Hex;
+import xrwd.libre3.Libre3SensorState;
+import xrwd.libre3.data.HistoricalPage;
+import xrwd.libre3.data.PatchStatus;
+import xrwd.libre3.data.RealtimeReading;
+import xrwd.libre3.nfc.PatchInfo;
+import xrwd.libre3.util.Hex;
 
 /**
  * Tests for {@link Libre3Readings}: which realtime and historic Libre 3 values become xDrip readings, at which time,

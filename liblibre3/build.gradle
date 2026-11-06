@@ -28,7 +28,7 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
-    namespace 'lwld.libre3'
+    namespace 'xrwd.libre3'
 
     testOptions {
         unitTests.includeAndroidResources = true

@@ -17,8 +17,8 @@ import java.security.GeneralSecurityException;
 import java.util.Collections;
 import java.util.List;
 
-import lwld.libre3.crypto.AppIdentity;
-import lwld.libre3.crypto.IdentityBundle;
+import xrwd.libre3.crypto.AppIdentity;
+import xrwd.libre3.crypto.IdentityBundle;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;

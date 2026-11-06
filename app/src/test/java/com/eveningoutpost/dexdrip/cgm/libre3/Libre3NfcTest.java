@@ -38,11 +38,11 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-import lwld.libre3.Libre3SensorState;
-import lwld.libre3.nfc.NfcCommand;
-import lwld.libre3.nfc.PatchInfo;
-import lwld.libre3.pairing.ReceiverId;
-import lwld.libre3.util.Hex;
+import xrwd.libre3.Libre3SensorState;
+import xrwd.libre3.nfc.NfcCommand;
+import xrwd.libre3.nfc.PatchInfo;
+import xrwd.libre3.pairing.ReceiverId;
+import xrwd.libre3.util.Hex;
 
 /**
  * Tests for {@link Libre3Nfc}: which scans it takes from NFCReaderX, what it decides to send for a fresh or a running

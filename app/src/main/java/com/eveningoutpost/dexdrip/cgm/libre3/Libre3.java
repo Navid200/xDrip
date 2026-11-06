@@ -18,8 +18,8 @@ import com.eveningoutpost.dexdrip.xdrip;
 
 import java.util.Arrays;
 
-import lwld.libre3.Libre3SensorState;
-import lwld.libre3.pairing.ReceiverId;
+import xrwd.libre3.Libre3SensorState;
+import xrwd.libre3.pairing.ReceiverId;
 
 /**
  * Settings and stored state for the native Libre 3 collector: the account and fold the user chose, the one sensor

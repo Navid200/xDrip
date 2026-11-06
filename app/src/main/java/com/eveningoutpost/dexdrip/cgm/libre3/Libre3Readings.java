@@ -17,11 +17,11 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Locale;
 
-import lwld.libre3.Libre3SensorState;
-import lwld.libre3.data.HistoricalPage;
-import lwld.libre3.data.PatchStatus;
-import lwld.libre3.data.RealtimeReading;
-import lwld.libre3.util.Hex;
+import xrwd.libre3.Libre3SensorState;
+import xrwd.libre3.data.HistoricalPage;
+import xrwd.libre3.data.PatchStatus;
+import xrwd.libre3.data.RealtimeReading;
+import xrwd.libre3.util.Hex;
 
 /**
  * Turns the Libre 3's realtime and historic values into xDrip readings. A reading's time is the sensor start plus

@@ -36,12 +36,12 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
 
-import lwld.libre3.Libre3SensorState;
-import lwld.libre3.ble.Libre3Ble;
-import lwld.libre3.crypto.AppIdentity;
-import lwld.libre3.data.HistoricalPage;
-import lwld.libre3.data.PatchStatus;
-import lwld.libre3.data.RealtimeReading;
+import xrwd.libre3.Libre3SensorState;
+import xrwd.libre3.ble.Libre3Ble;
+import xrwd.libre3.crypto.AppIdentity;
+import xrwd.libre3.data.HistoricalPage;
+import xrwd.libre3.data.PatchStatus;
+import xrwd.libre3.data.RealtimeReading;
 
 /**
  * Keeps a Bluetooth connection to the Libre 3 that was started or taken over by NFC. Without a stored sensor or a

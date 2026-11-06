@@ -20,11 +20,11 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import lwld.libre3.Libre3SensorState;
-import lwld.libre3.nfc.ActivationResponse;
-import lwld.libre3.nfc.NfcCommand;
-import lwld.libre3.nfc.PatchInfo;
-import lwld.libre3.pairing.ReceiverId;
+import xrwd.libre3.Libre3SensorState;
+import xrwd.libre3.nfc.ActivationResponse;
+import xrwd.libre3.nfc.NfcCommand;
+import xrwd.libre3.nfc.PatchInfo;
+import xrwd.libre3.pairing.ReceiverId;
 
 /**
  * Starts a fresh Libre 3 or takes over a running one over NFC. The first scan only decides and warns; once the user

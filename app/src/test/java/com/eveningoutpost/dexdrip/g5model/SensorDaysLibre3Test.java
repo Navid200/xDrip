@@ -13,9 +13,9 @@ import org.junit.After;
 import org.junit.Test;
 import org.robolectric.RuntimeEnvironment;
 
-import lwld.libre3.Libre3SensorState;
-import lwld.libre3.nfc.PatchInfo;
-import lwld.libre3.util.Hex;
+import xrwd.libre3.Libre3SensorState;
+import xrwd.libre3.nfc.PatchInfo;
+import xrwd.libre3.util.Hex;
 
 /**
  * Tests for {@link SensorDays} with the Libre 3 collector: the start and wear period come from what the sensor itself

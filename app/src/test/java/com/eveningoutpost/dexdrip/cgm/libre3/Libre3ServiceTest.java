@@ -39,11 +39,11 @@ import java.security.GeneralSecurityException;
 import java.util.ArrayList;
 import java.util.List;
 
-import lwld.libre3.Libre3SensorState;
-import lwld.libre3.data.PatchStatus;
-import lwld.libre3.data.RealtimeReading;
-import lwld.libre3.nfc.PatchInfo;
-import lwld.libre3.util.Hex;
+import xrwd.libre3.Libre3SensorState;
+import xrwd.libre3.data.PatchStatus;
+import xrwd.libre3.data.RealtimeReading;
+import xrwd.libre3.nfc.PatchInfo;
+import xrwd.libre3.util.Hex;
 import okhttp3.OkHttpClient;
 import okhttp3.Protocol;
 import okhttp3.Response;

@@ -30,7 +30,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import lwld.libre3.Libre3SensorState;
+import xrwd.libre3.Libre3SensorState;
 
 /**
  * The report a tester copies into a bug report: the phone's Bluetooth and location state, what the collector shows,

@@ -28,8 +28,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import lwld.libre3.crypto.AppIdentity;
-import lwld.libre3.util.Hex;
+import xrwd.libre3.crypto.AppIdentity;
+import xrwd.libre3.util.Hex;
 import okhttp3.Interceptor;
 import okhttp3.OkHttpClient;
 import okhttp3.Protocol;

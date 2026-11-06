@@ -43,7 +43,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import lwld.libre3.Libre3SensorState;
+import xrwd.libre3.Libre3SensorState;
 
 /**
  * Tests for {@link Libre3Activity}: the screen asks for location, which the Bluetooth scan needs, without an app

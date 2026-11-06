@@ -13,7 +13,7 @@ import org.junit.After;
 import org.junit.Test;
 import org.robolectric.RuntimeEnvironment;
 
-import lwld.libre3.Libre3SensorState;
+import xrwd.libre3.Libre3SensorState;
 
 /**
  * Tests for {@link Libre3#ensureSensor}: readings must land on an xDrip {@link Sensor} that started when the Libre 3
