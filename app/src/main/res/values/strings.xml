@@ -2189,6 +2189,16 @@
     <string name="libre3_download_credential">Download app credential</string>
     <string name="libre3_downloading">Downloading app credential</string>
     <string name="libre3_download_failed">App credential download failed</string>
+    <string name="libre3_lookup_account">Look up account ID</string>
+    <string name="libre3_lookup_hint">Log in with the LibreView account that started the sensor (not a follower account). xDrip keeps only the account ID, not the email or password.</string>
+    <string name="libre3_lookup_replace">An account ID is already set. Replace it?</string>
+    <string name="libre3_email">Email</string>
+    <string name="libre3_lookup_blank">Enter email and password</string>
+    <string name="libre3_looking_up">Looking up account ID</string>
+    <string name="libre3_lookup_done">Account ID filled in</string>
+    <string name="libre3_lookup_bad_login">The login was not accepted</string>
+    <string name="libre3_lookup_terms">Open the Abbott app, accept its new terms, then try again</string>
+    <string name="libre3_lookup_failed">Account ID lookup failed; enter it in Libre 3 settings</string>
     <string name="libre3_offer_download">The sensor pairs with an app credential, and none is downloaded yet. Download it now?</string>
     <string name="libre3_forget_sensor">Forget sensor</string>
     <string name="libre3_forget_sensor_confirm">xDrip stops talking to this sensor. To use it again, scan it with NFC. A sensor started without an account can only come back to this xDrip install.</string>
