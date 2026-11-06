@@ -12,12 +12,18 @@ import android.content.pm.PackageManager;
 import android.location.LocationManager;
 import android.nfc.NfcAdapter;
 import android.os.Looper;
+import android.text.InputType;
+import android.text.method.PasswordTransformationMethod;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 
 import com.eveningoutpost.dexdrip.R;
 import com.eveningoutpost.dexdrip.RobolectricTestWithConfig;
+import com.eveningoutpost.dexdrip.cgm.libre3.Libre3AccountLookupTest.FakeLibreView;
+import com.eveningoutpost.dexdrip.models.JoH;
 import com.eveningoutpost.dexdrip.utilitymodels.Pref;
 import com.eveningoutpost.dexdrip.utils.DexCollectionType;
 import com.eveningoutpost.dexdrip.xdrip;
@@ -30,15 +36,20 @@ import org.robolectric.android.controller.ActivityController;
 import org.robolectric.shadows.ShadowAlertDialog;
 import org.robolectric.shadows.ShadowDialog;
 import org.robolectric.shadows.ShadowNfcAdapter;
+import org.robolectric.shadows.ShadowToast;
 
 import java.time.Duration;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 
 import lwld.libre3.Libre3SensorState;
 
 /**
  * Tests for {@link Libre3Activity}: the screen asks for location, which the Bluetooth scan needs, without an app
  * credential it offers to download it, once per visit, it reads NFC scans itself while it is open, and its status
- * follows the collector while it is open.
+ * follows the collector while it is open. Looking up the account ID asks for a LibreView login, never sends a blank
+ * one, asks before replacing an ID already set, and fills the ID in.
  *
  * @author Asbjørn Aarrestad - 2026.11
  */
@@ -55,6 +66,8 @@ public class Libre3ActivityTest extends RobolectricTestWithConfig {
     public void tearDown() {
         Pref.removeItem("use_nfc_scan");
         Pref.removeItem(DexCollectionType.DEX_COLLECTION_METHOD);
+        Pref.removeItem(Libre3.PREF_ACCOUNT_ID);
+        Libre3Activity.lookupFactory = Libre3Activity.DEFAULT_LOOKUP;
         Libre3.forgetSensor();
     }
 
@@ -195,7 +208,147 @@ public class Libre3ActivityTest extends RobolectricTestWithConfig {
         assertThat(screenText(screen.get())).contains(gs(R.string.libre3_stage_no_sensor));
     }
 
+    // ============================================== Look up account ID ===============================================
+
+    /** The button asks for the LibreView email and a hidden password. */
+    @Test
+    public void lookupButton_opensLoginDialog() {
+        // :: Setup
+        Libre3Activity screen = openScreen();
+
+        // :: Act
+        clickLookup(screen);
+
+        // :: Verify
+        AlertDialog dialog = ShadowAlertDialog.getLatestAlertDialog();
+        assertThat(dialog.isShowing()).isTrue();
+        assertThat(shadowOf(dialog).getMessage().toString()).isEqualTo(gs(R.string.libre3_lookup_hint));
+        List<EditText> fields = editTexts(dialog);
+        assertThat(fields).hasSize(2);
+        EditText password = fields.get(1);
+        assertThat(password.getInputType())
+                .isEqualTo(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+        assertThat(password.getTransformationMethod()).isInstanceOf(PasswordTransformationMethod.class);
+    }
+
+    /** With an account ID already set, the button asks before replacing it. */
+    @Test
+    public void lookupButton_withExistingId_asksBeforeReplacing() {
+        // :: Setup
+        Pref.setString(Libre3.PREF_ACCOUNT_ID, "existing");
+        Libre3Activity screen = openScreen();
+
+        // :: Act
+        clickLookup(screen);
+
+        // :: Verify
+        AlertDialog dialog = ShadowAlertDialog.getLatestAlertDialog();
+        assertThat(dialog.isShowing()).isTrue();
+        assertThat(shadowOf(dialog).getMessage().toString()).isEqualTo(gs(R.string.libre3_lookup_replace));
+        assertThat(editTexts(dialog)).isEmpty();
+    }
+
+    /** OK with a blank field sends nothing and says what is missing. */
+    @Test
+    public void lookupDialog_blankFields_sendsNothing() {
+        // :: Setup
+        AtomicInteger lookups = new AtomicInteger();
+        Libre3Activity.lookupFactory = () -> {
+            lookups.incrementAndGet();
+            return Libre3AccountLookupTest.lookup(new FakeLibreView());
+        };
+        Libre3Activity screen = openScreen();
+        clickLookup(screen);
+
+        // :: Act
+        ShadowAlertDialog.getLatestAlertDialog().getButton(AlertDialog.BUTTON_POSITIVE).performClick();
+        shadowOf(Looper.getMainLooper()).idle();
+
+        // :: Verify
+        assertThat(lookups.get()).isEqualTo(0);
+        assertThat(ShadowToast.getTextOfLatestToast()).isEqualTo(gs(R.string.libre3_lookup_blank));
+    }
+
+    /** OK with an email and password fills the account ID in and says so. */
+    @Test
+    public void lookupDialog_ok_fillsAccountId() {
+        // :: Setup
+        Libre3Activity.lookupFactory = () -> Libre3AccountLookupTest.lookup(new FakeLibreView().answer(200,
+                "{\"status\":0,\"data\":{\"user\":{\"id\":\"ABCDEF01-2345-6789-ABCD-EF0123456789\"}}}"));
+        Libre3Activity screen = openScreen();
+        clickLookup(screen);
+        AlertDialog dialog = ShadowAlertDialog.getLatestAlertDialog();
+        editTexts(dialog).get(0).setText("someone@example.com");
+        editTexts(dialog).get(1).setText("pass-word");
+
+        // :: Act
+        dialog.getButton(AlertDialog.BUTTON_POSITIVE).performClick();
+        awaitToast(gs(R.string.libre3_lookup_done));
+
+        // :: Verify
+        assertThat(Pref.getString(Libre3.PREF_ACCOUNT_ID, "")).isEqualTo("abcdef01-2345-6789-abcd-ef0123456789");
+        assertThat(ShadowToast.getTextOfLatestToast()).isEqualTo(gs(R.string.libre3_lookup_done));
+    }
+
     // ==================================================== helpers ====================================================
+
+    /** The screen opened with location granted, the download offer dismissed. */
+    private static Libre3Activity openScreen() {
+        grantLocation();
+        Libre3Activity screen = Robolectric.buildActivity(Libre3Activity.class).setup().get();
+        shadowOf(Looper.getMainLooper()).idle();
+        return screen;
+    }
+
+    private static void clickLookup(Activity screen) {
+        Button button = findButton(screen.getWindow().getDecorView(), gs(R.string.libre3_lookup_account));
+        assertThat(button).isNotNull();
+        button.performClick();
+        shadowOf(Looper.getMainLooper()).idle();
+    }
+
+    private static Button findButton(View view, String text) {
+        if (view instanceof Button && text.contentEquals(((Button) view).getText())) {
+            return (Button) view;
+        }
+        if (view instanceof ViewGroup) {
+            ViewGroup group = (ViewGroup) view;
+            for (int i = 0; i < group.getChildCount(); i++) {
+                Button found = findButton(group.getChildAt(i), text);
+                if (found != null) {
+                    return found;
+                }
+            }
+        }
+        return null;
+    }
+
+    private static List<EditText> editTexts(AlertDialog dialog) {
+        List<EditText> fields = new ArrayList<>();
+        collectEditTexts(dialog.getWindow().getDecorView(), fields);
+        return fields;
+    }
+
+    private static void collectEditTexts(View view, List<EditText> fields) {
+        if (view instanceof EditText) {
+            fields.add((EditText) view);
+        }
+        if (view instanceof ViewGroup) {
+            ViewGroup group = (ViewGroup) view;
+            for (int i = 0; i < group.getChildCount(); i++) {
+                collectEditTexts(group.getChildAt(i), fields);
+            }
+        }
+    }
+
+    /** Waits up to five seconds for the lookup's thread to post the given toast to the screen. */
+    private static void awaitToast(String text) {
+        long deadline = JoH.tsl() + 5_000;
+        while (!text.equals(ShadowToast.getTextOfLatestToast()) && JoH.tsl() < deadline) {
+            shadowOf(Looper.getMainLooper()).idle();
+            Thread.yield();
+        }
+    }
 
     /** Stores a sensor as an NFC scan does, and has the collector report the given stage for it. */
     private static void startSensor(String stage) {

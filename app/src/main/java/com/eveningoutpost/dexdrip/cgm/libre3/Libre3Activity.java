@@ -6,10 +6,14 @@ import android.app.AlertDialog;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
+import android.text.InputType;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
+
+import androidx.annotation.VisibleForTesting;
 
 import com.eveningoutpost.dexdrip.R;
 import com.eveningoutpost.dexdrip.models.JoH;
@@ -22,10 +26,11 @@ import com.eveningoutpost.dexdrip.utils.ActivityWithMenu;
 import com.eveningoutpost.dexdrip.utils.LocationHelper;
 
 import java.security.GeneralSecurityException;
+import java.util.function.Supplier;
 
 /**
- * The Libre 3 screen: what the collector knows, asking for location, downloading the app credential, and forgetting
- * the sensor.
+ * The Libre 3 screen: what the collector knows, asking for location, downloading the app credential, looking up the
+ * LibreView account ID, and forgetting the sensor.
  * Starting or taking over a sensor is done by scanning it with NFC; the screen reads scans itself while it is open.
  *
  * @author Asbjørn Aarrestad - 2026.10
@@ -44,8 +49,17 @@ public class Libre3Activity extends ActivityWithMenu {
             handler.postDelayed(this, REFRESH_MS);
         }
     };
+    @VisibleForTesting
+    static final Supplier<Libre3AccountLookup> DEFAULT_LOOKUP =
+            () -> new Libre3AccountLookup(OkHttpWrapper.getClient());
+    /** Where the account ID lookup comes from; tests answer it without the network. */
+    @VisibleForTesting
+    static Supplier<Libre3AccountLookup> lookupFactory = DEFAULT_LOOKUP;
+
     private TextView status;
     private boolean offeredDownload;
+    /** A lookup is running; a second OK would send the login twice. */
+    private volatile boolean lookingUp;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +81,11 @@ public class Libre3Activity extends ActivityWithMenu {
         download.setText(R.string.libre3_download_credential);
         download.setOnClickListener(v -> downloadCredential());
         layout.addView(download);
+
+        Button lookup = new Button(this);
+        lookup.setText(R.string.libre3_lookup_account);
+        lookup.setOnClickListener(v -> lookUpAccountId());
+        layout.addView(lookup);
 
         Button forget = new Button(this);
         forget.setText(R.string.libre3_forget_sensor);
@@ -157,6 +176,63 @@ public class Libre3Activity extends ActivityWithMenu {
             String result = message;
             runOnUiThread(() -> {
                 JoH.static_toast_long(result);
+                refresh();
+            });
+        }).start();
+    }
+
+    /** Asks before replacing an account ID already set, then for the login. */
+    private void lookUpAccountId() {
+        if (Libre3.accountId().isEmpty()) {
+            askLogin();
+            return;
+        }
+        new AlertDialog.Builder(this)
+                .setTitle(R.string.libre3_lookup_account)
+                .setMessage(R.string.libre3_lookup_replace)
+                .setPositiveButton(R.string.ok, (dialog, which) -> askLogin())
+                .setNegativeButton(R.string.cancel, null)
+                .show();
+    }
+
+    private void askLogin() {
+        int pad = (int) (16 * getResources().getDisplayMetrics().density);
+        LinearLayout fields = new LinearLayout(this);
+        fields.setOrientation(LinearLayout.VERTICAL);
+        fields.setPadding(pad, 0, pad, 0);
+        EditText email = new EditText(this);
+        email.setHint(R.string.libre3_email);
+        email.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_EMAIL_ADDRESS);
+        fields.addView(email);
+        EditText password = new EditText(this);
+        password.setHint(R.string.password);
+        password.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
+        fields.addView(password);
+        new AlertDialog.Builder(this)
+                .setTitle(R.string.libre3_lookup_account)
+                .setMessage(R.string.libre3_lookup_hint)
+                .setView(fields)
+                .setPositiveButton(R.string.ok, (dialog, which) ->
+                        fillAccountId(email.getText().toString().trim(), password.getText().toString()))
+                .setNegativeButton(R.string.cancel, null)
+                .show();
+    }
+
+    private void fillAccountId(String email, String password) {
+        if (email.isEmpty() || password.isEmpty()) {
+            JoH.static_toast_long(gs(R.string.libre3_lookup_blank));
+            return;
+        }
+        if (lookingUp) {
+            return;
+        }
+        lookingUp = true;
+        JoH.static_toast_short(gs(R.string.libre3_looking_up));
+        new Thread(() -> {
+            int message = Libre3AccountLookup.fillAccountId(lookupFactory.get(), email, password);
+            runOnUiThread(() -> {
+                lookingUp = false;
+                JoH.static_toast_long(gs(message));
                 refresh();
             });
         }).start();
