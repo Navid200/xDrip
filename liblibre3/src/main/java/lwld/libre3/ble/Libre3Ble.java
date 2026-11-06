@@ -760,6 +760,10 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
                 disconnect().enqueue();
             }
             return;
+        } catch (RuntimeException e) {
+            // no frame is known to get here; uncaught it would end the app, so it is reported and not counted
+            listener.onError("Could not handle a " + channel + " frame: " + e);
+            return;
         }
         droppedInARow = 0;
         if (!decryptedOnConnection) {
