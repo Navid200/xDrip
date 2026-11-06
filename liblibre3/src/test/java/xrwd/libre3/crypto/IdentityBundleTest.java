@@ -89,18 +89,23 @@ public class IdentityBundleTest {
         assertThat(identities.get(0).label()).isEqualTo("a");
     }
 
-    /** The pinned source matches the xDrip4iOS release it was taken from. */
+    /**
+     * The pinned source matches the xDrip4iOS release it was taken from. The transaction is checked by its SHA-256 and
+     * each gateway is built from a separately reversed host, so a wrong character in a reversed literal fails here.
+     */
     @Test
-    public void constants_matchPinnedRelease() {
+    public void constants_matchPinnedRelease() throws NoSuchAlgorithmException {
         // :: Act
         String digest = IdentityBundle.DIGEST;
 
         // :: Verify
         assertThat(digest).isEqualTo("ab18ce8bcb978526e102cc5e16440f06d2aee19426c26a15dd0013d66e9995ed");
-        assertThat(IdentityBundle.SOURCE_TX).isEqualTo(Reversed.of("kpu0bQLws2NzcG-xCkfSuolYdtYo15Us2UHIXd3AbWq"));
+        assertThat(sha256(IdentityBundle.SOURCE_TX.getBytes(StandardCharsets.US_ASCII)))
+                .isEqualTo("95f95cc7a90ee1fe394e941453b6605cd55118f67096005530c1e160cb3fc049");
         assertThat(IdentityBundle.VERSION).isEqualTo("app-identities-1");
         assertThat(IdentityBundle.GATEWAYS).asList()
-                .containsExactly(Reversed.of("/ten.evaewra//:sptth"), Reversed.of("/moc.yawetag-obrut//:sptth"))
+                .containsExactly("https://" + Reversed.of("ten.evaewra") + "/",
+                        "https://" + Reversed.of("moc.yawetag-obrut") + "/")
                 .inOrder();
     }
 

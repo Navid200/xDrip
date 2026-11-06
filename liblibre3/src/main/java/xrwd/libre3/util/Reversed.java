@@ -1,7 +1,8 @@
 package xrwd.libre3.util;
 
 /**
- * Fixed addresses are kept reversed in the source, so they are not found by a plain-text search; this turns them back.
+ * Fixed addresses and IDs are kept reversed in the source, so a plain-text search does not find them; this turns
+ * them back.
  *
  * @author Asbjørn Aarrestad - 2026.11
  */

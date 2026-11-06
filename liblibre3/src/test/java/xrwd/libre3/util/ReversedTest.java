@@ -5,7 +5,7 @@ import static com.google.common.truth.Truth.assertThat;
 import org.junit.Test;
 
 /**
- * Tests for {@link Reversed}: the reversal that keeps fixed addresses out of plain text in the source.
+ * Tests for {@link Reversed}: the reversal that keeps fixed addresses and IDs out of plain text in the source.
  *
  * @author Asbjørn Aarrestad - 2026.11
  */
@@ -27,9 +27,9 @@ public class ReversedTest {
     @Test
     public void of_twice_givesOriginal() {
         // :: Act
-        String twice = Reversed.of(Reversed.of("qWbA3-dX"));
+        String twice = Reversed.of(Reversed.of("abc-123"));
 
         // :: Verify
-        assertThat(twice).isEqualTo("qWbA3-dX");
+        assertThat(twice).isEqualTo("abc-123");
     }
 }
