@@ -410,6 +410,28 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
         assertThat(Libre3Nfc.pending(SERIAL, tsl())).isNull();
     }
 
+    /**
+     * A Libre 3 screen that is already open is brought back for a scan made when not in xDrip, the way the status page
+     * opens it, so no second Libre 3 screen comes on top of it.
+     */
+    @Test
+    public void onScan_notInXdrip_reusesOpenLibre3Screen() {
+        // :: Setup
+        Activity filter = Robolectric.buildActivity(NFCFilterX.class).create().get(); // resuming it reads its intent
+        filter.finish();
+        final int reuse = Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_CLEAR_TOP;
+
+        // :: Act
+        Libre3Nfc.onScan(filter, null, Hex.toBytes(ACTIVE));
+        shadowOf(Looper.getMainLooper()).idle();
+
+        // :: Verify
+        Intent opened = shadowOf(RuntimeEnvironment.application).getNextStartedActivity();
+        assertThat(opened).isNotNull();
+        assertThat(opened.getComponent().getClassName()).isEqualTo(Libre3Activity.class.getName());
+        assertThat(opened.getFlags() & reuse).isEqualTo(reuse);
+    }
+
     /** A message for a scan made when not in xDrip comes as a toast, since the scanning screen would hide a dialog. */
     @Test
     public void onScan_notInXdripSensorInUse_messageAsToast() {

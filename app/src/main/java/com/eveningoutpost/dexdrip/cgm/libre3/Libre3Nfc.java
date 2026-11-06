@@ -5,7 +5,6 @@ import static com.eveningoutpost.dexdrip.xdrip.gs;
 
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.Intent;
 import android.nfc.tech.NfcV;
 
 import com.eveningoutpost.dexdrip.NFCFilterX;
@@ -15,7 +14,6 @@ import com.eveningoutpost.dexdrip.models.LibreOOPAlgorithm.SensorType;
 import com.eveningoutpost.dexdrip.models.UserError;
 import com.eveningoutpost.dexdrip.utilitymodels.CollectionServiceStarter;
 import com.eveningoutpost.dexdrip.utils.DexCollectionType;
-import com.eveningoutpost.dexdrip.xdrip;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -236,10 +234,9 @@ public final class Libre3Nfc {
         activity.runOnUiThread(() -> {
             if (scanNotInXdrip(activity)) {
                 // the Libre 3 screen reads the next scan itself and asks there; the screen the scan came on may be
-                // closing already, so the Libre 3 screen opens from the app, as a new task
+                // closing already, so the Libre 3 screen opens from the app, as the status page opens it
                 UserError.Log.uel(TAG, "Libre 3 question moved to the Libre 3 screen");
-                xdrip.getAppContext().startActivity(new Intent(xdrip.getAppContext(), Libre3Activity.class)
-                        .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+                Libre3.startControlActivity();
                 JoH.static_toast_long(gs(R.string.libre3_scan_on_libre3_screen));
                 return;
             }
