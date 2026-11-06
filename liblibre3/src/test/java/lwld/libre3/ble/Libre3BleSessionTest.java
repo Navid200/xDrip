@@ -405,7 +405,8 @@ public class Libre3BleSessionTest {
 
     /**
      * A write the sensor never answers fails after 5 seconds and the phone disconnects, instead of waiting forever.
-     * Nordic's own timer runs in real time and its await's wait by the clock; whichever runs out first names the error.
+     * Here the clock moves while the main looper runs, so Nordic's own timer there mostly runs out first and names the
+     * error; on a phone the wait runs out first, as the test with the main looper held shows.
      */
     @Test
     public void writeNeverAnswered_failsAndDisconnects() {
@@ -427,7 +428,8 @@ public class Libre3BleSessionTest {
 
     /**
      * Data notifications the sensor never confirms fail after 5 seconds and the phone disconnects, instead of waiting
-     * forever without streaming. As with a write, whichever of Nordic's two timeouts runs out first names the error.
+     * forever without streaming. As with a write, Nordic's own timer on the main looper mostly runs out first here;
+     * on a phone the wait does, as the test with the main looper held shows.
      */
     @Test
     public void notificationsNeverConfirmed_failsAndDisconnects() {
