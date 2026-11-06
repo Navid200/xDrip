@@ -136,6 +136,8 @@ public class Libre3Service extends ForegroundService {
         public void onStage(String newStage) {
             lastProgressAt = tsl();
             stage = newStage;
+            // the refusal was for a reading on the link as it was; the next refused reading shows it again
+            lastRefusal = null;
             remember(newStage);
             UserError.Log.d(TAG, "Stage: " + newStage);
         }

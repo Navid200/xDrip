@@ -494,6 +494,24 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         assertThat(value(status, R.string.libre3_reading_not_stored)).isNull();
     }
 
+    /** When the link drops after refused readings, the status page shows the reconnect, not the old refusal. */
+    @Test
+    public void megaStatus_refusedThenReconnecting_showsStageOnly() {
+        // :: Setup
+        Libre3.saveState(sensor("0RRC989AQ", now));
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+        session.onStage("Streaming");
+        session.onReading(reading(1, 120));
+
+        // :: Act
+        session.onStage("Reconnecting in 5 s: disconnected, reason 8");
+        List<StatusItem> status = Libre3Service.megaStatus();
+
+        // :: Verify
+        assertThat(value(status, R.string.libre3_stage)).isEqualTo("Reconnecting in 5 s: disconnected, reason 8");
+        assertThat(value(status, R.string.libre3_reading_not_stored)).isNull();
+    }
+
     // ================================================== nanoStatus ===================================================
 
     /**
@@ -527,6 +545,24 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
 
         // :: Verify
         assertThat(String.valueOf(Libre3Service.nanoStatus())).isNotEqualTo("Reading not stored: warmup");
+    }
+
+    /**
+     * When the link drops after refused readings, the line under the graph no longer gives the refusal as the reason.
+     * Whether it shows the stage depends on readings stored in earlier tests, so only the refusal is checked.
+     */
+    @Test
+    public void nanoStatus_refusedThenReconnecting_noReason() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+        session.onStage("Streaming");
+        session.onReading(reading(1, 120));
+
+        // :: Act
+        session.onStage("Reconnecting in 5 s: disconnected, reason 8");
+
+        // :: Verify
+        assertThat(String.valueOf(Libre3Service.nanoStatus())).doesNotContain(gs(R.string.libre3_reading_not_stored));
     }
 
     /** A scan that needs location posts a notification that opens the Libre 3 screen, which asks for it. */
