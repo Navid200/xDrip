@@ -512,6 +512,25 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         assertThat(value(status, R.string.libre3_reading_not_stored)).isNull();
     }
 
+    /**
+     * A refused reading that a stopped session still hands over, from a frame it was opening as it stopped, does not
+     * show on the status page: the refusal was for a link that is gone.
+     */
+    @Test
+    public void megaStatus_refusedAfterSessionStopped_noReason() {
+        // :: Setup
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+        session.onStage("Streaming");
+        session.stop();
+
+        // :: Act
+        session.onReading(reading(1, 120));
+        List<StatusItem> status = Libre3Service.megaStatus();
+
+        // :: Verify
+        assertThat(value(status, R.string.libre3_reading_not_stored)).isNull();
+    }
+
     // ================================================== nanoStatus ===================================================
 
     /**

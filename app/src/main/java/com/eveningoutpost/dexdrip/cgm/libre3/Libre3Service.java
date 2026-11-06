@@ -89,6 +89,8 @@ public class Libre3Service extends ForegroundService {
         private volatile long lastProgressAt;
         private final long startedAt = tsl();
         private volatile boolean locationNotified;
+        /** Set when the service stops the session; guarded by this. */
+        private boolean stopped;
         /** Written by the Bluetooth worker, read by the diagnostics report; guarded by this. */
         private final LinkedList<String> recentStages = new LinkedList<>();
         private final Map<String, Integer> retryCounts = new LinkedHashMap<>();
@@ -99,6 +101,11 @@ public class Libre3Service extends ForegroundService {
 
         long startedAt() {
             return startedAt;
+        }
+
+        /** Its Bluetooth worker may still hand over a frame it was opening; that reading no longer sets the status. */
+        synchronized void stop() {
+            stopped = true;
         }
 
         /** @return the newest stages, oldest first, each with its time */
@@ -162,7 +169,11 @@ public class Libre3Service extends ForegroundService {
             if (readings.onRealtime(reading, tsl())) {
                 lastReadingAt = tsl();
             }
-            lastRefusal = readings.lastRefusal();
+            synchronized (this) {
+                if (!stopped) {
+                    lastRefusal = readings.lastRefusal();
+                }
+            }
         }
 
         @Override
@@ -336,6 +347,9 @@ public class Libre3Service extends ForegroundService {
     }
 
     private void stopBle() {
+        if (session != null) {
+            session.stop();
+        }
         // the refusal was the stopped session's sensor's
         lastRefusal = null;
         if (ble != null) {
