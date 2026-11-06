@@ -266,7 +266,7 @@ public class Libre3AccountLookupTest extends RobolectricTestWithConfig {
         assertThat(Pref.getString(Libre3.PREF_ACCOUNT_ID, "")).isEqualTo("existing");
     }
 
-    /** New terms send the user to the official app. */
+    /** New terms send the user to the app the account uses. */
     @Test
     public void fillAccountId_terms_saysTerms() {
         // :: Act

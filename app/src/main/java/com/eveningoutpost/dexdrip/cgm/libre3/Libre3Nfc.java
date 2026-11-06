@@ -113,7 +113,7 @@ public final class Libre3Nfc {
         if (info.recommended() == NfcCommand.Code.ACTIVATE) {
             if (hasAccount) {
                 return new Decision(NfcCommand.Code.ACTIVATE, ReceiverId.fromAccount(trimmed, fold), fold, trimmed,
-                        gs(R.string.libre3_warn_activate_account), null);
+                        gs(R.string.libre3_warn_activate_account, foldName(fold)), null);
             }
             return new Decision(NfcCommand.Code.ACTIVATE, ReceiverId.accountless(uniqueId), fold, "",
                     gs(R.string.libre3_warn_activate_accountless), null);
@@ -123,7 +123,7 @@ public final class Libre3Nfc {
                     gs(R.string.libre3_warn_takeover_accountless), null);
         }
         return new Decision(NfcCommand.Code.SWITCH_RECEIVER, ReceiverId.fromAccount(trimmed, fold), fold, trimmed,
-                gs(R.string.libre3_warn_takeover), null);
+                gs(R.string.libre3_warn_takeover, foldName(fold)), null);
     }
 
     /** Remembers the choice the user confirmed, for the next scan of the same sensor. */

@@ -223,7 +223,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
         assertThat(decision.code).isEqualTo(NfcCommand.Code.ACTIVATE);
         assertThat(decision.receiverId)
                 .isEqualTo(ReceiverId.fromAccount(ACCOUNT, ReceiverId.Fold.FREESTYLE_LIBRE3));
-        assertThat(decision.warning).contains("official app");
+        assertThat(decision.warning).contains("The FreeStyle Libre 3 app will not get its readings");
     }
 
     /** A fresh sensor without an account gets the per-install ID, with the warning that it can never move back. */
@@ -237,7 +237,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
         assertThat(decision.error).isNull();
         assertThat(decision.code).isEqualTo(NfcCommand.Code.ACTIVATE);
         assertThat(decision.receiverId).isEqualTo(ReceiverId.accountless(UNIQUE_ID));
-        assertThat(decision.warning).contains("can never move to the official app");
+        assertThat(decision.warning).contains("can never move to an official app");
         assertThat(decision.warning).contains("lost if xDrip is reinstalled");
     }
 
@@ -253,7 +253,7 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
         assertThat(decision.code).isEqualTo(NfcCommand.Code.SWITCH_RECEIVER);
         assertThat(decision.receiverId)
                 .isEqualTo(ReceiverId.fromAccount(ACCOUNT, ReceiverId.Fold.LIBRE_BY_ABBOTT));
-        assertThat(decision.warning).contains("official app");
+        assertThat(decision.warning).contains("over from the Libre by Abbott app");
     }
 
     /**
