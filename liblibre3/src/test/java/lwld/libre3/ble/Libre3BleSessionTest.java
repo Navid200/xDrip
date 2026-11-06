@@ -14,6 +14,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.robolectric.RobolectricTestRunner;
 import org.robolectric.RuntimeEnvironment;
+import org.robolectric.shadows.ShadowSystemClock;
 
 import java.security.GeneralSecurityException;
 import java.time.Duration;
@@ -446,6 +447,52 @@ public class Libre3BleSessionTest {
         assertThat(recorder.stages).doesNotContain("Streaming");
     }
 
+    /**
+     * On a phone the wait for a write runs out before Nordic's own timer, which waits behind it on the main thread;
+     * the write fails there too and the phone disconnects. The main looper is held while the clock moves, so the wait
+     * runs out first, as on a phone; it takes about 5 seconds.
+     */
+    @Test
+    public void writeNeverAnswered_waitRunsOutFirst_failsAndDisconnects() {
+        // :: Setup
+        ble = cachedKeyBle();
+        gatt.unansweredWrites = Gatt.SEC_COMMAND_RESPONSE;
+        ble.start();
+        pumpUntil(() -> gatt.unanswered > 0);
+
+        // :: Act
+        advanceClockUntil(() -> !recorder.errors.isEmpty());
+        pumpUntil(() -> !reconnects(recorder.stages).isEmpty(), Duration.ofSeconds(1));
+
+        // :: Verify
+        assertThat(recorder.errors).containsExactly(
+                "Libre 3 pairing failed at StartAuthorization: No answer to a write within 5000 ms");
+        assertThat(uncaught).isEmpty();
+    }
+
+    /**
+     * On a phone the wait for data notifications runs out before Nordic's own timer, which waits behind it on the main
+     * thread; it fails there too, the phone disconnects and the link does not stream. The main looper is held while
+     * the clock moves, so the wait runs out first, as on a phone; it takes about 5 seconds.
+     */
+    @Test
+    public void notificationsNeverConfirmed_waitRunsOutFirst_failsAndDisconnects() {
+        // :: Setup
+        ble = cachedKeyBle();
+        gatt.unconfirmedNotifications = Gatt.PATCH_STATUS;
+        ble.start();
+        pumpUntil(() -> gatt.unanswered > 0);
+
+        // :: Act
+        advanceClockUntil(() -> !recorder.errors.isEmpty());
+        pumpUntil(() -> !reconnects(recorder.stages).isEmpty(), Duration.ofSeconds(1));
+
+        // :: Verify
+        assertThat(recorder.errors).containsExactly("Enabling data notifications got no answer within 5000 ms");
+        assertThat(recorder.stages).doesNotContain("Streaming");
+        assertThat(uncaught).isEmpty();
+    }
+
     // ==================================================== helpers ====================================================
 
     /** A sensor at a known address whose cached key it still accepts. */
@@ -558,6 +605,27 @@ public class Libre3BleSessionTest {
             shadowOf(Looper.getMainLooper()).idleFor(step);
             try {
                 Thread.sleep(2);
+            } catch (InterruptedException e) {
+                throw new AssertionError(e);
+            }
+        }
+    }
+
+    /**
+     * Moves the clock a second at a time in real time, without running the main looper, until the condition holds. A
+     * wait on the worker that started before or during this runs out by the clock while nothing on the main thread
+     * moves.
+     */
+    private void advanceClockUntil(BooleanSupplier condition) {
+        long deadline = System.nanoTime() + TimeUnit.MILLISECONDS.toNanos(PUMP_TIMEOUT_MS);
+        while (!condition.getAsBoolean()) {
+            if (System.nanoTime() > deadline) {
+                throw new AssertionError("Timed out; stages " + recorder.stages + ", errors " + recorder.errors
+                        + ", fake sensor failure " + gatt.failure + ", uncaught " + uncaught);
+            }
+            ShadowSystemClock.advanceBy(Duration.ofSeconds(1));
+            try {
+                Thread.sleep(100);
             } catch (InterruptedException e) {
                 throw new AssertionError(e);
             }

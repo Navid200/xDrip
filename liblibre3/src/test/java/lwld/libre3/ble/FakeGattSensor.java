@@ -47,6 +47,8 @@ final class FakeGattSensor {
     volatile UUID unansweredWrites;
     /** A characteristic whose notifications the sensor never confirms enabling; null for none. */
     volatile UUID unconfirmedNotifications;
+    /** How many writes and notification requests the sensor has left unanswered so far. */
+    volatile int unanswered;
 
     FakeGattSensor(String address, FakeSensor sensor) {
         this.sensor = sensor;
@@ -133,6 +135,7 @@ final class FakeGattSensor {
         @Override
         public void onDescriptorWrite(BluetoothGatt gatt, BluetoothGattDescriptor descriptor, int status) {
             if (descriptor.getCharacteristic().getUuid().equals(unconfirmedNotifications)) {
+                unanswered++;
                 return;
             }
             deliver(gatt, () -> delegate.onDescriptorWrite(gatt, descriptor, status));
@@ -142,6 +145,7 @@ final class FakeGattSensor {
         public void onCharacteristicWrite(BluetoothGatt gatt, BluetoothGattCharacteristic characteristic,
                                           int status) {
             if (characteristic.getUuid().equals(unansweredWrites)) {
+                unanswered++;
                 return;
             }
             byte[] value = characteristic.getValue().clone();
