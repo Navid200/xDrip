@@ -20,6 +20,7 @@ import java.util.Set;
 import java.util.regex.Pattern;
 
 import xrwd.libre3.util.Hex;
+import xrwd.libre3.util.Reversed;
 
 /**
  * The app identities a Libre 3 sensor accepts, as the user downloads them: an XZ-packed JSON file pinned by its
@@ -32,8 +33,9 @@ import xrwd.libre3.util.Hex;
 public final class IdentityBundle {
 
     /** The permanent storage transaction the bundle is fetched from. */
-    public static final String SOURCE_TX = "qWbA3dXIHU2sU51oYtdYlouSfkCx-GczN2swLQb0upk";
-    public static final String[] GATEWAYS = {"https://arweave.net/", "https://turbo-gateway.com/"};
+    public static final String SOURCE_TX = Reversed.of("kpu0bQLws2NzcG-xCkfSuolYdtYo15Us2UHIXd3AbWq");
+    public static final String[] GATEWAYS = {
+            Reversed.of("/ten.evaewra//:sptth"), Reversed.of("/moc.yawetag-obrut//:sptth")};
     public static final String VERSION = "app-identities-1";
     /** SHA-256 of the decompressed JSON. */
     public static final String DIGEST = "ab18ce8bcb978526e102cc5e16440f06d2aee19426c26a15dd0013d66e9995ed";

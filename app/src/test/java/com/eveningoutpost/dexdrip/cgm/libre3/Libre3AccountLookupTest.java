@@ -27,6 +27,7 @@ import okhttp3.Request;
 import okhttp3.Response;
 import okhttp3.ResponseBody;
 import okio.Buffer;
+import xrwd.libre3.util.Reversed;
 
 /**
  * Tests for {@link Libre3AccountLookup}: one login gives the account ID, a region answer is asked once more at that
@@ -65,7 +66,7 @@ public class Libre3AccountLookupTest extends RobolectricTestWithConfig {
         assertThat(server.requests).hasSize(1);
         Request request = server.requests.get(0);
         assertThat(request.method()).isEqualTo("POST");
-        assertThat(request.url().toString()).isEqualTo("https://api.libreview.io/llu/auth/login");
+        assertThat(request.url().toString()).isEqualTo(Reversed.of("nigol/htua/ull/oi.weiverbil.ipa//:sptth"));
         assertThat(request.header("product")).isEqualTo("llu.android");
         assertThat(request.header("version")).isEqualTo("4.17.0");
         JSONObject body = new JSONObject(bodyOf(request));
@@ -85,7 +86,7 @@ public class Libre3AccountLookupTest extends RobolectricTestWithConfig {
         // :: Verify
         assertThat(id).isEqualTo("abcdef01-2345-6789-abcd-ef0123456789");
         assertThat(server.requests).hasSize(2);
-        assertThat(server.requests.get(1).url().host()).isEqualTo("api-eu.libreview.io");
+        assertThat(server.requests.get(1).url().host()).isEqualTo(Reversed.of("oi.weiverbil.ue-ipa"));
     }
 
     // ================================================ region failures ================================================

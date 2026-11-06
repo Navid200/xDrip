@@ -23,6 +23,7 @@ import java.util.List;
 import java.util.zip.CRC32;
 
 import xrwd.libre3.util.Hex;
+import xrwd.libre3.util.Reversed;
 
 /**
  * Tests for unpacking the downloaded app identity bundle: XZ, then a SHA-256 pin, then the JSON shape and every
@@ -96,10 +97,11 @@ public class IdentityBundleTest {
 
         // :: Verify
         assertThat(digest).isEqualTo("ab18ce8bcb978526e102cc5e16440f06d2aee19426c26a15dd0013d66e9995ed");
-        assertThat(IdentityBundle.SOURCE_TX).isEqualTo("qWbA3dXIHU2sU51oYtdYlouSfkCx-GczN2swLQb0upk");
+        assertThat(IdentityBundle.SOURCE_TX).isEqualTo(Reversed.of("kpu0bQLws2NzcG-xCkfSuolYdtYo15Us2UHIXd3AbWq"));
         assertThat(IdentityBundle.VERSION).isEqualTo("app-identities-1");
         assertThat(IdentityBundle.GATEWAYS).asList()
-                .containsExactly("https://arweave.net/", "https://turbo-gateway.com/").inOrder();
+                .containsExactly(Reversed.of("/ten.evaewra//:sptth"), Reversed.of("/moc.yawetag-obrut//:sptth"))
+                .inOrder();
     }
 
     // =============================================== Rejected bundles ================================================

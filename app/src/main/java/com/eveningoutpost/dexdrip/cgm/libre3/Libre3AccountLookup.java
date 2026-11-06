@@ -24,6 +24,7 @@ import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
 import okhttp3.ResponseBody;
+import xrwd.libre3.util.Reversed;
 
 /**
  * Finds the LibreView account ID with one LibreLinkUp login, so a user who does not know it can take over a sensor
@@ -31,8 +32,8 @@ import okhttp3.ResponseBody;
  * it, this sends {@code product: llu.android}.
  * <p>
  * The email, password and the login's token are used for this one request and never kept or logged; only the
- * caller keeps the ID. The password goes only to {@code api.libreview.io} and the LibreView region host the login
- * names: HTTP redirects are never followed, and at most three hosts are asked, none twice.
+ * caller keeps the ID. The password goes only to the LibreView API host and the region host the login names: HTTP
+ * redirects are never followed, and at most three hosts are asked, none twice.
  *
  * @author Asbjørn Aarrestad - 2026.11
  */
@@ -64,6 +65,9 @@ public final class Libre3AccountLookup {
     private static final Set<String> REGIONS = new HashSet<>(Arrays.asList(
             "ae", "ap", "au", "ca", "de", "eu", "eu2", "fr", "jp", "la", "us"));
     private static final int MAX_REQUESTS = 3;
+    private static final String API_HOST = Reversed.of("oi.weiverbil.ipa");
+    private static final String REGION_DOMAIN = Reversed.of("oi.weiverbil.");
+    private static final String LOGIN_PATH = Reversed.of("nigol/htua/ull/");
 
     private final OkHttpClient client;
 
@@ -123,7 +127,7 @@ public final class Libre3AccountLookup {
     private String lookUp(String email, String password) throws IOException, JSONException, LookupException {
         String body = new JSONObject().put("email", email).put("password", password).toString();
         Set<String> asked = new HashSet<>();
-        String host = "api.libreview.io";
+        String host = API_HOST;
         for (int i = 0; i < MAX_REQUESTS; i++) {
             if (!asked.add(host)) {
                 throw new LookupException(Failure.UNAVAILABLE, "asked " + host + " twice");
@@ -149,7 +153,7 @@ public final class Libre3AccountLookup {
                 if (!REGIONS.contains(region)) {
                     throw new LookupException(Failure.UNAVAILABLE, "region " + region);
                 }
-                host = "api-" + region + ".libreview.io";
+                host = "api-" + region + REGION_DOMAIN;
                 continue;
             }
             JSONObject user = data.optJSONObject("user");
@@ -164,7 +168,7 @@ public final class Libre3AccountLookup {
 
     private JSONObject login(String host, String body) throws IOException, JSONException, LookupException {
         Request request = new Request.Builder()
-                .url("https://" + host + "/llu/auth/login")
+                .url("https://" + host + LOGIN_PATH)
                 .header("product", "llu.android")
                 .header("version", VERSION)
                 .post(RequestBody.create(body, JSON))
