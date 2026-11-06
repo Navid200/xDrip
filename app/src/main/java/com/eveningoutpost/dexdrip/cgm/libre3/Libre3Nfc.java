@@ -15,6 +15,7 @@ import com.eveningoutpost.dexdrip.models.LibreOOPAlgorithm.SensorType;
 import com.eveningoutpost.dexdrip.models.UserError;
 import com.eveningoutpost.dexdrip.utilitymodels.CollectionServiceStarter;
 import com.eveningoutpost.dexdrip.utils.DexCollectionType;
+import com.eveningoutpost.dexdrip.xdrip;
 
 import java.io.IOException;
 import java.util.Arrays;
@@ -233,15 +234,17 @@ public final class Libre3Nfc {
 
     private static void askFirst(Activity activity, String serial, Decision decision) {
         activity.runOnUiThread(() -> {
-            if (closed(activity)) {
-                UserError.Log.e(TAG, "Libre 3 question not shown: the screen has closed");
+            if (scanNotInXdrip(activity)) {
+                // the Libre 3 screen reads the next scan itself and asks there; the screen the scan came on may be
+                // closing already, so the Libre 3 screen opens from the app, as a new task
+                UserError.Log.uel(TAG, "Libre 3 question moved to the Libre 3 screen");
+                xdrip.getAppContext().startActivity(new Intent(xdrip.getAppContext(), Libre3Activity.class)
+                        .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+                JoH.static_toast_long(gs(R.string.libre3_scan_on_libre3_screen));
                 return;
             }
-            if (scanNotInXdrip(activity)) {
-                // the Libre 3 screen reads the next scan itself and asks there
-                UserError.Log.uel(TAG, "Libre 3 question moved to the Libre 3 screen");
-                activity.startActivity(new Intent(activity, Libre3Activity.class));
-                JoH.static_toast_long(gs(R.string.libre3_scan_on_libre3_screen));
+            if (closed(activity)) {
+                UserError.Log.e(TAG, "Libre 3 question not shown: the screen has closed");
                 return;
             }
             new AlertDialog.Builder(activity)

@@ -387,6 +387,29 @@ public class Libre3NfcTest extends RobolectricTestWithConfig {
         assertThat(Libre3Nfc.pending(SERIAL, tsl())).isNull();
     }
 
+    /**
+     * The screen a scan made when not in xDrip comes on closes a second after the scanning screen covers it, which a
+     * slow read outlasts; the Libre 3 screen still opens, as a new task since the screen it came from is gone.
+     */
+    @Test
+    public void onScan_notInXdripScreenClosing_stillOpensLibre3Screen() {
+        // :: Setup
+        Activity filter = Robolectric.buildActivity(NFCFilterX.class).create().get(); // resuming it reads its intent
+        filter.finish();
+
+        // :: Act
+        Libre3Nfc.onScan(filter, null, Hex.toBytes(ACTIVE));
+        shadowOf(Looper.getMainLooper()).idle();
+
+        // :: Verify
+        Intent opened = shadowOf(RuntimeEnvironment.application).getNextStartedActivity();
+        assertThat(opened).isNotNull();
+        assertThat(opened.getComponent().getClassName()).isEqualTo(Libre3Activity.class.getName());
+        assertThat(opened.getFlags() & Intent.FLAG_ACTIVITY_NEW_TASK).isEqualTo(Intent.FLAG_ACTIVITY_NEW_TASK);
+        assertThat(ShadowToast.getTextOfLatestToast()).isEqualTo(gs(R.string.libre3_scan_on_libre3_screen));
+        assertThat(Libre3Nfc.pending(SERIAL, tsl())).isNull();
+    }
+
     /** A message for a scan made when not in xDrip comes as a toast, since the scanning screen would hide a dialog. */
     @Test
     public void onScan_notInXdripSensorInUse_messageAsToast() {
