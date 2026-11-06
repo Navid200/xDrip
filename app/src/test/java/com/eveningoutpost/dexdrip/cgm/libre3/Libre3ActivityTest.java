@@ -5,12 +5,15 @@ import static com.google.common.truth.Truth.assertThat;
 import static org.robolectric.Shadows.shadowOf;
 
 import android.Manifest;
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.location.LocationManager;
 import android.nfc.NfcAdapter;
 import android.os.Looper;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.eveningoutpost.dexdrip.R;
@@ -28,9 +31,14 @@ import org.robolectric.shadows.ShadowAlertDialog;
 import org.robolectric.shadows.ShadowDialog;
 import org.robolectric.shadows.ShadowNfcAdapter;
 
+import java.time.Duration;
+
+import lwld.libre3.Libre3SensorState;
+
 /**
  * Tests for {@link Libre3Activity}: the screen asks for location, which the Bluetooth scan needs, without an app
- * credential it offers to download it, once per visit, and it reads NFC scans itself while it is open.
+ * credential it offers to download it, once per visit, it reads NFC scans itself while it is open, and its status
+ * follows the collector while it is open.
  *
  * @author Asbjørn Aarrestad - 2026.11
  */
@@ -47,6 +55,7 @@ public class Libre3ActivityTest extends RobolectricTestWithConfig {
     public void tearDown() {
         Pref.removeItem("use_nfc_scan");
         Pref.removeItem(DexCollectionType.DEX_COLLECTION_METHOD);
+        Libre3.forgetSensor();
     }
 
     // ================================================ Offer download =================================================
@@ -146,7 +155,73 @@ public class Libre3ActivityTest extends RobolectricTestWithConfig {
         assertThat(shadowOf(NfcAdapter.getDefaultAdapter(screen.get())).isInReaderMode()).isFalse();
     }
 
+    // ==================================================== Status =====================================================
+
+    /** A sensor started on the open screen shows there as the collector connects, without leaving the screen. */
+    @Test
+    public void onResume_sensorStartedWhileOpen_statusFollows() {
+        // :: Setup
+        grantLocation();
+        Libre3.forgetSensor();
+        ActivityController<Libre3Activity> screen = Robolectric.buildActivity(Libre3Activity.class).setup();
+        shadowOf(Looper.getMainLooper()).idle();
+        assertThat(screenText(screen.get())).contains(gs(R.string.libre3_stage_no_sensor));
+
+        // :: Act
+        startSensor("Connecting");
+        shadowOf(Looper.getMainLooper()).idleFor(Duration.ofSeconds(5));
+
+        // :: Verify
+        String text = screenText(screen.get());
+        assertThat(text).contains("Connecting");
+        assertThat(text).doesNotContain(gs(R.string.libre3_stage_no_sensor));
+    }
+
+    /** A screen that is left no longer follows the collector. */
+    @Test
+    public void onPause_sensorStartedAfterwards_statusKept() {
+        // :: Setup
+        grantLocation();
+        Libre3.forgetSensor();
+        ActivityController<Libre3Activity> screen = Robolectric.buildActivity(Libre3Activity.class).setup();
+        shadowOf(Looper.getMainLooper()).idle();
+        screen.pause();
+
+        // :: Act
+        startSensor("Connecting");
+        shadowOf(Looper.getMainLooper()).idleFor(Duration.ofSeconds(5));
+
+        // :: Verify
+        assertThat(screenText(screen.get())).contains(gs(R.string.libre3_stage_no_sensor));
+    }
+
     // ==================================================== helpers ====================================================
+
+    /** Stores a sensor as an NFC scan does, and has the collector report the given stage for it. */
+    private static void startSensor(String stage) {
+        Libre3SensorState state = new Libre3SensorState("0RRC989AQ", "CC:22:DF:B8:F9:58", new byte[]{1, 2, 3, 4});
+        Libre3.saveState(state);
+        new Libre3Service.Session(new Libre3Readings(state)).onStage(stage);
+    }
+
+    /** The text of every view on the screen, one per line. */
+    private static String screenText(Activity activity) {
+        StringBuilder text = new StringBuilder();
+        collectText(activity.getWindow().getDecorView(), text);
+        return text.toString();
+    }
+
+    private static void collectText(View view, StringBuilder text) {
+        if (view instanceof TextView) {
+            text.append(((TextView) view).getText()).append('\n');
+        }
+        if (view instanceof ViewGroup) {
+            ViewGroup group = (ViewGroup) view;
+            for (int i = 0; i < group.getChildCount(); i++) {
+                collectText(group.getChildAt(i), text);
+            }
+        }
+    }
 
     /** The message of the newest dialog, whichever AlertDialog class built it. */
     private static String latestMessage() {

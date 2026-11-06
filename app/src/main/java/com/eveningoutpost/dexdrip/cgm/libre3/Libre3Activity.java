@@ -4,6 +4,8 @@ import static com.eveningoutpost.dexdrip.xdrip.gs;
 
 import android.app.AlertDialog;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
@@ -31,7 +33,17 @@ import java.security.GeneralSecurityException;
 public class Libre3Activity extends ActivityWithMenu {
 
     private static final String TAG = "Libre3Native";
+    /** How often the open screen shows the collector's status again, so a scan or a reconnect on it shows. */
+    private static final long REFRESH_MS = 5_000;
 
+    private final Handler handler = new Handler(Looper.getMainLooper());
+    private final Runnable refresher = new Runnable() {
+        @Override
+        public void run() {
+            refresh();
+            handler.postDelayed(this, REFRESH_MS);
+        }
+    };
     private TextView status;
     private boolean offeredDownload;
 
@@ -77,7 +89,8 @@ public class Libre3Activity extends ActivityWithMenu {
         super.onResume();
         // a scan on this screen is read here, so the start or takeover question is asked on it
         NFControl.initNFC(this, false);
-        refresh();
+        handler.removeCallbacks(refresher);
+        refresher.run();
         if (locationReady()) {
             offerDownload();
         }
@@ -86,6 +99,7 @@ public class Libre3Activity extends ActivityWithMenu {
     @Override
     public void onPause() {
         super.onPause();
+        handler.removeCallbacks(refresher);
         NFControl.initNFC(this, true); // disables
     }
 
