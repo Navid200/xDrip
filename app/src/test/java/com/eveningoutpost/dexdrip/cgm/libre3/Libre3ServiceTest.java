@@ -13,6 +13,7 @@ import android.app.Notification;
 import android.app.NotificationManager;
 import android.bluetooth.BluetoothAdapter;
 import android.content.Context;
+import android.text.SpannableString;
 import android.util.Log;
 
 import com.eveningoutpost.dexdrip.R;
@@ -642,6 +643,73 @@ public class Libre3ServiceTest extends RobolectricTestWithConfig {
         // :: Verify
         assertThat(value(status, R.string.libre3_remaining)).isEqualTo("Ends in 13 days");
         assertThat(value(status, R.string.libre3_remaining)).isEqualTo(SensorDays.get().getSpannable().toString());
+    }
+
+    // ================================================= isCollecting ==================================================
+
+    /** Without any reading since the start, the collector is not collecting, so a restart is allowed. */
+    @Test
+    public void isCollecting_noReading_notCollecting() {
+        // :: Setup
+        Libre3Service.forgetReadingTimes();
+
+        // :: Act
+        boolean collecting = Libre3Service.isCollecting();
+
+        // :: Verify
+        assertThat(collecting).isFalse();
+    }
+
+    /**
+     * A reading xDrip refuses, here one in warm-up, still shows the sensor is connected, so the missed-reading check
+     * does not restart the collector.
+     */
+    @Test
+    public void isCollecting_refusedReading_collecting() {
+        // :: Setup
+        Libre3Service.forgetReadingTimes();
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+
+        // :: Act
+        session.onReading(reading(1, 120));
+
+        // :: Verify
+        assertThat(Libre3Service.isCollecting()).isTrue();
+    }
+
+    /**
+     * After refused readings the link drops; the line under the graph says it is reconnecting, as no reading was
+     * stored, even though the refused readings still count as collecting.
+     */
+    @Test
+    public void nanoStatus_refusedThenReconnecting_showsStage() {
+        // :: Setup
+        Libre3Service.forgetReadingTimes();
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+        session.onStage("Streaming");
+        session.onReading(reading(1, 120));
+
+        // :: Act
+        session.onStage("Reconnecting in 5 s: disconnected, reason 8");
+        SpannableString nano = Libre3Service.nanoStatus();
+
+        // :: Verify
+        assertThat(String.valueOf(nano)).isEqualTo("Reconnecting in 5 s: disconnected, reason 8");
+    }
+
+    /** A refused reading does not show as the last reading on the status page: no reading was stored. */
+    @Test
+    public void megaStatus_refusedReading_noLastReading() {
+        // :: Setup
+        Libre3Service.forgetReadingTimes();
+        Libre3Service.Session session = new Libre3Service.Session(new Libre3Readings(sensor("0RRC989AQ", now)));
+
+        // :: Act
+        session.onReading(reading(1, 120));
+        List<StatusItem> status = Libre3Service.megaStatus();
+
+        // :: Verify
+        assertThat(value(status, R.string.libre3_last_reading)).isNull();
     }
 
     // ================================================= Bluetooth off =================================================

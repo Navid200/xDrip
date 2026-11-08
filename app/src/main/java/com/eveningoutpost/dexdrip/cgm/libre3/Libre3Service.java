@@ -17,6 +17,7 @@ import android.os.PowerManager;
 import android.text.SpannableString;
 
 import androidx.annotation.Nullable;
+import androidx.annotation.VisibleForTesting;
 
 import com.eveningoutpost.dexdrip.R;
 import com.eveningoutpost.dexdrip.g5model.SensorDays;
@@ -61,6 +62,8 @@ public class Libre3Service extends ForegroundService {
     private static volatile String stage = "";
     private static volatile String lastError = "";
     private static volatile long lastReadingAt;
+    /** When the sensor last sent a reading, stored or refused; 0 when none came. */
+    private static volatile long lastReceivedAt;
     /** Why the last reading was refused, or null when it was stored or none came. */
     private static volatile String lastRefusal;
     private static volatile Libre3Readings readings;
@@ -158,10 +161,14 @@ public class Libre3Service extends ForegroundService {
             UserError.Log.uel(TAG, "Libre 3 " + state.serial() + " paired");
         }
 
-        /** A reading shows the connection works again, so the last error no longer shows on the status page. */
+        /**
+         * A reading shows the connection works again, so the last error no longer shows on the status page. Even a
+         * refused reading counts as collecting, so the missed-reading check does not restart a working connection.
+         */
         @Override
         public void onReading(RealtimeReading reading) {
             lastProgressAt = tsl();
+            lastReceivedAt = tsl();
             lastError = "";
             if (locationNotified) {
                 JoH.cancelNotification(Constants.LIBRE3_LOCATION_NOTIFICATION_ID);
@@ -430,9 +437,21 @@ public class Libre3Service extends ForegroundService {
         return si;
     }
 
+    /** Clears when the last reading came, as at the start of the process. */
+    @VisibleForTesting
+    static void forgetReadingTimes() {
+        lastReadingAt = 0;
+        lastReceivedAt = 0;
+    }
+
     // accessed via reflection
     public static boolean isCollecting() {
-        return lastReadingAt > 0 && msSince(lastReadingAt) < MINUTE_IN_MS * 12;
+        return recent(lastReceivedAt);
+    }
+
+    /** Whether a time is set and less than 12 minutes ago. */
+    private static boolean recent(long at) {
+        return at > 0 && msSince(at) < MINUTE_IN_MS * 12;
     }
 
     // accessed via reflection
@@ -442,6 +461,7 @@ public class Libre3Service extends ForegroundService {
             // the stage says the sensor streams, while no reading from it is stored
             return new SpannableString(gs(R.string.libre3_reading_not_stored) + ": " + refusal);
         }
-        return stage.isEmpty() || isCollecting() ? null : new SpannableString(stage);
+        // a refused reading counts as collecting, but only a stored one hides the stage
+        return stage.isEmpty() || recent(lastReadingAt) ? null : new SpannableString(stage);
     }
 }
