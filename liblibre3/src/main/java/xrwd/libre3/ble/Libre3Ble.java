@@ -90,12 +90,16 @@ public class Libre3Ble extends BleManager implements Libre3Transport {
 
     private static final List<UUID> REQUIRED = Arrays.asList(Gatt.SEC_CERT_DATA, Gatt.SEC_CHALLENGE_DATA,
             Gatt.SEC_COMMAND_RESPONSE, Gatt.PATCH_CONTROL, Gatt.PATCH_STATUS, Gatt.GLUCOSE_DATA, Gatt.HISTORIC_DATA);
-    /** Enabled only after Phase 6: the sensor does not stream until each gets a fresh CCCD write. */
+    /**
+     * Enabled only after Phase 6: the sensor does not stream until each gets a fresh CCCD write. Clinical data is
+     * enabled as xDrip4iOS does, but its frames are not decoded.
+     */
     private static final List<UUID> AFTER_PAIRING;
 
     static {
         List<UUID> afterPairing = new ArrayList<>(Gatt.DATA_PLANE_NOTIFYING);
         afterPairing.add(Gatt.HISTORIC_DATA);
+        afterPairing.add(Gatt.CLINICAL_DATA);
         AFTER_PAIRING = afterPairing;
     }
 

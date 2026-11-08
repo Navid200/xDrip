@@ -143,6 +143,47 @@ public class Libre3BleSessionTest {
         assertThat(recorder.errors).isEmpty();
     }
 
+    // ================================================ clinical data ==================================================
+
+    /**
+     * The clinical channel gets a fresh CCCD write after pairing, as xDrip4iOS does; a sensor that never confirms it
+     * fails the session like any other data channel.
+     */
+    @Test
+    public void clinicalNotificationsNeverConfirmed_failsAndDisconnects() {
+        // :: Setup
+        ble = cachedKeyBle();
+        gatt.unconfirmedNotifications = Gatt.CLINICAL_DATA;
+        ble.start();
+        pumpUntil(() -> recorder.stages.stream().anyMatch(stage -> stage.startsWith("Paired at")));
+
+        // :: Act
+        pumpUntil(() -> !reconnects(recorder.stages).isEmpty(), Duration.ofSeconds(1));
+
+        // :: Verify
+        assertThat(recorder.errors).hasSize(1);
+        assertThat(recorder.errors.get(0)).isAnyOf("Enabling data notifications got no answer within 5000 ms",
+                "Enabling data notifications failed: RequestFailedException");
+        assertThat(recorder.stages).doesNotContain("Streaming");
+    }
+
+    /** A clinical frame is not decoded; it is ignored, is not counted as dropped, and streaming goes on. */
+    @Test
+    public void clinicalFrame_ignored() throws Exception {
+        // :: Setup
+        ble = cachedKeyBle();
+        ble.start();
+        awaitStreaming();
+
+        // :: Act
+        gatt.notifyData(Gatt.CLINICAL_DATA, new byte[20]);
+        stream();
+
+        // :: Verify
+        assertThat(recorder.statuses).hasSize(2);
+        assertThat(recorder.errors).isEmpty();
+    }
+
     // ================================================ dropped frames =================================================
 
     /**

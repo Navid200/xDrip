@@ -33,7 +33,7 @@ final class FakeGattSensor {
     private static final UUID CCCD = UUID.fromString("00002902-0000-1000-8000-00805f9b34fb");
     private static final List<UUID> CHARACTERISTICS = Arrays.asList(Gatt.SEC_CERT_DATA, Gatt.SEC_CHALLENGE_DATA,
             Gatt.SEC_COMMAND_RESPONSE, Gatt.PATCH_CONTROL, Gatt.EVENT_LOG, Gatt.FACTORY_DATA, Gatt.PATCH_STATUS,
-            Gatt.GLUCOSE_DATA, Gatt.HISTORIC_DATA);
+            Gatt.GLUCOSE_DATA, Gatt.HISTORIC_DATA, Gatt.CLINICAL_DATA);
 
     private final FakeSensor sensor;
     private final Handler main = new Handler(Looper.getMainLooper());
