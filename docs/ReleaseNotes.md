@@ -13,6 +13,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
+| [2026.11.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.09) | Health connect fix |  
 | [2026.11.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.03) | New Dex firmware |  
 | [2026.10.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.23) | Default notification sound update |  
 | [2026.10.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.16) | Maintenance |  
