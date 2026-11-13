@@ -279,6 +279,7 @@ public class Calibration extends Model {
     public double second_scale;
 
     public static void initialCalibration(double bg1, double bg2, Context context) {
+        if (refuseCalibration()) return;
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
         String unit = prefs.getString("units", "mgdl");
         if (unit.compareTo("mgdl") != 0) {
@@ -564,6 +565,8 @@ public class Calibration extends Model {
 
         bg = result; // unbox result
 
+        if (!note_only && refuseCalibration()) return null;
+
         if (!note_only) CalibrationRequest.clearAll();
         final Calibration calibration = new Calibration();
         Sensor sensor = Sensor.currentSensor();
@@ -657,6 +660,14 @@ public class Calibration extends Model {
             Log.d("CALIBRATION", "No sensor, cant save!");
         }
         return Calibration.last();
+    }
+
+    // a factory calibrated collector is never calibrated
+    private static boolean refuseCalibration() {
+        if (!DexCollectionType.isNoCalibration()) return false;
+        Log.e(TAG, "Not calibrating: " + DexCollectionType.getDexCollectionType() + " is factory calibrated");
+        JoH.static_toast_long(xdrip.gs(R.string.sensor_is_factory_calibrated));
+        return true;
     }
 
     public static List<Calibration> allForSensorInLastFiveDays() {
