@@ -68,7 +68,6 @@ import com.eveningoutpost.dexdrip.calibrations.PluggableCalibration;
 import com.eveningoutpost.dexdrip.cgm.carelinkfollow.CareLinkFollowService;
 import com.eveningoutpost.dexdrip.cgm.carelinkfollow.auth.CareLinkAuthType;
 import com.eveningoutpost.dexdrip.cgm.dex.TxIdHelper;
-import com.eveningoutpost.dexdrip.cgm.li3.Li3Nfc;
 import com.eveningoutpost.dexdrip.cgm.nsfollow.NightscoutFollow;
 import com.eveningoutpost.dexdrip.cgm.sharefollow.ShareFollowService;
 import com.eveningoutpost.dexdrip.cgm.webfollow.Cpref;
@@ -153,7 +152,6 @@ import java.net.URI;
 import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -1096,8 +1094,6 @@ public class Preferences extends BasePreferenceActivity implements SearchPrefere
     public static class AllPrefsFragment extends PreferenceFragment {
 
         final String jumpTo;
-        /** The NFC settings {@link #show_nfc_settings_for} can take off the screen, kept to put them back. */
-        private final Map<String, Preference> nfcSettingsByKey = new HashMap<>();
 
         @Setter
         Preferences parent;
@@ -2050,7 +2046,7 @@ public class Preferences extends BasePreferenceActivity implements SearchPrefere
                 });
             //}
 
-            if (!DexCollectionType.hasNfcScan(collectionType)) {
+            if (!DexCollectionType.hasLibre(collectionType)) {
                 collectionCategory.removePreference(nfcSettings);
             } else {
                 // has libre
@@ -2062,7 +2058,6 @@ public class Preferences extends BasePreferenceActivity implements SearchPrefere
                     }
                 set_nfc_expiry_change_listeners();
                 update_nfc_expiry_preferences(null);
-                show_nfc_settings_for(collectionType);
             }
 
             if (!DexCollectionService.getBestLimitterHardwareName().equals("BlueReader")) {
@@ -2567,9 +2562,8 @@ public class Preferences extends BasePreferenceActivity implements SearchPrefere
                         AllPrefsFragment.this.prefs.edit().putBoolean("calibration_notifications", false).apply();
                     }
 
-                    if (DexCollectionType.hasNfcScan(collectionType)) {
+                    if (DexCollectionType.hasLibre(collectionType)) {
                         collectionCategory.addPreference(nfcSettings);
-                        show_nfc_settings_for(collectionType);
                         NFCReaderX.handleHomeScreenScanPreference(xdrip.getAppContext(), prefs.getBoolean("nfc_scan_homescreen", false) && prefs.getBoolean("use_nfc_scan", false));
                         if (!engineering_mode)
                             try {
@@ -2824,29 +2818,6 @@ public class Preferences extends BasePreferenceActivity implements SearchPrefere
                     return true;
                 }
             });
-        }
-
-        /** Hides the NFC settings the collector never reads, and brings them back when the source changes again. */
-        private void show_nfc_settings_for(DexCollectionType collectionType) {
-            try {
-                final PreferenceScreen nfcScreen = (PreferenceScreen) findPreference("xdrip_plus_nfc_settings");
-                final List<String> unused = Li3Nfc.unusedNfcSettings(collectionType);
-                for (final String key : Li3Nfc.unusedNfcSettings(DexCollectionType.Li3)) {
-                    // the expiry days may already be off the screen, so that one comes from its field
-                    final Preference preference = nfcSettingsByKey.computeIfAbsent(key,
-                            k -> k.equals("nfc_expiry_days") ? nfc_expiry_days : findPreference(k));
-                    if (unused.contains(key)) {
-                        nfcScreen.removePreference(preference);
-                    } else if (!key.equals("nfc_expiry_days")) {
-                        nfcScreen.addPreference(preference);
-                    }
-                }
-                if (unused.isEmpty()) {
-                    update_nfc_expiry_preferences(null);
-                }
-            } catch (NullPointerException e) {
-                UserError.Log.e(TAG, "Could not update the NFC settings: " + e);
-            }
         }
 
         private void update_nfc_expiry_preferences(Boolean show_age) {

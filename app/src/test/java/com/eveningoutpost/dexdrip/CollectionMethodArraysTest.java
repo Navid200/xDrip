@@ -35,7 +35,7 @@ public class CollectionMethodArraysTest extends RobolectricTestWithConfig {
                         "WifiDexbridgeWixel", "DexcomG5", "LimiTTer", "LimiTTerWifi", "LibreWifi",
                         "Follower", "LibreAlarm", "LibreReceiver", "NSEmulator", "Medtrum",
                         "NSFollower", "SHFollower", "WebFollower", "UiBased", "GluPro",
-                        "AidexReceiver", "CLFollower", "Li3", "Disabled").inOrder();
+                        "AidexReceiver", "CLFollower", "Disabled").inOrder();
         assertWithMessage("every stored value has a label to pair with")
                 .that(entries.length).isEqualTo(values.length);
     }
