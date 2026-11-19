@@ -16,7 +16,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
 | [2026.11.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.13) | Health connect fix - Dexcom battery warning level relaxed |  
 | [2026.11.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.09) | Health connect fix |  
 | [2026.11.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.03) | New Dex firmware |  
-| [2026.10.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.23) | Default notification sound update |  
+| [2026.10.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.23) | **<span style="color:orange">Stable</span>** <br/> Default notification sound update |  
 | [2026.10.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.16) | Maintenance |  
 | [2026.10.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.10) | Silent alert logs - new Dex firmware |  
 | [2026.10.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.09) | Broadcast source corrections - null check |  
@@ -53,7 +53,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
 | [2026.03.19](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.19) | Maintenance improvements |  
 | [2026.03.15](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.15b) | Android 16 chip notification |  
 | [2026.03.06](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.06) | WearOS auto update switch - QR scan fix - Libre sensor identification |  
-| [2026.03.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.01) | **<span style="color:orange">Stable</span>** <br/> NightLite - Libre sensor identification |  
+| [2026.03.01](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.03.01) | **Previous Stable release** <br/> NightLite - Libre sensor identification |  
 | [2026.02.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.02.25) | 640G 1-minute fix - reread TX |  
 | [2026.02.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.02.18) | Data retention default - BLE manager - 640G/Eversense 1-minute interval 👎|  
 | [2026.02.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.02.13) | New languages - update dialog - Bluetooth improvements |  
