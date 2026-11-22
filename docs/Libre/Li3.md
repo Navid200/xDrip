@@ -23,10 +23,15 @@ If you only want to follow the official app, use the [web follower](../Libre3_Fo
 ### **Setup, once**
 
 1- Set [Hardware Data Source](../HardwareDataSource.md) to `Li3`.  
+  
 2- Settings >> Hardware Data Source >> NFC Scan features: turn on `Use NFC feature`.  
+  
 3- Android settings: Bluetooth on and location on.  Allow xDrip location "All the time".  Android does not let xDrip find the sensor without it.  
+  
 4- Set xDrip to unrestricted: allowed to run in background and excluded from [Battery optimization](../BatteryOpt.md).  
+  
 5- xDrip shows the notification "Li3 setup not finished".  Tap it, or open System Status >> Li3 >> Open.  The Li3 screen offers to download the app credential; say yes, or tap `Download app credential`.  The screen should then say "App credential: Downloaded".  
+  
 6- Only if you will take over a sensor already running in the official app: on the Li3 screen, tap `Look up account ID` (see below), then tap `Sensor app` and choose the official app that started the sensor: `Li3 app` if it was the app made for this sensor only, `Multi-sensor app` if it was the app that also handles other sensors.  
 The account ID is not your email.  It is the internal ID of the account that started the sensor, not a follower or caregiver account.  `Look up account ID` asks you to log in once with that account (needs internet).  xDrip fills in the ID and keeps neither the email nor the password.  Both can also be set in Settings >> Less common settings >> Other misc. options >> Li3.  
 <br/>
