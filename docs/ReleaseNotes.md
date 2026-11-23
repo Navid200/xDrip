@@ -13,14 +13,14 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
-| [2026.11.21](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21) | New device - privacy |  
+| [2026.11.21](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21) | New device L - privacy |  
 | [2026.11.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.20) | Bubble not supported anymore - MiniMed IoB - English logs |  
 | [2026.11.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.13) | Health connect fix - Dexcom battery warning level relaxed |  
 | [2026.11.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.09) | Health connect fix |  
-| [2026.11.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.03) | New Dex firmware |  
+| [2026.11.03](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.03) | New Dex firmware F |  
 | [2026.10.23](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.23) | **<span style="color:orange">Stable</span>** <br/> Default notification sound update |  
 | [2026.10.16](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.16) | Maintenance |  
-| [2026.10.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.10) | Silent alert logs - new Dex firmware |  
+| [2026.10.10](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.10) | Silent alert logs - new Dex firmware OP |  
 | [2026.10.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.09) | Broadcast source corrections - null check |  
 | [2026.10.02](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.10.02) | DBLG2 companion - alerts cleanup |  
 | [2026.09.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.09.25) | Alerts and general cleanup |  
@@ -62,7 +62,7 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
 | [2026.02.11](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.02.11) | Some G6/G7 improvements - some new translation options |  
 | [2026.01.30](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.30) | Glucose colors on lock screen - Hard reset improvements - Auto pan default - Instinct |  
 | [2026.01.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.25) | Extended widget option - SmartGuide maintenance improvement |  
-| [2026.01.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.18) | New G7 firmware |  
+| [2026.01.18](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.18) | New G7 firmware - 15 |  
 | [2026.01.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.09) | Pen insulin Nightscout upload fix - alternate decimal separators |  
 | [2026.01.07](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.07) | Companion app IoB improvements |  
 | [2026.01.04](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.01.04) | CareLink - Dex - Pebble maintenance improvements |  
