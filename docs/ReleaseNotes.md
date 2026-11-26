@@ -13,7 +13,8 @@ Major xDrip releases are listed below with brief descriptions. Tap on a release 
   
 | Release | Notes |  
 |---------|-------|  
-| [2026.11.21](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21) | New device L - privacy |  
+| [2026.11.25](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.25) | AndroidX - privacy and security - update page dates |  
+| [2026.11.21](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.21) | New device L - privacy and security |  
 | [2026.11.20](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.20) | Bubble not supported anymore - MiniMed IoB - English logs |  
 | [2026.11.13](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.13) | Health connect fix - Dexcom battery warning level relaxed |  
 | [2026.11.09](https://github.com/NightscoutFoundation/xDrip/releases/tag/2026.11.09) | Health connect fix |  
