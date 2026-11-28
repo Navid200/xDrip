@@ -1469,6 +1469,7 @@ public class Preferences extends BasePreferenceActivity implements SearchPrefere
                 //
             }
 
+            final Preference uiBasedExcList = findPreference("uibased_exclusion_list_screen");
 
             final Preference shFollowUser = findPreference("shfollow_user");
             final Preference shFollowPass = findPreference("shfollow_pass");
@@ -1939,6 +1940,14 @@ public class Preferences extends BasePreferenceActivity implements SearchPrefere
             if (collectionType != DexCollectionType.Follower) {
                 try {
                     collectionCategory.removePreference(xSyncFollowChime);
+                } catch (Exception e) {
+                    //
+                }
+            }
+
+            if (collectionType != DexCollectionType.UiBased) {
+                try {
+                    collectionCategory.removePreference(uiBasedExcList);
                 } catch (Exception e) {
                     //
                 }
@@ -2660,6 +2669,9 @@ public class Preferences extends BasePreferenceActivity implements SearchPrefere
                         PreferenceGroups.add(collectionCategory, xSyncFollowChime);
                     }
 
+                    if (collectionType == DexCollectionType.UiBased) {
+                        PreferenceGroups.add(collectionCategory, uiBasedExcList);
+                    }
 
                     String stringValue = newValue.toString();
                     if (preference instanceof ListPreference) {

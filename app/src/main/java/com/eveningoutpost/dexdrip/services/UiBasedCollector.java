@@ -27,7 +27,6 @@ import androidx.annotation.VisibleForTesting;
 
 import com.eveningoutpost.dexdrip.BestGlucose;
 import com.eveningoutpost.dexdrip.R;
-import com.eveningoutpost.dexdrip.alert.Persist;
 import com.eveningoutpost.dexdrip.cgm.dex.BlueTails;
 import com.eveningoutpost.dexdrip.models.BgReading;
 import com.eveningoutpost.dexdrip.models.JoH;
@@ -35,6 +34,7 @@ import com.eveningoutpost.dexdrip.models.Sensor;
 import com.eveningoutpost.dexdrip.models.UserError;
 import com.eveningoutpost.dexdrip.utilitymodels.Constants;
 import com.eveningoutpost.dexdrip.utilitymodels.PersistentStore;
+import com.eveningoutpost.dexdrip.utilitymodels.Pref;
 import com.eveningoutpost.dexdrip.utilitymodels.PumpStatus;
 import com.eveningoutpost.dexdrip.utilitymodels.Unitized;
 import com.eveningoutpost.dexdrip.utils.DexCollectionType;
@@ -168,6 +168,10 @@ public class UiBasedCollector extends NotificationListenerService {
     @Override
     public void onNotificationPosted(final StatusBarNotification sbn) {
         val fromPackage = sbn.getPackageName();
+        if (isPackageExcluded(fromPackage)) {
+            UserError.Log.d(TAG, "Excluded package: " + fromPackage);
+            return;
+        }
         if (coOptedPackages.contains(fromPackage)) {
             if (getDexCollectionType() == UiBased) {
                 UserError.Log.d(TAG, "Notification from: " + fromPackage);
@@ -186,6 +190,14 @@ public class UiBasedCollector extends NotificationListenerService {
         if (companionAppIoBPackages.contains(fromPackage)) {
             processCompanionAppIoBNotification(sbn.getNotification());
         }
+    }
+
+    static boolean isPackageExcluded(final String packageName) {
+        if (packageName == null || !Pref.getBooleanDefaultFalse("enable_uibased_exclusion")) {
+            return false;
+        }
+        val parts = packageName.split("\\.");
+        return parts.length > 1 && Pref.getBooleanDefaultFalse("uibased_exclude_" + parts[1]);
     }
 
     private void processCompanionAppIoBNotification(final Notification notification) {

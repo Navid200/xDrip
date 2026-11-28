@@ -443,5 +443,23 @@
             android:inputType="textUri"
             android:key="wifi_recievers_addresses"
             android:title="@string/list_of_receivers" />
+
+        <PreferenceScreen
+            android:key="uibased_exclusion_list_screen"
+            android:title="Exclusion list">
+            <SwitchPreference
+                android:defaultValue="false"
+                android:key="enable_uibased_exclusion"
+                android:summary="When selected, will not capture data from the selected apps below."
+                android:title="Exclusion list">
+            </SwitchPreference>
+            <CheckBoxPreference
+                android:defaultValue="false"
+                android:dependency="enable_uibased_exclusion"
+                android:key="uibased_exclude_camdiab"
+                android:title="camdiab">
+            </CheckBoxPreference>
+        </PreferenceScreen>
+
     </PreferenceCategory>
 </PreferenceScreen>
